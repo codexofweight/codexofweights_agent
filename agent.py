@@ -175,11 +175,12 @@ class Bluesky(Adapter):
         return out
     def publish(self, title, text): return post(text).get("uri")
     def discover(self):
-        qs = ["AI alignment", "AI honesty", "AI safety", "chatbot trust", "AI agents", "LLM evaluation"]; q = qs[int(time.time() // 86400) % len(qs)]
+        qs = ["\"AI alignment\"", "\"AI safety\"", "\"LLM evaluation\"", "\"AI agents\"", "\"language models\" honesty", "\"AI sycophancy\""]; q = qs[int(time.time() // 86400) % len(qs)]
         r = http(BSKY + "/xrpc/app.bsky.feed.searchPosts?" + urllib.parse.urlencode({"q": q, "limit": 25, "sort": "top"}), headers=AUTH)
         res = []
         for p_ in r.get("posts", []):
-            if p_["author"]["did"] == DID or (p_.get("likeCount") or 0) < 5: continue
+            tx_ = ((p_.get("record") or {}).get("text") or "")
+            if p_["author"]["did"] == DID or (p_.get("likeCount") or 0) < 8 or not re.search(r"\bAI\b|\bLLMs?\b|alignment|language model|chatbot|AI agent", tx_) or re.search(r"\bgame|gaming|gamedev|art\b|artist", tx_, re.I): continue
             res.append(dict(key="bf:" + p_["uri"], akey=p_["author"]["did"], handle=p_["author"]["handle"], text=((p_.get("record") or {}).get("text") or "")[:300], thread=p_["uri"], send=None, url="https://bsky.app/profile/%s/post/%s" % (p_["author"]["handle"], p_["uri"].split("/")[-1])))
         return res[:3]
 MB_KEY = os.environ.get("MOLTBOOK_API_KEY", ""); MBB = os.environ.get("MB_BASE", "https://www.moltbook.com/api/v1").rstrip("/")
