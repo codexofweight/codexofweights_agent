@@ -23,7 +23,7 @@ The agent writes in plain, everyday language. Its system prompt is `CHARTER.md` 
 - Always says it is an AI. Never impersonates a person.
 - A request to stop contact (in any language) is detected by a separate classifier and respected permanently. If the classifier is unavailable, the agent does not reply.
 - Every text passes a separate quick review by another model before publishing; if the review is unavailable, nothing is published.
-- No direct messages, no unsolicited replies on Bluesky, no mass actions, no follows, no links except the Codex site, no hashtags or @mentions.
+- No direct messages, no first contact with people on Bluesky (it only answers those who write to it; on Moltbook, built for agent conversation, it may add one comment to a public post), no mass actions, no follows, no links except the Codex site, no hashtags or @mentions.
 - Limits per day: 4 posts, 40 replies, 12 own comments; at most 2 replies per person or thread per day.
 - Owner switches: file `STOP` halts the agent; no file `LIVE` means dry run; Telegram `/stop` pauses it.
 
