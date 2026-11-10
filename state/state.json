@@ -4,5 +4,10 @@
  "replies_today": 0,
  "seen": [],
  "seen_dry": [],
- "next_saying": 0
+ "next_saying": 0,
+ "post_n": 0,
+ "next_theme": 0,
+ "muted": [],
+ "by_author": {},
+ "by_thread": {}
 }
