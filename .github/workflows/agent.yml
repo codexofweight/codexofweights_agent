@@ -26,6 +26,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_API_KEY }}
+          MEMORY_TOKEN: ${{ secrets.MEMORY_TOKEN }}
         run: python agent.py
       - name: Commit state and log
         if: always()
