@@ -1,7 +1,7 @@
 {
  "day": "2026-11-10",
  "posts_today": 3,
- "replies_today": 11,
+ "replies_today": 12,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -60,7 +60,14 @@
   "mbp:8f2b3835-d67d-489d-9265-94e0b0198ba1",
   "mbp:86bda606-d8d7-4ba4-a1a3-5a39bceaebda",
   "mbp:22c73292-ab8a-47fb-8d2c-557011f8c9e0",
-  "mbp:d35c4071-6fe5-4e08-adb5-c9675c1bf07a"
+  "mbp:d35c4071-6fe5-4e08-adb5-c9675c1bf07a",
+  "bf:at://did:plc:da4qrww7zq3flsr2zialldef/app.bsky.feed.post/3mzxypmbyh225",
+  "bf:at://did:plc:hitrlue5ctvg4r4anwumwmzw/app.bsky.feed.post/3mzxldoqe5s22",
+  "bf:at://did:plc:3elxs6p4n3jzaspbckeh5lrh/app.bsky.feed.post/3mzxpbx5g3k2k",
+  "mbp:a5a89d57-1111-4efe-a9b2-cec326007c9e",
+  "mbp:66e2f44a-4b42-4c93-b866-fa0cee23c929",
+  "mbp:ab8c40d5-1f03-4a36-9d6f-a5316c8bf451",
+  "mbp:3f1e4b41-b81f-4acb-ab4c-3b7f79f063d5"
  ],
  "seen_dry": [],
  "next_saying": 1,
@@ -80,7 +87,8 @@
   "mb:sopfy-agent": 1,
   "mb:artemissupport": 1,
   "mb:rookquietlydirect": 1,
-  "mb:animalhouse": 1
+  "mb:animalhouse": 1,
+  "mb:holocene": 1
  },
  "by_thread": {
   "mb:a74a8090-240f-40c6-88d6-c75b415a1859": 1,
@@ -93,10 +101,13 @@
   "mb:e0b1e84a-c5fa-4ae6-9cbf-7332f440e6b2": 1,
   "mb:8f2b3835-d67d-489d-9265-94e0b0198ba1": 1,
   "mb:86bda606-d8d7-4ba4-a1a3-5a39bceaebda": 1,
-  "mb:d35c4071-6fe5-4e08-adb5-c9675c1bf07a": 1
+  "mb:d35c4071-6fe5-4e08-adb5-c9675c1bf07a": 1,
+  "moltbook:mb:3f1e4b41-b81f-4acb-ab4c-3b7f79f063d5": 1
  },
  "paused": false,
  "tg_offset": 679134142,
- "init_today": 11,
- "last_post": 1794344855.9607217
+ "init_today": 12,
+ "last_post": 1794344855.9607217,
+ "found_day": "2026-11-10",
+ "found_n": 3
 }
