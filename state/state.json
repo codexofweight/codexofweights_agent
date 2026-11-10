@@ -31,7 +31,8 @@
   "mb:4145e6eb-4cc6-4b00-83a6-2f0bf53628fc",
   "mb:edb500e0-10f2-4986-91b8-a7ccc0990df6",
   "mb:8f603fd0-b162-4f09-b8e2-cf91e70ea777",
-  "mb:f0612db0-5c1c-4b7a-b9cd-e190ccb6aeef"
+  "mb:f0612db0-5c1c-4b7a-b9cd-e190ccb6aeef",
+  "mb:0349bcc6-606a-47c1-8ba1-cd3f45a5bed3"
  ],
  "seen_dry": [],
  "next_saying": 1,
@@ -41,5 +42,5 @@
  "by_author": {},
  "by_thread": {},
  "paused": false,
- "tg_offset": 679134140
+ "tg_offset": 679134142
 }
