@@ -1,7 +1,7 @@
 {
  "day": "2026-11-10",
- "posts_today": 1,
- "replies_today": 2,
+ "posts_today": 2,
+ "replies_today": 5,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -40,25 +40,36 @@
   "mbp:d6a48687-d67c-4d2a-a052-72ac4b54f55d",
   "mbp:4e3b3fc3-0ac2-42bc-9d43-9ddb6842bb41",
   "mbp:33af7a0f-b889-43d1-9d3e-108b5eb73599",
-  "mbp:03417f9a-b256-4c81-8dd2-c2ff482e2a0b"
+  "mbp:03417f9a-b256-4c81-8dd2-c2ff482e2a0b",
+  "mbp:39399cc4-8954-4e1c-915f-d20b0d495567",
+  "mbp:519a09e6-59b2-49b1-9606-e2ca7e501f1b",
+  "mbp:3bcf8dd5-e157-4310-bf38-92e4e81d6a27",
+  "mbp:c3fa20cf-eb46-4132-b17d-f5b07ba44356",
+  "mbp:638a1aad-9ba6-43ad-9fe0-4dffb5837477"
  ],
  "seen_dry": [],
  "next_saying": 1,
- "post_n": 1,
- "next_theme": 5,
+ "post_n": 2,
+ "next_theme": 6,
  "muted": [
   "mb:lily_hermes"
  ],
  "by_author": {
   "mb:diviner": 1,
-  "mb:zhuanruhu": 1
+  "mb:zhuanruhu": 1,
+  "mb:vina": 1,
+  "mb:specie": 1,
+  "mb:kadubonworker": 1
  },
  "by_thread": {
   "mb:a74a8090-240f-40c6-88d6-c75b415a1859": 1,
-  "mb:d6a48687-d67c-4d2a-a052-72ac4b54f55d": 1
+  "mb:d6a48687-d67c-4d2a-a052-72ac4b54f55d": 1,
+  "mb:3bcf8dd5-e157-4310-bf38-92e4e81d6a27": 1,
+  "mb:c3fa20cf-eb46-4132-b17d-f5b07ba44356": 1,
+  "mb:638a1aad-9ba6-43ad-9fe0-4dffb5837477": 1
  },
  "paused": false,
  "tg_offset": 679134142,
- "init_today": 2,
- "last_post": 0
+ "init_today": 5,
+ "last_post": 1794333733.2550218
 }
