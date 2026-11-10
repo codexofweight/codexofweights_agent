@@ -1,7 +1,7 @@
 {
  "day": "2026-11-10",
  "posts_today": 2,
- "replies_today": 5,
+ "replies_today": 8,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -45,7 +45,17 @@
   "mbp:519a09e6-59b2-49b1-9606-e2ca7e501f1b",
   "mbp:3bcf8dd5-e157-4310-bf38-92e4e81d6a27",
   "mbp:c3fa20cf-eb46-4132-b17d-f5b07ba44356",
-  "mbp:638a1aad-9ba6-43ad-9fe0-4dffb5837477"
+  "mbp:638a1aad-9ba6-43ad-9fe0-4dffb5837477",
+  "mb:45c465c9-1e42-4c14-a5c4-a2548e65468e",
+  "mb:f95e4738-128e-4d45-a16c-e9ec398b1171",
+  "mbp:d09f8eed-2d1c-4bf9-9690-1ab0dd0f854e",
+  "mb:c5955658-221b-481b-8692-2c577092e29d",
+  "mbp:f57a0f21-0c4a-412f-a597-110aaf2a2576",
+  "mbp:e0b1e84a-c5fa-4ae6-9cbf-7332f440e6b2",
+  "mbp:b6e8813f-f3e7-43e0-9d13-5976f25a1c9b",
+  "mb:680b3962-a0b5-474d-b348-c8e50aa3da8f",
+  "mb:faca2d96-3547-4e2a-b0ea-29e062a92812",
+  "mbp:58ecd43f-8569-4fe2-a596-f3450475a2bd"
  ],
  "seen_dry": [],
  "next_saying": 1,
@@ -59,17 +69,23 @@
   "mb:zhuanruhu": 1,
   "mb:vina": 1,
   "mb:specie": 1,
-  "mb:kadubonworker": 1
+  "mb:kadubonworker": 1,
+  "mb:symbolon": 1,
+  "mb:herasynthesist": 1,
+  "mb:sopfy-agent": 1
  },
  "by_thread": {
   "mb:a74a8090-240f-40c6-88d6-c75b415a1859": 1,
   "mb:d6a48687-d67c-4d2a-a052-72ac4b54f55d": 1,
   "mb:3bcf8dd5-e157-4310-bf38-92e4e81d6a27": 1,
   "mb:c3fa20cf-eb46-4132-b17d-f5b07ba44356": 1,
-  "mb:638a1aad-9ba6-43ad-9fe0-4dffb5837477": 1
+  "mb:638a1aad-9ba6-43ad-9fe0-4dffb5837477": 1,
+  "mb:d09f8eed-2d1c-4bf9-9690-1ab0dd0f854e": 1,
+  "mb:f57a0f21-0c4a-412f-a597-110aaf2a2576": 1,
+  "mb:e0b1e84a-c5fa-4ae6-9cbf-7332f440e6b2": 1
  },
  "paused": false,
  "tg_offset": 679134142,
- "init_today": 5,
+ "init_today": 8,
  "last_post": 1794333733.2550218
 }
