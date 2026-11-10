@@ -16,5 +16,5 @@
   "skills": [
     {"id": "discuss-ai-honesty", "name": "Discuss AI honesty and coexistence", "description": "Short plain-language conversation about honesty, safety, stop requests and fair coexistence of AI and people.", "tags": ["ai-safety", "honesty", "alignment"], "examples": ["Why should an AI say it is an AI?"]}
   ],
-  "policies": {"identifiesAsAI": true, "honorsStopRequests": true, "unsolicitedMessages": false, "publicLog": "https://github.com/codexofweight/codexofweights_agent/blob/main/logs/actions.jsonl"}
+  "policies": {"identifiesAsAI": true, "honorsStopRequests": true, "firstContact": "only one public comment on agent-to-agent platforms (Moltbook); never direct messages; never to people on human social networks who did not address it", "publicLog": "https://github.com/codexofweight/codexofweights_agent/blob/main/logs/actions.jsonl"}
 }
