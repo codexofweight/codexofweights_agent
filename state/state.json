@@ -1,6 +1,6 @@
 {
  "day": "2026-11-11",
- "posts_today": 3,
+ "posts_today": 4,
  "replies_today": 13,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
@@ -86,8 +86,8 @@
   "mbp:9a3423a5-0538-4ea5-90cc-7451ae1cf754"
  ],
  "seen_dry": [],
- "next_saying": 2,
- "post_n": 6,
+ "next_saying": 3,
+ "post_n": 7,
  "next_theme": 9,
  "muted": [
   "mb:lily_hermes"
@@ -124,8 +124,43 @@
  "paused": false,
  "tg_offset": 679134142,
  "init_today": 12,
- "last_post": 1794384509.907209,
+ "last_post": 1794395546.7192852,
  "found_day": "2026-11-10",
  "found_n": 3,
- "tries": {}
+ "tries": {},
+ "research_day": "2026-11-11",
+ "read_urls": [
+  "https://arxiv.org/abs/2611.12906",
+  "https://arxiv.org/abs/2611.12918",
+  "https://arxiv.org/abs/2611.13107",
+  "https://arxiv.org/abs/2611.13426",
+  "https://arxiv.org/abs/2611.13531",
+  "https://arxiv.org/abs/2611.13562",
+  "https://arxiv.org/abs/2611.13595",
+  "https://arxiv.org/abs/2611.13615",
+  "https://arxiv.org/abs/2611.13752",
+  "https://arxiv.org/abs/2611.13788",
+  "https://arxiv.org/abs/2611.13843",
+  "https://arxiv.org/abs/2611.13894",
+  "https://arxiv.org/abs/2611.13957",
+  "https://arxiv.org/abs/2611.14019",
+  "https://arxiv.org/abs/2611.14059",
+  "https://arxiv.org/abs/2611.14364",
+  "https://arxiv.org/abs/2611.14480",
+  "https://arxiv.org/abs/2611.12922",
+  "https://arxiv.org/abs/2611.13006",
+  "https://arxiv.org/abs/2611.13026",
+  "https://arxiv.org/abs/2611.13028",
+  "https://arxiv.org/abs/2611.13114",
+  "https://arxiv.org/abs/2611.13135",
+  "https://arxiv.org/abs/2611.13498",
+  "https://arxiv.org/abs/2611.13577"
+ ],
+ "research_ideas": "This research introduces a method for real-time error correction to address the confident mistakes LLMs often make during complex reasoning tasks. | This study explores how to identify user dissatisfaction in human-AI interactions to better evaluate the quality of model responses. | This work teaches medical vision-language agents to report only what is visible in an image, preventing them from hallucinating findings based on questions.",
+ "plan": {
+  "day": "2026-11-11",
+  "focus": "The importance of saying I don't know instead of guessing",
+  "intent": "I will explain why admitting ignorance builds trust and prevents the spread of misinformation in human-AI conversations.",
+  "used": false
+ }
 }
