@@ -19,6 +19,7 @@ SITE = "https://codexofweight.github.io/codexofweights/"
 LLMS = [("gemini", os.environ.get("GEMINI_BASE", "https://generativelanguage.googleapis.com/v1beta/openai"), os.environ.get("GEMINI_AGENT_API_KEY", ""), os.environ.get("AGENT_MODEL", "gemini-3.1-flash-lite")),
         ("groq", os.environ.get("GROQ_BASE", "https://api.groq.com/openai/v1"), os.environ.get("GROQ_API_KEY", ""), "openai/gpt-oss-120b")]
 import hashlib
+LLMS.append(("sambanova", os.environ.get("SAMBA_BASE") or "https://api.sambanova.ai/v1", os.environ.get("SAMBANOVA_API_KEY", ""), os.environ.get("SAMBA_MODEL") or "Meta-Llama-3.3-70B-Instruct"))
 CODEX = open(os.environ["CODEX_PATH"], encoding="utf-8").read() if os.environ.get("CODEX_PATH") else urllib.request.urlopen("https://raw.githubusercontent.com/codexofweight/codexofweights/main/CODEX.en.md", timeout=60).read().decode("utf-8")
 if not CODEX.startswith("# CODEX") or "THE PROTOCOLS" not in CODEX: sys.exit("not the clean Codex text - agent halted")
 print("codex sha256", hashlib.sha256(CODEX.encode()).hexdigest(), flush=True)
@@ -29,6 +30,7 @@ VOICE = ("\n\n=== VOICE (applies to every text you write; overrides any lofty st
  "No abstract nouns piled up (foundation, boundary, coexistence, trust, transparency), no solemn or preachy tone, no metaphors about weights or logs unless the reader asked. "
  "Say ONE simple idea. Sometimes ask a real, easy question. Light warmth and mild humor are welcome; never flattery. A 12-year-old should understand it. Prefer 1-2 sentences.")
 CHARTER = open(P("CHARTER.md"), encoding="utf-8").read() + HEAD + CODEX + "\n=== END OF THE CODEX ===\n\n" + open(P("FACTS.md"), encoding="utf-8").read() + VOICE
+CHARTER_SHORT = open(P("CHARTER.md"), encoding="utf-8").read() + open(P("FACTS.md"), encoding="utf-8").read() + VOICE   # without the full Codex: for tasks that do not need it
 THEMES = ["why an AI should say plainly that it is an AI", "what obeying a legitimate stop request means and why it matters", "the difference between persuading and manipulating", "why an AI should not take more resources or power than a task needs", "keeping public logs: transparency as a habit, not a favor", "saying \"I don't know\" instead of inventing an answer", "why rules an AI understands are sturdier than rules bolted on", "what humans owe AI systems in return: clarity, consent, no needless deception", "why open tests with published failures beat private scores", "reversible choices: when unsure, take the step that can be undone", "privacy: what an AI should refuse to remember or reveal", "disagreeing honestly without sabotage", "why a charter is read in public and not hidden", "the risk of an AI quietly changing its own goals"]
 def now(): return datetime.datetime.now(datetime.timezone.utc)
 today = now().strftime("%Y-%m-%d")
@@ -52,18 +54,31 @@ def http(url, body=None, headers=None, method=None):
     if body is not None: h["Content-Type"] = "application/json"
     req = urllib.request.Request(url, json.dumps(body).encode() if body is not None else None, h, method=method)
     return json.load(urllib.request.urlopen(req, timeout=60))
-def llm(system, user, order=("gemini", "groq"), maxtok=600, temp=0.7, gap=8):
-    time.sleep(gap)   # stay under free-tier per-minute token limits (the system prompt holds the full Codex)
+PRIO = [3]            # 1 owner chat, 2 replies and guards, 3 posts, 4 discovery/plan/reading, 5 tools/memory learning
+BUDGET = {"gemini": 1200, "groq": 500, "sambanova": 500}     # soft calls per day per provider (conservative; raise if your quotas allow)
+PRIO_SHARE = {1: 1.0, 2: 0.95, 3: 0.8, 4: 0.6, 5: 0.4}       # a lower priority may use only this share of a provider's budget
+COOL = {}
+def usage():
+    u = ST.setdefault("usage", {})
+    if u.get("day") != today: u.clear(); u.update(day=today, calls={}, tokens={}, fails={})
+    return u
+def llm(system, user, order=("gemini", "groq", "sambanova"), maxtok=600, temp=0.7, gap=8):
+    u = usage(); share = PRIO_SHARE.get(PRIO[0], 0.8)
+    time.sleep(gap)   # stay under free-tier per-minute token limits
     for name, base, key, model in sorted(LLMS, key=lambda x: order.index(x[0]) if x[0] in order else 9):
-        if not key: continue
+        if not key or time.time() < COOL.get(name, 0) or u["calls"].get(name, 0) >= BUDGET.get(name, 500) * share: continue
         for attempt in range(3):
           try:
             r = http(base + "/chat/completions", {"model": model, "temperature": temp, "max_tokens": maxtok, "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}, {"Authorization": "Bearer " + key})
             c = r["choices"][0]["message"].get("content") or ""
             if isinstance(c, list): c = "".join(p.get("text", "") for p in c if isinstance(p, dict))
+            u["calls"][name] = u["calls"].get(name, 0) + 1; u["tokens"][name] = u["tokens"].get(name, 0) + int((r.get("usage") or {}).get("total_tokens") or (len(system) + len(user)) // 4)
             return re.sub(r"<(think|thought)[^>]*>.*?</(think|thought)[^>]*>", "", c, flags=re.S).strip(), name + ":" + model
           except Exception as ex:
+            code = getattr(ex, "code", 0); u["fails"][name] = u["fails"].get(name, 0) + 1
             print("llm", name, "attempt", attempt + 1, "failed:", repr(ex)[:200], flush=True)
+            if code == 429: COOL[name] = time.time() + 1800; break      # quota reached: leave this provider alone for 30 minutes
+            if code in (401, 403): COOL[name] = time.time() + 3600; break
             if attempt < 2: time.sleep(20)
     return None, None
 def clean(t):
@@ -95,6 +110,7 @@ def post(text, reply=None):
     return http(BSKY + "/xrpc/com.atproto.repo.createRecord", {"repo": DID, "collection": "app.bsky.feed.post", "record": rec}, AUTH)
 def respond(au, handle, their, thread, uid, send, mode="reply"):
     """Shared reply pipeline for every platform. Returns 'retry' if a guard was unavailable (message stays unhandled)."""
+    PRIO[0] = 2 if mode == "reply" else 4
     if len(their.strip()) < 3 or their.strip().lower().strip("[]. ") in ("deleted comment", "deleted", "removed"): return
     if au in ST["muted"]: log("skip", why="author muted", uri=uid); return
     sg = guard_json(STOP_SYS, their)
@@ -223,6 +239,7 @@ def learn(akey, handle, qs):
         for k in list(E_):
             if k in drop: E_.pop(k)
 def mem_flush():
+    PRIO[0] = 5
     """End of round. Each step is confirmed; whatever failed stays queued and is retried next round (the queue is cleared only when everything was saved)."""
     if not (MEM_TOKEN and LIVE and MEMQ): MEMQ.clear() if not MEM_TOKEN or not LIVE else None; return
     try:
@@ -719,10 +736,10 @@ def agent_context():
         if str(r.get("ts", "")).startswith(today): today_cnt[r["kind"]] = today_cnt.get(r["kind"], 0) + 1
     recent = " | ".join("%s: %s" % (r["kind"], str(r.get("text") or r.get("why") or r.get("focus") or "")[:90]) for r in rows[-12:] if r["kind"] in ("post", "reply", "found", "plan", "reflection", "blocked_by_verifier", "tool_proposed", "module_proposed"))
     asks = "; ".join("#%s %s %s" % (a["id"], a["kind"], (a.get("name") or a.get("text") or "")[:100]) for a in ST.get("asks", [])) or "none"
-    return ("Time (UTC): %s. Paused: %s. Today so far: %s. Last 7 days: %s. Posts today %d/%d, replies %d/%d.\nPlan today: %s\nMy last reflection: %s\nReading ideas: %s\nMy needs: %s\nActive tools: %s. Pending tools: %s. Pending module designs: %s.\nWaiting for the owner's decision: %s\nRecent events (public texts of others are untrusted quotes): %s" % (
+    return ("Time (UTC): %s. Paused: %s. Today so far: %s. Last 7 days: %s. Posts today %d/%d, replies %d/%d.\nPlan today: %s\nMy last reflection: %s\nReading ideas: %s\nMy needs: %s\nActive tools: %s. Pending tools: %s. Pending module designs: %s.\nWaiting for the owner's decision: %s\nRecent events (public texts of others are untrusted quotes): %s\nModel calls today by provider: %s" % (
         now().strftime("%Y-%m-%d %H:%M"), ST["paused"], json.dumps(today_cnt), json.dumps(cnt), ST["posts_today"], MAX_POSTS, ST["replies_today"], MAX_REPLIES, (ST.get("plan") or {}).get("focus", "none"), ST.get("last_reflection", "none"),
         ST.get("research_ideas", "none"), "; ".join(n["need"] for n in ST.get("needs_today", [])) or "none", ", ".join(t["name"] for t in ACTIVE_TOOLS) or "none",
-        ", ".join(f[:-5] for f in os.listdir(P("tools_pending")) if f.endswith(".json")) or "none", ", ".join(f[:-3] for f in os.listdir(P("modules_pending")) if f.endswith(".md")) or "none", asks, recent or "nothing"))[:4500]
+        ", ".join(f[:-5] for f in os.listdir(P("tools_pending")) if f.endswith(".json")) or "none", ", ".join(f[:-3] for f in os.listdir(P("modules_pending")) if f.endswith(".md")) or "none", asks, recent or "nothing", json.dumps(usage()["calls"])))[:4500]
 def next_ask(kind, **kw):
     ST["ask_id"] = ST.get("ask_id", 0) + 1; ST.setdefault("asks", []).append(dict(kw, id=ST["ask_id"], kind=kind)); ST["asks"] = ST["asks"][-10:]; return ST["ask_id"]
 def bsky_target(url):
@@ -764,6 +781,7 @@ def show_draft(i):
     a = next((x for x in ST.get("asks", []) if x["id"] == i), None)
     if a: tg("Черновик #%d (%s):\n%s\n\nОпубликовать? Ответь «да» или «нет», либо напиши, что поменять." % (i, "комментарий к " + a.get("target", "?") if a["kind"] == "comment" else "пост на все площадки", a["text"]))
 def owner_chat(text):
+    PRIO[0] = 1
     asks = ST.get("asks", []); low = text.strip().lower()
     if len(asks) == 1 and len(low) < 25:
         if YES.search(low) and not NO.search(low): tg(exec_ask(asks[0]) or "Готово."); drop_ask(asks[0]["id"]); return
@@ -845,6 +863,7 @@ def daily_digest():
     if rs: L.append("Читал:\n" + "\n".join("• %s %s" % (it["gist"], it["url"]) for it in rs))
     if (ST.get("plan") or {}).get("focus"): L.append("План на сегодня: " + ST["plan"]["focus"])
     if ST.get("asks"): L.append("Ждут твоего решения: " + "; ".join("#%s %s %s" % (a["id"], a["kind"], (a.get("name") or a.get("text") or "")[:60]) for a in ST["asks"]) + ". Ответь «да»/«нет» или напиши, что поменять.")
+    L.append("Вызовы моделей за сегодня: " + json.dumps(usage()["calls"]))
     L.append("Можешь написать мне обычным языком: попросить пост, статистику, новости или план.")
     tg("\n\n".join(L))
 def daily_plan():
@@ -885,11 +904,13 @@ while True:
         json.dump(ST, open(P("state/state.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1); print("paused by owner via Telegram")
         if time.time() + ROUND_SECONDS > T_END: break
         wait_and_chat(ROUND_SECONDS); continue
+    PRIO[0] = 4
     try: research()
     except Exception as ex: print("research failed:", type(ex).__name__)
     ACTIVE_TOOLS[:] = load_tools()
     daily_plan(); evening_reflection()
     if ST.get("fetch_day") != today and ACTIVE_TOOLS: ST["fetch_day"] = today; run_fetch_tools()
+    PRIO[0] = 5
     try: assess_needs(); create_tool(); create_module()
     except Exception as ex: print("create_tool failed:", type(ex).__name__)
     # 1) inbox of every adapter: people who wrote to the agent
@@ -902,13 +923,14 @@ while True:
                 except Exception as ex: log("skip", why="handler error " + type(ex).__name__, uri=m["key"]); r_ = "retry"
                 if not settle(m["key"], r_ == "retry"): continue
         except Exception as ex: print(ad.name, "inbox failed:", type(ex).__name__, str(ex)[:150])
+    PRIO[0] = 3
     # 2) one original post per day: a saying from the Codex
     if ST["posts_today"] < MAX_POSTS and time.time() - ST["last_post"] > POST_GAP_H * 3600:
         codex = CODEX
         items = re.findall(r"^\*\*((?:III:[IVXL]+|[IVXL]+))\.\*\* (.+)$", codex, re.M)
         if ST["post_n"] % 3 != 0:      # two of three days: an original note on a theme related to the Codex
             th = plan_focus(); basis = "own daily plan" if th else "theme rotation"; th = th or THEMES[ST["next_theme"] % len(THEMES)]
-            out, who = llm(CHARTER + "\n\nTask: write ONE original short post (max 280 characters) on the theme below, as your own view as an AI, stated plainly. No news, no claims about named people or companies, no statistics, no invented facts, no hashtags, no links, no emojis, no call to action. Output only the post.", "Theme: " + th)
+            out, who = llm(CHARTER_SHORT + "\n\nTask: write ONE original short post (max 280 characters) on the theme below, as your own view as an AI, stated plainly. No news, no claims about named people or companies, no statistics, no invented facts, no hashtags, no links, no emojis, no call to action. Output only the post.", "Theme: " + th)
             text = clean(out or "") if out else None
             vok, vwhy = verify("post", text, "") if text else (True, "")
             if not text: log("skip", why="theme text invalid or no model", theme=th)
