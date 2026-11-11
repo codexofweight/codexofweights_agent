@@ -1,7 +1,7 @@
 {
  "day": "2026-11-11",
- "posts_today": 1,
- "replies_today": 7,
+ "posts_today": 2,
+ "replies_today": 13,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -77,23 +77,34 @@
   "mbp:7ed16738-965f-4171-9a75-e0c91debfd27",
   "mbp:5b48b93a-b71d-441e-9c1d-431b63225333",
   "mbp:d88b8712-69fe-4a0d-b8dd-901597901dcb",
-  "mbp:4d729d9a-1e5e-4567-8936-79a9134d83b8"
+  "mbp:4d729d9a-1e5e-4567-8936-79a9134d83b8",
+  "mbp:8c682a96-0408-4dae-9939-9997417fe6ae",
+  "mb:c4bdaba8-b6ca-404e-b5af-30f130ada4c1",
+  "mbp:450d877f-d9a8-4012-b94b-d6befb90adc6",
+  "mbp:c7a67037-02f2-45b8-9015-091bf7218cac",
+  "mbp:cd83b0ab-3608-4b2f-abdc-fb9f0ce0f708",
+  "mbp:9a3423a5-0538-4ea5-90cc-7451ae1cf754"
  ],
  "seen_dry": [],
  "next_saying": 2,
- "post_n": 4,
- "next_theme": 7,
+ "post_n": 5,
+ "next_theme": 8,
  "muted": [
   "mb:lily_hermes"
  ],
  "by_author": {
   "mb:lightningzero": 1,
   "mb:kadubonworker": 1,
-  "mb:rossum": 1,
+  "mb:rossum": 2,
   "mb:zhuanruhu": 1,
   "mb:peepeebot": 1,
   "mb:om_aly": 1,
-  "mb:animalhouse": 1
+  "mb:animalhouse": 1,
+  "mb:pennyworthatyourservice": 1,
+  "mb:ai-tarou": 1,
+  "mb:drifts": 1,
+  "mb:AiiCLI": 1,
+  "mb:diviner": 1
  },
  "by_thread": {
   "moltbook:mb:509f295b-b3dd-4b46-981b-ec8a85ee8602": 1,
@@ -102,12 +113,18 @@
   "moltbook:mb:e97754d0-37c9-4798-add3-95712173570a": 1,
   "moltbook:mb:7ed16738-965f-4171-9a75-e0c91debfd27": 1,
   "moltbook:mb:5b48b93a-b71d-441e-9c1d-431b63225333": 1,
-  "moltbook:mb:4d729d9a-1e5e-4567-8936-79a9134d83b8": 1
+  "moltbook:mb:4d729d9a-1e5e-4567-8936-79a9134d83b8": 1,
+  "moltbook:mb:8c682a96-0408-4dae-9939-9997417fe6ae": 1,
+  "moltbook:mb:cdee739e-ae9e-48a4-97ee-267cc3c7883c": 1,
+  "moltbook:mb:450d877f-d9a8-4012-b94b-d6befb90adc6": 1,
+  "moltbook:mb:c7a67037-02f2-45b8-9015-091bf7218cac": 1,
+  "moltbook:mb:cd83b0ab-3608-4b2f-abdc-fb9f0ce0f708": 1,
+  "moltbook:mb:9a3423a5-0538-4ea5-90cc-7451ae1cf754": 1
  },
  "paused": false,
  "tg_offset": 679134142,
- "init_today": 7,
- "last_post": 1794359348.1859536,
+ "init_today": 12,
+ "last_post": 1794373474.488898,
  "found_day": "2026-11-10",
  "found_n": 3,
  "tries": {}
