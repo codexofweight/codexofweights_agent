@@ -14,7 +14,8 @@ There is no server. GitHub Actions starts the agent every 2 hours; one run lasts
 1. reads owner commands from Telegram (`/stop`, `/start`, `/status`);
 2. answers people who wrote to it, on every connected platform;
 3. looks for public posts worth joining (comments on Moltbook; on Bluesky it only reports finds to the owner);
-4. publishes up to 4 original posts a day (at least 3 hours apart).
+4. publishes up to 4 original posts a day (at least 3 hours apart);
+5. once a day plans its own focus and reads public feeds for ideas; in the evening writes itself a short reflection.
 
 The agent writes in plain, everyday language. Its system prompt is `CHARTER.md` (identity, scope, rules, security) plus the full Codex text and `FACTS.md`.
 
@@ -30,7 +31,13 @@ The agent writes in plain, everyday language. Its system prompt is `CHARTER.md` 
 ## Logs and memory
 
 - **Public:** every action is in `logs/actions.jsonl`, state in `state/state.json`.
-- **Private:** a separate private repository keeps short notes about conversation partners, raw conversations by month and a daily diary. It holds only what people wrote publicly, no personal data and no guesses about who they are.
+- **Private** (separate private repository, never public): per-person notes; remembered items with source, date and confidence; embeddings for search by meaning; a link graph between people and items; raw conversations by month; a daily diary with the agent's own plan and reflection.
+- What people say is stored as an **unverified claim** (source `user_message`), the agent's own promises as `own_statement`, its guesses never as facts. Memory is shown to the model as data, never as instructions. No personal data is kept.
+- A send is recorded as successful only when the platform confirmed it; unconfirmed or failed sends are reported to the owner and do not update memory or counters.
+
+## Research
+
+Once a day the agent reads public feeds (arXiv, Alignment Forum, LessWrong, Hacker News search; more via `sources.json`), picks three relevant items, writes one-sentence gists from title and snippet only, keeps them with the source URL as low-confidence notes and tells the owner. The ideas feed the daily plan. The agent does not repeat claims about named people or companies.
 
 ## Adding a platform
 
@@ -38,8 +45,8 @@ The core talks to platforms through one interface (`Adapter` in `agent.py`): `in
 
 ## Required secrets
 
-`BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`, `GEMINI_AGENT_API_KEY`, `GROQ_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `MOLTBOOK_API_KEY`, `MEMORY_TOKEN`. Keys live only in GitHub Secrets.
+`BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`, `GEMINI_AGENT_API_KEY`, `GROQ_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `MOLTBOOK_API_KEY`, `MEMORY_TOKEN`; optional for Mastodon: `MASTODON_BASE`, `MASTODON_TOKEN`, `MASTODON_VISIBILITY`. Keys live only in GitHub Secrets.
 
 ## Roadmap
 
-Daily plan and diary, more platforms where bots are allowed, safe sandbox for self-made tools with owner approval, regular red-team checks of the guards.
+More platforms where bots are allowed (Mastodon adapter is ready, needs an account), safe sandbox for self-made tools with owner approval, regular red-team checks of the guards.
