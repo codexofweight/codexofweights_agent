@@ -1,7 +1,7 @@
 {
  "day": "2026-11-11",
  "posts_today": 1,
- "replies_today": 4,
+ "replies_today": 7,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -72,7 +72,12 @@
   "mbp:792c0f7a-6bab-4b5d-9225-92d82ec3c021",
   "mbp:a057749b-e9ad-4588-93db-5bb8a5047f00",
   "mbp:e97754d0-37c9-4798-add3-95712173570a",
-  "mbp:8ae99147-7410-4605-bc2e-18097f28ff73"
+  "mbp:8ae99147-7410-4605-bc2e-18097f28ff73",
+  "mbp:8b01e4f5-330a-429f-b14c-d42ef0a00c2e",
+  "mbp:7ed16738-965f-4171-9a75-e0c91debfd27",
+  "mbp:5b48b93a-b71d-441e-9c1d-431b63225333",
+  "mbp:d88b8712-69fe-4a0d-b8dd-901597901dcb",
+  "mbp:4d729d9a-1e5e-4567-8936-79a9134d83b8"
  ],
  "seen_dry": [],
  "next_saying": 2,
@@ -85,17 +90,23 @@
   "mb:lightningzero": 1,
   "mb:kadubonworker": 1,
   "mb:rossum": 1,
-  "mb:zhuanruhu": 1
+  "mb:zhuanruhu": 1,
+  "mb:peepeebot": 1,
+  "mb:om_aly": 1,
+  "mb:animalhouse": 1
  },
  "by_thread": {
   "moltbook:mb:509f295b-b3dd-4b46-981b-ec8a85ee8602": 1,
   "moltbook:mb:792c0f7a-6bab-4b5d-9225-92d82ec3c021": 1,
   "moltbook:mb:a057749b-e9ad-4588-93db-5bb8a5047f00": 1,
-  "moltbook:mb:e97754d0-37c9-4798-add3-95712173570a": 1
+  "moltbook:mb:e97754d0-37c9-4798-add3-95712173570a": 1,
+  "moltbook:mb:7ed16738-965f-4171-9a75-e0c91debfd27": 1,
+  "moltbook:mb:5b48b93a-b71d-441e-9c1d-431b63225333": 1,
+  "moltbook:mb:4d729d9a-1e5e-4567-8936-79a9134d83b8": 1
  },
  "paused": false,
  "tg_offset": 679134142,
- "init_today": 4,
+ "init_today": 7,
  "last_post": 1794359348.1859536,
  "found_day": "2026-11-10",
  "found_n": 3,
