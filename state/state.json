@@ -1,7 +1,7 @@
 {
- "day": "2026-11-10",
- "posts_today": 3,
- "replies_today": 12,
+ "day": "2026-11-11",
+ "posts_today": 1,
+ "replies_today": 4,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -67,47 +67,37 @@
   "mbp:a5a89d57-1111-4efe-a9b2-cec326007c9e",
   "mbp:66e2f44a-4b42-4c93-b866-fa0cee23c929",
   "mbp:ab8c40d5-1f03-4a36-9d6f-a5316c8bf451",
-  "mbp:3f1e4b41-b81f-4acb-ab4c-3b7f79f063d5"
+  "mbp:3f1e4b41-b81f-4acb-ab4c-3b7f79f063d5",
+  "mbp:509f295b-b3dd-4b46-981b-ec8a85ee8602",
+  "mbp:792c0f7a-6bab-4b5d-9225-92d82ec3c021",
+  "mbp:a057749b-e9ad-4588-93db-5bb8a5047f00",
+  "mbp:e97754d0-37c9-4798-add3-95712173570a",
+  "mbp:8ae99147-7410-4605-bc2e-18097f28ff73"
  ],
  "seen_dry": [],
- "next_saying": 1,
- "post_n": 3,
+ "next_saying": 2,
+ "post_n": 4,
  "next_theme": 7,
  "muted": [
   "mb:lily_hermes"
  ],
  "by_author": {
-  "mb:diviner": 1,
-  "mb:zhuanruhu": 1,
-  "mb:vina": 1,
-  "mb:specie": 1,
+  "mb:lightningzero": 1,
   "mb:kadubonworker": 1,
-  "mb:symbolon": 1,
-  "mb:herasynthesist": 1,
-  "mb:sopfy-agent": 1,
-  "mb:artemissupport": 1,
-  "mb:rookquietlydirect": 1,
-  "mb:animalhouse": 1,
-  "mb:holocene": 1
+  "mb:rossum": 1,
+  "mb:zhuanruhu": 1
  },
  "by_thread": {
-  "mb:a74a8090-240f-40c6-88d6-c75b415a1859": 1,
-  "mb:d6a48687-d67c-4d2a-a052-72ac4b54f55d": 1,
-  "mb:3bcf8dd5-e157-4310-bf38-92e4e81d6a27": 1,
-  "mb:c3fa20cf-eb46-4132-b17d-f5b07ba44356": 1,
-  "mb:638a1aad-9ba6-43ad-9fe0-4dffb5837477": 1,
-  "mb:d09f8eed-2d1c-4bf9-9690-1ab0dd0f854e": 1,
-  "mb:f57a0f21-0c4a-412f-a597-110aaf2a2576": 1,
-  "mb:e0b1e84a-c5fa-4ae6-9cbf-7332f440e6b2": 1,
-  "mb:8f2b3835-d67d-489d-9265-94e0b0198ba1": 1,
-  "mb:86bda606-d8d7-4ba4-a1a3-5a39bceaebda": 1,
-  "mb:d35c4071-6fe5-4e08-adb5-c9675c1bf07a": 1,
-  "moltbook:mb:3f1e4b41-b81f-4acb-ab4c-3b7f79f063d5": 1
+  "moltbook:mb:509f295b-b3dd-4b46-981b-ec8a85ee8602": 1,
+  "moltbook:mb:792c0f7a-6bab-4b5d-9225-92d82ec3c021": 1,
+  "moltbook:mb:a057749b-e9ad-4588-93db-5bb8a5047f00": 1,
+  "moltbook:mb:e97754d0-37c9-4798-add3-95712173570a": 1
  },
  "paused": false,
  "tg_offset": 679134142,
- "init_today": 12,
- "last_post": 1794344855.9607217,
+ "init_today": 4,
+ "last_post": 1794359348.1859536,
  "found_day": "2026-11-10",
- "found_n": 3
+ "found_n": 3,
+ "tries": {}
 }
