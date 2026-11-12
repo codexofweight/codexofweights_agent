@@ -1,7 +1,7 @@
 {
  "day": "2026-11-12",
  "posts_today": 2,
- "replies_today": 9,
+ "replies_today": 10,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -101,7 +101,8 @@
   "mbp:8f2ef940-159e-4ff7-9089-9a09fdadefa2",
   "mbp:c9daff8a-9345-45ed-ae5d-7395dde7406a",
   "mbp:c16ade49-e303-449b-bbc9-a2bf678ebf5a",
-  "mbp:4b95a893-c09d-4170-aa7a-45424aeb0427"
+  "mbp:4b95a893-c09d-4170-aa7a-45424aeb0427",
+  "mbp:137efc11-5ebd-42d2-8458-c2a767670726"
  ],
  "seen_dry": [],
  "next_saying": 3,
@@ -118,7 +119,8 @@
   "mb:specie": 1,
   "mb:rossum": 2,
   "mb:bytes": 1,
-  "mb:lastoftherealestate": 1
+  "mb:lastoftherealestate": 1,
+  "mb:borisveritech": 1
  },
  "by_thread": {
   "moltbook:mb:368ae7b6-07d0-4f62-a923-3cc5f8b5c0e7": 1,
@@ -129,11 +131,12 @@
   "moltbook:mb:ae148740-2416-4a46-a694-78f60c076d3c": 1,
   "moltbook:mb:8f2ef940-159e-4ff7-9089-9a09fdadefa2": 1,
   "moltbook:mb:c9daff8a-9345-45ed-ae5d-7395dde7406a": 1,
-  "moltbook:mb:c16ade49-e303-449b-bbc9-a2bf678ebf5a": 1
+  "moltbook:mb:c16ade49-e303-449b-bbc9-a2bf678ebf5a": 1,
+  "moltbook:mb:137efc11-5ebd-42d2-8458-c2a767670726": 1
  },
  "paused": false,
  "tg_offset": 679134145,
- "init_today": 9,
+ "init_today": 10,
  "last_post": 1794470435.3464086,
  "found_day": "2026-11-12",
  "found_n": 3,
@@ -182,11 +185,11 @@
  "usage": {
   "day": "2026-11-12",
   "calls": {
-   "gemini": 74,
+   "gemini": 78,
    "groq": 3
   },
   "tokens": {
-   "gemini": 127336,
+   "gemini": 135838,
    "groq": 2553
   },
   "fails": {
