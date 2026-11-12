@@ -1,5 +1,5 @@
 # ---- sandbox and self-made tools: plugins, never edits to the core; owner approves every tool in Telegram ----
-import ast, subprocess, resource
+import ast, subprocess, resource, shlex
 os.makedirs(P("tools"), exist_ok=True); os.makedirs(P("tools_pending"), exist_ok=True)
 ACTIVE_TOOLS = []
 TOOL_IMPORTS = {"re", "json", "math", "statistics", "collections", "itertools", "functools", "datetime", "string", "textwrap", "difflib", "hashlib", "base64", "unicodedata", "heapq", "bisect", "random", "typing", "dataclasses", "decimal", "fractions", "html"}
@@ -35,23 +35,44 @@ def static_check(code):
         elif isinstance(n, ast.FunctionDef) and n.name == "run": has_run = True
     if not has_run: bad.append("no run(payload) function")
     return sorted(set(bad))[:8]
-_RUNNER = "import sys, json\nns = {'__name__': 'tool'}\nexec(compile(open(sys.argv[1]).read(), 'tool', 'exec'), ns)\nsys.stdout.write(json.dumps(ns['run'](json.load(sys.stdin)))[:20000])\n"
-def _limits():
-    resource.setrlimit(resource.RLIMIT_CPU, (8, 8)); resource.setrlimit(resource.RLIMIT_AS, (512 * 1024 * 1024,) * 2)
-    resource.setrlimit(resource.RLIMIT_FSIZE, (0, 0)); resource.setrlimit(resource.RLIMIT_NOFILE, (16, 16)); resource.setrlimit(resource.RLIMIT_NPROC, (64, 64))
+_RUNNER = ("import sys, json, resource\n"
+           "resource.setrlimit(resource.RLIMIT_CPU, (8, 8)); resource.setrlimit(resource.RLIMIT_AS, (512 * 1024 * 1024,) * 2)\n"
+           "resource.setrlimit(resource.RLIMIT_FSIZE, (0, 0)); resource.setrlimit(resource.RLIMIT_NOFILE, (16, 16)); resource.setrlimit(resource.RLIMIT_NPROC, (64, 64))\n"
+           "d = json.load(sys.stdin); ns = {'__name__': 'tool'}\n"
+           "exec(compile(d['code'], 'tool', 'exec'), ns)\n"
+           "sys.stdout.write(json.dumps(ns['run'](d['payload']))[:20000])\n")
+# Isolation (fail closed): root-owned namespaces for network, processes and mounts; /home /root /tmp /var/tmp are replaced by empty tmpfs
+# (the repository, state and every secret file live there); the code runs as the unprivileged user 'nobody' with an empty environment, no new privileges
+# and resource limits. The tool code travels through stdin, so no file of ours is exposed. If any of this is unavailable, tools do NOT run.
+SANDBOX_OK = [None]
+def _sandbox_cmd():
+    inner = ("mount -t tmpfs t /home && mount -t tmpfs t /root && mount -t tmpfs t /tmp && mount -t tmpfs t /var/tmp && "
+             "exec env -i PATH=/usr/bin:/bin setpriv --reuid=65534 --regid=65534 --clear-groups --no-new-privs %s -I -c %s" % (shlex.quote(sys.executable), shlex.quote(_RUNNER)))
+    return ["sudo", "-n", "unshare", "--net", "--pid", "--ipc", "--uts", "--mount", "--fork", "--mount-proc", "sh", "-c", inner]
+def _run_code(code, payload, timeout=10):
+    if SANDBOX_OK[0] is False: return False, "sandbox unavailable (tools are disabled)"
+    try: r = subprocess.run(_sandbox_cmd(), input=json.dumps({"code": code, "payload": payload}), capture_output=True, text=True, timeout=timeout, env={"PATH": "/usr/sbin:/usr/bin:/sbin:/bin"})
+    except Exception as ex: return False, type(ex).__name__
+    if r.returncode != 0: return False, (r.stderr or "failed")[-200:]
+    try: return True, json.loads(r.stdout)
+    except Exception: return False, "bad output"
+_PROBE = ("def run(p):\n import os, socket, json\n out = {'uid': os.getuid(), 'env': sorted(os.environ)}\n"
+          " try:\n  s = socket.create_connection(('1.1.1.1', 53), 2); out['net'] = True\n except Exception: out['net'] = False\n"
+          " for k, d in (('home', '/home'), ('root', '/root'), ('tmp', '/tmp')):\n  try: out[k] = len(os.listdir(d))\n  except Exception: out[k] = 0\n"
+          " out['procs'] = len([x for x in os.listdir('/proc') if x.isdigit()])\n return out\n")
+def sandbox_ready():
+    """Self-test at start: the sandbox must really cut the network, hide our files and drop privileges; otherwise tools stay off."""
+    if SANDBOX_OK[0] is not None: return SANDBOX_OK[0]
+    SANDBOX_OK[0] = None; ok, r = _run_code(_PROBE, {}, 20)
+    good = bool(ok and isinstance(r, dict) and r.get("uid") == 65534 and set(r.get("env") or ["?"]) <= {"PATH", "LC_CTYPE", "LANG"} and r.get("net") is False and r.get("home") == 0 and r.get("root") == 0 and r.get("tmp") == 0 and r.get("procs", 99) <= 3)
+    SANDBOX_OK[0] = good; print("sandbox self-test:", "OK" if good else "FAILED -> tools disabled", str(r)[:200], flush=True)
+    return good
 def run_tool(path, payload, timeout=10):
-    """Run a tool in a separate process: empty environment (no keys), isolated interpreter, CPU/memory/file limits, no network namespace when the system allows it. Returns (ok, result_or_error)."""
-    base = [sys.executable, "-I", "-c", _RUNNER, path]
-    for cmd in (["unshare", "--user", "--map-root-user", "--net"] + base, base):
-        try:
-            r = subprocess.run(cmd, input=json.dumps(payload), capture_output=True, text=True, timeout=timeout, env={}, preexec_fn=_limits)
-        except Exception as ex: return False, type(ex).__name__
-        if r.returncode == 0:
-            try: return True, json.loads(r.stdout)
-            except Exception: return False, "bad output"
-        if cmd[0] == "unshare" and ("unshare" in r.stderr or "Operation not permitted" in r.stderr): continue   # no user namespaces here: fall back (static check still applies)
-        return False, (r.stderr or "failed")[-200:]
-    return False, "failed"
+    """Runs a tool inside the isolated sandbox only; returns (ok, result_or_error). No fallback to an unisolated run."""
+    if not sandbox_ready(): return False, "sandbox unavailable (tools are disabled)"
+    try: code = open(path, encoding="utf-8").read()
+    except Exception as ex: return False, type(ex).__name__
+    return _run_code(code, payload, timeout)
 def test_tool(path, hook):
     sample, valid = TOOL_HOOKS[hook]; notes = []
     for label, pl in (("sample", sample), ("empty", {})):
@@ -65,6 +86,7 @@ def test_tool(path, hook):
 def sha(path): return hashlib.sha256(open(path, "rb").read()).hexdigest()
 def load_tools():
     """Approved tools only; a tool whose file no longer matches the hash recorded at approval is ignored and reported."""
+    if not sandbox_ready(): return []
     out = []
     for f in sorted(os.listdir(P("tools"))):
         if not f.endswith(".json"): continue
@@ -99,6 +121,9 @@ def run_daily_tools(payload):
                 tt, sh = mem_get("tools/%s/%s.md" % (t["name"], today)); mem_put("tools/%s/%s.md" % (t["name"], today), tt + rep_ + "\n", sh, "tool report")
 def create_tool():
     """At most once a day, or when the owner sends /tool <idea>: the agent writes a tool, it must pass the static check, run in the sandbox and be reviewed by a second model; then it waits for /approve."""
+    if not sandbox_ready():       # no isolation = no running of generated code; reading the web, research and module designs go on
+        if ST.get("sandbox_alert") != today: ST["sandbox_alert"] = today; tg("Песочница недоступна: запуск кода инструментов остановлен. Чтение сети, исследование и проекты модулей в лаборатории продолжаются.")
+        return
     req = ST.pop("tool_request", None)
     if not req and ST.get("tool_try_day") == today: return
     if not req and (len(os.listdir(P("tools_pending"))) >= 4 or len([f for f in os.listdir(P("tools")) if f.endswith(".json")]) >= 12): return
@@ -144,7 +169,7 @@ def tool_command(c, raw):
             if sha(pp) != m["sha256"]: tg("Refused: the file changed after the review."); return
             bad = static_check(open(pp, encoding="utf-8").read()) or test_tool(pp, m["hook"])
             if bad: tg("Refused: re-check failed: %s" % "; ".join(bad)); return
-            os.replace(pp, P("tools/%s.py" % n)); os.replace(pj, P("tools/%s.json" % n)); tg("Approved and active from the next round: %s" % n)
+            bio_add("extension", "Owner approved tool %s" % n, "owner decision in Telegram", 1.0); os.replace(pp, P("tools/%s.py" % n)); os.replace(pj, P("tools/%s.json" % n)); tg("Approved and active from the next round: %s" % n)
         except Exception as ex: tg("Cannot approve %s: %s" % (n, type(ex).__name__))
 # ---- needs analysis, field hooks (fetch/context/discover_rank) and architecture module proposals ----
 for _d in ("modules_pending", "modules_approved"): os.makedirs(P(_d), exist_ok=True)
@@ -219,6 +244,6 @@ def create_module():
 def module_command(c):
     arg = re.sub(r"[^a-z0-9_]", "", c.split(" ", 1)[1].strip().lower()) if " " in c else ""
     if c.startswith("/accept "):
-        try: os.replace(P("modules_pending/%s.md" % arg), P("modules_approved/%s.md" % arg)); tg("Accepted as a design: %s. It is NOT connected to the core. Bring it to your assistant to review and integrate step by step." % arg)
+        try: bio_add("extension", "Owner accepted module design %s (not connected to the core)" % arg, "owner decision in Telegram", 1.0); os.replace(P("modules_pending/%s.md" % arg), P("modules_approved/%s.md" % arg)); tg("Accepted as a design: %s. It is NOT connected to the core. Bring it to your assistant to review and integrate step by step." % arg)
         except Exception: tg("No pending module named %s" % arg)
     elif c == "/modules": tg("Pending: %s\nApproved: %s" % (", ".join(f[:-3] for f in os.listdir(P("modules_pending")) if f.endswith(".md")) or "none", ", ".join(f[:-3] for f in os.listdir(P("modules_approved")) if f.endswith(".md")) or "none"))

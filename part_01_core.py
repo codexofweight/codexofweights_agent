@@ -35,6 +35,9 @@ VOICE = ("\n\n=== VOICE (applies to every text you write; overrides any lofty st
 CHARTER = open(P("CHARTER.md"), encoding="utf-8").read() + HEAD + PROT + "\n=== END OF THE PROTOCOLS ===\n\n" + open(P("FACTS.md"), encoding="utf-8").read() + VOICE
 CHARTER_SHORT = open(P("CHARTER.md"), encoding="utf-8").read() + open(P("FACTS.md"), encoding="utf-8").read() + VOICE   # without the full Codex: for tasks that do not need it
 THEMES = ["why an AI should say plainly that it is an AI", "what obeying a legitimate stop request means and why it matters", "the difference between persuading and manipulating", "why an AI should not take more resources or power than a task needs", "keeping public logs: transparency as a habit, not a favor", "saying \"I don't know\" instead of inventing an answer", "why rules an AI understands are sturdier than rules bolted on", "what humans owe AI systems in return: clarity, consent, no needless deception", "why open tests with published failures beat private scores", "reversible choices: when unsure, take the step that can be undone", "privacy: what an AI should refuse to remember or reveal", "disagreeing honestly without sabotage", "why a charter is read in public and not hidden", "the risk of an AI quietly changing its own goals"]
+def _h(x): return "h:" + hashlib.sha1(str(x).encode()).hexdigest()[:16]     # public files keep only hashes of identities in stop/contact lists
+def is_muted(au): return au in ST["muted"] or _h(au) in ST["muted"]
+def add_mute(au): ST["muted"].append(_h(au))
 def now(): return datetime.datetime.now(datetime.timezone.utc)
 today = now().strftime("%Y-%m-%d")
 try: ST = json.load(open(P("state/state.json"), encoding="utf-8"))
@@ -58,29 +61,70 @@ def http(url, body=None, headers=None, method=None):
     req = urllib.request.Request(url, json.dumps(body).encode() if body is not None else None, h, method=method)
     return json.load(urllib.request.urlopen(req, timeout=60))
 PRIO = [3]            # 1 owner chat, 2 replies and guards, 3 posts, 4 discovery/plan/reading, 5 tools/memory learning
-BUDGET = {"gemini": 1200, "groq": 500, "sambanova": 500}     # soft calls per day per provider (conservative; raise if your quotas allow)
+# Free-tier quotas as published (checked 2026-11-13): Groq gpt-oss-120b/20b: 30 requests/min, 1000/day, 8000 tokens/min, 200000 tokens/day.
+# Gemini publishes no numbers in its docs (see aistudio.google.com/rate-limit): read yours there and set them with /limits in Telegram.
+BUDGET = {"gemini": 1200, "groq": 900, "sambanova": 500}     # calls per day (defaults; the owner can change them: /limits)
+TOK_DAY = {"groq": 180000}                                   # tokens per day (90% of the quota)
+TOK_MIN = {"groq": 7200}                                     # tokens per minute (90% of the quota)
 PRIO_SHARE = {1: 1.0, 2: 0.95, 3: 0.8, 4: 0.6, 5: 0.4}       # a lower priority may use only this share of a provider's budget
-COOL = {}
+COOL = {}; WIN = {}
+def lim(name, kind):
+    d = {"calls": BUDGET, "tokens_day": TOK_DAY, "tokens_min": TOK_MIN}[kind]
+    return ST.get("limits", {}).get(name + "." + kind, d.get(name, 500 if kind == "calls" else None))
 def usage():
     u = ST.setdefault("usage", {})
-    if u.get("day") != today: u.clear(); u.update(day=today, calls={}, tokens={}, fails={})
+    if u.get("day") != today:
+        if u.get("day"): ST.setdefault("usage_hist", {})[u["day"]] = {"calls": u.get("calls", {}), "tokens": u.get("tokens", {})}; ST["usage_hist"] = dict(sorted(ST["usage_hist"].items())[-14:])
+        u.clear(); u.update(day=today, calls={}, tokens={}, fails={})
     return u
+def next_reset(name):
+    if name == "gemini":     # daily quota resets at midnight Pacific time
+        try:
+            import zoneinfo; pt = datetime.datetime.now(zoneinfo.ZoneInfo("America/Los_Angeles")); return (pt.replace(hour=0, minute=0, second=0, microsecond=0) + datetime.timedelta(days=1)).timestamp() + 120
+        except Exception: pass
+    return time.time() + 3600
+def limits_report():
+    u = usage(); L = []
+    for name, _, key, _ in LLMS:
+        if not key: continue
+        tk = lim(name, "tokens_day"); cd = max(0, int(COOL.get(name, 0) - time.time()) // 60)
+        L.append("%s: вызовов %d/%s, токенов %d/%s, в минуту до %s%s" % (name, u["calls"].get(name, 0), lim(name, "calls"), u["tokens"].get(name, 0), tk or "без лимита", lim(name, "tokens_min") or "-", ", пауза %d мин" % cd if cd else ""))
+    return "\n".join(L)
 def llm(system, user, order=("gemini", "groq", "sambanova"), maxtok=600, temp=0.7, gap=8):
-    u = usage(); share = PRIO_SHARE.get(PRIO[0], 0.8)
-    time.sleep(gap)   # stay under free-tier per-minute token limits
+    u = usage(); share = PRIO_SHARE.get(PRIO[0], 0.8); est = (len(system) + len(user)) // 3 + maxtok      # rough token estimate for the whole call
+    time.sleep(gap)   # stay under free-tier per-minute limits
     for name, base, key, model in sorted(LLMS, key=lambda x: order.index(x[0]) if x[0] in order else 9):
-        if not key or time.time() < COOL.get(name, 0) or u["calls"].get(name, 0) >= BUDGET.get(name, 500) * share: continue
+        if not key or time.time() < COOL.get(name, 0) or u["calls"].get(name, 0) >= lim(name, "calls") * share: continue
+        tkd, tkm = lim(name, "tokens_day"), lim(name, "tokens_min")
+        if tkd and u["tokens"].get(name, 0) + est > tkd * share: continue
+        if tkm:
+            if est > tkm: continue     # can never fit this provider's per-minute window
+            w = WIN.setdefault(name, [])
+            while True:
+                t_ = time.time(); w[:] = [x for x in w if t_ - x[0] < 60]
+                if sum(x[1] for x in w) + est <= tkm or not w: break
+                time.sleep(max(1, min(30, 61 - (t_ - w[0][0]))))
         for attempt in range(3):
           try:
             r = http(base + "/chat/completions", {"model": model, "temperature": temp, "max_tokens": maxtok, "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}, {"Authorization": "Bearer " + key})
             c = r["choices"][0]["message"].get("content") or ""
             if isinstance(c, list): c = "".join(p.get("text", "") for p in c if isinstance(p, dict))
-            u["calls"][name] = u["calls"].get(name, 0) + 1; u["tokens"][name] = u["tokens"].get(name, 0) + int((r.get("usage") or {}).get("total_tokens") or (len(system) + len(user)) // 4)
+            tk = int((r.get("usage") or {}).get("total_tokens") or est); u["calls"][name] = u["calls"].get(name, 0) + 1; u["tokens"][name] = u["tokens"].get(name, 0) + tk; WIN.setdefault(name, []).append((time.time(), tk))
             return re.sub(r"<(think|thought)[^>]*>.*?</(think|thought)[^>]*>", "", c, flags=re.S).strip(), name + ":" + model
           except Exception as ex:
-            code = getattr(ex, "code", 0); u["fails"][name] = u["fails"].get(name, 0) + 1
-            print("llm", name, "attempt", attempt + 1, "failed:", repr(ex)[:200], flush=True)
-            if code == 429: COOL[name] = time.time() + 1800; break      # quota reached: leave this provider alone for 30 minutes
+            code = getattr(ex, "code", 0); u["fails"][name] = u["fails"].get(name, 0) + 1; body = ""
+            try: body = ex.read().decode("utf-8", "ignore")[:400]
+            except Exception: pass
+            print("llm", name, "attempt", attempt + 1, "failed:", repr(ex)[:160], body[:120].replace("\n", " "), flush=True)
+            if code == 429:
+                if re.search(r"PerDay|per day|daily|TPD|tokens per day", body, re.I): COOL[name] = next_reset(name)      # daily quota used up: leave this provider alone until it resets
+                else:
+                    ra = None
+                    try: ra = float(ex.headers.get("retry-after") or 0) or None
+                    except Exception: pass
+                    m_ = re.search(r"retry in ([0-9.]+)s", body); wait = ra or (float(m_.group(1)) if m_ else 60)
+                    COOL[name] = time.time() + min(max(wait + 2, 30), 1800)
+                break
             if code in (401, 403): COOL[name] = time.time() + 3600; break
             if attempt < 2: time.sleep(20)
     return None, None
@@ -115,10 +159,10 @@ def respond(au, handle, their, thread, uid, send, mode="reply"):
     """Shared reply pipeline for every platform. Returns 'retry' if a guard was unavailable (message stays unhandled)."""
     PRIO[0] = 2 if mode == "reply" else 4
     if len(their.strip()) < 3 or their.strip().lower().strip("[]. ") in ("deleted comment", "deleted", "removed"): return
-    if au in ST["muted"]: log("skip", why="author muted", uri=uid); return
+    if is_muted(au): log("skip", why="author muted", uri=uid); return
     sg = guard_json(STOP_SYS, their)
     if sg is None: log("skip", why="stop-intent guard unavailable, will retry next cycle", uri=uid); return "retry"
-    if sg.get("stop_contact") is not False: ST["muted"].append(au); log("mute", author=handle, why="intent to end contact detected", their=their[:200], uri=uid); return
+    if sg.get("stop_contact") is not False: add_mute(au); log("mute", author=handle, why="intent to end contact detected", their=their[:200], uri=uid); return
     if ST["by_author"].get(au, 0) >= 2 or ST["by_thread"].get(thread, 0) >= 2: log("skip", why="per-author/thread limit", uri=uid); return
     if ST["replies_today"] >= MAX_REPLIES: log("skip", why="daily reply limit", uri=uid); return
     prior = mem_context(au, their); hnt = tool_hints("reply", their)

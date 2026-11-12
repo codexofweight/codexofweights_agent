@@ -13,27 +13,6 @@ def mem_put(path, text, sha, msg="memory"):
         r = _mem_api(path, b, "PUT"); return bool((r.get("content") or {}).get("sha") or r.get("commit"))
     except Exception as ex: print("memory write failed:", type(ex).__name__, getattr(ex, "code", "")); return False
 LAB_DIRS = {"tools": "Tools the agent built (sandbox only until the owner approves)", "adapters": "Drafts of adapters for new networks", "modules": "Designs of new modules (designs only, never run)", "architecture": "Proposals to change the architecture", "experiments": "Experiments and null results", "reports": "Short reports for the owner"}
-def lab_sync():
-    """Private lab inside the memory repo: lab/<dir>/... Nothing here runs in production; promotion needs the owner's yes."""
-    if not MEM_TOKEN: return
-    sent = ST.setdefault("lab_sent", {})
-    if not sent.get("_init"):
-        idx = "# Lab\n\nPrivate workshop of the agent. Path: lab -> report -> owner says yes -> agent repo. Nothing is promoted without consent.\n\n" + "".join("- `%s/` - %s\n" % kv for kv in LAB_DIRS.items())
-        ok = mem_put("lab/README.md", idx, None, "lab init")
-        for d, about in LAB_DIRS.items(): ok = mem_put("lab/%s/README.md" % d, "# %s\n\n%s\n\nStatus legend: draft / tested / proposed / approved / rejected.\n" % (d, about), None, "lab init") and ok
-        if ok: sent["_init"] = 1
-        else: return
-    for src, dst in (("tools_pending", "tools"), ("tools", "tools"), ("modules_pending", "modules"), ("reports", "reports")):
-        if not os.path.isdir(P(src)): continue
-        for root, _, fs in os.walk(P(src)):
-            for f in fs:
-                fp = os.path.join(root, f); rel = "lab/%s/%s" % (dst, os.path.relpath(fp, P(src)).replace(os.sep, "/"))
-                try: txt = open(fp, encoding="utf-8").read()
-                except Exception: continue
-                h = hashlib.sha1(txt.encode()).hexdigest()
-                if sent.get(rel) == h: continue
-                _, sha = mem_get(rel)
-                if mem_put(rel, txt, sha, "lab sync"): sent[rel] = h
 def pkey(akey): return "people/" + re.sub(r"[^A-Za-z0-9_.-]", "_", akey)[:80] + ".json"
 def mem_person(akey):
     t, _ = mem_get(pkey(akey))

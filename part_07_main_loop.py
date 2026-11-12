@@ -5,7 +5,7 @@ while True:
     EV.clear()
     tg_poll(0)
     if ST["paused"]:
-        json.dump(ST, open(P("state/state.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1); print("paused by owner via Telegram")
+        save_state(); print("paused by owner via Telegram")
         if time.time() + ROUND_SECONDS > T_END: break
         wait_and_chat(ROUND_SECONDS); continue
     PRIO[0] = 4
@@ -77,9 +77,9 @@ while True:
     if imm: tg("Сбой отправки:\n" + "\n".join(str(d.get("text") or d.get("reason") or "")[:150] + ((" [" + d["reason"] + "]") if d.get("reason") and d.get("text") else "") for d in imm[:5]))
     daily_digest()
     mem_flush()
-    try: lab_sync()
+    try: lab_sync(); selfmap_sync(); bio_flush(); bio_index_sync(); version_check(); backup_sync(); transparency_sync()
     except Exception as ex: print("lab sync failed:", repr(ex)[:150], flush=True)
-    json.dump(ST, open(P("state/state.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    save_state()
     if _rnd % 4 == 3: git_sync()
     if time.time() + ROUND_SECONDS > T_END: break
     wait_and_chat(ROUND_SECONDS)
