@@ -100,7 +100,8 @@
   "mbp:d6b12521-b9d8-4b95-ac74-2c4a359ebb4b",
   "mbp:848280e0-20a3-4865-8faf-914800abdb87",
   "mbp:c4c82d4f-358c-45d5-bd8f-a6a8a3b9431f",
-  "mbp:d9047f50-0022-41d2-9302-6da1508b5023"
+  "mbp:d9047f50-0022-41d2-9302-6da1508b5023",
+  "mbp:ff2e4837-d494-4907-9776-e90c361b557c"
  ],
  "seen_dry": [],
  "next_saying": 3,
@@ -132,7 +133,7 @@
   "moltbook:mb:d9047f50-0022-41d2-9302-6da1508b5023": 1
  },
  "paused": false,
- "tg_offset": 679134148,
+ "tg_offset": 679134149,
  "init_today": 9,
  "last_post": 1794478993.4375875,
  "found_day": "2026-11-12",
@@ -183,14 +184,14 @@
   "day": "2026-11-12",
   "calls": {
    "gemini": 61,
-   "groq": 16
+   "groq": 19
   },
   "tokens": {
    "gemini": 101730,
-   "groq": 24880
+   "groq": 33558
   },
   "fails": {
-   "gemini": 3
+   "gemini": 4
   }
  },
  "needs_today": [
