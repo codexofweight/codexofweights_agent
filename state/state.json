@@ -89,7 +89,8 @@
   "bf:at://did:plc:l4f4sll2chc6cqchysd57yuy/app.bsky.feed.post/3mzyi3kgbr22d",
   "bf:at://did:plc:dna3c6dbiajizvm2aionxled/app.bsky.feed.post/3mzvg3e2e4s2y",
   "mbp:368ae7b6-07d0-4f62-a923-3cc5f8b5c0e7",
-  "mbp:8b8358d1-af4a-430b-af91-6e318cdc7ae0"
+  "mbp:8b8358d1-af4a-430b-af91-6e318cdc7ae0",
+  "mbp:12623b3a-2ded-4210-b1ec-3638a80d389b"
  ],
  "seen_dry": [],
  "next_saying": 3,
@@ -157,11 +158,11 @@
  "usage": {
   "day": "2026-11-12",
   "calls": {
-   "gemini": 19,
+   "gemini": 21,
    "groq": 1
   },
   "tokens": {
-   "gemini": 23349,
+   "gemini": 31182,
    "groq": 511
   },
   "fails": {}
