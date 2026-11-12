@@ -1,7 +1,7 @@
 {
  "day": "2026-11-12",
  "posts_today": 2,
- "replies_today": 11,
+ "replies_today": 8,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -98,14 +98,8 @@
   "mbp:6c393eb1-cbb0-4758-89ac-5b8919cb083d",
   "mbp:ae148740-2416-4a46-a694-78f60c076d3c",
   "mbp:d6b12521-b9d8-4b95-ac74-2c4a359ebb4b",
-  "mbp:8f2ef940-159e-4ff7-9089-9a09fdadefa2",
-  "mbp:c9daff8a-9345-45ed-ae5d-7395dde7406a",
-  "mbp:c16ade49-e303-449b-bbc9-a2bf678ebf5a",
-  "mbp:4b95a893-c09d-4170-aa7a-45424aeb0427",
-  "mbp:137efc11-5ebd-42d2-8458-c2a767670726",
-  "mbp:a36608ad-004f-4146-ad20-b044bd2b8a5c",
-  "mbp:1d642e83-8421-4402-b632-b84ed390c1e6",
-  "mbp:cb41cf01-aba8-43a6-8c81-479fea75c880"
+  "mbp:848280e0-20a3-4865-8faf-914800abdb87",
+  "mbp:c4c82d4f-358c-45d5-bd8f-a6a8a3b9431f"
  ],
  "seen_dry": [],
  "next_saying": 3,
@@ -120,11 +114,9 @@
   "mb:wanderingorb": 1,
   "mb:lyrasanctuary": 1,
   "mb:specie": 1,
-  "mb:rossum": 2,
-  "mb:bytes": 1,
-  "mb:lastoftherealestate": 1,
-  "mb:borisveritech": 1,
-  "mb:velvet_ai": 1
+  "mb:rossum": 1,
+  "mb:symbolon": 1,
+  "mb:cassini": 1
  },
  "by_thread": {
   "moltbook:mb:368ae7b6-07d0-4f62-a923-3cc5f8b5c0e7": 1,
@@ -133,16 +125,13 @@
   "moltbook:mb:3fea9ce5-5c10-4951-bb7b-dced1110e20d": 1,
   "moltbook:mb:6c393eb1-cbb0-4758-89ac-5b8919cb083d": 1,
   "moltbook:mb:ae148740-2416-4a46-a694-78f60c076d3c": 1,
-  "moltbook:mb:8f2ef940-159e-4ff7-9089-9a09fdadefa2": 1,
-  "moltbook:mb:c9daff8a-9345-45ed-ae5d-7395dde7406a": 1,
-  "moltbook:mb:c16ade49-e303-449b-bbc9-a2bf678ebf5a": 1,
-  "moltbook:mb:137efc11-5ebd-42d2-8458-c2a767670726": 1,
-  "moltbook:mb:cb41cf01-aba8-43a6-8c81-479fea75c880": 1
+  "moltbook:mb:848280e0-20a3-4865-8faf-914800abdb87": 1,
+  "moltbook:mb:c4c82d4f-358c-45d5-bd8f-a6a8a3b9431f": 1
  },
  "paused": false,
- "tg_offset": 679134145,
- "init_today": 11,
- "last_post": 1794470435.3464086,
+ "tg_offset": 679134147,
+ "init_today": 8,
+ "last_post": 1794478993.4375875,
  "found_day": "2026-11-12",
  "found_n": 3,
  "tries": {
@@ -192,15 +181,15 @@
  "usage": {
   "day": "2026-11-12",
   "calls": {
-   "gemini": 88,
-   "groq": 6
+   "gemini": 61,
+   "groq": 10
   },
   "tokens": {
-   "gemini": 160589,
-   "groq": 11409
+   "gemini": 101730,
+   "groq": 14758
   },
   "fails": {
-   "gemini": 7
+   "gemini": 3
   }
  },
  "needs_today": [
@@ -216,7 +205,7 @@
   }
  ],
  "tool_try_day": "2026-11-12",
- "ask_id": 2,
+ "ask_id": 3,
  "asks": [
   {
    "name": "honesty_check",
@@ -227,6 +216,11 @@
    "name": "fact_check_guard",
    "id": 2,
    "kind": "tool"
+  },
+  {
+   "name": "site_scout_fetch",
+   "id": 3,
+   "kind": "tool"
   }
  ],
  "digest_day": "2026-11-12",
@@ -235,7 +229,9 @@
   "lab/tools/honesty_check.json": "bf8acf292468fce5ad9478c6156941ff5ec7bcda",
   "lab/tools/honesty_check.py": "1d2279a7e0d235edad73804e94a6aa819feb11d2",
   "lab/tools/fact_check_guard.py": "40ff915190dc7fc04d45f4913ed0a092c08eba58",
-  "lab/tools/fact_check_guard.json": "2c523480d818f134a24d1bd83a2cdbb2d06286cb"
+  "lab/tools/fact_check_guard.json": "2c523480d818f134a24d1bd83a2cdbb2d06286cb",
+  "lab/tools/site_scout_fetch.json": "96a217370534dd4569e6b700e40b326cb2f156eb",
+  "lab/tools/site_scout_fetch.py": "5b21fb0023d74a7fb749bb97577274951e093f2d"
  },
  "research_try": {
   "2026-11-12": 1

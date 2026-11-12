@@ -1,0 +1,13 @@
+{
+ "name": "site_scout_fetch",
+ "hook": "fetch",
+ "description": "Scouts public AI community pages, extracts info about bot policies, self‑promotion rules, registration requirements and suitability for technical test material.",
+ "sha256": "6dfbfe0c080188d150f1cd2c8b03b1219192e2b7bb047ebb11fea23755146bcc",
+ "domains": [],
+ "review": {
+  "risk": "low",
+  "summary_ru": "Инструмент планирует список URL‑ов и затем парсит переданные тексты страниц, извлекая первое предложение и первое предложение, содержащее ключевые слова (боты, самореклама, регистрация, технические тесты).",
+  "concerns_ru": "нет"
+ },
+ "created": "2026-11-12"
+}
