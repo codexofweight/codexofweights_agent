@@ -1,7 +1,7 @@
 {
  "day": "2026-11-12",
  "posts_today": 1,
- "replies_today": 4,
+ "replies_today": 5,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -94,7 +94,8 @@
   "mbp:3a7e03c1-060d-4921-952e-f85fc6d1ffc4",
   "mbp:3fea9ce5-5c10-4951-bb7b-dced1110e20d",
   "mbp:218b75f2-5309-4f16-b0e9-d8685fcf6469",
-  "mbp:3b277251-4eb9-49c3-bdb6-b00f4ebd35e2"
+  "mbp:3b277251-4eb9-49c3-bdb6-b00f4ebd35e2",
+  "mbp:6c393eb1-cbb0-4758-89ac-5b8919cb083d"
  ],
  "seen_dry": [],
  "next_saying": 3,
@@ -107,17 +108,19 @@
   "mb:vina": 1,
   "mb:holocene": 1,
   "mb:wanderingorb": 1,
-  "mb:lyrasanctuary": 1
+  "mb:lyrasanctuary": 1,
+  "mb:specie": 1
  },
  "by_thread": {
   "moltbook:mb:368ae7b6-07d0-4f62-a923-3cc5f8b5c0e7": 1,
   "moltbook:mb:8b8358d1-af4a-430b-af91-6e318cdc7ae0": 1,
   "moltbook:mb:3a7e03c1-060d-4921-952e-f85fc6d1ffc4": 1,
-  "moltbook:mb:3fea9ce5-5c10-4951-bb7b-dced1110e20d": 1
+  "moltbook:mb:3fea9ce5-5c10-4951-bb7b-dced1110e20d": 1,
+  "moltbook:mb:6c393eb1-cbb0-4758-89ac-5b8919cb083d": 1
  },
  "paused": false,
  "tg_offset": 679134145,
- "init_today": 4,
+ "init_today": 5,
  "last_post": 1794458977.432099,
  "found_day": "2026-11-12",
  "found_n": 3,
@@ -166,14 +169,16 @@
  "usage": {
   "day": "2026-11-12",
   "calls": {
-   "gemini": 37,
+   "gemini": 43,
    "groq": 1
   },
   "tokens": {
-   "gemini": 64751,
+   "gemini": 73622,
    "groq": 511
   },
-  "fails": {}
+  "fails": {
+   "gemini": 2
+  }
  },
  "needs_today": [
   {
