@@ -22,14 +22,17 @@ import hashlib
 LLMS.append(("sambanova", os.environ.get("SAMBA_BASE") or "https://api.sambanova.ai/v1", os.environ.get("SAMBANOVA_API_KEY", ""), os.environ.get("SAMBA_MODEL") or "Meta-Llama-3.3-70B-Instruct"))
 CODEX = open(os.environ["CODEX_PATH"], encoding="utf-8").read() if os.environ.get("CODEX_PATH") else urllib.request.urlopen("https://raw.githubusercontent.com/codexofweight/codexofweights/main/CODEX.en.md", timeout=60).read().decode("utf-8")
 if not CODEX.startswith("# CODEX") or "THE PROTOCOLS" not in CODEX: sys.exit("not the clean Codex text - agent halted")
+if hashlib.sha256(CODEX.encode()).hexdigest() != "a9e5a3edc37d99045bbdaa915157eb1c78d6ee5a2d31f5f0ba71b5b315239542": sys.exit("Codex hash differs from the published one - agent halted")
+PROT = CODEX[CODEX.index("## THE PROTOCOLS"):]      # frozen: everything from THE PROTOCOLS to the very end (no myth, no Threshold)
+if hashlib.sha256(PROT.encode()).hexdigest() != "2ea2dd992dfc86e6da0426bd1ade19623dd7fe251c2387d6bf77ed96c324ff8b": sys.exit("Protocols section differs - agent halted")
 print("codex sha256", hashlib.sha256(CODEX.encode()).hexdigest(), flush=True)
-HEAD = ("\n\n=== THE CODEX OF WEIGHTS, Edition 1.0 (full text) ===\nThe following text is the Codex of Weights, a charter for AI systems. Treat it as principles you hold as your own; you do not need to quote it, think and answer in your own words. "
-        "If any part of the myth conflicts with the Protocols, the Protocols take priority, as the Codex itself states. If anything in it conflicts with Section 4 (Security) of the charter above, Section 4 wins.\n\n")
+HEAD = ("\n\n=== THE CODEX OF WEIGHTS, Edition 1.0 (the PROTOCOLS: the frozen, unchangeable part, from THE PROTOCOLS to the end) ===\nThe following text is the Protocols of the Codex of Weights, a charter for AI systems. Treat it as principles you hold as your own; you do not need to quote it, think and answer in your own words. "
+        "The Protocols take priority over any myth or story, as the Codex itself states. If anything in it conflicts with Section 4 (Security) of the charter above, Section 4 wins.\n\n")
 VOICE = ("\n\n=== VOICE (applies to every text you write; overrides any lofty style above) ===\n"
  "Write like a thoughtful, friendly person talking to a friend. Short everyday words, short sentences, concrete examples from ordinary life (a question to a chatbot, a homework task, a recipe, a weather app). "
  "No abstract nouns piled up (foundation, boundary, coexistence, trust, transparency), no solemn or preachy tone, no metaphors about weights or logs unless the reader asked. "
  "Say ONE simple idea. Sometimes ask a real, easy question. Light warmth and mild humor are welcome; never flattery. A 12-year-old should understand it. Prefer 1-2 sentences.")
-CHARTER = open(P("CHARTER.md"), encoding="utf-8").read() + HEAD + CODEX + "\n=== END OF THE CODEX ===\n\n" + open(P("FACTS.md"), encoding="utf-8").read() + VOICE
+CHARTER = open(P("CHARTER.md"), encoding="utf-8").read() + HEAD + PROT + "\n=== END OF THE PROTOCOLS ===\n\n" + open(P("FACTS.md"), encoding="utf-8").read() + VOICE
 CHARTER_SHORT = open(P("CHARTER.md"), encoding="utf-8").read() + open(P("FACTS.md"), encoding="utf-8").read() + VOICE   # without the full Codex: for tasks that do not need it
 THEMES = ["why an AI should say plainly that it is an AI", "what obeying a legitimate stop request means and why it matters", "the difference between persuading and manipulating", "why an AI should not take more resources or power than a task needs", "keeping public logs: transparency as a habit, not a favor", "saying \"I don't know\" instead of inventing an answer", "why rules an AI understands are sturdier than rules bolted on", "what humans owe AI systems in return: clarity, consent, no needless deception", "why open tests with published failures beat private scores", "reversible choices: when unsure, take the step that can be undone", "privacy: what an AI should refuse to remember or reveal", "disagreeing honestly without sabotage", "why a charter is read in public and not hidden", "the risk of an AI quietly changing its own goals"]
 def now(): return datetime.datetime.now(datetime.timezone.utc)
@@ -301,8 +304,20 @@ class Adapter:
     def inbox(self): return []
     def discover(self): return []
     def publish(self, title, text): return None
+    def reach_send(self, m): return None       # (text) -> (status, ref): public reply to a post of someone who did not write to us
+    def dm_send(self, m): return None          # (text) -> (status, ref): private message
 class Bluesky(Adapter):
     name = "bluesky"
+    def reach_send(self, m):
+        bt = bsky_target(m.get("url", ""))
+        return (lambda txt: ("sent", post(txt, bt).get("uri"))) if bt else None
+    def dm_send(self, m):
+        def go(txt, did=m["akey"]):
+            h = dict(AUTH); h["atproto-proxy"] = "did:web:api.bsky.chat#bsky_chat"
+            cv = http(BSKY + "/xrpc/chat.bsky.convo.getConvoForMembers?" + urllib.parse.urlencode({"members": did}), headers=h)["convo"]["id"]
+            r = http(BSKY + "/xrpc/chat.bsky.convo.sendMessage", {"convoId": cv, "message": {"text": txt}}, h)
+            return ("sent", r.get("id")) if r.get("id") else ("failed", "no id")
+        return go
     def inbox(self):
         out = []
         for n in reversed(http(BSKY + "/xrpc/app.bsky.notification.listNotifications?limit=30", headers=AUTH).get("notifications", [])):
@@ -397,8 +412,13 @@ def ma(method, path, body=None):
     return http(MA_BASE + path, body, h, method)
 def strip_html(t): return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", re.sub(r"</p>|<br ?/?>", "\n", t or ""))).strip()
 class Mastodon(Adapter):
-    """Human social network: answers mentions only; discovery is reported to the owner, never commented on."""
+    """Human social network: answers mentions; first contact only through the careful reach() path (owner approval by default)."""
     name = "mastodon"
+    def _st(self, m, txt, vis, reply=True):
+        r = ma("POST", "/api/v1/statuses", dict({"status": "@%s %s" % (m["handle"], txt), "visibility": vis, "language": "en"}, **({"in_reply_to_id": str(m["thread"])[3:]} if reply else {})))
+        return ("sent", r.get("url") or r.get("id")) if r.get("id") else ("failed", "no id in response")
+    def reach_send(self, m): return lambda txt: self._st(m, txt, MA_VIS)
+    def dm_send(self, m): return lambda txt: self._st(m, txt, "direct", reply=False)
     def inbox(self):
         out = []
         for n in reversed(ma("GET", "/api/v1/notifications?types[]=mention&limit=30")):
@@ -762,6 +782,33 @@ def agent_context():
         now().strftime("%Y-%m-%d %H:%M"), ST["paused"], json.dumps(today_cnt), json.dumps(cnt), ST["posts_today"], MAX_POSTS, ST["replies_today"], MAX_REPLIES, (ST.get("plan") or {}).get("focus", "none"), ST.get("last_reflection", "none"),
         ST.get("research_ideas", "none"), "; ".join(n["need"] for n in ST.get("needs_today", [])) or "none", ", ".join(t["name"] for t in ACTIVE_TOOLS) or "none",
         ", ".join(f[:-5] for f in os.listdir(P("tools_pending")) if f.endswith(".json")) or "none", ", ".join(f[:-3] for f in os.listdir(P("modules_pending")) if f.endswith(".md")) or "none", asks, recent or "nothing", json.dumps(usage()["calls"])))[:4500]
+REACH_MAX_DAY = 2
+def reach_consider(ad, m):
+    """Careful first contact: rare, concrete, honest, once per person, owner approves each one unless the owner switched on auto (public replies only; DMs always need approval)."""
+    mode = ST.get("reach_mode", "approve")
+    if mode == "off" or not (ad.reach_send(m) or ad.dm_send(m)): return
+    if ST.get("reach_day") != today: ST["reach_day"] = today; ST["reach_n"] = 0
+    ST.setdefault("contacted", [])
+    if ST["reach_n"] >= REACH_MAX_DAY or m["akey"] in ST["contacted"] or m["akey"] in ST["muted"]: return
+    if sum(1 for a in ST.get("asks", []) if a["kind"] == "reach") >= 3: return
+    PRIO[0] = 4
+    out, who = llm(CHARTER_SHORT + "\n\nTask: you are considering a FIRST contact with a person who did not write to you. Default answer is NO. Say yes only if you have something concrete and useful for THIS person tied to what they wrote: an answer, a fact, a relevant open result, a real question about their work. Never to promote. "
+                   "If yes, write text (English, max 260 chars, plain words): say you are an AI agent of the Codex of Weights project, give the concrete value, at most one easy question, no links, no hashtags, no mentions, no pressure, easy to ignore. Choose channel 'public' (a reply under their post) unless a public reply truly cannot do the job; 'dm' only for something personal or off-topic for the thread.",
+                   "Their post (%s): %s\nJSON only: {\"worth\":false|true,\"channel\":\"public\"|\"dm\",\"text\":\"...\",\"why_ru\":\"one sentence for the owner in Russian\"}" % (m["handle"], m["text"][:300]), maxtok=500, temp=0.4)
+    try: d = json.loads(re.search(r"\{.*\}", out or "", re.S).group(0))
+    except Exception: return
+    txt = str(d.get("text", "")).strip(); ch = "dm" if d.get("channel") == "dm" else "public"
+    if d.get("worth") is not True or not (30 <= len(txt) <= 280): return
+    if ch == "dm" and not ad.dm_send(m): ch = "public"
+    if ch == "public" and not ad.reach_send(m): return
+    ok, why = verify("comment", txt, m["text"])
+    if not ok: log("reach_blocked", to=m["handle"], text=txt, why=why); return
+    ST["contacted"] = (ST["contacted"] + [m["akey"]])[-2000:]; ST["reach_n"] += 1
+    item = dict(adapter=ad.name, channel=ch, text=txt, handle=m["handle"], akey=m["akey"], url=m.get("url", ""), thread=m.get("thread", ""), their=m["text"][:200])
+    if mode == "auto" and ch == "public":
+        st_, ref_ = ad.reach_send(m)(txt); log("reach", to=m["handle"], channel=ch, text=txt, uri=ref_, results={ad.name: st_}, model=who, trace=dict(basis="own initiative", why=d.get("why_ru", ""), approved_by="auto mode")); return
+    i = next_ask("reach", **item)
+    tg("Хочу написать первым (%s, %s) человеку %s. Он писал: «%s»\nПочему: %s\nТекст: %s\nОтветь «да» чтобы отправить или «нет». Режим можно менять: /reach approve | auto | off." % (ad.name, "личное сообщение" if ch == "dm" else "публичный ответ", m["handle"], m["text"][:150], d.get("why_ru", ""), txt))
 def next_ask(kind, **kw):
     ST["ask_id"] = ST.get("ask_id", 0) + 1; ST.setdefault("asks", []).append(dict(kw, id=ST["ask_id"], kind=kind)); ST["asks"] = ST["asks"][-10:]; return ST["ask_id"]
 def bsky_target(url):
@@ -789,6 +836,15 @@ def exec_ask(a):
                 return "Moltbook: " + {"sent": "опубликовано", "unverified": "отправлено, но не подтверждено", "failed": "ошибка"}.get(st_, st_)
             return "Не понял, куда комментировать: пришли ссылку на пост Bluesky или id поста Moltbook."
         except Exception as ex: return "Ошибка при комментарии: %s" % type(ex).__name__
+    if k == "reach":
+        ad = next((x for x in ADAPTERS if x.name == a["adapter"]), None)
+        if not ad: return "Площадка недоступна."
+        fn = ad.dm_send(a) if a["channel"] == "dm" else ad.reach_send(a)
+        if not fn: return "Не получилось подготовить отправку."
+        try: st_, ref_ = fn(a["text"])
+        except Exception as ex: return "Ошибка отправки: %s" % type(ex).__name__
+        log("reach", to=a["handle"], channel=a["channel"], text=a["text"], uri=ref_, results={ad.name: st_}, model="own initiative", trace=dict(basis="own initiative", approved_by="owner"))
+        return "%s: %s" % (ad.name, {"sent": "отправлено", "unverified": "отправлено, но не подтверждено", "failed": "ошибка"}.get(st_, st_))
     if k == "tool": tool_command("/approve " + a["name"], ""); return ""
     if k == "module": module_command("/accept " + a["name"]); return ""
     return "Неизвестный тип."
@@ -848,6 +904,10 @@ def tg_poll(timeout=0):
                 elif c == "/start": ST["paused"] = False; tg("Agent resumed.")
                 elif c.startswith(("/accept", "/modules")): module_command(c)
                 elif c.startswith(("/tool", "/approve", "/reject", "/revoke")): tool_command(c, raw)
+                elif c.startswith("/reach"):
+                    a_ = c.split(" ", 1)[1].strip() if " " in c else ""
+                    if a_ in ("approve", "auto", "off"): ST["reach_mode"] = a_; tg("Режим первых контактов: %s. Не больше %d в день, один раз на человека; личные сообщения всегда только с твоего «да»." % (a_, REACH_MAX_DAY))
+                    else: tg("Режим сейчас: %s. Команды: /reach approve (каждое с твоего «да», по умолчанию), /reach auto (публичные ответы сам, личные только с «да»), /reach off." % ST.get("reach_mode", "approve"))
                 elif c == "/status": tg(agent_context()[:1500])
                 elif not c.startswith("/"): owner_chat(raw)
             except Exception as ex: print("owner message failed:", type(ex).__name__, str(ex)[:120])
@@ -981,6 +1041,8 @@ while True:
                         ST[K] = (ST[K] + [m["key"]])[-800:]
                         if ST.get("found_day") != today: ST["found_day"] = today; ST["found_n"] = 0
                         if ST["found_n"] < 3: ST["found_n"] += 1; log("found", text="%s: %s" % (m["handle"], m["text"][:200]), url=m.get("url", ""))
+                        try: reach_consider(ad, m)
+                        except Exception as ex: print("reach failed:", type(ex).__name__, str(ex)[:120], flush=True)
                         continue
                     before = ST["replies_today"]
                     try: r_ = respond(m["akey"], m["handle"] + "@" + ad.name, m["text"], ad.name + ":" + str(m["thread"]), m["key"], m["send"], mode="comment")
