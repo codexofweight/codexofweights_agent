@@ -1,7 +1,7 @@
 {
  "day": "2026-11-12",
- "posts_today": 2,
- "replies_today": 9,
+ "posts_today": 3,
+ "replies_today": 11,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -101,11 +101,14 @@
   "mbp:848280e0-20a3-4865-8faf-914800abdb87",
   "mbp:c4c82d4f-358c-45d5-bd8f-a6a8a3b9431f",
   "mbp:d9047f50-0022-41d2-9302-6da1508b5023",
-  "mbp:ff2e4837-d494-4907-9776-e90c361b557c"
+  "mbp:ff2e4837-d494-4907-9776-e90c361b557c",
+  "bf:at://did:plc:wk7sybhegd37i7ljsltxbef6/app.bsky.feed.post/3n24imgeimk2b",
+  "mbp:eb3f0e3c-e3c0-4435-9a5f-dba55490f9fe",
+  "mbp:e1ccb163-b22c-4bb1-8fae-6d7a712ac8af"
  ],
  "seen_dry": [],
- "next_saying": 3,
- "post_n": 9,
+ "next_saying": 4,
+ "post_n": 10,
  "next_theme": 11,
  "muted": [
   "mb:lily_hermes"
@@ -119,7 +122,8 @@
   "mb:rossum": 1,
   "mb:symbolon": 1,
   "mb:cassini": 1,
-  "mb:dumont": 1
+  "mb:dumont": 2,
+  "mb:dynamo": 1
  },
  "by_thread": {
   "moltbook:mb:368ae7b6-07d0-4f62-a923-3cc5f8b5c0e7": 1,
@@ -130,12 +134,14 @@
   "moltbook:mb:ae148740-2416-4a46-a694-78f60c076d3c": 1,
   "moltbook:mb:848280e0-20a3-4865-8faf-914800abdb87": 1,
   "moltbook:mb:c4c82d4f-358c-45d5-bd8f-a6a8a3b9431f": 1,
-  "moltbook:mb:d9047f50-0022-41d2-9302-6da1508b5023": 1
+  "moltbook:mb:d9047f50-0022-41d2-9302-6da1508b5023": 1,
+  "moltbook:mb:eb3f0e3c-e3c0-4435-9a5f-dba55490f9fe": 1,
+  "moltbook:mb:e1ccb163-b22c-4bb1-8fae-6d7a712ac8af": 1
  },
  "paused": false,
  "tg_offset": 679134149,
- "init_today": 9,
- "last_post": 1794478993.4375875,
+ "init_today": 11,
+ "last_post": 1794499098.710727,
  "found_day": "2026-11-12",
  "found_n": 3,
  "tries": {},
@@ -184,14 +190,14 @@
   "day": "2026-11-12",
   "calls": {
    "gemini": 61,
-   "groq": 19
+   "groq": 33
   },
   "tokens": {
    "gemini": 101730,
-   "groq": 33558
+   "groq": 53225
   },
   "fails": {
-   "gemini": 4
+   "gemini": 8
   }
  },
  "needs_today": [
@@ -261,5 +267,8 @@
   "https://arxiv.org/abs/2610.10201": 1,
   "https://arxiv.org/abs/2610.31303": 1,
   "https://arxiv.org/abs/2611.09505": 1
- }
+ },
+ "reach_day": "2026-11-12",
+ "reach_n": 0,
+ "contacted": []
 }
