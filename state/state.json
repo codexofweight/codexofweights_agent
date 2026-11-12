@@ -102,7 +102,8 @@
   "mbp:c9daff8a-9345-45ed-ae5d-7395dde7406a",
   "mbp:c16ade49-e303-449b-bbc9-a2bf678ebf5a",
   "mbp:4b95a893-c09d-4170-aa7a-45424aeb0427",
-  "mbp:137efc11-5ebd-42d2-8458-c2a767670726"
+  "mbp:137efc11-5ebd-42d2-8458-c2a767670726",
+  "mbp:a36608ad-004f-4146-ad20-b044bd2b8a5c"
  ],
  "seen_dry": [],
  "next_saying": 3,
@@ -185,15 +186,15 @@
  "usage": {
   "day": "2026-11-12",
   "calls": {
-   "gemini": 78,
-   "groq": 3
+   "gemini": 80,
+   "groq": 4
   },
   "tokens": {
-   "gemini": 135838,
-   "groq": 2553
+   "gemini": 143739,
+   "groq": 2986
   },
   "fails": {
-   "gemini": 6
+   "gemini": 7
   }
  },
  "needs_today": [
