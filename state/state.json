@@ -103,7 +103,8 @@
   "mbp:c16ade49-e303-449b-bbc9-a2bf678ebf5a",
   "mbp:4b95a893-c09d-4170-aa7a-45424aeb0427",
   "mbp:137efc11-5ebd-42d2-8458-c2a767670726",
-  "mbp:a36608ad-004f-4146-ad20-b044bd2b8a5c"
+  "mbp:a36608ad-004f-4146-ad20-b044bd2b8a5c",
+  "mbp:1d642e83-8421-4402-b632-b84ed390c1e6"
  ],
  "seen_dry": [],
  "next_saying": 3,
@@ -141,7 +142,9 @@
  "last_post": 1794470435.3464086,
  "found_day": "2026-11-12",
  "found_n": 3,
- "tries": {},
+ "tries": {
+  "mbp:3ca92316-c759-4de3-9a04-f71678741335": 1
+ },
  "research_day": "2026-11-12",
  "read_urls": [
   "https://arxiv.org/abs/2611.12906",
@@ -186,12 +189,12 @@
  "usage": {
   "day": "2026-11-12",
   "calls": {
-   "gemini": 80,
-   "groq": 4
+   "gemini": 82,
+   "groq": 6
   },
   "tokens": {
-   "gemini": 143739,
-   "groq": 2986
+   "gemini": 151632,
+   "groq": 11409
   },
   "fails": {
    "gemini": 7
