@@ -1,5 +1,5 @@
 # ---- private lab: tools_pending, modules, experiments and raw reports live ONLY in the private repo (the public repo never sees them) ----
-LAB_MAP = {"tools_pending": "lab/tools_pending", "tools": "lab/tools_active", "modules_pending": "lab/modules_pending", "modules_approved": "lab/modules_approved", "reports": "lab/reports", "experiments": "lab/experiments"}
+LAB_MAP = {"tools_pending": "lab/tools_pending", "tools": "lab/tools_active", "modules_pending": "lab/modules_pending", "modules_approved": "lab/modules_approved", "reports": "lab/reports", "experiments": "lab/experiments", "projects": "lab/projects", "skills": "lab/skills", "content": "lab/content"}
 LAB_OK = [False]      # deletions in the private lab are allowed only after a complete, successful restore in this run
 DEL_OK = ("lab/", "backups/")     # memory is inviolable: the agent may remove files only in the lab and among old backups; people, facts, diary, biography and research are never deleted
 def mem_del(path, sha):
@@ -57,7 +57,7 @@ try: sandbox_ready()
 except Exception as _ex: SANDBOX_OK[0] = False; print("sandbox check crashed:", type(_ex).__name__, flush=True)
 
 # ---- state: the public file keeps counters and hashed identities only; pending drafts and owner requests stay in the private repo ----
-PRIVATE_KEYS = ("asks", "ask_id", "tool_request")
+PRIVATE_KEYS = ("asks", "ask_id", "tool_request", "rejected", "pend_seen", "quiet_until")
 ST["muted"] = [x if str(x).startswith("h:") else _h(x) for x in ST.get("muted", [])]; ST["contacted"] = [x if str(x).startswith("h:") else _h(x) for x in ST.get("contacted", [])]
 def state_restore_private():
     if not MEM_TOKEN or ST.get("asks"): return

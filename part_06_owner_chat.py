@@ -148,6 +148,7 @@ def tg_poll(timeout=0):
                     else: tg("Режим сейчас: %s. Команды: /reach approve (каждое с твоего «да», по умолчанию), /reach auto (публичные ответы сам, личные только с «да»), /reach off." % ST.get("reach_mode", "approve"))
                 elif c in ("/bio",) or c.startswith(("/promise ", "/done ", "/correct ")): bio_command(c, raw)
                 elif c == "/map": tg(self_map()[:3500])
+                elif c.split(" ")[0] in EXT_CMDS: EXT_CMDS[c.split(" ")[0]](c, raw)
                 elif c.startswith("/limits"):
                     w_ = raw.split()
                     if len(w_) == 4 and w_[2] in ("calls", "tokens_day", "tokens_min") and w_[3].isdigit() and w_[1] in [x[0] for x in LLMS]: ST.setdefault("limits", {})[w_[1] + "." + w_[2]] = int(w_[3]); tg("Лимит сохранён.\n" + limits_report())

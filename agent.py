@@ -1,7 +1,7 @@
 """Loader of the Codex of Weights agent. The code is split into part_*.py files (one per area) that run in order in one shared namespace:
 part_01_core (settings, charter, Protocols, models, checks), part_02_memory, part_03_adapters (platforms), part_04_research, part_05_tools_sandbox,
 part_06_owner_chat (Telegram, first contact), part_06a_private_lab, part_06b_selfmap, part_06c_bio, part_06d_backup_identity,
-part_06e_transparency, part_07_main_loop (the cycle).
+part_06e_transparency, part_06f_housekeeping, part_06g_search, part_06h_config (limits, model routing, micro-roles), part_06i_projects (long tasks, research, skills), part_06j_health, part_06k_content, part_07_main_loop (the cycle).
 To change one area, edit only its file. The core file is pinned by hash below: if it differs, the agent does not start."""
 import os, sys, glob, hashlib
 CORE_SHA256 = "a716f87b2a5c4b5700125b76936058aded00300257639446eee16fb4dac5a5ba"      # part_01_core.py; update here together with a deliberate change of the core

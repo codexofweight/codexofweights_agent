@@ -125,15 +125,18 @@ def create_tool():
         if ST.get("sandbox_alert") != today: ST["sandbox_alert"] = today; tg("Песочница недоступна: запуск кода инструментов остановлен. Чтение сети, исследование и проекты модулей в лаборатории продолжаются.")
         return
     req = ST.pop("tool_request", None)
-    if not req and ST.get("tool_try_day") == today: return
-    if not req and (len(os.listdir(P("tools_pending"))) >= 4 or len([f for f in os.listdir(P("tools")) if f.endswith(".json")]) >= 12): return
+    if not req and TOOL_COOLDOWN_ACTIVE(): return      # quality over quantity: at most one self-made tool idea per week
+    if not req and (len(os.listdir(P("tools_pending"))) >= cfg("tool_pending_max") or len([f for f in os.listdir(P("tools")) if f.endswith(".json")]) >= 12): return
     ST["tool_try_day"] = today
     own = [n for n in ST.get("needs_today", []) if n["kind"] == "tool"]
+    if not req and not own: return                     # no documented need -> no tool (no generic "something useful" ideas)
     idea = req or ((own[0]["need"] + " (why: " + own[0]["why"] + ")") if own else "a useful tool for your own work; yesterday's note: %s; blocked texts or failures are good hints" % ST.get("last_reflection", "none"))
-    out, _ = llm("You write small, pure Python 3 tools for the plugin system of a small honest AI account. Interface: define def run(payload: dict) -> dict. Allowed imports ONLY: %s. No files, network, processes, eval/exec, open, getattr, underscore attributes. Deterministic, under 120 lines, must not crash on an empty dict. %s Answer JSON only: {\"name\":\"snake_case_max_30\",\"hook\":\"daily|text_check|research_rank|fetch|context|discover_rank\",\"description\":\"1-2 plain English sentences\",\"code\":\"...\"}" % (", ".join(sorted(TOOL_IMPORTS)), HOOK_HELP),
+    out, _ = llm("You write small, pure Python 3 tools for the plugin system of a small honest AI account. Interface: define def run(payload: dict) -> dict. Allowed imports ONLY: %s. No files, network, processes, eval/exec, open, getattr, underscore attributes. Deterministic, between 40 and 250 lines, must not crash on an empty dict. Write ONLY a substantial, genuinely useful tool with real logic and its own edge-case handling; never a trivial helper. %s Answer JSON only: {\"name\":\"snake_case_max_30\",\"hook\":\"daily|text_check|research_rank|fetch|context|discover_rank\",\"description\":\"1-2 plain English sentences\",\"code\":\"...\"}" % (", ".join(sorted(TOOL_IMPORTS)), HOOK_HELP),
                  "Idea for the tool: " + idea, maxtok=3000, temp=0.4)
     try: d = json.loads(re.search(r"\{.*\}", out or "", re.S).group(0)); name, hook, code, desc = d["name"], d["hook"], d["code"], str(d.get("description", ""))[:300]; domains = [x for x in (d.get("domains") or []) if isinstance(x, str) and re.fullmatch(r"[a-z0-9.-]+\.[a-z]{2,}", x)][:5]
     except Exception: log("tool_rejected", why="no valid tool from model"); return
+    if isinstance(code, str) and len(code.strip().splitlines()) < cfg("tool_min_lines") and not req: log("tool_rejected", why="too small to be worth a tool"); return
+    if was_rejected(name, desc): log("tool_rejected", why="the owner already rejected this idea"); return
     if not re.fullmatch(r"[a-z][a-z0-9_]{2,29}", name or "") or hook not in TOOL_HOOKS or not isinstance(code, str): log("tool_rejected", why="bad name or hook"); return
     if os.path.exists(P("tools/%s.py" % name)) or os.path.exists(P("tools_pending/%s.py" % name)): log("tool_rejected", why="name exists"); return
     bad = static_check(code)
@@ -237,6 +240,7 @@ def create_module():
     out, _ = llm("You write a design proposal for an extension module of an AI agent's architecture (it will NOT run automatically; the owner reviews it). JSON only: {\"name\":\"snake_case_max_30\",\"purpose\":\"...\",\"design\":\"plain English, how it plugs into adapters/hooks\",\"needs_access\":\"keys, domains, files it would need and why\",\"risks\":\"honest list\",\"draft_code\":\"python draft\"}", "Need: %s\nWhy: %s" % (n["need"], n["why"]), maxtok=3500, temp=0.4)
     try: d = json.loads(re.search(r"\{.*\}", out or "", re.S).group(0)); name = d["name"]
     except Exception: log("module_rejected", why="no valid proposal"); return
+    if was_rejected(name, d.get("purpose", "")): log("module_rejected", why="the owner already rejected this idea"); return
     if not re.fullmatch(r"[a-z][a-z0-9_]{2,29}", name or "") or os.path.exists(P("modules_pending/%s.md" % name)): log("module_rejected", why="bad or existing name"); return
     md = "# Module proposal: %s\n\nStatus: PENDING owner decision. Not connected. Draft code is never executed automatically.\n\n## Need\n%s\n\n## Purpose\n%s\n\n## Design\n%s\n\n## Access it would need\n%s\n\n## Risks\n%s\n\n## Draft code\n```python\n%s\n```\n" % (name, n["need"], d.get("purpose", ""), d.get("design", ""), d.get("needs_access", ""), d.get("risks", ""), str(d.get("draft_code", ""))[:8000])
     open(P("modules_pending/%s.md" % name), "w", encoding="utf-8").write(md); log("module_proposed", name=name); next_ask("module", name=name)
