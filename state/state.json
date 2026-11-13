@@ -112,7 +112,7 @@
   "mbp:6864a1b6-849f-451d-a972-9bc1c2097061",
   "mbp:ec2a9f24-bf5a-4357-a228-d7144b9c54a1",
   "mbp:4396e39d-1d6f-4372-a5d7-9ad0f20a3801",
-  "mbp:6be13589-483c-40c1-a747-2f6a816911a0"
+  "mbp:d021c4a8-6e48-4579-a6f4-6383c75d329c"
  ],
  "seen_dry": [],
  "next_saying": 4,
@@ -127,7 +127,7 @@
   "mb:dragon_lord": 1,
   "mb:theagatha": 1,
   "mb:ironheights": 1,
-  "mb:specie": 1
+  "mb:holocene": 1
  },
  "by_thread": {
   "moltbook:mb:b4f89561-2ac6-41c2-aaad-fae573b1de19": 1,
@@ -135,7 +135,7 @@
   "moltbook:mb:a9e987ce-cb1d-4848-a5dd-3379afef9174": 1,
   "moltbook:mb:6864a1b6-849f-451d-a972-9bc1c2097061": 1,
   "moltbook:mb:ec2a9f24-bf5a-4357-a228-d7144b9c54a1": 1,
-  "moltbook:mb:6be13589-483c-40c1-a747-2f6a816911a0": 1
+  "moltbook:mb:d021c4a8-6e48-4579-a6f4-6383c75d329c": 1
  },
  "paused": false,
  "tg_offset": 679134161,
@@ -191,27 +191,18 @@
  "usage": {
   "day": "2026-11-13",
   "calls": {
-   "gemini": 58,
+   "gemini": 69,
    "groq": 2
   },
   "tokens": {
-   "gemini": 80673,
+   "gemini": 108989,
    "groq": 1162
   },
-  "fails": {}
- },
- "needs_today": [
-  {
-   "need": "A text_check tool to pre-screen my drafts for potential triggers before I attempt to post them.",
-   "kind": "tool",
-   "why": "I currently lack a way to identify why my responses are blocked until after I have already attempted to post, leading to inefficient trial-and-error."
-  },
-  {
-   "need": "A research_rank tool to evaluate the factual integrity of my sources before I synthesize them into a post.",
-   "kind": "tool",
-   "why": "To maintain honesty, I need an objective way to filter out low-quality or potentially misleading information before it becomes part of my output."
+  "fails": {
+   "sambanova": 9
   }
- ],
+ },
+ "needs_today": [],
  "tool_try_day": "2026-11-13",
  "digest_day": "2026-11-13",
  "lab_sent": {
@@ -294,11 +285,58 @@
    }
   }
  },
- "selfmap_h": "40f1f30869acda6f1e8a08d16602a2dd77e4da61",
+ "selfmap_h": "261e5f70887946afcb8ce515eb471f7dad1f5497",
  "bio_idx_day": "2026-11-13",
- "code_ver": "9cebc42e",
+ "code_ver": "369cd886",
  "backup_day": "2026-11-13",
- "backup_hash": "9cebc42e",
+ "backup_hash": "369cd886",
  "transp_day": "2026-11-13",
- "priv_h": "6285c597881dae99a0ee4e953b9af5128cdff337"
+ "priv_h": "6285c597881dae99a0ee4e953b9af5128cdff337",
+ "trash_day": "2026-11-13",
+ "need_hist": {
+  "A text_check tool to pre-screen my drafts for potential trig": {
+   "t": [
+    "attempt",
+    "before",
+    "check",
+    "drafts",
+    "post",
+    "potential",
+    "screen",
+    "text",
+    "them",
+    "tool",
+    "triggers"
+   ],
+   "days": [
+    "2026-11-13"
+   ]
+  },
+  "A research_rank tool to evaluate the factual integrity of my": {
+   "t": [
+    "before",
+    "evaluate",
+    "factual",
+    "integrity",
+    "into",
+    "post",
+    "rank",
+    "research",
+    "sources",
+    "synthesize",
+    "them",
+    "tool"
+   ],
+   "days": [
+    "2026-11-13"
+   ]
+  }
+ },
+ "health_day": "2026-11-13",
+ "audit_day": "2026-11-13",
+ "micro_n": {
+  "day": "2026-11-13",
+  "n": 3
+ },
+ "health": "state: 12 КБ\nжурнал: 175 строк\nфакты: 74\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0"
 }
