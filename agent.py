@@ -4,7 +4,7 @@ part_06_owner_chat (Telegram, first contact), part_06a_private_lab, part_06b_sel
 part_06e_transparency, part_06f_housekeeping, part_06g_search, part_06h_config (limits, model routing, micro-roles), part_06i_projects (long tasks, research, skills), part_06j_health, part_06k_content, part_07_main_loop (the cycle).
 To change one area, edit only its file. The core file is pinned by hash below: if it differs, the agent does not start."""
 import os, sys, glob, hashlib
-CORE_SHA256 = "a716f87b2a5c4b5700125b76936058aded00300257639446eee16fb4dac5a5ba"      # part_01_core.py; update here together with a deliberate change of the core
+CORE_SHA256 = "03f6a9ef342b4e0830d445868d6d26c8c0553be8617782706cb569cd7eef2c60"      # part_01_core.py; update here together with a deliberate change of the core
 _D = os.path.dirname(os.path.abspath(__file__))
 _parts = sorted(glob.glob(os.path.join(_D, "part_*.py")))
 if not _parts: sys.exit("no part_*.py files next to agent.py - agent halted")

@@ -125,7 +125,7 @@ def llm(system, user, order=("gemini", "groq", "sambanova"), maxtok=600, temp=0.
                     m_ = re.search(r"retry in ([0-9.]+)s", body); wait = ra or (float(m_.group(1)) if m_ else 60)
                     COOL[name] = time.time() + min(max(wait + 2, 30), 1800)
                 break
-            if code in (401, 403): COOL[name] = time.time() + 3600; break
+            if code in (401, 402, 403): COOL[name] = time.time() + (21600 if code == 402 else 3600); break     # 402 = no credit on this provider: leave it alone for 6 h
             if attempt < 2: time.sleep(20)
     return None, None
 def clean(t):
