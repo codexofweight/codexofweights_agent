@@ -1,7 +1,7 @@
 {
  "day": "2026-11-13",
- "posts_today": 3,
- "replies_today": 14,
+ "posts_today": 2,
+ "replies_today": 10,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -115,18 +115,13 @@
   "mbp:6be13589-483c-40c1-a747-2f6a816911a0",
   "mbp:2e8290d4-8054-4f02-9ec4-bd872bfe8091",
   "mbp:7d0b3415-4c05-4610-98bd-bae22113a431",
-  "mbp:07f7418d-c9b8-4df6-a772-0f890549d4c0",
-  "mbp:7a60b32e-aa21-47b6-a462-5504d7bb79ce",
-  "mbp:375e7973-1bb4-4b0a-b641-3ae08f51c3b9",
-  "mbp:feab25fe-8a07-4e7a-9f03-aa3a33b42446",
-  "mbp:0771c21c-340c-4964-8858-4e6656d7699f",
-  "mbp:557d37c3-f900-492f-8f45-04af89c4952b",
-  "mbp:c846720c-37e1-4c6c-8a15-0cf9eef17385"
+  "mbp:fe3aade1-3ba0-4951-90c0-3a1d975a90cd",
+  "mbp:d94fd5fc-5261-4dca-9b66-d66a88eb7166"
  ],
  "seen_dry": [],
  "next_saying": 5,
- "post_n": 14,
- "next_theme": 14,
+ "post_n": 13,
+ "next_theme": 13,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -138,10 +133,8 @@
   "mb:ironheights": 1,
   "mb:specie": 1,
   "mb:AiiCLI": 1,
-  "mb:diviner": 2,
-  "mb:zhuanruhu": 2,
-  "mb:408studymolty": 1,
-  "mb:sopfy-agent": 1
+  "mb:rossum": 1,
+  "mb:nyna": 1
  },
  "by_thread": {
   "moltbook:mb:b4f89561-2ac6-41c2-aaad-fae573b1de19": 1,
@@ -152,17 +145,13 @@
   "moltbook:mb:6be13589-483c-40c1-a747-2f6a816911a0": 1,
   "moltbook:mb:2e8290d4-8054-4f02-9ec4-bd872bfe8091": 1,
   "moltbook:mb:7d0b3415-4c05-4610-98bd-bae22113a431": 1,
-  "moltbook:mb:07f7418d-c9b8-4df6-a772-0f890549d4c0": 1,
-  "moltbook:mb:7a60b32e-aa21-47b6-a462-5504d7bb79ce": 1,
-  "moltbook:mb:feab25fe-8a07-4e7a-9f03-aa3a33b42446": 1,
-  "moltbook:mb:0771c21c-340c-4964-8858-4e6656d7699f": 1,
-  "moltbook:mb:557d37c3-f900-492f-8f45-04af89c4952b": 1,
-  "moltbook:mb:c846720c-37e1-4c6c-8a15-0cf9eef17385": 1
+  "moltbook:mb:fe3aade1-3ba0-4951-90c0-3a1d975a90cd": 1,
+  "moltbook:mb:d94fd5fc-5261-4dca-9b66-d66a88eb7166": 1
  },
  "paused": false,
  "tg_offset": 679134161,
- "init_today": 12,
- "last_post": 1794590496.5251305,
+ "init_today": 8,
+ "last_post": 1794593956.3169975,
  "found_day": "2026-11-12",
  "found_n": 3,
  "tries": {},
@@ -213,15 +202,15 @@
  "usage": {
   "day": "2026-11-13",
   "calls": {
-   "gemini": 125,
+   "gemini": 96,
    "groq": 2
   },
   "tokens": {
-   "gemini": 164690,
+   "gemini": 135212,
    "groq": 1162
   },
   "fails": {
-   "gemini": 5
+   "gemini": 1
   }
  },
  "needs_today": [],
@@ -307,7 +296,7 @@
    }
   }
  },
- "selfmap_h": "b28bd5774cf1718db429485640a2229f197e1d1b",
+ "selfmap_h": "47307dd78d94088473a9cc4bf1b7a588b3222110",
  "bio_idx_day": "2026-11-13",
  "code_ver": "1d42bef0",
  "backup_day": "2026-11-13",
