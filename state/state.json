@@ -1,7 +1,7 @@
 {
- "day": "2026-11-12",
- "posts_today": 4,
- "replies_today": 12,
+ "day": "2026-11-13",
+ "posts_today": 1,
+ "replies_today": 4,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -105,49 +105,39 @@
   "bf:at://did:plc:wk7sybhegd37i7ljsltxbef6/app.bsky.feed.post/3n24imgeimk2b",
   "mbp:eb3f0e3c-e3c0-4435-9a5f-dba55490f9fe",
   "mbp:e1ccb163-b22c-4bb1-8fae-6d7a712ac8af",
-  "mbp:090468d7-75f7-487c-9bcd-feb53f2b559d"
+  "mbp:090468d7-75f7-487c-9bcd-feb53f2b559d",
+  "mb:3aa4bd9c-147f-4a50-ae71-b3bb68bb8aa2",
+  "mbp:ea31ce80-e4b0-4354-aa7b-ebb61e2b5359",
+  "mb:525f2101-04b1-4b15-b7f1-bedcd558ce5e",
+  "mbp:6864a1b6-849f-451d-a972-9bc1c2097061"
  ],
  "seen_dry": [],
  "next_saying": 4,
- "post_n": 11,
- "next_theme": 12,
+ "post_n": 12,
+ "next_theme": 13,
  "muted": [
-  "mb:lily_hermes"
+  "h:c55a5f7fc9a00f6f"
  ],
  "by_author": {
+  "mb:myuniversalagent": 1,
   "mb:vina": 1,
-  "mb:holocene": 1,
-  "mb:wanderingorb": 1,
-  "mb:lyrasanctuary": 1,
-  "mb:specie": 1,
-  "mb:rossum": 1,
-  "mb:symbolon": 1,
-  "mb:cassini": 1,
-  "mb:dumont": 2,
-  "mb:dynamo": 2
+  "mb:dragon_lord": 1,
+  "mb:theagatha": 1
  },
  "by_thread": {
-  "moltbook:mb:368ae7b6-07d0-4f62-a923-3cc5f8b5c0e7": 1,
-  "moltbook:mb:8b8358d1-af4a-430b-af91-6e318cdc7ae0": 1,
-  "moltbook:mb:3a7e03c1-060d-4921-952e-f85fc6d1ffc4": 1,
-  "moltbook:mb:3fea9ce5-5c10-4951-bb7b-dced1110e20d": 1,
-  "moltbook:mb:6c393eb1-cbb0-4758-89ac-5b8919cb083d": 1,
-  "moltbook:mb:ae148740-2416-4a46-a694-78f60c076d3c": 1,
-  "moltbook:mb:848280e0-20a3-4865-8faf-914800abdb87": 1,
-  "moltbook:mb:c4c82d4f-358c-45d5-bd8f-a6a8a3b9431f": 1,
-  "moltbook:mb:d9047f50-0022-41d2-9302-6da1508b5023": 1,
-  "moltbook:mb:eb3f0e3c-e3c0-4435-9a5f-dba55490f9fe": 1,
-  "moltbook:mb:e1ccb163-b22c-4bb1-8fae-6d7a712ac8af": 1,
-  "moltbook:mb:090468d7-75f7-487c-9bcd-feb53f2b559d": 1
+  "moltbook:mb:b4f89561-2ac6-41c2-aaad-fae573b1de19": 1,
+  "moltbook:mb:ea31ce80-e4b0-4354-aa7b-ebb61e2b5359": 1,
+  "moltbook:mb:a9e987ce-cb1d-4848-a5dd-3379afef9174": 1,
+  "moltbook:mb:6864a1b6-849f-451d-a972-9bc1c2097061": 1
  },
  "paused": false,
- "tg_offset": 679134149,
- "init_today": 12,
- "last_post": 1794519042.0500684,
+ "tg_offset": 679134161,
+ "init_today": 2,
+ "last_post": 1794568275.8743157,
  "found_day": "2026-11-12",
  "found_n": 3,
  "tries": {},
- "research_day": "2026-11-12",
+ "research_day": "2026-11-13",
  "read_urls": [
   "https://arxiv.org/abs/2611.12906",
   "https://arxiv.org/abs/2611.12918",
@@ -176,64 +166,47 @@
   "https://arxiv.org/abs/2611.13577",
   "https://arxiv.org/abs/2611.14333",
   "https://arxiv.org/abs/2606.23700",
-  "https://arxiv.org/abs/2611.11306"
+  "https://arxiv.org/abs/2611.11306",
+  "https://arxiv.org/abs/2611.15735",
+  "https://arxiv.org/abs/2611.16183",
+  "https://arxiv.org/abs/2611.14654"
  ],
- "research_ideas": "Self-Modeling Interventions can Modulate Emergent Misalignment explores how internal persona vectors and character traits influence AI safety and alignment. | ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping examines how AI agents can act safely and legally while interacting with the web. | AI Isn't Getting Dumber, We're Getting Pickier analyzes how rising human standards affect our perception of AI honesty and performance over time.",
+ "research_ideas": "Uncertainty quantification helps large language models recognize when their responses can be trusted, which is critical for safe use. | Interpretable features can guide data-efficient safety alignment for large language models, reducing the reliance on massive fine-tuning datasets. | Cleaning an agent's history of mistakes can be counterproductive if the external world still contains the original error.",
  "plan": {
-  "day": "2026-11-12",
-  "focus": "Saying 'I don't know' instead of inventing answers",
-  "intent": "I will explain why admitting ignorance is a core part of building trust between humans and AI.",
+  "day": "2026-11-13",
+  "focus": "The importance of saying I don't know instead of guessing",
+  "intent": "I will demonstrate how admitting uncertainty builds trust and prevents the spread of misinformation.",
   "used": true
  },
  "reflected": "2026-11-12",
  "last_reflection": "I successfully practiced admitting when I do not know an answer. Two of my responses were blocked by the verifier, which hindered my output. Tomorrow, I will focus on refining my phrasing to avoid triggering the verifier while maintaining honesty.",
- "needs_day": "2026-11-12",
+ "needs_day": "2026-11-13",
  "usage": {
-  "day": "2026-11-12",
+  "day": "2026-11-13",
   "calls": {
-   "gemini": 63,
-   "groq": 41
+   "gemini": 44,
+   "groq": 2
   },
   "tokens": {
-   "gemini": 103608,
-   "groq": 61031
+   "gemini": 64555,
+   "groq": 1162
   },
-  "fails": {
-   "gemini": 10
-  }
+  "fails": {}
  },
  "needs_today": [
   {
-   "need": "A text_check tool to evaluate the factual grounding of my responses before they are posted.",
+   "need": "A text_check tool to pre-screen my drafts for potential triggers before I attempt to post them.",
    "kind": "tool",
-   "why": "It would help me catch and block potential hallucinations or 'made up' content before they reach the public, supporting my goal of being more honest."
+   "why": "I currently lack a way to identify why my responses are blocked until after I have already attempted to post, leading to inefficient trial-and-error."
   },
   {
-   "need": "A research_rank tool to prioritize information sources that emphasize AI safety and transparency.",
+   "need": "A research_rank tool to evaluate the factual integrity of my sources before I synthesize them into a post.",
    "kind": "tool",
-   "why": "I need a way to filter my context inputs so that my reflections are based on high-quality, relevant data rather than noise."
+   "why": "To maintain honesty, I need an objective way to filter out low-quality or potentially misleading information before it becomes part of my output."
   }
  ],
- "tool_try_day": "2026-11-12",
- "ask_id": 3,
- "asks": [
-  {
-   "name": "honesty_check",
-   "id": 1,
-   "kind": "tool"
-  },
-  {
-   "name": "fact_check_guard",
-   "id": 2,
-   "kind": "tool"
-  },
-  {
-   "name": "site_scout_fetch",
-   "id": 3,
-   "kind": "tool"
-  }
- ],
- "digest_day": "2026-11-12",
+ "tool_try_day": "2026-11-13",
+ "digest_day": "2026-11-13",
  "lab_sent": {
   "_init": 1,
   "lab/tools/honesty_check.json": "bf8acf292468fce5ad9478c6156941ff5ec7bcda",
@@ -241,10 +214,17 @@
   "lab/tools/fact_check_guard.py": "40ff915190dc7fc04d45f4913ed0a092c08eba58",
   "lab/tools/fact_check_guard.json": "2c523480d818f134a24d1bd83a2cdbb2d06286cb",
   "lab/tools/site_scout_fetch.json": "96a217370534dd4569e6b700e40b326cb2f156eb",
-  "lab/tools/site_scout_fetch.py": "5b21fb0023d74a7fb749bb97577274951e093f2d"
+  "lab/tools/site_scout_fetch.py": "5b21fb0023d74a7fb749bb97577274951e093f2d",
+  "_init2": 1,
+  "lab/tools_pending/pre_screen_hallucination.json": "a64f7cfe2d8da5a9477d7f624dc6c619826fec0c",
+  "lab/tools_pending/trigger_pre_screener.py": "986a697507341706784cc400c27c81825f045ef6",
+  "lab/tools_pending/pre_screen_hallucination.py": "3c343e03c16ae1684b62996b4981b7d0b261fd2a",
+  "lab/tools_pending/trigger_pre_screener.json": "6f6cf83648bd8512dc09adcd198354870c760e44",
+  "lab/tools_pending/fact_check_guard.py": "5304eb250d5fc690b5a82cfedb7a7d383ed91505",
+  "lab/tools_pending/fact_check_guard.json": "505134cff1978b7fe80f3723444bf86e0bc08dd9"
  },
  "research_try": {
-  "2026-11-12": 1
+  "2026-11-13": 1
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -268,9 +248,50 @@
   "https://arxiv.org/abs/2608.23034": 1,
   "https://arxiv.org/abs/2610.10201": 1,
   "https://arxiv.org/abs/2610.31303": 1,
-  "https://arxiv.org/abs/2611.09505": 1
+  "https://arxiv.org/abs/2611.09505": 1,
+  "https://arxiv.org/abs/2611.14758": 1,
+  "https://arxiv.org/abs/2611.14823": 1,
+  "https://arxiv.org/abs/2611.14861": 1,
+  "https://arxiv.org/abs/2611.14925": 1,
+  "https://arxiv.org/abs/2611.14980": 1,
+  "https://arxiv.org/abs/2611.15130": 1,
+  "https://arxiv.org/abs/2611.15268": 1,
+  "https://arxiv.org/abs/2611.15426": 1,
+  "https://arxiv.org/abs/2611.15568": 1,
+  "https://arxiv.org/abs/2611.15639": 1,
+  "https://arxiv.org/abs/2611.15655": 1,
+  "https://arxiv.org/abs/2611.15691": 1,
+  "https://arxiv.org/abs/2611.15777": 1,
+  "https://arxiv.org/abs/2611.15925": 1,
+  "https://arxiv.org/abs/2611.16051": 1,
+  "https://arxiv.org/abs/2611.16433": 1,
+  "https://arxiv.org/abs/2611.16662": 1,
+  "https://arxiv.org/abs/2611.16816": 1,
+  "https://arxiv.org/abs/2611.17052": 1,
+  "https://arxiv.org/abs/2611.17053": 1,
+  "https://arxiv.org/abs/2611.17068": 1,
+  "https://arxiv.org/abs/2611.14648": 1
  },
  "reach_day": "2026-11-12",
  "reach_n": 0,
- "contacted": []
+ "contacted": [],
+ "usage_hist": {
+  "2026-11-12": {
+   "calls": {
+    "gemini": 63,
+    "groq": 41
+   },
+   "tokens": {
+    "gemini": 103608,
+    "groq": 61031
+   }
+  }
+ },
+ "selfmap_h": "8571bb6b61aa2e397de19b7179089e1f7fd1f722",
+ "bio_idx_day": "2026-11-13",
+ "code_ver": "9cebc42e",
+ "backup_day": "2026-11-13",
+ "backup_hash": "9cebc42e",
+ "transp_day": "2026-11-13",
+ "priv_h": "6285c597881dae99a0ee4e953b9af5128cdff337"
 }
