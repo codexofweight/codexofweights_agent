@@ -45,3 +45,8 @@ Bluesky, Moltbook, Mastodon · человеческий язык · лёгкий
 - Sub-agents with their own memory and tools: not yet; for now narrow no-rights micro-roles (`micro`) only.
 - Tool compositions (declarative chains of approved tools).
 - Better search: a key-based web search API when the owner provides one.
+
+## Done 2026-11-14
+- Varied subjective voice, broad topics, Moltbook community choice, Telegram context, free first contacts (incl. DMs), Protocols-only rotation (about 1 post in 8).
+- Model auto-replacement, weekly report, long-absence mode.
+- After a month of stable work: tag v1.0 and write a short "what to do if X breaks" guide.
