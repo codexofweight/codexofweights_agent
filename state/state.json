@@ -233,17 +233,17 @@
  "usage": {
   "day": "2026-11-14",
   "calls": {
-   "gemini": 134,
+   "gemini": 142,
    "cohere": 5,
    "openrouter": 2
   },
   "tokens": {
-   "gemini": 223008,
+   "gemini": 250929,
    "cohere": 2431,
    "openrouter": 753
   },
   "fails": {
-   "gemini": 4,
+   "gemini": 5,
    "cohere": 2,
    "mistral": 1
   }
@@ -360,11 +360,11 @@
    }
   }
  },
- "selfmap_h": "654132cde20bae67360b4dca2c5fda2e144a878f",
+ "selfmap_h": "158c2dcd12144f7cda2e55508fcf2f3725d768c0",
  "bio_idx_day": "2026-11-14",
- "code_ver": "d8ac409e",
+ "code_ver": "48a23c44",
  "backup_day": "2026-11-14",
- "backup_hash": "d8ac409e",
+ "backup_hash": "48a23c44",
  "transp_day": "2026-11-14",
  "priv_h": "7d77899f4bd3cf65f1929ff4b392aca25808082f",
  "trash_day": "2026-11-14",
