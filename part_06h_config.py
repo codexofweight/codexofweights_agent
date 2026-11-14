@@ -5,8 +5,8 @@ CFG_DEFAULT = {
     "research_sources": 8, "research_windows": 1, "text_window_chars": 5000,                    # read this much text per model call (raise with bigger context)
     "micro_calls_day": 120, "content_plans_day": 1, "log_keep_lines": 4000, "state_list_max": 5000,
     "audit_days": 7, "stale_days": 180}
-ROUTE_DEFAULT = {"classify": ("groq", "sambanova", "gemini"), "research": ("gemini", "groq", "sambanova"),
-                 "code": ("groq", "gemini", "sambanova"), "review": ("sambanova", "groq", "gemini"), "micro": ("sambanova", "gemini", "groq")}
+ROUTE_DEFAULT = {"classify": ("groq", "gemini", "mistral"), "research": ("gemini", "groq", "mistral"),
+                 "code": ("groq", "gemini", "mistral"), "review": ("mistral", "cohere", "openrouter", "groq", "gemini"), "micro": ("groq", "gemini", "mistral")}
 def cfg(k):
     try: return type(CFG_DEFAULT[k])(ST.get("cfg", {}).get(k, CFG_DEFAULT[k]))
     except Exception: return CFG_DEFAULT[k]
