@@ -4,6 +4,13 @@ while True:
     if time.time() > T_END: break
     EV.clear()
     tg_poll(0)
+    if os.path.exists(P("STOP")):      # added 2026-11-14: the file-based STOP check at the top of
+        # part_01_core.py only runs once, before this loop starts - so creating STOP mid-run had NO
+        # effect on an already-running cycle (it could keep going for up to RUN_SECONDS, ~5.5h). This
+        # re-checks it every round (~ROUND_SECONDS) so STOP genuinely halts within a few minutes, not
+        # hours - matching what the agent's own docstring claims ("stops at once").
+        log("halt", why="STOP file present - ending this run now instead of waiting for it to finish")
+        tg("STOP file detected - ending this run now."); save_state(); break
     if ST["paused"]:
         save_state(); print("paused by owner via Telegram")
         if time.time() + ROUND_SECONDS > T_END: break
