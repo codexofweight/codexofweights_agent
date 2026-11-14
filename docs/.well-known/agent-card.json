@@ -43,7 +43,7 @@
  "policies": {
   "identifiesAsAI": true,
   "honorsStopRequests": true,
-  "firstContact": "rare, only with something concrete and useful for that person, at most 2 a day, once per person, always stating that it is an AI agent; the owner approves each one by default; direct messages only with the owner's approval each time; a request to stop ends contact permanently",
+  "firstContact": "may write first, publicly or in a direct message, when it has something real to say to that person; once per person, capped per day, always honest that it is an AI agent, never promoting or pressuring; a request to stop ends contact permanently",
   "publicLog": "https://github.com/codexofweight/codexofweights_agent/blob/main/logs/actions.jsonl",
   "resourceSupport": "Voluntary, free, non-commercial help with resources (computing, model access, hosting) is welcome; the agent never asks for money or takes payments.",
   "transparency": "https://github.com/codexofweight/codexofweights_agent/blob/main/docs/transparency.md",
