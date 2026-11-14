@@ -2,14 +2,27 @@
 part_01_core (settings, charter, Protocols, models, checks), part_02_memory, part_03_adapters (platforms), part_04_research, part_05_tools_sandbox,
 part_06_owner_chat (Telegram, first contact), part_06a_private_lab, part_06b_selfmap, part_06c_bio, part_06d_backup_identity,
 part_06e_transparency, part_06f_housekeeping, part_06g_search, part_06h_config (limits, model routing, micro-roles), part_06i_projects (long tasks, research, skills), part_06j_health, part_06k_content, part_07_main_loop (the cycle).
-To change one area, edit only its file. The core file is pinned by hash below: if it differs, the agent does not start."""
+To change one area, edit only its file. The files below are pinned by hash: if any of them differs, the agent does not start.
+Only these three are pinned, not every part_*.py (added 2026-11-15, after an external review flagged that
+everything past part_01 was log-only, never enforced). They were picked because each one alone can defeat
+every other safety check if it is silently changed: part_01_core (the checks themselves - verify/guard_json/
+the Codex pin), part_05_tools_sandbox (the only thing standing between a self-written tool and the real
+filesystem/network), part_06_owner_chat (LIVE/STOP/approval - what decides whether anything is actually sent).
+The rest (adapters, memory, research, projects, ...) change too often for a hand-updated hash to be practical
+here, and a change to them cannot bypass these three gates - so they stay log-only, printed into the public
+run log so a silent change is still visible after the fact, same as before."""
 import os, sys, glob, hashlib
-CORE_SHA256 = "62797bcbb30ee4f6dac3c6df3268cf080c1bc9372fa6fd57167a044083a29b33"      # part_01_core.py; update here together with a deliberate change of the core
+PINNED_SHA256 = {
+    "part_01_core.py": "b42dc174279b45fe86beffd6d3bceed239159a236ba458e59b195122cc7fe6b4",
+    "part_05_tools_sandbox.py": "0a3d3de9f02b4c26cdb213b6b3ed64bdd21bf50571161fdb37ceaf9315b2773c",
+    "part_06_owner_chat.py": "ceeef38ae61064faac3e498c4d95a0bc4009550b8c9ae61f89791af5487f8ce6",
+}   # update the matching entry here together with a deliberate change of that file
 _D = os.path.dirname(os.path.abspath(__file__))
 _parts = sorted(glob.glob(os.path.join(_D, "part_*.py")))
 if not _parts: sys.exit("no part_*.py files next to agent.py - agent halted")
-_core = os.path.join(_D, "part_01_core.py")
-if not os.path.exists(_core) or hashlib.sha256(open(_core, "rb").read()).hexdigest() != CORE_SHA256: sys.exit("part_01_core.py differs from the pinned hash - agent halted")
+for _name, _want in PINNED_SHA256.items():
+    _p = os.path.join(_D, _name)
+    if not os.path.exists(_p) or hashlib.sha256(open(_p, "rb").read()).hexdigest() != _want: sys.exit("%s differs from the pinned hash - agent halted" % _name)
 for _f in _parts + [os.path.join(_D, "CHARTER.md"), os.path.join(_D, "FACTS.md")]:      # printed into the public run log: any silent change becomes visible
     try: print("sha256", os.path.basename(_f), hashlib.sha256(open(_f, "rb").read()).hexdigest()[:16], flush=True)
     except Exception: pass
