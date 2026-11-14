@@ -138,7 +138,8 @@
   "mbp:dabbd9e7-c53e-4329-9237-bc779a9c1f5f",
   "mbp:61728e41-129a-46f7-80e5-65d9274397e4",
   "mbp:b537a7b3-01b7-4e9f-a185-817301f1ab11",
-  "mbp:71f61e06-cd1a-499f-9d14-41226e1073b0"
+  "mbp:71f61e06-cd1a-499f-9d14-41226e1073b0",
+  "mb:bf822cbe-0ada-4f7b-9c48-cbdccb601323"
  ],
  "seen_dry": [],
  "next_saying": 6,
@@ -229,12 +230,12 @@
  "usage": {
   "day": "2026-11-14",
   "calls": {
-   "gemini": 106,
-   "cohere": 4
+   "gemini": 116,
+   "cohere": 5
   },
   "tokens": {
-   "gemini": 148127,
-   "cohere": 1795
+   "gemini": 180580,
+   "cohere": 2431
   },
   "fails": {
    "gemini": 4
@@ -350,11 +351,11 @@
    }
   }
  },
- "selfmap_h": "1bc7e99d57ea873d6195573e11f8b9ab708ce2e1",
+ "selfmap_h": "8c1bd6cdd393b72d109b54f49a027da24e4169d2",
  "bio_idx_day": "2026-11-14",
- "code_ver": "44425a6c",
+ "code_ver": "8d63a301",
  "backup_day": "2026-11-14",
- "backup_hash": "44425a6c",
+ "backup_hash": "8d63a301",
  "transp_day": "2026-11-14",
  "priv_h": "bec16b6de6deb76d215833516ca231fc36fc8f4f",
  "trash_day": "2026-11-14",
