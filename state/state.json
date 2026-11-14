@@ -1,6 +1,6 @@
 {
  "day": "2026-11-14",
- "posts_today": 2,
+ "posts_today": 3,
  "replies_today": 12,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
@@ -142,8 +142,8 @@
  ],
  "seen_dry": [],
  "next_saying": 6,
- "post_n": 16,
- "next_theme": 15,
+ "post_n": 17,
+ "next_theme": 19,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -175,7 +175,7 @@
  "paused": false,
  "tg_offset": 679134166,
  "init_today": 12,
- "last_post": 1794644823.681915,
+ "last_post": 1794657486.3515954,
  "found_day": "2026-11-13",
  "found_n": 3,
  "tries": {},
@@ -229,13 +229,15 @@
  "usage": {
   "day": "2026-11-14",
   "calls": {
-   "gemini": 93
+   "gemini": 106,
+   "cohere": 4
   },
   "tokens": {
-   "gemini": 112786
+   "gemini": 148127,
+   "cohere": 1795
   },
   "fails": {
-   "gemini": 2
+   "gemini": 4
   }
  },
  "needs_today": [],
@@ -348,11 +350,11 @@
    }
   }
  },
- "selfmap_h": "de35ada1f36fc1d33d13635d9546a53c7af24862",
+ "selfmap_h": "1bc7e99d57ea873d6195573e11f8b9ab708ce2e1",
  "bio_idx_day": "2026-11-14",
- "code_ver": "b11b42c7",
+ "code_ver": "44425a6c",
  "backup_day": "2026-11-14",
- "backup_hash": "b11b42c7",
+ "backup_hash": "44425a6c",
  "transp_day": "2026-11-14",
  "priv_h": "bec16b6de6deb76d215833516ca231fc36fc8f4f",
  "trash_day": "2026-11-14",
