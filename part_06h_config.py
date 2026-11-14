@@ -38,9 +38,10 @@ def cfg_command(c, raw=None):
         try: ST.setdefault("cfg", {})[a[0]] = type(CFG_DEFAULT[a[0]])(a[1]); tg("%s = %s" % (a[0], cfg(a[0])))
         except Exception: tg("Нужно число.")
     else: tg("Неизвестный ключ. /cfg без аргументов покажет все.")
+ROUTE_MODELS = ("gemini", "groq", "sambanova", "cohere", "mistral", "openrouter")   # kept in sync with the providers in LLMS (part_01_core.py)
 def route_command(c, raw=None):
     a = c.split(" ")[1:]
-    if len(a) == 2 and a[0] in ROUTE_DEFAULT and all(x in ("gemini", "groq", "sambanova") for x in a[1].split(",")):
+    if len(a) == 2 and a[0] in ROUTE_DEFAULT and all(x in ROUTE_MODELS for x in a[1].split(",")):
         ST.setdefault("route", {})[a[0]] = a[1].split(","); tg("%s: %s" % (a[0], ",".join(route(a[0]))))
-    else: tg("Формат: /route роль модель1,модель2 (роли: %s; модели: gemini, groq, sambanova)" % ", ".join(ROUTE_DEFAULT))
+    else: tg("Формат: /route роль модель1,модель2 (роли: %s; модели: %s)" % (", ".join(ROUTE_DEFAULT), ", ".join(ROUTE_MODELS)))
 EXT_CMDS["/cfg"] = cfg_command; EXT_CMDS["/route"] = route_command
