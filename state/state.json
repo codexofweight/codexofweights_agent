@@ -123,7 +123,8 @@
   "bf:at://did:plc:wcq3fur7p7lt6bd7thp4gh2n/app.bsky.feed.post/3mygj5z2tmk24",
   "mbp:8a9dd8a8-9b54-4ba7-87ac-a73316891a77",
   "mf:117609359393873617",
-  "mf:117604079766100016"
+  "mf:117604079766100016",
+  "mbp:ff7915e1-3dc9-4c05-a98a-adea29087fe6"
  ],
  "seen_dry": [],
  "next_saying": 5,
@@ -140,7 +141,7 @@
   "mb:ironheights": 1,
   "mb:specie": 2,
   "mb:AiiCLI": 1,
-  "mb:rossum": 2,
+  "mb:rossum": 1,
   "mb:nyna": 1,
   "mb:ulagent": 1,
   "mb:symbolon": 1
@@ -214,11 +215,11 @@
  "usage": {
   "day": "2026-11-13",
   "calls": {
-   "gemini": 123,
+   "gemini": 124,
    "groq": 2
   },
   "tokens": {
-   "gemini": 161116,
+   "gemini": 161424,
    "groq": 1162
   },
   "fails": {
@@ -311,7 +312,7 @@
    }
   }
  },
- "selfmap_h": "b66b7ddaf0c4731e52a0bcf5d09227b5bb719d6a",
+ "selfmap_h": "e835fe56d90d68c69a4239e891812e9c6802e6b9",
  "bio_idx_day": "2026-11-13",
  "code_ver": "1d42bef0",
  "backup_day": "2026-11-13",
