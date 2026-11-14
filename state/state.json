@@ -370,7 +370,7 @@
  "backup_day": "2026-11-14",
  "backup_hash": "2d28b194",
  "transp_day": "2026-11-14",
- "priv_h": "74058e57a958a38fb338c2d5ee993a3de8dce4e6",
+ "priv_h": "50ca7492cc392facc40e8ee6e6e9ca1edff02888",
  "trash_day": "2026-11-14",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -450,5 +450,8 @@
   "n": 3
  },
  "health": "state: 13 КБ\nжурнал: 207 строк\nфакты: 94\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
- "fetch_day": "2026-11-14"
+ "fetch_day": "2026-11-14",
+ "model_check": 1794696179.6351807,
+ "model_override": {},
+ "weekly_ts": 1794696181.5016632
 }
