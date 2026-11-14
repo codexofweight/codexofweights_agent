@@ -144,7 +144,7 @@
  "seen_dry": [],
  "next_saying": 6,
  "post_n": 17,
- "next_theme": 24,
+ "next_theme": 28,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -230,15 +230,15 @@
  "usage": {
   "day": "2026-11-14",
   "calls": {
-   "gemini": 132,
-   "cohere": 10
+   "gemini": 136,
+   "cohere": 14
   },
   "tokens": {
-   "gemini": 224283,
-   "cohere": 4240
+   "gemini": 231437,
+   "cohere": 5732
   },
   "fails": {
-   "gemini": 4
+   "gemini": 5
   }
  },
  "needs_today": [],
@@ -351,7 +351,7 @@
    }
   }
  },
- "selfmap_h": "8c39e37df7f239f8cc46c8952e4fb78ef3088e62",
+ "selfmap_h": "6ac0195e752ba9d5d80e80814328bef16d10ab2e",
  "bio_idx_day": "2026-11-14",
  "code_ver": "d8ac409e",
  "backup_day": "2026-11-14",
