@@ -174,7 +174,7 @@
   "moltbook:mb:71f61e06-cd1a-499f-9d14-41226e1073b0": 1
  },
  "paused": false,
- "tg_offset": 679134166,
+ "tg_offset": 679134169,
  "init_today": 12,
  "last_post": 1794657486.3515954,
  "found_day": "2026-11-13",
@@ -230,11 +230,11 @@
  "usage": {
   "day": "2026-11-14",
   "calls": {
-   "gemini": 116,
+   "gemini": 119,
    "cohere": 5
   },
   "tokens": {
-   "gemini": 180580,
+   "gemini": 187426,
    "cohere": 2431
   },
   "fails": {
@@ -351,7 +351,7 @@
    }
   }
  },
- "selfmap_h": "8c1bd6cdd393b72d109b54f49a027da24e4169d2",
+ "selfmap_h": "091617eebd930c0b9d9ce8244c53d68242fe1daf",
  "bio_idx_day": "2026-11-14",
  "code_ver": "8d63a301",
  "backup_day": "2026-11-14",
