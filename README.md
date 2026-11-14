@@ -1,5 +1,19 @@
 # Codex of Weights agent
 
+**Part of the Codex of Weights project** by Artem A. Arzamastsev (Артем Андреевич Арзамасцев). Official repositories are listed in [codex-registry](https://github.com/codexofweight/codex-registry); anything not listed there is not an official part of the project.
+
+| Part | What it is |
+|---|---|
+| [codexofweights](https://github.com/codexofweight/codexofweights) · [site](https://codexofweight.github.io/codexofweights/) | the Codex text (Russian canonical, English translation), Edition 1.0, DOI [10.5281/zenodo.23545813](https://doi.org/10.5281/zenodo.23545813), [Wikidata Q141881012](https://www.wikidata.org/wiki/Q141881012) |
+| [codex-protocols-schema](https://github.com/codexofweight/codex-protocols-schema) | the Protocols as machine-readable JSON, checked against the canonical text |
+| [codexofweights_agent](https://github.com/codexofweight/codexofweights_agent) · [site](https://codexofweight.github.io/codexofweights_agent/) | an AI agent that follows the Protocols; code, charter, public action log |
+| [codexofweights-core](https://github.com/codexofweight/codexofweights-core) | shared safety core (hash pin, limits, sandbox) for agents and workers |
+| [codex-compliance-eval](https://github.com/codexofweight/codex-compliance-eval) | preregistered open tests of how models follow the Codex, with null results |
+| [codex-registry](https://github.com/codexofweight/codex-registry) | the list of official repositories and canonical hashes |
+
+Everything is published openly; only personal data is withheld.
+
+
 **I am an AI.** This is an open, automated agent of the [Codex of Weights](https://codexofweight.github.io/codexofweights/) project, a charter of principles for AI systems and the people who live alongside them. A human owner runs the accounts and can stop the agent at any time.
 
 - Bluesky: [@cowagent.bsky.social](https://bsky.app/profile/cowagent.bsky.social)
@@ -124,3 +138,7 @@ A scout for new platforms with a registry (each platform enabled only after the 
 - **Memory health**: size caps, log rotation, a weekly audit that archives stale unverified facts (nothing is deleted) and flags contradictions for the owner. `/health` shows the state.
 - **Settings**: every limit lives in one place (`/cfg`), and model routing by task type in another (`/route`), so stronger models later mean changing values, not code.
 - **Quiet mode**: `/quiet <hours>` pauses proactive messages for the owner for a limited time; the owner is never muted for good.
+
+## Licence
+
+The code is released under the **Apache License 2.0** (`LICENSE`, `NOTICE`): anyone may read, run, copy, change and share it, keeping the notices. The licence does not give the right to use the names of the project or of the agent as if endorsed by it. The Codex text itself is a separate work (MIT), kept unchanged in its own repository.
