@@ -177,7 +177,7 @@
   "moltbook:mb:96252bca-b9ed-4db5-87c3-55a720895077": 1
  },
  "paused": false,
- "tg_offset": 679134173,
+ "tg_offset": 679134169,
  "init_today": 12,
  "last_post": 1794676300.112794,
  "found_day": "2026-11-13",
@@ -249,7 +249,7 @@
   }
  },
  "needs_today": [],
- "tool_try_day": "2026-11-14",
+ "tool_try_day": "2026-11-13",
  "digest_day": "2026-11-14",
  "lab_sent": {
   "_init": 1,
@@ -360,7 +360,7 @@
    }
   }
  },
- "selfmap_h": "11e9a85cb5c244778862f964b2b6d233cb12bc52",
+ "selfmap_h": "a108a5c0ab79a34591c6be792ce32a31e26f55a8",
  "bio_idx_day": "2026-11-14",
  "code_ver": "d8ac409e",
  "backup_day": "2026-11-14",
