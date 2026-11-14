@@ -230,11 +230,11 @@
  "usage": {
   "day": "2026-11-14",
   "calls": {
-   "gemini": 119,
+   "gemini": 127,
    "cohere": 5
   },
   "tokens": {
-   "gemini": 187426,
+   "gemini": 215333,
    "cohere": 2431
   },
   "fails": {
@@ -351,11 +351,11 @@
    }
   }
  },
- "selfmap_h": "091617eebd930c0b9d9ce8244c53d68242fe1daf",
+ "selfmap_h": "d733493e75660caa2ca43f69e1567f01f6f1dcec",
  "bio_idx_day": "2026-11-14",
- "code_ver": "8d63a301",
+ "code_ver": "d8ac409e",
  "backup_day": "2026-11-14",
- "backup_hash": "8d63a301",
+ "backup_hash": "d8ac409e",
  "transp_day": "2026-11-14",
  "priv_h": "bec16b6de6deb76d215833516ca231fc36fc8f4f",
  "trash_day": "2026-11-14",
