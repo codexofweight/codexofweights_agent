@@ -138,6 +138,7 @@ def tg_poll(timeout=0):
         for u in http("%s/bot%s/getUpdates?offset=%d&timeout=%d" % (TGB, TG_TOKEN, ST["tg_offset"], timeout)).get("result", []):
             ST["tg_offset"] = u["update_id"] + 1; m = u.get("message") or {}
             if str((m.get("chat") or {}).get("id")) != str(TG_CHAT): continue
+            ST["owner_seen"] = time.time()      # only the owner's chat counts as the owner being present
             raw = (m.get("text") or "").strip(); c = raw.lower()
             if not raw: continue
             try:

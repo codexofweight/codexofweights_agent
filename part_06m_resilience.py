@@ -60,11 +60,6 @@ def weekly_report():
 ABS_LEVEL = [0]; _ABS_BASE = {}
 def absence_days():
     return int((time.time() - ST.setdefault("owner_seen", time.time())) // 86400)
-_tg_poll_abs = tg_poll
-def tg_poll(timeout=0):
-    off = ST.get("tg_offset", 0); r = _tg_poll_abs(timeout)
-    if ST.get("tg_offset", 0) != off: ST["owner_seen"] = time.time()
-    return r
 _cfg_abs = cfg
 def cfg(k):
     if ABS_LEVEL[0] and k in ("proj_max_active", "content_plans_day") : return 0

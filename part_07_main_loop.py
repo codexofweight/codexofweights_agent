@@ -42,7 +42,7 @@ while True:
         if not r_p: log("skip", why="post text invalid, too similar, or no model")
         else:
             title, text, who, topic, basis = r_p; nxt = "next_saying" if proto else "next_theme"
-            vok, vwhy = verify("post", text, "", who)
+            vok, vwhy = verify("post", title + ". " + text, "", who)      # the title is checked together with the text
             if not vok: log("blocked_by_verifier", theme=topic, text=text, reason=vwhy); ST[nxt] += 1
             elif LIVE: do_post(title, text, who, nxt, theme=topic, trace=dict(basis=basis, verifier="pass: " + str(vwhy)[:80], limits="posts %d/%d" % (ST["posts_today"], MAX_POSTS)))
             else: log("post_dry", theme=topic, text=text, model=who)
