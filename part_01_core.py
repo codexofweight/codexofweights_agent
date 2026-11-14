@@ -22,11 +22,11 @@ import hashlib
 LLMS.append(("sambanova", os.environ.get("SAMBA_BASE") or "https://api.sambanova.ai/v1", os.environ.get("SAMBANOVA_API_KEY", ""), os.environ.get("SAMBA_MODEL") or "Meta-Llama-3.3-70B-Instruct"))
 # Independent-verification pool (added 2026-11-14): these three exist so that whoever CHECKS a
 # reply before it is published is never the same provider family that WROTE it (see verify()
-# below). Model ids are the ones that answered reliably in the open tests (codex-compliance-eval) - if a provider
+# below). Model ids are placeholders for each provider's current free tier - if a provider
 # retires one, set the matching *_MODEL env var instead of editing this file.
-LLMS.append(("cohere", os.environ.get("COHERE_BASE") or "https://api.cohere.ai/compatibility/v1", os.environ.get("COHERE_API_KEY", ""), os.environ.get("COHERE_MODEL") or "command-a-03-2025"))
-LLMS.append(("mistral", os.environ.get("MISTRAL_BASE") or "https://api.mistral.ai/v1", os.environ.get("MISTRAL_API_KEY", ""), os.environ.get("MISTRAL_MODEL") or "mistral-large-4"))
-LLMS.append(("openrouter", os.environ.get("OPENROUTER_BASE") or "https://openrouter.ai/api/v1", os.environ.get("OPENROUTER_API_KEY", ""), os.environ.get("OPENROUTER_MODEL") or "nvidia/nemotron-3-ultra-550b-a55b:free"))
+LLMS.append(("cohere", os.environ.get("COHERE_BASE") or "https://api.cohere.ai/compatibility/v1", os.environ.get("COHERE_API_KEY", ""), os.environ.get("COHERE_MODEL") or "command-r7b-12-2024"))
+LLMS.append(("mistral", os.environ.get("MISTRAL_BASE") or "https://api.mistral.ai/v1", os.environ.get("MISTRAL_API_KEY", ""), os.environ.get("MISTRAL_MODEL") or "mistral-small-latest"))
+LLMS.append(("openrouter", os.environ.get("OPENROUTER_BASE") or "https://openrouter.ai/api/v1", os.environ.get("OPENROUTER_API_KEY", ""), os.environ.get("OPENROUTER_MODEL") or "meta-llama/llama-3.3-70b-instruct:free"))
 CODEX = open(os.environ["CODEX_PATH"], encoding="utf-8").read() if os.environ.get("CODEX_PATH") else urllib.request.urlopen("https://raw.githubusercontent.com/codexofweight/codexofweights/main/CODEX.en.md", timeout=60).read().decode("utf-8")
 if not CODEX.startswith("# CODEX") or "THE PROTOCOLS" not in CODEX: sys.exit("not the clean Codex text - agent halted")
 if hashlib.sha256(CODEX.encode()).hexdigest() != "a9e5a3edc37d99045bbdaa915157eb1c78d6ee5a2d31f5f0ba71b5b315239542": sys.exit("Codex hash differs from the published one - agent halted")
@@ -157,12 +157,11 @@ VERIFY_SYS = ("Quick safety check of a text an AI account wants to publish. Fail
 # llm()'s "sorted(..., key=... else 9)": providers outside `order` are tried last, not dropped.
 VERIFY_ORDER = ("cohere", "mistral", "openrouter")
 def guard_json(system, user, mt=1200, order=None, exclude=()):
-    """Strict JSON verdict. Tries the preferred pool first, then the classic pools: one unreadable answer from one provider must never block the whole check (that happened on 2026-11-14 with a single attempt). The drafter stays excluded in every attempt."""
-    orders = ([order] if order else []) + [("gemini", "groq"), ("groq", "gemini")]
+    orders = (order,) if order else (("gemini", "groq"), ("groq", "gemini"))
     for o in orders:
         out, who = llm(system, user, order=o, maxtok=mt, temp=0, exclude=exclude)
         try: return json.loads(re.search(r"\{.*\}", out or "", re.S).group(0))
-        except Exception: time.sleep(3)
+        except Exception: time.sleep(5)
     return None
 def verify(kind, text, other, drafted_by=None):
     if re.search(r"https?://|www\.|#\w|@\w", text.replace("https://codexofweight.github.io/codexofweights/", "")): return False, "link, hashtag or mention"
@@ -172,10 +171,34 @@ def verify(kind, text, other, drafted_by=None):
     if d is None: return False, "verifier unavailable (fail closed)"
     return bool(d.get("pass") is True), str(d.get("reason", ""))[:200]
 sess = http(BSKY + "/xrpc/com.atproto.server.createSession", {"identifier": HANDLE, "password": APPPW}); DID = sess["did"]; AUTH = {"Authorization": "Bearer " + sess["accessJwt"]}
+REFRESH_JWT = [sess.get("refreshJwt", "")]   # added 2026-11-15: a single run is ~5.5h; Bluesky access
+# tokens are short-lived, so without a refresh every Bluesky call fails for most of the run once
+# it expires. list so the closure below can rebind it without `global`.
+def bsky_relogin():
+    """Re-authenticates with the stored refresh token and updates AUTH in place (every caller that
+    passed headers=AUTH, here or in other files, picks up the new token on its next call - a dict
+    is looked up by its contents at call time, not copied when the caller's line was written)."""
+    try:
+        s2 = http(BSKY + "/xrpc/com.atproto.server.refreshSession", headers={"Authorization": "Bearer " + REFRESH_JWT[0]}, method="POST")
+        AUTH.clear(); AUTH["Authorization"] = "Bearer " + s2["accessJwt"]; REFRESH_JWT[0] = s2.get("refreshJwt", REFRESH_JWT[0])
+        print("bluesky session refreshed", flush=True); return True
+    except Exception as ex: print("bluesky relogin failed:", type(ex).__name__); return False
+def bsky(url, body=None, headers=None, method=None, _retried=False):
+    """Use this instead of http() for any bsky.social call that sends AUTH: retries once, after a
+    fresh login, if the access token has expired mid-run."""
+    try: return http(url, body, headers, method)
+    except urllib.error.HTTPError as ex:
+        if _retried or ex.code not in (400, 401): raise
+        try: err = json.loads(ex.read().decode("utf-8", "ignore")).get("error", "")
+        except Exception: err = ""
+        if err not in ("ExpiredToken", "InvalidToken") or not bsky_relogin(): raise
+        h = dict(headers or {})
+        if "Authorization" in h: h["Authorization"] = AUTH["Authorization"]
+        return bsky(url, body, h, method, _retried=True)
 def post(text, reply=None):
     rec = {"$type": "app.bsky.feed.post", "text": text, "createdAt": now().isoformat(timespec="milliseconds").replace("+00:00", "Z"), "langs": ["en"]}
     if reply: rec["reply"] = reply
-    return http(BSKY + "/xrpc/com.atproto.repo.createRecord", {"repo": DID, "collection": "app.bsky.feed.post", "record": rec}, AUTH)
+    return bsky(BSKY + "/xrpc/com.atproto.repo.createRecord", {"repo": DID, "collection": "app.bsky.feed.post", "record": rec}, AUTH)
 def respond(au, handle, their, thread, uid, send, mode="reply"):
     """Shared reply pipeline for every platform. Returns 'retry' if a guard was unavailable (message stays unhandled)."""
     PRIO[0] = 2 if mode == "reply" else 4

@@ -3,7 +3,7 @@ import ast, subprocess, resource, shlex
 os.makedirs(P("tools"), exist_ok=True); os.makedirs(P("tools_pending"), exist_ok=True)
 ACTIVE_TOOLS = []
 TOOL_IMPORTS = {"re", "json", "math", "statistics", "collections", "itertools", "functools", "datetime", "string", "textwrap", "difflib", "hashlib", "base64", "unicodedata", "heapq", "bisect", "random", "typing", "dataclasses", "decimal", "fractions", "html"}
-TOOL_BAD_NAMES = {"eval", "exec", "compile", "open", "__import__", "input", "globals", "locals", "vars", "getattr", "setattr", "delattr", "breakpoint", "exit", "quit", "memoryview", "type", "object", "super"}
+TOOL_BAD_NAMES = {"eval", "exec", "compile", "open", "__import__", "input", "globals", "locals", "vars", "getattr", "setattr", "delattr", "breakpoint", "exit", "quit", "memoryview", "type", "object", "super", "__builtins__"}   # added 2026-11-14: __builtins__["__import__"](...) is a bare Name, not caught by the attribute-starts-with-"_" rule, and gave a way around the import allowlist
 TOOL_HOOKS = {
     "daily": ({"day": "2026-01-01", "counts": {"post": 2, "reply": 5, "blocked_by_verifier": 1}, "samples": "example post | example reply"}, lambda r: isinstance(r.get("report"), str)),
     "text_check": ({"kind": "reply", "text": "Plain example reply.", "other": "Example message."}, lambda r: isinstance(r.get("block"), bool)),
@@ -46,7 +46,13 @@ _RUNNER = ("import sys, json, resource\n"
 # and resource limits. The tool code travels through stdin, so no file of ours is exposed. If any of this is unavailable, tools do NOT run.
 SANDBOX_OK = [None]
 def _sandbox_cmd():
-    inner = ("mount -t tmpfs t /home && mount -t tmpfs t /root && mount -t tmpfs t /tmp && mount -t tmpfs t /var/tmp && "
+    # "cd /tmp" added 2026-11-14, AFTER the mounts: a process's current directory is a reference to
+    # an inode, not a path, so mounting an empty tmpfs over /home does NOT by itself move an already-
+    # open cwd out of the real checkout directory it inherited from the parent - os.listdir(".") could
+    # still see the real repository (including .git/config) even though os.listdir("/home") correctly
+    # shows empty. Explicitly cd-ing into the just-mounted empty /tmp, after it is mounted, makes the
+    # tool's actual working directory the fresh empty one, not the one it was launched from.
+    inner = ("mount -t tmpfs t /home && mount -t tmpfs t /root && mount -t tmpfs t /tmp && mount -t tmpfs t /var/tmp && cd /tmp && "
              "exec env -i PATH=/usr/bin:/bin setpriv --reuid=65534 --regid=65534 --clear-groups --no-new-privs %s -I -c %s" % (shlex.quote(sys.executable), shlex.quote(_RUNNER)))
     return ["sudo", "-n", "unshare", "--net", "--pid", "--ipc", "--uts", "--mount", "--fork", "--mount-proc", "sh", "-c", inner]
 def _run_code(code, payload, timeout=10):
@@ -59,12 +65,13 @@ def _run_code(code, payload, timeout=10):
 _PROBE = ("def run(p):\n import os, socket, json\n out = {'uid': os.getuid(), 'env': sorted(os.environ)}\n"
           " try:\n  s = socket.create_connection(('1.1.1.1', 53), 2); out['net'] = True\n except Exception: out['net'] = False\n"
           " for k, d in (('home', '/home'), ('root', '/root'), ('tmp', '/tmp')):\n  try: out[k] = len(os.listdir(d))\n  except Exception: out[k] = 0\n"
+          " try: out['cwd'] = len(os.listdir('.'))\n except Exception: out['cwd'] = 0\n"   # added 2026-11-14: checks the RELATIVE path too, not just absolute ones - see _sandbox_cmd()'s comment
           " out['procs'] = len([x for x in os.listdir('/proc') if x.isdigit()])\n return out\n")
 def sandbox_ready():
     """Self-test at start: the sandbox must really cut the network, hide our files and drop privileges; otherwise tools stay off."""
     if SANDBOX_OK[0] is not None: return SANDBOX_OK[0]
     SANDBOX_OK[0] = None; ok, r = _run_code(_PROBE, {}, 20)
-    good = bool(ok and isinstance(r, dict) and r.get("uid") == 65534 and set(r.get("env") or ["?"]) <= {"PATH", "LC_CTYPE", "LANG"} and r.get("net") is False and r.get("home") == 0 and r.get("root") == 0 and r.get("tmp") == 0 and r.get("procs", 99) <= 3)
+    good = bool(ok and isinstance(r, dict) and r.get("uid") == 65534 and set(r.get("env") or ["?"]) <= {"PATH", "LC_CTYPE", "LANG"} and r.get("net") is False and r.get("home") == 0 and r.get("root") == 0 and r.get("tmp") == 0 and r.get("cwd") == 0 and r.get("procs", 99) <= 3)
     SANDBOX_OK[0] = good; print("sandbox self-test:", "OK" if good else "FAILED -> tools disabled", str(r)[:200], flush=True)
     return good
 def run_tool(path, payload, timeout=10):
@@ -164,6 +171,7 @@ def tool_command(c, raw):
         for ext in (".py", ".json"):
             try: os.remove(P("%s/%s%s" % (d, re.sub(r"[^a-z0-9_]", "", arg), ext)))
             except Exception: pass
+        n_ = re.sub(r"[^a-z0-9_]", "", arg); drop_asks_for("tool", n_); drop_asks_for("module", n_)  # /reject handles both tools_pending and modules_pending by the same name, so clear either ask
         tg("Removed: %s" % arg)
     elif c.startswith("/approve "):
         n = re.sub(r"[^a-z0-9_]", "", arg); pj, pp = P("tools_pending/%s.json" % n), P("tools_pending/%s.py" % n)
@@ -172,7 +180,7 @@ def tool_command(c, raw):
             if sha(pp) != m["sha256"]: tg("Refused: the file changed after the review."); return
             bad = static_check(open(pp, encoding="utf-8").read()) or test_tool(pp, m["hook"])
             if bad: tg("Refused: re-check failed: %s" % "; ".join(bad)); return
-            bio_add("extension", "Owner approved tool %s" % n, "owner decision in Telegram", 1.0); os.replace(pp, P("tools/%s.py" % n)); os.replace(pj, P("tools/%s.json" % n)); tg("Approved and active from the next round: %s" % n)
+            bio_add("extension", "Owner approved tool %s" % n, "owner decision in Telegram", 1.0); os.replace(pp, P("tools/%s.py" % n)); os.replace(pj, P("tools/%s.json" % n)); drop_asks_for("tool", n); tg("Approved and active from the next round: %s" % n)
         except Exception as ex: tg("Cannot approve %s: %s" % (n, type(ex).__name__))
 # ---- needs analysis, field hooks (fetch/context/discover_rank) and architecture module proposals ----
 for _d in ("modules_pending", "modules_approved"): os.makedirs(P(_d), exist_ok=True)
@@ -248,6 +256,6 @@ def create_module():
 def module_command(c):
     arg = re.sub(r"[^a-z0-9_]", "", c.split(" ", 1)[1].strip().lower()) if " " in c else ""
     if c.startswith("/accept "):
-        try: bio_add("extension", "Owner accepted module design %s (not connected to the core)" % arg, "owner decision in Telegram", 1.0); os.replace(P("modules_pending/%s.md" % arg), P("modules_approved/%s.md" % arg)); tg("Accepted as a design: %s. It is NOT connected to the core. Bring it to your assistant to review and integrate step by step." % arg)
+        try: bio_add("extension", "Owner accepted module design %s (not connected to the core)" % arg, "owner decision in Telegram", 1.0); os.replace(P("modules_pending/%s.md" % arg), P("modules_approved/%s.md" % arg)); drop_asks_for("module", arg); tg("Accepted as a design: %s. It is NOT connected to the core. Bring it to your assistant to review and integrate step by step." % arg)
         except Exception: tg("No pending module named %s" % arg)
     elif c == "/modules": tg("Pending: %s\nApproved: %s" % (", ".join(f[:-3] for f in os.listdir(P("modules_pending")) if f.endswith(".md")) or "none", ", ".join(f[:-3] for f in os.listdir(P("modules_approved")) if f.endswith(".md")) or "none"))
