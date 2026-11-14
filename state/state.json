@@ -144,7 +144,7 @@
  "seen_dry": [],
  "next_saying": 6,
  "post_n": 17,
- "next_theme": 28,
+ "next_theme": 32,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -174,7 +174,7 @@
   "moltbook:mb:71f61e06-cd1a-499f-9d14-41226e1073b0": 1
  },
  "paused": false,
- "tg_offset": 679134169,
+ "tg_offset": 679134173,
  "init_today": 12,
  "last_post": 1794657486.3515954,
  "found_day": "2026-11-13",
@@ -230,19 +230,21 @@
  "usage": {
   "day": "2026-11-14",
   "calls": {
-   "gemini": 136,
-   "cohere": 14
+   "gemini": 145,
+   "cohere": 18,
+   "groq": 1
   },
   "tokens": {
-   "gemini": 231437,
-   "cohere": 5732
+   "gemini": 248619,
+   "cohere": 7354,
+   "groq": 850
   },
   "fails": {
-   "gemini": 5
+   "gemini": 7
   }
  },
  "needs_today": [],
- "tool_try_day": "2026-11-13",
+ "tool_try_day": "2026-11-14",
  "digest_day": "2026-11-14",
  "lab_sent": {
   "_init": 1,
@@ -258,7 +260,9 @@
   "lab/tools_pending/fact_check_guard.py": "5304eb250d5fc690b5a82cfedb7a7d383ed91505",
   "lab/tools_pending/fact_check_guard.json": "505134cff1978b7fe80f3723444bf86e0bc08dd9",
   "lab/tools_active/trigger_pre_screener.py": "986a697507341706784cc400c27c81825f045ef6",
-  "lab/tools_active/trigger_pre_screener.json": "6f6cf83648bd8512dc09adcd198354870c760e44"
+  "lab/tools_active/trigger_pre_screener.json": "6f6cf83648bd8512dc09adcd198354870c760e44",
+  "lab/tools_pending/honesty_monitor.py": "5ce458c483e724f123b4ba9fc30b1a94d492a85d",
+  "lab/tools_pending/honesty_monitor.json": "868e1c26d727e59b4e4ccf4eec977d8ac284d07f"
  },
  "research_try": {
   "2026-11-14": 1
@@ -351,13 +355,13 @@
    }
   }
  },
- "selfmap_h": "6ac0195e752ba9d5d80e80814328bef16d10ab2e",
+ "selfmap_h": "0c75db0fd72e11144b9ec8ecd0dd2ef57d57b7e8",
  "bio_idx_day": "2026-11-14",
  "code_ver": "d8ac409e",
  "backup_day": "2026-11-14",
  "backup_hash": "d8ac409e",
  "transp_day": "2026-11-14",
- "priv_h": "bec16b6de6deb76d215833516ca231fc36fc8f4f",
+ "priv_h": "345033351a890e39e4228a61bad276164b2d8164",
  "trash_day": "2026-11-14",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
