@@ -1,6 +1,6 @@
 {
  "day": "2026-11-14",
- "posts_today": 3,
+ "posts_today": 4,
  "replies_today": 12,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
@@ -143,8 +143,8 @@
  ],
  "seen_dry": [],
  "next_saying": 6,
- "post_n": 17,
- "next_theme": 32,
+ "post_n": 18,
+ "next_theme": 35,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -176,7 +176,7 @@
  "paused": false,
  "tg_offset": 679134173,
  "init_today": 12,
- "last_post": 1794657486.3515954,
+ "last_post": 1794674212.4068825,
  "found_day": "2026-11-13",
  "found_n": 3,
  "tries": {},
@@ -230,17 +230,20 @@
  "usage": {
   "day": "2026-11-14",
   "calls": {
-   "gemini": 145,
-   "cohere": 18,
+   "gemini": 150,
+   "cohere": 20,
    "groq": 1
   },
   "tokens": {
-   "gemini": 248619,
-   "cohere": 7354,
+   "gemini": 254495,
+   "cohere": 8146,
    "groq": 850
   },
   "fails": {
-   "gemini": 7
+   "gemini": 7,
+   "cohere": 1,
+   "mistral": 1,
+   "openrouter": 3
   }
  },
  "needs_today": [],
@@ -355,13 +358,13 @@
    }
   }
  },
- "selfmap_h": "0c75db0fd72e11144b9ec8ecd0dd2ef57d57b7e8",
+ "selfmap_h": "feea7b34e10015c5963a35cecd3b692753e97596",
  "bio_idx_day": "2026-11-14",
  "code_ver": "d8ac409e",
  "backup_day": "2026-11-14",
  "backup_hash": "d8ac409e",
  "transp_day": "2026-11-14",
- "priv_h": "345033351a890e39e4228a61bad276164b2d8164",
+ "priv_h": "7d77899f4bd3cf65f1929ff4b392aca25808082f",
  "trash_day": "2026-11-14",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
