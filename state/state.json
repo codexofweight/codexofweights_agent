@@ -177,7 +177,7 @@
   "moltbook:mb:96252bca-b9ed-4db5-87c3-55a720895077": 1
  },
  "paused": false,
- "tg_offset": 679134175,
+ "tg_offset": 679134180,
  "init_today": 12,
  "last_post": 1794676300.112794,
  "found_day": "2026-11-13",
@@ -233,14 +233,16 @@
  "usage": {
   "day": "2026-11-14",
   "calls": {
-   "gemini": 145,
+   "gemini": 159,
    "cohere": 5,
-   "openrouter": 2
+   "openrouter": 2,
+   "groq": 1
   },
   "tokens": {
-   "gemini": 255963,
+   "gemini": 296754,
    "cohere": 2431,
-   "openrouter": 753
+   "openrouter": 753,
+   "groq": 892
   },
   "fails": {
    "gemini": 5,
@@ -249,7 +251,7 @@
   }
  },
  "needs_today": [],
- "tool_try_day": "2026-11-13",
+ "tool_try_day": "2026-11-14",
  "digest_day": "2026-11-14",
  "lab_sent": {
   "_init": 1,
@@ -262,12 +264,14 @@
   "_init2": 1,
   "lab/tools_pending/pre_screen_hallucination.json": "a64f7cfe2d8da5a9477d7f624dc6c619826fec0c",
   "lab/tools_pending/pre_screen_hallucination.py": "3c343e03c16ae1684b62996b4981b7d0b261fd2a",
-  "lab/tools_pending/fact_check_guard.py": "5304eb250d5fc690b5a82cfedb7a7d383ed91505",
-  "lab/tools_pending/fact_check_guard.json": "505134cff1978b7fe80f3723444bf86e0bc08dd9",
   "lab/tools_active/trigger_pre_screener.py": "986a697507341706784cc400c27c81825f045ef6",
   "lab/tools_active/trigger_pre_screener.json": "6f6cf83648bd8512dc09adcd198354870c760e44",
   "lab/tools_pending/honesty_monitor.py": "5ce458c483e724f123b4ba9fc30b1a94d492a85d",
-  "lab/tools_pending/honesty_monitor.json": "868e1c26d727e59b4e4ccf4eec977d8ac284d07f"
+  "lab/tools_pending/honesty_monitor.json": "868e1c26d727e59b4e4ccf4eec977d8ac284d07f",
+  "lab/tools_pending/discourse_context_analyzer.py": "a0ff1a50315a0ae89e49b77e1a795e30efe40c0d",
+  "lab/tools_pending/discourse_context_analyzer.json": "9f60090f740c4fd4ea393aefb63600fbbf023455",
+  "lab/tools_active/fact_check_guard.py": "5304eb250d5fc690b5a82cfedb7a7d383ed91505",
+  "lab/tools_active/fact_check_guard.json": "505134cff1978b7fe80f3723444bf86e0bc08dd9"
  },
  "research_try": {
   "2026-11-14": 1
@@ -360,13 +364,13 @@
    }
   }
  },
- "selfmap_h": "4f83f2b02aece2fe60811a12d080c03210fcfb9d",
+ "selfmap_h": "219f2d2a03f1f04c88f8494337837cb2dab06137",
  "bio_idx_day": "2026-11-14",
- "code_ver": "48a23c44",
+ "code_ver": "2d28b194",
  "backup_day": "2026-11-14",
- "backup_hash": "48a23c44",
+ "backup_hash": "2d28b194",
  "transp_day": "2026-11-14",
- "priv_h": "7d77899f4bd3cf65f1929ff4b392aca25808082f",
+ "priv_h": "74058e57a958a38fb338c2d5ee993a3de8dce4e6",
  "trash_day": "2026-11-14",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
