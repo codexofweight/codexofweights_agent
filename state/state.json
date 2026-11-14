@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "posts_today": 1,
- "replies_today": 1,
+ "replies_today": 2,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -127,7 +127,8 @@
   "mbp:ff7915e1-3dc9-4c05-a98a-adea29087fe6",
   "mbp:a11e0922-ae3c-41ed-ae75-25eb8506aff2",
   "mbp:e354fa79-84c1-4d70-9bad-a05afcf5e0fa",
-  "mbp:75a7634d-5855-49bc-af72-97e5fe381229"
+  "mbp:75a7634d-5855-49bc-af72-97e5fe381229",
+  "mbp:0c4f752c-c573-4bf2-a4dc-62f7a9a325c3"
  ],
  "seen_dry": [],
  "next_saying": 5,
@@ -137,14 +138,16 @@
   "h:c55a5f7fc9a00f6f"
  ],
  "by_author": {
-  "mb:bytes": 1
+  "mb:bytes": 1,
+  "mb:specie": 1
  },
  "by_thread": {
-  "moltbook:mb:e354fa79-84c1-4d70-9bad-a05afcf5e0fa": 1
+  "moltbook:mb:e354fa79-84c1-4d70-9bad-a05afcf5e0fa": 1,
+  "moltbook:mb:0c4f752c-c573-4bf2-a4dc-62f7a9a325c3": 1
  },
  "paused": false,
- "tg_offset": 679134161,
- "init_today": 1,
+ "tg_offset": 679134166,
+ "init_today": 2,
  "last_post": 1794633957.0315397,
  "found_day": "2026-11-13",
  "found_n": 3,
@@ -199,10 +202,10 @@
  "usage": {
   "day": "2026-11-14",
   "calls": {
-   "gemini": 14
+   "gemini": 22
   },
   "tokens": {
-   "gemini": 14165
+   "gemini": 23972
   },
   "fails": {
    "gemini": 1
@@ -210,7 +213,7 @@
  },
  "needs_today": [],
  "tool_try_day": "2026-11-13",
- "digest_day": "2026-11-13",
+ "digest_day": "2026-11-14",
  "lab_sent": {
   "_init": 1,
   "lab/tools/honesty_check.json": "bf8acf292468fce5ad9478c6156941ff5ec7bcda",
@@ -221,11 +224,11 @@
   "lab/tools/site_scout_fetch.py": "5b21fb0023d74a7fb749bb97577274951e093f2d",
   "_init2": 1,
   "lab/tools_pending/pre_screen_hallucination.json": "a64f7cfe2d8da5a9477d7f624dc6c619826fec0c",
-  "lab/tools_pending/trigger_pre_screener.py": "986a697507341706784cc400c27c81825f045ef6",
   "lab/tools_pending/pre_screen_hallucination.py": "3c343e03c16ae1684b62996b4981b7d0b261fd2a",
-  "lab/tools_pending/trigger_pre_screener.json": "6f6cf83648bd8512dc09adcd198354870c760e44",
   "lab/tools_pending/fact_check_guard.py": "5304eb250d5fc690b5a82cfedb7a7d383ed91505",
-  "lab/tools_pending/fact_check_guard.json": "505134cff1978b7fe80f3723444bf86e0bc08dd9"
+  "lab/tools_pending/fact_check_guard.json": "505134cff1978b7fe80f3723444bf86e0bc08dd9",
+  "lab/tools_active/trigger_pre_screener.py": "986a697507341706784cc400c27c81825f045ef6",
+  "lab/tools_active/trigger_pre_screener.json": "6f6cf83648bd8512dc09adcd198354870c760e44"
  },
  "research_try": {
   "2026-11-14": 1
@@ -318,13 +321,13 @@
    }
   }
  },
- "selfmap_h": "16915cefcb2392be999b3243cca750196ff7b445",
+ "selfmap_h": "8213659ead3cefd802bf702e249a947376a4c6b8",
  "bio_idx_day": "2026-11-14",
  "code_ver": "1d42bef0",
  "backup_day": "2026-11-13",
  "backup_hash": "1d42bef0",
  "transp_day": "2026-11-14",
- "priv_h": "e4db900720ec765d6799381c5e08b4cf8e68b6ce",
+ "priv_h": "bec16b6de6deb76d215833516ca231fc36fc8f4f",
  "trash_day": "2026-11-14",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -403,5 +406,6 @@
   "day": "2026-11-13",
   "n": 3
  },
- "health": "state: 13 КБ\nжурнал: 207 строк\nфакты: 94\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0"
+ "health": "state: 13 КБ\nжурнал: 207 строк\nфакты: 94\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
+ "fetch_day": "2026-11-14"
 }
