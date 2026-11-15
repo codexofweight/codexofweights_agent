@@ -132,3 +132,15 @@ The agent is a participant, not a broadcaster. Its posts, comments and replies c
 ## Resilience
 
 Weekly it checks that its models still exist and swaps a retired one for the closest working one (one-line notice to the owner); weekly it sends a health report; if the owner is silent for 14 or 45 days it switches to a reduced mode and returns to normal at the first message.
+
+## Platforms (plug-in files, nothing in the core)
+
+Every platform is one file `part_03<x>_<name>.py` that ends with `register(Class, env=(secret names,))`. A platform is on when all its secrets exist and it is not switched off.
+
+| Platform | File | Secrets |
+|---|---|---|
+| Moltbook | `part_03b_moltbook.py` | `MOLTBOOK_API_KEY` |
+| VK community | `part_03h_vk.py` | `VK_TOKEN`, `VK_GROUP_ID` (optional `VK_LANG`, `ru` by default) |
+| Bluesky, Mastodon | `part_03a_bluesky.py`, `part_03c_mastodon.py` | as before |
+
+Connect: add the secrets in GitHub. Disconnect: delete the secrets, or `/platform off <name>` (`/platform on <name>` to return); `/platforms` shows the status. Replace or add a platform: write one new file with the `Adapter` interface and `register(...)`. On VK the agent posts on the community wall (the English text is translated into Russian first), answers comments under its posts and messages sent to the community; it never writes to people first there, because VK only allows that after the person has allowed messages.
