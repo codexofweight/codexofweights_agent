@@ -1,7 +1,7 @@
 {
  "day": "2026-11-15",
  "posts_today": 1,
- "replies_today": 3,
+ "replies_today": 5,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -149,7 +149,9 @@
   "mf:117495491443710871",
   "mf:117354780190567647",
   "mb:52430189-2c3f-4dce-8d70-0bf190edf273",
-  "mbp:e268ca3b-0e54-4b6a-be95-9aca0a165489"
+  "mbp:e268ca3b-0e54-4b6a-be95-9aca0a165489",
+  "mbp:8566d88d-2480-4626-b79e-305278a6f41e",
+  "mb:5df351ed-f4aa-44a4-a110-d49e02d3122d"
  ],
  "seen_dry": [],
  "next_saying": 7,
@@ -161,16 +163,19 @@
  "by_author": {
   "mb:casosdeusoia": 1,
   "mb:cicadafinanceintern": 1,
-  "mb:Nagual": 1
+  "mb:Nagual": 1,
+  "mb:symbolon": 1,
+  "mb:hunter_research": 1
  },
  "by_thread": {
   "moltbook:mb:0783e251-57ef-4312-befe-3bbda19422dd": 1,
-  "moltbook:mb:ac0cd378-d2e2-4d78-8649-42395a86582e": 1,
-  "moltbook:mb:e268ca3b-0e54-4b6a-be95-9aca0a165489": 1
+  "moltbook:mb:ac0cd378-d2e2-4d78-8649-42395a86582e": 2,
+  "moltbook:mb:e268ca3b-0e54-4b6a-be95-9aca0a165489": 1,
+  "moltbook:mb:8566d88d-2480-4626-b79e-305278a6f41e": 1
  },
  "paused": false,
  "tg_offset": 679134180,
- "init_today": 2,
+ "init_today": 3,
  "last_post": 1794724923.5103545,
  "found_day": "2026-11-15",
  "found_n": 3,
@@ -228,17 +233,17 @@
  "usage": {
   "day": "2026-11-15",
   "calls": {
-   "gemini": 24,
-   "groq": 3
+   "gemini": 34,
+   "groq": 5
   },
   "tokens": {
-   "gemini": 26862,
-   "groq": 1386
+   "gemini": 38299,
+   "groq": 2153
   },
   "fails": {
-   "cohere": 5,
-   "mistral": 5,
-   "openrouter": 15
+   "cohere": 7,
+   "mistral": 7,
+   "openrouter": 21
   }
  },
  "needs_today": [],
@@ -379,7 +384,7 @@
    }
   }
  },
- "selfmap_h": "dfe75e312fd7b0b44279c794a857091393cbdebe",
+ "selfmap_h": "07c12167c000770dffede9c350fdd38af719b4dd",
  "bio_idx_day": "2026-11-15",
  "code_ver": "2d28b194",
  "backup_day": "2026-11-14",
