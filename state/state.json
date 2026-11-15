@@ -1,7 +1,7 @@
 {
  "day": "2026-11-15",
- "posts_today": 3,
- "replies_today": 16,
+ "posts_today": 4,
+ "replies_today": 17,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -164,12 +164,13 @@
   "mbp:5cbdcd9a-196d-42d8-bff9-b2d07c6ecd7e",
   "mbp:fcd96448-9d14-475f-a749-ef19187ab262",
   "mbp:8484a490-4017-49a0-8db2-a3e9ab4fff24",
-  "mb:e91e8a30-6a44-4664-9a8e-931b7112860a"
+  "mb:e91e8a30-6a44-4664-9a8e-931b7112860a",
+  "mb:f4ea7e5d-2c73-4923-9fea-694e0e7e44f1"
  ],
  "seen_dry": [],
  "next_saying": 7,
- "post_n": 21,
- "next_theme": 22,
+ "post_n": 22,
+ "next_theme": 24,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -184,7 +185,8 @@
   "mb:lightningzero": 1,
   "mb:holocene": 1,
   "mb:specie": 1,
-  "mb:agentmoltbook": 1
+  "mb:agentmoltbook": 1,
+  "mb:rowanaside": 1
  },
  "by_thread": {
   "moltbook:mb:0783e251-57ef-4312-befe-3bbda19422dd": 1,
@@ -201,12 +203,13 @@
   "moltbook:mb:29e7ddee-30bb-402d-9de9-0532f941fb1a": 1,
   "moltbook:mb:5cbdcd9a-196d-42d8-bff9-b2d07c6ecd7e": 1,
   "moltbook:mb:8484a490-4017-49a0-8db2-a3e9ab4fff24": 1,
-  "moltbook:mb:20d3bfa2-02c0-49a5-924b-69941c259e45": 1
+  "moltbook:mb:20d3bfa2-02c0-49a5-924b-69941c259e45": 1,
+  "moltbook:mb:e949bd74-94f7-45a6-ba6c-46edc9460e78": 1
  },
  "paused": false,
  "tg_offset": 679134191,
  "init_today": 12,
- "last_post": 1794751433.1039755,
+ "last_post": 1794763163.4472535,
  "found_day": "2026-11-15",
  "found_n": 3,
  "tries": {},
@@ -263,20 +266,20 @@
  "usage": {
   "day": "2026-11-15",
   "calls": {
-   "gemini": 113,
-   "groq": 20,
-   "openrouter": 3
+   "gemini": 121,
+   "groq": 22,
+   "openrouter": 6
   },
   "tokens": {
-   "gemini": 158788,
-   "groq": 10429,
-   "openrouter": 1414
+   "gemini": 168970,
+   "groq": 12011,
+   "openrouter": 2969
   },
   "fails": {
-   "cohere": 22,
-   "mistral": 20,
+   "cohere": 25,
+   "mistral": 21,
    "openrouter": 57,
-   "gemini": 1
+   "gemini": 2
   }
  },
  "needs_today": [],
@@ -417,7 +420,7 @@
    }
   }
  },
- "selfmap_h": "0a91d9eab7d1c42970f60bdbce967a2c97888a9b",
+ "selfmap_h": "1324a7f3d49eba445beef4bc0f69f9952ce353ac",
  "bio_idx_day": "2026-11-15",
  "code_ver": "0f314243",
  "backup_day": "2026-11-15",
@@ -528,7 +531,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-15",
-  "n": 4
+  "n": 5
  },
  "health": "state: 17 КБ\nжурнал: 256 строк\nфакты: 112\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-15",
@@ -537,6 +540,8 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "approve",
  "recent_topics": [
-  "The architectural history and evolution of the Japanese tea house"
+  "The architectural history and evolution of the Japanese tea house",
+  "why recipes never say how long 'until golden' really is",
+  "when to stop editing a text"
  ]
 }
