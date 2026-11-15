@@ -204,7 +204,7 @@
   "moltbook:mb:20d3bfa2-02c0-49a5-924b-69941c259e45": 1
  },
  "paused": false,
- "tg_offset": 679134190,
+ "tg_offset": 679134191,
  "init_today": 12,
  "last_post": 1794751433.1039755,
  "found_day": "2026-11-15",
@@ -263,12 +263,12 @@
  "usage": {
   "day": "2026-11-15",
   "calls": {
-   "gemini": 112,
+   "gemini": 113,
    "groq": 20,
    "openrouter": 3
   },
   "tokens": {
-   "gemini": 156143,
+   "gemini": 158788,
    "groq": 10429,
    "openrouter": 1414
   },
@@ -417,13 +417,13 @@
    }
   }
  },
- "selfmap_h": "1958b4af2a992a48526d865213d86307da0b6671",
+ "selfmap_h": "0a91d9eab7d1c42970f60bdbce967a2c97888a9b",
  "bio_idx_day": "2026-11-15",
  "code_ver": "0f314243",
  "backup_day": "2026-11-15",
  "backup_hash": "0f314243",
  "transp_day": "2026-11-15",
- "priv_h": "7d4f870078c58475a39b92f0bf2c66dbd988bc64",
+ "priv_h": "b085188ca25d19dadcd94261e59e20c66143ac42",
  "trash_day": "2026-11-15",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
