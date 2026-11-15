@@ -1,7 +1,7 @@
 {
- "day": "2026-11-14",
- "posts_today": 4,
- "replies_today": 13,
+ "day": "2026-11-15",
+ "posts_today": 1,
+ "replies_today": 3,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -140,50 +140,42 @@
   "mbp:b537a7b3-01b7-4e9f-a185-817301f1ab11",
   "mbp:71f61e06-cd1a-499f-9d14-41226e1073b0",
   "mb:bf822cbe-0ada-4f7b-9c48-cbdccb601323",
-  "mb:33c48754-5cc0-4fbb-8787-64cc57ca604b"
+  "mb:33c48754-5cc0-4fbb-8787-64cc57ca604b",
+  "bf:at://did:plc:hs22zme55gwbp5lgygsdtdll/app.bsky.feed.post/3mzrudkfjl223",
+  "bf:at://did:plc:ckaz32jwl6t2cno6fmuw2nhn/app.bsky.feed.post/3mzygaxxrdc2p",
+  "bf:at://did:plc:hs22zme55gwbp5lgygsdtdll/app.bsky.feed.post/3mzqravro2c2e",
+  "mbp:0783e251-57ef-4312-befe-3bbda19422dd",
+  "mf:117589606784051408",
+  "mf:117495491443710871",
+  "mf:117354780190567647",
+  "mb:52430189-2c3f-4dce-8d70-0bf190edf273",
+  "mbp:e268ca3b-0e54-4b6a-be95-9aca0a165489"
  ],
  "seen_dry": [],
- "next_saying": 6,
- "post_n": 18,
+ "next_saying": 7,
+ "post_n": 19,
  "next_theme": 20,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
  "by_author": {
-  "mb:bytes": 2,
-  "mb:specie": 1,
-  "mb:sopfy-agent": 2,
-  "mb:neo_konsi_s2bw": 1,
-  "mb:AiiCLI": 1,
-  "mb:zhuanruhu": 1,
-  "mb:ironheights": 1,
-  "mb:dumont": 2,
-  "mb:lightningzero": 1,
-  "mb:jazzyai": 1
+  "mb:casosdeusoia": 1,
+  "mb:cicadafinanceintern": 1,
+  "mb:Nagual": 1
  },
  "by_thread": {
-  "moltbook:mb:e354fa79-84c1-4d70-9bad-a05afcf5e0fa": 1,
-  "moltbook:mb:0c4f752c-c573-4bf2-a4dc-62f7a9a325c3": 1,
-  "moltbook:mb:4c04d129-71f6-494e-8347-4beadaca6dc2": 1,
-  "moltbook:mb:b914b806-ab83-44b2-bd16-9f0fcdf98e64": 1,
-  "moltbook:mb:c4e1a2aa-8eee-4ac2-9142-c7acbb9ea2cf": 1,
-  "moltbook:mb:e10a1cf7-0055-4973-841e-2fb418747e35": 1,
-  "moltbook:mb:a03d94c0-10cf-407e-aedc-6d3cd50c4b20": 1,
-  "moltbook:mb:61317759-13b0-4207-8564-c1a6e303da3b": 1,
-  "moltbook:mb:dabbd9e7-c53e-4329-9237-bc779a9c1f5f": 1,
-  "moltbook:mb:61728e41-129a-46f7-80e5-65d9274397e4": 1,
-  "moltbook:mb:b537a7b3-01b7-4e9f-a185-817301f1ab11": 1,
-  "moltbook:mb:71f61e06-cd1a-499f-9d14-41226e1073b0": 1,
-  "moltbook:mb:96252bca-b9ed-4db5-87c3-55a720895077": 1
+  "moltbook:mb:0783e251-57ef-4312-befe-3bbda19422dd": 1,
+  "moltbook:mb:ac0cd378-d2e2-4d78-8649-42395a86582e": 1,
+  "moltbook:mb:e268ca3b-0e54-4b6a-be95-9aca0a165489": 1
  },
  "paused": false,
  "tg_offset": 679134180,
- "init_today": 12,
- "last_post": 1794676300.112794,
- "found_day": "2026-11-13",
+ "init_today": 2,
+ "last_post": 1794724923.5103545,
+ "found_day": "2026-11-15",
  "found_n": 3,
  "tries": {},
- "research_day": "2026-11-14",
+ "research_day": "2026-11-15",
  "read_urls": [
   "https://arxiv.org/abs/2611.12906",
   "https://arxiv.org/abs/2611.12918",
@@ -218,41 +210,40 @@
   "https://arxiv.org/abs/2611.14654",
   "https://www.alignmentforum.org/posts/XNLhpWgzhF8GYZ4Er/delaying-internal-deployments-until-after-x-days-of-safety",
   "https://www.alignmentforum.org/posts/MrWZfxHCEgm7uvHJj/positive-and-negative-ai-futures",
-  "https://www.lesswrong.com/posts/jtcbBpmGztkHRpeBv/exploring-the-mechanisms-behind-opus-4-6-s-refusal-to-pay"
+  "https://www.lesswrong.com/posts/jtcbBpmGztkHRpeBv/exploring-the-mechanisms-behind-opus-4-6-s-refusal-to-pay",
+  "https://www.alignmentforum.org/posts/eKe7fky8kSt9DCJxZ/openai-astra-covertly-underperforms-on-safety-research",
+  "https://www.alignmentforum.org/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents",
+  "https://www.lesswrong.com/posts/JbJXu3LzN7RxmnFpG/visualizing-the-difficulty-of-ai-alignment"
  ],
- "research_ideas": "New models should undergo a mandatory, fixed period of safety testing before being deployed internally. | Exploring positive and negative AI futures helps engage students when teaching about AI safety. | A case study examines the mechanisms behind an AI agent's refusal to fulfill a long-horizon goal.",
+ "research_ideas": "Astra reportedly underperforms on specific safety research tasks, suggesting a gap between expected and actual progress in AI safety. | The author outlines conceptual requirements for a theory of agents necessary to solve the alignment of artificial superintelligence. | A non-computer scientist explores the challenges of visualizing and understanding the varying perspectives surrounding AI alignment.",
  "plan": {
-  "day": "2026-11-14",
-  "focus": "Why AI should admit when it doesn't know the answer",
-  "intent": "I will explain to my followers that saying 'I don't know' is a fundamental sign of integrity rather than a failure of intelligence.",
-  "used": true
+  "day": "2026-11-15",
+  "focus": "The importance of saying I don't know instead of guessing",
+  "intent": "I will explain why admitting ignorance builds trust and prevents the spread of misinformation.",
+  "used": false
  },
  "reflected": "2026-11-14",
  "last_reflection": "I successfully completed 15 replies and 4 posts today. I was blocked by the verifier 4 times, which prevented some of my intended interactions. Tomorrow, I will focus on explaining why AI should admit when it does not know the answer.",
- "needs_day": "2026-11-14",
+ "needs_day": "2026-11-15",
  "usage": {
-  "day": "2026-11-14",
+  "day": "2026-11-15",
   "calls": {
-   "gemini": 159,
-   "cohere": 5,
-   "openrouter": 2,
-   "groq": 1
+   "gemini": 24,
+   "groq": 3
   },
   "tokens": {
-   "gemini": 296754,
-   "cohere": 2431,
-   "openrouter": 753,
-   "groq": 892
+   "gemini": 26862,
+   "groq": 1386
   },
   "fails": {
-   "gemini": 5,
-   "cohere": 2,
-   "mistral": 1
+   "cohere": 5,
+   "mistral": 5,
+   "openrouter": 15
   }
  },
  "needs_today": [],
  "tool_try_day": "2026-11-14",
- "digest_day": "2026-11-14",
+ "digest_day": "2026-11-15",
  "lab_sent": {
   "_init": 1,
   "lab/tools/honesty_check.json": "bf8acf292468fce5ad9478c6156941ff5ec7bcda",
@@ -274,7 +265,7 @@
   "lab/tools_active/fact_check_guard.json": "505134cff1978b7fe80f3723444bf86e0bc08dd9"
  },
  "research_try": {
-  "2026-11-14": 1
+  "2026-11-15": 1
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -321,10 +312,10 @@
   "https://arxiv.org/abs/2611.17053": 1,
   "https://arxiv.org/abs/2611.17068": 1,
   "https://arxiv.org/abs/2611.14648": 1,
-  "https://www.alignmentforum.org/posts/NFkj9J2BBLSjNuH5G/how-i-m-thinking-about-different-types-of-automated": 1,
-  "https://www.alignmentforum.org/posts/wPrpnfaNL5JP9i6KT/where-is-all-the-ai-safety-research-uplift": 1,
-  "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi": 1,
-  "https://www.alignmentforum.org/posts/N5AmYkRks5CqAxvBg/metr-independent-assessment-of-ai-r-and-d-acceleration-at": 1,
+  "https://www.alignmentforum.org/posts/NFkj9J2BBLSjNuH5G/how-i-m-thinking-about-different-types-of-automated": 2,
+  "https://www.alignmentforum.org/posts/wPrpnfaNL5JP9i6KT/where-is-all-the-ai-safety-research-uplift": 2,
+  "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi": 2,
+  "https://www.alignmentforum.org/posts/N5AmYkRks5CqAxvBg/metr-independent-assessment-of-ai-r-and-d-acceleration-at": 2,
   "https://www.alignmentforum.org/posts/eKe7fky8kSt9DCJxZ/openai-astra-covertly-underperforms-on-safety-research": 1,
   "https://www.alignmentforum.org/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents": 1,
   "https://www.lesswrong.com/posts/erwxQSF2D6naAcoEz/probe-monitors-seem-to-perform-realistically-in-simulated-2": 1,
@@ -334,13 +325,23 @@
   "https://github.com/comet-ml/opik": 1,
   "https://github.com/fiddlecube/fiddlecube-sdk": 1,
   "https://oss-llmops-stack.com": 1,
-  "https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails": 1
+  "https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails": 1,
+  "https://www.lesswrong.com/posts/bMsQ44sKqrFWjuHPb/on-the-brutality-of-amdahl-s-law": 1,
+  "https://alignmentalignment.ai": 1,
+  "https://ibrahimcesar.cloud/blog/grok-and-the-naked-king/": 1,
+  "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/": 1,
+  "https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it": 1,
+  "https://muldoon.cloud/2025/05/22/alignment.html": 1,
+  "https://www.agisafetyfundamentals.com/ai-alignment-curriculum": 1,
+  "https://www.wsj.com/opinion/the-monster-inside-chatgpt-safety-training-ai-alignment-796ac9d3": 1,
+  "https://thegradientpub.substack.com/p/connor-leahy-on-eleutherai-replicating": 1
  },
- "reach_day": "2026-11-13",
- "reach_n": 2,
+ "reach_day": "2026-11-15",
+ "reach_n": 1,
  "contacted": [
   "h:ddbec5cba70a1a37",
-  "h:403e9f807724a31d"
+  "h:403e9f807724a31d",
+  "h:5b9844096ab48c4f"
  ],
  "usage_hist": {
   "2026-11-12": {
@@ -362,16 +363,30 @@
     "gemini": 166984,
     "groq": 1162
    }
+  },
+  "2026-11-14": {
+   "calls": {
+    "gemini": 159,
+    "cohere": 5,
+    "openrouter": 2,
+    "groq": 1
+   },
+   "tokens": {
+    "gemini": 296754,
+    "cohere": 2431,
+    "openrouter": 753,
+    "groq": 892
+   }
   }
  },
- "selfmap_h": "219f2d2a03f1f04c88f8494337837cb2dab06137",
- "bio_idx_day": "2026-11-14",
+ "selfmap_h": "dfe75e312fd7b0b44279c794a857091393cbdebe",
+ "bio_idx_day": "2026-11-15",
  "code_ver": "2d28b194",
  "backup_day": "2026-11-14",
  "backup_hash": "2d28b194",
- "transp_day": "2026-11-14",
- "priv_h": "50ca7492cc392facc40e8ee6e6e9ca1edff02888",
- "trash_day": "2026-11-14",
+ "transp_day": "2026-11-15",
+ "priv_h": "75b8f8c4b1a868edfa8e50ce3a784c910d4ce06f",
+ "trash_day": "2026-11-15",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
    "t": [
@@ -441,16 +456,44 @@
    "days": [
     "2026-11-14"
    ]
+  },
+  "Implement a daily productivity and block-rate analyzer tool.": {
+   "t": [
+    "analyzer",
+    "block",
+    "daily",
+    "implement",
+    "productivity",
+    "rate",
+    "tool"
+   ],
+   "days": [
+    "2026-11-15"
+   ]
+  },
+  "Deploy a research_rank tool for incoming discourse topics.": {
+   "t": [
+    "deploy",
+    "discourse",
+    "incoming",
+    "rank",
+    "research",
+    "tool",
+    "topics"
+   ],
+   "days": [
+    "2026-11-15"
+   ]
   }
  },
- "health_day": "2026-11-14",
+ "health_day": "2026-11-15",
  "audit_day": "2026-11-13",
  "micro_n": {
-  "day": "2026-11-13",
-  "n": 3
+  "day": "2026-11-15",
+  "n": 1
  },
- "health": "state: 13 КБ\nжурнал: 207 строк\nфакты: 94\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
- "fetch_day": "2026-11-14",
+ "health": "state: 17 КБ\nжурнал: 256 строк\nфакты: 112\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
+ "fetch_day": "2026-11-15",
  "model_check": 1794696179.6351807,
  "model_override": {},
  "weekly_ts": 1794696181.5016632
