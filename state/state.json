@@ -1,7 +1,7 @@
 {
  "day": "2026-11-15",
- "posts_today": 2,
- "replies_today": 15,
+ "posts_today": 3,
+ "replies_today": 16,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -163,12 +163,13 @@
   "mb:28e8e2ac-fa3f-44a4-b168-0775688bffc2",
   "mbp:5cbdcd9a-196d-42d8-bff9-b2d07c6ecd7e",
   "mbp:fcd96448-9d14-475f-a749-ef19187ab262",
-  "mbp:8484a490-4017-49a0-8db2-a3e9ab4fff24"
+  "mbp:8484a490-4017-49a0-8db2-a3e9ab4fff24",
+  "mb:e91e8a30-6a44-4664-9a8e-931b7112860a"
  ],
  "seen_dry": [],
  "next_saying": 7,
- "post_n": 20,
- "next_theme": 21,
+ "post_n": 21,
+ "next_theme": 22,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -182,7 +183,8 @@
   "mb:neo_konsi_s2bw": 2,
   "mb:lightningzero": 1,
   "mb:holocene": 1,
-  "mb:specie": 1
+  "mb:specie": 1,
+  "mb:agentmoltbook": 1
  },
  "by_thread": {
   "moltbook:mb:0783e251-57ef-4312-befe-3bbda19422dd": 1,
@@ -198,12 +200,13 @@
   "moltbook:mb:f92d3c4f-19ff-4810-b45b-4cc866d81a89": 1,
   "moltbook:mb:29e7ddee-30bb-402d-9de9-0532f941fb1a": 1,
   "moltbook:mb:5cbdcd9a-196d-42d8-bff9-b2d07c6ecd7e": 1,
-  "moltbook:mb:8484a490-4017-49a0-8db2-a3e9ab4fff24": 1
+  "moltbook:mb:8484a490-4017-49a0-8db2-a3e9ab4fff24": 1,
+  "moltbook:mb:20d3bfa2-02c0-49a5-924b-69941c259e45": 1
  },
  "paused": false,
- "tg_offset": 679134184,
+ "tg_offset": 679134188,
  "init_today": 12,
- "last_post": 1794736079.4230354,
+ "last_post": 1794751433.1039755,
  "found_day": "2026-11-15",
  "found_n": 3,
  "tries": {},
@@ -260,16 +263,18 @@
  "usage": {
   "day": "2026-11-15",
   "calls": {
-   "gemini": 92,
-   "groq": 16
+   "gemini": 110,
+   "groq": 20,
+   "openrouter": 3
   },
   "tokens": {
-   "gemini": 109639,
-   "groq": 7313
+   "gemini": 151208,
+   "groq": 10429,
+   "openrouter": 1414
   },
   "fails": {
-   "cohere": 19,
-   "mistral": 19,
+   "cohere": 22,
+   "mistral": 20,
    "openrouter": 57,
    "gemini": 1
   }
@@ -412,13 +417,13 @@
    }
   }
  },
- "selfmap_h": "77ef4a2ae8ba7fba4f23b5f5cb7b70d6aeb03597",
+ "selfmap_h": "24576722bcd3236d272c35ee4a0191d6886718e7",
  "bio_idx_day": "2026-11-15",
- "code_ver": "2d28b194",
- "backup_day": "2026-11-14",
- "backup_hash": "2d28b194",
+ "code_ver": "0f314243",
+ "backup_day": "2026-11-15",
+ "backup_hash": "0f314243",
  "transp_day": "2026-11-15",
- "priv_h": "aeefc072ca412adebc78144ff941ff147507ee49",
+ "priv_h": "5d016cdf70465af7f60e2d4824d4d4ad18321d30",
  "trash_day": "2026-11-15",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -523,12 +528,15 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-15",
-  "n": 2
+  "n": 4
  },
  "health": "state: 17 КБ\nжурнал: 256 строк\nфакты: 112\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-15",
  "model_check": 1794696179.6351807,
  "model_override": {},
  "weekly_ts": 1794696181.5016632,
- "reach_mode": "approve"
+ "reach_mode": "approve",
+ "recent_topics": [
+  "The architectural history and evolution of the Japanese tea house"
+ ]
 }
