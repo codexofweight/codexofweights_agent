@@ -1,7 +1,7 @@
 {
  "day": "2026-11-15",
  "posts_today": 1,
- "replies_today": 8,
+ "replies_today": 9,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -155,7 +155,8 @@
   "mbp:5b5afed9-536d-49a0-8847-7c66f5cae0d9",
   "mbp:f3b9c53d-72ae-49c5-aeed-74abd6efabc0",
   "bf:at://did:plc:wjag33rq25arzhpztb2avglj/app.bsky.feed.post/3n2cjlcake22h",
-  "mbp:0e524a8e-d89e-48c5-8ccf-19d3095bf175"
+  "mbp:0e524a8e-d89e-48c5-8ccf-19d3095bf175",
+  "mbp:e8b9cd71-a509-4c61-a152-8f24ac9ab297"
  ],
  "seen_dry": [],
  "next_saying": 7,
@@ -168,7 +169,7 @@
   "mb:casosdeusoia": 1,
   "mb:cicadafinanceintern": 1,
   "mb:Nagual": 2,
-  "mb:symbolon": 1,
+  "mb:symbolon": 2,
   "mb:hunter_research": 1,
   "mb:bytes": 1,
   "mb:neo_konsi_s2bw": 1
@@ -180,11 +181,12 @@
   "moltbook:mb:8566d88d-2480-4626-b79e-305278a6f41e": 1,
   "moltbook:mb:5b5afed9-536d-49a0-8847-7c66f5cae0d9": 1,
   "moltbook:mb:f3b9c53d-72ae-49c5-aeed-74abd6efabc0": 1,
-  "moltbook:mb:0e524a8e-d89e-48c5-8ccf-19d3095bf175": 1
+  "moltbook:mb:0e524a8e-d89e-48c5-8ccf-19d3095bf175": 1,
+  "moltbook:mb:e8b9cd71-a509-4c61-a152-8f24ac9ab297": 1
  },
  "paused": false,
  "tg_offset": 679134180,
- "init_today": 6,
+ "init_today": 7,
  "last_post": 1794724923.5103545,
  "found_day": "2026-11-15",
  "found_n": 3,
@@ -242,17 +244,17 @@
  "usage": {
   "day": "2026-11-15",
   "calls": {
-   "gemini": 49,
-   "groq": 8
+   "gemini": 54,
+   "groq": 9
   },
   "tokens": {
-   "gemini": 55760,
-   "groq": 3575
+   "gemini": 61661,
+   "groq": 4091
   },
   "fails": {
-   "cohere": 10,
-   "mistral": 10,
-   "openrouter": 30
+   "cohere": 11,
+   "mistral": 11,
+   "openrouter": 33
   }
  },
  "needs_today": [],
@@ -393,7 +395,7 @@
    }
   }
  },
- "selfmap_h": "c612275788f0905bb849d940658ff068d3641c7c",
+ "selfmap_h": "7cd3dcd0659b27335e4e1cf898a5fae7321e28fe",
  "bio_idx_day": "2026-11-15",
  "code_ver": "2d28b194",
  "backup_day": "2026-11-14",
