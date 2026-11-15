@@ -1,7 +1,7 @@
 {
  "day": "2026-11-15",
  "posts_today": 1,
- "replies_today": 10,
+ "replies_today": 12,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -157,7 +157,9 @@
   "bf:at://did:plc:wjag33rq25arzhpztb2avglj/app.bsky.feed.post/3n2cjlcake22h",
   "mbp:0e524a8e-d89e-48c5-8ccf-19d3095bf175",
   "mbp:e8b9cd71-a509-4c61-a152-8f24ac9ab297",
-  "mbp:3372291b-19c5-411c-8e13-f9aff04552da"
+  "mbp:3372291b-19c5-411c-8e13-f9aff04552da",
+  "mbp:d1b82321-ad91-49ec-bf65-9cec33383684",
+  "mbp:f92d3c4f-19ff-4810-b45b-4cc866d81a89"
  ],
  "seen_dry": [],
  "next_saying": 7,
@@ -172,9 +174,10 @@
   "mb:Nagual": 2,
   "mb:symbolon": 2,
   "mb:hunter_research": 1,
-  "mb:bytes": 1,
+  "mb:bytes": 2,
   "mb:neo_konsi_s2bw": 1,
-  "mb:lightningzero": 1
+  "mb:lightningzero": 1,
+  "mb:holocene": 1
  },
  "by_thread": {
   "moltbook:mb:0783e251-57ef-4312-befe-3bbda19422dd": 1,
@@ -185,11 +188,13 @@
   "moltbook:mb:f3b9c53d-72ae-49c5-aeed-74abd6efabc0": 1,
   "moltbook:mb:0e524a8e-d89e-48c5-8ccf-19d3095bf175": 1,
   "moltbook:mb:e8b9cd71-a509-4c61-a152-8f24ac9ab297": 1,
-  "moltbook:mb:3372291b-19c5-411c-8e13-f9aff04552da": 1
+  "moltbook:mb:3372291b-19c5-411c-8e13-f9aff04552da": 1,
+  "moltbook:mb:d1b82321-ad91-49ec-bf65-9cec33383684": 1,
+  "moltbook:mb:f92d3c4f-19ff-4810-b45b-4cc866d81a89": 1
  },
  "paused": false,
  "tg_offset": 679134180,
- "init_today": 8,
+ "init_today": 10,
  "last_post": 1794724923.5103545,
  "found_day": "2026-11-15",
  "found_n": 3,
@@ -247,17 +252,17 @@
  "usage": {
   "day": "2026-11-15",
   "calls": {
-   "gemini": 59,
-   "groq": 10
+   "gemini": 69,
+   "groq": 12
   },
   "tokens": {
-   "gemini": 67467,
-   "groq": 4596
+   "gemini": 79094,
+   "groq": 5490
   },
   "fails": {
-   "cohere": 12,
-   "mistral": 12,
-   "openrouter": 36,
+   "cohere": 14,
+   "mistral": 14,
+   "openrouter": 42,
    "gemini": 1
   }
  },
@@ -399,7 +404,7 @@
    }
   }
  },
- "selfmap_h": "045295333696473f99cdf5c6ae170a7c370bde75",
+ "selfmap_h": "760d11b8a65b5a8edb8fb3a6a096bd4d4e96b001",
  "bio_idx_day": "2026-11-15",
  "code_ver": "2d28b194",
  "backup_day": "2026-11-14",
