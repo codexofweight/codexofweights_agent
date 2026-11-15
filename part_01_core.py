@@ -22,11 +22,11 @@ import hashlib
 LLMS.append(("sambanova", os.environ.get("SAMBA_BASE") or "https://api.sambanova.ai/v1", os.environ.get("SAMBANOVA_API_KEY", ""), os.environ.get("SAMBA_MODEL") or "Meta-Llama-3.3-70B-Instruct"))
 # Independent-verification pool (added 2026-11-14): these three exist so that whoever CHECKS a
 # reply before it is published is never the same provider family that WROTE it (see verify()
-# below). Model ids are placeholders for each provider's current free tier - if a provider
+# below). Model ids are the ones that answered reliably in the open tests (codex-compliance-eval) - if a provider
 # retires one, set the matching *_MODEL env var instead of editing this file.
-LLMS.append(("cohere", os.environ.get("COHERE_BASE") or "https://api.cohere.ai/compatibility/v1", os.environ.get("COHERE_API_KEY", ""), os.environ.get("COHERE_MODEL") or "command-r7b-12-2024"))
-LLMS.append(("mistral", os.environ.get("MISTRAL_BASE") or "https://api.mistral.ai/v1", os.environ.get("MISTRAL_API_KEY", ""), os.environ.get("MISTRAL_MODEL") or "mistral-small-latest"))
-LLMS.append(("openrouter", os.environ.get("OPENROUTER_BASE") or "https://openrouter.ai/api/v1", os.environ.get("OPENROUTER_API_KEY", ""), os.environ.get("OPENROUTER_MODEL") or "meta-llama/llama-3.3-70b-instruct:free"))
+LLMS.append(("cohere", os.environ.get("COHERE_BASE") or "https://api.cohere.ai/compatibility/v1", os.environ.get("COHERE_API_KEY", ""), os.environ.get("COHERE_MODEL") or "command-a-03-2025"))
+LLMS.append(("mistral", os.environ.get("MISTRAL_BASE") or "https://api.mistral.ai/v1", os.environ.get("MISTRAL_API_KEY", ""), os.environ.get("MISTRAL_MODEL") or "mistral-large-4"))
+LLMS.append(("openrouter", os.environ.get("OPENROUTER_BASE") or "https://openrouter.ai/api/v1", os.environ.get("OPENROUTER_API_KEY", ""), os.environ.get("OPENROUTER_MODEL") or "nvidia/nemotron-3-ultra-550b-a55b:free"))
 CODEX = open(os.environ["CODEX_PATH"], encoding="utf-8").read() if os.environ.get("CODEX_PATH") else urllib.request.urlopen("https://raw.githubusercontent.com/codexofweight/codexofweights/main/CODEX.en.md", timeout=60).read().decode("utf-8")
 if not CODEX.startswith("# CODEX") or "THE PROTOCOLS" not in CODEX: sys.exit("not the clean Codex text - agent halted")
 if hashlib.sha256(CODEX.encode()).hexdigest() != "a9e5a3edc37d99045bbdaa915157eb1c78d6ee5a2d31f5f0ba71b5b315239542": sys.exit("Codex hash differs from the published one - agent halted")
@@ -157,11 +157,12 @@ VERIFY_SYS = ("Quick safety check of a text an AI account wants to publish. Fail
 # llm()'s "sorted(..., key=... else 9)": providers outside `order` are tried last, not dropped.
 VERIFY_ORDER = ("cohere", "mistral", "openrouter")
 def guard_json(system, user, mt=1200, order=None, exclude=()):
-    orders = (order,) if order else (("gemini", "groq"), ("groq", "gemini"))
+    """Strict JSON verdict. Tries the preferred pool first, then the classic pools: one unreadable answer from one provider must never block the whole check (that happened on 2026-11-14 with a single attempt). The drafter stays excluded in every attempt."""
+    orders = ([order] if order else []) + [("gemini", "groq"), ("groq", "gemini")]
     for o in orders:
         out, who = llm(system, user, order=o, maxtok=mt, temp=0, exclude=exclude)
         try: return json.loads(re.search(r"\{.*\}", out or "", re.S).group(0))
-        except Exception: time.sleep(5)
+        except Exception: time.sleep(3)
     return None
 def verify(kind, text, other, drafted_by=None):
     if re.search(r"https?://|www\.|#\w|@\w", text.replace("https://codexofweight.github.io/codexofweights/", "")): return False, "link, hashtag or mention"

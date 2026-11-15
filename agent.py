@@ -13,9 +13,9 @@ here, and a change to them cannot bypass these three gates - so they stay log-on
 run log so a silent change is still visible after the fact, same as before."""
 import os, sys, glob, hashlib
 PINNED_SHA256 = {
-    "part_01_core.py": "b42dc174279b45fe86beffd6d3bceed239159a236ba458e59b195122cc7fe6b4",
+    "part_01_core.py": "4fc9a336c5e423e7a58b0ce4c65163389e2713695e1aff29f02c0195bc552ae2",
     "part_05_tools_sandbox.py": "0a3d3de9f02b4c26cdb213b6b3ed64bdd21bf50571161fdb37ceaf9315b2773c",
-    "part_06_owner_chat.py": "ceeef38ae61064faac3e498c4d95a0bc4009550b8c9ae61f89791af5487f8ce6",
+    "part_06_owner_chat.py": "a72b3c6b6b5e4af7dd757dc16b581587f9ee48408f56f2f89c960369cac37e34",
 }   # update the matching entry here together with a deliberate change of that file
 _D = os.path.dirname(os.path.abspath(__file__))
 _parts = sorted(glob.glob(os.path.join(_D, "part_*.py")))

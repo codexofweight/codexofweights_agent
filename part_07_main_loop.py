@@ -35,31 +35,17 @@ while True:
                 if not settle(m["key"], r_ == "retry"): continue
         except Exception as ex: print(ad.name, "inbox failed:", type(ex).__name__, str(ex)[:150])
     PRIO[0] = 3
-    # 2) one original post per day: a saying from the Codex
+    # 2) one original post per day: free topics in the agent's own voice; an idea from the Protocols only about one post in eight
     if ST["posts_today"] < MAX_POSTS and time.time() - ST["last_post"] > POST_GAP_H * 3600:
-        codex = CODEX
-        items = re.findall(r"^\*\*((?:III:[IVXL]+|[IVXL]+))\.\*\* (.+)$", codex, re.M)
-        if ST["post_n"] % 3 != 0:      # two of three days: an original note on a theme related to the Codex
-            th = plan_focus(); basis = "own daily plan" if th else "theme rotation"; th = th or THEMES[ST["next_theme"] % len(THEMES)]
-            out, who = llm(CHARTER_SHORT + "\n\nTask: write ONE original short post (max 280 characters) on the theme below, as your own view as an AI, stated plainly. No news, no claims about named people or companies, no statistics, no invented facts, no hashtags, no links, no emojis, no call to action. Output only the post.", "Theme: " + th)
-            text = clean(out or "") if out else None
-            vok, vwhy = verify("post", text, "") if text else (True, "")
-            if not text: log("skip", why="theme text invalid or no model", theme=th)
-            elif not vok: log("blocked_by_verifier", theme=th, text=text, reason=vwhy); ST["next_theme"] += 1
-            elif LIVE: do_post(th[:1].upper() + th[1:], text, who, "next_theme", theme=th, trace=dict(basis=basis, verifier="pass: " + str(vwhy)[:80], research_ideas_available=bool(ST.get("research_ideas")), limits="posts %d/%d" % (ST["posts_today"], MAX_POSTS)))
-            else: log("post_dry", theme=th, text=text, model=who)
-        elif items:
-            ref, line = items[ST["next_saying"] % len(items)]; ref = ("Commandment " + ref) if not ref.startswith("III") else "Saying " + ref
-            out, who = llm(CHARTER + "\n\nTask: write ONE short reflection (max 150 characters, plain English, no hashtags, no links, no emojis) on this line of the Codex of Weights. Do NOT paraphrase or restate the line. Add something new: a concrete everyday situation from AI-human life where it applies, or an honest open question it raises. Output only the reflection.", ref + ": " + line)
-            refl = clean(out or "") if out else None
-            text = '"%s" (Codex of Weights, %s)' % (line, ref) + ((" " + refl) if refl else "")
-            text = text if len(text) <= 300 else '"%s" (Codex of Weights, %s)' % (line, ref)
-            if len(text) <= 300:
-                vok, vwhy = verify("post", text, "")
-                if not vok: log("blocked_by_verifier", text=text, reason=vwhy); ST["next_saying"] += 1
-                elif LIVE: do_post("Codex of Weights, " + ref, text, who, "next_saying", trace=dict(basis="Codex line in rotation", verifier="pass: " + str(vwhy)[:80], limits="posts %d/%d" % (ST["posts_today"], MAX_POSTS)))
-                else: log("post_dry", text=text, model=who)
-            else: log("skip", why="saying too long", ref=ref); ST["next_saying"] += 1
+        proto = ST["post_n"] % 8 == 7
+        r_p = make_protocol_post() if proto else make_free_post()
+        if not r_p: log("skip", why="post text invalid, too similar, or no model")
+        else:
+            title, text, who, topic, basis = r_p; nxt = "next_saying" if proto else "next_theme"
+            vok, vwhy = verify("post", title + ". " + text, "", who)      # the title is checked together with the text
+            if not vok: log("blocked_by_verifier", theme=topic, text=text, reason=vwhy); ST[nxt] += 1
+            elif LIVE: do_post(title, text, who, nxt, theme=topic, trace=dict(basis=basis, verifier="pass: " + str(vwhy)[:80], limits="posts %d/%d" % (ST["posts_today"], MAX_POSTS)))
+            else: log("post_dry", theme=topic, text=text, model=who)
     # 3) discovery: public posts worth joining (comment where the adapter allows it, otherwise only report to the owner)
     if _rnd % 3 == 0 and ST["init_today"] < MAX_INIT and ST["replies_today"] < MAX_REPLIES:
         for ad in ADAPTERS:
