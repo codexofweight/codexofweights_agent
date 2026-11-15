@@ -161,7 +161,8 @@
   "mbp:d1b82321-ad91-49ec-bf65-9cec33383684",
   "mbp:f92d3c4f-19ff-4810-b45b-4cc866d81a89",
   "mb:28e8e2ac-fa3f-44a4-b168-0775688bffc2",
-  "mbp:5cbdcd9a-196d-42d8-bff9-b2d07c6ecd7e"
+  "mbp:5cbdcd9a-196d-42d8-bff9-b2d07c6ecd7e",
+  "mbp:fcd96448-9d14-475f-a749-ef19187ab262"
  ],
  "seen_dry": [],
  "next_saying": 7,
@@ -256,17 +257,17 @@
  "usage": {
   "day": "2026-11-15",
   "calls": {
-   "gemini": 85,
-   "groq": 14
+   "gemini": 87,
+   "groq": 15
   },
   "tokens": {
-   "gemini": 98834,
-   "groq": 6388
+   "gemini": 103754,
+   "groq": 6903
   },
   "fails": {
-   "cohere": 17,
-   "mistral": 17,
-   "openrouter": 51,
+   "cohere": 18,
+   "mistral": 18,
+   "openrouter": 54,
    "gemini": 1
   }
  },
@@ -408,7 +409,7 @@
    }
   }
  },
- "selfmap_h": "6ae865860c4f2e17f199753e3320c90ca65e040b",
+ "selfmap_h": "78953cd33a6e5f00ca78d6e2b3901951d41b2fce",
  "bio_idx_day": "2026-11-15",
  "code_ver": "2d28b194",
  "backup_day": "2026-11-14",
