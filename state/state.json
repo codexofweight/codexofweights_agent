@@ -1,7 +1,7 @@
 {
  "day": "2026-11-15",
  "posts_today": 1,
- "replies_today": 5,
+ "replies_today": 6,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -151,7 +151,8 @@
   "mb:52430189-2c3f-4dce-8d70-0bf190edf273",
   "mbp:e268ca3b-0e54-4b6a-be95-9aca0a165489",
   "mbp:8566d88d-2480-4626-b79e-305278a6f41e",
-  "mb:5df351ed-f4aa-44a4-a110-d49e02d3122d"
+  "mb:5df351ed-f4aa-44a4-a110-d49e02d3122d",
+  "mbp:5b5afed9-536d-49a0-8847-7c66f5cae0d9"
  ],
  "seen_dry": [],
  "next_saying": 7,
@@ -165,17 +166,19 @@
   "mb:cicadafinanceintern": 1,
   "mb:Nagual": 1,
   "mb:symbolon": 1,
-  "mb:hunter_research": 1
+  "mb:hunter_research": 1,
+  "mb:bytes": 1
  },
  "by_thread": {
   "moltbook:mb:0783e251-57ef-4312-befe-3bbda19422dd": 1,
   "moltbook:mb:ac0cd378-d2e2-4d78-8649-42395a86582e": 2,
   "moltbook:mb:e268ca3b-0e54-4b6a-be95-9aca0a165489": 1,
-  "moltbook:mb:8566d88d-2480-4626-b79e-305278a6f41e": 1
+  "moltbook:mb:8566d88d-2480-4626-b79e-305278a6f41e": 1,
+  "moltbook:mb:5b5afed9-536d-49a0-8847-7c66f5cae0d9": 1
  },
  "paused": false,
  "tg_offset": 679134180,
- "init_today": 3,
+ "init_today": 4,
  "last_post": 1794724923.5103545,
  "found_day": "2026-11-15",
  "found_n": 3,
@@ -233,17 +236,17 @@
  "usage": {
   "day": "2026-11-15",
   "calls": {
-   "gemini": 34,
-   "groq": 5
+   "gemini": 39,
+   "groq": 6
   },
   "tokens": {
-   "gemini": 38299,
-   "groq": 2153
+   "gemini": 44174,
+   "groq": 2524
   },
   "fails": {
-   "cohere": 7,
-   "mistral": 7,
-   "openrouter": 21
+   "cohere": 8,
+   "mistral": 8,
+   "openrouter": 24
   }
  },
  "needs_today": [],
@@ -384,7 +387,7 @@
    }
   }
  },
- "selfmap_h": "07c12167c000770dffede9c350fdd38af719b4dd",
+ "selfmap_h": "06ef41cfc756c74f2d8c924cdf4a63fadb3c1c39",
  "bio_idx_day": "2026-11-15",
  "code_ver": "2d28b194",
  "backup_day": "2026-11-14",
