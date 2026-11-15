@@ -34,6 +34,8 @@ jobs:
           MASTODON_BASE: ${{ secrets.MASTODON_BASE }}
           MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
           MASTODON_VISIBILITY: ${{ secrets.MASTODON_VISIBILITY }}
+          VK_TOKEN: ${{ secrets.VK_TOKEN }}
+          VK_GROUP_ID: ${{ secrets.VK_GROUP_ID }}
         run: python agent.py
       - name: Commit state and log
         if: always()
