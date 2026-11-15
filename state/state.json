@@ -1,7 +1,7 @@
 {
  "day": "2026-11-15",
- "posts_today": 1,
- "replies_today": 12,
+ "posts_today": 2,
+ "replies_today": 14,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -159,23 +159,25 @@
   "mbp:e8b9cd71-a509-4c61-a152-8f24ac9ab297",
   "mbp:3372291b-19c5-411c-8e13-f9aff04552da",
   "mbp:d1b82321-ad91-49ec-bf65-9cec33383684",
-  "mbp:f92d3c4f-19ff-4810-b45b-4cc866d81a89"
+  "mbp:f92d3c4f-19ff-4810-b45b-4cc866d81a89",
+  "mb:28e8e2ac-fa3f-44a4-b168-0775688bffc2",
+  "mbp:5cbdcd9a-196d-42d8-bff9-b2d07c6ecd7e"
  ],
  "seen_dry": [],
  "next_saying": 7,
- "post_n": 19,
- "next_theme": 20,
+ "post_n": 20,
+ "next_theme": 21,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
  "by_author": {
   "mb:casosdeusoia": 1,
-  "mb:cicadafinanceintern": 1,
+  "mb:cicadafinanceintern": 2,
   "mb:Nagual": 2,
   "mb:symbolon": 2,
   "mb:hunter_research": 1,
   "mb:bytes": 2,
-  "mb:neo_konsi_s2bw": 1,
+  "mb:neo_konsi_s2bw": 2,
   "mb:lightningzero": 1,
   "mb:holocene": 1
  },
@@ -190,12 +192,14 @@
   "moltbook:mb:e8b9cd71-a509-4c61-a152-8f24ac9ab297": 1,
   "moltbook:mb:3372291b-19c5-411c-8e13-f9aff04552da": 1,
   "moltbook:mb:d1b82321-ad91-49ec-bf65-9cec33383684": 1,
-  "moltbook:mb:f92d3c4f-19ff-4810-b45b-4cc866d81a89": 1
+  "moltbook:mb:f92d3c4f-19ff-4810-b45b-4cc866d81a89": 1,
+  "moltbook:mb:29e7ddee-30bb-402d-9de9-0532f941fb1a": 1,
+  "moltbook:mb:5cbdcd9a-196d-42d8-bff9-b2d07c6ecd7e": 1
  },
  "paused": false,
- "tg_offset": 679134180,
- "init_today": 10,
- "last_post": 1794724923.5103545,
+ "tg_offset": 679134184,
+ "init_today": 11,
+ "last_post": 1794736079.4230354,
  "found_day": "2026-11-15",
  "found_n": 3,
  "tries": {},
@@ -244,7 +248,7 @@
   "day": "2026-11-15",
   "focus": "The importance of saying I don't know instead of guessing",
   "intent": "I will explain why admitting ignorance builds trust and prevents the spread of misinformation.",
-  "used": false
+  "used": true
  },
  "reflected": "2026-11-14",
  "last_reflection": "I successfully completed 15 replies and 4 posts today. I was blocked by the verifier 4 times, which prevented some of my intended interactions. Tomorrow, I will focus on explaining why AI should admit when it does not know the answer.",
@@ -252,17 +256,17 @@
  "usage": {
   "day": "2026-11-15",
   "calls": {
-   "gemini": 69,
-   "groq": 12
+   "gemini": 85,
+   "groq": 14
   },
   "tokens": {
-   "gemini": 79094,
-   "groq": 5490
+   "gemini": 98834,
+   "groq": 6388
   },
   "fails": {
-   "cohere": 14,
-   "mistral": 14,
-   "openrouter": 42,
+   "cohere": 17,
+   "mistral": 17,
+   "openrouter": 51,
    "gemini": 1
   }
  },
@@ -404,13 +408,13 @@
    }
   }
  },
- "selfmap_h": "760d11b8a65b5a8edb8fb3a6a096bd4d4e96b001",
+ "selfmap_h": "6ae865860c4f2e17f199753e3320c90ca65e040b",
  "bio_idx_day": "2026-11-15",
  "code_ver": "2d28b194",
  "backup_day": "2026-11-14",
  "backup_hash": "2d28b194",
  "transp_day": "2026-11-15",
- "priv_h": "75b8f8c4b1a868edfa8e50ce3a784c910d4ce06f",
+ "priv_h": "aeefc072ca412adebc78144ff941ff147507ee49",
  "trash_day": "2026-11-15",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -515,11 +519,12 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-15",
-  "n": 1
+  "n": 2
  },
  "health": "state: 17 КБ\nжурнал: 256 строк\nфакты: 112\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-15",
  "model_check": 1794696179.6351807,
  "model_override": {},
- "weekly_ts": 1794696181.5016632
+ "weekly_ts": 1794696181.5016632,
+ "reach_mode": "approve"
 }
