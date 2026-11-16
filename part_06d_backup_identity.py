@@ -1,5 +1,5 @@
 # ---- reversibility and identity: snapshots of code and state in the private repo, code-version tracking, an identity probe after every change ----
-BACKUP_FILES = ["agent.py", "CHARTER.md", "FACTS.md", "README.md", "agent-card.json", ".github/workflows/agent.yml", "state/state.json"]
+BACKUP_FILES = ["agent.py", "CHARTER.md", "FACTS.md", "README.md", "docs/agent-card.json", ".github/workflows/agent.yml", "state/state.json"]
 BACKUP_KEEP = 12
 BACKUP_README = """# Backups
 
@@ -12,7 +12,7 @@ and upload the unpacked files to the agent repository. The last %d snapshots are
 """
 def code_bundle():
     b = {}
-    for f in BACKUP_FILES + [os.path.basename(x) for x in sorted(glob.glob(P("part_*.py")))]:
+    for f in BACKUP_FILES + [os.path.relpath(x, ROOT) for x in _parts]:
         try: b[f] = open(P(f), encoding="utf-8").read()
         except Exception: pass
     return b

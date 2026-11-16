@@ -19,7 +19,18 @@ class VK(Adapter):
         ru = self._ru(text)
         if not ru: return ("failed", "translation unusable")
         r = vk("wall.post", owner_id=-self.gid(), from_group=1, message=ru)
+        if r and r.get("post_id"): self.remember(r["post_id"])
         return ("sent", "https://vk.com/wall-%d_%s" % (self.gid(), r.get("post_id"))) if r and r.get("post_id") else ("failed", "no post_id")
+    def remember(self, post_id):
+        """wall.get is not available with a community key (error 27), so the agent keeps the ids of its own posts and reads the comments by id."""
+        ids = ST.setdefault("vk_posts", []); ids.append(int(post_id)); ST["vk_posts"] = ids[-15:]
+    _off = {}
+    def _guard(self, key, fn):
+        """A VK method that fails (no right, group auth) is paused for 6 hours and reported once instead of on every round."""
+        if time.time() < self._off.get(key, 0): return
+        try: fn()
+        except Exception as ex:
+            self._off[key] = time.time() + 6 * 3600; print("vk %s paused for 6 h: %s %s" % (key, type(ex).__name__, str(ex)[:90]), flush=True); log("vk_method_paused", method=key, why=str(ex)[:100])
     def _wall_reply(self, post_id, comment_id, txt):
         r = vk("wall.createComment", owner_id=-self.gid(), post_id=post_id, from_group=self.gid(), reply_to_comment=comment_id, message=txt[:3900])
         return ("sent", "vk:%s" % (r or {}).get("comment_id")) if r and r.get("comment_id") else ("failed", "no comment_id")
@@ -36,19 +47,17 @@ class VK(Adapter):
         ST["vk_deleted"] = ST.get("vk_deleted", 0) + 1; log("vk_moderated", label=lab, comment=c["id"], author=_h("vk:%s" % c.get("from_id")), text_sha=hashlib.sha1((c.get("text") or "").encode()).hexdigest()[:12]); return True
     def inbox(self):
         out = []; gid = self.gid()
-        try:
+        def dms():
             for it in (vk("messages.getConversations", filter="unanswered", count=20) or {}).get("items", []):
                 m = it.get("last_message") or {}; peer = (it.get("conversation") or {}).get("peer", {}).get("id")
                 if not m.get("text") or not peer or m.get("from_id", 0) <= 0 or time.time() - m.get("date", 0) > 3 * 86400: continue
                 out.append(dict(key="vkm:%s" % m["id"], akey="vk:%s" % m["from_id"], handle="vk%s" % m["from_id"], text=m["text"][:600], thread="vk:dm%s" % peer, send=(lambda t, peer=peer: self._dm(peer, t))))
-        except Exception as ex: print("vk messages failed:", type(ex).__name__, str(ex)[:100], flush=True)
-        try:
-            for p_ in (vk("wall.get", owner_id=-gid, count=5) or {}).get("items", []):
-                if (p_.get("comments") or {}).get("count", 0) == 0: continue
-                for c in (vk("wall.getComments", owner_id=-gid, post_id=p_["id"], count=30, sort="desc", thread_items_count=3) or {}).get("items", []):
+        def wall():
+            for pid in list(ST.get("vk_posts", [])):
+                for c in (vk("wall.getComments", owner_id=-gid, post_id=pid, count=30, sort="desc", thread_items_count=3) or {}).get("items", []):
                     if c.get("from_id", 0) <= 0 or not (c.get("text") or "").strip() or time.time() - c.get("date", 0) > 3 * 86400: continue
                     if self.moderate(c): continue
-                    out.append(dict(key="vkc:%s_%s" % (p_["id"], c["id"]), akey="vk:%s" % c["from_id"], handle="vk%s" % c["from_id"], text=c["text"][:600], thread="vk:wall%s" % p_["id"], send=(lambda t, pid=p_["id"], cid=c["id"]: self._wall_reply(pid, cid, t))))
-        except Exception as ex: print("vk wall failed:", type(ex).__name__, str(ex)[:100], flush=True)
+                    out.append(dict(key="vkc:%s_%s" % (pid, c["id"]), akey="vk:%s" % c["from_id"], handle="vk%s" % c["from_id"], text=c["text"][:600], thread="vk:wall%s" % pid, send=(lambda t, pid=pid, cid=c["id"]: self._wall_reply(pid, cid, t))))
+        self._guard("messages", dms); self._guard("comments", wall)
         return out
 register(VK, ("VK_TOKEN", "VK_GROUP_ID"))

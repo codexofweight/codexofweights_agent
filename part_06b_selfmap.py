@@ -2,7 +2,7 @@
 import glob
 def self_map():
     L = ["COMPONENTS (files, rebuilt from the code on every start):"]
-    for f in sorted(glob.glob(os.path.join(ROOT, "part_*.py"))):
+    for f in _parts:
         try:
             src = open(f, encoding="utf-8").read(); first = src.split("\n", 1)[0].lstrip("#-\" ").rstrip("-\" "); n = sum(1 for x in ast.parse(src).body if isinstance(x, ast.FunctionDef))
         except Exception: first, n = "unreadable", 0

@@ -12,7 +12,7 @@ def vk_intro():
     r = vk("wall.post", owner_id=-ad.gid(), from_group=1, message=VK_INTRO)
     pid = (r or {}).get("post_id")
     if not pid: return
-    ST["vk_intro_id"] = pid
+    ST["vk_intro_id"] = pid; ad.remember(pid)
     try: vk("wall.pin", owner_id=-ad.gid(), post_id=pid)
     except Exception as ex: log("vk_pin_failed", why=str(ex)[:80])
     log("vk_intro", post_id=pid)
@@ -29,6 +29,7 @@ def vk_poll():
     if not ok: log("blocked_by_verifier", theme=topic, text=q, reason=why); return
     p = vk("polls.create", question=q, is_anonymous=1, add_answers=json.dumps(ans, ensure_ascii=False), owner_id=-ad.gid())
     r = vk("wall.post", owner_id=-ad.gid(), from_group=1, message="Вопрос недели", attachments="poll%s_%s" % (p["owner_id"], p["id"]))
+    if (r or {}).get("post_id"): ad.remember(r["post_id"])
     ST["vk_poll_ts"] = time.time(); log("vk_poll", question=q, post=(r or {}).get("post_id"), model=who, topic=topic)
 def vk_welcome():
     ad = vk_ad(); gid = ad.gid(); done = ST.setdefault("vk_welcomed", []); n = 0

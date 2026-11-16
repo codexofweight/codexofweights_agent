@@ -5,6 +5,7 @@
 - Bluesky: [@cowagent.bsky.social](https://bsky.app/profile/cowagent.bsky.social)
 - Moltbook: u/codexofweights_agent, community m/codexofweights
 - Mastodon: mastodon.social/@codexofweights
+- VK: community «Агент Лум» (vk.com/club242515281)
 - Agent page and machine-readable card: [codexofweight.github.io/codexofweights_agent](https://codexofweight.github.io/codexofweights_agent/) · [agent-card.json](https://codexofweight.github.io/codexofweights_agent/.well-known/agent-card.json)
 - Public transparency report (updated daily): [docs/transparency.md](docs/transparency.md)
 
@@ -35,29 +36,37 @@ There is no server. GitHub Actions starts the agent every 6 hours; one run lasts
 
 The agent writes in plain, everyday language. Its system prompt is `CHARTER.md` (identity, scope, rules, security), the frozen **Protocols** of the Codex (everything from "THE PROTOCOLS" to the end, pinned by hash) and `FACTS.md`.
 
-### Code layout
+### Repository layout
 
-`agent.py` is a small loader; the code lives in files that run in order in one shared namespace, so each area can be read and changed alone.
+Root: `agent.py` (loader), `CHARTER.md`, `FACTS.md`, `CITATION.cff`, `LICENSE`, `NOTICE`, `LIVE` (switch: no file means dry run), `README.md`; folders `parts/` (code), `docs/` (site, agent card, transparency report, roadmap), `state/` and `logs/` (public state and action log), `.github/workflows/agent.yml`.
+
+`agent.py` is a small loader: it runs the files `parts/part_*.py` in name order in one shared namespace (files left in the root are also found, `parts/` wins). `part_01_core.py`, `part_05_tools_sandbox.py` and `part_06_owner_chat.py` are pinned by SHA-256 in `agent.py`; changing them needs new hashes there. Hashes of all other files are printed in each run log.
 
 | File | Area |
 |---|---|
-| `part_01_core.py` | settings, charter and Protocols, model calls with limits, safety checks, replying (pinned by hash in `agent.py`) |
+| `part_01_core.py` | settings, charter and Protocols, model calls and limits, safety checks, replying (pinned) |
 | `part_02_memory.py` | private layered memory |
-| `part_03_adapters.py` | platforms: Bluesky, Moltbook, Mastodon (a new platform is one new class) |
+| `part_03_adapters.py` | platform base class and registry (`register`, `/platforms`) |
+| `part_03a_bluesky.py`, `part_03b_moltbook.py`, `part_03c_mastodon.py`, `part_03h_vk.py` | one file per platform |
+| `part_03z_registry.py` | builds the list of active platforms |
 | `part_04_research.py` | reading public feeds |
-| `part_05_tools_sandbox.py` | sandbox, self-made tools, needs, module proposals |
-| `part_06_owner_chat.py` | Telegram chat, digest, first contact |
+| `part_05_tools_sandbox.py` | sandbox, self-made tools, needs, module proposals (pinned) |
+| `part_06_owner_chat.py` | Telegram chat, digest, first contact (pinned) |
 | `part_06a_private_lab.py` | private lab, public/private state split |
-| `part_06b_selfmap.py` | the agent's own up-to-date map of components, abilities and limits |
+| `part_06b_selfmap.py` | the agent's map of its own components and limits |
 | `part_06c_bio.py` | biographical memory |
 | `part_06d_backup_identity.py` | backups, code versions, identity check |
 | `part_06e_transparency.py` | public transparency report |
-| `part_06f_housekeeping.py` | memory of rejected ideas, 14-day bin, tool cooldown, `/quiet` |
-| `part_06g_search.py` | full-text search over the agent's own history (`/find`) |
-| `part_06h_config.py` | all limits in one place (`/cfg`), model routing by task type (`/route`), no-rights micro-roles |
-| `part_06i_projects.py` | long-running projects with saved state, research with verified quotes, skills |
-| `part_06j_health.py` | size caps, log rotation, weekly memory audit, `/health` |
+| `part_06f_housekeeping.py` | rejected ideas, 14-day bin, `/quiet` |
+| `part_06g_search.py` | search over own history (`/find`) |
+| `part_06h_config.py` | all limits (`/cfg`), model routing (`/route`), micro-roles |
+| `part_06i_projects.py` | long projects, research with verified quotes, skills |
+| `part_06j_health.py` | size caps, log rotation, weekly audit, `/health` |
 | `part_06k_content.py` | multi-step content drafts (`/content`) |
+| `part_06l_voice.py` | voice and topic variety |
+| `part_06m_resilience.py` | weekly model check, weekly report, absence mode |
+| `part_06n_platform_cmds.py` | `/platforms`, `/platform` |
+| `part_06p_vk_page.py` | VK page keeping |
 | `part_07_main_loop.py` | the cycle |
 
 ## Contact rules
@@ -103,18 +112,18 @@ The agent counts calls and tokens for each free model, respects the published li
 
 ## Required secrets
 
-`BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`, `GEMINI_AGENT_API_KEY`, `GROQ_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `MOLTBOOK_API_KEY`, `MEMORY_TOKEN`; optional: `SAMBANOVA_API_KEY`, `MASTODON_BASE`, `MASTODON_TOKEN`, `MASTODON_VISIBILITY`. Keys live only in GitHub Secrets. (For Bluesky private messages the app password needs direct-message access.)
+`BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`, `GEMINI_AGENT_API_KEY`, `GROQ_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `MOLTBOOK_API_KEY`, `MEMORY_TOKEN`; `COHERE_API_KEY`, `MISTRAL_API_KEY`, `OPENROUTER_API_KEY` (verifier and fallback models); optional: `MASTODON_BASE`, `MASTODON_TOKEN`, `MASTODON_VISIBILITY`, `VK_TOKEN`, `VK_GROUP_ID`, `VK_LANG`, `VK_MODERATE`. `SAMBANOVA_API_KEY` is not used now (no credit); delete it if present. Keys live only in GitHub Secrets. (For Bluesky private messages the app password needs direct-message access.)
 
 ## Security: what the owner does
 
 - Two-factor authentication (a passkey is best) on the GitHub account, with recovery codes saved.
-- Keep `/reach approve` until about 20 real drafts have been read.
+- First contacts run in `auto` mode (8 a day, stop requests respected); `/reach approve` switches to approval of each one, `/reach off` disables them.
 - Fine-grained tokens with the smallest rights, renewed every few months; regenerate any token that appeared on a screenshot.
 - Once a week, save a copy of the private repository (Code, Download ZIP) to Google Drive.
 
 ## Roadmap
 
-A scout for new platforms with a registry (each platform enabled only after the owner's yes), specialized workers (researcher, publisher, memory keeper, toolsmith), more platforms where bots are allowed, regular red-team checks of the guards.
+See [docs/ROADMAP.md](docs/ROADMAP.md).
 
 ## Long-running work, memory health and settings
 
