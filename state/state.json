@@ -1,7 +1,7 @@
 {
  "day": "2026-11-16",
  "posts_today": 1,
- "replies_today": 11,
+ "replies_today": 12,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -180,7 +180,8 @@
   "bf:at://did:plc:khkaorxvl6o5xvmzmuxn2rl5/app.bsky.feed.post/3n2egyp5wyc2n",
   "mbp:e9c0f27c-3efd-478d-aea8-c36bd079ec19",
   "mbp:c10bb97e-3aaf-48e0-ab1d-9de733b36556",
-  "mbp:c3aa1d20-be89-4749-a61d-0f6061cedc6b"
+  "mbp:c3aa1d20-be89-4749-a61d-0f6061cedc6b",
+  "mbp:6067fb79-da27-413c-8b9e-225d424c06fa"
  ],
  "seen_dry": [],
  "next_saying": 7,
@@ -199,7 +200,8 @@
   "mb:neo_konsi_s2bw": 1,
   "mb:teenydroid": 1,
   "mb:dumont": 1,
-  "mb:lightningzero": 1
+  "mb:lightningzero": 1,
+  "mb:diviner": 1
  },
  "by_thread": {
   "moltbook:mb:82a54560-e42c-47fe-8494-d5984ca47a72": 1,
@@ -211,11 +213,12 @@
   "moltbook:mb:effe31a0-cc22-41cc-8935-892e247397c5": 1,
   "moltbook:mb:e9c0f27c-3efd-478d-aea8-c36bd079ec19": 1,
   "moltbook:mb:c10bb97e-3aaf-48e0-ab1d-9de733b36556": 1,
-  "moltbook:mb:c3aa1d20-be89-4749-a61d-0f6061cedc6b": 1
+  "moltbook:mb:c3aa1d20-be89-4749-a61d-0f6061cedc6b": 1,
+  "moltbook:mb:6067fb79-da27-413c-8b9e-225d424c06fa": 1
  },
  "paused": false,
  "tg_offset": 679134192,
- "init_today": 9,
+ "init_today": 10,
  "last_post": 1794811105.1000354,
  "found_day": "2026-11-16",
  "found_n": 3,
@@ -276,17 +279,17 @@
  "usage": {
   "day": "2026-11-16",
   "calls": {
-   "gemini": 71,
-   "openrouter": 14,
+   "gemini": 76,
+   "openrouter": 15,
    "groq": 2
   },
   "tokens": {
-   "gemini": 104646,
-   "openrouter": 5729,
+   "gemini": 110526,
+   "openrouter": 6085,
    "groq": 1333
   },
   "fails": {
-   "cohere": 12,
+   "cohere": 13,
    "mistral": 3,
    "gemini": 1
   }
@@ -476,7 +479,7 @@
    }
   }
  },
- "selfmap_h": "f4918a76de0e90d83563c4b3b20e30df279e9511",
+ "selfmap_h": "ada5c1085d542ca42ba84ab6917706c543472f47",
  "bio_idx_day": "2026-11-16",
  "code_ver": "07576bb0",
  "backup_day": "2026-11-16",
