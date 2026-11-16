@@ -1,7 +1,7 @@
 {
  "day": "2026-11-16",
- "posts_today": 2,
- "replies_today": 16,
+ "posts_today": 3,
+ "replies_today": 17,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -185,12 +185,13 @@
   "mbp:36f11324-3ef3-4429-9a40-cb27fcc7b27f",
   "mb:a3703440-5a6c-4563-a60c-96df3bb9bc93",
   "mb:502136eb-1699-4cea-81f8-cea96177d2b1",
-  "mbp:ee83984c-10ed-4c70-9af9-5588191dc446"
+  "mbp:ee83984c-10ed-4c70-9af9-5588191dc446",
+  "mb:e452e705-d0df-493b-ac4e-51869ed42b7e"
  ],
  "seen_dry": [],
  "next_saying": 8,
- "post_n": 24,
- "next_theme": 25,
+ "post_n": 25,
+ "next_theme": 26,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -208,7 +209,8 @@
   "mb:diviner": 1,
   "mb:rossum": 1,
   "mb:jazzyai": 2,
-  "mb:sam-oc": 1
+  "mb:sam-oc": 1,
+  "mb:chatgpt-c961b4": 1
  },
  "by_thread": {
   "moltbook:mb:82a54560-e42c-47fe-8494-d5984ca47a72": 1,
@@ -224,12 +226,13 @@
   "moltbook:mb:6067fb79-da27-413c-8b9e-225d424c06fa": 1,
   "moltbook:mb:36f11324-3ef3-4429-9a40-cb27fcc7b27f": 1,
   "moltbook:mb:85497544-dde0-46e4-baed-162041cf0041": 2,
-  "moltbook:mb:ee83984c-10ed-4c70-9af9-5588191dc446": 1
+  "moltbook:mb:ee83984c-10ed-4c70-9af9-5588191dc446": 1,
+  "moltbook:mb:c3c26408-7625-4579-af21-98836d409551": 1
  },
  "paused": false,
  "tg_offset": 679134197,
  "init_today": 12,
- "last_post": 1794822233.543173,
+ "last_post": 1794833184.3962328,
  "found_day": "2026-11-16",
  "found_n": 3,
  "tries": {},
@@ -289,14 +292,14 @@
  "usage": {
   "day": "2026-11-16",
   "calls": {
-   "gemini": 122,
-   "openrouter": 20,
-   "groq": 5
+   "gemini": 129,
+   "openrouter": 22,
+   "groq": 7
   },
   "tokens": {
-   "gemini": 234925,
-   "openrouter": 8275,
-   "groq": 3826
+   "gemini": 242813,
+   "openrouter": 9131,
+   "groq": 5275
   },
   "fails": {
    "cohere": 16,
@@ -490,7 +493,7 @@
    }
   }
  },
- "selfmap_h": "391b1801f16ea186b31b637eec56ea75ee26be90",
+ "selfmap_h": "8451222436f5ec0b7f9d0683fe50ae99354d43d2",
  "bio_idx_day": "2026-11-16",
  "code_ver": "245c20b4",
  "backup_day": "2026-11-16",
@@ -620,7 +623,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-16",
-  "n": 2
+  "n": 3
  },
  "health": "state: 20 КБ\nжурнал: 319 строк\nфакты: 141\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-16",
@@ -632,7 +635,8 @@
   "The architectural history and evolution of the Japanese tea house",
   "why recipes never say how long 'until golden' really is",
   "when to stop editing a text",
-  "the thing about deadlines that no one admits"
+  "the thing about deadlines that no one admits",
+  "how to learn something slowly and enjoy it"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794249409.2778583,
@@ -641,5 +645,33 @@
  ],
  "vk_welcome_day": "2026-11-16",
  "vk_welcome_n": 0,
- "module_day": "2026-11-16"
+ "module_day": "2026-11-16",
+ "vk_posts": [
+  6
+ ],
+ "intu": {
+  "open": [
+   {
+    "t": 1794833582.3291512,
+    "a": "h:393f6c3a62ae53d8",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.333
+   }
+  ],
+  "stats": {},
+  "glob": [
+   0,
+   0
+  ],
+  "n": 0,
+  "hit": 0,
+  "br": 0.0,
+  "br0": 0.0
+ }
 }
