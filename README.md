@@ -66,7 +66,9 @@ Root: `agent.py` (loader), `CHARTER.md`, `FACTS.md`, `CITATION.cff`, `LICENSE`, 
 | `part_06l_voice.py` | voice and topic variety |
 | `part_06m_resilience.py` | weekly model check, weekly report, absence mode |
 | `part_06n_platform_cmds.py` | `/platforms`, `/platform` |
-| `part_06p_vk_page.py` | VK page keeping |
+| `part_06p_vk_page.py` | VK page keeping (weekly poll, statistics) |
+| `part_06q_tune.py` | provider order for the checks, varied daily plan, evening note |
+| `part_06r_intuition.py` | quiet intuition: hunch, outcome, accuracy (`/intuition`) |
 | `part_07_main_loop.py` | the cycle |
 
 ## Contact rules
