@@ -266,12 +266,12 @@
  "usage": {
   "day": "2026-11-15",
   "calls": {
-   "gemini": 123,
+   "gemini": 131,
    "groq": 22,
    "openrouter": 6
   },
   "tokens": {
-   "gemini": 172071,
+   "gemini": 202642,
    "groq": 12011,
    "openrouter": 2969
   },
@@ -420,11 +420,11 @@
    }
   }
  },
- "selfmap_h": "4a9eb6412f07b353fe21eab6950e729f60df417e",
+ "selfmap_h": "aea544b956e3f5c5bbcda1f8ccd920e0735552c0",
  "bio_idx_day": "2026-11-15",
- "code_ver": "0f314243",
+ "code_ver": "12b1edfd",
  "backup_day": "2026-11-15",
- "backup_hash": "0f314243",
+ "backup_hash": "12b1edfd",
  "transp_day": "2026-11-15",
  "priv_h": "7d22b8916c4abf8f3772ab006441c91113d3c299",
  "trash_day": "2026-11-15",
