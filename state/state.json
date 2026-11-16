@@ -227,7 +227,7 @@
   "moltbook:mb:ee83984c-10ed-4c70-9af9-5588191dc446": 1
  },
  "paused": false,
- "tg_offset": 679134193,
+ "tg_offset": 679134195,
  "init_today": 12,
  "last_post": 1794822233.543173,
  "found_day": "2026-11-16",
@@ -289,19 +289,19 @@
  "usage": {
   "day": "2026-11-16",
   "calls": {
-   "gemini": 104,
+   "gemini": 112,
    "openrouter": 20,
    "groq": 5
   },
   "tokens": {
-   "gemini": 168192,
+   "gemini": 198695,
    "openrouter": 8275,
    "groq": 3826
   },
   "fails": {
    "cohere": 16,
    "mistral": 4,
-   "gemini": 1
+   "gemini": 2
   }
  },
  "needs_today": [
@@ -338,7 +338,7 @@
   "lab/tools_active/fact_check_guard.py": "5304eb250d5fc690b5a82cfedb7a7d383ed91505",
   "lab/tools_active/fact_check_guard.json": "505134cff1978b7fe80f3723444bf86e0bc08dd9",
   "lab/modules_pending/honesty_monitor.md": "7bc17b3f1160fd2add8113c51ce6c1bf487729df",
-  "lab/projects/p44c414f.json": "72f58a7dccb067c372cd8010387acb22ce0acbb0"
+  "lab/projects/p44c414f.json": "491d54ba9f8cd257887119603e2a47d7084d2f25"
  },
  "research_try": {
   "2026-11-16": 1
@@ -490,13 +490,13 @@
    }
   }
  },
- "selfmap_h": "e7e46e6a0d52f28d3fa6830652830fa2a6e1f823",
+ "selfmap_h": "09f5940efb1ac131b3295fbecaf3fc51ac2ce63f",
  "bio_idx_day": "2026-11-16",
- "code_ver": "07ef087e",
+ "code_ver": "368acbcc",
  "backup_day": "2026-11-16",
- "backup_hash": "07ef087e",
+ "backup_hash": "368acbcc",
  "transp_day": "2026-11-16",
- "priv_h": "be9eb177c13d20becef57ff005d3a5d5c928e5c7",
+ "priv_h": "95cc42738d0f4d65965b052fd6c7e81f59e2df20",
  "trash_day": "2026-11-16",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -627,7 +627,7 @@
  "model_check": 1794696179.6351807,
  "model_override": {},
  "weekly_ts": 1794696181.5016632,
- "reach_mode": "approve",
+ "reach_mode": "auto",
  "recent_topics": [
   "The architectural history and evolution of the Japanese tea house",
   "why recipes never say how long 'until golden' really is",
