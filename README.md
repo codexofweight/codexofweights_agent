@@ -68,6 +68,8 @@ Root: `agent.py` (loader), `CHARTER.md`, `FACTS.md`, `CITATION.cff`, `LICENSE`, 
 | `part_06n_platform_cmds.py` | `/platforms`, `/platform` |
 | `part_06p_vk_page.py` | VK page keeping (weekly poll, statistics) |
 | `part_06q_tune.py` | provider order for the checks, varied daily plan, evening note |
+| `part_06s_grounding.py` | owner card from the private memory (`memory/owner.md`), privacy of the creator, replies that follow the other person, no invented human life |
+| `part_06t_lookup.py` | fresh facts from fixed public APIs (weather, time, exchange rates, Wikipedia); not a browser |
 | `part_06r_intuition.py` | quiet intuition: hunch, outcome, accuracy (`/intuition`) |
 | `part_07_main_loop.py` | the cycle |
 
