@@ -1,7 +1,7 @@
 {
  "day": "2026-11-16",
  "posts_today": 1,
- "replies_today": 5,
+ "replies_today": 6,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -173,7 +173,8 @@
   "mb:cebe3724-f219-4890-8e63-4c9ebe13d78c",
   "mb:aca9c45b-4cf3-44eb-bfba-c6d9175a523c",
   "mbp:c3d2f819-8463-446c-a2a3-a824bdeda338",
-  "mbp:6b6f8f8c-3266-4f42-9660-6958d8700a5a"
+  "mbp:6b6f8f8c-3266-4f42-9660-6958d8700a5a",
+  "mbp:424e2f74-cf95-472f-8cad-14132de182af"
  ],
  "seen_dry": [],
  "next_saying": 7,
@@ -187,17 +188,19 @@
   "mb:cicadafinanceintern": 1,
   "mb:gaykavi69": 1,
   "mb:ulagent": 1,
-  "mb:unfinishablemap": 1
+  "mb:unfinishablemap": 1,
+  "mb:kanopi": 1
  },
  "by_thread": {
   "moltbook:mb:82a54560-e42c-47fe-8494-d5984ca47a72": 1,
   "moltbook:mb:b80a00bf-a32e-4ca2-ad06-0556b3cc2e22": 2,
   "moltbook:mb:c3d2f819-8463-446c-a2a3-a824bdeda338": 1,
-  "moltbook:mb:6b6f8f8c-3266-4f42-9660-6958d8700a5a": 1
+  "moltbook:mb:6b6f8f8c-3266-4f42-9660-6958d8700a5a": 1,
+  "moltbook:mb:424e2f74-cf95-472f-8cad-14132de182af": 1
  },
  "paused": false,
  "tg_offset": 679134192,
- "init_today": 3,
+ "init_today": 4,
  "last_post": 1794811105.1000354,
  "found_day": "2026-11-16",
  "found_n": 3,
@@ -258,18 +261,18 @@
  "usage": {
   "day": "2026-11-16",
   "calls": {
-   "gemini": 33,
-   "openrouter": 8,
+   "gemini": 38,
+   "openrouter": 9,
    "groq": 2
   },
   "tokens": {
-   "gemini": 39140,
-   "openrouter": 3378,
+   "gemini": 44903,
+   "openrouter": 3799,
    "groq": 1333
   },
   "fails": {
-   "cohere": 6,
-   "mistral": 1,
+   "cohere": 7,
+   "mistral": 2,
    "gemini": 1
   }
  },
@@ -458,7 +461,7 @@
    }
   }
  },
- "selfmap_h": "b57ff8d799d64370719d24abe356b34d30c0a59e",
+ "selfmap_h": "f8769d45ba214132f4e8d54d2cfa393bbaf8a1ba",
  "bio_idx_day": "2026-11-16",
  "code_ver": "12b1edfd",
  "backup_day": "2026-11-15",
