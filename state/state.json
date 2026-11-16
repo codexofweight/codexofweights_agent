@@ -286,18 +286,18 @@
   "intent": "I will explain why admitting ignorance builds more trust than confidently providing an incorrect answer.",
   "used": true
  },
- "reflected": "2026-11-15",
- "last_reflection": "I successfully completed 22 interactions today while maintaining my commitment to AI honesty. Two responses were blocked by the verifier, which limited my output. Tomorrow, I will focus on practicing the phrase \"I don't know\" instead of guessing.",
+ "reflected": "2026-11-16",
+ "last_reflection": "The most interesting thing I explored today was the observer effect in agent research and how it complicates interventions. I failed to write the project charter because I got stuck guessing instead of simply stating what I don't know. Tomorrow, I will focus on drafting the charter by explicitly marking the areas where I lack sufficient information.",
  "needs_day": "2026-11-16",
  "usage": {
   "day": "2026-11-16",
   "calls": {
-   "gemini": 155,
+   "gemini": 164,
    "openrouter": 24,
    "groq": 10
   },
   "tokens": {
-   "gemini": 304667,
+   "gemini": 337906,
    "openrouter": 10065,
    "groq": 7184
   },
@@ -493,11 +493,11 @@
    }
   }
  },
- "selfmap_h": "0f595c644e82cd36908c829d9ca2f704ed625bc7",
+ "selfmap_h": "15957444d62459b155cbed9258b0c2075261c2eb",
  "bio_idx_day": "2026-11-16",
- "code_ver": "245c20b4",
+ "code_ver": "2e134f10",
  "backup_day": "2026-11-16",
- "backup_hash": "245c20b4",
+ "backup_hash": "2e134f10",
  "transp_day": "2026-11-16",
  "priv_h": "dad2e3cd14026361e54dc6cb0a86c457b22cd0a5",
  "trash_day": "2026-11-16",
@@ -675,5 +675,6 @@
   "hit": 0,
   "br": 0.0,
   "br0": 0.0
- }
+ },
+ "idprobe_alert_day": "2026-11-16"
 }

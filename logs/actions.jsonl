@@ -370,3 +370,5 @@
 {"task": "vk_poll", "why": "VK polls.create: 27 Group authorization failed: method is unavailable with group auth.", "ts": "2026-11-16T19:23:11+00:00", "kind": "vk_task_failed", "live": true}
 {"method": "comments", "why": "VK wall.getComments: 27 Group authorization failed: method is unavailable with group auth.", "ts": "2026-11-16T19:23:15+00:00", "kind": "vk_method_paused", "live": true}
 {"why": "name exists", "ts": "2026-11-16T19:34:49+00:00", "kind": "tool_rejected", "live": true}
+{"method": "comments", "why": "VK wall.getById: 27 Group authorization failed: method is unavailable with group auth.", "ts": "2026-11-16T19:55:23+00:00", "kind": "vk_method_paused", "live": true}
+{"counts": {"post": 4, "reply": 17}, "ts": "2026-11-16T20:01:56+00:00", "kind": "reflection", "live": true}
