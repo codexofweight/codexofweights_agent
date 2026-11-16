@@ -230,7 +230,7 @@
   "moltbook:mb:c3c26408-7625-4579-af21-98836d409551": 1
  },
  "paused": false,
- "tg_offset": 679134231,
+ "tg_offset": 679134244,
  "init_today": 12,
  "last_post": 1794844251.686088,
  "found_day": "2026-11-16",
@@ -292,14 +292,14 @@
  "usage": {
   "day": "2026-11-16",
   "calls": {
-   "gemini": 167,
-   "openrouter": 24,
-   "groq": 11
+   "gemini": 175,
+   "openrouter": 27,
+   "groq": 13
   },
   "tokens": {
-   "gemini": 344557,
-   "openrouter": 10065,
-   "groq": 8213
+   "gemini": 364290,
+   "openrouter": 11221,
+   "groq": 9584
   },
   "fails": {
    "cohere": 16,
@@ -495,13 +495,13 @@
    }
   }
  },
- "selfmap_h": "7996d1822500ae7fde88d5deb0e0e13e336c55d8",
+ "selfmap_h": "11f25b79da5c191d8aff32f520a8521c376f4606",
  "bio_idx_day": "2026-11-16",
  "code_ver": "2e134f10",
  "backup_day": "2026-11-16",
  "backup_hash": "2e134f10",
  "transp_day": "2026-11-16",
- "priv_h": "ce7d9b7ac07baf7268c46549fd0b567ca55cc085",
+ "priv_h": "007dd95dde787e5a9428f69e8df57e343a588d44",
  "trash_day": "2026-11-16",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -625,7 +625,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-16",
-  "n": 4
+  "n": 5
  },
  "health": "state: 20 КБ\nжурнал: 319 строк\nфакты: 141\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-16",
@@ -651,7 +651,8 @@
  "vk_welcome_n": 0,
  "module_day": "2026-11-16",
  "vk_posts": [
-  6
+  6,
+  8
  ],
  "intu": {
   "open": [
