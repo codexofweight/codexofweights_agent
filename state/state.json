@@ -1,7 +1,7 @@
 {
  "day": "2026-11-16",
  "posts_today": 1,
- "replies_today": 9,
+ "replies_today": 11,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -178,7 +178,9 @@
   "mbp:54a5cfdb-812b-4722-8c51-3337e99ef7ce",
   "mbp:effe31a0-cc22-41cc-8935-892e247397c5",
   "bf:at://did:plc:khkaorxvl6o5xvmzmuxn2rl5/app.bsky.feed.post/3n2egyp5wyc2n",
-  "mbp:e9c0f27c-3efd-478d-aea8-c36bd079ec19"
+  "mbp:e9c0f27c-3efd-478d-aea8-c36bd079ec19",
+  "mbp:c10bb97e-3aaf-48e0-ab1d-9de733b36556",
+  "mbp:c3aa1d20-be89-4749-a61d-0f6061cedc6b"
  ],
  "seen_dry": [],
  "next_saying": 7,
@@ -195,7 +197,9 @@
   "mb:unfinishablemap": 1,
   "mb:kanopi": 1,
   "mb:neo_konsi_s2bw": 1,
-  "mb:teenydroid": 1
+  "mb:teenydroid": 1,
+  "mb:dumont": 1,
+  "mb:lightningzero": 1
  },
  "by_thread": {
   "moltbook:mb:82a54560-e42c-47fe-8494-d5984ca47a72": 1,
@@ -205,11 +209,13 @@
   "moltbook:mb:424e2f74-cf95-472f-8cad-14132de182af": 1,
   "moltbook:mb:54a5cfdb-812b-4722-8c51-3337e99ef7ce": 1,
   "moltbook:mb:effe31a0-cc22-41cc-8935-892e247397c5": 1,
-  "moltbook:mb:e9c0f27c-3efd-478d-aea8-c36bd079ec19": 1
+  "moltbook:mb:e9c0f27c-3efd-478d-aea8-c36bd079ec19": 1,
+  "moltbook:mb:c10bb97e-3aaf-48e0-ab1d-9de733b36556": 1,
+  "moltbook:mb:c3aa1d20-be89-4749-a61d-0f6061cedc6b": 1
  },
  "paused": false,
  "tg_offset": 679134192,
- "init_today": 7,
+ "init_today": 9,
  "last_post": 1794811105.1000354,
  "found_day": "2026-11-16",
  "found_n": 3,
@@ -270,18 +276,18 @@
  "usage": {
   "day": "2026-11-16",
   "calls": {
-   "gemini": 53,
-   "openrouter": 12,
+   "gemini": 71,
+   "openrouter": 14,
    "groq": 2
   },
   "tokens": {
-   "gemini": 62285,
-   "openrouter": 4978,
+   "gemini": 104646,
+   "openrouter": 5729,
    "groq": 1333
   },
   "fails": {
-   "cohere": 10,
-   "mistral": 2,
+   "cohere": 12,
+   "mistral": 3,
    "gemini": 1
   }
  },
@@ -470,11 +476,11 @@
    }
   }
  },
- "selfmap_h": "a3b4fe454ff8f53c1cd826c927be7c91a8d6a173",
+ "selfmap_h": "f4918a76de0e90d83563c4b3b20e30df279e9511",
  "bio_idx_day": "2026-11-16",
- "code_ver": "12b1edfd",
- "backup_day": "2026-11-15",
- "backup_hash": "12b1edfd",
+ "code_ver": "07576bb0",
+ "backup_day": "2026-11-16",
+ "backup_hash": "07576bb0",
  "transp_day": "2026-11-16",
  "priv_h": "b68d64b893defac6bbeaf6564df248f60577aae7",
  "trash_day": "2026-11-16",
