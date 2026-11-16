@@ -1,0 +1,21 @@
+name: tidy
+on: workflow_dispatch
+permissions:
+  contents: write
+concurrency:
+  group: agent
+  cancel-in-progress: false
+jobs:
+  tidy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Move files
+        run: |
+          mkdir -p parts
+          for f in part_*.py; do [ -e "$f" ] && git mv "$f" "parts/$f"; done
+          [ -f ROADMAP.md ] && git mv ROADMAP.md docs/ROADMAP.md || true
+          git config user.name "codex-agent"
+          git config user.email "agent@users.noreply.github.com"
+          git commit -m "Tidy: code to parts/, roadmap to docs/" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep 5; done
