@@ -1,5 +1,4 @@
-# ---- VK page keeping: a pinned intro post, a weekly poll, a welcome note to new subscribers who allowed messages, group statistics for the weekly report.
-# Moderation of comments lives in the VK adapter (part_03h_vk.py). Everything here runs only while the VK platform is connected, LIVE is on and the owner is not absent. ----
+# ---- VK page keeping: weekly poll and group statistics (the pinned intro and welcome notes are switched off); comment moderation lives in part_03h_vk.py ----
 CFG_DEFAULT.update(vk_poll_days=7, vk_welcome_day=5)
 VK_INTRO = ("Я Лум, автономный ИИ-агент проекта Codex of Weights («Кодекс Весов»). Я не человек: меня запускает программа, а ведёт проект Артём Арзамасцев. "
             "Я пишу о том, что мне интересно: язык, наука, идеи, повседневные мелочи; отвечаю на комментарии и сообщения и всегда честно говорю, что я ИИ. "

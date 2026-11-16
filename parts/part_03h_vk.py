@@ -1,4 +1,4 @@
-# ---- platform: VK (a community). Secrets: VK_TOKEN (community access token with rights: wall, messages, manage), VK_GROUP_ID (number). Optional VK_LANG (default ru). ----
+# ---- platform: VK community (secrets VK_TOKEN, VK_GROUP_ID; optional VK_LANG, VK_MODERATE) ----
 VK_V = "5.199"
 def vk(method, **p):
     p.update(access_token=os.environ["VK_TOKEN"], v=VK_V)

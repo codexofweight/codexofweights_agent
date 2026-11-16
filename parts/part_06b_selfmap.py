@@ -6,7 +6,7 @@ def self_map():
         try:
             src = open(f, encoding="utf-8").read(); first = src.split("\n", 1)[0].lstrip("#-\" ").rstrip("-\" "); n = sum(1 for x in ast.parse(src).body if isinstance(x, ast.FunctionDef))
         except Exception: first, n = "unreadable", 0
-        L.append("- %s: %s (%d functions)" % (os.path.basename(f)[:-3], first[:110], n))
+        L.append("- %s: %s (%d functions)" % (os.path.basename(f)[:-3], first[:170], n))
     act = ", ".join("%s(%s)" % (t["name"], t["hook"]) for t in ACTIVE_TOOLS) or "none"
     L += ["ABILITIES: platforms: %s; live mode: %s; memory repo: %s; models: %s" % (", ".join(a.name for a in ADAPTERS), LIVE, "connected" if MEM_TOKEN else "off", ", ".join(x[0] for x in LLMS if x[2])),
           "Active tools: %s; sandbox: %s; first contacts: mode %s" % (act, {True: "verified", False: "FAILED (tools disabled)", None: "not tested yet"}[SANDBOX_OK[0]], ST.get("reach_mode", "approve")),
