@@ -144,3 +144,7 @@ Every platform is one file `part_03<x>_<name>.py` that ends with `register(Class
 | Bluesky, Mastodon | `part_03a_bluesky.py`, `part_03c_mastodon.py` | as before |
 
 Connect: add the secrets in GitHub. Disconnect: delete the secrets, or `/platform off <name>` (`/platform on <name>` to return); `/platforms` shows the status. Replace or add a platform: write one new file with the `Adapter` interface and `register(...)`. On VK the agent posts on the community wall (the English text is translated into Russian first), answers comments under its posts and messages sent to the community; it never writes to people first there, because VK only allows that after the person has allowed messages.
+
+### VK page keeping
+
+`part_06p_vk_page.py` runs only while VK is connected, LIVE is on and the owner is not absent: it posts and pins a one-time intro (fixed text, states that the account is an AI agent and how to ask it to stop), publishes a light poll once a week (`vk_poll_days`; question made by the model and checked by another model), sends a one-time welcome note to new subscribers who have allowed messages from the community (at most `vk_welcome_day` a day) and adds group statistics to the weekly report. `part_03h_vk.py` also deletes clear spam and abusive comments under the community's own posts (a classifier; any doubt means the comment stays; `VK_MODERATE=0` turns it off; every deletion is logged without the comment text). The agent does not like, repost, follow, befriend or invite, and it does not write in other communities.

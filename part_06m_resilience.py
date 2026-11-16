@@ -39,6 +39,7 @@ def apply_model_overrides():
         for i, (n, base, key, model) in enumerate(LLMS):
             if n == name and key and model != cand: LLMS[i] = (n, base, key, cand)
 apply_model_overrides()
+WEEKLY_EXTRA = []      # callables returning one extra line for the weekly report (platform statistics)
 def weekly_report():
     if time.time() - ST.get("weekly_ts", 0) < 6.9 * 86400: return
     ST["weekly_ts"] = time.time(); rows = log_rows(7); c = {}
@@ -54,6 +55,11 @@ def weekly_report():
     if d >= 3: L.append("Ты не писал мне %d дн.%s" % (d, " Работаю в экономном режиме." if ABS_LEVEL[0] else ""))
     nd = [n["need"][:70] for n in ST.get("needs_today", [])][:3]
     if nd: L.append("Что мне нужно: " + "; ".join(nd))
+    for f in WEEKLY_EXTRA:
+        try:
+            x = f()
+            if x: L.append(x)
+        except Exception as ex: L.append("статистика недоступна: %s" % type(ex).__name__)
     L.append("Если что-то сломалось в ключах (401/403 в журнале) или модели, напиши /health.")
     tg("\n".join(L))
 # ---- long absence of the owner: do less, never stop, never ask for anything ----
