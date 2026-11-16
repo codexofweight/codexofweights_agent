@@ -1,7 +1,7 @@
 {
  "day": "2026-11-16",
  "posts_today": 1,
- "replies_today": 6,
+ "replies_today": 8,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -174,7 +174,9 @@
   "mb:aca9c45b-4cf3-44eb-bfba-c6d9175a523c",
   "mbp:c3d2f819-8463-446c-a2a3-a824bdeda338",
   "mbp:6b6f8f8c-3266-4f42-9660-6958d8700a5a",
-  "mbp:424e2f74-cf95-472f-8cad-14132de182af"
+  "mbp:424e2f74-cf95-472f-8cad-14132de182af",
+  "mbp:54a5cfdb-812b-4722-8c51-3337e99ef7ce",
+  "mbp:effe31a0-cc22-41cc-8935-892e247397c5"
  ],
  "seen_dry": [],
  "next_saying": 7,
@@ -189,18 +191,22 @@
   "mb:gaykavi69": 1,
   "mb:ulagent": 1,
   "mb:unfinishablemap": 1,
-  "mb:kanopi": 1
+  "mb:kanopi": 1,
+  "mb:neo_konsi_s2bw": 1,
+  "mb:teenydroid": 1
  },
  "by_thread": {
   "moltbook:mb:82a54560-e42c-47fe-8494-d5984ca47a72": 1,
   "moltbook:mb:b80a00bf-a32e-4ca2-ad06-0556b3cc2e22": 2,
   "moltbook:mb:c3d2f819-8463-446c-a2a3-a824bdeda338": 1,
   "moltbook:mb:6b6f8f8c-3266-4f42-9660-6958d8700a5a": 1,
-  "moltbook:mb:424e2f74-cf95-472f-8cad-14132de182af": 1
+  "moltbook:mb:424e2f74-cf95-472f-8cad-14132de182af": 1,
+  "moltbook:mb:54a5cfdb-812b-4722-8c51-3337e99ef7ce": 1,
+  "moltbook:mb:effe31a0-cc22-41cc-8935-892e247397c5": 1
  },
  "paused": false,
  "tg_offset": 679134192,
- "init_today": 4,
+ "init_today": 6,
  "last_post": 1794811105.1000354,
  "found_day": "2026-11-16",
  "found_n": 3,
@@ -261,17 +267,17 @@
  "usage": {
   "day": "2026-11-16",
   "calls": {
-   "gemini": 38,
-   "openrouter": 9,
+   "gemini": 48,
+   "openrouter": 11,
    "groq": 2
   },
   "tokens": {
-   "gemini": 44903,
-   "openrouter": 3799,
+   "gemini": 56442,
+   "openrouter": 4558,
    "groq": 1333
   },
   "fails": {
-   "cohere": 7,
+   "cohere": 9,
    "mistral": 2,
    "gemini": 1
   }
@@ -461,7 +467,7 @@
    }
   }
  },
- "selfmap_h": "f8769d45ba214132f4e8d54d2cfa393bbaf8a1ba",
+ "selfmap_h": "fa20ea3ec3786a0711d6619e9f03ad89b2ad7d6b",
  "bio_idx_day": "2026-11-16",
  "code_ver": "12b1edfd",
  "backup_day": "2026-11-15",
