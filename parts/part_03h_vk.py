@@ -53,6 +53,12 @@ class VK(Adapter):
                 if not m.get("text") or not peer or m.get("from_id", 0) <= 0 or time.time() - m.get("date", 0) > 3 * 86400: continue
                 out.append(dict(key="vkm:%s" % m["id"], akey="vk:%s" % m["from_id"], handle="vk%s" % m["from_id"], text=m["text"][:600], thread="vk:dm%s" % peer, send=(lambda t, peer=peer: self._dm(peer, t))))
         def wall():
+            # find the community's own posts (also the ones the owner added by hand): probe the next ids with wall.getById (works with a community key)
+            mx = ST.get("vk_maxid", 0); probe = list(range(mx + 1, mx + 31)) if mx else list(range(1, 61))
+            rows = vk("wall.getById", posts=",".join("-%s_%s" % (gid, i) for i in probe)) or []
+            rows = rows.get("items", []) if isinstance(rows, dict) else rows
+            fresh = [int(r["id"]) for r in rows if isinstance(r, dict) and r.get("id")]
+            if fresh: ST["vk_maxid"] = max(mx, max(fresh)); ST["vk_posts"] = sorted(set(ST.get("vk_posts", [])) | set(fresh))[-15:]
             for pid in list(ST.get("vk_posts", [])):
                 for c in (vk("wall.getComments", owner_id=-gid, post_id=pid, count=30, sort="desc", thread_items_count=3) or {}).get("items", []):
                     if c.get("from_id", 0) <= 0 or not (c.get("text") or "").strip() or time.time() - c.get("date", 0) > 3 * 86400: continue

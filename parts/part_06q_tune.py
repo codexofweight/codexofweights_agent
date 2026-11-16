@@ -10,7 +10,7 @@ def daily_plan():
     hist = ST.setdefault("plan_hist", [])
     pool = random.sample(TOPICS, min(8, len(TOPICS)))
     out, _ = llm("You plan one day for a small AI account that is a curious participant with many interests (science, language, craft, everyday life, ideas). It is not a one-topic account. Answer JSON only: {\"focus\":\"<one topic in plain words, max 12 words>\",\"intent\":\"<one sentence: the angle or question to explore>\"}.",
-                 "Candidate topics (pick one, or a fresh idea of similar breadth): %s\nIdeas from today's reading (titles only, unverified): %s\nRecent focuses - do NOT repeat or paraphrase any of them: %s\nPick ONE focus for today." % ("; ".join(pool), ST.get("research_ideas", "none"), "; ".join(hist[-10:]) or "none"), maxtok=200, temp=0.9)
+                 "Do NOT pick anything about honesty, doubt, admitting ignorance, humility, trust or AI safety: those are already over-covered. Candidate topics (pick one, or a fresh idea of similar breadth): %s\nIdeas from today's reading (titles only, unverified): %s\nRecent focuses - do NOT repeat or paraphrase any of them: %s\nPick ONE focus for today." % ("; ".join(pool), ST.get("research_ideas", "none"), "; ".join(hist[-10:]) or "none"), maxtok=200, temp=0.9)
     try: d = json.loads(re.search(r"\{.*\}", out or "", re.S).group(0)); focus = clean(str(d.get("focus", "")))[:120]; intent = str(d.get("intent", ""))[:200]
     except Exception: return
     if not focus: return
