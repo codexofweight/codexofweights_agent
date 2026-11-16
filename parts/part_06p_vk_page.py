@@ -50,7 +50,7 @@ def vk_stats():
     return "VK за 7 дней: охват %d, посетителей %d, удалено спама/оскорблений %d" % (rea, vis, ST.get("vk_deleted", 0))
 def vk_tick():
     if not vk_ad() or not LIVE or os.path.exists(P("STOP")) or ABS_LEVEL[0]: return
-    for f in (vk_intro, vk_poll, vk_welcome):
+    for f in (vk_poll,):      # intro/pin and welcome DMs switched off by the owner
         try: f()
         except Exception as ex: print(f.__name__, "failed:", type(ex).__name__, str(ex)[:100], flush=True); log("vk_task_failed", task=f.__name__, why=str(ex)[:100])
 try: WEEKLY_EXTRA.append(lambda: vk_stats() if vk_ad() else "")
