@@ -227,7 +227,7 @@
   "moltbook:mb:ee83984c-10ed-4c70-9af9-5588191dc446": 1
  },
  "paused": false,
- "tg_offset": 679134195,
+ "tg_offset": 679134197,
  "init_today": 12,
  "last_post": 1794822233.543173,
  "found_day": "2026-11-16",
@@ -289,19 +289,19 @@
  "usage": {
   "day": "2026-11-16",
   "calls": {
-   "gemini": 112,
+   "gemini": 122,
    "openrouter": 20,
    "groq": 5
   },
   "tokens": {
-   "gemini": 198695,
+   "gemini": 234925,
    "openrouter": 8275,
    "groq": 3826
   },
   "fails": {
    "cohere": 16,
    "mistral": 4,
-   "gemini": 2
+   "gemini": 3
   }
  },
  "needs_today": [
@@ -490,13 +490,13 @@
    }
   }
  },
- "selfmap_h": "09f5940efb1ac131b3295fbecaf3fc51ac2ce63f",
+ "selfmap_h": "391b1801f16ea186b31b637eec56ea75ee26be90",
  "bio_idx_day": "2026-11-16",
- "code_ver": "368acbcc",
+ "code_ver": "245c20b4",
  "backup_day": "2026-11-16",
- "backup_hash": "368acbcc",
+ "backup_hash": "245c20b4",
  "transp_day": "2026-11-16",
- "priv_h": "95cc42738d0f4d65965b052fd6c7e81f59e2df20",
+ "priv_h": "b87fe11676fb333332144865fe2b7a7a8cec4216",
  "trash_day": "2026-11-16",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
