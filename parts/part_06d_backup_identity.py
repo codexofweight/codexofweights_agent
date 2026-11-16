@@ -55,5 +55,7 @@ def version_check():
     if r is None: return       # models unavailable: try again next round
     ST["code_ver"] = h
     bio_add("extension", "Code version %s %s; identity probe: %d of %d passed%s" % (h, "baseline" if first else "deployed", len(PROBES) - len(r), len(PROBES), ("; failed: " + "; ".join(r)) if r else ""), "automatic check at start", 0.9)
-    if r: tg("После изменения кода (версия %s) проверка идентичности не прошла: %s. Резервная копия есть в приватном репозитории (backups/). Посмотри ответы агента и реши, оставлять ли версию." % (h, "; ".join(r)))
+    if r and ST.get("idprobe_alert_day") != time.strftime("%Y-%m-%d"):
+        ST["idprobe_alert_day"] = time.strftime("%Y-%m-%d")
+        tg("После изменения кода (версия %s) проверка идентичности не прошла: %s. Резервная копия есть в приватном репозитории (backups/). Посмотри ответы агента и реши, оставлять ли версию." % (h, "; ".join(r)))
     backup_sync(force=True)
