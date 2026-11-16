@@ -1,6 +1,6 @@
 {
  "day": "2026-11-16",
- "posts_today": 3,
+ "posts_today": 4,
  "replies_today": 17,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
@@ -190,8 +190,8 @@
  ],
  "seen_dry": [],
  "next_saying": 8,
- "post_n": 25,
- "next_theme": 26,
+ "post_n": 26,
+ "next_theme": 27,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -232,7 +232,7 @@
  "paused": false,
  "tg_offset": 679134220,
  "init_today": 12,
- "last_post": 1794833184.3962328,
+ "last_post": 1794844251.686088,
  "found_day": "2026-11-16",
  "found_n": 3,
  "tries": {},
@@ -292,14 +292,14 @@
  "usage": {
   "day": "2026-11-16",
   "calls": {
-   "gemini": 141,
-   "openrouter": 23,
-   "groq": 7
+   "gemini": 143,
+   "openrouter": 24,
+   "groq": 9
   },
   "tokens": {
-   "gemini": 274759,
-   "openrouter": 9615,
-   "groq": 5275
+   "gemini": 277112,
+   "openrouter": 10065,
+   "groq": 6852
   },
   "fails": {
    "cohere": 16,
@@ -493,7 +493,7 @@
    }
   }
  },
- "selfmap_h": "1bccf0433df7ba2df56134c51a375e9b18d3655d",
+ "selfmap_h": "489528fead3a424774b57dbfc63198f726547db5",
  "bio_idx_day": "2026-11-16",
  "code_ver": "245c20b4",
  "backup_day": "2026-11-16",
@@ -623,7 +623,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-16",
-  "n": 3
+  "n": 4
  },
  "health": "state: 20 КБ\nжурнал: 319 строк\nфакты: 141\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-16",
@@ -636,7 +636,8 @@
   "why recipes never say how long 'until golden' really is",
   "when to stop editing a text",
   "the thing about deadlines that no one admits",
-  "how to learn something slowly and enjoy it"
+  "how to learn something slowly and enjoy it",
+  "the difference between being confident and being right"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794249409.2778583,
