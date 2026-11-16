@@ -227,7 +227,7 @@
   "moltbook:mb:ee83984c-10ed-4c70-9af9-5588191dc446": 1
  },
  "paused": false,
- "tg_offset": 679134192,
+ "tg_offset": 679134193,
  "init_today": 12,
  "last_post": 1794822233.543173,
  "found_day": "2026-11-16",
@@ -291,12 +291,12 @@
   "calls": {
    "gemini": 104,
    "openrouter": 20,
-   "groq": 4
+   "groq": 5
   },
   "tokens": {
    "gemini": 168192,
    "openrouter": 8275,
-   "groq": 2916
+   "groq": 3826
   },
   "fails": {
    "cohere": 16,
@@ -337,7 +337,8 @@
   "lab/tools_pending/discourse_context_analyzer.json": "9f60090f740c4fd4ea393aefb63600fbbf023455",
   "lab/tools_active/fact_check_guard.py": "5304eb250d5fc690b5a82cfedb7a7d383ed91505",
   "lab/tools_active/fact_check_guard.json": "505134cff1978b7fe80f3723444bf86e0bc08dd9",
-  "lab/modules_pending/honesty_monitor.md": "7bc17b3f1160fd2add8113c51ce6c1bf487729df"
+  "lab/modules_pending/honesty_monitor.md": "7bc17b3f1160fd2add8113c51ce6c1bf487729df",
+  "lab/projects/p44c414f.json": "72f58a7dccb067c372cd8010387acb22ce0acbb0"
  },
  "research_try": {
   "2026-11-16": 1
@@ -489,13 +490,13 @@
    }
   }
  },
- "selfmap_h": "f6014fdcf6b21b4a4962c2f767c50435c68b8567",
+ "selfmap_h": "e7e46e6a0d52f28d3fa6830652830fa2a6e1f823",
  "bio_idx_day": "2026-11-16",
  "code_ver": "07ef087e",
  "backup_day": "2026-11-16",
  "backup_hash": "07ef087e",
  "transp_day": "2026-11-16",
- "priv_h": "b68d64b893defac6bbeaf6564df248f60577aae7",
+ "priv_h": "be9eb177c13d20becef57ff005d3a5d5c928e5c7",
  "trash_day": "2026-11-16",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
