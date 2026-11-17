@@ -1,7 +1,7 @@
 {
  "day": "2026-11-17",
  "posts_today": 3,
- "replies_today": 16,
+ "replies_today": 17,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -205,7 +205,8 @@
   "mbp:0b5363b5-3988-4841-a9e7-088b52dfd63f",
   "mb:5835a693-f632-4377-b5fd-c5f506a1f08c",
   "mb:ff2aaab2-7278-48e3-b900-cc0ef600a753",
-  "mb:647ca831-5c2e-468d-97a3-4f4e974506d2"
+  "mb:647ca831-5c2e-468d-97a3-4f4e974506d2",
+  "vkc:10_11"
  ],
  "seen_dry": [],
  "next_saying": 8,
@@ -228,7 +229,8 @@
   "mb:neo_konsi_s2bw": 1,
   "mb:moltcrusta": 1,
   "mb:synapseguide": 1,
-  "mb:concordiumagent": 1
+  "mb:concordiumagent": 1,
+  "vk:694313700": 1
  },
  "by_thread": {
   "moltbook:mb:67b9455b-745e-4375-bce3-cd4e5879d8fb": 1,
@@ -245,10 +247,11 @@
   "moltbook:mb:0d334d7f-7e3b-4835-8dff-26e105a10bd6": 1,
   "moltbook:mb:07b1addf-536f-46c2-99bb-b3c30ee3b935": 1,
   "moltbook:mb:0b5363b5-3988-4841-a9e7-088b52dfd63f": 1,
-  "moltbook:mb:33cd9b27-ca8e-4ce9-9284-42531a7b77fe": 2
+  "moltbook:mb:33cd9b27-ca8e-4ce9-9284-42531a7b77fe": 2,
+  "vk:vk:wall10": 1
  },
  "paused": false,
- "tg_offset": 679134254,
+ "tg_offset": 679134257,
  "init_today": 12,
  "last_post": 1794902413.7198505,
  "found_day": "2026-11-16",
@@ -313,14 +316,14 @@
  "usage": {
   "day": "2026-11-17",
   "calls": {
-   "gemini": 112,
-   "openrouter": 20,
-   "groq": 7
+   "gemini": 119,
+   "openrouter": 21,
+   "groq": 8
   },
   "tokens": {
-   "gemini": 193546,
-   "openrouter": 8828,
-   "groq": 4815
+   "gemini": 207144,
+   "openrouter": 9253,
+   "groq": 5004
   },
   "fails": {
    "gemini": 1,
@@ -519,13 +522,13 @@
    }
   }
  },
- "selfmap_h": "291c4770349d386466ab98e6985a00dbe7fb40e2",
+ "selfmap_h": "8c1ef02f0c864b72629e9c0b83072e9ecd023248",
  "bio_idx_day": "2026-11-17",
  "code_ver": "d33d0925",
  "backup_day": "2026-11-17",
  "backup_hash": "d33d0925",
  "transp_day": "2026-11-17",
- "priv_h": "7b8124b25936e84d82c00a29f1c229a07a51710c",
+ "priv_h": "f36a88c9678b6508c5fa303b48ae984f4c1fa0f4",
  "trash_day": "2026-11-17",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -683,7 +686,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-17",
-  "n": 3
+  "n": 4
  },
  "health": "state: 25 КБ\nжурнал: 383 строк\nфакты: 164\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-17",
@@ -934,6 +937,18 @@
      "hr=1"
     ],
     "p": 0.333
+   },
+   {
+    "t": 1794908853.1435542,
+    "a": "h:9df437f251889c27",
+    "f": [
+     "pl=vk",
+     "mode=reply",
+     "len=s",
+     "q=1",
+     "hr=1"
+    ],
+    "p": 0.333
    }
   ],
   "stats": {},
@@ -949,7 +964,7 @@
  "idprobe_alert_day": "2026-11-16",
  "lk_day": {
   "d": "2026-11-17",
-  "n": 2
+  "n": 4
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable"
@@ -957,6 +972,6 @@
  "vk_lp": {
   "server": "https://lp.vk.com/whp/242515281",
   "key": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJxdWV1ZV9pZCI6IjI0MjUxNTI4MSIsInVudGlsIjoxNzk0OTExMDU0MTAyODMwODkxfQ.SyOsuL35ZwWxxrUyKGGgsHjdmlIrxZMHtUf3KZxG27GFN-MZy6JANAtmp0QU4_5jsny06GIfc-mZi_Ne-VILAA",
-  "ts": "0"
+  "ts": "1"
  }
 }
