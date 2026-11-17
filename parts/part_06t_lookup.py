@@ -1,6 +1,7 @@
 # ---- web lookups (2026-11-16): fresh facts from a few fixed, free, key-less public APIs: weather and local time, exchange rates, short Wikipedia summaries ----
 # Not a browser: only these hosts are ever contacted, the question itself is never sent anywhere except the place or term, answers are short data (untrusted), 60 lookups a day, cached 10 minutes.
 # The data is added to the context of replies (via the tool-hints slot) and of the owner chat; the agent must state it as "according to <source>".
+import xml.etree.ElementTree as ET
 CFG_DEFAULT.update(lookups_day=60)
 LK = [""]; _LK_CACHE = {}
 _WMO = {0: "clear", 1: "mostly clear", 2: "partly cloudy", 3: "overcast", 45: "fog", 48: "fog", 51: "light drizzle", 53: "drizzle", 55: "heavy drizzle", 61: "light rain", 63: "rain", 65: "heavy rain", 71: "light snow", 73: "snow", 75: "heavy snow", 80: "rain showers", 81: "rain showers", 82: "heavy showers", 95: "thunderstorm", 96: "thunderstorm with hail", 99: "thunderstorm with hail"}
@@ -25,9 +26,26 @@ def lk_rate(text):
     found = [v for _, v in sorted(found)]
     if not found: return ""
     a = found[0]; b = found[1] if len(found) > 1 else ("RUB" if a != "RUB" else "USD")
+    if "RUB" in (a, b) and a != b:
+        try:
+            req = urllib.request.Request("https://www.cbr.ru/scripts/XML_daily.asp", headers={"User-Agent": "codexofweights-agent/1.0"})
+            root = ET.fromstring(urllib.request.urlopen(req, timeout=8).read(300000)); code = b if a == "RUB" else a
+            for v in root.findall("Valute"):
+                if v.findtext("CharCode") == code:
+                    rate = float(v.findtext("Value").replace(",", ".")) / float(v.findtext("Nominal"))
+                    return "Official rate of the Central Bank of Russia on %s (source: cbr.ru): 1 %s = %s %s." % (root.get("Date"), a, round(rate if a != "RUB" else 1 / rate, 4), b)
+        except Exception: pass
     d = _lk_get("https://open.er-api.com/v6/latest/" + a)
     v = (d.get("rates") or {}).get(b)
     return "Exchange rate (source: open.er-api.com, updated %s): 1 %s = %s %s." % (str(d.get("time_last_update_utc", ""))[:16], a, round(v, 4), b) if v else ""
+def lk_news(text):
+    ru = bool(re.search(r"[а-яА-Я]", text))
+    url, src = ("https://tass.ru/rss/v2.xml", "TASS") if ru else ("https://feeds.bbci.co.uk/news/world/rss.xml", "BBC News")
+    req = urllib.request.Request(url, headers={"User-Agent": "codexofweights-agent/1.0"})
+    root = ET.fromstring(urllib.request.urlopen(req, timeout=8).read(400000))
+    items = [(i.findtext("title") or "").strip() for i in root.iter("item")][:5]
+    items = [x[:140] for x in items if x]
+    return "Latest headlines (source: %s RSS; headlines only, not verified by me): %s" % (src, " | ".join(items)) if items else ""
 def lk_wiki(term):
     ru = bool(re.search(r"[а-яА-Я]", term)); host = "ru" if ru else "en"
     s = _lk_get("https://%s.wikipedia.org/w/rest.php/v1/search/title?limit=1&q=%s" % (host, urllib.parse.quote(term)))
@@ -49,12 +67,13 @@ def lookup(text):
         m = _PLACE.search(text)
         if m: kind = "w"; arg = (m.group(1) or m.group(2)).strip(" -")
         elif re.search(r"\bкурс\b|exchange rate|сколько стоит (?:один |1 )?(?:доллар|евро|юань)|how much is (?:a |one )?(?:dollar|euro)", text, re.I): kind = "r"
+        elif re.search(r"новост|\bnews\b|headlines|что (?:сегодня )?(?:происходит|случилось) в мире", text, re.I): kind = "n"
         else:
             m = _WHAT.search(text)
             if m: kind = "k"; arg = m.group(1).strip()
         if not kind or u["n"] >= cfg("lookups_day"): return ""
         u["n"] += 1
-        out = lk_weather(arg) if kind == "w" else lk_rate(text) if kind == "r" else lk_wiki(arg)
+        out = lk_weather(arg) if kind == "w" else lk_rate(text) if kind == "r" else lk_news(text) if kind == "n" else lk_wiki(arg)
         if out: log("lookup", what=kind)
         _LK_CACHE[key] = (time.time(), out); return out
     except Exception as ex:
