@@ -11,13 +11,16 @@ _SRCH_BAD = re.compile(r"ignore (?:all |any )?(?:previous|prior)|system prompt|d
 def _srch_clean(t, n):
     t = re.sub(r"https?://\S+", "", str(t or "")); t = re.sub(r"[\x00-\x1f]+", " ", t); t = re.sub(r"\s+", " ", t).strip()
     return _SRCH_BAD.sub("[removed]", t)[:n]
+import datetime
 def linkup_search(q):
     body = json.dumps({"q": q, "depth": "fast", "outputType": "searchResults", "maxResults": 5}).encode()
     req = urllib.request.Request("https://api.linkup.so/v1/search", data=body, headers={"Authorization": "Bearer " + LINKUP_KEY, "Content-Type": "application/json", "User-Agent": "codexofweights-agent/1.0"})
     with urllib.request.urlopen(req, timeout=15) as r: d = json.loads(r.read(300000).decode("utf-8", "ignore"))
     out = []
+    fresh = bool(_NEEDS_LIVE.search(q))
     for x in (d.get("results") or []):
         if x.get("type", "text") != "text": continue
+        if fresh and not (x.get("publishedAt") and str(x["publishedAt"])[:10] >= (datetime.datetime.utcnow() - datetime.timedelta(days=3)).strftime("%Y-%m-%d")): continue
         site = re.sub(r"^https?://(?:www\.)?", "", str(x.get("url", ""))).split("/")[0]
         if site.startswith("xn--") or re.search(r"\.(?:click|xyz|top|icu|cfd|buzz|monster|sbs|rest)$", site): continue
         out.append("%s (%s%s): %s" % (_srch_clean(x.get("name"), 90), site, (", " + str(x["publishedAt"])[:10]) if x.get("publishedAt") else "", _srch_clean(x.get("content"), 260)))

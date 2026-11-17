@@ -19,7 +19,18 @@ def lk_weather(place):
     c = w.get("current") or {}
     return "Weather now in %s, %s (source: open-meteo.com): %s, %s°C (feels like %s°C), wind %s km/h, precipitation %s mm. Local time there: %s (%s)." % (r.get("name"), r.get("country", ""), _WMO.get(c.get("weather_code"), "n/a"), c.get("temperature_2m"), c.get("apparent_temperature"), c.get("wind_speed_10m"), c.get("precipitation"), str(c.get("time", "")).replace("T", " "), w.get("timezone", ""))
 _CUR = {"доллар": "USD", "евро": "EUR", "рубл": "RUB", "юан": "CNY", "фунт": "GBP", "иен": "JPY", "тенге": "KZT", "гривн": "UAH", "франк": "CHF", "dollar": "USD", "euro": "EUR", "ruble": "RUB", "yuan": "CNY", "pound": "GBP", "yen": "JPY"}
+_CRY = {"биткоин": "bitcoin", "биткойн": "bitcoin", "bitcoin": "bitcoin", "btc": "bitcoin", "эфир": "ethereum", "ethereum": "ethereum", "eth": "ethereum", "солан": "solana", "solana": "solana", "тон": "the-open-network", "toncoin": "the-open-network", "догикоин": "dogecoin", "dogecoin": "dogecoin", "ripple": "ripple", "xrp": "ripple", "лайткоин": "litecoin", "litecoin": "litecoin"}
+def lk_crypto(text):
+    low = text.lower(); ids = []
+    for k, v in _CRY.items():
+        if re.search((r"\b" + k + r"\b") if len(k) <= 4 else k, low) and v not in ids: ids.append(v)
+    if not ids: return ""
+    d = _lk_get("https://api.coingecko.com/api/v3/simple/price?include_24hr_change=true&vs_currencies=usd,rub&ids=" + ",".join(ids[:3]))
+    rows = ["1 %s = %s USD (%s RUB), 24h change %s%%" % (i, d[i].get("usd"), d[i].get("rub"), round(d[i].get("usd_24h_change") or 0, 2)) for i in ids[:3] if i in d]
+    return "Crypto prices now (source: coingecko.com, free public API, may lag a few minutes): " + "; ".join(rows) + "." if rows else ""
 def lk_rate(text):
+    c = lk_crypto(text)
+    if c: return c
     low = text.lower(); found = []
     for k, v in _CUR.items():
         i = low.find(k)
@@ -69,7 +80,7 @@ def lookup(text):
         out = ""; kind = None
         m = _PLACE.search(text)
         if m: kind = "w"; arg = (m.group(1) or m.group(2)).strip(" -")
-        elif re.search(r"\bкурс\b|exchange rate|сколько стоит (?:один |1 )?(?:доллар|евро|юань)|how much is (?:a |one )?(?:dollar|euro)", text, re.I): kind = "r"
+        elif re.search(r"\bкурс\b|exchange rate|биткоин|биткойн|bitcoin|ethereum|эфириум|криптовалют|сколько стоит (?:один |1 )?(?:доллар|евро|юань)|how much is (?:a |one )?(?:dollar|euro)", text, re.I): kind = "r"
         elif re.search(r"новост|\bnews\b|headlines|что (?:сегодня )?(?:происходит|случилось) в мире", text, re.I): kind = "n"
         else:
             m = _WHAT.search(text)
