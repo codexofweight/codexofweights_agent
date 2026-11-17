@@ -316,17 +316,17 @@
  "usage": {
   "day": "2026-11-17",
   "calls": {
-   "gemini": 128,
+   "gemini": 136,
    "openrouter": 21,
    "groq": 8
   },
   "tokens": {
-   "gemini": 243398,
+   "gemini": 276315,
    "openrouter": 9253,
    "groq": 5004
   },
   "fails": {
-   "gemini": 1,
+   "gemini": 2,
    "openrouter": 3
   }
  },
@@ -522,11 +522,11 @@
    }
   }
  },
- "selfmap_h": "ab7bfa7be219685fced0d9c8ccaba64a6c1accea",
+ "selfmap_h": "6f989a0235217f2b31c870126425290cbf2f2e9d",
  "bio_idx_day": "2026-11-17",
- "code_ver": "5ebe3b91",
+ "code_ver": "3a12e99c",
  "backup_day": "2026-11-17",
- "backup_hash": "5ebe3b91",
+ "backup_hash": "3a12e99c",
  "transp_day": "2026-11-17",
  "priv_h": "61d16c4ee5b052338d04ec841d5c0b1bffecaf70",
  "trash_day": "2026-11-17",
@@ -971,7 +971,7 @@
  ],
  "vk_lp": {
   "server": "https://lp.vk.com/whp/242515281",
-  "key": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJxdWV1ZV9pZCI6IjI0MjUxNTI4MSIsInVudGlsIjoxNzk0OTExMDU0MTAyODMwODkxfQ.SyOsuL35ZwWxxrUyKGGgsHjdmlIrxZMHtUf3KZxG27GFN-MZy6JANAtmp0QU4_5jsny06GIfc-mZi_Ne-VILAA",
+  "key": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJxdWV1ZV9pZCI6IjI0MjUxNTI4MSIsInVudGlsIjoxNzk0OTE0NzQxNzM4NzM1NDIzfQ.GGUKNSqsoM0l3yhdiflvz0FAe00Nnlq6cpfplvZde2nKu9EtNDngJ2lKQBFooaDXegw_OOMjXQ-Q1Ma3PPcNBQ",
   "ts": "2"
  },
  "srch_day": {
