@@ -316,12 +316,12 @@
  "usage": {
   "day": "2026-11-17",
   "calls": {
-   "gemini": 167,
+   "gemini": 175,
    "openrouter": 23,
    "groq": 10
   },
   "tokens": {
-   "gemini": 383739,
+   "gemini": 416675,
    "openrouter": 10181,
    "groq": 6431
   },
@@ -522,11 +522,11 @@
    }
   }
  },
- "selfmap_h": "00411f0d0bb6b5bfe958b4adbde4990794a4e81e",
+ "selfmap_h": "c763f5e5546c95ea53068cdfe5394b524227cf58",
  "bio_idx_day": "2026-11-17",
- "code_ver": "a9df6a1c",
+ "code_ver": "c61d084c",
  "backup_day": "2026-11-17",
- "backup_hash": "a9df6a1c",
+ "backup_hash": "c61d084c",
  "transp_day": "2026-11-17",
  "priv_h": "ab15053797566ee93f6d1828c57d4e688d9c9781",
  "trash_day": "2026-11-17",
