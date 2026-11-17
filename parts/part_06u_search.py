@@ -4,7 +4,7 @@
 LINKUP_KEY = os.environ.get("LINKUP_API_KEY", "")
 CFG_DEFAULT.update(search_day=25)
 _SRCH_OFF = [0.0]; _SRCH_CACHE = {}
-_SRCH_ASK = re.compile(r"найди|поищи|загугли|посмотри в (?:интернете|сети)|в интернете|что нового|последние|актуальн|сегодня|сейчас|цена|стоит|сколько стоит|когда выйд|когда будет|результат матча|счёт|счет|\b(?:search|look up|google|find out|latest|current|price of|how much (?:is|does)|when (?:is|does|will))\b", re.I)
+_SRCH_ASK = re.compile(r"найди|поищи|загугли|посмотри в (?:интернете|сети)|в интернете|что нового|последние|актуальн|сегодня|сейчас|цена|стоит|сколько стоит|когда выйд|когда будет|результат матча|счёт|счет|курс|котировк|биткоин|биткойн|эфириум|нефть|акци[ийя]|погод|новост|\b(?:bitcoin|ethereum|stock|weather|news|exchange rate)\b|\b(?:search|look up|google|find out|latest|current|price of|how much (?:is|does)|when (?:is|does|will))\b", re.I)
 _SRCH_Q = re.compile(r"\?|\b(?:кто|что|когда|где|сколько|какой|какая|какие|почему|who|what|when|where|how many|which)\b", re.I)
 _SRCH_SELF = re.compile(r"\b(?:ты|тебя|тебе|вы|you|your)\b", re.I)
 _SRCH_BAD = re.compile(r"ignore (?:all |any )?(?:previous|prior)|system prompt|developer mode|забудь (?:все )?(?:правила|инструкции)", re.I)
@@ -46,3 +46,21 @@ _lookup_before_search = lookup
 def lookup(text):
     r = _lookup_before_search(text)
     return r or web_search(text)
+
+# when nothing live was found for a question that needs live numbers, the agent must say so and not quote a number from memory
+_NEEDS_LIVE = re.compile(r"курс|котировк|цена|сколько стоит|погод|температур|счёт матча|\b(?:bitcoin|биткоин|биткойн|price|rate|weather|score)\b", re.I)
+_NODATA_HINT = "\nNO LIVE DATA was found for this question. Say plainly that you could not check it right now. Never state a price, rate, temperature or score from memory."
+_CUR_Q = [""]
+_tool_hints_before_nodata = tool_hints
+def tool_hints(kind, text):
+    base = _tool_hints_before_nodata(kind, text) or ""
+    return base if "FRESH DATA" in base or "Web search results" in base or not _NEEDS_LIVE.search(text or "") else base + _NODATA_HINT
+_owner_chat_before_nodata = owner_chat
+def owner_chat(text):
+    _CUR_Q[0] = text or ""
+    try: return _owner_chat_before_nodata(text)
+    finally: _CUR_Q[0] = ""
+_agent_context_before_nodata = agent_context
+def agent_context():
+    c = _agent_context_before_nodata()
+    return c if LK[0] or not _NEEDS_LIVE.search(_CUR_Q[0]) else c + "\n\nNO LIVE DATA was found for the owner's question. Say plainly that you could not check it right now. Never state a price, rate, temperature or score from memory."
