@@ -5,7 +5,7 @@ LINKUP_KEY = os.environ.get("LINKUP_API_KEY", "")
 CFG_DEFAULT.update(search_day=25)
 _SRCH_OFF = [0.0]; _SRCH_CACHE = {}
 _SRCH_ASK = re.compile(r"найди|поищи|загугли|посмотри в (?:интернете|сети)|в интернете|что нового|последние|актуальн|сегодня|сейчас|цена|стоит|сколько стоит|когда выйд|когда будет|результат матча|счёт|счет|курс|котировк|биткоин|биткойн|эфириум|нефть|акци[ийя]|погод|новост|\b(?:bitcoin|ethereum|stock|weather|news|exchange rate)\b|\b(?:search|look up|google|find out|latest|current|price of|how much (?:is|does)|when (?:is|does|will))\b", re.I)
-_SRCH_Q = re.compile(r"\?|\b(?:кто|что|когда|где|сколько|какой|какая|какие|почему|who|what|when|where|how many|which)\b", re.I)
+_SRCH_Q = re.compile(r"\b(?:кто такой|кто такая|что такое|когда (?:родился|умер|основан|вышел|выйдет|начал)|сколько (?:лет|человек|жителей|длится|весит)|где находится|столица|who is|who was|what is|when was|when did|how many|where is)\b", re.I)
 _SRCH_SELF = re.compile(r"\b(?:ты|тебя|тебе|вы|you|your)\b", re.I)
 _SRCH_BAD = re.compile(r"ignore (?:all |any )?(?:previous|prior)|system prompt|developer mode|забудь (?:все )?(?:правила|инструкции)", re.I)
 def _srch_clean(t, n):
@@ -13,7 +13,7 @@ def _srch_clean(t, n):
     return _SRCH_BAD.sub("[removed]", t)[:n]
 import datetime
 def linkup_search(q):
-    body = json.dumps({"q": q, "depth": "fast", "outputType": "searchResults", "maxResults": 5}).encode()
+    body = json.dumps({"q": q, "depth": "fast", "outputType": "searchResults", "maxResults": 8 if re.search(r"нов|news|latest|последн", q, re.I) else 5}).encode()
     req = urllib.request.Request("https://api.linkup.so/v1/search", data=body, headers={"Authorization": "Bearer " + LINKUP_KEY, "Content-Type": "application/json", "User-Agent": "codexofweights-agent/1.0"})
     with urllib.request.urlopen(req, timeout=15) as r: d = json.loads(r.read(300000).decode("utf-8", "ignore"))
     out = []
@@ -24,7 +24,7 @@ def linkup_search(q):
         site = re.sub(r"^https?://(?:www\.)?", "", str(x.get("url", ""))).split("/")[0]
         if site.startswith("xn--") or re.search(r"\.(?:click|xyz|top|icu|cfd|buzz|monster|sbs|rest)$", site): continue
         out.append("%s (%s%s): %s" % (_srch_clean(x.get("name"), 90), site, (", " + str(x["publishedAt"])[:10]) if x.get("publishedAt") else "", _srch_clean(x.get("content"), 260)))
-    return out[:5]
+    return out[:8]
 def web_search(text):
     """Returns a short block of search snippets or ''. Never raises. Skips greetings, questions about the agent itself and texts with personal data."""
     try:
