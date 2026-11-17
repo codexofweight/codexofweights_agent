@@ -195,7 +195,8 @@
   "mbp:7862b9ba-2ff2-4dae-842b-6d1de8851ca7",
   "mb:e4de5219-21c4-4b13-82be-89e2a4940bd8",
   "mbp:382c8048-0fa0-4c83-988d-9d72c2f56fa9",
-  "mbp:dbeb9422-6442-4259-8e83-a46cf7942867"
+  "mbp:dbeb9422-6442-4259-8e83-a46cf7942867",
+  "mbp:d59bcd28-41fc-420a-9ac0-1848774e8e3f"
  ],
  "seen_dry": [],
  "next_saying": 8,
@@ -289,12 +290,12 @@
  "usage": {
   "day": "2026-11-17",
   "calls": {
-   "gemini": 43,
+   "gemini": 44,
    "openrouter": 8,
    "groq": 3
   },
   "tokens": {
-   "gemini": 54130,
+   "gemini": 54426,
    "openrouter": 3575,
    "groq": 1853
   },
@@ -495,7 +496,7 @@
    }
   }
  },
- "selfmap_h": "ac1e32a08dbd694c204c9cfc6b124f1af2f1f7d0",
+ "selfmap_h": "8071438171f71ace177a9bf67959e3ed7a54a840",
  "bio_idx_day": "2026-11-17",
  "code_ver": "2e134f10",
  "backup_day": "2026-11-16",
