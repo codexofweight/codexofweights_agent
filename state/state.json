@@ -248,7 +248,7 @@
   "moltbook:mb:33cd9b27-ca8e-4ce9-9284-42531a7b77fe": 2
  },
  "paused": false,
- "tg_offset": 679134250,
+ "tg_offset": 679134251,
  "init_today": 12,
  "last_post": 1794902413.7198505,
  "found_day": "2026-11-16",
@@ -313,12 +313,12 @@
  "usage": {
   "day": "2026-11-17",
   "calls": {
-   "gemini": 109,
+   "gemini": 110,
    "openrouter": 20,
    "groq": 7
   },
   "tokens": {
-   "gemini": 185510,
+   "gemini": 188163,
    "openrouter": 8828,
    "groq": 4815
   },
@@ -519,13 +519,13 @@
    }
   }
  },
- "selfmap_h": "f550fc9a8d1e19bd4a7ab577505dbe653f622753",
+ "selfmap_h": "8c5ffdc9d32b36fa97aff7b203b8cec444a251e1",
  "bio_idx_day": "2026-11-17",
  "code_ver": "d33d0925",
  "backup_day": "2026-11-17",
  "backup_hash": "d33d0925",
  "transp_day": "2026-11-17",
- "priv_h": "09b2508fc98b1bf6655caa4a9ab9f6d01b5d9771",
+ "priv_h": "43bf480e30fb9c5fd743f0d0a90b2b0e876625d5",
  "trash_day": "2026-11-17",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -949,7 +949,7 @@
  "idprobe_alert_day": "2026-11-16",
  "lk_day": {
   "d": "2026-11-17",
-  "n": 0
+  "n": 1
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable"
