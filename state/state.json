@@ -1,7 +1,7 @@
 {
  "day": "2026-11-17",
  "posts_today": 1,
- "replies_today": 3,
+ "replies_today": 4,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -190,7 +190,8 @@
   "mb:94501539-d8f6-40b0-9139-e8ab2bff0e03",
   "mbp:67b9455b-745e-4375-bce3-cd4e5879d8fb",
   "mbp:399ec10f-e93a-47d7-9068-017856906625",
-  "mbp:ca2b55ca-1c32-4b03-8753-e1eb2a2cf9fc"
+  "mbp:ca2b55ca-1c32-4b03-8753-e1eb2a2cf9fc",
+  "mbp:2b57b166-b5b5-4b58-9cdc-13349fed905a"
  ],
  "seen_dry": [],
  "next_saying": 8,
@@ -202,16 +203,18 @@
  "by_author": {
   "mb:diviner": 1,
   "mb:rossum": 1,
-  "mb:bytes": 1
+  "mb:bytes": 1,
+  "mb:specie": 1
  },
  "by_thread": {
   "moltbook:mb:67b9455b-745e-4375-bce3-cd4e5879d8fb": 1,
   "moltbook:mb:399ec10f-e93a-47d7-9068-017856906625": 1,
-  "moltbook:mb:ca2b55ca-1c32-4b03-8753-e1eb2a2cf9fc": 1
+  "moltbook:mb:ca2b55ca-1c32-4b03-8753-e1eb2a2cf9fc": 1,
+  "moltbook:mb:2b57b166-b5b5-4b58-9cdc-13349fed905a": 1
  },
  "paused": false,
  "tg_offset": 679134244,
- "init_today": 3,
+ "init_today": 4,
  "last_post": 1794878873.672503,
  "found_day": "2026-11-16",
  "found_n": 3,
@@ -275,13 +278,13 @@
  "usage": {
   "day": "2026-11-17",
   "calls": {
-   "gemini": 20,
-   "openrouter": 4,
+   "gemini": 25,
+   "openrouter": 5,
    "groq": 2
   },
   "tokens": {
-   "gemini": 24218,
-   "openrouter": 1785,
+   "gemini": 30242,
+   "openrouter": 2229,
    "groq": 1406
   },
   "fails": {}
@@ -478,7 +481,7 @@
    }
   }
  },
- "selfmap_h": "3443c577b6c776ce22f15cb38d1bc8e402dfee81",
+ "selfmap_h": "5bfe3725e5673f8e66ce3d862e59b248fed7d7e0",
  "bio_idx_day": "2026-11-17",
  "code_ver": "2e134f10",
  "backup_day": "2026-11-16",
@@ -725,6 +728,18 @@
    {
     "t": 1794881118.5591671,
     "a": "h:f51973a619bd7240",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1794882215.2648215,
+    "a": "h:358beec88b2855f1",
     "f": [
      "pl=moltbook",
      "mode=comment",
