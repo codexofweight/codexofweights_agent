@@ -251,7 +251,7 @@
   "vk:vk:wall10": 1
  },
  "paused": false,
- "tg_offset": 679134268,
+ "tg_offset": 679134287,
  "init_today": 12,
  "last_post": 1794913586.8208349,
  "found_day": "2026-11-16",
@@ -316,18 +316,18 @@
  "usage": {
   "day": "2026-11-17",
   "calls": {
-   "gemini": 175,
+   "gemini": 194,
    "openrouter": 23,
-   "groq": 10
+   "groq": 14
   },
   "tokens": {
-   "gemini": 416675,
+   "gemini": 482210,
    "openrouter": 10181,
-   "groq": 6431
+   "groq": 8618
   },
   "fails": {
    "gemini": 6,
-   "openrouter": 3
+   "openrouter": 4
   }
  },
  "needs_today": [],
@@ -522,13 +522,13 @@
    }
   }
  },
- "selfmap_h": "c763f5e5546c95ea53068cdfe5394b524227cf58",
+ "selfmap_h": "dd4c58e85c266861fb5383d378bd89e622c9377c",
  "bio_idx_day": "2026-11-17",
  "code_ver": "c61d084c",
  "backup_day": "2026-11-17",
  "backup_hash": "c61d084c",
  "transp_day": "2026-11-17",
- "priv_h": "ab15053797566ee93f6d1828c57d4e688d9c9781",
+ "priv_h": "67503cb64dbe72e4c52415b813840b8d9aec21cb",
  "trash_day": "2026-11-17",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -686,7 +686,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-17",
-  "n": 5
+  "n": 6
  },
  "health": "state: 25 КБ\nжурнал: 383 строк\nфакты: 164\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-17",
@@ -721,7 +721,8 @@
   8,
   9,
   10,
-  13
+  13,
+  14
  ],
  "intu": {
   "open": [
@@ -974,6 +975,6 @@
  ],
  "srch_day": {
   "d": "2026-11-17",
-  "n": 6
+  "n": 10
  }
 }
