@@ -55,7 +55,7 @@ class VK(Adapter):
         def wall():
             # a community key cannot read walls (error 27), so new comments come through the community Long Poll (event wall_reply_new); the ts is kept between runs
             def server():
-                r = vk("groups.getLongPollServer", group_id=gid); ST["vk_lp"] = dict(server=r["server"], key=r["key"], ts=str(r["ts"])); return ST["vk_lp"]
+                r = vk("groups.getLongPollServer", group_id=gid); assert str(r["server"]).startswith("https://"), "unexpected long poll server"; ST["vk_lp"] = dict(server=r["server"], key=r["key"], ts=str(r["ts"])); return ST["vk_lp"]
             lp = ST.get("vk_lp") or server()
             for _ in range(3):
                 d = json.load(urllib.request.urlopen(urllib.request.Request(lp["server"] + "?" + urllib.parse.urlencode(dict(act="a_check", key=lp["key"], ts=lp["ts"], wait=0)), headers={"User-Agent": "codex-agent/0.1"}), timeout=30))
