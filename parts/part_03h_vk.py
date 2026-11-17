@@ -53,24 +53,24 @@ class VK(Adapter):
                 if not m.get("text") or not peer or m.get("from_id", 0) <= 0 or time.time() - m.get("date", 0) > 3 * 86400: continue
                 out.append(dict(key="vkm:%s" % m["id"], akey="vk:%s" % m["from_id"], handle="vk%s" % m["from_id"], text=m["text"][:600], thread="vk:dm%s" % peer, send=(lambda t, peer=peer: self._dm(peer, t))))
         def wall():
-            # wall.get and wall.getById are closed to a community key, wall.getComments is open: read the known posts, and find new ones (also added by hand) by trying the next ids
-            def comments(pid): return (vk("wall.getComments", owner_id=-gid, post_id=pid, count=30, sort="desc", thread_items_count=3) or {}).get("items", [])
-            got = {}; mx = ST.get("vk_maxid", 0); i = mx + 1; miss = 0
-            while miss < (6 if not mx else 3) and i < mx + 80:
-                try: got[i] = comments(i); miss = 0; ST["vk_maxid"] = max(ST.get("vk_maxid", 0), i); ST["vk_posts"] = sorted(set(ST.get("vk_posts", [])) | {i})[-15:]
-                except RuntimeError as ex:
-                    if re.search(r"wall\.getComments: (5|7|27|28) ", str(ex)): raise
-                    miss += 1
-                i += 1
-            for pid in list(ST.get("vk_posts", [])):
-                try: items = got[pid] if pid in got else comments(pid)
-                except RuntimeError as ex:
-                    if re.search(r"wall\.getComments: (5|7|27|28) ", str(ex)): raise
+            # a community key cannot read walls (error 27), so new comments come through the community Long Poll (event wall_reply_new); the ts is kept between runs
+            def server():
+                r = vk("groups.getLongPollServer", group_id=gid); ST["vk_lp"] = dict(server=r["server"], key=r["key"], ts=str(r["ts"])); return ST["vk_lp"]
+            lp = ST.get("vk_lp") or server()
+            for _ in range(3):
+                d = json.load(urllib.request.urlopen(urllib.request.Request(lp["server"] + "?" + urllib.parse.urlencode(dict(act="a_check", key=lp["key"], ts=lp["ts"], wait=0)), headers={"User-Agent": "codex-agent/0.1"}), timeout=30))
+                if d.get("failed"):
+                    if d.get("failed") == 1 and d.get("ts"): lp["ts"] = str(d["ts"]); ST["vk_lp"] = lp
+                    else: lp = server()
                     continue
-                for c in items:
-                    if c.get("from_id", 0) <= 0 or not (c.get("text") or "").strip() or time.time() - c.get("date", 0) > 3 * 86400: continue
+                lp["ts"] = str(d.get("ts", lp["ts"])); ST["vk_lp"] = lp
+                for u in d.get("updates", []):
+                    if u.get("type") != "wall_reply_new": continue
+                    c = u.get("object") or {}; pid = c.get("post_id")
+                    if not pid or c.get("from_id", 0) <= 0 or not (c.get("text") or "").strip() or time.time() - c.get("date", time.time()) > 3 * 86400: continue
                     if self.moderate(c): continue
                     out.append(dict(key="vkc:%s_%s" % (pid, c["id"]), akey="vk:%s" % c["from_id"], handle="vk%s" % c["from_id"], text=c["text"][:600], thread="vk:wall%s" % pid, send=(lambda t, pid=pid, cid=c["id"]: self._wall_reply(pid, cid, t))))
+                break
         self._guard("messages", dms); self._guard("comments", wall)
         return out
 register(VK, ("VK_TOKEN", "VK_GROUP_ID"))
