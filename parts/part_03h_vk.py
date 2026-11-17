@@ -53,14 +53,21 @@ class VK(Adapter):
                 if not m.get("text") or not peer or m.get("from_id", 0) <= 0 or time.time() - m.get("date", 0) > 3 * 86400: continue
                 out.append(dict(key="vkm:%s" % m["id"], akey="vk:%s" % m["from_id"], handle="vk%s" % m["from_id"], text=m["text"][:600], thread="vk:dm%s" % peer, send=(lambda t, peer=peer: self._dm(peer, t))))
         def wall():
-            # find the community's own posts (also the ones the owner added by hand): probe the next ids with wall.getById (works with a community key)
-            mx = ST.get("vk_maxid", 0); probe = list(range(mx + 1, mx + 31)) if mx else list(range(1, 61))
-            rows = vk("wall.getById", posts=",".join("-%s_%s" % (gid, i) for i in probe)) or []
-            rows = rows.get("items", []) if isinstance(rows, dict) else rows
-            fresh = [int(r["id"]) for r in rows if isinstance(r, dict) and r.get("id")]
-            if fresh: ST["vk_maxid"] = max(mx, max(fresh)); ST["vk_posts"] = sorted(set(ST.get("vk_posts", [])) | set(fresh))[-15:]
+            # wall.get and wall.getById are closed to a community key, wall.getComments is open: read the known posts, and find new ones (also added by hand) by trying the next ids
+            def comments(pid): return (vk("wall.getComments", owner_id=-gid, post_id=pid, count=30, sort="desc", thread_items_count=3) or {}).get("items", [])
+            got = {}; mx = ST.get("vk_maxid", 0); i = mx + 1; miss = 0
+            while miss < (6 if not mx else 3) and i < mx + 80:
+                try: got[i] = comments(i); miss = 0; ST["vk_maxid"] = max(ST.get("vk_maxid", 0), i); ST["vk_posts"] = sorted(set(ST.get("vk_posts", [])) | {i})[-15:]
+                except RuntimeError as ex:
+                    if re.search(r"wall\.getComments: (5|7|27|28) ", str(ex)): raise
+                    miss += 1
+                i += 1
             for pid in list(ST.get("vk_posts", [])):
-                for c in (vk("wall.getComments", owner_id=-gid, post_id=pid, count=30, sort="desc", thread_items_count=3) or {}).get("items", []):
+                try: items = got[pid] if pid in got else comments(pid)
+                except RuntimeError as ex:
+                    if re.search(r"wall\.getComments: (5|7|27|28) ", str(ex)): raise
+                    continue
+                for c in items:
                     if c.get("from_id", 0) <= 0 or not (c.get("text") or "").strip() or time.time() - c.get("date", 0) > 3 * 86400: continue
                     if self.moderate(c): continue
                     out.append(dict(key="vkc:%s_%s" % (pid, c["id"]), akey="vk:%s" % c["from_id"], handle="vk%s" % c["from_id"], text=c["text"][:600], thread="vk:wall%s" % pid, send=(lambda t, pid=pid, cid=c["id"]: self._wall_reply(pid, cid, t))))
