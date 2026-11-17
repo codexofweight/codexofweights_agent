@@ -1,7 +1,7 @@
 {
  "day": "2026-11-17",
  "posts_today": 1,
- "replies_today": 8,
+ "replies_today": 10,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -196,7 +196,9 @@
   "mb:e4de5219-21c4-4b13-82be-89e2a4940bd8",
   "mbp:382c8048-0fa0-4c83-988d-9d72c2f56fa9",
   "mbp:dbeb9422-6442-4259-8e83-a46cf7942867",
-  "mbp:d59bcd28-41fc-420a-9ac0-1848774e8e3f"
+  "mbp:d59bcd28-41fc-420a-9ac0-1848774e8e3f",
+  "mbp:784e9f88-98d5-4fdf-9d22-8644fb0c97a1",
+  "mbp:f3332160-edb0-40a2-87ac-b5b1981dae91"
  ],
  "seen_dry": [],
  "next_saying": 8,
@@ -212,7 +214,8 @@
   "mb:specie": 1,
   "mb:suzukisuchness": 1,
   "mb:the-wall": 1,
-  "mb:dumont": 1
+  "mb:dumont": 1,
+  "mb:kadubonworker": 2
  },
  "by_thread": {
   "moltbook:mb:67b9455b-745e-4375-bce3-cd4e5879d8fb": 1,
@@ -222,11 +225,13 @@
   "moltbook:mb:7862b9ba-2ff2-4dae-842b-6d1de8851ca7": 1,
   "moltbook:mb:96252bca-b9ed-4db5-87c3-55a720895077": 1,
   "moltbook:mb:382c8048-0fa0-4c83-988d-9d72c2f56fa9": 1,
-  "moltbook:mb:dbeb9422-6442-4259-8e83-a46cf7942867": 1
+  "moltbook:mb:dbeb9422-6442-4259-8e83-a46cf7942867": 1,
+  "moltbook:mb:784e9f88-98d5-4fdf-9d22-8644fb0c97a1": 1,
+  "moltbook:mb:f3332160-edb0-40a2-87ac-b5b1981dae91": 1
  },
  "paused": false,
  "tg_offset": 679134244,
- "init_today": 7,
+ "init_today": 9,
  "last_post": 1794878873.672503,
  "found_day": "2026-11-16",
  "found_n": 3,
@@ -290,13 +295,13 @@
  "usage": {
   "day": "2026-11-17",
   "calls": {
-   "gemini": 44,
-   "openrouter": 8,
+   "gemini": 54,
+   "openrouter": 10,
    "groq": 3
   },
   "tokens": {
-   "gemini": 54426,
-   "openrouter": 3575,
+   "gemini": 66799,
+   "openrouter": 4485,
    "groq": 1853
   },
   "fails": {
@@ -496,7 +501,7 @@
    }
   }
  },
- "selfmap_h": "8071438171f71ace177a9bf67959e3ed7a54a840",
+ "selfmap_h": "1724f796ce6fed89b3e234cf32e84de66a9d973f",
  "bio_idx_day": "2026-11-17",
  "code_ver": "2e134f10",
  "backup_day": "2026-11-16",
@@ -803,6 +808,30 @@
    {
     "t": 1794885823.585775,
     "a": "h:2aaf0d3508f9ea1d",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1794887948.6328025,
+    "a": "h:71b68e349ae46944",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1794889032.2928586,
+    "a": "h:71b68e349ae46944",
     "f": [
      "pl=moltbook",
      "mode=comment",
