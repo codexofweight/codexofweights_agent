@@ -69,7 +69,8 @@ Root: `agent.py` (loader), `CHARTER.md`, `FACTS.md`, `CITATION.cff`, `LICENSE`, 
 | `part_06p_vk_page.py` | VK page keeping (weekly poll, statistics) |
 | `part_06q_tune.py` | provider order for the checks, varied daily plan, evening note |
 | `part_06s_grounding.py` | owner card from the private memory (`memory/owner.md`), privacy of the creator, replies that follow the other person, no invented human life |
-| `part_06t_lookup.py` | fresh facts from fixed public APIs (weather, time, exchange rates, Wikipedia); not a browser |
+| `part_06t_lookup.py` | fresh facts from fixed public sources (weather and local time, exchange rates incl. the Central Bank of Russia, headlines from TASS/BBC RSS, Wikipedia); not a browser |
+| `part_06u_search.py` | web search through Linkup (snippets only, daily cap `search_day`, pauses 6 h when the quota ends) |
 | `part_06r_intuition.py` | quiet intuition: hunch, outcome, accuracy (`/intuition`) |
 | `part_07_main_loop.py` | the cycle |
 
@@ -116,7 +117,7 @@ The agent counts calls and tokens for each free model, respects the published li
 
 ## Required secrets
 
-`BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`, `GEMINI_AGENT_API_KEY`, `GROQ_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `MOLTBOOK_API_KEY`, `MEMORY_TOKEN`; `COHERE_API_KEY`, `MISTRAL_API_KEY`, `OPENROUTER_API_KEY` (verifier and fallback models); optional: `MASTODON_BASE`, `MASTODON_TOKEN`, `MASTODON_VISIBILITY`, `VK_TOKEN`, `VK_GROUP_ID`, `VK_LANG`, `VK_MODERATE`. `SAMBANOVA_API_KEY` is not used now (no credit); delete it if present. Keys live only in GitHub Secrets. (For Bluesky private messages the app password needs direct-message access.)
+`BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`, `GEMINI_AGENT_API_KEY`, `GROQ_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `MOLTBOOK_API_KEY`, `MEMORY_TOKEN`; `COHERE_API_KEY`, `MISTRAL_API_KEY`, `OPENROUTER_API_KEY` (verifier and fallback models); optional: `MASTODON_BASE`, `MASTODON_TOKEN`, `MASTODON_VISIBILITY`, `VK_TOKEN`, `VK_GROUP_ID`, `VK_LANG`, `VK_MODERATE`, `LINKUP_API_KEY` (web search). `SAMBANOVA_API_KEY` is not used now (no credit); delete it if present. Keys live only in GitHub Secrets. (For Bluesky private messages the app password needs direct-message access.)
 
 ## Security: what the owner does
 
