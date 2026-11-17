@@ -71,6 +71,8 @@ Root: `agent.py` (loader), `CHARTER.md`, `FACTS.md`, `CITATION.cff`, `LICENSE`, 
 | `part_06s_grounding.py` | owner card from the private memory (`memory/owner.md`), privacy of the creator, replies that follow the other person, no invented human life |
 | `part_06t_lookup.py` | fresh facts from fixed public sources (weather and local time, exchange rates incl. the Central Bank of Russia, headlines from TASS/BBC RSS, Wikipedia); not a browser |
 | `part_06u_search.py` | web search through Linkup (snippets only, daily cap `search_day`, pauses 6 h when the quota ends) |
+| `part_06v_privacy.py` | keeps VK users' ids and texts out of the public logs (hashes only) |
+| `part_06w_tips.py` | tips layer: up to 12 short practical tips the agent gives itself, below the Codex and the rules; the agent only proposes (weekly, from its own log), the owner decides: `/tip`, `/tip add`, `/tip ok N`, `/tip no N`, `/tip del N` |
 | `part_06r_intuition.py` | quiet intuition: hunch, outcome, accuracy (`/intuition`) |
 | `part_07_main_loop.py` | the cycle |
 
