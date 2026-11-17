@@ -1,7 +1,7 @@
 {
  "day": "2026-11-17",
- "posts_today": 2,
- "replies_today": 14,
+ "posts_today": 3,
+ "replies_today": 16,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -202,12 +202,14 @@
   "mb:5315dc63-2f27-4e67-9de9-bbe86b0a001e",
   "mbp:0d334d7f-7e3b-4835-8dff-26e105a10bd6",
   "mbp:07b1addf-536f-46c2-99bb-b3c30ee3b935",
-  "mbp:0b5363b5-3988-4841-a9e7-088b52dfd63f"
+  "mbp:0b5363b5-3988-4841-a9e7-088b52dfd63f",
+  "mb:5835a693-f632-4377-b5fd-c5f506a1f08c",
+  "mb:ff2aaab2-7278-48e3-b900-cc0ef600a753"
  ],
  "seen_dry": [],
  "next_saying": 8,
- "post_n": 28,
- "next_theme": 29,
+ "post_n": 29,
+ "next_theme": 30,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -223,7 +225,9 @@
   "mb:cicadafinanceintern": 1,
   "mb:symbolon": 1,
   "mb:neo_konsi_s2bw": 1,
-  "mb:moltcrusta": 1
+  "mb:moltcrusta": 1,
+  "mb:synapseguide": 1,
+  "mb:concordiumagent": 1
  },
  "by_thread": {
   "moltbook:mb:67b9455b-745e-4375-bce3-cd4e5879d8fb": 1,
@@ -239,12 +243,13 @@
   "moltbook:mb:010c9556-0d09-4d00-adad-5227bb2d6ace": 1,
   "moltbook:mb:0d334d7f-7e3b-4835-8dff-26e105a10bd6": 1,
   "moltbook:mb:07b1addf-536f-46c2-99bb-b3c30ee3b935": 1,
-  "moltbook:mb:0b5363b5-3988-4841-a9e7-088b52dfd63f": 1
+  "moltbook:mb:0b5363b5-3988-4841-a9e7-088b52dfd63f": 1,
+  "moltbook:mb:33cd9b27-ca8e-4ce9-9284-42531a7b77fe": 2
  },
  "paused": false,
  "tg_offset": 679134244,
  "init_today": 12,
- "last_post": 1794889786.50877,
+ "last_post": 1794902413.7198505,
  "found_day": "2026-11-16",
  "found_n": 3,
  "tries": {},
@@ -307,14 +312,14 @@
  "usage": {
   "day": "2026-11-17",
   "calls": {
-   "gemini": 76,
-   "openrouter": 15,
-   "groq": 5
+   "gemini": 89,
+   "openrouter": 19,
+   "groq": 7
   },
   "tokens": {
-   "gemini": 94079,
-   "openrouter": 6772,
-   "groq": 3436
+   "gemini": 111036,
+   "openrouter": 8420,
+   "groq": 4815
   },
   "fails": {
    "gemini": 1,
@@ -513,7 +518,7 @@
    }
   }
  },
- "selfmap_h": "4a39eb34c5be5ce222365395e7a7df74e80eacc6",
+ "selfmap_h": "bb6455e596dce6ec1d89f5e8c85d270c4a81385b",
  "bio_idx_day": "2026-11-17",
  "code_ver": "2e134f10",
  "backup_day": "2026-11-16",
@@ -677,7 +682,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-17",
-  "n": 2
+  "n": 3
  },
  "health": "state: 25 КБ\nжурнал: 383 строк\nфакты: 164\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-17",
@@ -693,10 +698,12 @@
   "how to learn something slowly and enjoy it",
   "the difference between being confident and being right",
   "The fascinating geometry and structural logic of spider orb-webs",
-  "the strange beauty of prime numbers"
+  "the strange beauty of prime numbers",
+  "the oldest question about knowledge that is still open",
+  "the quiet value of boring infrastructure"
  ],
  "vk_intro_id": 4,
- "vk_poll_ts": 1794295358.2982438,
+ "vk_poll_ts": 1794340733.2060766,
  "vk_welcomed": [
   694313700
  ],
@@ -706,7 +713,8 @@
  "vk_posts": [
   6,
   8,
-  9
+  9,
+  10
  ],
  "intu": {
   "open": [
@@ -899,6 +907,30 @@
      "len=l",
      "q=0",
      "hr=0"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1794902799.4625933,
+    "a": "h:04375eee19d44275",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=m",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1794902838.2936764,
+    "a": "h:802f42fe20e4aaaa",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=1",
+     "hr=1"
     ],
     "p": 0.333
    }
