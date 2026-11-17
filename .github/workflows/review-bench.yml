@@ -1,0 +1,33 @@
+name: review-bench
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  bench:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run the review benchmark
+        env:
+          GEMINI_AGENT_API_KEY: ${{ secrets.GEMINI_AGENT_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          SAMBANOVA_API_KEY: ${{ secrets.SAMBANOVA_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python bench/review_bench.py
+      - name: Save the result
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bench/review_results.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Review benchmark result"
+          for i in 1 2 3 4 5 6; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done; exit 1
