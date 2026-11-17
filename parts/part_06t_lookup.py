@@ -9,9 +9,12 @@ def _lk_get(url):
     req = urllib.request.Request(url, headers={"User-Agent": "codexofweights-agent/1.0", "Accept": "application/json"})
     with urllib.request.urlopen(req, timeout=8) as r: return json.loads(r.read(200000).decode("utf-8", "ignore"))
 def lk_weather(place):
-    g = _lk_get("https://geocoding-api.open-meteo.com/v1/search?count=1&language=en&name=" + urllib.parse.quote(place))
-    r = (g.get("results") or [None])[0]
-    if not r: return ""
+    def geo(n, lang): return ((_lk_get("https://geocoding-api.open-meteo.com/v1/search?count=1&language=%s&name=%s" % (lang, urllib.parse.quote(n))) or {}).get("results") or [None])[0]
+    cyr = bool(re.search(r"[а-яА-Я]", place)); r = geo(place, "ru" if cyr else "en")
+    if not r and cyr:
+        en = (micro("classifier", "Give the standard English name of the city or place written in Russian: '%s'. Answer with the name only, nothing else." % place[:40], 12) or "").strip().strip(".\"'")
+        if 1 < len(en) < 40: r = geo(en, "en")
+    if not r: print("lookup: place not found:", place[:40], flush=True); return ""
     w = _lk_get("https://api.open-meteo.com/v1/forecast?timezone=auto&current=temperature_2m,apparent_temperature,wind_speed_10m,precipitation,weather_code&latitude=%s&longitude=%s" % (r["latitude"], r["longitude"]))
     c = w.get("current") or {}
     return "Weather now in %s, %s (source: open-meteo.com): %s, %s°C (feels like %s°C), wind %s km/h, precipitation %s mm. Local time there: %s (%s)." % (r.get("name"), r.get("country", ""), _WMO.get(c.get("weather_code"), "n/a"), c.get("temperature_2m"), c.get("apparent_temperature"), c.get("wind_speed_10m"), c.get("precipitation"), str(c.get("time", "")).replace("T", " "), w.get("timezone", ""))

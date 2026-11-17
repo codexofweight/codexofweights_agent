@@ -9,7 +9,7 @@ def owner_card():
 _agent_context_before_card = agent_context
 def agent_context():
     c = _agent_context_before_card(); card = owner_card()
-    return c + "\n\nOWNER CARD (what you know about your owner and the project; this is your memory of him, use it when asked what you remember):\n" + (card or "(empty: say that you have no stored notes about him yet and ask what to remember)")
+    return c + "\n\nOWNER CARD (what you know about your owner and the project; this is your memory of him, use it when asked what you remember):\n" + (card or "(empty: there are no stored notes yet; say so only when he asks what you remember, never ask him to tell you about himself on your own)")
 CHAT_SYS = CHAT_SYS.replace("Facts about your work come ONLY from the CONTEXT;", "Facts about your work and about the owner come ONLY from the CONTEXT (including the OWNER CARD) and the RECENT CONVERSATION; when asked what you remember, name specific items from them, never general principles; never claim a past conversation that is not in RECENT CONVERSATION;")
 _old_voice = VOICE
 VOICE = VOICE.replace("'I think', 'I find it odd that', 'I'm not sure, but'", "'I think', 'odd, though:', 'not sure, but'").replace(", a confession about what you do not know", "")

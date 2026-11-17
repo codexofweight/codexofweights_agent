@@ -19,6 +19,7 @@ def linkup_search(q):
     for x in (d.get("results") or []):
         if x.get("type", "text") != "text": continue
         site = re.sub(r"^https?://(?:www\.)?", "", str(x.get("url", ""))).split("/")[0]
+        if site.startswith("xn--") or re.search(r"\.(?:click|xyz|top|icu|cfd|buzz|monster|sbs|rest)$", site): continue
         out.append("%s (%s%s): %s" % (_srch_clean(x.get("name"), 90), site, (", " + str(x["publishedAt"])[:10]) if x.get("publishedAt") else "", _srch_clean(x.get("content"), 260)))
     return out[:5]
 def web_search(text):
