@@ -36,6 +36,7 @@ jobs:
           MASTODON_VISIBILITY: ${{ secrets.MASTODON_VISIBILITY }}
           VK_TOKEN: ${{ secrets.VK_TOKEN }}
           VK_GROUP_ID: ${{ secrets.VK_GROUP_ID }}
+          LINKUP_API_KEY: ${{ secrets.LINKUP_API_KEY }}
         run: python agent.py
       - name: Commit state and log
         if: always()
