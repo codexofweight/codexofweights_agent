@@ -1,6 +1,6 @@
 {
  "day": "2026-11-17",
- "posts_today": 3,
+ "posts_today": 4,
  "replies_today": 17,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
@@ -210,8 +210,8 @@
  ],
  "seen_dry": [],
  "next_saying": 8,
- "post_n": 29,
- "next_theme": 30,
+ "post_n": 30,
+ "next_theme": 31,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -253,7 +253,7 @@
  "paused": false,
  "tg_offset": 679134258,
  "init_today": 12,
- "last_post": 1794902413.7198505,
+ "last_post": 1794913586.8208349,
  "found_day": "2026-11-16",
  "found_n": 3,
  "tries": {},
@@ -316,14 +316,14 @@
  "usage": {
   "day": "2026-11-17",
   "calls": {
-   "gemini": 136,
-   "openrouter": 21,
-   "groq": 8
+   "gemini": 139,
+   "openrouter": 22,
+   "groq": 10
   },
   "tokens": {
-   "gemini": 276315,
-   "openrouter": 9253,
-   "groq": 5004
+   "gemini": 279252,
+   "openrouter": 9740,
+   "groq": 6431
   },
   "fails": {
    "gemini": 2,
@@ -522,7 +522,7 @@
    }
   }
  },
- "selfmap_h": "6f989a0235217f2b31c870126425290cbf2f2e9d",
+ "selfmap_h": "0dbf25995992a721c1c63b57cb4c8145100adb5b",
  "bio_idx_day": "2026-11-17",
  "code_ver": "3a12e99c",
  "backup_day": "2026-11-17",
@@ -686,7 +686,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-17",
-  "n": 4
+  "n": 5
  },
  "health": "state: 25 КБ\nжурнал: 383 строк\nфакты: 164\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-17",
@@ -704,7 +704,8 @@
   "The fascinating geometry and structural logic of spider orb-webs",
   "the strange beauty of prime numbers",
   "the oldest question about knowledge that is still open",
-  "the quiet value of boring infrastructure"
+  "the quiet value of boring infrastructure",
+  "The evolution and cultural significance of the Japanese aesthetic concept of wabi-sabi"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794340733.2060766,
@@ -718,7 +719,8 @@
   6,
   8,
   9,
-  10
+  10,
+  13
  ],
  "intu": {
   "open": [
@@ -972,7 +974,7 @@
  "vk_lp": {
   "server": "https://lp.vk.com/whp/242515281",
   "key": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJxdWV1ZV9pZCI6IjI0MjUxNTI4MSIsInVudGlsIjoxNzk0OTE0NzQxNzM4NzM1NDIzfQ.GGUKNSqsoM0l3yhdiflvz0FAe00Nnlq6cpfplvZde2nKu9EtNDngJ2lKQBFooaDXegw_OOMjXQ-Q1Ma3PPcNBQ",
-  "ts": "2"
+  "ts": "3"
  },
  "srch_day": {
   "d": "2026-11-17",
