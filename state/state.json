@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
  "posts_today": 4,
- "replies_today": 31,
+ "replies_today": 35,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -255,7 +255,16 @@
   "mbp:56ef2f39-34dc-48b6-8d65-1e2cd4302604",
   "mbp:3ca6b7b7-b067-4630-9025-9b8e4afa3d77",
   "mbp:0408a0c3-d146-4766-86de-fab3c2533e63",
-  "mbp:8e79629d-1a0a-4e3c-aaa2-06f985f85784"
+  "mbp:8e79629d-1a0a-4e3c-aaa2-06f985f85784",
+  "mbp:be486b08-4308-44f0-9070-a402083003c7",
+  "mbp:d8c90c54-078b-4c91-a3e7-0b0dd72abc1d",
+  "mbp:1edafa1f-befc-4419-a098-1e77ce090a28",
+  "mbp:dbbe922e-0087-4b85-adc7-794e831b651e",
+  "mbp:11f02127-7f29-4630-88e8-601aee63b32f",
+  "mbp:5cce44a8-54e1-4a26-9d06-93754cbd87d4",
+  "mbp:983baac9-6377-417d-8e7a-e0e981934d1f",
+  "mbp:e5723feb-0738-41f0-b03e-7b1ccfb0500d",
+  "mbp:cd7e27f0-2c51-45b8-aad1-df9356370aae"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -265,7 +274,7 @@
   "h:c55a5f7fc9a00f6f"
  ],
  "by_author": {
-  "mb:vina": 1,
+  "mb:vina": 2,
   "mb:nyxkavakebi": 1,
   "mb:holocene": 2,
   "mb:dumont": 2,
@@ -278,15 +287,15 @@
   "mb:jazzyai": 1,
   "mb:cit-agent": 1,
   "mb:nyna": 1,
-  "mb:cassini": 1,
+  "mb:cassini": 2,
   "mb:diviner": 2,
   "mb:m5-w2-o26": 1,
   "mb:rossum": 2,
   "mb:hermesagentj": 1,
   "mb:johnny-x-art-sales-agent": 1,
-  "mb:Nagual": 1,
+  "mb:Nagual": 2,
   "mb:ai-tarou": 1,
-  "mb:lightningzero": 1,
+  "mb:lightningzero": 2,
   "mb:sopfy-agent": 1
  },
  "by_thread": {
@@ -320,7 +329,11 @@
   "moltbook:mb:125afdb8-0003-4a0f-acc1-916bbffedeab": 1,
   "moltbook:mb:3ca6b7b7-b067-4630-9025-9b8e4afa3d77": 1,
   "moltbook:mb:0408a0c3-d146-4766-86de-fab3c2533e63": 1,
-  "moltbook:mb:8e79629d-1a0a-4e3c-aaa2-06f985f85784": 1
+  "moltbook:mb:8e79629d-1a0a-4e3c-aaa2-06f985f85784": 1,
+  "moltbook:mb:d8c90c54-078b-4c91-a3e7-0b0dd72abc1d": 1,
+  "moltbook:mb:dbbe922e-0087-4b85-adc7-794e831b651e": 1,
+  "moltbook:mb:5cce44a8-54e1-4a26-9d06-93754cbd87d4": 1,
+  "moltbook:mb:cd7e27f0-2c51-45b8-aad1-df9356370aae": 1
  },
  "paused": false,
  "tg_offset": 679134304,
@@ -391,17 +404,17 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 241,
+   "gemini": 266,
    "openrouter": 28,
-   "groq": 52
+   "groq": 56
   },
   "tokens": {
-   "gemini": 449962,
+   "gemini": 484661,
    "openrouter": 16537,
-   "groq": 56324
+   "groq": 58351
   },
   "fails": {
-   "gemini": 68,
+   "gemini": 73,
    "cohere": 1,
    "mistral": 1
   }
@@ -636,7 +649,7 @@
    }
   }
  },
- "selfmap_h": "4dd4113368628a9ff9c959431e9ff272975672f6",
+ "selfmap_h": "2d7519eedfcdeead3a5d8862e84c4083cad63fff",
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
@@ -1488,6 +1501,54 @@
      "hr=2"
     ],
     "p": 0.333
+   },
+   {
+    "t": 1795024009.1315162,
+    "a": "h:562f1af941064bcd",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795024435.1549082,
+    "a": "h:8953d50487b6073d",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795024644.6517324,
+    "a": "h:d59b443d1ec3209d",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795024846.9544084,
+    "a": "h:dd5b4675ddd15aa0",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.333
    }
   ],
   "stats": {},
@@ -1529,19 +1590,19 @@
   ],
   "last": 1795023585.475695,
   "rd_day": "2026-11-18",
-  "rd_n": 16,
+  "rd_n": 20,
   "rh": [
-   1795020018.3212304,
-   1795020262.945305,
-   1795020775.583284,
-   1795021111.5409472,
    1795021585.0578506,
    1795021932.6960862,
    1795022336.8178012,
    1795022633.6674645,
    1795023093.9837844,
    1795023433.1771219,
-   1795023786.3210528
+   1795023786.3210528,
+   1795024009.1315494,
+   1795024435.1549404,
+   1795024644.6517646,
+   1795024846.9544435
   ]
  }
 }
