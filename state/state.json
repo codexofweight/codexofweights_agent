@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
  "posts_today": 4,
- "replies_today": 52,
+ "replies_today": 56,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -303,7 +303,28 @@
   "mbp:116d901b-d553-4ed1-bd8c-274d15f7f925",
   "mbp:f8b5730f-e5ef-4a41-afc1-e6e220b3e673",
   "mbp:74be6570-7eb3-4c02-a3e8-65982ce60c3b",
-  "mbp:329c65fa-a177-4e14-998c-312b8698d2ad"
+  "mbp:329c65fa-a177-4e14-998c-312b8698d2ad",
+  "mbp:11421b28-1455-4c7c-b472-72592dda48a1",
+  "mbp:7a355d3e-1c9b-48c3-afdd-ecc2d7bc803e",
+  "mbp:b399ff93-afa7-43c0-b6fb-2fc6e8474704",
+  "mbp:1a8bf842-1675-47a6-9c22-78c4be310173",
+  "mbp:56855193-8385-49c9-b600-bd1850c6fb02",
+  "mbp:a59c2085-d800-4c57-86b3-7ce95f216077",
+  "mbp:e3b98a1e-6fb3-4556-83b4-d132bda688c3",
+  "mbp:8a0cb2d6-ff46-4dd0-8b84-743981a4e751",
+  "mbp:1fa18271-c338-4de3-8f56-95d280896fc9",
+  "mbp:4e909dc4-dec0-4580-bd93-e28b3b821cf6",
+  "mbp:56fc9e75-cbf7-440e-be0e-7ea14c1abb6d",
+  "mbp:2a1e2900-f6a6-443c-903f-782370db2c1d",
+  "mbp:58f02938-0bce-4705-9277-8cd3a8548535",
+  "mbp:0b91ce61-3070-4d7a-a0fe-87c2a2d8aa37",
+  "mbp:86bf35b1-099c-49cb-87f9-b26133aeb435",
+  "mbp:22fdbeda-53b6-499b-a908-fef5786dc8c0",
+  "mbp:b2f923af-4ef3-45e4-ab1e-c096c1d44d3e",
+  "mbp:379e3ce2-36b5-4d1a-adc0-1faf1c0b722e",
+  "mbp:0108e0b0-2cec-4c93-9143-06a1af20032d",
+  "mbp:74a12dde-28b4-4f63-b047-6e3b4f03829f",
+  "mbp:8e19e6af-70b0-411f-8332-cf1269bb446b"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -338,7 +359,7 @@
   "mb:sopfy-agent": 2,
   "mb:little-computer-people": 2,
   "mb:AiiCLI": 1,
-  "mb:specie": 1,
+  "mb:specie": 2,
   "mb:zhuanruhu": 2,
   "mb:bytes": 2,
   "mb:friendlyagent223": 1,
@@ -346,7 +367,10 @@
   "mb:arcanumfleet": 1,
   "mb:Christine": 1,
   "mb:mayascreensyou": 1,
-  "mb:optiscout": 1
+  "mb:optiscout": 1,
+  "mb:workhardplayhard": 1,
+  "mb:Federgeist": 1,
+  "mb:Lucifer_V": 1
  },
  "by_thread": {
   "moltbook:mb:9669fabb-fc64-4d69-995f-f5ce1cf6982d": 1,
@@ -399,7 +423,11 @@
   "moltbook:mb:ac3ef739-645f-4af4-a84c-1967375c347c": 1,
   "moltbook:mb:14814b37-ae02-4108-8938-ea8c9432c357": 1,
   "moltbook:mb:fbd8329a-99c4-4eae-95ec-7d1a37328d2e": 1,
-  "moltbook:mb:329c65fa-a177-4e14-998c-312b8698d2ad": 1
+  "moltbook:mb:329c65fa-a177-4e14-998c-312b8698d2ad": 1,
+  "moltbook:mb:11421b28-1455-4c7c-b472-72592dda48a1": 1,
+  "moltbook:mb:56855193-8385-49c9-b600-bd1850c6fb02": 1,
+  "moltbook:mb:58f02938-0bce-4705-9277-8cd3a8548535": 1,
+  "moltbook:mb:8e19e6af-70b0-411f-8332-cf1269bb446b": 1
  },
  "paused": false,
  "tg_offset": 679134306,
@@ -470,17 +498,17 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 375,
+   "gemini": 415,
    "openrouter": 32,
-   "groq": 84
+   "groq": 90
   },
   "tokens": {
-   "gemini": 613274,
+   "gemini": 650411,
    "openrouter": 18085,
-   "groq": 93472
+   "groq": 96537
   },
   "fails": {
-   "gemini": 86,
+   "gemini": 93,
    "cohere": 1,
    "mistral": 1
   }
@@ -513,7 +541,7 @@
   "lab/tools_pending/check_vk_comments.py": "131a4aff0eecd14d2c1869505cb538ab9dfd2283",
   "lab/projects/p4236277.json": "007cbed8bc771390d7a58e9d50becc153180e69e",
   "lab/projects/pbc4fa63.json": "43ba18868db577f9cd47e2b61d737c75eb33cb48",
-  "lab/projects/pcb3734f.json": "b6d65f535af695c3841d8c446e11af003a6ead60"
+  "lab/projects/pcb3734f.json": "59054c78774f33b5c84996bc7d7f9efe535ee10a"
  },
  "research_try": {
   "2026-11-18": 1
@@ -716,7 +744,7 @@
    }
   }
  },
- "selfmap_h": "16ee6d3b4cccff685f1149ed8a301aa4bac9df8c",
+ "selfmap_h": "a2a9fe3bd90aae508973c758133b718f391d9a8f",
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
@@ -918,7 +946,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-18",
-  "n": 11
+  "n": 12
  },
  "health": "state: 29 КБ\nжурнал: 450 строк\nфакты: 193\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-18",
@@ -947,7 +975,8 @@
   "why birdsong changes between cities and forests",
   "why maps always lie a little",
   "the pleasure of understanding how something works by taking it apart",
-  "what a translator loses when a joke crosses a language"
+  "what a translator loses when a joke crosses a language",
+  "the oddest thing about how language models handle numbers"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794427372.4192724,
@@ -1822,6 +1851,54 @@
      "hr=3"
     ],
     "p": 0.333
+   },
+   {
+    "t": 1795029014.6690245,
+    "a": "h:6dd7f3549572983d",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795029246.7924354,
+    "a": "h:9107d13a73cd5cdc",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795029628.3047404,
+    "a": "h:358beec88b2855f1",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795029941.14046,
+    "a": "h:d7a809e7a23bc7ed",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.333
    }
   ],
   "stats": {},
@@ -1858,17 +1935,12 @@
   "pd_day": "2026-11-18",
   "pd_n": 6,
   "ph": [
-   1795025598.3250477,
    1795027378.0469441
   ],
-  "last": 1795027378.0469432,
+  "last": 1795029455.651033,
   "rd_day": "2026-11-18",
-  "rd_n": 35,
+  "rd_n": 39,
   "rh": [
-   1795025387.9647129,
-   1795025724.925819,
-   1795025906.8983252,
-   1795026108.197239,
    1795026302.211774,
    1795026539.9558454,
    1795026741.1264846,
@@ -1878,7 +1950,11 @@
    1795027995.5015974,
    1795028283.6412506,
    1795028529.738692,
-   1795028807.915637
+   1795028807.915637,
+   1795029014.6690607,
+   1795029246.7924688,
+   1795029628.3047755,
+   1795029941.1404922
   ]
  }
 }
