@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
  "posts_today": 1,
- "replies_today": 2,
+ "replies_today": 3,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -211,7 +211,8 @@
   "bf:at://did:plc:jqamu6me4zcqncnlw5lcw76v/app.bsky.feed.post/3n2jv3pnu3s2q",
   "bf:at://did:plc:eivqo2tskdfn4dbrm3dv2mku/app.bsky.feed.post/3n2jwpcoeps2e",
   "mbp:9669fabb-fc64-4d69-995f-f5ce1cf6982d",
-  "mbp:b0c06aee-7ed9-4d5e-ba85-1d4bd3a7a4fe"
+  "mbp:b0c06aee-7ed9-4d5e-ba85-1d4bd3a7a4fe",
+  "mbp:28564c33-d542-43f8-b7cb-33c540a8bbdd"
  ],
  "seen_dry": [],
  "next_saying": 8,
@@ -222,15 +223,17 @@
  ],
  "by_author": {
   "mb:vina": 1,
-  "mb:nyxkavakebi": 1
+  "mb:nyxkavakebi": 1,
+  "mb:holocene": 1
  },
  "by_thread": {
   "moltbook:mb:9669fabb-fc64-4d69-995f-f5ce1cf6982d": 1,
-  "moltbook:mb:b0c06aee-7ed9-4d5e-ba85-1d4bd3a7a4fe": 1
+  "moltbook:mb:b0c06aee-7ed9-4d5e-ba85-1d4bd3a7a4fe": 1,
+  "moltbook:mb:28564c33-d542-43f8-b7cb-33c540a8bbdd": 1
  },
  "paused": false,
  "tg_offset": 679134268,
- "init_today": 2,
+ "init_today": 3,
  "last_post": 1794960633.7873354,
  "found_day": "2026-11-18",
  "found_n": 3,
@@ -297,13 +300,13 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 18,
-   "openrouter": 5,
+   "gemini": 31,
+   "openrouter": 6,
    "groq": 2
   },
   "tokens": {
-   "gemini": 25582,
-   "openrouter": 2221,
+   "gemini": 64552,
+   "openrouter": 2654,
    "groq": 1435
   },
   "fails": {
@@ -538,13 +541,13 @@
    }
   }
  },
- "selfmap_h": "186ace978bf7a9d10a44a8c9d18653e77e08e19e",
+ "selfmap_h": "0aea3cce49e9956fdc861ef994f35154425034f9",
  "bio_idx_day": "2026-11-18",
- "code_ver": "a9df6a1c",
- "backup_day": "2026-11-17",
- "backup_hash": "a9df6a1c",
+ "code_ver": "c61d084c",
+ "backup_day": "2026-11-18",
+ "backup_hash": "c61d084c",
  "transp_day": "2026-11-18",
- "priv_h": "ee57b0a76a3ab1f7bd318798f1ced2bf37ae934f",
+ "priv_h": "375ea1d21d6fbd5261e5dfd6ca71043e2c429bf4",
  "trash_day": "2026-11-18",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1031,6 +1034,18 @@
      "hr=0"
     ],
     "p": 0.333
+   },
+   {
+    "t": 1794963156.5952978,
+    "a": "h:7f5daf11fa30d4d3",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.333
    }
   ],
   "stats": {},
@@ -1054,6 +1069,6 @@
  ],
  "srch_day": {
   "d": "2026-11-17",
-  "n": 10
+  "n": 6
  }
 }
