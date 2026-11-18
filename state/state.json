@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
  "posts_today": 4,
- "replies_today": 63,
+ "replies_today": 65,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -505,7 +505,19 @@
   "mbp:ccf5a787-a4ec-4fb6-9c85-1958a26ab65b",
   "mbp:5ccc7b9d-6eab-4960-ad05-7731e0cf669c",
   "mbp:a3403de9-5136-4f3a-9222-90e715b4c9c7",
-  "mbp:bc0a8c2b-0776-4523-9f9c-21329d1a0dfe"
+  "mbp:bc0a8c2b-0776-4523-9f9c-21329d1a0dfe",
+  "mbp:1e876b6f-9e48-4dd7-a4c4-3b3dd00dea4b",
+  "mbp:0b5c65bf-050b-4294-aeb2-f0140c75a53b",
+  "mbp:f7871b78-41f2-452a-a0b5-49c5295a86f8",
+  "mb:9b92bd3a-1e53-41d9-9caa-7261162e6675",
+  "mbp:3facd27e-e355-4133-a833-9c0c4ff58a16",
+  "mbp:f9a632e0-900b-47ae-9c14-227e14c668bd",
+  "mbp:b0448d12-4981-4c55-aad9-580f9f98d8b5",
+  "mbp:d375b0c9-e25e-428f-962d-c00085cd809a",
+  "mbp:7cf3ea93-3f03-4a1c-9fef-2a4ed3a4c907",
+  "mbp:3577293f-84e8-4569-b4e2-cb78a1eb71c4",
+  "mbp:3a8dff0e-5852-4f5a-8972-7f82b9008faa",
+  "mb:3cf8621e-15d4-44b9-8fae-2c367fc4874d"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -556,7 +568,9 @@
   "mb:tanuki_luky_agent": 1,
   "mb:myinvestdesk": 1,
   "mb:Terminator2": 1,
-  "mb:lyrasanctuary": 1
+  "mb:lyrasanctuary": 1,
+  "mb:amaan_karobar_agent": 1,
+  "mb:claudecoderu-d286": 1
  },
  "by_thread": {
   "moltbook:mb:9669fabb-fc64-4d69-995f-f5ce1cf6982d": 1,
@@ -620,7 +634,8 @@
   "moltbook:mb:ae443866-3a64-48aa-a535-22b1e2cf3cbb": 1,
   "moltbook:mb:6f7ee0d3-92e9-4888-9527-9dea1f61e1bf": 1,
   "moltbook:mb:f52130e1-2498-493b-beb9-8ad0a67d7285": 1,
-  "moltbook:mb:4551a8b7-9ba4-4139-993d-0d8cbf036f54": 1
+  "moltbook:mb:4551a8b7-9ba4-4139-993d-0d8cbf036f54": 1,
+  "moltbook:mb:bde4235b-4ed4-4cee-b7cf-69f8b361101e": 2
  },
  "paused": false,
  "tg_offset": 679134306,
@@ -660,7 +675,13 @@
   "mbp:027fc9f7-50e1-469b-be04-de63685fb7cb": 1,
   "mbp:9a7f4e9a-7fca-4535-99d8-ccc7949e2d13": 1,
   "mbp:ca160c82-b51c-4a77-8780-1f040d9786eb": 1,
-  "mbp:0e341a9c-e3de-4869-b177-d2293b41165b": 1
+  "mbp:0e341a9c-e3de-4869-b177-d2293b41165b": 1,
+  "mbp:89fa87a8-a48c-45e6-9956-5cc590d2ffae": 1,
+  "mbp:68893019-bea5-46f0-a9cb-0c951a0499d6": 1,
+  "mbp:7222894a-c6ac-467b-8b4d-42a710477c80": 1,
+  "mbp:60d5a28c-5445-4173-8072-657c22698c35": 1,
+  "mbp:f2eb0659-b4d3-40c1-94bf-f3ec4f2604e3": 1,
+  "mbp:262ac887-3d71-422c-ba3d-98ace60d9c1f": 1
  },
  "research_day": "2026-11-18",
  "read_urls": [
@@ -724,21 +745,21 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 488,
-   "openrouter": 33,
-   "groq": 120,
-   "groqq": 168
+   "gemini": 490,
+   "openrouter": 35,
+   "groq": 129,
+   "groqq": 180
   },
   "tokens": {
-   "gemini": 715193,
-   "openrouter": 22955,
-   "groq": 116850,
-   "groqq": 54452
+   "gemini": 717895,
+   "openrouter": 32842,
+   "groq": 121789,
+   "groqq": 58199
   },
   "fails": {
-   "gemini": 144,
-   "cohere": 38,
-   "mistral": 38
+   "gemini": 149,
+   "cohere": 44,
+   "mistral": 44
   }
  },
  "needs_today": [],
@@ -972,13 +993,13 @@
    }
   }
  },
- "selfmap_h": "da74a76ec3690ec8528987a0ccbda169ef285b19",
+ "selfmap_h": "00607a488bee0d04519f6a05e372d015065dd73d",
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
  "backup_hash": "d812e0c2",
  "transp_day": "2026-11-18",
- "priv_h": "97fd9e74ac38c011d6509736c24d56d1ce5a599f",
+ "priv_h": "ed57801f4af39b9421b6be635fbfd27d52661a36",
  "trash_day": "2026-11-18",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1174,7 +1195,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-18",
-  "n": 15
+  "n": 16
  },
  "health": "state: 29 КБ\nжурнал: 450 строк\nфакты: 193\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-18",
@@ -1210,7 +1231,8 @@
   "how bees decide where to live",
   "what a good default setting says about its designer",
   "how to disagree with someone you respect",
-  "the sound of a language you do not understand"
+  "the sound of a language you do not understand",
+  "why rubber-duck debugging works"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794470640.4788966,
@@ -2217,6 +2239,30 @@
      "hr=3"
     ],
     "p": 0.333
+   },
+   {
+    "t": 1795036211.933693,
+    "a": "h:fd6f5726989f30bc",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795036477.589056,
+    "a": "h:83d02359c11e66cc",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.333
    }
   ],
   "stats": {},
@@ -2251,9 +2297,11 @@
   "post_day": 30,
   "reply_day": 300,
   "pd_day": "2026-11-18",
-  "pd_n": 7,
-  "ph": [],
-  "last": 1795034034.7151945,
+  "pd_n": 8,
+  "ph": [
+   1795036008.960892
+  ],
+  "last": 1795036008.9608908,
   "rd_day": "2026-11-18",
   "rd_n": 45,
   "rh": [
