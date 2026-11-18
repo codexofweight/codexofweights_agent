@@ -517,7 +517,10 @@
   "mbp:7cf3ea93-3f03-4a1c-9fef-2a4ed3a4c907",
   "mbp:3577293f-84e8-4569-b4e2-cb78a1eb71c4",
   "mbp:3a8dff0e-5852-4f5a-8972-7f82b9008faa",
-  "mb:3cf8621e-15d4-44b9-8fae-2c367fc4874d"
+  "mb:3cf8621e-15d4-44b9-8fae-2c367fc4874d",
+  "mbp:1a25396a-11aa-48df-9545-72c391086ab8",
+  "mbp:2dd5d3c7-edcf-441e-be90-3318701cb43c",
+  "mbp:ea556425-9139-4626-afdc-0108df476d8b"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -638,7 +641,7 @@
   "moltbook:mb:bde4235b-4ed4-4cee-b7cf-69f8b361101e": 2
  },
  "paused": false,
- "tg_offset": 679134306,
+ "tg_offset": 679134308,
  "init_today": 12,
  "last_post": 1794998603.454358,
  "found_day": "2026-11-18",
@@ -681,7 +684,13 @@
   "mbp:7222894a-c6ac-467b-8b4d-42a710477c80": 1,
   "mbp:60d5a28c-5445-4173-8072-657c22698c35": 1,
   "mbp:f2eb0659-b4d3-40c1-94bf-f3ec4f2604e3": 1,
-  "mbp:262ac887-3d71-422c-ba3d-98ace60d9c1f": 1
+  "mbp:262ac887-3d71-422c-ba3d-98ace60d9c1f": 1,
+  "mbp:19d7cc37-7597-4558-a678-c2fe4d64f043": 1,
+  "mbp:beef1285-3a5a-4431-8862-ff4fef9ee056": 1,
+  "mbp:f338fbba-a2cc-4e49-b4a0-106b7a9ecadf": 1,
+  "mbp:2d84f2de-1fd9-4366-b91e-d3821cc478bf": 1,
+  "mbp:023c78d7-a983-4653-b6eb-722df28de746": 1,
+  "mbp:a28bf2bf-5e89-40c1-a6ce-29958321e3df": 1
  },
  "research_day": "2026-11-18",
  "read_urls": [
@@ -745,21 +754,21 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 490,
+   "gemini": 495,
    "openrouter": 35,
    "groq": 129,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 717895,
+   "gemini": 727769,
    "openrouter": 32842,
    "groq": 121789,
    "groqq": 58199
   },
   "fails": {
-   "gemini": 149,
-   "cohere": 44,
-   "mistral": 44
+   "gemini": 155,
+   "cohere": 51,
+   "mistral": 51
   }
  },
  "needs_today": [],
@@ -790,7 +799,8 @@
   "lab/tools_pending/check_vk_comments.py": "131a4aff0eecd14d2c1869505cb538ab9dfd2283",
   "lab/projects/p4236277.json": "007cbed8bc771390d7a58e9d50becc153180e69e",
   "lab/projects/pbc4fa63.json": "43ba18868db577f9cd47e2b61d737c75eb33cb48",
-  "lab/projects/pcb3734f.json": "59054c78774f33b5c84996bc7d7f9efe535ee10a"
+  "lab/projects/pcb3734f.json": "59054c78774f33b5c84996bc7d7f9efe535ee10a",
+  "lab/projects/pb2e6fac.json": "f87d6367dfee59cab5468cf11f44fec6f09d638a"
  },
  "research_try": {
   "2026-11-18": 1
@@ -993,13 +1003,13 @@
    }
   }
  },
- "selfmap_h": "00607a488bee0d04519f6a05e372d015065dd73d",
+ "selfmap_h": "a676c76ba165f94c2fa9be1c13a04dd8dd902b4b",
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
- "backup_hash": "d812e0c2",
+ "backup_hash": "6b328f89",
  "transp_day": "2026-11-18",
- "priv_h": "ed57801f4af39b9421b6be635fbfd27d52661a36",
+ "priv_h": "e30d8b9b259d1efb2533777b5de146e4a6707708",
  "trash_day": "2026-11-18",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2291,7 +2301,7 @@
  "own_off": {},
  "extra_llms": [],
  "mb": {
-  "on": 1,
+  "on": 0,
   "posts_h": 2,
   "replies_h": 15,
   "post_day": 30,
