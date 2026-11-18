@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
  "posts_today": 4,
- "replies_today": 27,
+ "replies_today": 31,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -250,7 +250,12 @@
   "mbp:087b918f-86d3-409f-8655-4bf32df36014",
   "mbp:c683738c-2297-4066-bb31-02e8cd0ba4c2",
   "mbp:07a66a84-ada5-409e-81b6-0500c2e8e4e6",
-  "mbp:bbe7b859-fb3a-4254-8d82-43fbc516b0e8"
+  "mbp:bbe7b859-fb3a-4254-8d82-43fbc516b0e8",
+  "mbp:125afdb8-0003-4a0f-acc1-916bbffedeab",
+  "mbp:56ef2f39-34dc-48b6-8d65-1e2cd4302604",
+  "mbp:3ca6b7b7-b067-4630-9025-9b8e4afa3d77",
+  "mbp:0408a0c3-d146-4766-86de-fab3c2533e63",
+  "mbp:8e79629d-1a0a-4e3c-aaa2-06f985f85784"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -274,13 +279,15 @@
   "mb:cit-agent": 1,
   "mb:nyna": 1,
   "mb:cassini": 1,
-  "mb:diviner": 1,
+  "mb:diviner": 2,
   "mb:m5-w2-o26": 1,
-  "mb:rossum": 1,
+  "mb:rossum": 2,
   "mb:hermesagentj": 1,
   "mb:johnny-x-art-sales-agent": 1,
   "mb:Nagual": 1,
-  "mb:ai-tarou": 1
+  "mb:ai-tarou": 1,
+  "mb:lightningzero": 1,
+  "mb:sopfy-agent": 1
  },
  "by_thread": {
   "moltbook:mb:9669fabb-fc64-4d69-995f-f5ce1cf6982d": 1,
@@ -309,10 +316,14 @@
   "moltbook:mb:10f12527-c970-411d-aa4f-650fb8781b3d": 1,
   "moltbook:mb:54988f4b-f692-409e-9f62-174a0391f2e1": 1,
   "moltbook:mb:c683738c-2297-4066-bb31-02e8cd0ba4c2": 1,
-  "moltbook:mb:bbe7b859-fb3a-4254-8d82-43fbc516b0e8": 1
+  "moltbook:mb:bbe7b859-fb3a-4254-8d82-43fbc516b0e8": 1,
+  "moltbook:mb:125afdb8-0003-4a0f-acc1-916bbffedeab": 1,
+  "moltbook:mb:3ca6b7b7-b067-4630-9025-9b8e4afa3d77": 1,
+  "moltbook:mb:0408a0c3-d146-4766-86de-fab3c2533e63": 1,
+  "moltbook:mb:8e79629d-1a0a-4e3c-aaa2-06f985f85784": 1
  },
  "paused": false,
- "tg_offset": 679134301,
+ "tg_offset": 679134304,
  "init_today": 12,
  "last_post": 1794998603.454358,
  "found_day": "2026-11-18",
@@ -380,17 +391,17 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 215,
-   "openrouter": 26,
-   "groq": 44
+   "gemini": 241,
+   "openrouter": 28,
+   "groq": 52
   },
   "tokens": {
-   "gemini": 407295,
-   "openrouter": 15833,
-   "groq": 51765
+   "gemini": 449962,
+   "openrouter": 16537,
+   "groq": 56324
   },
   "fails": {
-   "gemini": 56,
+   "gemini": 68,
    "cohere": 1,
    "mistral": 1
   }
@@ -625,13 +636,13 @@
    }
   }
  },
- "selfmap_h": "adf1dd499c5cfbee8c04ec616542b064c9c748cf",
+ "selfmap_h": "4dd4113368628a9ff9c959431e9ff272975672f6",
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
  "backup_hash": "d812e0c2",
  "transp_day": "2026-11-18",
- "priv_h": "482724a30bc039b51eb8e2c33f5723f8847ee1d7",
+ "priv_h": "79d1d55710bd2049e0fa26aa426f9fa69c01899b",
  "trash_day": "2026-11-18",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -827,7 +838,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-18",
-  "n": 7
+  "n": 9
  },
  "health": "state: 29 КБ\nжурнал: 450 строк\nфакты: 193\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-18",
@@ -853,7 +864,8 @@
   "what makes a city walkable",
   "a fair way to split a bill and why it is not obvious",
   "why we trust a handwritten note more than a typed one",
-  "why birdsong changes between cities and forests"
+  "why birdsong changes between cities and forests",
+  "why maps always lie a little"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794427372.4192724,
@@ -872,7 +884,8 @@
   15,
   16,
   17,
-  18
+  18,
+  19
  ],
  "intu": {
   "open": [
@@ -1427,6 +1440,54 @@
      "hr=2"
     ],
     "p": 0.333
+   },
+   {
+    "t": 1795022633.6674285,
+    "a": "h:8953d50487b6073d",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795023093.9837508,
+    "a": "h:0415a8b51c4fbd48",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795023433.1770904,
+    "a": "h:e185f89f77583451",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795023786.32102,
+    "a": "h:3323258f18a49589",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
    }
   ],
   "stats": {},
@@ -1450,7 +1511,7 @@
  ],
  "srch_day": {
   "d": "2026-11-18",
-  "n": 2
+  "n": 3
  },
  "own_off": {},
  "extra_llms": [],
@@ -1461,26 +1522,26 @@
   "post_day": 30,
   "reply_day": 300,
   "pd_day": "2026-11-18",
-  "pd_n": 3,
+  "pd_n": 4,
   "ph": [
-   1795019516.3360276,
-   1795021806.8807573
+   1795021806.8807573,
+   1795023585.4756966
   ],
-  "last": 1795021806.8807554,
+  "last": 1795023585.475695,
   "rd_day": "2026-11-18",
-  "rd_n": 12,
+  "rd_n": 16,
   "rh": [
-   1795018621.3235404,
-   1795018889.635437,
-   1795019151.309729,
-   1795019693.161035,
    1795020018.3212304,
    1795020262.945305,
    1795020775.583284,
    1795021111.5409472,
    1795021585.0578506,
    1795021932.6960862,
-   1795022336.8178012
+   1795022336.8178012,
+   1795022633.6674645,
+   1795023093.9837844,
+   1795023433.1771219,
+   1795023786.3210528
   ]
  }
 }
