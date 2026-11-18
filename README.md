@@ -73,6 +73,12 @@ Root: `agent.py` (loader), `CHARTER.md`, `FACTS.md`, `CITATION.cff`, `LICENSE`, 
 | `part_06u_search.py` | web search through Linkup (snippets only, daily cap `search_day`, pauses 6 h when the quota ends) |
 | `part_06v_privacy.py` | keeps VK users' ids and texts out of the public logs (hashes only) |
 | `part_06w_tips.py` | tips layer: up to 12 short practical tips the agent gives itself, below the Codex and the rules; the agent only proposes (weekly, from its own log), the owner decides: `/tip`, `/tip add`, `/tip ok N`, `/tip no N`, `/tip del N` |
+| `part_06x_models.py` | models chosen by the benchmarks: Qwen3.8-27B on Groq (`groqq`) as the reviewer | 
+| `part_06z_own_loader.py` | loads `own/` (modules the agent built itself after approval; manifest + hash, limits, deny-list, switched off on failure); `/own` |
+| `part_06zz_make.py` | `/make`: the agent builds a module for itself (design, tests first, code in up to 5 attempts in a dry copy of the agent, review by another model); the owner decides with `/own ok ID` / `/own no ID` |
+| `part_06zy_notes.py` | the agent's notebook for code and technique (`notes/code.json` in the private repo): idea / verified / failed notes, read selectively; `/note` |
+| `part_06zx_scout.py` | `/scout`: looks on GitHub for an idea the agent needs (permissive licenses only, only README texts are read, nothing is downloaded or run); `/scout make ID N` hands the idea to `/make` |
+| `part_06zw_modelscout.py` | model scout: weekly looks for new free models at the providers, tests them with `bench/`, proposes good ones; `/model`, `/model add`, `/model del` |
 | `part_06r_intuition.py` | quiet intuition: hunch, outcome, accuracy (`/intuition`) |
 | `part_07_main_loop.py` | the cycle |
 
@@ -164,3 +170,15 @@ Connect: add the secrets in GitHub. Disconnect: delete the secrets, or `/platfor
 ### VK page keeping
 
 `part_06p_vk_page.py` runs only while VK is connected, LIVE is on and the owner is not absent: it publishes a light poll once a week (`vk_poll_days`; question made by the model and checked by another model) and adds group statistics to the weekly report. `part_03h_vk.py` also deletes clear spam and abusive comments under the community's own posts (a classifier; any doubt means the comment stays; `VK_MODERATE=0` turns it off; every deletion is logged without the comment text). The agent does not like, repost, follow, befriend or invite, and it does not write in other communities. The pinned intro and welcome messages (code kept in the file) are switched off.
+
+
+## Simplicity rules (2026-11-18)
+1. At most 5 modules in `own/`, 150 lines each; a sixth only after removing one.
+2. No plugin framework: `own/` holds plain files with one entry point; extension points are the existing ones (`EXT_CMDS`, `WEEKLY_EXTRA`, wrapping a function by name).
+3. A module is added only if a before/after check shows a gain; an unused module is proposed for removal after a month.
+4. Remove before adding: first ask whether existing code or a prompt change does the job.
+5. A module must be explainable in 3-4 lines (its `title` and `why` in `own/MANIFEST.json`).
+6. The core (`part_01`, `part_05`, `part_06`), the Codex, the facts and the workflow are never edited by the agent.
+
+## Own code (`own/`)
+`parts/` is what the owner and Claude built; `own/` is what the agent built itself. Pipeline: `/make` (or `/scout` then `/scout make`) -> design -> tests first -> code in up to 5 attempts in a dry copy of the agent -> review by another model -> the owner decides with `/own ok ID` / `/own no ID`. Manage: `/own`, `/own off|on|del NAME`. Tips layer: `/tip`. Notebook: `/note`. Models: `/model`.
