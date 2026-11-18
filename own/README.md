@@ -1,6 +1,6 @@
 # own/ — modules the agent built itself
 
-`parts/` is the code the owner and Claude built. This folder holds only what the agent added after the owner's approval.
+`parts/` is the code the owner built. This folder holds only what the agent added after the owner's approval.
 
 - A module is loaded only if it is listed in `MANIFEST.json` and its sha256 matches.
 - Limits: at most 5 modules, 150 lines each, no dangerous constructs (see `parts/part_06z_own_loader.py`).
