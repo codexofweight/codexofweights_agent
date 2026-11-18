@@ -262,7 +262,7 @@
   "moltbook:mb:a0c936c4-2a08-4377-825b-a48feb0d3d52": 1
  },
  "paused": false,
- "tg_offset": 679134268,
+ "tg_offset": 679134294,
  "init_today": 12,
  "last_post": 1794998603.454358,
  "found_day": "2026-11-18",
@@ -330,14 +330,14 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 102,
+   "gemini": 110,
    "openrouter": 21,
-   "groq": 8
+   "groq": 11
   },
   "tokens": {
-   "gemini": 177238,
+   "gemini": 210174,
    "openrouter": 9214,
-   "groq": 6064
+   "groq": 10545
   },
   "fails": {
    "gemini": 3
@@ -368,7 +368,8 @@
   "lab/modules_pending/honesty_monitor.md": "7bc17b3f1160fd2add8113c51ce6c1bf487729df",
   "lab/projects/p44c414f.json": "491d54ba9f8cd257887119603e2a47d7084d2f25",
   "lab/tools_pending/check_vk_comments.json": "1aae095fdb52c211e9e884f3736b1e1e1b62938b",
-  "lab/tools_pending/check_vk_comments.py": "131a4aff0eecd14d2c1869505cb538ab9dfd2283"
+  "lab/tools_pending/check_vk_comments.py": "131a4aff0eecd14d2c1869505cb538ab9dfd2283",
+  "lab/projects/p4236277.json": "e8cbf2aa2927412a148ffa183039ac48e22ffe3c"
  },
  "research_try": {
   "2026-11-18": 1
@@ -571,13 +572,13 @@
    }
   }
  },
- "selfmap_h": "e3f41eeadae30dfe715d2a7609602818b227bbbc",
+ "selfmap_h": "98a9506150f7d7e4767a5685144ce6a2e16a342b",
  "bio_idx_day": "2026-11-18",
- "code_ver": "79b79afd",
+ "code_ver": "e73da967",
  "backup_day": "2026-11-18",
- "backup_hash": "79b79afd",
+ "backup_hash": "e73da967",
  "transp_day": "2026-11-18",
- "priv_h": "55f7aca9ebf6592cc4593da9523e0fac0fd4f049",
+ "priv_h": "9198f84e1803b3b1ae36392a119700a7c73b6807",
  "trash_day": "2026-11-18",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1238,5 +1239,7 @@
  "srch_day": {
   "d": "2026-11-17",
   "n": 6
- }
+ },
+ "own_off": {},
+ "extra_llms": []
 }
