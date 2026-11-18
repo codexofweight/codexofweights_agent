@@ -66,6 +66,9 @@ while True:
                     if ST["replies_today"] > before: ST["init_today"] += 1
                     break
             except Exception as ex: print(ad.name, "discover failed:", type(ex).__name__, str(ex)[:150])
+    PRIO[0] = 3
+    try: mb_round()
+    except Exception as ex: print("mb_round failed:", type(ex).__name__)
     imm = [d for k, d in EV if k == "send_failed"]
     if imm: tg("Сбой отправки:\n" + "\n".join(str(d.get("text") or d.get("reason") or "")[:150] + ((" [" + d["reason"] + "]") if d.get("reason") and d.get("text") else "") for d in imm[:5]))
     daily_digest()
@@ -75,7 +78,7 @@ while True:
     save_state()
     if _rnd % 4 == 3: git_sync()
     if time.time() + ROUND_SECONDS > T_END: break
-    wait_and_chat(ROUND_SECONDS)
+    wait_and_chat(round_pause())
 if MEMQ and LIVE:
     log("memory_failed", n=len(MEMQ), why="private memory could not be written; these exchanges were NOT saved")
     tg("MEMORY NOT SAVED: %d exchange(s) could not be written to the private memory (GitHub unavailable or token problem)." % len(MEMQ))
