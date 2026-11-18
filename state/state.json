@@ -767,8 +767,8 @@
   },
   "fails": {
    "gemini": 155,
-   "cohere": 59,
-   "mistral": 59
+   "cohere": 63,
+   "mistral": 63
   }
  },
  "needs_today": [],
@@ -800,7 +800,7 @@
   "lab/projects/p4236277.json": "007cbed8bc771390d7a58e9d50becc153180e69e",
   "lab/projects/pbc4fa63.json": "43ba18868db577f9cd47e2b61d737c75eb33cb48",
   "lab/projects/pcb3734f.json": "59054c78774f33b5c84996bc7d7f9efe535ee10a",
-  "lab/projects/pb2e6fac.json": "1d1d336577f94397c677101699776e48ccceb3bb"
+  "lab/projects/pb2e6fac.json": "b736938175db731f77f28b5f390a6407a0a4e302"
  },
  "research_try": {
   "2026-11-18": 1
@@ -1007,7 +1007,7 @@
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
- "backup_hash": "6b328f89",
+ "backup_hash": "0a218511",
  "transp_day": "2026-11-18",
  "priv_h": "144b9a3212d4c151ef95cd3972e5cab2170d3087",
  "trash_day": "2026-11-18",
