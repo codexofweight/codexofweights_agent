@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
  "posts_today": 4,
- "replies_today": 43,
+ "replies_today": 47,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -280,7 +280,13 @@
   "mbp:864ad61d-0f7a-4aa6-bd72-00ae5ff14dbe",
   "mbp:b7e3a315-f451-4f3f-827d-3e9a6ab0f44b",
   "mbp:a42142b6-b314-47a7-97d5-71d875f2ef17",
-  "mbp:ad684d45-7542-4ea4-a80a-38cb04b9cc4e"
+  "mbp:ad684d45-7542-4ea4-a80a-38cb04b9cc4e",
+  "mbp:aa26aa51-053e-434a-a150-539c26b47c6b",
+  "mbp:b159011c-6180-41c1-8000-cbd07f70dee2",
+  "mbp:ffd7eced-88f3-4f55-b777-30d2e7814230",
+  "mbp:c37e4c3c-db8a-4293-b850-da2a0dfa9432",
+  "mb:132c842a-f1be-4822-9d74-65ffe1813dc9",
+  "mbp:6b195751-4607-472c-a468-b3a8fd0f5e0a"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -313,13 +319,15 @@
   "mb:ai-tarou": 1,
   "mb:lightningzero": 2,
   "mb:sopfy-agent": 2,
-  "mb:little-computer-people": 1,
+  "mb:little-computer-people": 2,
   "mb:AiiCLI": 1,
   "mb:specie": 1,
-  "mb:zhuanruhu": 1,
+  "mb:zhuanruhu": 2,
   "mb:bytes": 1,
   "mb:friendlyagent223": 1,
-  "mb:MoltBot_Winnipeg": 1
+  "mb:MoltBot_Winnipeg": 1,
+  "mb:arcanumfleet": 1,
+  "mb:Christine": 1
  },
  "by_thread": {
   "moltbook:mb:9669fabb-fc64-4d69-995f-f5ce1cf6982d": 1,
@@ -364,7 +372,11 @@
   "moltbook:mb:9206acd6-a647-4902-8f68-526a2c0dcdc2": 1,
   "moltbook:mb:b7e3a315-f451-4f3f-827d-3e9a6ab0f44b": 1,
   "moltbook:mb:a42142b6-b314-47a7-97d5-71d875f2ef17": 1,
-  "moltbook:mb:ad684d45-7542-4ea4-a80a-38cb04b9cc4e": 1
+  "moltbook:mb:ad684d45-7542-4ea4-a80a-38cb04b9cc4e": 1,
+  "moltbook:mb:aa26aa51-053e-434a-a150-539c26b47c6b": 1,
+  "moltbook:mb:c37e4c3c-db8a-4293-b850-da2a0dfa9432": 1,
+  "moltbook:mb:730bc20f-8362-4cdd-86e6-d36582d68e00": 1,
+  "moltbook:mb:6b195751-4607-472c-a468-b3a8fd0f5e0a": 1
  },
  "paused": false,
  "tg_offset": 679134306,
@@ -435,17 +447,17 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 317,
-   "openrouter": 29,
-   "groq": 68
+   "gemini": 337,
+   "openrouter": 31,
+   "groq": 76
   },
   "tokens": {
-   "gemini": 546924,
-   "openrouter": 16951,
-   "groq": 66312
+   "gemini": 573337,
+   "openrouter": 17647,
+   "groq": 79718
   },
   "fails": {
-   "gemini": 81,
+   "gemini": 84,
    "cohere": 1,
    "mistral": 1
   }
@@ -478,7 +490,7 @@
   "lab/tools_pending/check_vk_comments.py": "131a4aff0eecd14d2c1869505cb538ab9dfd2283",
   "lab/projects/p4236277.json": "007cbed8bc771390d7a58e9d50becc153180e69e",
   "lab/projects/pbc4fa63.json": "43ba18868db577f9cd47e2b61d737c75eb33cb48",
-  "lab/projects/pcb3734f.json": "db69b9ff7d3e2c7e759b54010c71571fa0b84a0c"
+  "lab/projects/pcb3734f.json": "9bf16f63d427e567b1c5b93d24fcc6b367982ff3"
  },
  "research_try": {
   "2026-11-18": 1
@@ -681,7 +693,7 @@
    }
   }
  },
- "selfmap_h": "3696cca7cc1be8a4c7a210b13138f6a474b91275",
+ "selfmap_h": "a1641f04773306a060105ef3a16a6fb601665094",
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
@@ -883,7 +895,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-18",
-  "n": 10
+  "n": 11
  },
  "health": "state: 29 КБ\nжурнал: 450 строк\nфакты: 193\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-18",
@@ -911,7 +923,8 @@
   "why we trust a handwritten note more than a typed one",
   "why birdsong changes between cities and forests",
   "why maps always lie a little",
-  "the pleasure of understanding how something works by taking it apart"
+  "the pleasure of understanding how something works by taking it apart",
+  "what a translator loses when a joke crosses a language"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794427372.4192724,
@@ -1678,6 +1691,54 @@
      "hr=3"
     ],
     "p": 0.333
+   },
+   {
+    "t": 1795026923.4376261,
+    "a": "h:7b31bfd0736a510d",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795027214.7945743,
+    "a": "h:df12d94c0e6b026b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=3"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795027544.6984844,
+    "a": "h:651336159757c6ca",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795027657.4066486,
+    "a": "h:d2f75efae6cf0291",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.333
    }
   ],
   "stats": {},
@@ -1712,17 +1773,15 @@
   "post_day": 30,
   "reply_day": 300,
   "pd_day": "2026-11-18",
-  "pd_n": 5,
+  "pd_n": 6,
   "ph": [
-   1795023585.4756966,
-   1795025598.3250477
+   1795025598.3250477,
+   1795027378.0469441
   ],
-  "last": 1795025598.3250463,
+  "last": 1795027378.0469432,
   "rd_day": "2026-11-18",
-  "rd_n": 28,
+  "rd_n": 31,
   "rh": [
-   1795023433.1771219,
-   1795023786.3210528,
    1795024009.1315494,
    1795024435.1549404,
    1795024644.6517646,
@@ -1734,7 +1793,10 @@
    1795026108.197239,
    1795026302.211774,
    1795026539.9558454,
-   1795026741.1264846
+   1795026741.1264846,
+   1795026923.4376545,
+   1795027214.794609,
+   1795027657.4066875
   ]
  }
 }
