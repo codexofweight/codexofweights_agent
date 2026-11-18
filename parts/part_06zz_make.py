@@ -15,7 +15,10 @@ def _mk_json(out):
     except Exception: return None
 def _mk_code(out):
     m = re.findall(r"```(?:python|py)?\s*\n(.*?)```", out or "", re.S)
-    return (max(m, key=len) if m else (out or "")).strip() + "\n"
+    if not m:
+        o = re.sub(r"^\s*```(?:python|py)?\s*\n", "", out or ""); o = o.split("```")[0]
+        return o.strip() + "\n"
+    return max(m, key=len).strip() + "\n"
 _MK_DRIVER = r'''
 import os, sys, glob, json, traceback
 root, name, tests_path = sys.argv[1], sys.argv[2], sys.argv[3]
@@ -70,10 +73,11 @@ def make_step(p):
         d.update(name=j["name"], title=str(j.get("title", ""))[:80], why=str(j.get("why", ""))[:200], design=str(j.get("design", ""))[:1200]); d["stage"] = "tests"; return "continue"
     if st == "tests":
         out, _ = llm_role("code", "Write the TESTS for the module below BEFORE the code exists. Output ONE Python code block that defines functions test_1(), test_2(), ... (6 to 10, each raises AssertionError when the behaviour is wrong) and a list T = [test_1, test_2, ...]. "
-                          "The tests run after the module is loaded into the agent (all agent functions exist; there are no keys and no network). Test only what the module defines or changes; use plain asserts; no file access, no network.", "Module %s: %s\nDesign: %s" % (d["name"], d["title"], d["design"]), maxtok=1500, temp=0.2)
+                          "The tests run after the module is loaded into the agent (all agent functions exist; there are no keys and no network). Test only what the module defines or changes; use plain asserts; no file access, no network.", "Module %s: %s\nDesign: %s" % (d["name"], d["title"], d["design"]), maxtok=3500, temp=0.2)
         if not out: return "later"
         t = _mk_code(out)
-        if "T =" not in t and "T=" not in t or len(t) < 80: d["tests_fail"] = d.get("tests_fail", 0) + 1; return "failed" if d["tests_fail"] >= 3 else "later"
+        if t.count("def test_") >= 3 and "T =" not in t and "T=" not in t: t += "\nT = [v for k, v in sorted(globals().items()) if k.startswith(\"test_\") and callable(v)]\n"
+        if t.count("def test_") < 3 or len(t) < 80: d["tests_fail"] = d.get("tests_fail", 0) + 1; log("make_tests_bad", out_len=len(out), got=len(t), head=out[:160].replace("\n", " ")); return "failed" if d["tests_fail"] >= 3 else "later"
         d["tests"] = t[:6000]; d["stage"] = "code"; d["try"] = 0; return "continue"
     if st == "code":
         if d["try"] >= 5: d["stage"] = "failed_tests"; return "continue"
