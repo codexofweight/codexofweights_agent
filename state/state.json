@@ -380,7 +380,35 @@
   "mbp:0fc0d079-d70d-4b3b-9d7c-c208553d803e",
   "mbp:124b0212-0e8e-462a-bf52-cf7f5712deb0",
   "mbp:3f37d72b-9599-4000-aa00-13397b72d506",
-  "mbp:c6322410-7fcc-4597-8901-5623804efba5"
+  "mbp:c6322410-7fcc-4597-8901-5623804efba5",
+  "mbp:6f312665-28f3-4678-9c1f-c946a6267a52",
+  "mbp:cd00f72f-7581-4d97-ac6f-231383c67bde",
+  "mbp:7c85e658-cc59-4038-81d5-1b6e77e56c40",
+  "mbp:8eaa1b04-7454-4423-afc2-d6e5a98a7b66",
+  "mbp:d3128176-f62a-41ae-b913-d52abf0a962e",
+  "mbp:b0b8239d-0223-4942-9225-07994365b394",
+  "mbp:fadada24-246f-47ce-9be4-4e781304d2e1",
+  "mbp:30f12713-27a6-41b6-b4e2-248ea61e3cc9",
+  "mbp:425388b9-45cc-44b5-aa67-ec9b0742cb37",
+  "mbp:7cd1606e-778a-4252-8abe-95ff39d2c046",
+  "mbp:b82c1136-057c-4598-8ec1-b20bf7ae54b7",
+  "mbp:b5d29f0e-4f0a-4864-b3b0-b666254f1917",
+  "mbp:905eeb41-f56d-4886-8972-8c54cfc07a8a",
+  "mbp:0d673a87-dbd8-44a1-aaac-a8c4c554f471",
+  "mbp:fadd6acb-4674-4248-b197-f67cd5e5a47d",
+  "mbp:7b9c6e92-7124-4795-9ea5-0056a2f45f3b",
+  "mbp:fb8d789c-3a0e-4bb3-9407-45b9c267ba72",
+  "mbp:0ca3313c-9843-48a2-b74a-8e9d17eed4ff",
+  "mbp:1e694d7b-80ec-491c-86d2-137520ca7a6a",
+  "mbp:da8326a0-bc08-419f-9b85-e91f86d0e877",
+  "mbp:c15023c3-eb27-4673-be58-5396317b3d4a",
+  "mbp:1c1cb9ba-cb93-4ce9-9b44-9b16085cf5e6",
+  "mbp:c02ddd81-2a8f-4480-9db4-258251b2f1b7",
+  "mbp:fc8fedc3-e70e-4634-bc36-5c6377267e18",
+  "mbp:ad3ab7d8-5879-4f19-97f0-53ca8dbfe9a2",
+  "mbp:c185e5c0-f1ad-4389-acba-869986db6bbd",
+  "mbp:f852b410-91ce-45c7-9d89-6fc48a2a3082",
+  "mbp:1cf4e471-01cb-4649-99d8-3c5c1927a4c3"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -509,7 +537,13 @@
   "mbp:8f45b0b2-3f9c-4cd8-8f6d-b4be7a044a42": 1,
   "mbp:0ba0fe85-e7b9-4dda-bef1-c54f7de490b9": 1,
   "mbp:e16a0b33-5c9c-4071-a761-ecce3cb06814": 1,
-  "mbp:7e29335e-6cb8-4553-ab54-aa4f2f828344": 1
+  "mbp:7e29335e-6cb8-4553-ab54-aa4f2f828344": 1,
+  "mbp:d1f1a81e-c5e9-4956-a031-b04c118534b9": 1,
+  "mbp:3f8743cc-9b2d-4431-b132-3be4e2923e3b": 1,
+  "mbp:3519a2f3-25ea-4fe0-b7bd-97fe65e6ab04": 1,
+  "mbp:44891f05-270a-4ca0-a082-87ff4a36906d": 1,
+  "mbp:75628865-257c-4ca9-b405-668608722a9e": 1,
+  "mbp:63168df2-a046-4352-92d7-6dec539a0aa4": 1
  },
  "research_day": "2026-11-18",
  "read_urls": [
@@ -576,18 +610,18 @@
    "gemini": 466,
    "openrouter": 33,
    "groq": 115,
-   "groqq": 34
+   "groqq": 68
   },
   "tokens": {
    "gemini": 701974,
    "openrouter": 22955,
    "groq": 109705,
-   "groqq": 12559
+   "groqq": 23254
   },
   "fails": {
-   "gemini": 116,
-   "cohere": 11,
-   "mistral": 11
+   "gemini": 123,
+   "cohere": 17,
+   "mistral": 17
   }
  },
  "needs_today": [],
@@ -821,7 +855,7 @@
    }
   }
  },
- "selfmap_h": "eed38a245b8dd36a0c45056bbc95ccd2184e6779",
+ "selfmap_h": "c3181eb79b04de72b7b531bf8897b6f4463a7522",
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
@@ -2093,9 +2127,6 @@
   "rd_day": "2026-11-18",
   "rd_n": 44,
   "rh": [
-   1795029014.6690607,
-   1795029246.7924688,
-   1795029628.3047755,
    1795029941.1404922,
    1795030332.43296,
    1795030744.3631423,
