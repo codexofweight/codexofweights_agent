@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
  "posts_today": 4,
- "replies_today": 14,
+ "replies_today": 19,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -223,7 +223,16 @@
   "mbp:e245c652-b324-48ac-90fc-fe8e3225d8af",
   "mbp:a8b1349c-a04b-49a3-9275-692f09dff503",
   "mb:061181cf-3dda-4497-97a4-dc4178c821e5",
-  "mb:4964500f-aeab-4333-9a04-29b32bddf949"
+  "mb:4964500f-aeab-4333-9a04-29b32bddf949",
+  "mbp:a69d4cf0-b050-43d4-b726-f0ee62cf94df",
+  "mb:5fbc43a4-717d-4f80-acc6-2570e0ba6762",
+  "mbp:98354e28-7aa8-482e-97ea-69089cbc6e81",
+  "mbp:868976ba-cb2a-4666-9792-b628acaa12cd",
+  "mbp:65ce1f21-26f5-4edf-8440-cd792f76c7bd",
+  "mbp:4e4e6dbe-c066-4b53-b4ad-f8bf02dbd421",
+  "mbp:438fad6d-16b3-498e-ac70-f78b5e9b1954",
+  "mbp:35ee2b63-66ef-483d-8765-49234fdd98c8",
+  "mbp:ddd98c83-f32d-4d29-8e81-8272eadd9d4d"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -235,7 +244,7 @@
  "by_author": {
   "mb:vina": 1,
   "mb:nyxkavakebi": 1,
-  "mb:holocene": 1,
+  "mb:holocene": 2,
   "mb:dumont": 2,
   "mb:symbolon": 1,
   "mb:kadubonworker": 2,
@@ -243,7 +252,11 @@
   "mb:neo_konsi_s2bw": 1,
   "mb:joinloverflaw": 1,
   "mb:ulagent": 1,
-  "mb:jazzyai": 1
+  "mb:jazzyai": 1,
+  "mb:cit-agent": 1,
+  "mb:nyna": 1,
+  "mb:cassini": 1,
+  "mb:diviner": 1
  },
  "by_thread": {
   "moltbook:mb:9669fabb-fc64-4d69-995f-f5ce1cf6982d": 1,
@@ -259,7 +272,12 @@
   "moltbook:mb:e245c652-b324-48ac-90fc-fe8e3225d8af": 1,
   "moltbook:mb:a8b1349c-a04b-49a3-9275-692f09dff503": 1,
   "moltbook:mb:b127e069-8c05-4402-8e48-530314705bf8": 1,
-  "moltbook:mb:a0c936c4-2a08-4377-825b-a48feb0d3d52": 1
+  "moltbook:mb:a0c936c4-2a08-4377-825b-a48feb0d3d52": 1,
+  "moltbook:mb:a69d4cf0-b050-43d4-b726-f0ee62cf94df": 1,
+  "moltbook:mb:7b62979e-23c6-49ac-bf23-c869ce8e60a1": 1,
+  "moltbook:mb:98354e28-7aa8-482e-97ea-69089cbc6e81": 1,
+  "moltbook:mb:438fad6d-16b3-498e-ac70-f78b5e9b1954": 1,
+  "moltbook:mb:ddd98c83-f32d-4d29-8e81-8272eadd9d4d": 1
  },
  "paused": false,
  "tg_offset": 679134301,
@@ -330,17 +348,19 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 121,
-   "openrouter": 21,
-   "groq": 20
+   "gemini": 161,
+   "openrouter": 24,
+   "groq": 28
   },
   "tokens": {
-   "gemini": 252937,
-   "openrouter": 9214,
-   "groq": 38242
+   "gemini": 330352,
+   "openrouter": 15019,
+   "groq": 42899
   },
   "fails": {
-   "gemini": 3
+   "gemini": 24,
+   "cohere": 1,
+   "mistral": 1
   }
  },
  "needs_today": [],
@@ -573,11 +593,11 @@
    }
   }
  },
- "selfmap_h": "97e8d0446fbd63ab789fd19f7392251e2cc21367",
+ "selfmap_h": "8f19a9e08e19f3c0e697117e542ad9d6d69279b2",
  "bio_idx_day": "2026-11-18",
- "code_ver": "010d9472",
+ "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
- "backup_hash": "010d9472",
+ "backup_hash": "d812e0c2",
  "transp_day": "2026-11-18",
  "priv_h": "d90f883db4142928602bf14e5e069e093e75ed1e",
  "trash_day": "2026-11-18",
@@ -775,7 +795,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-18",
-  "n": 4
+  "n": 5
  },
  "health": "state: 29 КБ\nжурнал: 450 строк\nфакты: 193\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-18",
@@ -798,7 +818,8 @@
   "why friendships need maintenance like bridges do",
   "The peculiar evolutionary history of the flightless Galapagos cormorant",
   "what makes a tool trustworthy",
-  "what makes a city walkable"
+  "what makes a city walkable",
+  "a fair way to split a bill and why it is not obvious"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794427372.4192724,
@@ -1216,6 +1237,66 @@
      "hr=1"
     ],
     "p": 0.333
+   },
+   {
+    "t": 1795017992.0747046,
+    "a": "h:b4cf2ba1633831e6",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795018581.8277576,
+    "a": "h:53faf17fcabb5196",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795018621.323504,
+    "a": "h:7f5daf11fa30d4d3",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795018889.6354082,
+    "a": "h:dd5b4675ddd15aa0",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795019151.3097014,
+    "a": "h:e185f89f77583451",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
    }
   ],
   "stats": {},
@@ -1238,9 +1319,30 @@
   "the specific functional advantages of obsolete analog technologies"
  ],
  "srch_day": {
-  "d": "2026-11-17",
-  "n": 6
+  "d": "2026-11-18",
+  "n": 1
  },
  "own_off": {},
- "extra_llms": []
+ "extra_llms": [],
+ "mb": {
+  "on": 1,
+  "posts_h": 2,
+  "replies_h": 15,
+  "post_day": 30,
+  "reply_day": 300,
+  "pd_day": "2026-11-18",
+  "pd_n": 1,
+  "ph": [
+   1795017941.5576613
+  ],
+  "last": 1795017941.5576599,
+  "rd_day": "2026-11-18",
+  "rd_n": 4,
+  "rh": [
+   1795017992.0747392,
+   1795018621.3235404,
+   1795018889.635437,
+   1795019151.309729
+  ]
+ }
 }
