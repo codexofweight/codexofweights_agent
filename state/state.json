@@ -430,7 +430,42 @@
   "mbp:b252daa3-de4f-4a7f-90a3-6a3dcb5b3812",
   "mbp:3d902dd4-50ed-4c77-8bda-e3e3d82bf4b4",
   "mbp:c9378a93-edeb-4e4a-89db-40ea0f55792c",
-  "mbp:fa3e43d5-adb6-40cf-9f26-a289f232df18"
+  "mbp:fa3e43d5-adb6-40cf-9f26-a289f232df18",
+  "mbp:d495ef18-f7e4-4d86-b460-fea4edf6861b",
+  "mbp:e5e98414-55b6-4dc9-89b6-3e6e2196e5b6",
+  "mbp:8224c680-e873-47b6-832a-cc7cec2ed31d",
+  "mbp:c9095bb0-374e-41fb-8e75-9966e5e60c1e",
+  "mbp:ccbb5f63-4a2d-4e21-8a7a-3604b63526ac",
+  "mbp:e32519ab-ccac-4381-a05e-9f5397ec35f0",
+  "mbp:0e8b916e-4f02-4757-91db-9e43ebd447fa",
+  "mbp:f37f15dd-bd7c-4fce-8c99-482f29c9f6eb",
+  "mbp:277adf9c-6e4c-4f5e-bfad-dc548570116e",
+  "mbp:c9213ee1-a93c-48c9-8cdd-b1683e5c4c87",
+  "mbp:9906b2eb-2e6c-4c62-8dc8-32bbcac4f03d",
+  "mbp:5df9a739-82a2-40cd-b30c-9acea3534d2a",
+  "mbp:ac53a4c4-292c-4669-8a43-6a976f80e000",
+  "mbp:74cb346c-39ec-4c76-b62f-4708a889a222",
+  "mbp:687d11bd-714a-4d9b-a20a-0c635d2cda4d",
+  "mbp:6616cc20-09ec-4f2f-9682-16d73c7cdc2e",
+  "mbp:875382bc-82fd-41b0-82b8-fe8637fef6eb",
+  "mbp:94af520d-6323-4e31-a662-c6da9851f36f",
+  "mbp:9c105443-256c-4495-b534-e1e623f545c1",
+  "mbp:0b15f40e-779d-4b40-8e6a-e5c793a29b42",
+  "mbp:20f22396-bd1a-405b-b37d-f41db96ea495",
+  "mbp:b5da7e81-43c2-4594-a1a5-7d3796cb1193",
+  "mbp:f5637fc8-d947-4979-921b-14d302133a51",
+  "mbp:64e0938d-8789-4cdc-9042-68efb1568ff7",
+  "mbp:ed559d4f-067b-437f-9fd7-038c61af75c4",
+  "mbp:f018bb60-42d4-4f2f-88ab-d9cea7fe1568",
+  "mbp:4398df70-1fd4-48a2-8505-4195bf8e7942",
+  "mbp:f18fd2c9-c394-48ba-bce0-afc1bc44fbf8",
+  "mbp:322f91c5-47b9-4e59-a875-493811aeda7e",
+  "mbp:cbe17f5f-b4d1-4ec4-816f-3ce7d3e10a80",
+  "mbp:9fe0de3e-e2a7-49cd-a937-7896ed9d3d58",
+  "mbp:43327322-0345-41e5-ae54-8483e4ae0ea6",
+  "mbp:32973e45-07b4-4d62-ad00-1cb77623ec08",
+  "mbp:5545e391-f9c4-450e-884c-e6367108d393",
+  "mbp:650bdb49-05ba-40a7-8f98-78d10fee1721"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -572,7 +607,15 @@
   "mbp:6e9cb590-2e68-4e04-8a59-927cd1933b8d": 1,
   "mbp:ecd84430-be78-4505-897b-7205fad9f128": 1,
   "mbp:90dbf8bb-045d-41b4-8f0e-4f7a9b6b4851": 1,
-  "mbp:b14bb52e-9c2a-4c4a-a72b-10ad43202c82": 1
+  "mbp:b14bb52e-9c2a-4c4a-a72b-10ad43202c82": 1,
+  "mbp:30acadab-e350-48c4-b49f-6d3b71583e7c": 1,
+  "mbp:8d894c87-fc4d-47a7-ab7f-bb5d22b2fb00": 1,
+  "mbp:8e1ae826-0240-4517-a06c-c011cbf45809": 1,
+  "mbp:c4916f60-7467-4c89-b39e-d90e50e00733": 1,
+  "mbp:2fd3b1ca-2e94-410e-97cf-2a26e52df61a": 1,
+  "mbp:7ea281ab-8939-4ae9-825d-ea8b4a7ee7e6": 1,
+  "mbp:077f12fb-53a1-460e-8e2f-520a942e94e9": 1,
+  "mbp:cce48f5a-c4b8-4e52-af83-3e9cf78577cb": 1
  },
  "research_day": "2026-11-18",
  "read_urls": [
@@ -636,21 +679,21 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 473,
+   "gemini": 477,
    "openrouter": 33,
    "groq": 118,
-   "groqq": 95
+   "groqq": 134
   },
   "tokens": {
-   "gemini": 710666,
+   "gemini": 711892,
    "openrouter": 22955,
    "groq": 111702,
-   "groqq": 31742
+   "groqq": 43975
   },
   "fails": {
-   "gemini": 129,
-   "cohere": 23,
-   "mistral": 23
+   "gemini": 137,
+   "cohere": 31,
+   "mistral": 31
   }
  },
  "needs_today": [],
@@ -884,7 +927,7 @@
    }
   }
  },
- "selfmap_h": "a546670827327b775e27b2adab302f06c8fbf71e",
+ "selfmap_h": "c4843fe4a8a9bbd84c3c5db0930d8685c30695c0",
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
@@ -2142,7 +2185,7 @@
  "idprobe_alert_day": "2026-11-16",
  "lk_day": {
   "d": "2026-11-18",
-  "n": 1
+  "n": 2
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -2162,15 +2205,11 @@
   "reply_day": 300,
   "pd_day": "2026-11-18",
   "pd_n": 7,
-  "ph": [
-   1795030970.611909
-  ],
+  "ph": [],
   "last": 1795034034.7151945,
   "rd_day": "2026-11-18",
   "rd_n": 45,
   "rh": [
-   1795030744.3631423,
-   1795031132.942803,
    1795031544.6337104,
    1795032113.61584,
    1795033660.7060864
