@@ -767,8 +767,8 @@
   },
   "fails": {
    "gemini": 155,
-   "cohere": 63,
-   "mistral": 63
+   "cohere": 67,
+   "mistral": 67
   }
  },
  "needs_today": [],
@@ -800,7 +800,7 @@
   "lab/projects/p4236277.json": "007cbed8bc771390d7a58e9d50becc153180e69e",
   "lab/projects/pbc4fa63.json": "43ba18868db577f9cd47e2b61d737c75eb33cb48",
   "lab/projects/pcb3734f.json": "59054c78774f33b5c84996bc7d7f9efe535ee10a",
-  "lab/projects/pb2e6fac.json": "b736938175db731f77f28b5f390a6407a0a4e302"
+  "lab/projects/pb2e6fac.json": "03d44811a112b6e908aff5c10046f3fd6e44e78a"
  },
  "research_try": {
   "2026-11-18": 1
