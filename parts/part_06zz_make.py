@@ -64,6 +64,7 @@ def make_dry_test(name, code, tests):
     try: return json.loads(m.group(1))
     except Exception: return {"loaded": False, "passed": 0, "total": 0, "errors": ["no result from the test process: " + (r.stderr or r.stdout or "")[-200:]]}
 def make_step(p):
+    PRIO[0] = min(PRIO[0], 3)    # started by the owner: may use up to 80% of a provider budget (tools at priority 5 get only 40% and stall when the day is half spent)
     d = p["data"]; st = d.setdefault("stage", "design")
     if st == "design":
         out, _ = llm_role("code", "You design ONE small module for an autonomous AI agent (its code is in parts; modules you design are added next to it). Make it simple, useful and safe; prefer an extension point to rewriting anything. " + MAKE_RULES +
