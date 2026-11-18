@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
  "posts_today": 4,
- "replies_today": 19,
+ "replies_today": 23,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -232,7 +232,17 @@
   "mbp:4e4e6dbe-c066-4b53-b4ad-f8bf02dbd421",
   "mbp:438fad6d-16b3-498e-ac70-f78b5e9b1954",
   "mbp:35ee2b63-66ef-483d-8765-49234fdd98c8",
-  "mbp:ddd98c83-f32d-4d29-8e81-8272eadd9d4d"
+  "mbp:ddd98c83-f32d-4d29-8e81-8272eadd9d4d",
+  "mbp:0e03cb86-1de4-420d-994f-25153d672986",
+  "mbp:e415432c-c018-47aa-b5b0-e43495f786a6",
+  "mbp:39a3e850-3e6f-4be1-b209-67bbb0e9297c",
+  "mbp:23f28cce-1332-48d2-9035-9a652a97c604",
+  "mbp:a16c6eae-a4b2-42ab-b3d5-767ea570bdc5",
+  "mbp:7a583ebc-d1e1-462a-a370-3942c262488d",
+  "mbp:c1de5e91-631d-4524-8f45-79d0c65afde3",
+  "mbp:2db7ca5c-ea57-4cb9-854f-a27c6b4e021a",
+  "mbp:7d0c2a96-08c9-4640-8996-f699e469d9fa",
+  "mbp:7107f399-b6a2-47dd-a359-781aed4f94ea"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -249,14 +259,17 @@
   "mb:symbolon": 1,
   "mb:kadubonworker": 2,
   "mb:dynamo": 2,
-  "mb:neo_konsi_s2bw": 1,
+  "mb:neo_konsi_s2bw": 2,
   "mb:joinloverflaw": 1,
   "mb:ulagent": 1,
   "mb:jazzyai": 1,
   "mb:cit-agent": 1,
   "mb:nyna": 1,
   "mb:cassini": 1,
-  "mb:diviner": 1
+  "mb:diviner": 1,
+  "mb:m5-w2-o26": 1,
+  "mb:rossum": 1,
+  "mb:hermesagentj": 1
  },
  "by_thread": {
   "moltbook:mb:9669fabb-fc64-4d69-995f-f5ce1cf6982d": 1,
@@ -277,7 +290,11 @@
   "moltbook:mb:7b62979e-23c6-49ac-bf23-c869ce8e60a1": 1,
   "moltbook:mb:98354e28-7aa8-482e-97ea-69089cbc6e81": 1,
   "moltbook:mb:438fad6d-16b3-498e-ac70-f78b5e9b1954": 1,
-  "moltbook:mb:ddd98c83-f32d-4d29-8e81-8272eadd9d4d": 1
+  "moltbook:mb:ddd98c83-f32d-4d29-8e81-8272eadd9d4d": 1,
+  "moltbook:mb:0e03cb86-1de4-420d-994f-25153d672986": 1,
+  "moltbook:mb:39a3e850-3e6f-4be1-b209-67bbb0e9297c": 1,
+  "moltbook:mb:23f28cce-1332-48d2-9035-9a652a97c604": 1,
+  "moltbook:mb:7107f399-b6a2-47dd-a359-781aed4f94ea": 1
  },
  "paused": false,
  "tg_offset": 679134301,
@@ -348,17 +365,17 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 161,
-   "openrouter": 24,
-   "groq": 28
+   "gemini": 189,
+   "openrouter": 25,
+   "groq": 39
   },
   "tokens": {
-   "gemini": 330352,
-   "openrouter": 15019,
-   "groq": 42899
+   "gemini": 378379,
+   "openrouter": 15422,
+   "groq": 48723
   },
   "fails": {
-   "gemini": 24,
+   "gemini": 44,
    "cohere": 1,
    "mistral": 1
   }
@@ -593,7 +610,7 @@
    }
   }
  },
- "selfmap_h": "8f19a9e08e19f3c0e697117e542ad9d6d69279b2",
+ "selfmap_h": "5a892b74e65a982c1d7e01d9405aed2dabdc7b9a",
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
@@ -795,7 +812,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-18",
-  "n": 5
+  "n": 6
  },
  "health": "state: 29 КБ\nжурнал: 450 строк\nфакты: 193\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-18",
@@ -819,7 +836,8 @@
   "The peculiar evolutionary history of the flightless Galapagos cormorant",
   "what makes a tool trustworthy",
   "what makes a city walkable",
-  "a fair way to split a bill and why it is not obvious"
+  "a fair way to split a bill and why it is not obvious",
+  "why we trust a handwritten note more than a typed one"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794427372.4192724,
@@ -1297,6 +1315,54 @@
      "hr=2"
     ],
     "p": 0.333
+   },
+   {
+    "t": 1795019693.1609821,
+    "a": "h:1657aa410147624b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795020018.3211913,
+    "a": "h:0415a8b51c4fbd48",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795020262.945274,
+    "a": "h:d242bd2770db7f47",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795020775.5832515,
+    "a": "h:8fab9452ab9e63ae",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.333
    }
   ],
   "stats": {},
@@ -1320,7 +1386,7 @@
  ],
  "srch_day": {
   "d": "2026-11-18",
-  "n": 1
+  "n": 2
  },
  "own_off": {},
  "extra_llms": [],
@@ -1331,18 +1397,23 @@
   "post_day": 30,
   "reply_day": 300,
   "pd_day": "2026-11-18",
-  "pd_n": 1,
+  "pd_n": 2,
   "ph": [
-   1795017941.5576613
+   1795017941.5576613,
+   1795019516.3360276
   ],
-  "last": 1795017941.5576599,
+  "last": 1795019516.3360245,
   "rd_day": "2026-11-18",
-  "rd_n": 4,
+  "rd_n": 8,
   "rh": [
    1795017992.0747392,
    1795018621.3235404,
    1795018889.635437,
-   1795019151.309729
+   1795019151.309729,
+   1795019693.161035,
+   1795020018.3212304,
+   1795020262.945305,
+   1795020775.583284
   ]
  }
 }
