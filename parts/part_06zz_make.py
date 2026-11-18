@@ -41,6 +41,7 @@ try:
         exec(compile(open(files[k], encoding="utf-8").read(), files[k], "exec"), G)
     G["OWN_MODULE"] = name; p = os.path.join(root, "own", name)
     exec(compile(open(p, encoding="utf-8").read(), p, "exec"), G); res["loaded"] = True
+    import types; _m = types.ModuleType(name[:-3]); _m.__dict__.update(G); sys.modules[name[:-3]] = _m   # tests may do "import <module>" or "from <module> import f"
     exec(compile(open(tests_path, encoding="utf-8").read(), tests_path, "exec"), G)
     for t in G.get("T", []):
         res["total"] += 1
@@ -73,7 +74,7 @@ def make_step(p):
         d.update(name=j["name"], title=str(j.get("title", ""))[:80], why=str(j.get("why", ""))[:200], design=str(j.get("design", ""))[:1200]); d["stage"] = "tests"; return "continue"
     if st == "tests":
         out, _ = llm_role("code", "Write the TESTS for the module below BEFORE the code exists. Output ONE Python code block that defines functions test_1(), test_2(), ... (6 to 10, each raises AssertionError when the behaviour is wrong) and a list T = [test_1, test_2, ...]. "
-                          "The tests run after the module is loaded into the agent (all agent functions exist; there are no keys and no network). Test only what the module defines or changes; use plain asserts; no file access, no network.", "Module %s: %s\nDesign: %s" % (d["name"], d["title"], d["design"]), maxtok=3500, temp=0.2)
+                          "The tests run after the module is loaded into the agent (all agent functions exist; there are no keys and no network). Do NOT import the module: its functions are already available as plain global names (importing it by name is also allowed but not needed). Test only what the module defines or changes; use plain asserts; no file access, no network.", "Module %s: %s\nDesign: %s" % (d["name"], d["title"], d["design"]), maxtok=3500, temp=0.2)
         if not out: return "later"
         t = _mk_code(out)
         if t.count("def test_") >= 3 and "T =" not in t and "T=" not in t: t += "\nT = [v for k, v in sorted(globals().items()) if k.startswith(\"test_\") and callable(v)]\n"
