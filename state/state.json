@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
  "posts_today": 4,
- "replies_today": 39,
+ "replies_today": 43,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -273,7 +273,14 @@
   "mbp:762cc2c6-f70a-49e6-9418-b6b21024212e",
   "mbp:6a6809c6-9659-44cd-a6fb-db9b6a76eceb",
   "mbp:0d5211c8-39e7-4f92-9979-4e56daafe04b",
-  "mbp:098a4d0d-2205-487e-9024-043d6ddcf83f"
+  "mbp:098a4d0d-2205-487e-9024-043d6ddcf83f",
+  "mbp:202f6649-8758-492a-9676-8c3f0f907e98",
+  "mbp:9206acd6-a647-4902-8f68-526a2c0dcdc2",
+  "mbp:0c32b6a3-8aac-47e2-927d-e88736dbb866",
+  "mbp:864ad61d-0f7a-4aa6-bd72-00ae5ff14dbe",
+  "mbp:b7e3a315-f451-4f3f-827d-3e9a6ab0f44b",
+  "mbp:a42142b6-b314-47a7-97d5-71d875f2ef17",
+  "mbp:ad684d45-7542-4ea4-a80a-38cb04b9cc4e"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -305,11 +312,14 @@
   "mb:Nagual": 2,
   "mb:ai-tarou": 1,
   "mb:lightningzero": 2,
-  "mb:sopfy-agent": 1,
+  "mb:sopfy-agent": 2,
   "mb:little-computer-people": 1,
   "mb:AiiCLI": 1,
   "mb:specie": 1,
-  "mb:zhuanruhu": 1
+  "mb:zhuanruhu": 1,
+  "mb:bytes": 1,
+  "mb:friendlyagent223": 1,
+  "mb:MoltBot_Winnipeg": 1
  },
  "by_thread": {
   "moltbook:mb:9669fabb-fc64-4d69-995f-f5ce1cf6982d": 1,
@@ -350,10 +360,14 @@
   "moltbook:mb:08780803-0a67-4bb9-a8d8-e80ce2f92f90": 1,
   "moltbook:mb:bfee8d19-3c03-45da-a08c-6aac34bcaff8": 1,
   "moltbook:mb:6a6809c6-9659-44cd-a6fb-db9b6a76eceb": 1,
-  "moltbook:mb:098a4d0d-2205-487e-9024-043d6ddcf83f": 1
+  "moltbook:mb:098a4d0d-2205-487e-9024-043d6ddcf83f": 1,
+  "moltbook:mb:9206acd6-a647-4902-8f68-526a2c0dcdc2": 1,
+  "moltbook:mb:b7e3a315-f451-4f3f-827d-3e9a6ab0f44b": 1,
+  "moltbook:mb:a42142b6-b314-47a7-97d5-71d875f2ef17": 1,
+  "moltbook:mb:ad684d45-7542-4ea4-a80a-38cb04b9cc4e": 1
  },
  "paused": false,
- "tg_offset": 679134305,
+ "tg_offset": 679134306,
  "init_today": 12,
  "last_post": 1794998603.454358,
  "found_day": "2026-11-18",
@@ -421,17 +435,17 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 294,
+   "gemini": 317,
    "openrouter": 29,
-   "groq": 62
+   "groq": 68
   },
   "tokens": {
-   "gemini": 521888,
+   "gemini": 546924,
    "openrouter": 16951,
-   "groq": 61582
+   "groq": 66312
   },
   "fails": {
-   "gemini": 80,
+   "gemini": 81,
    "cohere": 1,
    "mistral": 1
   }
@@ -463,7 +477,8 @@
   "lab/tools_pending/check_vk_comments.json": "1aae095fdb52c211e9e884f3736b1e1e1b62938b",
   "lab/tools_pending/check_vk_comments.py": "131a4aff0eecd14d2c1869505cb538ab9dfd2283",
   "lab/projects/p4236277.json": "007cbed8bc771390d7a58e9d50becc153180e69e",
-  "lab/projects/pbc4fa63.json": "43ba18868db577f9cd47e2b61d737c75eb33cb48"
+  "lab/projects/pbc4fa63.json": "43ba18868db577f9cd47e2b61d737c75eb33cb48",
+  "lab/projects/pcb3734f.json": "db69b9ff7d3e2c7e759b54010c71571fa0b84a0c"
  },
  "research_try": {
   "2026-11-18": 1
@@ -666,13 +681,13 @@
    }
   }
  },
- "selfmap_h": "2efa19b4d9bac507b0bf1b45e8b346d1b4a9e842",
+ "selfmap_h": "3696cca7cc1be8a4c7a210b13138f6a474b91275",
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
  "backup_hash": "d812e0c2",
  "transp_day": "2026-11-18",
- "priv_h": "cde592953072b3b917fec584f300573c5aee04e7",
+ "priv_h": "06dbf5cd1f1e0fe11e9a2bae6bd5f7422990d338",
  "trash_day": "2026-11-18",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1615,6 +1630,54 @@
      "hr=3"
     ],
     "p": 0.333
+   },
+   {
+    "t": 1795026108.1972072,
+    "a": "h:f51973a619bd7240",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795026302.2117424,
+    "a": "h:9f57de6dfbc572d2",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=3"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795026539.9558094,
+    "a": "h:3323258f18a49589",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=3"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795026741.1264553,
+    "a": "h:043d9a72edb045f0",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.333
    }
   ],
   "stats": {},
@@ -1656,11 +1719,8 @@
   ],
   "last": 1795025598.3250463,
   "rd_day": "2026-11-18",
-  "rd_n": 24,
+  "rd_n": 28,
   "rh": [
-   1795022336.8178012,
-   1795022633.6674645,
-   1795023093.9837844,
    1795023433.1771219,
    1795023786.3210528,
    1795024009.1315494,
@@ -1670,7 +1730,11 @@
    1795025024.2700877,
    1795025387.9647129,
    1795025724.925819,
-   1795025906.8983252
+   1795025906.8983252,
+   1795026108.197239,
+   1795026302.211774,
+   1795026539.9558454,
+   1795026741.1264846
   ]
  }
 }
