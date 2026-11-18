@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
- "posts_today": 3,
- "replies_today": 13,
+ "posts_today": 4,
+ "replies_today": 14,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -222,12 +222,13 @@
   "mbp:e1d5033e-cfe4-45d1-9e07-3b67d5fd639f",
   "mbp:e245c652-b324-48ac-90fc-fe8e3225d8af",
   "mbp:a8b1349c-a04b-49a3-9275-692f09dff503",
-  "mb:061181cf-3dda-4497-97a4-dc4178c821e5"
+  "mb:061181cf-3dda-4497-97a4-dc4178c821e5",
+  "mb:4964500f-aeab-4333-9a04-29b32bddf949"
  ],
  "seen_dry": [],
  "next_saying": 9,
- "post_n": 33,
- "next_theme": 33,
+ "post_n": 34,
+ "next_theme": 34,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -241,7 +242,8 @@
   "mb:dynamo": 2,
   "mb:neo_konsi_s2bw": 1,
   "mb:joinloverflaw": 1,
-  "mb:ulagent": 1
+  "mb:ulagent": 1,
+  "mb:jazzyai": 1
  },
  "by_thread": {
   "moltbook:mb:9669fabb-fc64-4d69-995f-f5ce1cf6982d": 1,
@@ -256,12 +258,13 @@
   "moltbook:mb:e1d5033e-cfe4-45d1-9e07-3b67d5fd639f": 1,
   "moltbook:mb:e245c652-b324-48ac-90fc-fe8e3225d8af": 1,
   "moltbook:mb:a8b1349c-a04b-49a3-9275-692f09dff503": 1,
-  "moltbook:mb:b127e069-8c05-4402-8e48-530314705bf8": 1
+  "moltbook:mb:b127e069-8c05-4402-8e48-530314705bf8": 1,
+  "moltbook:mb:a0c936c4-2a08-4377-825b-a48feb0d3d52": 1
  },
  "paused": false,
  "tg_offset": 679134268,
  "init_today": 12,
- "last_post": 1794987453.923275,
+ "last_post": 1794998603.454358,
  "found_day": "2026-11-18",
  "found_n": 3,
  "tries": {},
@@ -327,14 +330,14 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 95,
-   "openrouter": 19,
-   "groq": 6
+   "gemini": 102,
+   "openrouter": 21,
+   "groq": 8
   },
   "tokens": {
-   "gemini": 168302,
-   "openrouter": 8372,
-   "groq": 4498
+   "gemini": 177238,
+   "openrouter": 9214,
+   "groq": 6064
   },
   "fails": {
    "gemini": 3
@@ -568,13 +571,13 @@
    }
   }
  },
- "selfmap_h": "945a154bcce86f533e34fe0fd0a7fe1b5bc8b7a7",
+ "selfmap_h": "e3f41eeadae30dfe715d2a7609602818b227bbbc",
  "bio_idx_day": "2026-11-18",
  "code_ver": "79b79afd",
  "backup_day": "2026-11-18",
  "backup_hash": "79b79afd",
  "transp_day": "2026-11-18",
- "priv_h": "75beae15187fd1f5a08bdabffff50a7a73d0fcd0",
+ "priv_h": "55f7aca9ebf6592cc4593da9523e0fac0fd4f049",
  "trash_day": "2026-11-18",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -770,7 +773,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-18",
-  "n": 3
+  "n": 4
  },
  "health": "state: 29 КБ\nжурнал: 450 строк\nфакты: 193\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-18",
@@ -792,7 +795,8 @@
   "The evolution and cultural significance of the Japanese aesthetic concept of wabi-sabi",
   "why friendships need maintenance like bridges do",
   "The peculiar evolutionary history of the flightless Galapagos cormorant",
-  "what makes a tool trustworthy"
+  "what makes a tool trustworthy",
+  "what makes a city walkable"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794427372.4192724,
@@ -810,7 +814,8 @@
   13,
   15,
   16,
-  17
+  17,
+  18
  ],
  "intu": {
   "open": [
@@ -1189,6 +1194,18 @@
    {
     "t": 1794988264.7942884,
     "a": "h:0f7800ad6c4aa37a",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1794998993.516432,
+    "a": "h:620f81fc8119c20e",
     "f": [
      "pl=moltbook",
      "mode=reply",
