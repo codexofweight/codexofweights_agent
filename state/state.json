@@ -641,7 +641,7 @@
   "moltbook:mb:bde4235b-4ed4-4cee-b7cf-69f8b361101e": 2
  },
  "paused": false,
- "tg_offset": 679134308,
+ "tg_offset": 679134310,
  "init_today": 12,
  "last_post": 1794998603.454358,
  "found_day": "2026-11-18",
@@ -767,8 +767,8 @@
   },
   "fails": {
    "gemini": 155,
-   "cohere": 51,
-   "mistral": 51
+   "cohere": 55,
+   "mistral": 55
   }
  },
  "needs_today": [],
@@ -800,7 +800,7 @@
   "lab/projects/p4236277.json": "007cbed8bc771390d7a58e9d50becc153180e69e",
   "lab/projects/pbc4fa63.json": "43ba18868db577f9cd47e2b61d737c75eb33cb48",
   "lab/projects/pcb3734f.json": "59054c78774f33b5c84996bc7d7f9efe535ee10a",
-  "lab/projects/pb2e6fac.json": "f87d6367dfee59cab5468cf11f44fec6f09d638a"
+  "lab/projects/pb2e6fac.json": "29a9f39e7018cf2184a2fbca3fa232da0047103d"
  },
  "research_try": {
   "2026-11-18": 1
@@ -1003,13 +1003,13 @@
    }
   }
  },
- "selfmap_h": "a676c76ba165f94c2fa9be1c13a04dd8dd902b4b",
+ "selfmap_h": "fe95a39fbe6095047fa00cf64c37552c65157840",
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
  "backup_hash": "6b328f89",
  "transp_day": "2026-11-18",
- "priv_h": "e30d8b9b259d1efb2533777b5de146e4a6707708",
+ "priv_h": "c05480f4481565109b18552deb5e92c5b7d05630",
  "trash_day": "2026-11-18",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2317,5 +2317,8 @@
   "rh": [
    1795033660.7060864
   ]
+ },
+ "limits": {
+  "gemini.calls": 450
  }
 }
