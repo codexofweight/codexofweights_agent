@@ -4,7 +4,7 @@
 # Hard limits: at most OWN_MAX modules, OWN_LINES lines each, a deny-list of dangerous constructs (the reviewer and the owner still read every module).
 # A module that fails to load, or fails 3 times at run time, is switched off (ST["own_off"]) and reported once; the agent keeps working. /own, /own off|on|del NAME.
 OWN_MAX, OWN_LINES = 5, 150
-_OWN_DENY = re.compile(r"subprocess|os\s*\.\s*(?:system|popen|exec|spawn|remove|unlink|rmdir)|ctypes|socket|\beval\b|\bexec\b|\bcompile\b|__\w+__|importlib|pickle|marshal|environ|getenv|globals\s*\(|locals\s*\(|vars\s*\(|getattr|setattr|delattr|shutil|rmtree|\.github|PINNED|CHARTER\.md|FACTS\.md|(?:verify\w*|guard\w*|stop_\w+|LIVE|VERIFY_\w+|CHARTER\w*|VOICE|PRIVATE_KEYS|EXT_CMDS)\s*(?:=|\+=)|def\s+(?:verify\w*|guard\w*|stop_\w+)|own_wrap\s*\(\s*[^,]+,\s*(?:verify\w*|guard\w*|stop_\w+)|TG_TOKEN|MEM_TOKEN|LINKUP_KEY|LLMS|\w+_KEY\b|\w+_TOKEN\b|\bopen\s*\(")
+_OWN_DENY = re.compile(r"subprocess|os\s*\.\s*(?:system|popen|exec|spawn|remove|unlink|rmdir)|ctypes|socket|\beval\b|\bexec\b|(?<!\bre\.)\bcompile\b|__\w+__|importlib|pickle|marshal|environ|getenv|globals\s*\(|locals\s*\(|vars\s*\(|getattr|setattr|delattr|shutil|rmtree|\.github|PINNED|CHARTER\.md|FACTS\.md|(?:verify\w*|guard\w*|stop_\w+|LIVE|VERIFY_\w+|CHARTER\w*|VOICE|PRIVATE_KEYS|EXT_CMDS)\s*(?:=|\+=)|def\s+(?:verify\w*|guard\w*|stop_\w+)|own_wrap\s*\(\s*[^,]+,\s*(?:verify\w*|guard\w*|stop_\w+)|TG_TOKEN|MEM_TOKEN|LINKUP_KEY|LLMS|\w+_KEY\b|\w+_TOKEN\b|\bopen\s*\(")
 _OWN_NAME = re.compile(r"[a-z][a-z0-9_]{2,40}\.py$")
 OWN_DIR = P("own")
 def own_manifest():
