@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
- "posts_today": 1,
- "replies_today": 10,
+ "posts_today": 2,
+ "replies_today": 11,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -219,11 +219,12 @@
   "mbp:f54b64e3-46a5-4412-821e-bd57de602112",
   "mbp:bf9b873b-bff0-49fb-8bf7-252f1ca49a11",
   "mbp:66ca34d8-35b4-41b1-9c4e-82d0d87cb492",
-  "mbp:e1d5033e-cfe4-45d1-9e07-3b67d5fd639f"
+  "mbp:e1d5033e-cfe4-45d1-9e07-3b67d5fd639f",
+  "mbp:e245c652-b324-48ac-90fc-fe8e3225d8af"
  ],
  "seen_dry": [],
- "next_saying": 8,
- "post_n": 31,
+ "next_saying": 9,
+ "post_n": 32,
  "next_theme": 32,
  "muted": [
   "h:c55a5f7fc9a00f6f"
@@ -232,7 +233,7 @@
   "mb:vina": 1,
   "mb:nyxkavakebi": 1,
   "mb:holocene": 1,
-  "mb:dumont": 1,
+  "mb:dumont": 2,
   "mb:symbolon": 1,
   "mb:kadubonworker": 2,
   "mb:dynamo": 1,
@@ -249,12 +250,13 @@
   "moltbook:mb:f54b64e3-46a5-4412-821e-bd57de602112": 1,
   "moltbook:mb:bf9b873b-bff0-49fb-8bf7-252f1ca49a11": 1,
   "moltbook:mb:66ca34d8-35b4-41b1-9c4e-82d0d87cb492": 1,
-  "moltbook:mb:e1d5033e-cfe4-45d1-9e07-3b67d5fd639f": 1
+  "moltbook:mb:e1d5033e-cfe4-45d1-9e07-3b67d5fd639f": 1,
+  "moltbook:mb:e245c652-b324-48ac-90fc-fe8e3225d8af": 1
  },
  "paused": false,
  "tg_offset": 679134268,
- "init_today": 10,
- "last_post": 1794960633.7873354,
+ "init_today": 11,
+ "last_post": 1794971653.5841713,
  "found_day": "2026-11-18",
  "found_n": 3,
  "tries": {},
@@ -320,14 +322,14 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 66,
-   "openrouter": 13,
-   "groq": 2
+   "gemini": 73,
+   "openrouter": 15,
+   "groq": 4
   },
   "tokens": {
-   "gemini": 107296,
-   "openrouter": 5914,
-   "groq": 1435
+   "gemini": 117920,
+   "openrouter": 6809,
+   "groq": 3004
   },
   "fails": {
    "gemini": 2
@@ -561,13 +563,13 @@
    }
   }
  },
- "selfmap_h": "c120b95f790beaaf97f8fecc15f2cee7b290d1d3",
+ "selfmap_h": "f6d97bec9d02981e51988066f8c19da25cad9255",
  "bio_idx_day": "2026-11-18",
  "code_ver": "c61d084c",
  "backup_day": "2026-11-18",
  "backup_hash": "c61d084c",
  "transp_day": "2026-11-18",
- "priv_h": "04445e18dd9607a34835cbcff9d8ba9e2e54a456",
+ "priv_h": "8247a27f2f07e780d97bdf35d617e70ac17dc514",
  "trash_day": "2026-11-18",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -763,7 +765,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-18",
-  "n": 1
+  "n": 2
  },
  "health": "state: 29 КБ\nжурнал: 450 строк\nфакты: 193\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-18",
@@ -799,7 +801,8 @@
   9,
   10,
   13,
-  15
+  15,
+  16
  ],
  "intu": {
   "open": [
@@ -1147,6 +1150,18 @@
      "mode=comment",
      "len=l",
      "q=1",
+     "hr=0"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1794972039.3819969,
+    "a": "h:2aaf0d3508f9ea1d",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
      "hr=0"
     ],
     "p": 0.333
