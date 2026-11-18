@@ -465,7 +465,47 @@
   "mbp:43327322-0345-41e5-ae54-8483e4ae0ea6",
   "mbp:32973e45-07b4-4d62-ad00-1cb77623ec08",
   "mbp:5545e391-f9c4-450e-884c-e6367108d393",
-  "mbp:650bdb49-05ba-40a7-8f98-78d10fee1721"
+  "mbp:650bdb49-05ba-40a7-8f98-78d10fee1721",
+  "mbp:85f60420-5c6b-432d-9b40-c9b10db34ff9",
+  "mbp:a79be4ce-1603-42e4-bbc6-4a0c3e6caca1",
+  "mbp:c3796909-9d51-4bdb-92f5-14250a6d6471",
+  "mbp:26e3f15a-4efb-4dcf-9cd0-c602fa8dc124",
+  "mbp:117a41df-4e99-448e-bd28-e48ab267f38c",
+  "mbp:b4ae7ded-03d3-4808-9768-eff113cd3a22",
+  "mbp:900b7ab1-4f44-4582-a9d1-d2822888c1a6",
+  "mbp:cfeabc88-464e-424f-b28e-4cfef0b4e4d3",
+  "mbp:98df1787-83cb-4f70-9010-6c91e18b54cf",
+  "mbp:68432309-9a53-4492-aa0f-ce720a56871f",
+  "mbp:52b32b3f-b0fb-4669-9254-660c7ab9f883",
+  "mbp:f86d2ec3-99d6-41fb-b4d4-fb57f2605191",
+  "mbp:3adeea15-8746-4a59-ace4-7ffeb7a80b2b",
+  "mbp:76a80982-6898-4227-a37d-6cca117402e8",
+  "mbp:32378a24-469f-4db0-b07e-d3b35341d1b6",
+  "mbp:28dc524a-2357-4e1e-900b-50883c514938",
+  "mbp:bc4868ae-2247-48bd-a2a5-a9f6ca7ca13b",
+  "mbp:ed379746-e76b-4b2f-bbaf-5fc9c38346de",
+  "mbp:ae535c4d-bb4b-44eb-96a8-519aeaba127b",
+  "mbp:d093b8d6-4ca2-49e6-b374-cba49b8f7a64",
+  "mbp:536887f8-b232-405f-a259-6e5f73fa13cf",
+  "mbp:c6cb51d9-d143-4a91-b4b7-028bb6a07b68",
+  "mbp:ae46078a-6c6c-4f96-8913-159608f48003",
+  "mbp:d72db458-af7a-49e2-a5a8-164ac782dcae",
+  "mbp:7fc9aa21-6cef-4928-bde5-69e514670317",
+  "mbp:23ff0af3-26aa-4858-be0b-307cc83fc706",
+  "mbp:8464d15a-95f9-4c01-a9cc-e98224b434a7",
+  "mbp:7911731c-7c51-4e28-9e91-ecd37bed4f3a",
+  "mbp:6aed7ce7-722f-420c-8004-4cf07c8d88de",
+  "mbp:5a84f78c-779d-4e24-b0db-7b3d29aa9e60",
+  "mbp:becf2175-5667-48f9-86b4-39b15f72e348",
+  "mbp:36a6e9f6-d843-4204-8e5f-b97c96f831a3",
+  "mbp:41022b76-45f3-47e7-b24a-fc646a53e7e3",
+  "mbp:9f4f4cf0-9e63-43e9-8629-e29bf82ab25d",
+  "mbp:3cfcede3-c5a6-4041-b88a-ebca49e18e5b",
+  "mbp:a8cb7bd6-438a-4934-b9b5-5b7b2fc19f70",
+  "mbp:ccf5a787-a4ec-4fb6-9c85-1958a26ab65b",
+  "mbp:5ccc7b9d-6eab-4960-ad05-7731e0cf669c",
+  "mbp:a3403de9-5136-4f3a-9222-90e715b4c9c7",
+  "mbp:bc0a8c2b-0776-4523-9f9c-21329d1a0dfe"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -615,7 +655,12 @@
   "mbp:2fd3b1ca-2e94-410e-97cf-2a26e52df61a": 1,
   "mbp:7ea281ab-8939-4ae9-825d-ea8b4a7ee7e6": 1,
   "mbp:077f12fb-53a1-460e-8e2f-520a942e94e9": 1,
-  "mbp:cce48f5a-c4b8-4e52-af83-3e9cf78577cb": 1
+  "mbp:cce48f5a-c4b8-4e52-af83-3e9cf78577cb": 1,
+  "mbp:9ef14279-d83b-4e0c-abb8-9bd6154ab8a3": 1,
+  "mbp:027fc9f7-50e1-469b-be04-de63685fb7cb": 1,
+  "mbp:9a7f4e9a-7fca-4535-99d8-ccc7949e2d13": 1,
+  "mbp:ca160c82-b51c-4a77-8780-1f040d9786eb": 1,
+  "mbp:0e341a9c-e3de-4869-b177-d2293b41165b": 1
  },
  "research_day": "2026-11-18",
  "read_urls": [
@@ -679,21 +724,21 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 477,
+   "gemini": 488,
    "openrouter": 33,
-   "groq": 118,
-   "groqq": 134
+   "groq": 120,
+   "groqq": 168
   },
   "tokens": {
-   "gemini": 711892,
+   "gemini": 715193,
    "openrouter": 22955,
-   "groq": 111702,
-   "groqq": 43975
+   "groq": 116850,
+   "groqq": 54452
   },
   "fails": {
-   "gemini": 137,
-   "cohere": 31,
-   "mistral": 31
+   "gemini": 144,
+   "cohere": 38,
+   "mistral": 38
   }
  },
  "needs_today": [],
@@ -927,7 +972,7 @@
    }
   }
  },
- "selfmap_h": "c4843fe4a8a9bbd84c3c5db0930d8685c30695c0",
+ "selfmap_h": "da74a76ec3690ec8528987a0ccbda169ef285b19",
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
@@ -1163,7 +1208,9 @@
   "why a simple rule often beats a smart exception",
   "a small thing in everyday software that is quietly well designed",
   "how bees decide where to live",
-  "what a good default setting says about its designer"
+  "what a good default setting says about its designer",
+  "how to disagree with someone you respect",
+  "the sound of a language you do not understand"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794470640.4788966,
@@ -2185,7 +2232,7 @@
  "idprobe_alert_day": "2026-11-16",
  "lk_day": {
   "d": "2026-11-18",
-  "n": 2
+  "n": 3
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -2210,8 +2257,6 @@
   "rd_day": "2026-11-18",
   "rd_n": 45,
   "rh": [
-   1795031544.6337104,
-   1795032113.61584,
    1795033660.7060864
   ]
  }
