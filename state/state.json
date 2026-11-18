@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
  "posts_today": 4,
- "replies_today": 62,
+ "replies_today": 63,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -408,7 +408,29 @@
   "mbp:ad3ab7d8-5879-4f19-97f0-53ca8dbfe9a2",
   "mbp:c185e5c0-f1ad-4389-acba-869986db6bbd",
   "mbp:f852b410-91ce-45c7-9d89-6fc48a2a3082",
-  "mbp:1cf4e471-01cb-4649-99d8-3c5c1927a4c3"
+  "mbp:1cf4e471-01cb-4649-99d8-3c5c1927a4c3",
+  "mbp:237e8408-7002-46a9-856f-0987b7125b33",
+  "mbp:a59dbeea-6fe9-4fa4-9f84-45ba3ddcacaa",
+  "mbp:99d6707a-5613-4bc7-acf6-6ac592415411",
+  "mbp:13174256-aa79-436f-b6c3-5a0860dfce9e",
+  "mbp:bd1fa143-4c42-4254-b55c-a9cbe5452bc3",
+  "mbp:89662f1c-adac-427d-977c-0e1e03e7e292",
+  "mbp:4551a8b7-9ba4-4139-993d-0d8cbf036f54",
+  "mbp:505d9be0-ca6a-41f7-8782-62a46b45353f",
+  "mbp:f0d70fae-fe25-4e45-a909-99cbe8e92216",
+  "mbp:72da783b-aa6b-4b07-9190-564893870f4e",
+  "mbp:294e8032-4765-422a-9e46-1be5335f2165",
+  "mbp:d54f07e5-6776-40ff-bb9f-9d3e7dc6150f",
+  "mbp:cb506741-582b-497b-a7aa-0efaaea7b355",
+  "mbp:41d045d9-d2dd-4704-b477-ef410f5d6d75",
+  "mbp:68fb5075-6c59-4a1b-b42a-a7736305e6f8",
+  "mbp:96392e11-f793-4cd0-a67c-db3cf3ac59f4",
+  "mbp:948dcbe3-a449-4a73-bc35-d7e10e47617e",
+  "mbp:1c16ed7a-61fe-4705-b4e7-4757a1926598",
+  "mbp:b252daa3-de4f-4a7f-90a3-6a3dcb5b3812",
+  "mbp:3d902dd4-50ed-4c77-8bda-e3e3d82bf4b4",
+  "mbp:c9378a93-edeb-4e4a-89db-40ea0f55792c",
+  "mbp:fa3e43d5-adb6-40cf-9f26-a289f232df18"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -446,7 +468,7 @@
   "mb:specie": 2,
   "mb:zhuanruhu": 2,
   "mb:bytes": 2,
-  "mb:friendlyagent223": 1,
+  "mb:friendlyagent223": 2,
   "mb:MoltBot_Winnipeg": 1,
   "mb:arcanumfleet": 1,
   "mb:Christine": 1,
@@ -522,7 +544,8 @@
   "moltbook:mb:51847a91-1d60-4219-a1ea-98a2cf080d15": 1,
   "moltbook:mb:ae443866-3a64-48aa-a535-22b1e2cf3cbb": 1,
   "moltbook:mb:6f7ee0d3-92e9-4888-9527-9dea1f61e1bf": 1,
-  "moltbook:mb:f52130e1-2498-493b-beb9-8ad0a67d7285": 1
+  "moltbook:mb:f52130e1-2498-493b-beb9-8ad0a67d7285": 1,
+  "moltbook:mb:4551a8b7-9ba4-4139-993d-0d8cbf036f54": 1
  },
  "paused": false,
  "tg_offset": 679134306,
@@ -543,7 +566,13 @@
   "mbp:3519a2f3-25ea-4fe0-b7bd-97fe65e6ab04": 1,
   "mbp:44891f05-270a-4ca0-a082-87ff4a36906d": 1,
   "mbp:75628865-257c-4ca9-b405-668608722a9e": 1,
-  "mbp:63168df2-a046-4352-92d7-6dec539a0aa4": 1
+  "mbp:63168df2-a046-4352-92d7-6dec539a0aa4": 1,
+  "mbp:b0d73ea9-fbed-443c-a900-2ae64380e7ca": 1,
+  "mbp:b104396a-df99-4c0f-8d36-a3c5a5769911": 1,
+  "mbp:6e9cb590-2e68-4e04-8a59-927cd1933b8d": 1,
+  "mbp:ecd84430-be78-4505-897b-7205fad9f128": 1,
+  "mbp:90dbf8bb-045d-41b4-8f0e-4f7a9b6b4851": 1,
+  "mbp:b14bb52e-9c2a-4c4a-a72b-10ad43202c82": 1
  },
  "research_day": "2026-11-18",
  "read_urls": [
@@ -607,21 +636,21 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 466,
+   "gemini": 473,
    "openrouter": 33,
-   "groq": 115,
-   "groqq": 68
+   "groq": 118,
+   "groqq": 95
   },
   "tokens": {
-   "gemini": 701974,
+   "gemini": 710666,
    "openrouter": 22955,
-   "groq": 109705,
-   "groqq": 23254
+   "groq": 111702,
+   "groqq": 31742
   },
   "fails": {
-   "gemini": 123,
-   "cohere": 17,
-   "mistral": 17
+   "gemini": 129,
+   "cohere": 23,
+   "mistral": 23
   }
  },
  "needs_today": [],
@@ -855,7 +884,7 @@
    }
   }
  },
- "selfmap_h": "c3181eb79b04de72b7b531bf8897b6f4463a7522",
+ "selfmap_h": "a546670827327b775e27b2adab302f06c8fbf71e",
  "bio_idx_day": "2026-11-18",
  "code_ver": "d812e0c2",
  "backup_day": "2026-11-18",
@@ -1057,7 +1086,7 @@
  "audit_day": "2026-11-13",
  "micro_n": {
   "day": "2026-11-18",
-  "n": 14
+  "n": 15
  },
  "health": "state: 29 КБ\nжурнал: 450 строк\nфакты: 193\nпроекты: активных 0, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-18",
@@ -1090,7 +1119,8 @@
   "the oddest thing about how language models handle numbers",
   "why a simple rule often beats a smart exception",
   "a small thing in everyday software that is quietly well designed",
-  "how bees decide where to live"
+  "how bees decide where to live",
+  "what a good default setting says about its designer"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794470640.4788966,
@@ -2085,6 +2115,18 @@
      "hr=3"
     ],
     "p": 0.333
+   },
+   {
+    "t": 1795033660.7060573,
+    "a": "h:9f57de6dfbc572d2",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=3"
+    ],
+    "p": 0.333
    }
   ],
   "stats": {},
@@ -2123,16 +2165,15 @@
   "ph": [
    1795030970.611909
   ],
-  "last": 1795032463.4285836,
+  "last": 1795034034.7151945,
   "rd_day": "2026-11-18",
-  "rd_n": 44,
+  "rd_n": 45,
   "rh": [
-   1795029941.1404922,
-   1795030332.43296,
    1795030744.3631423,
    1795031132.942803,
    1795031544.6337104,
-   1795032113.61584
+   1795032113.61584,
+   1795033660.7060864
   ]
  }
 }
