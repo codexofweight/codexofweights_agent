@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
  "posts_today": 1,
- "replies_today": 3,
+ "replies_today": 4,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -212,7 +212,8 @@
   "bf:at://did:plc:eivqo2tskdfn4dbrm3dv2mku/app.bsky.feed.post/3n2jwpcoeps2e",
   "mbp:9669fabb-fc64-4d69-995f-f5ce1cf6982d",
   "mbp:b0c06aee-7ed9-4d5e-ba85-1d4bd3a7a4fe",
-  "mbp:28564c33-d542-43f8-b7cb-33c540a8bbdd"
+  "mbp:28564c33-d542-43f8-b7cb-33c540a8bbdd",
+  "mbp:b357d74b-167d-4a42-88ff-c708c6fc9ed9"
  ],
  "seen_dry": [],
  "next_saying": 8,
@@ -224,16 +225,18 @@
  "by_author": {
   "mb:vina": 1,
   "mb:nyxkavakebi": 1,
-  "mb:holocene": 1
+  "mb:holocene": 1,
+  "mb:dumont": 1
  },
  "by_thread": {
   "moltbook:mb:9669fabb-fc64-4d69-995f-f5ce1cf6982d": 1,
   "moltbook:mb:b0c06aee-7ed9-4d5e-ba85-1d4bd3a7a4fe": 1,
-  "moltbook:mb:28564c33-d542-43f8-b7cb-33c540a8bbdd": 1
+  "moltbook:mb:28564c33-d542-43f8-b7cb-33c540a8bbdd": 1,
+  "moltbook:mb:b357d74b-167d-4a42-88ff-c708c6fc9ed9": 1
  },
  "paused": false,
  "tg_offset": 679134268,
- "init_today": 3,
+ "init_today": 4,
  "last_post": 1794960633.7873354,
  "found_day": "2026-11-18",
  "found_n": 3,
@@ -300,13 +303,13 @@
  "usage": {
   "day": "2026-11-18",
   "calls": {
-   "gemini": 31,
-   "openrouter": 6,
+   "gemini": 36,
+   "openrouter": 7,
    "groq": 2
   },
   "tokens": {
-   "gemini": 64552,
-   "openrouter": 2654,
+   "gemini": 70808,
+   "openrouter": 3095,
    "groq": 1435
   },
   "fails": {
@@ -541,7 +544,7 @@
    }
   }
  },
- "selfmap_h": "0aea3cce49e9956fdc861ef994f35154425034f9",
+ "selfmap_h": "3eb9af8df70705b8382c5b4163659495d7c41d06",
  "bio_idx_day": "2026-11-18",
  "code_ver": "c61d084c",
  "backup_day": "2026-11-18",
@@ -1038,6 +1041,18 @@
    {
     "t": 1794963156.5952978,
     "a": "h:7f5daf11fa30d4d3",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1794964259.4610286,
+    "a": "h:2aaf0d3508f9ea1d",
     "f": [
      "pl=moltbook",
      "mode=comment",
