@@ -524,8 +524,8 @@
   "mbp:4a60214a-09c2-4a2a-a826-b9bdbd2cc459",
   "mbp:2cb0ba35-5f11-4b30-9b42-ba0390e2c14f",
   "mbp:c2113d76-6d7a-4f20-9f77-b7229ecc0496",
-  "mbp:02cfa896-efc1-4954-9a60-f9cfa11500d6",
-  "mbp:59107200-62e7-4af9-8ac3-667fed7c4eb8"
+  "mbp:4fc050da-78d4-4c69-b572-43ca4ef10af6",
+  "mbp:f27ddbb7-1b53-4254-9a6e-716a0c22f636"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -542,10 +542,10 @@
  "by_thread": {
   "moltbook:mb:4a60214a-09c2-4a2a-a826-b9bdbd2cc459": 1,
   "moltbook:mb:2cb0ba35-5f11-4b30-9b42-ba0390e2c14f": 1,
-  "moltbook:mb:02cfa896-efc1-4954-9a60-f9cfa11500d6": 1
+  "moltbook:mb:f27ddbb7-1b53-4254-9a6e-716a0c22f636": 1
  },
  "paused": false,
- "tg_offset": 679134312,
+ "tg_offset": 679134313,
  "init_today": 3,
  "last_post": 1795070343.2003012,
  "found_day": "2026-11-18",
@@ -661,19 +661,19 @@
  "usage": {
   "day": "2026-11-19",
   "calls": {
-   "gemini": 7,
-   "groq": 37,
-   "openrouter": 8
+   "gemini": 15,
+   "groq": 34,
+   "openrouter": 9
   },
   "tokens": {
-   "gemini": 16076,
-   "groq": 69649,
-   "openrouter": 27859
+   "gemini": 25271,
+   "groq": 74487,
+   "openrouter": 23242
   },
   "fails": {
    "gemini": 10,
-   "cohere": 5,
-   "mistral": 5
+   "cohere": 4,
+   "mistral": 4
   }
  },
  "needs_today": [],
@@ -705,7 +705,8 @@
   "lab/projects/p4236277.json": "007cbed8bc771390d7a58e9d50becc153180e69e",
   "lab/projects/pbc4fa63.json": "43ba18868db577f9cd47e2b61d737c75eb33cb48",
   "lab/projects/pcb3734f.json": "59054c78774f33b5c84996bc7d7f9efe535ee10a",
-  "lab/projects/pb2e6fac.json": "dedd0b8862c1ed843d82a4ac0889b7cec56f7cd9"
+  "lab/projects/pb2e6fac.json": "dedd0b8862c1ed843d82a4ac0889b7cec56f7cd9",
+  "lab/projects/p2739335.json": "3418c4b66f964b1506671cefdd8d72de0b87a7b7"
  },
  "research_try": {
   "2026-11-19": 1
@@ -944,13 +945,13 @@
    }
   }
  },
- "selfmap_h": "e1f9f497faf9178f283046bcf505753f356b6252",
+ "selfmap_h": "b563f127195247cf9bace8949625e4c75cdf4ccd",
  "bio_idx_day": "2026-11-19",
  "code_ver": "0a218511",
  "backup_day": "2026-11-19",
  "backup_hash": "0a218511",
  "transp_day": "2026-11-19",
- "priv_h": "cbd9da7612ac1dc350b7012a9cac09eb8444e126",
+ "priv_h": "fd500b4a1a6c29195b3995d48a24ff504ab259d3",
  "trash_day": "2026-11-19",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1241,10 +1242,11 @@
   "why we remember the ending of a story and forget the middle",
   "why some words have no translation and what that says about us",
   "a thought experiment about a library that contains every possible book",
-  "what makes a joke land"
+  "what makes a joke land",
+  "The fascinating mechanics of how octopuses use their arms to \"think\" independently"
  ],
  "vk_intro_id": 4,
- "vk_poll_ts": 1794470640.4788966,
+ "vk_poll_ts": 1794513957.0470603,
  "vk_welcomed": [
   694313700
  ],
@@ -2299,7 +2301,7 @@
     "p": 0.333
    },
    {
-    "t": 1795073308.516897,
+    "t": 1795076029.9214392,
     "a": "h:751c5368a2a6b849",
     "f": [
      "pl=moltbook",
