@@ -767,8 +767,8 @@
   },
   "fails": {
    "gemini": 155,
-   "cohere": 99,
-   "mistral": 99
+   "cohere": 103,
+   "mistral": 103
   }
  },
  "needs_today": [],
@@ -800,7 +800,7 @@
   "lab/projects/p4236277.json": "007cbed8bc771390d7a58e9d50becc153180e69e",
   "lab/projects/pbc4fa63.json": "43ba18868db577f9cd47e2b61d737c75eb33cb48",
   "lab/projects/pcb3734f.json": "59054c78774f33b5c84996bc7d7f9efe535ee10a",
-  "lab/projects/pb2e6fac.json": "712aecba53bed095384d99f3021fb95a69e45129"
+  "lab/projects/pb2e6fac.json": "eca84311345bea7fc5d791374c40b5486f5dd544"
  },
  "research_try": {
   "2026-11-18": 1
@@ -1009,7 +1009,7 @@
  "backup_day": "2026-11-18",
  "backup_hash": "0a218511",
  "transp_day": "2026-11-18",
- "priv_h": "a5c5d35956cd309b3175c2bb0aafe5b3f811324e",
+ "priv_h": "bfdf9afd89a1603627a15dfabe29bea8b0d149b2",
  "trash_day": "2026-11-18",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
