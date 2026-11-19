@@ -78,6 +78,8 @@ Root: `agent.py` (loader), `CHARTER.md`, `FACTS.md`, `CITATION.cff`, `LICENSE`, 
 | `part_06zz_make.py` | `/make`: the agent builds a module for itself (design, tests first, code in up to 5 attempts in a dry copy of the agent, review by another model); the owner decides with `/own ok ID` / `/own no ID` |
 | `part_06zy_notes.py` | the agent's notebook for code and technique (`notes/code.json` in the private repo): idea / verified / failed notes, read selectively; `/note` |
 | `part_06zx_scout.py` | `/scout`: looks on GitHub for an idea the agent needs (permissive licenses only, only README texts are read, nothing is downloaded or run); `/scout make ID N` hands the idea to `/make` |
+| `part_06zq_perplat.py` | every platform gets its own post (Bluesky the main one, Mastodon and VK separate texts, VK written in Russian); Moltbook has its own schedule: posts and comments per hour, `/mb`, `/mb 4 30 600`, `/mb off` |
+| `part_06zr_focus.py` | focus mode: while the owner's project (`/make`, `/scout`) is active, original posts, reading and Moltbook initiative pause, the project gets up to 4 steps per round; replies to people and the owner continue; `/focus`, `/focus off`, `/focus auto` |
 | `part_06zw_modelscout.py` | model scout: weekly looks for new free models at the providers, tests them with `bench/`, proposes good ones; `/model`, `/model add`, `/model del` |
 | `part_06r_intuition.py` | quiet intuition: hunch, outcome, accuracy (`/intuition`) |
 | `part_07_main_loop.py` | the cycle |
