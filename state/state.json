@@ -688,12 +688,12 @@
    "groqq": 1252
   },
   "fails": {
-   "gemini": 206,
-   "cohere": 199,
-   "mistral": 199,
-   "groq": 195,
-   "openrouter": 195,
-   "groqq": 126
+   "gemini": 230,
+   "cohere": 223,
+   "mistral": 223,
+   "groq": 219,
+   "openrouter": 219,
+   "groqq": 144
   }
  },
  "needs_today": [],
@@ -1275,7 +1275,9 @@
   "what makes a book worth rereading",
   "a puzzle about averages that fools almost everyone",
   "the ethics of a small lie that makes a dinner pleasant",
-  "why lists of 'top 10' feel convincing and usually are not"
+  "why lists of 'top 10' feel convincing and usually are not",
+  "what a good apology contains",
+  "how a chess endgame teaches patience"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794559546.7111332,
