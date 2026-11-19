@@ -74,13 +74,17 @@ def make_step(p):
         if not j or not _OWN_NAME.match(str(j.get("name", ""))) or any(x["file"] == j["name"] for x in own_manifest()["modules"]): d["design_fail"] = d.get("design_fail", 0) + 1; return "failed" if d["design_fail"] >= 3 else "later"
         d.update(name=j["name"], title=str(j.get("title", ""))[:80], why=str(j.get("why", ""))[:200], design=str(j.get("design", ""))[:1200]); d["stage"] = "tests"; return "continue"
     if st == "tests":
-        out, _ = llm_role("code", "Write the TESTS for the module below BEFORE the code exists. Output ONE Python code block that defines functions test_1(), test_2(), ... (6 to 10, each raises AssertionError when the behaviour is wrong) and a list T = [test_1, test_2, ...]. "
+        out, _ = llm_role("code", "Write the TESTS for the module below BEFORE the code exists. Output ONE Python code block that defines functions test_1(), test_2(), ... (6 to 8 SHORT tests, at most 70 lines in all, each raises AssertionError when the behaviour is wrong) and a list T = [test_1, test_2, ...]. "
                           "The tests run after the module is loaded into the agent (all agent functions exist; there are no keys and no network). Do NOT import the module: its functions are already available as plain global names (importing it by name is also allowed but not needed). Test only what the module defines or changes; use plain asserts; no file access, no network.", "Module %s: %s\nDesign: %s" % (d["name"], d["title"], d["design"]), maxtok=3500, temp=0.2)
         if not out: return "later"
         t = _mk_code(out)
         if t.count("def test_") >= 3 and "T =" not in t and "T=" not in t: t += "\nT = [v for k, v in sorted(globals().items()) if k.startswith(\"test_\") and callable(v)]\n"
+        import ast
+        try: ast.parse(t); _ok = len(t) <= 6000
+        except SyntaxError: _ok = False
+        if not _ok: t = ""
         if t.count("def test_") < 3 or len(t) < 80: d["tests_fail"] = d.get("tests_fail", 0) + 1; log("make_tests_bad", out_len=len(out), got=len(t), head=out[:160].replace("\n", " ")); return "failed" if d["tests_fail"] >= 3 else "later"
-        d["tests"] = t[:6000]; d["stage"] = "code"; d["try"] = 0; return "continue"
+        d["tests"] = t; d["stage"] = "code"; d["try"] = 0; return "continue"
     if st == "code":
         if d["try"] >= 5: d["stage"] = "failed_tests"; return "continue"
         out, _ = llm_role("code", "Write the module. Output ONE Python code block with the complete file and nothing else. " + MAKE_RULES, "Module %s: %s\nDesign: %s\n\nTests it must pass (they run after loading):\n%s%s" % (d["name"], d["title"], d["design"], d["tests"][:3500], ("\n\nYour previous attempt failed:\n" + d["last_fail"][:1500] + "\nPrevious code:\n" + d.get("code", "")[:3500]) if d.get("last_fail") else "") + note_block(d["title"] + " " + d["design"]), maxtok=2500, temp=0.2)
@@ -89,6 +93,8 @@ def make_step(p):
         if bad: d["last_fail"] = "static check: " + bad; return "continue"
         res = make_dry_test(d["name"], code, d["tests"])
         if res.get("loaded") and res.get("total") and res["passed"] == res["total"]: d["test_result"] = "%d/%d" % (res["passed"], res["total"]); d["stage"] = "review"; d.pop("last_fail", None); return "continue"
+        if not res.get("loaded") and re.search(r"\(tests\.py, line", " ".join(res.get("errors", []))) and d.get("tests_regen", 0) < 2:
+            d["tests_regen"] = d.get("tests_regen", 0) + 1; d["stage"] = "tests"; d["try"] = 0; d.pop("last_fail", None); return "continue"   # the TESTS are broken, not the code
         d["last_fail"] = ("passed %d of %d. " % (res.get("passed", 0), res.get("total", 0))) + "; ".join(res.get("errors", []))[:900] + (" " + res.get("tb", "") if not res.get("loaded") else ""); return "continue"
     if st == "failed_tests":
         note_add("Module idea failed its own tests in 5 attempts: %s. Last error: %s" % (d["title"], d.get("last_fail", "")[:120]), "failed", "make " + p["id"], "make")
