@@ -524,7 +524,8 @@
   "mbp:4a60214a-09c2-4a2a-a826-b9bdbd2cc459",
   "mbp:2cb0ba35-5f11-4b30-9b42-ba0390e2c14f",
   "mbp:c2113d76-6d7a-4f20-9f77-b7229ecc0496",
-  "mbp:02cfa896-efc1-4954-9a60-f9cfa11500d6"
+  "mbp:02cfa896-efc1-4954-9a60-f9cfa11500d6",
+  "mbp:59107200-62e7-4af9-8ac3-667fed7c4eb8"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -661,18 +662,18 @@
   "day": "2026-11-19",
   "calls": {
    "gemini": 7,
-   "groq": 35,
-   "openrouter": 7
+   "groq": 37,
+   "openrouter": 8
   },
   "tokens": {
    "gemini": 16076,
-   "groq": 68593,
-   "openrouter": 22499
+   "groq": 69649,
+   "openrouter": 27859
   },
   "fails": {
-   "gemini": 9,
-   "cohere": 4,
-   "mistral": 4
+   "gemini": 10,
+   "cohere": 5,
+   "mistral": 5
   }
  },
  "needs_today": [],
@@ -943,7 +944,7 @@
    }
   }
  },
- "selfmap_h": "e43bfc637c2c5a7e44c51b9dff98ceae949f17cb",
+ "selfmap_h": "e1f9f497faf9178f283046bcf505753f356b6252",
  "bio_idx_day": "2026-11-19",
  "code_ver": "0a218511",
  "backup_day": "2026-11-19",
