@@ -29,5 +29,35 @@ for _name, _want in PINNED_SHA256.items():
 for _f in _parts + [os.path.join(_D, "CHARTER.md"), os.path.join(_D, "FACTS.md")]:      # printed into the public run log: any silent change becomes visible
     try: print("sha256", os.path.basename(_f), hashlib.sha256(open(_f, "rb").read()).hexdigest()[:16], flush=True)
     except Exception: pass
-for _f in _parts:
-    exec(compile(open(_f, encoding="utf-8").read(), _f, "exec"), globals())
+# --- Stabilisation (2026-11-20): one bad part must never take the agent down silently. ---
+# Core parts (pinned + part_01..part_04 + part_07 main loop) must load, otherwise the agent halts loudly.
+# Every OTHER part runs under a guard: if it raises, or if it overwrites a function/module that existed before it
+# (e.g. "import http.client" replacing the agent's own http()), the damage is rolled back, the part is skipped and the
+# failure is remembered in _PART_FAILS (the watchdog part tells the owner in Telegram).
+import types as _types
+_PART_FAILS = []
+_CORE = set(PINNED_SHA256) | {"part_02_memory.py", "part_03_adapters.py", "part_04_research.py", "part_07_main_loop.py"}
+def _ldr_run(G, files, fails, core):      # everything lives in locals: parts share globals() and must not be able to break the loader itself
+    def kind(v):
+        if isinstance(v, _types.ModuleType): return "m"
+        return "f" if callable(v) else None
+    def snap(): return {k: v for k, v in list(G.items()) if not k.startswith("__") and kind(v)}
+    for f in files:
+        bn = os.path.basename(f)
+        if bn in core or bn.startswith("part_01") or bn.startswith("part_07"):
+            exec(compile(open(f, encoding="utf-8").read(), f, "exec"), G); continue
+        before = snap()
+        try:
+            exec(compile(open(f, encoding="utf-8").read(), f, "exec"), G)
+            bad = [k for k, v in before.items() if kind(G.get(k)) != kind(v)]
+            if bad:
+                for k in bad: G[k] = before[k]
+                fails.append((bn, "clobbered " + ",".join(sorted(bad))[:200]))
+                print("PART_GUARD", bn, "overwrote", bad, "- restored", flush=True)
+        except BaseException as ex:
+            if isinstance(ex, KeyboardInterrupt): raise
+            for k, v in before.items():                    # roll back anything the half-run part replaced
+                if G.get(k) is not v: G[k] = v
+            fails.append((bn, "%s: %s" % (type(ex).__name__, str(ex)[:160])))
+            print("PART_GUARD", bn, "FAILED to load:", type(ex).__name__, str(ex)[:200], "- skipped", flush=True)
+_ldr_run(globals(), _parts, _PART_FAILS, _CORE)
