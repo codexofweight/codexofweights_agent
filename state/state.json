@@ -551,7 +551,7 @@
   "moltbook:mb:22026ab2-26cd-4414-b70d-1442f8b89405": 1
  },
  "paused": false,
- "tg_offset": 679134315,
+ "tg_offset": 679134316,
  "init_today": 5,
  "last_post": 1795077942.5377936,
  "found_day": "2026-11-18",
@@ -716,7 +716,7 @@
   "lab/projects/pb2e6fac.json": "dedd0b8862c1ed843d82a4ac0889b7cec56f7cd9",
   "lab/projects/p2739335.json": "d2156323abc6253e328129baf0685d533441c97f",
   "lab/projects/pfdd9bef.json": "ad9040f599a9d9a90bb621998bc5de1d4711b8cf",
-  "lab/projects/p81b4c51.json": "2bcfc4a9f217e4dc254f577c3187ace2fe97fa8d"
+  "lab/projects/p81b4c51.json": "006b659fcdb619d930eb2a0c3793e56446cd1050"
  },
  "research_try": {
   "2026-11-19": 1
@@ -961,7 +961,7 @@
  "backup_day": "2026-11-19",
  "backup_hash": "7eec50d0",
  "transp_day": "2026-11-19",
- "priv_h": "0d599436f1a3201bd62825bc0c39b9bbb4abc5ee",
+ "priv_h": "42c07f3321f67081b2b5fced1e06e7bd08d4f81e",
  "trash_day": "2026-11-19",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
