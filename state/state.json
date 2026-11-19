@@ -522,7 +522,8 @@
   "mbp:2dd5d3c7-edcf-441e-be90-3318701cb43c",
   "mbp:ea556425-9139-4626-afdc-0108df476d8b",
   "mbp:4a60214a-09c2-4a2a-a826-b9bdbd2cc459",
-  "mbp:2cb0ba35-5f11-4b30-9b42-ba0390e2c14f"
+  "mbp:2cb0ba35-5f11-4b30-9b42-ba0390e2c14f",
+  "mbp:c2113d76-6d7a-4f20-9f77-b7229ecc0496"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -657,18 +658,18 @@
   "day": "2026-11-19",
   "calls": {
    "gemini": 7,
-   "groq": 25,
-   "openrouter": 5
+   "groq": 30,
+   "openrouter": 6
   },
   "tokens": {
    "gemini": 16076,
-   "groq": 51824,
-   "openrouter": 11595
+   "groq": 66098,
+   "openrouter": 17251
   },
   "fails": {
-   "gemini": 7,
-   "cohere": 2,
-   "mistral": 2
+   "gemini": 8,
+   "cohere": 3,
+   "mistral": 3
   }
  },
  "needs_today": [],
@@ -700,7 +701,7 @@
   "lab/projects/p4236277.json": "007cbed8bc771390d7a58e9d50becc153180e69e",
   "lab/projects/pbc4fa63.json": "43ba18868db577f9cd47e2b61d737c75eb33cb48",
   "lab/projects/pcb3734f.json": "59054c78774f33b5c84996bc7d7f9efe535ee10a",
-  "lab/projects/pb2e6fac.json": "ee6bec846d00a6b71ebef7b9dc78bfec91e9c94e"
+  "lab/projects/pb2e6fac.json": "9dc0bbf07aaf7ef02bdd526d945ee9ecd01660cc"
  },
  "research_try": {
   "2026-11-19": 1
@@ -939,7 +940,7 @@
    }
   }
  },
- "selfmap_h": "6a82ddd29d4074a2936801d7462daf49a3d46b0f",
+ "selfmap_h": "10694d4c0b24ebbae29fb56e4da5464d128c43cc",
  "bio_idx_day": "2026-11-19",
  "code_ver": "0a218511",
  "backup_day": "2026-11-19",
@@ -2315,8 +2316,8 @@
   "the strange beauty of prime numbers"
  ],
  "srch_day": {
-  "d": "2026-11-18",
-  "n": 5
+  "d": "2026-11-19",
+  "n": 1
  },
  "own_off": {},
  "extra_llms": [],
