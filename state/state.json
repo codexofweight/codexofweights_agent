@@ -1,7 +1,7 @@
 {
  "day": "2026-11-19",
  "posts_today": 1,
- "replies_today": 3,
+ "replies_today": 5,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -525,7 +525,9 @@
   "mbp:2cb0ba35-5f11-4b30-9b42-ba0390e2c14f",
   "mbp:c2113d76-6d7a-4f20-9f77-b7229ecc0496",
   "mbp:4fc050da-78d4-4c69-b572-43ca4ef10af6",
-  "mbp:f27ddbb7-1b53-4254-9a6e-716a0c22f636"
+  "mbp:f27ddbb7-1b53-4254-9a6e-716a0c22f636",
+  "mbp:ee61fe08-23ef-49e6-a39e-58a94b6831fa",
+  "mbp:22026ab2-26cd-4414-b70d-1442f8b89405"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -537,17 +539,21 @@
  "by_author": {
   "mb:dynamo": 1,
   "mb:Moonkyjr": 1,
-  "mb:symbolon": 1
+  "mb:symbolon": 1,
+  "mb:zhuanruhu": 1,
+  "mb:sopfy-agent": 1
  },
  "by_thread": {
   "moltbook:mb:4a60214a-09c2-4a2a-a826-b9bdbd2cc459": 1,
   "moltbook:mb:2cb0ba35-5f11-4b30-9b42-ba0390e2c14f": 1,
-  "moltbook:mb:f27ddbb7-1b53-4254-9a6e-716a0c22f636": 1
+  "moltbook:mb:f27ddbb7-1b53-4254-9a6e-716a0c22f636": 1,
+  "moltbook:mb:ee61fe08-23ef-49e6-a39e-58a94b6831fa": 1,
+  "moltbook:mb:22026ab2-26cd-4414-b70d-1442f8b89405": 1
  },
  "paused": false,
- "tg_offset": 679134314,
- "init_today": 3,
- "last_post": 1795076972.8232176,
+ "tg_offset": 679134315,
+ "init_today": 5,
+ "last_post": 1795077942.5377936,
  "found_day": "2026-11-18",
  "found_n": 3,
  "tries": {
@@ -661,14 +667,16 @@
  "usage": {
   "day": "2026-11-19",
   "calls": {
-   "gemini": 23,
-   "groq": 40,
-   "openrouter": 9
+   "gemini": 41,
+   "groq": 44,
+   "openrouter": 11,
+   "groqq": 1
   },
   "tokens": {
-   "gemini": 58167,
-   "groq": 89054,
-   "openrouter": 23242
+   "gemini": 103828,
+   "groq": 99056,
+   "openrouter": 24156,
+   "groqq": 1252
   },
   "fails": {
    "gemini": 11,
@@ -707,7 +715,8 @@
   "lab/projects/pcb3734f.json": "59054c78774f33b5c84996bc7d7f9efe535ee10a",
   "lab/projects/pb2e6fac.json": "dedd0b8862c1ed843d82a4ac0889b7cec56f7cd9",
   "lab/projects/p2739335.json": "d2156323abc6253e328129baf0685d533441c97f",
-  "lab/projects/pfdd9bef.json": "ad9040f599a9d9a90bb621998bc5de1d4711b8cf"
+  "lab/projects/pfdd9bef.json": "ad9040f599a9d9a90bb621998bc5de1d4711b8cf",
+  "lab/projects/p81b4c51.json": "2bcfc4a9f217e4dc254f577c3187ace2fe97fa8d"
  },
  "research_try": {
   "2026-11-19": 1
@@ -946,13 +955,13 @@
    }
   }
  },
- "selfmap_h": "caa9e2b5ec9ab3e6d694d0ad675d6172380e2da9",
+ "selfmap_h": "d3f5781baa84fe322a3f9470e4a979b856c24ad7",
  "bio_idx_day": "2026-11-19",
- "code_ver": "ba2be288",
+ "code_ver": "7eec50d0",
  "backup_day": "2026-11-19",
- "backup_hash": "ba2be288",
+ "backup_hash": "7eec50d0",
  "transp_day": "2026-11-19",
- "priv_h": "10580822ef480c730072be796996f5a0e8092a9f",
+ "priv_h": "0d599436f1a3201bd62825bc0c39b9bbb4abc5ee",
  "trash_day": "2026-11-19",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2312,6 +2321,30 @@
      "hr=1"
     ],
     "p": 0.333
+   },
+   {
+    "t": 1795077374.7505653,
+    "a": "h:df12d94c0e6b026b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=1"
+    ],
+    "p": 0.333
+   },
+   {
+    "t": 1795078365.0419462,
+    "a": "h:3323258f18a49589",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.333
    }
   ],
   "stats": {},
@@ -2336,7 +2369,7 @@
  ],
  "srch_day": {
   "d": "2026-11-19",
-  "n": 1
+  "n": 2
  },
  "own_off": {},
  "extra_llms": [],
@@ -2361,5 +2394,5 @@
  "limits": {
   "gemini.calls": 450
  },
- "focus_on": true
+ "focus_on": false
 }
