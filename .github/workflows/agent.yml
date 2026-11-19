@@ -17,6 +17,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Pre-flight (a broken upload must not silently stop the agent)
+        id: pre
+        continue-on-error: true
+        run: python scripts/preflight.py
+      - name: Tell owner if pre-flight failed
+        if: steps.pre.outcome == 'failure'
+        run: |
+          curl -s -m 20 "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data-urlencode text="⚠️ Предзапуск нашёл ошибку в загруженных файлах. Агент всё равно стартует: сломанный файл будет пропущен. Открой Actions → agent-cycle → шаг Pre-flight." >/dev/null || true
       - name: Run one cycle
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
