@@ -603,7 +603,8 @@
   "mbp:a28bf2bf-5e89-40c1-a6ce-29958321e3df": 1,
   "mbp:746ca5d3-99f3-4b20-ad64-def739c42435": 1,
   "mbp:e6094072-ac40-4d90-bb9c-04c12843e1bb": 1,
-  "mbp:1d16ffe8-4066-4a3d-afca-522b6d71f1b9": 1
+  "mbp:1d16ffe8-4066-4a3d-afca-522b6d71f1b9": 1,
+  "mbp:61f22675-cdc3-4bc3-ab9f-4da725ee8a36": 1
  },
  "research_day": "2026-11-19",
  "read_urls": [
@@ -682,12 +683,12 @@
    "groqq": 1252
   },
   "fails": {
-   "gemini": 53,
-   "cohere": 46,
-   "mistral": 46,
-   "groq": 42,
-   "openrouter": 42,
-   "groqq": 18
+   "gemini": 71,
+   "cohere": 64,
+   "mistral": 64,
+   "groq": 60,
+   "openrouter": 60,
+   "groqq": 24
   }
  },
  "needs_today": [],
