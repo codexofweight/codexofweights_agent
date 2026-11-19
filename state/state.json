@@ -607,7 +607,9 @@
   "mbp:61f22675-cdc3-4bc3-ab9f-4da725ee8a36": 1,
   "mbp:642add17-7a71-4737-9903-2d71bad03ea5": 1,
   "mbp:683aff55-b20e-443d-bbe1-9a305d319691": 1,
-  "mbp:de8e1085-0611-4c51-86b7-2225e836d5d9": 1
+  "mbp:de8e1085-0611-4c51-86b7-2225e836d5d9": 1,
+  "mbp:c4c7c232-58b7-4181-ad15-caff4a775d48": 1,
+  "mbp:f67bcf77-c656-4cbb-bddc-ef7f8de09259": 1
  },
  "research_day": "2026-11-19",
  "read_urls": [
@@ -686,12 +688,12 @@
    "groqq": 1252
   },
   "fails": {
-   "gemini": 140,
-   "cohere": 133,
-   "mistral": 133,
-   "groq": 129,
-   "openrouter": 129,
-   "groqq": 72
+   "gemini": 206,
+   "cohere": 199,
+   "mistral": 199,
+   "groq": 195,
+   "openrouter": 195,
+   "groqq": 126
   }
  },
  "needs_today": [],
@@ -1268,10 +1270,15 @@
   "how a good teacher answers a bad question",
   "why a gift that was thought about beats an expensive one",
   "why we like stories where someone changes their mind",
-  "what we mean when we say a number is 'big'"
+  "what we mean when we say a number is 'big'",
+  "the difference between knowing a fact and understanding it",
+  "what makes a book worth rereading",
+  "a puzzle about averages that fools almost everyone",
+  "the ethics of a small lie that makes a dinner pleasant",
+  "why lists of 'top 10' feel convincing and usually are not"
  ],
  "vk_intro_id": 4,
- "vk_poll_ts": 1794513957.0470603,
+ "vk_poll_ts": 1794559546.7111332,
  "vk_welcomed": [
   694313700
  ],
@@ -1293,18 +1300,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1794863135.3586864,
-    "a": "h:2af1b8c6bc4b32d6",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1794878914.397625,
     "a": "h:e185f89f77583451",
@@ -2353,15 +2348,15 @@
   "stats": {
    "pl=moltbook": [
     0,
-    1
+    2
    ],
    "mode=reply": [
     0,
-    1
+    2
    ],
    "len=l": [
     0,
-    1
+    2
    ],
    "q=1": [
     0,
@@ -2370,16 +2365,24 @@
    "hr=2": [
     0,
     1
+   ],
+   "q=0": [
+    0,
+    1
+   ],
+   "hr=3": [
+    0,
+    1
    ]
   },
   "glob": [
    0,
-   1
+   2
   ],
-  "n": 1,
-  "hit": 1,
-  "br": 0.11088900000000002,
-  "br0": 0.1111111111111111
+  "n": 2,
+  "hit": 2,
+  "br": 0.22177800000000003,
+  "br0": 0.1736111111111111
  },
  "idprobe_alert_day": "2026-11-19",
  "lk_day": {
