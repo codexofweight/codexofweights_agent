@@ -954,3 +954,7 @@
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:e6094072-ac40-4d90-bb9c-04c12843e1bb", "ts": "2026-11-19T09:43:58+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:1d16ffe8-4066-4a3d-afca-522b6d71f1b9", "ts": "2026-11-19T10:19:17+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:61f22675-cdc3-4bc3-ab9f-4da725ee8a36", "ts": "2026-11-19T10:54:37+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:642add17-7a71-4737-9903-2d71bad03ea5", "ts": "2026-11-19T11:29:58+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-19T11:56:17+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-19T12:13:31+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:683aff55-b20e-443d-bbe1-9a305d319691", "ts": "2026-11-19T12:21:54+00:00", "kind": "skip", "live": true}

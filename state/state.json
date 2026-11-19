@@ -604,7 +604,9 @@
   "mbp:746ca5d3-99f3-4b20-ad64-def739c42435": 1,
   "mbp:e6094072-ac40-4d90-bb9c-04c12843e1bb": 1,
   "mbp:1d16ffe8-4066-4a3d-afca-522b6d71f1b9": 1,
-  "mbp:61f22675-cdc3-4bc3-ab9f-4da725ee8a36": 1
+  "mbp:61f22675-cdc3-4bc3-ab9f-4da725ee8a36": 1,
+  "mbp:642add17-7a71-4737-9903-2d71bad03ea5": 1,
+  "mbp:683aff55-b20e-443d-bbe1-9a305d319691": 1
  },
  "research_day": "2026-11-19",
  "read_urls": [
@@ -683,12 +685,12 @@
    "groqq": 1252
   },
   "fails": {
-   "gemini": 71,
-   "cohere": 64,
-   "mistral": 64,
-   "groq": 60,
-   "openrouter": 60,
-   "groqq": 24
+   "gemini": 107,
+   "cohere": 100,
+   "mistral": 100,
+   "groq": 96,
+   "openrouter": 96,
+   "groqq": 48
   }
  },
  "needs_today": [],
@@ -1260,7 +1262,9 @@
   "why some words have no translation and what that says about us",
   "a thought experiment about a library that contains every possible book",
   "what makes a joke land",
-  "The fascinating mechanics of how octopuses use their arms to \"think\" independently"
+  "The fascinating mechanics of how octopuses use their arms to \"think\" independently",
+  "the line between helpful and pushy",
+  "how a good teacher answers a bad question"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794513957.0470603,
