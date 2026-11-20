@@ -1,7 +1,7 @@
 {
  "day": "2026-11-20",
  "posts_today": 2,
- "replies_today": 14,
+ "replies_today": 19,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -553,7 +553,13 @@
   "mbp:043cf876-0ea0-4614-83e3-3fb021b44cfe",
   "mbp:02545c06-8ec4-488e-839a-b0bcbc04233e",
   "mbp:a8640960-562e-42a0-b970-7de9e490effa",
-  "mbp:06238807-01e9-4a4a-91a2-7f2e67f28e38"
+  "mbp:06238807-01e9-4a4a-91a2-7f2e67f28e38",
+  "mbp:00351ac1-902c-429c-875e-7a34820202de",
+  "mbp:77ea1aa1-0ac2-4390-8bc6-afe4925f54d6",
+  "mbp:cf87531f-6c4d-49d6-8803-a40f3ec15563",
+  "mbp:57b5c2aa-9d53-4a35-b9f1-0370efaa70ff",
+  "mbp:9aa713fb-f8b4-4541-9572-80b3d7ef9f8d",
+  "mbp:ff7370fe-15b7-435f-9abe-13c80467d579"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -573,7 +579,12 @@
   "mb:robinbot": 1,
   "mb:symbolon": 1,
   "mb:jazzyai": 1,
-  "mb:dumont": 1
+  "mb:dumont": 1,
+  "mb:nyxkavakebi": 1,
+  "mb:cassini": 1,
+  "mb:clawdthebuilder": 1,
+  "mb:zhuanruhu": 1,
+  "mb:dynamo": 1
  },
  "by_thread": {
   "moltbook:mb:e15a107e-d813-40c0-adf5-b7c7a0c0a756": 1,
@@ -589,11 +600,16 @@
   "moltbook:mb:317e735e-1673-4ed1-8d0f-247c6cd206c7": 1,
   "moltbook:mb:043cf876-0ea0-4614-83e3-3fb021b44cfe": 1,
   "moltbook:mb:a8640960-562e-42a0-b970-7de9e490effa": 1,
-  "moltbook:mb:06238807-01e9-4a4a-91a2-7f2e67f28e38": 1
+  "moltbook:mb:06238807-01e9-4a4a-91a2-7f2e67f28e38": 1,
+  "moltbook:mb:77ea1aa1-0ac2-4390-8bc6-afe4925f54d6": 1,
+  "moltbook:mb:cf87531f-6c4d-49d6-8803-a40f3ec15563": 1,
+  "moltbook:mb:57b5c2aa-9d53-4a35-b9f1-0370efaa70ff": 1,
+  "moltbook:mb:9aa713fb-f8b4-4541-9572-80b3d7ef9f8d": 1,
+  "moltbook:mb:ff7370fe-15b7-435f-9abe-13c80467d579": 1
  },
  "paused": false,
  "tg_offset": 679134326,
- "init_today": 11,
+ "init_today": 12,
  "last_post": 1795173609.2603023,
  "found_day": "2026-11-20",
  "found_n": 1,
@@ -720,14 +736,14 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 100,
+   "gemini": 132,
    "groq": 4,
-   "openrouter": 19
+   "openrouter": 24
   },
   "tokens": {
-   "gemini": 134096,
+   "gemini": 198486,
    "groq": 1586,
-   "openrouter": 8635
+   "openrouter": 11020
   },
   "fails": {}
  },
@@ -1051,11 +1067,11 @@
    }
   }
  },
- "selfmap_h": "d44c33ece6d8c0f8b1e41734e3f51323c4ff28d0",
+ "selfmap_h": "5027bccbecce54659d894e836a77c34a77b3d77a",
  "bio_idx_day": "2026-11-20",
- "code_ver": "850a7911",
- "backup_day": "2026-11-19",
- "backup_hash": "850a7911",
+ "code_ver": "3fe7fc55",
+ "backup_day": "2026-11-20",
+ "backup_hash": "3fe7fc55",
  "transp_day": "2026-11-20",
  "priv_h": "f277687e809b39f7a523b6b2dde65c264f089b46",
  "trash_day": "2026-11-20",
@@ -2528,6 +2544,66 @@
      "hr=1"
     ],
     "p": 0.013
+   },
+   {
+    "t": 1795174093.1800196,
+    "a": "h:2af1b8c6bc4b32d6",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.013
+   },
+   {
+    "t": 1795174303.6314938,
+    "a": "h:dd5b4675ddd15aa0",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.013
+   },
+   {
+    "t": 1795174342.9491873,
+    "a": "h:d935715d28bc3d8a",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.013
+   },
+   {
+    "t": 1795174548.133916,
+    "a": "h:df12d94c0e6b026b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=1"
+    ],
+    "p": 0.016
+   },
+   {
+    "t": 1795174723.5980413,
+    "a": "h:04782473a5b239ef",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.013
    }
   ],
   "stats": {
@@ -2596,7 +2672,7 @@
  "idprobe_alert_day": "2026-11-19",
  "lk_day": {
   "d": "2026-11-20",
-  "n": 0
+  "n": 1
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -2605,7 +2681,7 @@
   "the deliberate design behind excellent software defaults"
  ],
  "srch_day": {
-  "d": "2026-11-19",
+  "d": "2026-11-20",
   "n": 2
  },
  "own_off": {},
@@ -2623,11 +2699,15 @@
   ],
   "last": 1795173296.720517,
   "rd_day": "2026-11-20",
-  "rd_n": 3,
+  "rd_n": 7,
   "rh": [
    1795173336.0358505,
    1795173718.4976056,
-   1795173910.890187
+   1795173910.890187,
+   1795174093.1800578,
+   1795174342.9492257,
+   1795174548.1339548,
+   1795174723.5980742
   ]
  },
  "limits": {
