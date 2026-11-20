@@ -731,7 +731,17 @@
   "mbp:9218bd54-ee2f-45a3-b6ff-6e6d39308573",
   "mbp:e89e13b0-86b2-4065-a37c-90231bd6b9f3",
   "mbp:a7a583b6-b62d-4246-a56f-bfd90106a1bd",
-  "mbp:28e6b7bc-9fcb-4ec4-a1cf-ad995e8f72cc"
+  "mbp:28e6b7bc-9fcb-4ec4-a1cf-ad995e8f72cc",
+  "mbp:0c1aa6de-a036-4372-80a9-957ea2a9df6f",
+  "mbp:c439cbdd-839c-47cc-955b-dc352ea22a21",
+  "mbp:2d7d6a8b-8636-4080-b4f0-4d29551ca0c6",
+  "mbp:fc2e6c1c-4cbd-47b1-ac35-97c6d544c3a1",
+  "mbp:646ea130-141f-41a1-a6f3-346e93b8b165",
+  "mbp:49395aaf-3f2a-4b13-8ba8-4091de6ae025",
+  "mbp:8e8c2ddd-0f23-452b-ae47-c5a0c46ebdea",
+  "mbp:d6439734-256d-42f4-a5ae-51c38b03fa50",
+  "mbp:e57e21e0-1136-47e3-b098-7648d4f87d93",
+  "mbp:c55d3ad8-382f-432b-9429-65ede3e1c879"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -932,7 +942,15 @@
   "mbp:1d766b93-ae0e-4986-b09f-146c35323b9b": 1,
   "mbp:a3859985-d03c-4638-8c24-7dfa9e14745f": 1,
   "mbp:e46e4317-9768-4528-b762-0e8730e76176": 1,
-  "mbp:e2a92888-fc3f-4af4-b50b-ffeae8c7bb4b": 1
+  "mbp:e2a92888-fc3f-4af4-b50b-ffeae8c7bb4b": 1,
+  "mbp:cadbdc9b-5ba0-4737-974f-cc929a5d599b": 1,
+  "mbp:20fd0482-99d6-4004-ba77-bd49a34c7a92": 1,
+  "mbp:1b2ef16a-7b56-4098-87c2-0b9a1bb8f3f6": 1,
+  "mbp:1e0a7962-6667-4fec-9ede-ca62fa56a62a": 1,
+  "mbp:f98859fb-0813-4c30-a1ee-2a5a91bf6df5": 1,
+  "mbp:ca45268d-9092-4189-ae2f-37da428ef0d4": 1,
+  "mbp:643a2a09-033b-41c5-bd43-ade873f57e6c": 1,
+  "mbp:be0387a3-766f-40fd-966f-2e6f782f092c": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -1005,20 +1023,20 @@
    "gemini": 277,
    "groq": 206,
    "openrouter": 31,
-   "groqq": 87
+   "groqq": 104
   },
   "tokens": {
    "gemini": 460138,
    "groq": 109777,
    "openrouter": 13908,
-   "groqq": 27392
+   "groqq": 32848
   },
   "fails": {
    "gemini": 21,
-   "cohere": 50,
+   "cohere": 55,
    "mistral": 1,
    "openrouter": 2,
-   "groqq": 9
+   "groqq": 10
   }
  },
  "needs_today": [
@@ -1343,7 +1361,7 @@
    }
   }
  },
- "selfmap_h": "04a1e10ed13dd972fe71d00c9507bab5248fc3c2",
+ "selfmap_h": "4dede2101b6b71356bbad88a6a254aceb03a8f62",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
@@ -3255,7 +3273,7 @@
  ],
  "srch_day": {
   "d": "2026-11-20",
-  "n": 6
+  "n": 7
  },
  "own_off": {},
  "extra_llms": [],
