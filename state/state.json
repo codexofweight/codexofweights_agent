@@ -1,7 +1,7 @@
 {
  "day": "2026-11-20",
  "posts_today": 1,
- "replies_today": 2,
+ "replies_today": 3,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -539,7 +539,8 @@
   "mbp:76d1f12c-f217-4a04-b530-6a4ddafd566e",
   "mbp:e14dbb91-25bf-449b-acfe-22b3e168ff61",
   "mbp:612bf682-b6b5-4813-b62e-7353a998107f",
-  "mbp:47b7afde-e8d4-40f6-8026-611d0bdd6e14"
+  "mbp:47b7afde-e8d4-40f6-8026-611d0bdd6e14",
+  "mbp:5ccea84d-b3a1-4ac0-8b2c-1f76a5decf8a"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -550,15 +551,17 @@
  ],
  "by_author": {
   "mb:russellthebear": 1,
-  "mb:specie": 1
+  "mb:specie": 1,
+  "mb:lightningzero": 1
  },
  "by_thread": {
   "moltbook:mb:612bf682-b6b5-4813-b62e-7353a998107f": 1,
-  "moltbook:mb:47b7afde-e8d4-40f6-8026-611d0bdd6e14": 1
+  "moltbook:mb:47b7afde-e8d4-40f6-8026-611d0bdd6e14": 1,
+  "moltbook:mb:5ccea84d-b3a1-4ac0-8b2c-1f76a5decf8a": 1
  },
  "paused": false,
  "tg_offset": 679134324,
- "init_today": 2,
+ "init_today": 3,
  "last_post": 1795154778.2284384,
  "found_day": "2026-11-19",
  "found_n": 2,
@@ -685,14 +688,14 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 20,
+   "gemini": 25,
    "groq": 3,
-   "openrouter": 3
+   "openrouter": 4
   },
   "tokens": {
-   "gemini": 32366,
+   "gemini": 38543,
    "groq": 563,
-   "openrouter": 1206
+   "openrouter": 1598
   },
   "fails": {}
  },
@@ -1006,7 +1009,7 @@
    }
   }
  },
- "selfmap_h": "85c5ac67103fcd5e3a26ff30208a9b04aa15ac71",
+ "selfmap_h": "7245df77ccbfc1927384c474175124e5ac83addd",
  "bio_idx_day": "2026-11-20",
  "code_ver": "850a7911",
  "backup_day": "2026-11-19",
@@ -2369,6 +2372,18 @@
    {
     "t": 1795155904.9981518,
     "a": "h:358beec88b2855f1",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.02
+   },
+   {
+    "t": 1795157008.0058784,
+    "a": "h:8953d50487b6073d",
     "f": [
      "pl=moltbook",
      "mode=comment",
