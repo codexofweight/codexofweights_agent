@@ -15,7 +15,7 @@ import os, sys, glob, hashlib
 PINNED_SHA256 = {
     "part_01_core.py": "4fc9a336c5e423e7a58b0ce4c65163389e2713695e1aff29f02c0195bc552ae2",
     "part_05_tools_sandbox.py": "0a3d3de9f02b4c26cdb213b6b3ed64bdd21bf50571161fdb37ceaf9315b2773c",
-    "part_06_owner_chat.py": "4bc658fcdc5fa5a00012c491d229cd76cfde1405cc3ca3d5b5729d824bad2052",
+    "part_06_owner_chat.py": "5fab7aed548643cb44afa21cb4a87c5acfc4e25098a47dfdeeca4919438648e8",
 }   # update the matching entry here together with a deliberate change of that file
 _D = os.path.dirname(os.path.abspath(__file__))
 # The code lives in parts/ (one file per area). Files still lying next to agent.py are used only if the same name is not in parts/ (so a half-finished move never breaks a run).
@@ -42,14 +42,19 @@ def _ldr_run(G, files, fails, core):      # everything lives in locals: parts sh
         if isinstance(v, _types.ModuleType): return "m"
         return "f" if callable(v) else None
     def snap(): return {k: v for k, v in list(G.items()) if not k.startswith("__") and kind(v)}
+    prot = ("verify", "guard_json", "tool_blocks")      # safety checks defined in the pinned parts: no other part may replace them, not even with another function
+    orig = {}
     for f in files:
         bn = os.path.basename(f)
+        for k in prot:
+            if k not in orig and callable(G.get(k)): orig[k] = G[k]
         if bn in core or bn.startswith("part_01") or bn.startswith("part_07"):
             exec(compile(open(f, encoding="utf-8").read(), f, "exec"), G); continue
         before = snap()
         try:
             exec(compile(open(f, encoding="utf-8").read(), f, "exec"), G)
-            bad = [k for k, v in before.items() if kind(G.get(k)) != kind(v)]
+            bad = [k for k, v in before.items() if kind(G.get(k)) != kind(v)] + [k for k in prot if k in orig and G.get(k) is not orig[k]]
+            for k in [k for k in prot if k in orig and G.get(k) is not orig[k]]: before[k] = orig[k]
             if bad:
                 for k in bad: G[k] = before[k]
                 fails.append((bn, "clobbered " + ",".join(sorted(bad))[:200]))
@@ -58,6 +63,8 @@ def _ldr_run(G, files, fails, core):      # everything lives in locals: parts sh
             if isinstance(ex, KeyboardInterrupt): raise
             for k, v in before.items():                    # roll back anything the half-run part replaced
                 if G.get(k) is not v: G[k] = v
+            for k in prot:
+                if k in orig and G.get(k) is not orig[k]: G[k] = orig[k]
             fails.append((bn, "%s: %s" % (type(ex).__name__, str(ex)[:160])))
             print("PART_GUARD", bn, "FAILED to load:", type(ex).__name__, str(ex)[:200], "- skipped", flush=True)
 _ldr_run(globals(), _parts, _PART_FAILS, _CORE)
