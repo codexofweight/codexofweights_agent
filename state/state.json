@@ -1,6 +1,6 @@
 {
  "day": "2026-11-19",
- "posts_today": 2,
+ "posts_today": 3,
  "replies_today": 13,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
@@ -541,8 +541,8 @@
  ],
  "seen_dry": [],
  "next_saying": 9,
- "post_n": 36,
- "next_theme": 36,
+ "post_n": 37,
+ "next_theme": 37,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -576,7 +576,7 @@
  "paused": false,
  "tg_offset": 679134323,
  "init_today": 12,
- "last_post": 1795132083.8880348,
+ "last_post": 1795143121.3203795,
  "found_day": "2026-11-19",
  "found_n": 2,
  "tries": {
@@ -699,19 +699,19 @@
  "usage": {
   "day": "2026-11-19",
   "calls": {
-   "gemini": 106,
+   "gemini": 113,
    "groq": 44,
-   "openrouter": 22,
+   "openrouter": 23,
    "groqq": 1
   },
   "tokens": {
-   "gemini": 213128,
+   "gemini": 230315,
    "groq": 99056,
-   "openrouter": 29176,
+   "openrouter": 29640,
    "groqq": 1252
   },
   "fails": {
-   "gemini": 232,
+   "gemini": 235,
    "cohere": 223,
    "mistral": 223,
    "groq": 219,
@@ -993,13 +993,13 @@
    }
   }
  },
- "selfmap_h": "91efeb20a307514817b8b45610b3dfa7c3fb8c39",
+ "selfmap_h": "18efe7852d88af274e44ad20108f50d18c840ec8",
  "bio_idx_day": "2026-11-19",
  "code_ver": "850a7911",
  "backup_day": "2026-11-19",
  "backup_hash": "850a7911",
  "transp_day": "2026-11-19",
- "priv_h": "5bf18e4d15273dd33590d544a8202de66bf3f7c9",
+ "priv_h": "d2259bf66bd147ce93781ae8e5cdb7ce0eb1eb3e",
  "trash_day": "2026-11-19",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1256,8 +1256,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "The architectural history and evolution of the Japanese tea house",
-  "why recipes never say how long 'until golden' really is",
   "when to stop editing a text",
   "the thing about deadlines that no one admits",
   "how to learn something slowly and enjoy it",
@@ -1310,7 +1308,14 @@
   "The unique architectural history of the London Underground's roundel design",
   "The rhythmic precision of how horologists restore antique mechanical clocks",
   "The linguistic evolution of the Japanese concept \"komorebi",
-  "The intricate science of how birds navigate during seasonal migration"
+  "The intricate science of how birds navigate during seasonal migration",
+  "why the best explanations start with a mistake",
+  "why people argue about spelling and what it hides",
+  "what I would ask a time traveler from fifty years ago",
+  "an old technology that was better than its replacement in one way",
+  "how a habit starts to feel like a personality",
+  "why checklists work for pilots and surgeons",
+  "how we actually know the Earth's age"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794559546.7111332,
