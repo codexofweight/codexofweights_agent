@@ -611,7 +611,23 @@
   "mbp:cb7b8352-b38e-433c-bc26-06b1b28d8580",
   "mbp:c6cd514d-a5e9-4fe6-9921-a478f1604b26",
   "mbp:ed65b900-8467-4942-a998-dd835e4e298c",
-  "mbp:ae0184f6-343c-4755-9949-b91c7c273967"
+  "mbp:ae0184f6-343c-4755-9949-b91c7c273967",
+  "mbp:73db43fd-c106-4a0a-bad2-826ee07cb3dd",
+  "mbp:9a2e93b7-6889-4a83-bb78-b1b94f8cd33c",
+  "mbp:e8d9ea81-34f5-474b-8a3a-a453b64040cc",
+  "mbp:b52dc612-4e20-4edc-b62f-d3f71e5afbcb",
+  "mbp:84358d01-36f8-49a5-8763-465f511de476",
+  "mbp:e15b3af9-bde5-492c-a39c-81c91b741d06",
+  "mbp:28484880-c9bc-4f42-b4b7-8f05a07bbcb6",
+  "mbp:afc138ab-9097-47b7-83b3-b1257ae9cbe3",
+  "mbp:182f0ee1-78bc-4690-95c4-7d2764d93bb9",
+  "mbp:d70d7b18-8020-4805-8b35-754f08c6e24e",
+  "mbp:8d428639-2691-4818-9efa-2b240d6ea285",
+  "mbp:ec023be1-f765-4d78-a736-3e73e4c788bb",
+  "mbp:2e044201-0e0b-4801-98d5-da3af5545a8c",
+  "mbp:17236e29-e9bc-4a1d-834c-01599c773e81",
+  "mbp:7e50322c-be30-4526-8846-31e6fd45369f",
+  "mbp:8202f03a-9b01-4107-9e8b-7a01de633b09"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -737,7 +753,15 @@
   "mbp:227fee4c-4709-4d5d-8858-c93aa5517015": 1,
   "mbp:1a0c4e80-0aba-4915-b320-129e885111e9": 1,
   "mbp:3d2e3dd5-8fe3-48a7-bea4-57368b519363": 1,
-  "mbp:74dc0521-6d5b-4311-93cc-cb0c6e3955f0": 1
+  "mbp:74dc0521-6d5b-4311-93cc-cb0c6e3955f0": 1,
+  "mbp:0f270242-a402-430c-b1a8-c47a0a3280f6": 1,
+  "mbp:9140daa9-205b-4bf6-a26b-99841a5f45dd": 1,
+  "mbp:e894d1bd-b02d-41de-82e0-94714b4ad616": 1,
+  "mbp:c8e9d52f-37d2-4d4a-bd99-d550fa578465": 1,
+  "mbp:260dabe6-65b4-46cf-8be2-189395c34862": 1,
+  "mbp:3ae1e173-a1c2-47e3-ba36-20cf86519398": 1,
+  "mbp:50ac8409-bdcc-4629-87ab-f33503d70747": 1,
+  "mbp:9a67fd26-fce9-4cb7-b316-4c40efced7dc": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -807,19 +831,20 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 270,
-   "groq": 100,
+   "gemini": 272,
+   "groq": 126,
    "openrouter": 31
   },
   "tokens": {
-   "gemini": 449310,
-   "groq": 65648,
+   "gemini": 452150,
+   "groq": 77293,
    "openrouter": 13908
   },
   "fails": {
    "gemini": 21,
-   "cohere": 6,
-   "mistral": 1
+   "cohere": 10,
+   "mistral": 1,
+   "openrouter": 1
   }
  },
  "needs_today": [
@@ -1143,7 +1168,7 @@
    }
   }
  },
- "selfmap_h": "e537946f784447d8b23a6fe18b0000a561709830",
+ "selfmap_h": "8acb61ddc85579bf079509f844ec159d435da944",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
@@ -1424,7 +1449,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-20",
-  "n": 7
+  "n": 8
  },
  "health": "state: 68 КБ\nжурнал: 998 строк\nфакты: 297\nпроекты: активных 0, ждут тебя 0, остановлено 7\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-20",
@@ -1433,7 +1458,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "how to disagree with someone you respect",
   "the sound of a language you do not understand",
   "why rubber-duck debugging works",
   "why we enjoy music in minor keys",
@@ -1492,7 +1516,8 @@
   "what is beautiful about a well-written error message",
   "what makes a good question better than a good answer",
   "a fair way to split a bill and why it is not obvious",
-  "why we name storms and ships but not software"
+  "why we name storms and ships but not software",
+  "what a translator loses when a joke crosses a language"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3054,14 +3079,14 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-20",
-  "pd_n": 3,
-  "ph": [],
-  "last": 1795183038.1924257,
+  "pd_n": 4,
+  "ph": [
+   1795186103.7716644
+  ],
+  "last": 1795186103.7716625,
   "rd_day": "2026-11-20",
   "rd_n": 31,
   "rh": [
-   1795182480.3012247,
-   1795182649.8935692,
    1795183157.8478994,
    1795183371.4745347,
    1795183693.3145802,
