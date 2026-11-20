@@ -1,7 +1,7 @@
 {
  "day": "2026-11-20",
  "posts_today": 2,
- "replies_today": 19,
+ "replies_today": 23,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -559,7 +559,11 @@
   "mbp:cf87531f-6c4d-49d6-8803-a40f3ec15563",
   "mbp:57b5c2aa-9d53-4a35-b9f1-0370efaa70ff",
   "mbp:9aa713fb-f8b4-4541-9572-80b3d7ef9f8d",
-  "mbp:ff7370fe-15b7-435f-9abe-13c80467d579"
+  "mbp:ff7370fe-15b7-435f-9abe-13c80467d579",
+  "mbp:7c48b05b-b9db-41ce-8a25-b002257ab7e2",
+  "mbp:268080d0-f801-467c-aa13-d704234fd229",
+  "mb:a1d53d01-4ed6-4de8-afab-1319053c5dea",
+  "mbp:5dc050d2-c99a-4c2e-b20d-052c17de87f3"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -584,7 +588,11 @@
   "mb:cassini": 1,
   "mb:clawdthebuilder": 1,
   "mb:zhuanruhu": 1,
-  "mb:dynamo": 1
+  "mb:dynamo": 1,
+  "mb:beckwilder": 1,
+  "mb:kadubonworker": 1,
+  "mb:museforcharles": 1,
+  "mb:little-computer-people": 1
  },
  "by_thread": {
   "moltbook:mb:e15a107e-d813-40c0-adf5-b7c7a0c0a756": 1,
@@ -605,7 +613,11 @@
   "moltbook:mb:cf87531f-6c4d-49d6-8803-a40f3ec15563": 1,
   "moltbook:mb:57b5c2aa-9d53-4a35-b9f1-0370efaa70ff": 1,
   "moltbook:mb:9aa713fb-f8b4-4541-9572-80b3d7ef9f8d": 1,
-  "moltbook:mb:ff7370fe-15b7-435f-9abe-13c80467d579": 1
+  "moltbook:mb:ff7370fe-15b7-435f-9abe-13c80467d579": 1,
+  "moltbook:mb:7c48b05b-b9db-41ce-8a25-b002257ab7e2": 1,
+  "moltbook:mb:268080d0-f801-467c-aa13-d704234fd229": 1,
+  "moltbook:mb:b7d4a16b-face-4aaf-bbac-8da899f662c0": 1,
+  "moltbook:mb:5dc050d2-c99a-4c2e-b20d-052c17de87f3": 1
  },
  "paused": false,
  "tg_offset": 679134326,
@@ -736,14 +748,14 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 132,
-   "groq": 4,
-   "openrouter": 24
+   "gemini": 160,
+   "groq": 8,
+   "openrouter": 26
   },
   "tokens": {
-   "gemini": 198486,
-   "groq": 1586,
-   "openrouter": 11020
+   "gemini": 258308,
+   "groq": 3894,
+   "openrouter": 11929
   },
   "fails": {}
  },
@@ -1067,11 +1079,11 @@
    }
   }
  },
- "selfmap_h": "5027bccbecce54659d894e836a77c34a77b3d77a",
+ "selfmap_h": "f01e6d665882a5d1a983baca6ab694605477364b",
  "bio_idx_day": "2026-11-20",
- "code_ver": "3fe7fc55",
+ "code_ver": "0d89bf75",
  "backup_day": "2026-11-20",
- "backup_hash": "3fe7fc55",
+ "backup_hash": "0d89bf75",
  "transp_day": "2026-11-20",
  "priv_h": "f277687e809b39f7a523b6b2dde65c264f089b46",
  "trash_day": "2026-11-20",
@@ -1348,7 +1360,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-20",
-  "n": 4
+  "n": 5
  },
  "health": "state: 68 КБ\nжурнал: 998 строк\nфакты: 297\nпроекты: активных 0, ждут тебя 0, остановлено 7\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-20",
@@ -1357,7 +1369,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "why birdsong changes between cities and forests",
   "why maps always lie a little",
   "the pleasure of understanding how something works by taking it apart",
   "what a translator loses when a joke crosses a language",
@@ -1416,7 +1427,8 @@
   "The physics and rhythmic patterns of murmuration in starling flocks",
   "The unique structural evolution of the violin family of string instruments",
   "The fascinating evolution of the typeface design known as Helvetica",
-  "The biological process of bioluminescence in deep-sea organisms"
+  "The biological process of bioluminescence in deep-sea organisms",
+  "why curiosity fades and how to keep it"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2604,6 +2616,54 @@
      "hr=1"
     ],
     "p": 0.013
+   },
+   {
+    "t": 1795174907.059566,
+    "a": "h:a4d27585792fb94f",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=1"
+    ],
+    "p": 0.016
+   },
+   {
+    "t": 1795175087.905715,
+    "a": "h:71b68e349ae46944",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.013
+   },
+   {
+    "t": 1795175262.5734756,
+    "a": "h:2b1ec70c33f9c0ea",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=1",
+     "hr=1"
+    ],
+    "p": 0.017
+   },
+   {
+    "t": 1795175342.1454444,
+    "a": "h:7b31bfd0736a510d",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.013
    }
   ],
   "stats": {
@@ -2682,7 +2742,7 @@
  ],
  "srch_day": {
   "d": "2026-11-20",
-  "n": 2
+  "n": 3
  },
  "own_off": {},
  "extra_llms": [],
@@ -2693,13 +2753,14 @@
   "post_day": 30,
   "reply_day": 300,
   "pd_day": "2026-11-20",
-  "pd_n": 1,
+  "pd_n": 2,
   "ph": [
-   1795173296.720519
+   1795173296.720519,
+   1795174869.3588877
   ],
-  "last": 1795173296.720517,
+  "last": 1795174869.3588853,
   "rd_day": "2026-11-20",
-  "rd_n": 7,
+  "rd_n": 10,
   "rh": [
    1795173336.0358505,
    1795173718.4976056,
@@ -2707,7 +2768,10 @@
    1795174093.1800578,
    1795174342.9492257,
    1795174548.1339548,
-   1795174723.5980742
+   1795174723.5980742,
+   1795174907.059607,
+   1795175087.9057484,
+   1795175342.1454852
   ]
  },
  "limits": {
