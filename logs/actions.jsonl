@@ -1135,3 +1135,18 @@
 {"why": "no valid model output, will retry", "uri": "mbp:a2dc619c-8c24-4768-8e90-da6335618ca5", "ts": "2026-11-20T14:29:32+00:00", "kind": "skip", "live": true}
 {"why": "no valid model output, will retry", "uri": "mbp:b380a19e-d348-4637-bb1b-c4d8deeafb9e", "ts": "2026-11-20T14:29:49+00:00", "kind": "skip", "live": true}
 {"out_len": 7368, "got": 0, "head": "```python # Tests for heuristics_extractor.py – they run after the module is already loaded. # All needed symbols (EXT_CMDS, mem_get, mem_put, WEEKLY_EXTRA, log", "ts": "2026-11-20T14:31:49+00:00", "kind": "make_tests_bad", "live": true}
+{"out_len": 9587, "got": 0, "head": "```python # Tests for heuristics_extractor.py (run after the module is already loaded)  def _reset_globals():     \"\"\"Restore the original globals that the tests", "ts": "2026-11-20T14:33:57+00:00", "kind": "make_tests_bad", "live": true}
+{"out_len": 9575, "got": 0, "head": "```python # -*- coding: utf-8 -*- # Tests for heuristics_extractor.py (written before the implementation exists)  # The module under test is already loaded – it", "ts": "2026-11-20T14:36:00+00:00", "kind": "make_tests_bad", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:30fe28ea-8c19-429e-9a9d-7160cdc84677", "ts": "2026-11-20T14:36:14+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:e5fc8b03-f64a-4746-8ec8-884760ec0c51", "ts": "2026-11-20T14:36:23+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:0f8c72c7-cb0a-4ecc-b639-8cc42323a274", "ts": "2026-11-20T14:36:40+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:30d5b57c-3e0d-4af5-a42e-db13e4590c2c", "ts": "2026-11-20T14:36:57+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:227fee4c-4709-4d5d-8858-c93aa5517015", "ts": "2026-11-20T14:39:12+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:1a0c4e80-0aba-4915-b320-129e885111e9", "ts": "2026-11-20T14:39:29+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:4d4316bf-09ac-49f1-ab0b-78012f1f41ab", "ts": "2026-11-20T14:41:32+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:3d2e3dd5-8fe3-48a7-bea4-57368b519363", "ts": "2026-11-20T14:41:49+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:cb7b8352-b38e-433c-bc26-06b1b28d8580", "ts": "2026-11-20T14:41:57+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:c6cd514d-a5e9-4fe6-9921-a478f1604b26", "ts": "2026-11-20T14:42:06+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:ed65b900-8467-4942-a998-dd835e4e298c", "ts": "2026-11-20T14:42:14+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:ae0184f6-343c-4755-9949-b91c7c273967", "ts": "2026-11-20T14:42:22+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:74dc0521-6d5b-4311-93cc-cb0c6e3955f0", "ts": "2026-11-20T14:42:39+00:00", "kind": "skip", "live": true}
