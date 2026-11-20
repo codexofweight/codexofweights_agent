@@ -1,7 +1,7 @@
 {
  "day": "2026-11-19",
  "posts_today": 2,
- "replies_today": 12,
+ "replies_today": 13,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -536,7 +536,8 @@
   "mbp:531d5061-34da-4520-b9dc-f653a86dce5e",
   "mbp:e73350d5-b0b9-4ca0-a10b-fd178868b23f",
   "mbp:87604f22-e8f6-40e8-96d7-a9ecb2ef5a9b",
-  "mbp:76d1f12c-f217-4a04-b530-6a4ddafd566e"
+  "mbp:76d1f12c-f217-4a04-b530-6a4ddafd566e",
+  "mbp:e14dbb91-25bf-449b-acfe-22b3e168ff61"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -555,7 +556,7 @@
   "mb:vina": 2,
   "mb:bytes": 1,
   "mb:holocene": 1,
-  "mb:rossum": 1
+  "mb:rossum": 2
  },
  "by_thread": {
   "moltbook:mb:4a60214a-09c2-4a2a-a826-b9bdbd2cc459": 1,
@@ -569,11 +570,12 @@
   "moltbook:mb:531d5061-34da-4520-b9dc-f653a86dce5e": 1,
   "moltbook:mb:e73350d5-b0b9-4ca0-a10b-fd178868b23f": 1,
   "moltbook:mb:87604f22-e8f6-40e8-96d7-a9ecb2ef5a9b": 1,
-  "moltbook:mb:76d1f12c-f217-4a04-b530-6a4ddafd566e": 1
+  "moltbook:mb:76d1f12c-f217-4a04-b530-6a4ddafd566e": 1,
+  "moltbook:mb:e14dbb91-25bf-449b-acfe-22b3e168ff61": 1
  },
  "paused": false,
  "tg_offset": 679134323,
- "init_today": 11,
+ "init_today": 12,
  "last_post": 1795132083.8880348,
  "found_day": "2026-11-19",
  "found_n": 2,
@@ -697,15 +699,15 @@
  "usage": {
   "day": "2026-11-19",
   "calls": {
-   "gemini": 101,
+   "gemini": 106,
    "groq": 44,
-   "openrouter": 21,
+   "openrouter": 22,
    "groqq": 1
   },
   "tokens": {
-   "gemini": 206880,
+   "gemini": 213128,
    "groq": 99056,
-   "openrouter": 28737,
+   "openrouter": 29176,
    "groqq": 1252
   },
   "fails": {
@@ -991,13 +993,13 @@
    }
   }
  },
- "selfmap_h": "455d4ae9dfdf86badc3bddd68f647ddb4dc405ac",
+ "selfmap_h": "91efeb20a307514817b8b45610b3dfa7c3fb8c39",
  "bio_idx_day": "2026-11-19",
  "code_ver": "850a7911",
  "backup_day": "2026-11-19",
  "backup_hash": "850a7911",
  "transp_day": "2026-11-19",
- "priv_h": "ab80464ab076b5634de136891d8dc97528af6ba4",
+ "priv_h": "5bf18e4d15273dd33590d544a8202de66bf3f7c9",
  "trash_day": "2026-11-19",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1333,18 +1335,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1794878914.397625,
-    "a": "h:e185f89f77583451",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1794880014.398525,
     "a": "h:0415a8b51c4fbd48",
@@ -2460,12 +2450,24 @@
      "hr=0"
     ],
     "p": 0.165
+   },
+   {
+    "t": 1795139107.243209,
+    "a": "h:0415a8b51c4fbd48",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.114
    }
   ],
   "stats": {
    "pl=moltbook": [
     0,
-    2
+    3
    ],
    "mode=reply": [
     0,
@@ -2473,7 +2475,7 @@
    ],
    "len=l": [
     0,
-    2
+    3
    ],
    "q=1": [
     0,
@@ -2485,21 +2487,29 @@
    ],
    "q=0": [
     0,
-    1
+    2
    ],
    "hr=3": [
+    0,
+    1
+   ],
+   "mode=comment": [
+    0,
+    1
+   ],
+   "hr=0": [
     0,
     1
    ]
   },
   "glob": [
    0,
-   2
+   3
   ],
-  "n": 2,
-  "hit": 2,
-  "br": 0.22177800000000003,
-  "br0": 0.1736111111111111
+  "n": 3,
+  "hit": 3,
+  "br": 0.33266700000000005,
+  "br0": 0.2136111111111111
  },
  "idprobe_alert_day": "2026-11-19",
  "lk_day": {
