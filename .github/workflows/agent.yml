@@ -2,9 +2,10 @@ name: agent-cycle
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 * * * *"
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: agent
   cancel-in-progress: false
@@ -56,3 +57,8 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Agent cycle"
           for i in 1 2 3 4 5; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done; exit 1
+      - name: Queue the next cycle (does not depend on GitHub's unreliable cron)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: sleep 300; gh workflow run agent.yml --ref main || true   # 5 min pause: a crash loop cannot spin fast
