@@ -1,1 +1,12 @@
-{"modules": []}
+{
+ "modules": [
+  {
+   "file": "read_url.py",
+   "title": "Secure /read command – fetch and clean web page text",
+   "why": "The owner wants a safe way to request the plain text of a web page via Telegram without exposing the agent to unsafe URLs or large payloads.",
+   "origin": "built by the agent (project pe05cc87), reviewed by another model, approved by the owner",
+   "approved": "2026-11-20",
+   "sha256": "76a3b1354c80fcb77c4d2a3cc0e1b99d0924120b2729a23ade8074167ad6900c"
+  }
+ ]
+}
