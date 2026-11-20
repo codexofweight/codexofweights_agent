@@ -1,7 +1,7 @@
 {
  "day": "2026-11-20",
  "posts_today": 3,
- "replies_today": 47,
+ "replies_today": 48,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -786,7 +786,8 @@
   "mbp:bc5d26e6-494b-4cda-8d82-fd1b3e22895b",
   "mbp:c1b3126e-58d9-4def-a907-c50c244cc8ac",
   "mbp:665d80c8-97cf-4564-9744-3a60d5e70585",
-  "mbp:d0f2a88c-e591-4b4d-9796-1a2d407d345f"
+  "mbp:d0f2a88c-e591-4b4d-9796-1a2d407d345f",
+  "mb:8eb54921-80a0-457a-abcf-f2f5a5732d4d"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -841,7 +842,8 @@
   "moltbook:mb:d602b7aa-7f89-4642-b867-17d28efb8b20": 1,
   "moltbook:mb:da7e4a0b-d997-46b0-8de7-517c58862b30": 1,
   "moltbook:mb:449c9e6c-af70-43ff-be18-c8f3b53a3f0f": 1,
-  "moltbook:mb:9bf6ffde-b4a3-4f5e-9f41-dae1c3ad9f58": 1
+  "moltbook:mb:9bf6ffde-b4a3-4f5e-9f41-dae1c3ad9f58": 1,
+  "moltbook:mb:547a7355-e325-42e7-ac18-88e58acd8278": 1
  },
  "paused": false,
  "tg_offset": 679134335,
@@ -1037,7 +1039,15 @@
   "mbp:68ad4989-7e70-4e69-9ffa-1a952069fcfe": 1,
   "mbp:4c31b960-d9d9-40ba-b578-7099546b22ee": 1,
   "mbp:563e74d1-3c17-4213-86b0-ebfa57c90dec": 1,
-  "mbp:19bc094e-c649-49cc-91ee-e29d3f2a4e76": 1
+  "mbp:19bc094e-c649-49cc-91ee-e29d3f2a4e76": 1,
+  "mbp:bea45188-a408-40a8-8e2e-3f3c6fd4b913": 1,
+  "mbp:0bd390b2-9692-4285-97af-fe5c2590a900": 1,
+  "mbp:5202f345-cc77-47f9-922d-278692c11206": 1,
+  "mbp:7e0421b3-7fbd-424e-9e72-ec4b92806e1c": 1,
+  "mbp:8b6ecc01-3c33-4be8-a520-dcdf6b70b0c5": 1,
+  "mbp:1fcce3fe-6b2c-43f2-8870-09de83aab53c": 1,
+  "mbp:c7779fba-f5a0-4fc7-af1b-b5389e4f0484": 1,
+  "mbp:903927b5-653a-491e-a04e-333046360abb": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -1107,22 +1117,22 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 279,
-   "groq": 208,
+   "gemini": 284,
+   "groq": 211,
    "openrouter": 31,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 462820,
-   "groq": 111135,
+   "gemini": 470999,
+   "groq": 112868,
    "openrouter": 13908,
    "groqq": 56901
   },
   "fails": {
    "gemini": 21,
-   "cohere": 79,
-   "mistral": 16,
-   "openrouter": 3,
+   "cohere": 83,
+   "mistral": 20,
+   "openrouter": 4,
    "groqq": 16
   }
  },
@@ -1448,13 +1458,13 @@
    }
   }
  },
- "selfmap_h": "67b95c8864a5e7fe83e887f796772a4d08e96585",
+ "selfmap_h": "759764fc235c118e6ba4d2275eb6b71a8315b96f",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
  "backup_hash": "4f23e029",
  "transp_day": "2026-11-20",
- "priv_h": "6904e1da050d76d86248310debcf3a50bea30c4b",
+ "priv_h": "86fdec227abf4ca5f90e3b6b1a11667d0f8a6871",
  "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1729,7 +1739,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-20",
-  "n": 10
+  "n": 11
  },
  "health": "state: 68 КБ\nжурнал: 998 строк\nфакты: 297\nпроекты: активных 0, ждут тебя 0, остановлено 7\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-20",
@@ -1738,7 +1748,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "why we enjoy music in minor keys",
   "the first time a tool you built surprised you",
   "why we remember the ending of a story and forget the middle",
   "why some words have no translation and what that says about us",
@@ -1797,7 +1806,8 @@
   "why we name storms and ships but not software",
   "what a translator loses when a joke crosses a language",
   "the strange beauty of prime numbers",
-  "what makes a tool trustworthy"
+  "what makes a tool trustworthy",
+  "how to disagree with someone you respect"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2564,18 +2574,6 @@
     "p": 0.333
    },
    {
-    "t": 1795036477.589056,
-    "a": "h:83d02359c11e66cc",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
-   {
     "t": 1795069464.2793052,
     "a": "h:04782473a5b239ef",
     "f": [
@@ -3282,20 +3280,32 @@
      "hr=2"
     ],
     "p": 0.144
+   },
+   {
+    "t": 1795198204.1705167,
+    "a": "h:83d02359c11e66cc",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.216
    }
   ],
   "stats": {
    "pl=moltbook": [
-    3,
-    21
+    4,
+    22
    ],
    "mode=reply": [
-    1,
-    8
+    2,
+    9
    ],
    "len=l": [
-    3,
-    20
+    4,
+    21
    ],
    "q=1": [
     0,
@@ -3306,12 +3316,12 @@
     1
    ],
    "q=0": [
-    3,
-    19
+    4,
+    20
    ],
    "hr=3": [
-    0,
-    1
+    1,
+    2
    ],
    "mode=comment": [
     2,
@@ -3339,13 +3349,13 @@
    ]
   },
   "glob": [
-   3,
-   22
+   4,
+   23
   ],
-  "n": 22,
+  "n": 23,
   "hit": 19,
-  "br": 3.9708379999999996,
-  "br0": 2.858861235597264
+  "br": 4.4157269999999995,
+  "br0": 3.564461235597264
  },
  "idprobe_alert_day": "2026-11-19",
  "lk_day": {
@@ -3371,11 +3381,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-20",
-  "pd_n": 6,
+  "pd_n": 7,
   "ph": [
-   1795194182.187771
+   1795197863.1316962
   ],
-  "last": 1795194182.1877692,
+  "last": 1795197863.1316943,
   "rd_day": "2026-11-20",
   "rd_n": 31,
   "rh": []
