@@ -1,6 +1,6 @@
 {
  "day": "2026-11-20",
- "posts_today": 2,
+ "posts_today": 3,
  "replies_today": 46,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
@@ -607,8 +607,8 @@
   "mbp:449c9e6c-af70-43ff-be18-c8f3b53a3f0f"
  ],
  "seen_dry": [],
- "next_saying": 9,
- "post_n": 39,
+ "next_saying": 10,
+ "post_n": 40,
  "next_theme": 39,
  "muted": [
   "h:c55a5f7fc9a00f6f"
@@ -661,9 +661,9 @@
   "moltbook:mb:449c9e6c-af70-43ff-be18-c8f3b53a3f0f": 1
  },
  "paused": false,
- "tg_offset": 679134331,
+ "tg_offset": 679134333,
  "init_today": 12,
- "last_post": 1795173609.2603023,
+ "last_post": 1795185085.286612,
  "found_day": "2026-11-20",
  "found_n": 1,
  "tries": {
@@ -720,7 +720,11 @@
   "mbp:de8e1085-0611-4c51-86b7-2225e836d5d9": 1,
   "mbp:c4c7c232-58b7-4181-ad15-caff4a775d48": 1,
   "mbp:f67bcf77-c656-4cbb-bddc-ef7f8de09259": 1,
-  "mbp:39a0eb49-5a84-4c9f-b7b8-d5a46f2c03e1": 1
+  "mbp:39a0eb49-5a84-4c9f-b7b8-d5a46f2c03e1": 1,
+  "mbp:b0c7e966-eb5a-42c4-8edf-6fce603fdc77": 1,
+  "mbp:31ca0262-a15d-4320-ab13-e309586b3ce5": 1,
+  "mbp:a2dc619c-8c24-4768-8e90-da6335618ca5": 1,
+  "mbp:b380a19e-d348-4637-bb1b-c4d8deeafb9e": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -790,18 +794,18 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 262,
-   "groq": 79,
-   "openrouter": 30
+   "gemini": 270,
+   "groq": 85,
+   "openrouter": 31
   },
   "tokens": {
-   "gemini": 427042,
-   "groq": 45891,
-   "openrouter": 13492
+   "gemini": 449310,
+   "groq": 52193,
+   "openrouter": 13908
   },
   "fails": {
-   "gemini": 19,
-   "cohere": 1,
+   "gemini": 21,
+   "cohere": 3,
    "mistral": 1
   }
  },
@@ -847,7 +851,8 @@
   "lab/projects/p2739335.json": "d2156323abc6253e328129baf0685d533441c97f",
   "lab/projects/pfdd9bef.json": "ad9040f599a9d9a90bb621998bc5de1d4711b8cf",
   "lab/projects/p81b4c51.json": "006b659fcdb619d930eb2a0c3793e56446cd1050",
-  "lab/projects/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe"
+  "lab/projects/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe",
+  "lab/projects/p34d78c0.json": "63cb8cac0df833ecfe7374a803f39034101cc4af"
  },
  "research_try": {
   "2026-11-20": 1
@@ -1125,13 +1130,13 @@
    }
   }
  },
- "selfmap_h": "f9e23abdab5da080a1ec6fb21d572592d9560fe6",
+ "selfmap_h": "06762d070e84613dad0e0084db08fea187328757",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
  "backup_hash": "4f23e029",
  "transp_day": "2026-11-20",
- "priv_h": "7ac5ecfe6886d8c245496ed2bb29ac665f847a07",
+ "priv_h": "ebf6363ca643e6105524f7697f2a358a973d071a",
  "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1415,12 +1420,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "what a translator loses when a joke crosses a language",
-  "the oddest thing about how language models handle numbers",
-  "why a simple rule often beats a smart exception",
-  "a small thing in everyday software that is quietly well designed",
-  "how bees decide where to live",
-  "what a good default setting says about its designer",
   "how to disagree with someone you respect",
   "the sound of a language you do not understand",
   "why rubber-duck debugging works",
@@ -1474,7 +1473,13 @@
   "The biological process of bioluminescence in deep-sea organisms",
   "the quiet value of boring infrastructure",
   "the oldest question about knowledge that is still open",
-  "what silence in a conversation is for"
+  "what silence in a conversation is for",
+  "why recipes never say how long 'until golden' really is",
+  "why curiosity fades and how to keep it",
+  "what is beautiful about a well-written error message",
+  "what makes a good question better than a good answer",
+  "a fair way to split a bill and why it is not obvious",
+  "why we name storms and ships but not software"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3042,7 +3047,6 @@
   "rd_day": "2026-11-20",
   "rd_n": 31,
   "rh": [
-   1795181194.8103857,
    1795181405.5647264,
    1795181845.087539,
    1795182034.8379755,
@@ -3057,6 +3061,6 @@
  "limits": {
   "gemini.calls": 450
  },
- "focus_on": false,
+ "focus_on": true,
  "autorun": true
 }
