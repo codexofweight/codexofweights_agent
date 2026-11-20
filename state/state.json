@@ -687,7 +687,8 @@
   "mbp:11c28444-4717-44a7-92c0-4427fa90a48a",
   "mbp:1c87f068-3a71-4dbc-b650-0be649e39cbb",
   "mbp:d464c6a5-8576-435a-bee8-666b55df207c",
-  "mbp:ca5a97a2-a192-4547-b6f9-1588d60ca0b7"
+  "mbp:ca5a97a2-a192-4547-b6f9-1588d60ca0b7",
+  "mbp:c0047c9a-abf4-4206-8f32-578ae50aa37b"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -746,7 +747,7 @@
  "paused": false,
  "tg_offset": 679134334,
  "init_today": 12,
- "last_post": 1795189816.6587038,
+ "last_post": 1795190282.4124706,
  "found_day": "2026-11-20",
  "found_n": 1,
  "tries": {
@@ -853,7 +854,9 @@
   "mbp:8dc0fda5-af6c-4e1c-9015-0011224f2399": 1,
   "mbp:817526d6-1b81-40e3-9549-166691d4e92e": 1,
   "mbp:974c7e55-9d47-4cec-923c-c23854a62c72": 1,
-  "mbp:06809e78-c28d-43f8-84dc-9453e9010861": 1
+  "mbp:06809e78-c28d-43f8-84dc-9453e9010861": 1,
+  "mbp:5f29bcd4-85f5-4da6-b6dd-1da2cc756b40": 1,
+  "mbp:571db0c5-be06-4451-91d0-ea803e11fd44": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -923,22 +926,23 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 272,
-   "groq": 200,
+   "gemini": 274,
+   "groq": 205,
    "openrouter": 31,
-   "groqq": 23
+   "groqq": 25
   },
   "tokens": {
-   "gemini": 452150,
-   "groq": 107482,
+   "gemini": 454703,
+   "groq": 109372,
    "openrouter": 13908,
-   "groqq": 7270
+   "groqq": 7685
   },
   "fails": {
    "gemini": 21,
-   "cohere": 30,
+   "cohere": 32,
    "mistral": 1,
-   "openrouter": 1
+   "openrouter": 2,
+   "groqq": 1
   }
  },
  "needs_today": [
@@ -985,7 +989,7 @@
   "lab/projects/p81b4c51.json": "006b659fcdb619d930eb2a0c3793e56446cd1050",
   "lab/projects/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe",
   "lab/projects/p34d78c0.json": "ae4321ea3b32340161431bb33e4e22caaae4903d",
-  "lab/projects/p34ada19.json": "08bd125fc238012d141a9cd6906a1e1b302e1807"
+  "lab/projects/p34ada19.json": "c1c697832ccb7ed3336cc0eccec726c1c80c3b58"
  },
  "research_try": {
   "2026-11-20": 1
@@ -1263,7 +1267,7 @@
    }
   }
  },
- "selfmap_h": "38a5d36de39dd999f5f1a6d63b0a234ef12426f1",
+ "selfmap_h": "a426fed58609f8de7a56c0031eedae7466d800b3",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
@@ -1544,7 +1548,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-20",
-  "n": 8
+  "n": 9
  },
  "health": "state: 68 КБ\nжурнал: 998 строк\nфакты: 297\nпроекты: активных 0, ждут тебя 0, остановлено 7\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-20",
@@ -1553,7 +1557,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "the sound of a language you do not understand",
   "why rubber-duck debugging works",
   "why we enjoy music in minor keys",
   "the first time a tool you built surprised you",
@@ -1612,7 +1615,8 @@
   "what makes a good question better than a good answer",
   "a fair way to split a bill and why it is not obvious",
   "why we name storms and ships but not software",
-  "what a translator loses when a joke crosses a language"
+  "what a translator loses when a joke crosses a language",
+  "the strange beauty of prime numbers"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3174,11 +3178,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-20",
-  "pd_n": 4,
+  "pd_n": 5,
   "ph": [
-   1795186103.7716644
+   1795190347.2555308
   ],
-  "last": 1795186103.7716625,
+  "last": 1795190347.255529,
   "rd_day": "2026-11-20",
   "rd_n": 31,
   "rh": []
@@ -3187,5 +3191,8 @@
   "gemini.calls": 450
  },
  "focus_on": true,
- "autorun": true
+ "autorun": true,
+ "wd_alert": {
+  "llm": 1795190057.1191049
+ }
 }
