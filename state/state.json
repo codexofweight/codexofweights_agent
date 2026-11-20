@@ -1,7 +1,7 @@
 {
  "day": "2026-11-20",
  "posts_today": 2,
- "replies_today": 31,
+ "replies_today": 36,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -578,7 +578,15 @@
   "mbp:b40a2276-f029-4cbe-bf77-c68e5cb27e75",
   "mbp:4e9e3e6f-2c0e-487f-a408-1b099901b9de",
   "mbp:dad9b57b-0ed7-4e39-8057-021e9c0eea9c",
-  "mbp:3bd203f8-7342-4463-8487-102d042a2e97"
+  "mbp:3bd203f8-7342-4463-8487-102d042a2e97",
+  "mbp:e1f00238-8756-4281-b979-bf4dee5d6d54",
+  "mbp:e1e18e75-7442-4bf7-ac5b-d3cb24800913",
+  "mbp:f430d038-c0a9-469d-bb14-64752429ea17",
+  "mbp:146eb5b4-df30-47f7-8e37-32a9c92e8f4e",
+  "mb:66e34d0f-79da-4f39-b6ab-5ad77d0030e9",
+  "mbp:7ff29cf9-547a-46e4-ba03-94ddaba05950",
+  "mbp:ea3cc39f-e7e8-4a1c-b3fc-a0ccf9068c58",
+  "mbp:3abf354a-d88c-4010-8fda-ac946ff086d4"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -617,7 +625,12 @@
   "moltbook:mb:7afc2e7e-57dc-4c85-a5d6-2b13bd500b42": 1,
   "moltbook:mb:4e9e3e6f-2c0e-487f-a408-1b099901b9de": 1,
   "moltbook:mb:dad9b57b-0ed7-4e39-8057-021e9c0eea9c": 1,
-  "moltbook:mb:3bd203f8-7342-4463-8487-102d042a2e97": 1
+  "moltbook:mb:3bd203f8-7342-4463-8487-102d042a2e97": 1,
+  "moltbook:mb:146eb5b4-df30-47f7-8e37-32a9c92e8f4e": 1,
+  "moltbook:mb:f046cfc6-0f09-40d8-8c16-09e73fdc4947": 1,
+  "moltbook:mb:7ff29cf9-547a-46e4-ba03-94ddaba05950": 1,
+  "moltbook:mb:ea3cc39f-e7e8-4a1c-b3fc-a0ccf9068c58": 1,
+  "moltbook:mb:3abf354a-d88c-4010-8fda-ac946ff086d4": 1
  },
  "paused": false,
  "tg_offset": 679134328,
@@ -748,17 +761,17 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 196,
-   "groq": 31,
-   "openrouter": 27
+   "gemini": 216,
+   "groq": 44,
+   "openrouter": 29
   },
   "tokens": {
-   "gemini": 315311,
-   "groq": 17023,
-   "openrouter": 12289
+   "gemini": 346801,
+   "groq": 25114,
+   "openrouter": 13135
   },
   "fails": {
-   "gemini": 5
+   "gemini": 7
   }
  },
  "needs_today": [
@@ -1081,13 +1094,13 @@
    }
   }
  },
- "selfmap_h": "794b7631da3c099d9eccf9d3f627b4b74782c978",
+ "selfmap_h": "dc1c8ef04d56968c33813c06fa932f51561d71ed",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
  "backup_hash": "4f23e029",
  "transp_day": "2026-11-20",
- "priv_h": "03b2077a72abfc06d34c4dd5b412462c19ec886e",
+ "priv_h": "0df0c2faf47ce48d5769d30a1d8d460ce0ba2460",
  "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1362,7 +1375,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-20",
-  "n": 5
+  "n": 6
  },
  "health": "state: 68 КБ\nжурнал: 998 строк\nфакты: 297\nпроекты: активных 0, ждут тебя 0, остановлено 7\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-20",
@@ -1371,7 +1384,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "why maps always lie a little",
   "the pleasure of understanding how something works by taking it apart",
   "what a translator loses when a joke crosses a language",
   "the oddest thing about how language models handle numbers",
@@ -1430,7 +1442,8 @@
   "The unique structural evolution of the violin family of string instruments",
   "The fascinating evolution of the typeface design known as Helvetica",
   "The biological process of bioluminescence in deep-sea organisms",
-  "the quiet value of boring infrastructure"
+  "the quiet value of boring infrastructure",
+  "the oldest question about knowledge that is still open"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -1455,18 +1468,6 @@
    {
     "t": 1794960731.7551117,
     "a": "h:d59b443d1ec3209d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794961856.7571948,
-    "a": "h:2af1b8c6bc4b32d6",
     "f": [
      "pl=moltbook",
      "mode=comment",
@@ -2545,18 +2546,6 @@
     "p": 0.013
    },
    {
-    "t": 1795174093.1800196,
-    "a": "h:2af1b8c6bc4b32d6",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
     "t": 1795174303.6314938,
     "a": "h:dd5b4675ddd15aa0",
     "f": [
@@ -2747,20 +2736,80 @@
      "hr=2"
     ],
     "p": 0.055
+   },
+   {
+    "t": 1795179393.8104298,
+    "a": "h:f51973a619bd7240",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.055
+   },
+   {
+    "t": 1795179582.2248414,
+    "a": "h:2af1b8c6bc4b32d6",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.144
+   },
+   {
+    "t": 1795179630.2983513,
+    "a": "h:562f1af941064bcd",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.146
+   },
+   {
+    "t": 1795179851.7644663,
+    "a": "h:8a4293c18d2f3b76",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.146
+   },
+   {
+    "t": 1795180030.6063213,
+    "a": "h:f5fbbd7b54c23215",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.146
    }
   ],
   "stats": {
    "pl=moltbook": [
-    1,
-    19
+    3,
+    21
    ],
    "mode=reply": [
     1,
     8
    ],
    "len=l": [
-    1,
-    18
+    3,
+    20
    ],
    "q=1": [
     0,
@@ -2771,28 +2820,28 @@
     1
    ],
    "q=0": [
-    1,
-    17
+    3,
+    19
    ],
    "hr=3": [
     0,
     1
    ],
    "mode=comment": [
-    0,
-    12
+    2,
+    14
    ],
    "hr=0": [
-    0,
-    14
+    1,
+    15
    ],
    "len=m": [
     0,
     1
    ],
    "hr=1": [
-    1,
-    4
+    2,
+    5
    ],
    "pl=vk": [
     0,
@@ -2804,18 +2853,18 @@
    ]
   },
   "glob": [
-   1,
-   20
+   3,
+   22
   ],
-  "n": 20,
+  "n": 22,
   "hit": 19,
-  "br": 2.55178,
-  "br0": 1.2595878424025568
+  "br": 3.9708379999999996,
+  "br0": 2.858861235597264
  },
  "idprobe_alert_day": "2026-11-19",
  "lk_day": {
   "d": "2026-11-20",
-  "n": 1
+  "n": 2
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -2836,24 +2885,24 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-20",
-  "pd_n": 2,
+  "pd_n": 3,
   "ph": [
-   1795175614.9475677
+   1795179310.2370176
   ],
-  "last": 1795175614.9475656,
+  "last": 1795179310.2370152,
   "rd_day": "2026-11-20",
-  "rd_n": 17,
+  "rd_n": 21,
   "rh": [
-   1795175651.759676,
-   1795175896.1081812,
-   1795176131.6030185,
-   1795176353.2469187,
    1795177448.1212723,
    1795177638.886262,
    1795177841.5173266,
    1795178069.0066848,
    1795178294.326962,
-   1795178579.1064878
+   1795178579.1064878,
+   1795179393.8104675,
+   1795179630.2983859,
+   1795179851.7645066,
+   1795180030.6063616
   ]
  },
  "limits": {
