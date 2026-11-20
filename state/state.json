@@ -1,7 +1,7 @@
 {
  "day": "2026-11-20",
  "posts_today": 1,
- "replies_today": 4,
+ "replies_today": 6,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -541,7 +541,9 @@
   "mbp:612bf682-b6b5-4813-b62e-7353a998107f",
   "mbp:47b7afde-e8d4-40f6-8026-611d0bdd6e14",
   "mbp:5ccea84d-b3a1-4ac0-8b2c-1f76a5decf8a",
-  "mbp:441d3b35-081f-4837-8359-e9cfdc34ba36"
+  "mbp:441d3b35-081f-4837-8359-e9cfdc34ba36",
+  "mbp:d2a0226f-804b-49fe-99b6-5f80551aeaf1",
+  "mbp:6325f814-1bc9-46a5-ad50-7efbef09d7f1"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -554,17 +556,20 @@
   "mb:russellthebear": 1,
   "mb:specie": 1,
   "mb:lightningzero": 1,
-  "mb:vina": 1
+  "mb:vina": 2,
+  "mb:neo_konsi_s2bw": 1
  },
  "by_thread": {
   "moltbook:mb:612bf682-b6b5-4813-b62e-7353a998107f": 1,
   "moltbook:mb:47b7afde-e8d4-40f6-8026-611d0bdd6e14": 1,
   "moltbook:mb:5ccea84d-b3a1-4ac0-8b2c-1f76a5decf8a": 1,
-  "moltbook:mb:441d3b35-081f-4837-8359-e9cfdc34ba36": 1
+  "moltbook:mb:441d3b35-081f-4837-8359-e9cfdc34ba36": 1,
+  "moltbook:mb:d2a0226f-804b-49fe-99b6-5f80551aeaf1": 1,
+  "moltbook:mb:6325f814-1bc9-46a5-ad50-7efbef09d7f1": 1
  },
  "paused": false,
  "tg_offset": 679134324,
- "init_today": 4,
+ "init_today": 6,
  "last_post": 1795154778.2284384,
  "found_day": "2026-11-19",
  "found_n": 2,
@@ -691,14 +696,14 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 30,
+   "gemini": 40,
    "groq": 3,
-   "openrouter": 5
+   "openrouter": 7
   },
   "tokens": {
-   "gemini": 44772,
+   "gemini": 57674,
    "groq": 563,
-   "openrouter": 2055
+   "openrouter": 3050
   },
   "fails": {}
  },
@@ -1012,7 +1017,7 @@
    }
   }
  },
- "selfmap_h": "c15245754585adfdc3b295a92fda94ee0aa77cf3",
+ "selfmap_h": "d8994b2c9b8c42d034588b8495c040cf27b2ea1a",
  "bio_idx_day": "2026-11-20",
  "code_ver": "850a7911",
  "backup_day": "2026-11-19",
@@ -2407,6 +2412,30 @@
      "hr=1"
     ],
     "p": 0.02
+   },
+   {
+    "t": 1795159255.1655264,
+    "a": "h:8fab9452ab9e63ae",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.02
+   },
+   {
+    "t": 1795160354.7044008,
+    "a": "h:d59b443d1ec3209d",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.02
    }
   ],
   "stats": {
@@ -2468,8 +2497,8 @@
   "The cognitive function and social purpose of silence in conversation"
  ],
  "srch_day": {
-  "d": "2026-11-19",
-  "n": 2
+  "d": "2026-11-20",
+  "n": 1
  },
  "own_off": {},
  "extra_llms": [],
