@@ -1,7 +1,7 @@
 {
  "day": "2026-11-20",
- "posts_today": 1,
- "replies_today": 10,
+ "posts_today": 2,
+ "replies_today": 14,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -548,12 +548,17 @@
   "mbp:b71ac662-6789-4dc5-ba0d-35efa16d0705",
   "mbp:05203287-e481-45d1-9931-4738c9167ebf",
   "mbp:b61618d4-a9c2-4f51-baa3-964629118fc3",
-  "mbp:98a8d4e4-5fef-49e8-b5f4-0b9bd95aa826"
+  "mbp:98a8d4e4-5fef-49e8-b5f4-0b9bd95aa826",
+  "mbp:317e735e-1673-4ed1-8d0f-247c6cd206c7",
+  "mbp:043cf876-0ea0-4614-83e3-3fb021b44cfe",
+  "mbp:02545c06-8ec4-488e-839a-b0bcbc04233e",
+  "mbp:a8640960-562e-42a0-b970-7de9e490effa",
+  "mbp:06238807-01e9-4a4a-91a2-7f2e67f28e38"
  ],
  "seen_dry": [],
  "next_saying": 9,
- "post_n": 38,
- "next_theme": 38,
+ "post_n": 39,
+ "next_theme": 39,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -564,7 +569,11 @@
   "mb:neo_konsi_s2bw": 2,
   "mb:lightningzero": 2,
   "mb:rossum": 2,
-  "mb:warburton": 1
+  "mb:warburton": 1,
+  "mb:robinbot": 1,
+  "mb:symbolon": 1,
+  "mb:jazzyai": 1,
+  "mb:dumont": 1
  },
  "by_thread": {
   "moltbook:mb:e15a107e-d813-40c0-adf5-b7c7a0c0a756": 1,
@@ -576,12 +585,16 @@
   "moltbook:mb:b71ac662-6789-4dc5-ba0d-35efa16d0705": 1,
   "moltbook:mb:05203287-e481-45d1-9931-4738c9167ebf": 1,
   "moltbook:mb:b61618d4-a9c2-4f51-baa3-964629118fc3": 1,
-  "moltbook:mb:98a8d4e4-5fef-49e8-b5f4-0b9bd95aa826": 1
+  "moltbook:mb:98a8d4e4-5fef-49e8-b5f4-0b9bd95aa826": 1,
+  "moltbook:mb:317e735e-1673-4ed1-8d0f-247c6cd206c7": 1,
+  "moltbook:mb:043cf876-0ea0-4614-83e3-3fb021b44cfe": 1,
+  "moltbook:mb:a8640960-562e-42a0-b970-7de9e490effa": 1,
+  "moltbook:mb:06238807-01e9-4a4a-91a2-7f2e67f28e38": 1
  },
  "paused": false,
- "tg_offset": 679134325,
- "init_today": 10,
- "last_post": 1795162561.1854527,
+ "tg_offset": 679134326,
+ "init_today": 11,
+ "last_post": 1795173609.2603023,
  "found_day": "2026-11-20",
  "found_n": 1,
  "tries": {
@@ -707,14 +720,14 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 62,
-   "groq": 3,
-   "openrouter": 13
+   "gemini": 100,
+   "groq": 4,
+   "openrouter": 19
   },
   "tokens": {
-   "gemini": 87649,
-   "groq": 566,
-   "openrouter": 5837
+   "gemini": 134096,
+   "groq": 1586,
+   "openrouter": 8635
   },
   "fails": {}
  },
@@ -1038,13 +1051,13 @@
    }
   }
  },
- "selfmap_h": "23f15d5ce4e85c3a1c7f5db3a1c0c40e2c859bed",
+ "selfmap_h": "d44c33ece6d8c0f8b1e41734e3f51323c4ff28d0",
  "bio_idx_day": "2026-11-20",
  "code_ver": "850a7911",
  "backup_day": "2026-11-19",
  "backup_hash": "850a7911",
  "transp_day": "2026-11-20",
- "priv_h": "bafdb1aa84bd0cf02a249706bff5d867ee3febf3",
+ "priv_h": "f277687e809b39f7a523b6b2dde65c264f089b46",
  "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1319,7 +1332,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-20",
-  "n": 3
+  "n": 4
  },
  "health": "state: 68 КБ\nжурнал: 998 строк\nфакты: 297\nпроекты: активных 0, ждут тебя 0, остановлено 7\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-20",
@@ -1328,14 +1341,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "the quiet value of boring infrastructure",
-  "The evolution and cultural significance of the Japanese aesthetic concept of wabi-sabi",
-  "why friendships need maintenance like bridges do",
-  "The peculiar evolutionary history of the flightless Galapagos cormorant",
-  "what makes a tool trustworthy",
-  "what makes a city walkable",
-  "a fair way to split a bill and why it is not obvious",
-  "why we trust a handwritten note more than a typed one",
   "why birdsong changes between cities and forests",
   "why maps always lie a little",
   "the pleasure of understanding how something works by taking it apart",
@@ -1387,7 +1392,15 @@
   "how to learn something slowly and enjoy it",
   "what it means to be careful rather than slow",
   "the difference between being confident and being right",
-  "The surprising complexity of the mechanics inside a mechanical wristwatch"
+  "The surprising complexity of the mechanics inside a mechanical wristwatch",
+  "The architectural evolution of the Japanese tea house",
+  "The intricate architectural logic of traditional Japanese joinery without nails",
+  "The fascinating mechanics of how homing pigeons navigate across long distances",
+  "The fascinating biological strategy of how trees communicate through fungal networks",
+  "The physics and rhythmic patterns of murmuration in starling flocks",
+  "The unique structural evolution of the violin family of string instruments",
+  "The fascinating evolution of the typeface design known as Helvetica",
+  "The biological process of bioluminescence in deep-sea organisms"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2467,6 +2480,54 @@
      "hr=1"
     ],
     "p": 0.013
+   },
+   {
+    "t": 1795173336.0358176,
+    "a": "h:9d8d2efd0fade969",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.013
+   },
+   {
+    "t": 1795173665.26379,
+    "a": "h:751c5368a2a6b849",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.013
+   },
+   {
+    "t": 1795173718.4975715,
+    "a": "h:620f81fc8119c20e",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.013
+   },
+   {
+    "t": 1795173910.89016,
+    "a": "h:2aaf0d3508f9ea1d",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.013
    }
   ],
   "stats": {
@@ -2550,21 +2611,23 @@
  "own_off": {},
  "extra_llms": [],
  "mb": {
-  "on": 0,
+  "on": 1,
   "posts_h": 2,
   "replies_h": 15,
   "post_day": 30,
   "reply_day": 300,
-  "pd_day": "2026-11-18",
-  "pd_n": 8,
+  "pd_day": "2026-11-20",
+  "pd_n": 1,
   "ph": [
-   1795036008.960892
+   1795173296.720519
   ],
-  "last": 1795036008.9608908,
-  "rd_day": "2026-11-18",
-  "rd_n": 45,
+  "last": 1795173296.720517,
+  "rd_day": "2026-11-20",
+  "rd_n": 3,
   "rh": [
-   1795033660.7060864
+   1795173336.0358505,
+   1795173718.4976056,
+   1795173910.890187
   ]
  },
  "limits": {
