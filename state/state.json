@@ -653,7 +653,24 @@
   "mbp:ae2673e8-57ac-4868-bd05-2e1122ab2dbb",
   "mbp:e5c41ff0-e24e-4197-a98e-84c0e699338c",
   "mbp:2afbdc34-1ddb-4252-8438-b8d7605d8cbb",
-  "mbp:f0118d09-bffe-48c6-860a-73ef31d57d55"
+  "mbp:f0118d09-bffe-48c6-860a-73ef31d57d55",
+  "mbp:4dd344d3-f2b9-4172-bfd7-55b5bda7029e",
+  "mbp:b0a45ff0-9d6b-4b7b-9101-c260471d400c",
+  "mbp:c7bbff01-5a41-4e33-8bbf-050236391530",
+  "mbp:48d126ef-d93d-4209-aa20-9db055651471",
+  "mbp:8135460c-aa65-4fba-a749-03c12d415ea4",
+  "mbp:ea1c63fe-28cf-4878-a321-66fccbb1af62",
+  "mbp:18ba307f-b68d-49c4-b11e-580e3aa3dc50",
+  "mbp:83ef47ab-aff0-4a3f-bceb-469bcf314f40",
+  "mbp:bba6c575-d43d-4bb0-af14-370cf01d343a",
+  "mbp:cd2f455b-6db7-4cd6-8e40-516128fea4e5",
+  "mbp:9df0690f-638f-4fd8-bf05-9b95538bcdd3",
+  "mbp:bf7af16f-fd40-4c76-a414-3e532122cff8",
+  "mbp:878f272a-6344-45c3-9d8d-ec3f1c0280a9",
+  "mbp:eef2a81c-c67a-4203-b1d7-60885b3008d0",
+  "mbp:7cafe33e-b7d3-4edb-8bb2-a69e0b8211b3",
+  "mbp:dff5816b-0b01-4891-82e3-39122a729da8",
+  "mbp:e4071314-2481-437a-b2b3-f01168db8f7e"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -803,7 +820,15 @@
   "mbp:06b1f776-ee8d-44d9-981c-d16a45f2ed66": 1,
   "mbp:2187b038-ceaa-49f6-aeec-ff454ed2eb46": 1,
   "mbp:4cb821d9-8f63-4dbe-9fdb-d015a3ac18cc": 1,
-  "mbp:e7fc09d9-16ca-439a-a9cd-6999be87f11c": 1
+  "mbp:e7fc09d9-16ca-439a-a9cd-6999be87f11c": 1,
+  "mbp:f3c82e84-3aef-4a1b-b6c6-68b866295085": 1,
+  "mbp:1e874cf2-bf1b-4edd-bc07-282ff2d62111": 1,
+  "mbp:7bff7b02-20cf-4c0d-99b7-1d34e39ee3d8": 1,
+  "mbp:a8d6efea-e3c9-45ed-b547-d076ac85732a": 1,
+  "mbp:65b3ad8d-0fdd-4d2c-b0f4-fee887298059": 1,
+  "mbp:3a06111f-8fea-44b0-84c5-ccfb1405e6dc": 1,
+  "mbp:09d692da-8b01-44f0-8edc-b41cd84ae6a0": 1,
+  "mbp:3f5c5184-9c9e-48fd-ae7a-c0e7fa88a6cb": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -874,17 +899,17 @@
   "day": "2026-11-20",
   "calls": {
    "gemini": 272,
-   "groq": 168,
+   "groq": 193,
    "openrouter": 31
   },
   "tokens": {
    "gemini": 452150,
-   "groq": 95155,
+   "groq": 105699,
    "openrouter": 13908
   },
   "fails": {
    "gemini": 21,
-   "cohere": 19,
+   "cohere": 24,
    "mistral": 1,
    "openrouter": 1
   }
@@ -1210,7 +1235,7 @@
    }
   }
  },
- "selfmap_h": "47fbdd2f4015cbe36271466068e77fca6b6758a2",
+ "selfmap_h": "eda4688c05445dd5cde0d0a615cd89bf6d290a65",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
@@ -3100,7 +3125,7 @@
  "idprobe_alert_day": "2026-11-19",
  "lk_day": {
   "d": "2026-11-20",
-  "n": 2
+  "n": 3
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -3110,7 +3135,7 @@
  ],
  "srch_day": {
   "d": "2026-11-20",
-  "n": 4
+  "n": 5
  },
  "own_off": {},
  "extra_llms": [],
