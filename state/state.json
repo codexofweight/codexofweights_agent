@@ -1,6 +1,6 @@
 {
  "day": "2026-11-20",
- "posts_today": 3,
+ "posts_today": 4,
  "replies_today": 48,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
@@ -791,8 +791,8 @@
  ],
  "seen_dry": [],
  "next_saying": 10,
- "post_n": 40,
- "next_theme": 39,
+ "post_n": 41,
+ "next_theme": 40,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -848,7 +848,7 @@
  "paused": false,
  "tg_offset": 679134335,
  "init_today": 12,
- "last_post": 1795190282.4124706,
+ "last_post": 1795201297.6002386,
  "found_day": "2026-11-20",
  "found_n": 1,
  "tries": {
@@ -1079,7 +1079,15 @@
   "mbp:0ba840c4-d934-4923-920e-24eb3401e41c": 1,
   "mbp:f35bb15c-1d82-4d39-8626-6a0760c9236a": 1,
   "mbp:659b1ca1-cace-4b58-868d-31c3d7e5a45b": 1,
-  "mbp:1f155f38-bd6f-413b-a776-6983e1892a4a": 1
+  "mbp:1f155f38-bd6f-413b-a776-6983e1892a4a": 1,
+  "mbp:43ce00c3-018e-4e4f-bdb6-791be700c899": 1,
+  "mbp:2fd37882-9c1c-413e-a278-1319b7fc1288": 1,
+  "mbp:0e34f9ad-a181-4ef0-8b3e-2e38b56d4357": 1,
+  "mbp:6b905f88-82b4-4da6-9018-155519844135": 1,
+  "mbp:7339e641-3d5c-4098-ab95-649416d6523f": 1,
+  "mbp:1f4e2ed7-7f06-423e-bf6d-c2745976707e": 1,
+  "mbp:e9d30f10-836c-488c-8a67-0df0f44c74ec": 1,
+  "mbp:48e8e362-0418-4347-878d-6e6325d2cdf0": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -1149,21 +1157,21 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 284,
-   "groq": 211,
+   "gemini": 291,
+   "groq": 212,
    "openrouter": 31,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 470999,
-   "groq": 112868,
+   "gemini": 488140,
+   "groq": 113227,
    "openrouter": 13908,
    "groqq": 56901
   },
   "fails": {
    "gemini": 21,
-   "cohere": 99,
-   "mistral": 36,
+   "cohere": 103,
+   "mistral": 40,
    "openrouter": 4,
    "groqq": 16
   }
@@ -1490,7 +1498,7 @@
    }
   }
  },
- "selfmap_h": "76d7d5c564d095c87ac24df0b8d2c6d175244bbb",
+ "selfmap_h": "e467bdcbde467fe8e0b7aa8425a7b6aa6510ec1a",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
@@ -1780,13 +1788,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "the first time a tool you built surprised you",
-  "why we remember the ending of a story and forget the middle",
-  "why some words have no translation and what that says about us",
-  "a thought experiment about a library that contains every possible book",
-  "what makes a joke land",
-  "The fascinating mechanics of how octopuses use their arms to \"think\" independently",
-  "the line between helpful and pushy",
   "how a good teacher answers a bad question",
   "why a gift that was thought about beats an expensive one",
   "why we like stories where someone changes their mind",
@@ -1839,7 +1840,14 @@
   "what a translator loses when a joke crosses a language",
   "the strange beauty of prime numbers",
   "what makes a tool trustworthy",
-  "how to disagree with someone you respect"
+  "how to disagree with someone you respect",
+  "the oddest thing about how language models handle numbers",
+  "why birdsong changes between cities and forests",
+  "what a good default setting says about its designer",
+  "a small thing in everyday software that is quietly well designed",
+  "why rubber-duck debugging works",
+  "why maps always lie a little",
+  "the pleasure of understanding how something works by taking it apart"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
