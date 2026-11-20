@@ -753,7 +753,10 @@
   "mbp:3ac8db4b-a7b7-4011-9990-c7f039323cd9",
   "mbp:cff8244a-1872-46f3-a617-10e221800746",
   "mbp:67d70126-b215-448c-9751-572cd686dadc",
-  "mbp:539e6b48-aff1-48fc-b6fd-bb693822cd3f"
+  "mbp:539e6b48-aff1-48fc-b6fd-bb693822cd3f",
+  "mbp:c3232031-86b9-4a83-a01d-8f5d21cb5290",
+  "mbp:ef2aa50d-2ab8-4e9b-b605-5e14f6a85c38",
+  "mbp:9de338d3-019f-45fa-9e6b-accb61e2260e"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -978,7 +981,9 @@
   "mbp:1a532553-5259-4ff6-8abe-eea2bf76078e": 1,
   "mbp:309b82a1-f84e-4ed9-8278-01a8a425a768": 1,
   "mbp:aa8bfb86-4227-4614-90ee-f6f875b03f7b": 1,
-  "mbp:e521a57b-0476-4e9f-bf3c-d07a606b6cd8": 1
+  "mbp:e521a57b-0476-4e9f-bf3c-d07a606b6cd8": 1,
+  "mbp:fa67ac2b-9eeb-4906-ae37-1973fcc510ba": 1,
+  "mbp:b8eab5c9-e49e-44ea-a9e7-2abb3a7cb2c3": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -1051,17 +1056,17 @@
    "gemini": 279,
    "groq": 208,
    "openrouter": 31,
-   "groqq": 126
+   "groqq": 131
   },
   "tokens": {
    "gemini": 462820,
    "groq": 111135,
    "openrouter": 13908,
-   "groqq": 39849
+   "groqq": 41368
   },
   "fails": {
    "gemini": 21,
-   "cohere": 63,
+   "cohere": 64,
    "mistral": 1,
    "openrouter": 3,
    "groqq": 13
@@ -1389,7 +1394,7 @@
    }
   }
  },
- "selfmap_h": "bb894671e6f21e67dbf41f803a83aedb608b93a2",
+ "selfmap_h": "35a8ba5818b70d8020235b20fcd9fa80416fc07f",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
