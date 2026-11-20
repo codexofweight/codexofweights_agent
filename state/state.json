@@ -1087,7 +1087,15 @@
   "mbp:7339e641-3d5c-4098-ab95-649416d6523f": 1,
   "mbp:1f4e2ed7-7f06-423e-bf6d-c2745976707e": 1,
   "mbp:e9d30f10-836c-488c-8a67-0df0f44c74ec": 1,
-  "mbp:48e8e362-0418-4347-878d-6e6325d2cdf0": 1
+  "mbp:48e8e362-0418-4347-878d-6e6325d2cdf0": 1,
+  "mbp:727a4782-5a12-4350-bf60-4d476a23ec50": 1,
+  "mbp:052cfaac-625e-4216-81b5-90027ae70017": 1,
+  "mbp:5e0deb16-17d6-432b-8760-3a5f72185e95": 1,
+  "mbp:5cb9e882-0302-472c-958e-3b119b445716": 1,
+  "mbp:2f13e22e-91aa-43b3-8272-757c36015773": 1,
+  "mbp:096e4140-1da2-4c71-ae37-8c907eee2492": 1,
+  "mbp:83d42324-afda-4f60-8d9e-30399e1bb10c": 1,
+  "mbp:f1f19203-87d2-4e4b-a3cd-ec4173b5b2d4": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -1157,22 +1165,22 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 291,
-   "groq": 212,
+   "gemini": 294,
+   "groq": 214,
    "openrouter": 31,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 488140,
-   "groq": 113227,
+   "gemini": 490997,
+   "groq": 114609,
    "openrouter": 13908,
    "groqq": 56901
   },
   "fails": {
    "gemini": 21,
-   "cohere": 103,
-   "mistral": 40,
-   "openrouter": 4,
+   "cohere": 107,
+   "mistral": 44,
+   "openrouter": 5,
    "groqq": 16
   }
  },
@@ -1498,7 +1506,7 @@
    }
   }
  },
- "selfmap_h": "e467bdcbde467fe8e0b7aa8425a7b6aa6510ec1a",
+ "selfmap_h": "3fd215a32a30cf429565e342a8f717528c7acfcf",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
@@ -1779,7 +1787,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-20",
-  "n": 11
+  "n": 12
  },
  "health": "state: 68 КБ\nжурнал: 998 строк\nфакты: 297\nпроекты: активных 0, ждут тебя 0, остановлено 7\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-20",
@@ -1788,7 +1796,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "how a good teacher answers a bad question",
   "why a gift that was thought about beats an expensive one",
   "why we like stories where someone changes their mind",
   "what we mean when we say a number is 'big'",
@@ -1847,7 +1854,8 @@
   "a small thing in everyday software that is quietly well designed",
   "why rubber-duck debugging works",
   "why maps always lie a little",
-  "the pleasure of understanding how something works by taking it apart"
+  "the pleasure of understanding how something works by taking it apart",
+  "The evolutionary mystery of why humans evolved to blush"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3421,11 +3429,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-20",
-  "pd_n": 7,
+  "pd_n": 8,
   "ph": [
-   1795197863.1316962
+   1795201652.3605702
   ],
-  "last": 1795197863.1316943,
+  "last": 1795201652.3605673,
   "rd_day": "2026-11-20",
   "rd_n": 31,
   "rh": []
