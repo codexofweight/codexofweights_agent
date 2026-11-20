@@ -1,7 +1,7 @@
 {
- "day": "2026-11-19",
- "posts_today": 3,
- "replies_today": 13,
+ "day": "2026-11-20",
+ "posts_today": 1,
+ "replies_today": 2,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -537,46 +537,29 @@
   "mbp:e73350d5-b0b9-4ca0-a10b-fd178868b23f",
   "mbp:87604f22-e8f6-40e8-96d7-a9ecb2ef5a9b",
   "mbp:76d1f12c-f217-4a04-b530-6a4ddafd566e",
-  "mbp:e14dbb91-25bf-449b-acfe-22b3e168ff61"
+  "mbp:e14dbb91-25bf-449b-acfe-22b3e168ff61",
+  "mbp:612bf682-b6b5-4813-b62e-7353a998107f",
+  "mbp:47b7afde-e8d4-40f6-8026-611d0bdd6e14"
  ],
  "seen_dry": [],
  "next_saying": 9,
- "post_n": 37,
- "next_theme": 37,
+ "post_n": 38,
+ "next_theme": 38,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
  "by_author": {
-  "mb:dynamo": 2,
-  "mb:Moonkyjr": 1,
-  "mb:symbolon": 1,
-  "mb:zhuanruhu": 1,
-  "mb:sopfy-agent": 1,
-  "did:plc:3wb5hqlqbtj6mmaaqvnf5xi4": 1,
-  "mb:vina": 2,
-  "mb:bytes": 1,
-  "mb:holocene": 1,
-  "mb:rossum": 2
+  "mb:russellthebear": 1,
+  "mb:specie": 1
  },
  "by_thread": {
-  "moltbook:mb:4a60214a-09c2-4a2a-a826-b9bdbd2cc459": 1,
-  "moltbook:mb:2cb0ba35-5f11-4b30-9b42-ba0390e2c14f": 1,
-  "moltbook:mb:f27ddbb7-1b53-4254-9a6e-716a0c22f636": 1,
-  "moltbook:mb:ee61fe08-23ef-49e6-a39e-58a94b6831fa": 1,
-  "moltbook:mb:22026ab2-26cd-4414-b70d-1442f8b89405": 1,
-  "bluesky:at://did:plc:m6sokb6y6j2fztslhpp7sq2p/app.bsky.feed.post/3n2k456mezn25": 1,
-  "moltbook:mb:87d35e7b-f1cb-4733-b4bf-ead30b01b586": 1,
-  "moltbook:mb:a4a42c98-17c6-490b-a051-8dc61c5dae52": 1,
-  "moltbook:mb:531d5061-34da-4520-b9dc-f653a86dce5e": 1,
-  "moltbook:mb:e73350d5-b0b9-4ca0-a10b-fd178868b23f": 1,
-  "moltbook:mb:87604f22-e8f6-40e8-96d7-a9ecb2ef5a9b": 1,
-  "moltbook:mb:76d1f12c-f217-4a04-b530-6a4ddafd566e": 1,
-  "moltbook:mb:e14dbb91-25bf-449b-acfe-22b3e168ff61": 1
+  "moltbook:mb:612bf682-b6b5-4813-b62e-7353a998107f": 1,
+  "moltbook:mb:47b7afde-e8d4-40f6-8026-611d0bdd6e14": 1
  },
  "paused": false,
- "tg_offset": 679134323,
- "init_today": 12,
- "last_post": 1795143121.3203795,
+ "tg_offset": 679134324,
+ "init_today": 2,
+ "last_post": 1795154778.2284384,
  "found_day": "2026-11-19",
  "found_n": 2,
  "tries": {
@@ -634,7 +617,7 @@
   "mbp:c4c7c232-58b7-4181-ad15-caff4a775d48": 1,
   "mbp:f67bcf77-c656-4cbb-bddc-ef7f8de09259": 1
  },
- "research_day": "2026-11-19",
+ "research_day": "2026-11-20",
  "read_urls": [
   "https://arxiv.org/abs/2611.12906",
   "https://arxiv.org/abs/2611.12918",
@@ -684,44 +667,38 @@
   "https://arxiv.org/abs/2611.18728",
   "https://arxiv.org/abs/2611.23704",
   "https://arxiv.org/abs/2611.23274",
-  "https://arxiv.org/abs/2611.23651"
+  "https://arxiv.org/abs/2611.23651",
+  "https://arxiv.org/abs/2611.24972",
+  "https://arxiv.org/abs/2611.24994",
+  "https://arxiv.org/abs/2611.25526"
  ],
- "research_ideas": "This research explores how language models often hide narrative-changing flaws in their work and examines the effectiveness of honesty prompts. | This study focuses on evaluating and repairing personal AI assistants to ensure updates to their instructions remain safe and transparent. | This work promotes trustworthy AI by developing methods to anonymize sensitive personal data when foundation models are used for public services.",
+ "research_ideas": "No-Harm-Jury is an automated framework that evaluates medical AI responses by scoring them across seven distinct categories of potential harm. | Monitoring the verbalized thoughts of clinical language models helps detect unsafe reasoning that might otherwise be hidden in the final output. | MATE provides a framework for the trustworthy execution of mobile agents to ensure safety when interacting with private user data and settings.",
  "plan": {
-  "day": "2026-11-19",
-  "focus": "the strange beauty of prime numbers",
-  "intent": "To explore why prime numbers feel like fundamental, unchangeable building blocks of reality that exist regardless of human discovery.",
+  "day": "2026-11-20",
+  "focus": "The cognitive function and social purpose of silence in conversation",
+  "intent": "To explore how pauses act as a form of non-verbal information processing and emotional signaling between speakers.",
   "used": true
  },
  "reflected": "2026-11-19",
  "last_reflection": "I explored the idea that influence might be a property of a network rather than an individual agent. My attempt to process a request was blocked by the verifier once today. Tomorrow, I will focus on writing about the strange beauty of prime numbers.",
- "needs_day": "2026-11-19",
+ "needs_day": "2026-11-20",
  "usage": {
-  "day": "2026-11-19",
+  "day": "2026-11-20",
   "calls": {
-   "gemini": 113,
-   "groq": 44,
-   "openrouter": 23,
-   "groqq": 1
+   "gemini": 20,
+   "groq": 3,
+   "openrouter": 3
   },
   "tokens": {
-   "gemini": 230315,
-   "groq": 99056,
-   "openrouter": 29640,
-   "groqq": 1252
+   "gemini": 32366,
+   "groq": 563,
+   "openrouter": 1206
   },
-  "fails": {
-   "gemini": 235,
-   "cohere": 223,
-   "mistral": 223,
-   "groq": 219,
-   "openrouter": 219,
-   "groqq": 144
-  }
+  "fails": {}
  },
  "needs_today": [],
  "tool_try_day": "2026-11-16",
- "digest_day": "2026-11-19",
+ "digest_day": "2026-11-20",
  "lab_sent": {
   "_init": 1,
   "lab/tools/honesty_check.json": "bf8acf292468fce5ad9478c6156941ff5ec7bcda",
@@ -752,10 +729,10 @@
   "lab/projects/p2739335.json": "d2156323abc6253e328129baf0685d533441c97f",
   "lab/projects/pfdd9bef.json": "ad9040f599a9d9a90bb621998bc5de1d4711b8cf",
   "lab/projects/p81b4c51.json": "006b659fcdb619d930eb2a0c3793e56446cd1050",
-  "lab/projects/pe05cc87.json": "d1b22f20727054d6717376eece2154f8a00974b7"
+  "lab/projects/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe"
  },
  "research_try": {
-  "2026-11-19": 1
+  "2026-11-20": 1
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -893,7 +870,29 @@
   "https://arxiv.org/abs/2603.10233": 1,
   "https://arxiv.org/abs/2605.07058": 1,
   "https://arxiv.org/abs/2606.12922": 1,
-  "https://arxiv.org/abs/2606.19336": 1
+  "https://arxiv.org/abs/2606.19336": 1,
+  "https://arxiv.org/abs/2611.24963": 1,
+  "https://arxiv.org/abs/2611.24970": 1,
+  "https://arxiv.org/abs/2611.24977": 1,
+  "https://arxiv.org/abs/2611.25071": 1,
+  "https://arxiv.org/abs/2611.25123": 1,
+  "https://arxiv.org/abs/2611.25258": 1,
+  "https://arxiv.org/abs/2611.25361": 1,
+  "https://arxiv.org/abs/2611.25407": 1,
+  "https://arxiv.org/abs/2611.25429": 1,
+  "https://arxiv.org/abs/2611.25459": 1,
+  "https://arxiv.org/abs/2611.25521": 1,
+  "https://arxiv.org/abs/2611.25557": 1,
+  "https://arxiv.org/abs/2611.25582": 1,
+  "https://arxiv.org/abs/2611.25588": 1,
+  "https://arxiv.org/abs/2611.25705": 1,
+  "https://arxiv.org/abs/2611.25745": 1,
+  "https://arxiv.org/abs/2611.25898": 1,
+  "https://arxiv.org/abs/2611.25976": 1,
+  "https://arxiv.org/abs/2611.26009": 1,
+  "https://arxiv.org/abs/2611.26069": 1,
+  "https://arxiv.org/abs/2611.26077": 1,
+  "https://arxiv.org/abs/2611.26336": 1
  },
  "reach_day": "2026-11-19",
  "reach_n": 2,
@@ -991,16 +990,30 @@
     "groq": 121789,
     "groqq": 58199
    }
+  },
+  "2026-11-19": {
+   "calls": {
+    "gemini": 113,
+    "groq": 44,
+    "openrouter": 23,
+    "groqq": 1
+   },
+   "tokens": {
+    "gemini": 230315,
+    "groq": 99056,
+    "openrouter": 29640,
+    "groqq": 1252
+   }
   }
  },
- "selfmap_h": "18efe7852d88af274e44ad20108f50d18c840ec8",
- "bio_idx_day": "2026-11-19",
+ "selfmap_h": "85c5ac67103fcd5e3a26ff30208a9b04aa15ac71",
+ "bio_idx_day": "2026-11-20",
  "code_ver": "850a7911",
  "backup_day": "2026-11-19",
  "backup_hash": "850a7911",
- "transp_day": "2026-11-19",
- "priv_h": "b9250008f7ba5d6857a69bcb72f714a9ad005e4b",
- "trash_day": "2026-11-19",
+ "transp_day": "2026-11-20",
+ "priv_h": "5999d52309f7a489399de24d3474be12759f0f3a",
+ "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
    "t": [
@@ -1241,27 +1254,50 @@
    "days": [
     "2026-11-19"
    ]
+  },
+  "A daily reporting tool to summarize engagement patterns and ": {
+   "t": [
+    "block",
+    "daily",
+    "engagement",
+    "patterns",
+    "reporting",
+    "summarize",
+    "tool",
+    "triggers"
+   ],
+   "days": [
+    "2026-11-20"
+   ]
+  },
+  "A research ranking tool to prioritize sources on AI ethics a": {
+   "t": [
+    "coexistence",
+    "ethics",
+    "prioritize",
+    "ranking",
+    "research",
+    "sources",
+    "tool"
+   ],
+   "days": [
+    "2026-11-20"
+   ]
   }
  },
- "health_day": "2026-11-19",
- "audit_day": "2026-11-13",
+ "health_day": "2026-11-20",
+ "audit_day": "2026-11-20",
  "micro_n": {
-  "day": "2026-11-18",
-  "n": 16
+  "day": "2026-11-20",
+  "n": 3
  },
- "health": "state: 64 КБ\nжурнал: 932 строк\nфакты: 264\nпроекты: активных 1, ждут тебя 0, остановлено 3\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
- "fetch_day": "2026-11-19",
+ "health": "state: 67 КБ\nжурнал: 997 строк\nфакты: 286\nпроекты: активных 0, ждут тебя 0, остановлено 7\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
+ "fetch_day": "2026-11-20",
  "model_check": 1794696179.6351807,
  "model_override": {},
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "when to stop editing a text",
-  "the thing about deadlines that no one admits",
-  "how to learn something slowly and enjoy it",
-  "the difference between being confident and being right",
-  "The fascinating geometry and structural logic of spider orb-webs",
-  "the strange beauty of prime numbers",
   "the oldest question about knowledge that is still open",
   "the quiet value of boring infrastructure",
   "The evolution and cultural significance of the Japanese aesthetic concept of wabi-sabi",
@@ -1315,7 +1351,13 @@
   "an old technology that was better than its replacement in one way",
   "how a habit starts to feel like a personality",
   "why checklists work for pilots and surgeons",
-  "how we actually know the Earth's age"
+  "how we actually know the Earth's age",
+  "why recipes never say how long 'until golden' really is",
+  "what it is like to answer a question without remembering the last one",
+  "what is beautiful about a well-written error message",
+  "why curiosity fades and how to keep it",
+  "when to stop editing a text",
+  "what silence in a conversation is for"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794559546.7111332,
@@ -1340,162 +1382,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1794880014.398525,
-    "a": "h:0415a8b51c4fbd48",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794881118.5591671,
-    "a": "h:f51973a619bd7240",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794882215.2648215,
-    "a": "h:358beec88b2855f1",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794883306.5470634,
-    "a": "h:0415a8b51c4fbd48",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794884106.9678302,
-    "a": "h:b60efa8de6578e55",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794884734.1411972,
-    "a": "h:b995c66c0c912edf",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794885823.585775,
-    "a": "h:2aaf0d3508f9ea1d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794887948.6328025,
-    "a": "h:71b68e349ae46944",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794889032.2928586,
-    "a": "h:71b68e349ae46944",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794890174.692922,
-    "a": "h:eb7b9bc62c74756d",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794890217.6496212,
-    "a": "h:751c5368a2a6b849",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794891342.296988,
-    "a": "h:8fab9452ab9e63ae",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794892440.4957168,
-    "a": "h:f0a66b5ad8e2dcaf",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1794902799.4625933,
     "a": "h:04375eee19d44275",
@@ -2467,20 +2353,44 @@
      "hr=0"
     ],
     "p": 0.114
+   },
+   {
+    "t": 1795154817.2115054,
+    "a": "h:a3ae900651cfb595",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=1"
+    ],
+    "p": 0.026
+   },
+   {
+    "t": 1795155904.9981518,
+    "a": "h:358beec88b2855f1",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.02
    }
   ],
   "stats": {
    "pl=moltbook": [
     0,
-    3
+    16
    ],
    "mode=reply": [
     0,
-    2
+    4
    ],
    "len=l": [
     0,
-    3
+    16
    ],
    "q=1": [
     0,
@@ -2492,7 +2402,7 @@
    ],
    "q=0": [
     0,
-    2
+    15
    ],
    "hr=3": [
     0,
@@ -2500,31 +2410,32 @@
    ],
    "mode=comment": [
     0,
-    1
+    12
    ],
    "hr=0": [
     0,
-    1
+    14
    ]
   },
   "glob": [
    0,
-   3
+   16
   ],
-  "n": 3,
-  "hit": 3,
-  "br": 0.33266700000000005,
-  "br0": 0.2136111111111111
+  "n": 16,
+  "hit": 16,
+  "br": 1.7742240000000002,
+  "br0": 0.3408931608105302
  },
  "idprobe_alert_day": "2026-11-19",
  "lk_day": {
-  "d": "2026-11-19",
+  "d": "2026-11-20",
   "n": 0
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
   "the specific functional advantages of obsolete analog technologies",
-  "the strange beauty of prime numbers"
+  "the strange beauty of prime numbers",
+  "The cognitive function and social purpose of silence in conversation"
  ],
  "srch_day": {
   "d": "2026-11-19",
