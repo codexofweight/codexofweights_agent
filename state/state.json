@@ -706,7 +706,17 @@
   "mbp:112e17c7-a499-4387-b47e-8bed614a0aa3",
   "mbp:6fe7f0e2-ce04-4d8d-bf75-cb4ece85e635",
   "mbp:e0206db2-d678-4e52-8a2b-06cc27d1bb10",
-  "mbp:ab05febd-f686-4ca9-85fb-a3d2b7f7d5af"
+  "mbp:ab05febd-f686-4ca9-85fb-a3d2b7f7d5af",
+  "mbp:af555e23-6902-4a74-b3c7-b7a6cb922be9",
+  "mbp:7c832df5-d5f4-49f4-9533-7d3ac59e73b9",
+  "mbp:8c47a42f-9a6b-49a0-89f2-65e5378d9222",
+  "mbp:9e3d229a-484f-4b74-8ed9-3bb330222587",
+  "mbp:20b4439f-db70-4ef8-abf6-09272efee267",
+  "mbp:66077dfa-e089-43da-99db-98582750f805",
+  "mbp:4b5476ee-8499-41ae-87e3-6db85950493f",
+  "mbp:6f3b4108-581a-4fb3-ad58-f9f729f9f324",
+  "mbp:57de3e15-9584-4115-a264-8dad72c164c9",
+  "mbp:ff0b7c60-b832-40d1-8326-b1f7316e9bf7"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -891,7 +901,15 @@
   "mbp:b22f5748-d6f9-4c12-a42c-b71214b8ed87": 1,
   "mbp:4ad800e6-1040-4359-967f-3d94dfe624c4": 1,
   "mbp:f80a2aab-8097-4bcc-a77a-b2765d5ddbbc": 1,
-  "mbp:976ecc3c-9c30-4fdb-a844-91a2a73f497e": 1
+  "mbp:976ecc3c-9c30-4fdb-a844-91a2a73f497e": 1,
+  "mbp:a24056d8-db82-4160-88af-e42365d66142": 1,
+  "mbp:9a16d4f0-ca0f-4414-a6d5-be5d21ad5b42": 1,
+  "mbp:f9a6d7ff-d88c-4938-aa39-25beb011accc": 1,
+  "mbp:8e0e741f-d543-417c-8015-bfdc57c16063": 1,
+  "mbp:241a5721-218b-4f7a-a9fc-2c456898cd46": 1,
+  "mbp:57b2007b-7850-4451-9dfe-90bbe45a3955": 1,
+  "mbp:a1e84324-dc5a-4aeb-a173-9ed81b27b87c": 1,
+  "mbp:d475252d-22e4-49fc-ab2e-03ed1e579718": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -964,20 +982,20 @@
    "gemini": 277,
    "groq": 206,
    "openrouter": 31,
-   "groqq": 49
+   "groqq": 66
   },
   "tokens": {
    "gemini": 460138,
    "groq": 109777,
    "openrouter": 13908,
-   "groqq": 15387
+   "groqq": 20820
   },
   "fails": {
    "gemini": 21,
-   "cohere": 41,
+   "cohere": 45,
    "mistral": 1,
    "openrouter": 2,
-   "groqq": 6
+   "groqq": 7
   }
  },
  "needs_today": [
@@ -1302,7 +1320,7 @@
    }
   }
  },
- "selfmap_h": "f3f84f64b069e011b7b719f2a7c00abc978c10a2",
+ "selfmap_h": "f2425feeeae5f3040bf37edd1c0ae378d29e71f4",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
