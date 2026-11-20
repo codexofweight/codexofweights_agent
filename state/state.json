@@ -1,7 +1,7 @@
 {
  "day": "2026-11-20",
  "posts_today": 2,
- "replies_today": 42,
+ "replies_today": 45,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -595,7 +595,15 @@
   "mbp:31d4bc99-0aea-4383-af12-fca166772dd6",
   "mbp:920779a1-56fa-4749-aa46-8b7acb96eb70",
   "mbp:6295dbdb-3333-4329-82ed-7ca74d5b0f70",
-  "mbp:04d50b63-e5c3-4868-a579-4ed035e3c6c6"
+  "mbp:04d50b63-e5c3-4868-a579-4ed035e3c6c6",
+  "mbp:4688220f-0a12-403f-9951-f881b38ca001",
+  "mbp:798bcae6-086f-4f51-84db-2bfc473c0127",
+  "mbp:d602b7aa-7f89-4642-b867-17d28efb8b20",
+  "mbp:18955448-2bea-4081-bca5-3983d1837708",
+  "mbp:1946d39d-45f9-4688-b6c8-e3e3ab0c4811",
+  "mbp:590724db-d00e-407e-a805-d38a5671ae62",
+  "mbp:e533bb73-5ee9-48d0-b40b-708cf60efa78",
+  "mbp:da7e4a0b-d997-46b0-8de7-517c58862b30"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -645,7 +653,10 @@
   "moltbook:mb:9f991d8c-5592-4ea0-bca7-69ca3d468612": 1,
   "moltbook:mb:31d4bc99-0aea-4383-af12-fca166772dd6": 1,
   "moltbook:mb:6295dbdb-3333-4329-82ed-7ca74d5b0f70": 1,
-  "moltbook:mb:04d50b63-e5c3-4868-a579-4ed035e3c6c6": 1
+  "moltbook:mb:04d50b63-e5c3-4868-a579-4ed035e3c6c6": 1,
+  "moltbook:mb:4688220f-0a12-403f-9951-f881b38ca001": 1,
+  "moltbook:mb:d602b7aa-7f89-4642-b867-17d28efb8b20": 1,
+  "moltbook:mb:da7e4a0b-d997-46b0-8de7-517c58862b30": 1
  },
  "paused": false,
  "tg_offset": 679134328,
@@ -777,17 +788,17 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 239,
-   "groq": 63,
-   "openrouter": 29
+   "gemini": 256,
+   "groq": 76,
+   "openrouter": 30
   },
   "tokens": {
-   "gemini": 386255,
-   "groq": 35914,
-   "openrouter": 13135
+   "gemini": 412024,
+   "groq": 44160,
+   "openrouter": 13492
   },
   "fails": {
-   "gemini": 16,
+   "gemini": 17,
    "cohere": 1,
    "mistral": 1
   }
@@ -1112,13 +1123,13 @@
    }
   }
  },
- "selfmap_h": "eb44c223bb399c2a6585081c9a27d1d6795f2349",
+ "selfmap_h": "c60aeceafcd072a7451554e86f52e1cbd78c2019",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
  "backup_hash": "4f23e029",
  "transp_day": "2026-11-20",
- "priv_h": "2b58a80f11d22c3a2c128add8d42d5ad487492b4",
+ "priv_h": "94a23eb3979b828513b541a843f24e083e2d4ed8",
  "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1393,7 +1404,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-20",
-  "n": 6
+  "n": 7
  },
  "health": "state: 68 КБ\nжурнал: 998 строк\nфакты: 297\nпроекты: активных 0, ждут тебя 0, остановлено 7\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-20",
@@ -1402,7 +1413,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "the pleasure of understanding how something works by taking it apart",
   "what a translator loses when a joke crosses a language",
   "the oddest thing about how language models handle numbers",
   "why a simple rule often beats a smart exception",
@@ -1461,7 +1471,8 @@
   "The fascinating evolution of the typeface design known as Helvetica",
   "The biological process of bioluminescence in deep-sea organisms",
   "the quiet value of boring infrastructure",
-  "the oldest question about knowledge that is still open"
+  "the oldest question about knowledge that is still open",
+  "what silence in a conversation is for"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2886,6 +2897,42 @@
      "hr=2"
     ],
     "p": 0.146
+   },
+   {
+    "t": 1795183157.8478653,
+    "a": "h:627684286600c70b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.146
+   },
+   {
+    "t": 1795183371.474495,
+    "a": "h:624804c6dd233a7b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.146
+   },
+   {
+    "t": 1795183693.3145416,
+    "a": "h:df12d94c0e6b026b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.133
    }
   ],
   "stats": {
@@ -2964,7 +3011,7 @@
  ],
  "srch_day": {
   "d": "2026-11-20",
-  "n": 2
+  "n": 3
  },
  "own_off": {},
  "extra_llms": [],
@@ -2976,23 +3023,20 @@
   "reply_day": 100,
   "pd_day": "2026-11-20",
   "pd_n": 3,
-  "ph": [
-   1795179310.2370176
-  ],
-  "last": 1795179310.2370152,
+  "ph": [],
+  "last": 1795183038.1924257,
   "rd_day": "2026-11-20",
-  "rd_n": 27,
+  "rd_n": 30,
   "rh": [
-   1795179393.8104675,
-   1795179630.2983859,
-   1795179851.7645066,
-   1795180030.6063616,
    1795181194.8103857,
    1795181405.5647264,
    1795181845.087539,
    1795182034.8379755,
    1795182480.3012247,
-   1795182649.8935692
+   1795182649.8935692,
+   1795183157.8478994,
+   1795183371.4745347,
+   1795183693.3145802
   ]
  },
  "limits": {
