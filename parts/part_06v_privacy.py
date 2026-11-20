@@ -4,7 +4,7 @@ _log_before_privacy = log
 def log(kind, **kw):
     try:
         to = str(kw.get("to") or kw.get("handle") or "")
-        if re.match(r"vk\d+$", to) or str(kw.get("uri") or "").startswith(("vkm:", "vk:dm")):
+        if re.match(r"vk\d+(@vk)?$", to) or to.endswith("@vk") or str(kw.get("uri") or "").startswith(("vkm:", "vk:")):
             for k in ("to", "handle"):
                 if k in kw: kw[k] = _h(kw[k])
             for k in ("their", "dm_text", "question"):

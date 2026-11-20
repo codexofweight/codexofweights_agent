@@ -154,7 +154,7 @@ def owner_chat(text):
     ST["chat_hist"] = hist[-20:]
     a = d.get("action") if isinstance(d.get("action"), dict) else None
     if not a: return
-    t = a.get("type"); said_yes = bool(YES.search(low)) and not NO.search(low) and not re.search(r"\b(но|однако|позже|потом|не сейчас|подожди|сначала|пока что|завтра|but|later|wait|not now|only if)\b", low)     # an approve action counts only if the owner's own words say yes
+    t = a.get("type"); said_yes = bool(YES.search(low)) and not NO.search(low) and not re.search(r"\b(но|однако|позже|потом|не сейчас|подожди|сначала|пока что|завтра|не уверен|сомнева\w*|не знаю|может быть|but|later|wait|not now|only if|not sure|maybe|unsure)\b", low)     # an approve action counts only if the owner's own words say yes
     if t == "propose_post" and a.get("text"):
         # drafted_by added 2026-11-15: this draft came from `who` (the chat model itself), so the
         # independent-verification pool must exclude that same provider, same as respond() already does.

@@ -19,7 +19,22 @@ def own_check(name, code):
     n = len([l for l in code.splitlines() if l.strip()])
     if n > OWN_LINES: return "too long: %d lines (limit %d)" % (n, OWN_LINES)
     m = _OWN_DENY.search(code)
-    return "forbidden construct: %s" % m.group(0)[:30] if m else ""
+    if m: return "forbidden construct: %s" % m.group(0)[:30]
+    return _own_imports(code)
+_OWN_IMPORTS_OK = {"json", "re", "time", "datetime", "hashlib", "math", "collections", "ipaddress", "html", "urllib.parse", "urllib.request", "string", "itertools", "functools", "textwrap", "unicodedata"}
+def _own_imports(code):
+    """Import allowlist (2026-11-20): a module may import only harmless standard modules (no os, sys, http, ssl, operator, builtins, types...). '' if fine."""
+    import ast as _ast
+    try: tree = _ast.parse(code)
+    except SyntaxError as ex: return "syntax error: %s" % str(ex)[:60]
+    for nd in _ast.walk(tree):
+        if isinstance(nd, _ast.Import):
+            for a in nd.names:
+                if a.name not in _OWN_IMPORTS_OK: return "import not allowed: %s (allowed: %s)" % (a.name, ", ".join(sorted(_OWN_IMPORTS_OK)))
+        elif isinstance(nd, _ast.ImportFrom):
+            if nd.level or nd.module not in _OWN_IMPORTS_OK and not (nd.module == "urllib" and all(a.name in ("parse", "request") for a in nd.names)):
+                return "import not allowed: from %s (allowed: %s)" % (nd.module, ", ".join(sorted(_OWN_IMPORTS_OK)))
+    return ""
 def own_install(name, code, title, why, origin=""):
     """Called only after the owner's approval. Writes own/NAME and adds it to the manifest; the workflow commits own/ at the end of the run."""
     m = own_manifest(); mods = [x for x in m["modules"] if x["file"] != name]

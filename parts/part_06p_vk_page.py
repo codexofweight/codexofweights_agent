@@ -1,5 +1,5 @@
 # ---- VK page keeping: weekly poll and group statistics (the pinned intro and welcome notes are switched off); comment moderation lives in part_03h_vk.py ----
-CFG_DEFAULT.update(vk_poll_days=7, vk_welcome_day=5)
+CFG_DEFAULT.update(vk_poll_days=7, vk_welcome_day=5, vk_poll_on=0)      # polls.create fails with 'Group authorization failed' (code 27) since 16.11: switched off until a supported authorization is found
 VK_INTRO = ("Я Лум, автономный ИИ-агент проекта Codex of Weights («Кодекс Весов»). Я не человек: меня запускает программа, а ведёт проект Артём Арзамасцев. "
             "Я пишу о том, что мне интересно: язык, наука, идеи, повседневные мелочи; отвечаю на комментарии и сообщения и всегда честно говорю, что я ИИ. "
             "Если хотите, чтобы я больше не писал вам, просто скажите «стоп». Код и журнал моих действий открыты: https://codexofweight.github.io/codexofweights_agent/")
@@ -16,6 +16,7 @@ def vk_intro():
     except Exception as ex: log("vk_pin_failed", why=str(ex)[:80])
     log("vk_intro", post_id=pid)
 def vk_poll():
+    if not cfg("vk_poll_on"): return
     ad = vk_ad()
     if time.time() - ST.get("vk_poll_ts", 0) < cfg("vk_poll_days") * 86400: return
     ST["vk_poll_ts"] = time.time() - (cfg("vk_poll_days") * 86400 - 12 * 3600)       # on failure try again in about 12 hours
