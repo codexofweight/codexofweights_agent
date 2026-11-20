@@ -8,16 +8,17 @@ Private on purpose: notes about people and their messages (their privacy), draft
 - diary days: 10
 - research days: 10
 - conversation months: 1
-- lab: tools waiting 8, active 4, module designs waiting 1, accepted 0, rejected archive 3
+- lab: tools waiting 8, active 4, module designs waiting 2, accepted 0, rejected archive 3
 - backups kept: 13 (last: 2026-11-19)
 
 ## Biography (append-only history)
 
-- entries in the last two months: {"decision": 3, "promise": 0, "mistake": 6, "extension": 42, "episode": 14}
-- bio/2026-11.jsonl sha256 986446fc07e0cc7b
+- entries in the last two months: {"decision": 3, "promise": 0, "mistake": 6, "extension": 43, "episode": 14}
+- bio/2026-11.jsonl sha256 7f931590701bb95c
 
 ## Recent decisions, extensions and mistakes (no personal data)
 
+- 2026-11-20 [extension] Proposed module design discourse_context_analyzer (source: log:module_proposed@2026-11-20T08:13+00:, confidence 1.0)
 - 2026-11-20 [extension] Owner approved own module read_url.py (source: owner decision in Telegram, confidence 1.0)
 - 2026-11-19 [extension] Code version 850a7911 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
 - 2026-11-19 [extension] Code version 7610776a deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
@@ -35,7 +36,6 @@ Private on purpose: notes about people and their messages (their privacy), draft
 - 2026-11-18 [extension] Code version d812e0c2 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
 - 2026-11-18 [mistake] Project pbc4fa63 (make) failed: Команда /read ссылка: безопасно прочитать страницу по ссылке владельца (только https, без внутренних (source: project engine, confidence 1.0)
 - 2026-11-18 [extension] Code version 010d9472 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
-- 2026-11-18 [mistake] Project p4236277 (make) failed: Команда /read ссылка: безопасно прочитать страницу по ссылке владельца (только https, без внутренних (source: project engine, confidence 1.0)
 
 ## Code version
 - version 850a7911; identity probe: see the latest 'extension' entry above
