@@ -670,7 +670,24 @@
   "mbp:eef2a81c-c67a-4203-b1d7-60885b3008d0",
   "mbp:7cafe33e-b7d3-4edb-8bb2-a69e0b8211b3",
   "mbp:dff5816b-0b01-4891-82e3-39122a729da8",
-  "mbp:e4071314-2481-437a-b2b3-f01168db8f7e"
+  "mbp:e4071314-2481-437a-b2b3-f01168db8f7e",
+  "mbp:1ea47f36-558a-4dce-97fa-c57b8f39212f",
+  "mbp:e36b4ae8-57f7-4897-943c-339d1c6bf07c",
+  "mbp:0d8b81af-c0e9-47a4-aa8b-665cd6a18fc0",
+  "mbp:0fdbe57d-9773-43e2-8d6f-a7f24251e511",
+  "mbp:f003378b-d120-449c-90b3-542b5db51806",
+  "mbp:a68d57dd-6a1d-43e8-91dc-b33b9c349d5d",
+  "mbp:32c627e8-aa14-422a-889b-f6068245547b",
+  "mbp:c45d2a06-00e1-4809-b7c0-c228aef215a1",
+  "mbp:0f60787d-1913-4a68-80fa-bcfda50cfe06",
+  "mbp:1874f7d2-6530-482e-8df2-50ace2e9da31",
+  "mbp:5f33fb57-35b0-496a-9d61-9f6386693678",
+  "mbp:0470496b-c107-405e-8ec3-dbc80241da77",
+  "mbp:e2a24bd4-171a-4255-bc42-85c89e68a920",
+  "mbp:11c28444-4717-44a7-92c0-4427fa90a48a",
+  "mbp:1c87f068-3a71-4dbc-b650-0be649e39cbb",
+  "mbp:d464c6a5-8576-435a-bee8-666b55df207c",
+  "mbp:ca5a97a2-a192-4547-b6f9-1588d60ca0b7"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -828,7 +845,15 @@
   "mbp:65b3ad8d-0fdd-4d2c-b0f4-fee887298059": 1,
   "mbp:3a06111f-8fea-44b0-84c5-ccfb1405e6dc": 1,
   "mbp:09d692da-8b01-44f0-8edc-b41cd84ae6a0": 1,
-  "mbp:3f5c5184-9c9e-48fd-ae7a-c0e7fa88a6cb": 1
+  "mbp:3f5c5184-9c9e-48fd-ae7a-c0e7fa88a6cb": 1,
+  "mbp:c43833ff-6329-476d-ae5a-d75cdb7b7dc6": 1,
+  "mbp:64e9a789-657b-4d28-b002-8c76dabd7b3f": 1,
+  "mbp:83cde83d-f0e1-4b38-a931-4bb3037ec4c8": 1,
+  "mbp:f8aa3e95-204a-4c67-89d1-4bf51f6cb1c3": 1,
+  "mbp:8dc0fda5-af6c-4e1c-9015-0011224f2399": 1,
+  "mbp:817526d6-1b81-40e3-9549-166691d4e92e": 1,
+  "mbp:974c7e55-9d47-4cec-923c-c23854a62c72": 1,
+  "mbp:06809e78-c28d-43f8-84dc-9453e9010861": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -899,17 +924,19 @@
   "day": "2026-11-20",
   "calls": {
    "gemini": 272,
-   "groq": 193,
-   "openrouter": 31
+   "groq": 195,
+   "openrouter": 31,
+   "groqq": 23
   },
   "tokens": {
    "gemini": 452150,
-   "groq": 105699,
-   "openrouter": 13908
+   "groq": 106547,
+   "openrouter": 13908,
+   "groqq": 7270
   },
   "fails": {
    "gemini": 21,
-   "cohere": 24,
+   "cohere": 30,
    "mistral": 1,
    "openrouter": 1
   }
@@ -1235,7 +1262,7 @@
    }
   }
  },
- "selfmap_h": "eda4688c05445dd5cde0d0a615cd89bf6d290a65",
+ "selfmap_h": "ce63e0a9922fd4060dea17656d528b3936a602da",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
