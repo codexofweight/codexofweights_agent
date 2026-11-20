@@ -848,7 +848,7 @@
  "paused": false,
  "tg_offset": 679134342,
  "init_today": 12,
- "last_post": 1795218560.8288276,
+ "last_post": 1795219029.1081815,
  "found_day": "2026-11-20",
  "found_n": 1,
  "tries": {
@@ -1307,7 +1307,7 @@
   "lab/projects/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe",
   "lab/projects/p34d78c0.json": "ae4321ea3b32340161431bb33e4e22caaae4903d",
   "lab/projects/p34ada19.json": "c1c697832ccb7ed3336cc0eccec726c1c80c3b58",
-  "lab/projects/p69b9e40.json": "bfe52ada228968841ab71c672ec9f70766a82502"
+  "lab/projects/p69b9e40.json": "342f9925f66c200f8ffdcbdefe0c340021331afa"
  },
  "research_try": {
   "2026-11-20": 1
@@ -3525,6 +3525,6 @@
  "focus_on": true,
  "autorun": true,
  "wd_alert": {
-  "llm": 1795190057.1191049
+  "llm": 1795218919.2041917
  }
 }
