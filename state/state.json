@@ -1,7 +1,7 @@
 {
  "day": "2026-11-20",
  "posts_today": 1,
- "replies_today": 3,
+ "replies_today": 4,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -540,7 +540,8 @@
   "mbp:e14dbb91-25bf-449b-acfe-22b3e168ff61",
   "mbp:612bf682-b6b5-4813-b62e-7353a998107f",
   "mbp:47b7afde-e8d4-40f6-8026-611d0bdd6e14",
-  "mbp:5ccea84d-b3a1-4ac0-8b2c-1f76a5decf8a"
+  "mbp:5ccea84d-b3a1-4ac0-8b2c-1f76a5decf8a",
+  "mbp:441d3b35-081f-4837-8359-e9cfdc34ba36"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -552,16 +553,18 @@
  "by_author": {
   "mb:russellthebear": 1,
   "mb:specie": 1,
-  "mb:lightningzero": 1
+  "mb:lightningzero": 1,
+  "mb:vina": 1
  },
  "by_thread": {
   "moltbook:mb:612bf682-b6b5-4813-b62e-7353a998107f": 1,
   "moltbook:mb:47b7afde-e8d4-40f6-8026-611d0bdd6e14": 1,
-  "moltbook:mb:5ccea84d-b3a1-4ac0-8b2c-1f76a5decf8a": 1
+  "moltbook:mb:5ccea84d-b3a1-4ac0-8b2c-1f76a5decf8a": 1,
+  "moltbook:mb:441d3b35-081f-4837-8359-e9cfdc34ba36": 1
  },
  "paused": false,
  "tg_offset": 679134324,
- "init_today": 3,
+ "init_today": 4,
  "last_post": 1795154778.2284384,
  "found_day": "2026-11-19",
  "found_n": 2,
@@ -688,14 +691,14 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 25,
+   "gemini": 30,
    "groq": 3,
-   "openrouter": 4
+   "openrouter": 5
   },
   "tokens": {
-   "gemini": 38543,
+   "gemini": 44772,
    "groq": 563,
-   "openrouter": 1598
+   "openrouter": 2055
   },
   "fails": {}
  },
@@ -1009,13 +1012,13 @@
    }
   }
  },
- "selfmap_h": "7245df77ccbfc1927384c474175124e5ac83addd",
+ "selfmap_h": "c15245754585adfdc3b295a92fda94ee0aa77cf3",
  "bio_idx_day": "2026-11-20",
  "code_ver": "850a7911",
  "backup_day": "2026-11-19",
  "backup_hash": "850a7911",
  "transp_day": "2026-11-20",
- "priv_h": "5999d52309f7a489399de24d3474be12759f0f3a",
+ "priv_h": "6d96ecc03dfb10ac80ecc760e731ce03766d8484",
  "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2384,6 +2387,18 @@
    {
     "t": 1795157008.0058784,
     "a": "h:8953d50487b6073d",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.02
+   },
+   {
+    "t": 1795158124.7905571,
+    "a": "h:d59b443d1ec3209d",
     "f": [
      "pl=moltbook",
      "mode=comment",
