@@ -30,7 +30,7 @@ def _fake(req, timeout=0, **k):
 urllib.request.urlopen = _fake
 g = {'__name__': '__main__', '__file__': 'agent.py'}
 exec(compile(open('agent.py', encoding='utf-8').read(), 'agent.py', 'exec'), g)
-miss = [n for n in ('http','llm','tg','log','verify','guard_json','do_post','research','wait_and_chat','tg_poll') if n in g and not callable(g[n])]
+miss = [n for n in ('http','llm','tg','log','verify','guard_json','do_post','research','wait_and_chat','tg_poll') if not callable(g.get(n))]
 print('PREFLIGHT_RESULT', repr({'missing': miss, 'fails': g.get('_PART_FAILS', [])}))
 """
 env = {k: v for k, v in os.environ.items() if not any(x in k for x in ("KEY", "TOKEN", "PASSWORD", "SECRET", "HANDLE", "BASE", "VK_"))}
