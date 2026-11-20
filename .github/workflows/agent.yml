@@ -27,6 +27,7 @@ jobs:
         run: |
           curl -s -m 20 "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data-urlencode text="⚠️ Предзапуск нашёл ошибку в загруженных файлах. Агент всё равно стартует: сломанный файл будет пропущен. Открой Actions → agent-cycle → шаг Pre-flight." >/dev/null || true
       - name: Run one cycle
+        id: cycle
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
@@ -57,8 +58,14 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Agent cycle"
           for i in 1 2 3 4 5; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done; exit 1
-      - name: Queue the next cycle (does not depend on GitHub's unreliable cron)
+      - name: Queue the next cycle - owner can stop the chain with /autorun off or the STOP file
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
-        run: sleep 300; gh workflow run agent.yml --ref main || true   # 5 min pause: a crash loop cannot spin fast
+          CYCLE: ${{ steps.cycle.outcome }}
+          PRE: ${{ steps.pre.outcome }}
+        run: |
+          [ -f STOP ] && { echo "STOP file present: next cycle not queued"; exit 0; }
+          python3 -c "import json,sys; d=json.load(open('state/state.json')); sys.exit(0 if d.get('autorun', True) else 1)" || { echo "autorun is off: next cycle not queued"; exit 0; }
+          if [ "$CYCLE" != "success" ] || [ "$PRE" = "failure" ]; then sleep 1800; else sleep 300; fi   # after a failure wait longer: a crash cannot loop fast
+          gh workflow run agent.yml --ref main || true
