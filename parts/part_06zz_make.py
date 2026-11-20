@@ -63,6 +63,7 @@ def make_dry_test(name, code, tests):
     m = re.search(r"MAKE_RESULT (\{.*\})", r.stdout or "")
     try: return json.loads(m.group(1))
     except Exception: return {"loaded": False, "passed": 0, "total": 0, "errors": ["no result from the test process: " + (r.stderr or r.stdout or "")[-200:]]}
+_TEST_DENY = re.compile(r"subprocess|\bos\s*\.|\bsys\s*\.\s*(?:modules|path|exit)|ctypes|socket|\beval\b|\bexec\b|importlib|pickle|marshal|environ|getenv|shutil|rmtree|/proc|\bopen\s*\(|__import__|__builtins__|__class__|__subclasses__|__globals__|__dict__|\bglobals\s*\(\s*\)\s*\[|MEM_TOKEN|TG_TOKEN|_KEY\b|_TOKEN\b")
 def make_step(p):
     PRIO[0] = min(PRIO[0], 3)    # started by the owner: may use up to 80% of a provider budget (tools at priority 5 get only 40% and stall when the day is half spent)
     d = p["data"]; st = d.setdefault("stage", "design")
@@ -85,6 +86,7 @@ def make_step(p):
         import ast
         try: ast.parse(t); _ok = len(t) <= 6000
         except SyntaxError: _ok = False
+        if _ok and _TEST_DENY.search(t): _ok = False; log("make_tests_denied", hit=_TEST_DENY.search(t).group(0)[:40])      # tests are model-written too: no file, process, network or environment access in them
         if not _ok: t = ""
         if t.count("def test_") < 3 or len(t) < 80: d["tests_fail"] = d.get("tests_fail", 0) + 1; log("make_tests_bad", out_len=len(out), got=len(t), head=out[:160].replace("\n", " ")); return "failed" if d["tests_fail"] >= 3 else "later"
         d["tests"] = t; d["stage"] = "code"; d["try"] = 0; return "continue"

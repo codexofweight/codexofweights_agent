@@ -13,7 +13,7 @@ try:
     for _n, _why in list(globals().get("_PART_FAILS", [])):
         log("part_guard", part=_n, why=_why)
         _wd_alert("part:" + _n + _why[:40], "файл %s не загрузился или сломал другие функции (%s). Я его пропустил и всё откатил, агент работает без него. Исправь или удали файл." % (_n, _why[:150]), every=24 * 3600)
-    _missing = [n for n in _CRIT if n in globals() and not callable(globals()[n])]
+    _missing = [n for n in _CRIT if not callable(globals().get(n))]
     if _missing: _wd_alert("crit", "сломаны функции: %s. Нужен откат последней загрузки." % ", ".join(_missing))
 except Exception as _e: print("watchdog init failed:", repr(_e)[:100], flush=True)
 _wd_llm_orig = llm
