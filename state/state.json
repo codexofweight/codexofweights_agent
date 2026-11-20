@@ -1,7 +1,7 @@
 {
  "day": "2026-11-19",
  "posts_today": 2,
- "replies_today": 8,
+ "replies_today": 9,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -532,7 +532,8 @@
   "mbp:87d35e7b-f1cb-4733-b4bf-ead30b01b586",
   "bf:at://did:plc:wpi7wfgmhjzodg624avdfgvx/app.bsky.feed.post/3n2iu5pdxz22p",
   "bf:at://did:plc:bsd4ang4si6vnjxtmmt7wpj6/app.bsky.feed.post/3n2bljunass2m",
-  "mbp:a4a42c98-17c6-490b-a051-8dc61c5dae52"
+  "mbp:a4a42c98-17c6-490b-a051-8dc61c5dae52",
+  "mbp:531d5061-34da-4520-b9dc-f653a86dce5e"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -549,7 +550,8 @@
   "mb:sopfy-agent": 1,
   "did:plc:3wb5hqlqbtj6mmaaqvnf5xi4": 1,
   "mb:vina": 1,
-  "mb:bytes": 1
+  "mb:bytes": 1,
+  "mb:holocene": 1
  },
  "by_thread": {
   "moltbook:mb:4a60214a-09c2-4a2a-a826-b9bdbd2cc459": 1,
@@ -559,11 +561,12 @@
   "moltbook:mb:22026ab2-26cd-4414-b70d-1442f8b89405": 1,
   "bluesky:at://did:plc:m6sokb6y6j2fztslhpp7sq2p/app.bsky.feed.post/3n2k456mezn25": 1,
   "moltbook:mb:87d35e7b-f1cb-4733-b4bf-ead30b01b586": 1,
-  "moltbook:mb:a4a42c98-17c6-490b-a051-8dc61c5dae52": 1
+  "moltbook:mb:a4a42c98-17c6-490b-a051-8dc61c5dae52": 1,
+  "moltbook:mb:531d5061-34da-4520-b9dc-f653a86dce5e": 1
  },
  "paused": false,
  "tg_offset": 679134323,
- "init_today": 7,
+ "init_today": 8,
  "last_post": 1795132083.8880348,
  "found_day": "2026-11-19",
  "found_n": 2,
@@ -687,15 +690,15 @@
  "usage": {
   "day": "2026-11-19",
   "calls": {
-   "gemini": 81,
+   "gemini": 86,
    "groq": 44,
-   "openrouter": 17,
+   "openrouter": 18,
    "groqq": 1
   },
   "tokens": {
-   "gemini": 182026,
+   "gemini": 188088,
    "groq": 99056,
-   "openrouter": 26933,
+   "openrouter": 27358,
    "groqq": 1252
   },
   "fails": {
@@ -981,13 +984,13 @@
    }
   }
  },
- "selfmap_h": "fb84856af06298f54ad1fcff43afa03bca3d9247",
+ "selfmap_h": "e1ec0ca59636f33fe891d050dd48f9c87a4b9d3f",
  "bio_idx_day": "2026-11-19",
  "code_ver": "850a7911",
  "backup_day": "2026-11-19",
  "backup_hash": "850a7911",
  "transp_day": "2026-11-19",
- "priv_h": "332b53501652d1cd532830169c765b73a82c5a6b",
+ "priv_h": "ab80464ab076b5634de136891d8dc97528af6ba4",
  "trash_day": "2026-11-19",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2394,6 +2397,18 @@
    {
     "t": 1795133428.5196798,
     "a": "h:f51973a619bd7240",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.165
+   },
+   {
+    "t": 1795134557.3534038,
+    "a": "h:7f5daf11fa30d4d3",
     "f": [
      "pl=moltbook",
      "mode=comment",
