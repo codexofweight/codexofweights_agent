@@ -604,7 +604,7 @@
   "moltbook:mb:f3d3b03a-1099-43fa-8a10-945527203aca": 1
  },
  "paused": false,
- "tg_offset": 679134327,
+ "tg_offset": 679134328,
  "init_today": 12,
  "last_post": 1795173609.2603023,
  "found_day": "2026-11-20",
@@ -1069,7 +1069,7 @@
  "backup_day": "2026-11-20",
  "backup_hash": "4f23e029",
  "transp_day": "2026-11-20",
- "priv_h": "7282f76f1f698a815eb309610388073950381fac",
+ "priv_h": "ff3f4fd13b10793fc5242e0afd9ee66f18a64152",
  "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2735,16 +2735,16 @@
  ],
  "srch_day": {
   "d": "2026-11-20",
-  "n": 3
+  "n": 2
  },
  "own_off": {},
  "extra_llms": [],
  "mb": {
   "on": 1,
-  "posts_h": 2,
-  "replies_h": 15,
-  "post_day": 30,
-  "reply_day": 300,
+  "posts_h": 1,
+  "replies_h": 10,
+  "post_day": 12,
+  "reply_day": 100,
   "pd_day": "2026-11-20",
   "pd_n": 2,
   "ph": [
