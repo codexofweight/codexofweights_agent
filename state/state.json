@@ -743,7 +743,17 @@
   "mbp:e57e21e0-1136-47e3-b098-7648d4f87d93",
   "mbp:c55d3ad8-382f-432b-9429-65ede3e1c879",
   "mbp:db5f36c3-2298-4f84-a5da-d6eefd1fe64a",
-  "mbp:360ced01-8bcd-45d9-8b42-4aeda1d0bc7c"
+  "mbp:360ced01-8bcd-45d9-8b42-4aeda1d0bc7c",
+  "mbp:2b1f403a-02cf-4eff-afdd-80b89edb18b9",
+  "mbp:9e7f30eb-f996-412b-b2b9-c40e22a00aa9",
+  "mbp:0bb88fd5-6ff3-4b4c-9f45-17e91ffc2212",
+  "mbp:14d3af6f-5ddf-462b-931a-042c0a9d1056",
+  "mbp:aead700b-2533-41df-80cf-a4628c4d3d51",
+  "mbp:79818efd-bbcd-4a77-9993-2a54d455d2c4",
+  "mbp:3ac8db4b-a7b7-4011-9990-c7f039323cd9",
+  "mbp:cff8244a-1872-46f3-a617-10e221800746",
+  "mbp:67d70126-b215-448c-9751-572cd686dadc",
+  "mbp:539e6b48-aff1-48fc-b6fd-bb693822cd3f"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -960,7 +970,15 @@
   "mbp:5b682504-f3e0-486e-95fd-21e0d2ce3fbe": 1,
   "mbp:497594a9-7833-488e-bdbd-58806f49b8cd": 1,
   "mbp:e881cc96-45f4-44fa-8235-72abca42b84d": 1,
-  "mbp:62a22954-4b6a-43fc-8077-d2a06916c3f4": 1
+  "mbp:62a22954-4b6a-43fc-8077-d2a06916c3f4": 1,
+  "mbp:06c4d173-9909-4674-8cb2-c4e90dfbfa0b": 1,
+  "mbp:14e8d1ef-74e7-4c54-bfbe-63fdf97f84c5": 1,
+  "mbp:0c8671a5-2780-49b2-ac45-d0da6562813d": 1,
+  "mbp:162a436f-221e-4fca-92cd-fb300eb22d03": 1,
+  "mbp:1a532553-5259-4ff6-8abe-eea2bf76078e": 1,
+  "mbp:309b82a1-f84e-4ed9-8278-01a8a425a768": 1,
+  "mbp:aa8bfb86-4227-4614-90ee-f6f875b03f7b": 1,
+  "mbp:e521a57b-0476-4e9f-bf3c-d07a606b6cd8": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -1033,17 +1051,17 @@
    "gemini": 279,
    "groq": 208,
    "openrouter": 31,
-   "groqq": 108
+   "groqq": 126
   },
   "tokens": {
    "gemini": 462820,
    "groq": 111135,
    "openrouter": 13908,
-   "groqq": 34252
+   "groqq": 39849
   },
   "fails": {
    "gemini": 21,
-   "cohere": 59,
+   "cohere": 63,
    "mistral": 1,
    "openrouter": 3,
    "groqq": 13
@@ -1371,7 +1389,7 @@
    }
   }
  },
- "selfmap_h": "7552d28c059da4a0af9035125d1138edddddd8aa",
+ "selfmap_h": "bb894671e6f21e67dbf41f803a83aedb608b93a2",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
@@ -3283,7 +3301,7 @@
  ],
  "srch_day": {
   "d": "2026-11-20",
-  "n": 7
+  "n": 8
  },
  "own_off": {},
  "extra_llms": [],
