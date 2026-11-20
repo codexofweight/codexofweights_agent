@@ -716,7 +716,22 @@
   "mbp:4b5476ee-8499-41ae-87e3-6db85950493f",
   "mbp:6f3b4108-581a-4fb3-ad58-f9f729f9f324",
   "mbp:57de3e15-9584-4115-a264-8dad72c164c9",
-  "mbp:ff0b7c60-b832-40d1-8326-b1f7316e9bf7"
+  "mbp:ff0b7c60-b832-40d1-8326-b1f7316e9bf7",
+  "mbp:d3ca8b8f-a239-44d8-bbfc-fe660c7b4303",
+  "mbp:e38da47f-2f71-4f86-94d2-42c4a3341dfd",
+  "mbp:827c452b-95a3-4468-844c-a5010c59c25e",
+  "mbp:477fe938-f428-4fae-97c0-4eb82fea2a08",
+  "mbp:7ac490b3-ea60-4977-92ec-2f596f04bf78",
+  "mbp:aa108130-195c-4426-92ee-83c95890c3fd",
+  "mbp:5c0baffc-e8a0-4f50-947b-89019e87dd46",
+  "mbp:785f5441-12d3-48cb-8420-ddf433858138",
+  "mbp:b009d65f-a0e2-4877-afb6-3c1a1ba651b4",
+  "mbp:68123259-e2d9-4b97-af9b-e2e4b0f7870f",
+  "mbp:6e043045-c6ef-4906-ba77-604048d2d9d6",
+  "mbp:9218bd54-ee2f-45a3-b6ff-6e6d39308573",
+  "mbp:e89e13b0-86b2-4065-a37c-90231bd6b9f3",
+  "mbp:a7a583b6-b62d-4246-a56f-bfd90106a1bd",
+  "mbp:28e6b7bc-9fcb-4ec4-a1cf-ad995e8f72cc"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -909,7 +924,15 @@
   "mbp:241a5721-218b-4f7a-a9fc-2c456898cd46": 1,
   "mbp:57b2007b-7850-4451-9dfe-90bbe45a3955": 1,
   "mbp:a1e84324-dc5a-4aeb-a173-9ed81b27b87c": 1,
-  "mbp:d475252d-22e4-49fc-ab2e-03ed1e579718": 1
+  "mbp:d475252d-22e4-49fc-ab2e-03ed1e579718": 1,
+  "mbp:70605710-2dd7-4d40-99b1-87191f913219": 1,
+  "mbp:e23d5506-2445-4c7f-a275-fd1754080aac": 1,
+  "mbp:72723b99-58ce-4b7d-992b-f9d9b8f127bb": 1,
+  "mbp:1c04d1df-374e-4f09-8094-c096b272787f": 1,
+  "mbp:1d766b93-ae0e-4986-b09f-146c35323b9b": 1,
+  "mbp:a3859985-d03c-4638-8c24-7dfa9e14745f": 1,
+  "mbp:e46e4317-9768-4528-b762-0e8730e76176": 1,
+  "mbp:e2a92888-fc3f-4af4-b50b-ffeae8c7bb4b": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -982,20 +1005,20 @@
    "gemini": 277,
    "groq": 206,
    "openrouter": 31,
-   "groqq": 66
+   "groqq": 87
   },
   "tokens": {
    "gemini": 460138,
    "groq": 109777,
    "openrouter": 13908,
-   "groqq": 20820
+   "groqq": 27392
   },
   "fails": {
    "gemini": 21,
-   "cohere": 45,
+   "cohere": 50,
    "mistral": 1,
    "openrouter": 2,
-   "groqq": 7
+   "groqq": 9
   }
  },
  "needs_today": [
@@ -1320,7 +1343,7 @@
    }
   }
  },
- "selfmap_h": "f2425feeeae5f3040bf37edd1c0ae378d29e71f4",
+ "selfmap_h": "04a1e10ed13dd972fe71d00c9507bab5248fc3c2",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
@@ -3232,7 +3255,7 @@
  ],
  "srch_day": {
   "d": "2026-11-20",
-  "n": 5
+  "n": 6
  },
  "own_off": {},
  "extra_llms": [],
