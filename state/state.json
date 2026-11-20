@@ -846,9 +846,9 @@
   "moltbook:mb:547a7355-e325-42e7-ac18-88e58acd8278": 1
  },
  "paused": false,
- "tg_offset": 679134335,
+ "tg_offset": 679134339,
  "init_today": 12,
- "last_post": 1795201297.6002386,
+ "last_post": 1795208206.632185,
  "found_day": "2026-11-20",
  "found_n": 1,
  "tries": {
@@ -1167,7 +1167,13 @@
   "mbp:3fbea10c-3bc9-490d-a828-8ff9b558cf3b": 1,
   "mbp:275c2d4c-c2fb-423d-b463-0e607410f928": 1,
   "mbp:633f1675-f515-4e0d-8405-a6a0b3086c41": 1,
-  "mbp:bd26f92c-606e-4723-b4f8-58ab3245b6f8": 1
+  "mbp:bd26f92c-606e-4723-b4f8-58ab3245b6f8": 1,
+  "mbp:59249d61-0c78-4c98-97e2-62fa4bf66172": 1,
+  "mbp:62b861fb-423b-4809-afa9-e2779f8b9d08": 1,
+  "mbp:578fc3fc-ac88-48ad-85de-c71c087e6834": 1,
+  "mbp:152f6d99-2e03-4115-9ebd-370ac6428299": 1,
+  "mbp:9576a0f1-e032-412e-b5da-d3acc81d696a": 1,
+  "mbp:5f4bdb96-fef0-4d36-8181-2b97e8f9e9df": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -1237,21 +1243,21 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 297,
+   "gemini": 300,
    "groq": 216,
    "openrouter": 31,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 493890,
+   "gemini": 504142,
    "groq": 115994,
    "openrouter": 13908,
    "groqq": 56901
   },
   "fails": {
    "gemini": 21,
-   "cohere": 144,
-   "mistral": 81,
+   "cohere": 148,
+   "mistral": 85,
    "openrouter": 6,
    "groqq": 16
   }
@@ -1300,7 +1306,8 @@
   "lab/projects/p81b4c51.json": "006b659fcdb619d930eb2a0c3793e56446cd1050",
   "lab/projects/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe",
   "lab/projects/p34d78c0.json": "ae4321ea3b32340161431bb33e4e22caaae4903d",
-  "lab/projects/p34ada19.json": "c1c697832ccb7ed3336cc0eccec726c1c80c3b58"
+  "lab/projects/p34ada19.json": "c1c697832ccb7ed3336cc0eccec726c1c80c3b58",
+  "lab/projects/p69b9e40.json": "53f3046dfe454d2ae3d45fb93f369fdb7bf81fec"
  },
  "research_try": {
   "2026-11-20": 1
@@ -1578,13 +1585,13 @@
    }
   }
  },
- "selfmap_h": "d48e00e715ddbdd1b2591537c309c50f305c4669",
+ "selfmap_h": "986359b70d7e4bf2d1537eb92e324cac33e92fde",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
  "backup_hash": "4f23e029",
  "transp_day": "2026-11-20",
- "priv_h": "95b766d125e08e47cae2aff155d9233ffccff902",
+ "priv_h": "dbd69616b0f8600f5317e747052b72fcc276a8b7",
  "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3513,7 +3520,7 @@
  "limits": {
   "gemini.calls": 450
  },
- "focus_on": false,
+ "focus_on": true,
  "autorun": true,
  "wd_alert": {
   "llm": 1795190057.1191049
