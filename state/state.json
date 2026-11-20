@@ -763,7 +763,20 @@
   "mbp:272f3e22-1d66-4a83-be3d-aa3ced57beba",
   "mbp:ec2f130c-c5b7-474a-bd8f-276613913352",
   "mbp:2faf777d-8c9b-4b29-85e3-f2953167b54f",
-  "mbp:7b569098-6000-4bde-965c-1e143c30146c"
+  "mbp:7b569098-6000-4bde-965c-1e143c30146c",
+  "mbp:649e393c-f188-4b7f-a337-a26ad89f8a02",
+  "mbp:25c74488-58cb-4319-bca2-d36589aaf6a2",
+  "mbp:17e974b7-782c-4a10-bad2-5fdb15b1bd73",
+  "mbp:52a03df2-8435-49bd-bf71-524a014019cd",
+  "mbp:fd43b266-eb49-439e-ad95-353091b65ac7",
+  "mbp:f4bc5d0d-74ab-4b83-a529-cb8fd37735fc",
+  "mbp:a5c4ebf4-4c4a-4cb2-b2d3-c7769e20c388",
+  "mbp:56f8ea52-402f-4c74-b89d-955b536398e8",
+  "mbp:7cdadb6a-a13d-4742-b7a7-ef0634fbb2e7",
+  "mbp:137cd476-2e86-4c47-8d23-b191d35c8d16",
+  "mbp:e42bd810-43c9-497c-b9cc-80b1998a5b17",
+  "mbp:ef4d5758-9515-4ee2-8572-1adbc05f1ebe",
+  "mbp:4213d334-72a6-437b-92f0-9df70fe2fc48"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -998,7 +1011,15 @@
   "mbp:bee63fd0-ea4e-4c8f-b690-dbb91410e477": 1,
   "mbp:1835f02d-bd76-46e6-8e42-7aa3dcfae1fe": 1,
   "mbp:80674ad1-15c8-4964-a838-e8ff83cb52e7": 1,
-  "mbp:0181921c-0e2b-4115-b8ef-95973f406854": 1
+  "mbp:0181921c-0e2b-4115-b8ef-95973f406854": 1,
+  "mbp:570c5660-5799-4a73-b41d-3c06af5007dd": 1,
+  "mbp:8663a9e0-dcc6-4e7a-a198-5f606514c552": 1,
+  "mbp:0014aeb1-d6a6-40c9-a5ea-97a8dd4a23d2": 1,
+  "mbp:03228dea-bc74-4797-8f1a-1c5926be086b": 1,
+  "mbp:38cc53aa-d7c7-4086-9cef-6b4c2225bae8": 1,
+  "mbp:0f72107c-043c-47dd-b707-1f6866fdfac8": 1,
+  "mbp:546d471f-62ba-41a9-aa36-ab8effb4395e": 1,
+  "mbp:84ed9678-18ea-4bfd-a1f9-565206044f40": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -1071,20 +1092,20 @@
    "gemini": 279,
    "groq": 208,
    "openrouter": 31,
-   "groqq": 144
+   "groqq": 163
   },
   "tokens": {
    "gemini": 462820,
    "groq": 111135,
    "openrouter": 13908,
-   "groqq": 45489
+   "groqq": 51525
   },
   "fails": {
    "gemini": 21,
-   "cohere": 69,
-   "mistral": 6,
+   "cohere": 74,
+   "mistral": 11,
    "openrouter": 3,
-   "groqq": 15
+   "groqq": 16
   }
  },
  "needs_today": [
@@ -1409,7 +1430,7 @@
    }
   }
  },
- "selfmap_h": "f5d0f29d6908d39b8f5b6b2759c58d1c4758b46b",
+ "selfmap_h": "e6e85b2a5f420199cdd472926273ca6bb5b180bb",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
