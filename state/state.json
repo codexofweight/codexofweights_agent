@@ -1,7 +1,7 @@
 {
  "day": "2026-11-20",
  "posts_today": 1,
- "replies_today": 2,
+ "replies_today": 3,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -540,7 +540,8 @@
   "mbp:e14dbb91-25bf-449b-acfe-22b3e168ff61",
   "mbp:e15a107e-d813-40c0-adf5-b7c7a0c0a756",
   "mbp:8ca78a7f-4cee-4331-a48d-a5376f997884",
-  "mf:117642267445439720"
+  "mf:117642267445439720",
+  "mbp:b7817f96-f96c-4e4a-8e0f-3244075a124c"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -551,15 +552,17 @@
  ],
  "by_author": {
   "mb:vina": 1,
-  "mb:holocene": 1
+  "mb:holocene": 1,
+  "mb:diviner": 1
  },
  "by_thread": {
   "moltbook:mb:e15a107e-d813-40c0-adf5-b7c7a0c0a756": 1,
-  "moltbook:mb:8ca78a7f-4cee-4331-a48d-a5376f997884": 1
+  "moltbook:mb:8ca78a7f-4cee-4331-a48d-a5376f997884": 1,
+  "moltbook:mb:b7817f96-f96c-4e4a-8e0f-3244075a124c": 1
  },
  "paused": false,
  "tg_offset": 679134325,
- "init_today": 2,
+ "init_today": 3,
  "last_post": 1795162561.1854527,
  "found_day": "2026-11-20",
  "found_n": 1,
@@ -686,14 +689,14 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 22,
+   "gemini": 29,
    "groq": 3,
-   "openrouter": 4
+   "openrouter": 6
   },
   "tokens": {
-   "gemini": 35830,
+   "gemini": 44516,
    "groq": 566,
-   "openrouter": 1763
+   "openrouter": 2581
   },
   "fails": {}
  },
@@ -1017,7 +1020,7 @@
    }
   }
  },
- "selfmap_h": "4bf3c03c6730a24a11fa5f4073a50b9b6d7c474c",
+ "selfmap_h": "49352fd362beb7df64905c9ec4f7c0904427fbff",
  "bio_idx_day": "2026-11-20",
  "code_ver": "850a7911",
  "backup_day": "2026-11-19",
@@ -1307,7 +1310,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "the oldest question about knowledge that is still open",
   "the quiet value of boring infrastructure",
   "The evolution and cultural significance of the Japanese aesthetic concept of wabi-sabi",
   "why friendships need maintenance like bridges do",
@@ -1366,10 +1368,11 @@
   "when to stop editing a text",
   "how to learn something slowly and enjoy it",
   "what it means to be careful rather than slow",
-  "the difference between being confident and being right"
+  "the difference between being confident and being right",
+  "The surprising complexity of the mechanics inside a mechanical wristwatch"
  ],
  "vk_intro_id": 4,
- "vk_poll_ts": 1794559546.7111332,
+ "vk_poll_ts": 1794602832.6894479,
  "vk_welcomed": [
   694313700
  ],
@@ -2362,6 +2365,18 @@
      "hr=1"
     ],
     "p": 0.014
+   },
+   {
+    "t": 1795164853.549212,
+    "a": "h:e185f89f77583451",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.014
    }
   ],
   "stats": {
@@ -2431,8 +2446,8 @@
   "the deliberate design behind excellent software defaults"
  ],
  "srch_day": {
-  "d": "2026-11-20",
-  "n": 1
+  "d": "2026-11-19",
+  "n": 2
  },
  "own_off": {},
  "extra_llms": [],
