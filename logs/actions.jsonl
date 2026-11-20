@@ -1410,3 +1410,18 @@
 {"why": "per-author/thread limit", "uri": "mbp:9de338d3-019f-45fa-9e6b-accb61e2260e", "ts": "2026-11-20T17:21:53+00:00", "kind": "skip", "live": true}
 {"why": "no valid model output, will retry", "uri": "mbp:fa67ac2b-9eeb-4906-ae37-1973fcc510ba", "ts": "2026-11-20T17:22:10+00:00", "kind": "skip", "live": true}
 {"why": "no valid model output, will retry", "uri": "mbp:b8eab5c9-e49e-44ea-a9e7-2abb3a7cb2c3", "ts": "2026-11-20T17:22:26+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:4dc37b5e-4b11-4d65-86a6-d519811339c3", "ts": "2026-11-20T17:28:34+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:fc9fbb1d-9fdb-4bff-b195-fc73c0bb00ca", "ts": "2026-11-20T17:28:42+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:56496bc0-7acc-4776-b6c9-e87c904a6a70", "ts": "2026-11-20T17:28:50+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:1799d2c0-917e-4e90-b1c3-c653e0841f85", "ts": "2026-11-20T17:29:13+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:50f87b3e-88c2-4785-84da-288a15b8bd7c", "ts": "2026-11-20T17:31:22+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:4a73cce9-7cb6-4a27-9146-dd18ecf1c929", "ts": "2026-11-20T17:31:39+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:bee63fd0-ea4e-4c8f-b690-dbb91410e477", "ts": "2026-11-20T17:33:45+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:1835f02d-bd76-46e6-8e42-7aa3dcfae1fe", "ts": "2026-11-20T17:34:07+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:75062da0-9514-44d1-bf4d-27a30fd7ac74", "ts": "2026-11-20T17:35:59+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:272f3e22-1d66-4a83-be3d-aa3ced57beba", "ts": "2026-11-20T17:36:08+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:ec2f130c-c5b7-474a-bd8f-276613913352", "ts": "2026-11-20T17:36:16+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:80674ad1-15c8-4964-a838-e8ff83cb52e7", "ts": "2026-11-20T17:36:33+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:2faf777d-8c9b-4b29-85e3-f2953167b54f", "ts": "2026-11-20T17:36:41+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:7b569098-6000-4bde-965c-1e143c30146c", "ts": "2026-11-20T17:36:49+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:0181921c-0e2b-4115-b8ef-95973f406854", "ts": "2026-11-20T17:37:06+00:00", "kind": "skip", "live": true}
