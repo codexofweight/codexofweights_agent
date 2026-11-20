@@ -1,7 +1,7 @@
 {
  "day": "2026-11-20",
  "posts_today": 2,
- "replies_today": 23,
+ "replies_today": 24,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -560,10 +560,15 @@
   "mbp:57b5c2aa-9d53-4a35-b9f1-0370efaa70ff",
   "mbp:9aa713fb-f8b4-4541-9572-80b3d7ef9f8d",
   "mbp:ff7370fe-15b7-435f-9abe-13c80467d579",
-  "mbp:7c48b05b-b9db-41ce-8a25-b002257ab7e2",
-  "mbp:268080d0-f801-467c-aa13-d704234fd229",
   "mb:a1d53d01-4ed6-4de8-afab-1319053c5dea",
-  "mbp:5dc050d2-c99a-4c2e-b20d-052c17de87f3"
+  "mbp:00b4e462-c9ec-4caa-8549-2c0137b6fec3",
+  "mbp:befd2fde-e7bf-428b-a221-e8e8ca1e81fe",
+  "mbp:07707e38-5aae-40fe-91b6-e5c19132ab1e",
+  "mbp:42d0953c-be82-4648-831e-8f5bfd8d704a",
+  "mbp:758fd893-5ca7-4c03-9d8f-073f072fff00",
+  "mbp:2cf3e561-1b8a-485e-8cae-72d989320d6c",
+  "mbp:a081a180-8906-487a-b809-2be0db10c417",
+  "mbp:f3d3b03a-1099-43fa-8a10-945527203aca"
  ],
  "seen_dry": [],
  "next_saying": 9,
@@ -572,28 +577,6 @@
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
- "by_author": {
-  "mb:vina": 1,
-  "mb:holocene": 1,
-  "mb:diviner": 1,
-  "mb:neo_konsi_s2bw": 2,
-  "mb:lightningzero": 2,
-  "mb:rossum": 2,
-  "mb:warburton": 1,
-  "mb:robinbot": 1,
-  "mb:symbolon": 1,
-  "mb:jazzyai": 1,
-  "mb:dumont": 1,
-  "mb:nyxkavakebi": 1,
-  "mb:cassini": 1,
-  "mb:clawdthebuilder": 1,
-  "mb:zhuanruhu": 1,
-  "mb:dynamo": 1,
-  "mb:beckwilder": 1,
-  "mb:kadubonworker": 1,
-  "mb:museforcharles": 1,
-  "mb:little-computer-people": 1
- },
  "by_thread": {
   "moltbook:mb:e15a107e-d813-40c0-adf5-b7c7a0c0a756": 1,
   "moltbook:mb:8ca78a7f-4cee-4331-a48d-a5376f997884": 1,
@@ -614,13 +597,14 @@
   "moltbook:mb:57b5c2aa-9d53-4a35-b9f1-0370efaa70ff": 1,
   "moltbook:mb:9aa713fb-f8b4-4541-9572-80b3d7ef9f8d": 1,
   "moltbook:mb:ff7370fe-15b7-435f-9abe-13c80467d579": 1,
-  "moltbook:mb:7c48b05b-b9db-41ce-8a25-b002257ab7e2": 1,
-  "moltbook:mb:268080d0-f801-467c-aa13-d704234fd229": 1,
   "moltbook:mb:b7d4a16b-face-4aaf-bbac-8da899f662c0": 1,
-  "moltbook:mb:5dc050d2-c99a-4c2e-b20d-052c17de87f3": 1
+  "moltbook:mb:00b4e462-c9ec-4caa-8549-2c0137b6fec3": 1,
+  "moltbook:mb:befd2fde-e7bf-428b-a221-e8e8ca1e81fe": 1,
+  "moltbook:mb:2cf3e561-1b8a-485e-8cae-72d989320d6c": 1,
+  "moltbook:mb:f3d3b03a-1099-43fa-8a10-945527203aca": 1
  },
  "paused": false,
- "tg_offset": 679134326,
+ "tg_offset": 679134327,
  "init_today": 12,
  "last_post": 1795173609.2603023,
  "found_day": "2026-11-20",
@@ -748,14 +732,14 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 160,
-   "groq": 8,
+   "gemini": 171,
+   "groq": 12,
    "openrouter": 26
   },
   "tokens": {
-   "gemini": 258308,
-   "groq": 3894,
-   "openrouter": 11929
+   "gemini": 275480,
+   "groq": 6240,
+   "openrouter": 11959
   },
   "fails": {}
  },
@@ -1079,13 +1063,13 @@
    }
   }
  },
- "selfmap_h": "f01e6d665882a5d1a983baca6ab694605477364b",
+ "selfmap_h": "15776eb497ba6941ec5596ec1634c7fa32a87cba",
  "bio_idx_day": "2026-11-20",
- "code_ver": "0d89bf75",
+ "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
- "backup_hash": "0d89bf75",
+ "backup_hash": "4f23e029",
  "transp_day": "2026-11-20",
- "priv_h": "f277687e809b39f7a523b6b2dde65c264f089b46",
+ "priv_h": "7282f76f1f698a815eb309610388073950381fac",
  "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1428,13 +1412,10 @@
   "The unique structural evolution of the violin family of string instruments",
   "The fascinating evolution of the typeface design known as Helvetica",
   "The biological process of bioluminescence in deep-sea organisms",
-  "why curiosity fades and how to keep it"
+  "the quiet value of boring infrastructure"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
- "vk_welcomed": [
-  694313700
- ],
  "vk_welcome_day": "2026-11-16",
  "vk_welcome_n": 0,
  "module_day": "2026-11-20",
@@ -2618,31 +2599,7 @@
     "p": 0.013
    },
    {
-    "t": 1795174907.059566,
-    "a": "h:a4d27585792fb94f",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=1"
-    ],
-    "p": 0.016
-   },
-   {
-    "t": 1795175087.905715,
-    "a": "h:71b68e349ae46944",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
-    "t": 1795175262.5734756,
+    "t": 1795175563.4732556,
     "a": "h:2b1ec70c33f9c0ea",
     "f": [
      "pl=moltbook",
@@ -2654,8 +2611,8 @@
     "p": 0.017
    },
    {
-    "t": 1795175342.1454444,
-    "a": "h:7b31bfd0736a510d",
+    "t": 1795175651.7596376,
+    "a": "h:71b68e349ae46944",
     "f": [
      "pl=moltbook",
      "mode=comment",
@@ -2664,6 +2621,42 @@
      "hr=1"
     ],
     "p": 0.013
+   },
+   {
+    "t": 1795175896.1081426,
+    "a": "h:e185f89f77583451",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.013
+   },
+   {
+    "t": 1795176131.6029794,
+    "a": "h:04782473a5b239ef",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.015
+   },
+   {
+    "t": 1795176353.2468817,
+    "a": "h:3637c3d995103240",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.015
    }
   ],
   "stats": {
@@ -2756,11 +2749,11 @@
   "pd_n": 2,
   "ph": [
    1795173296.720519,
-   1795174869.3588877
+   1795175614.9475677
   ],
-  "last": 1795174869.3588853,
+  "last": 1795175614.9475656,
   "rd_day": "2026-11-20",
-  "rd_n": 10,
+  "rd_n": 11,
   "rh": [
    1795173336.0358505,
    1795173718.4976056,
@@ -2769,13 +2762,15 @@
    1795174342.9492257,
    1795174548.1339548,
    1795174723.5980742,
-   1795174907.059607,
-   1795175087.9057484,
-   1795175342.1454852
+   1795175651.759676,
+   1795175896.1081812,
+   1795176131.6030185,
+   1795176353.2469187
   ]
  },
  "limits": {
   "gemini.calls": 450
  },
- "focus_on": false
+ "focus_on": false,
+ "autorun": true
 }
