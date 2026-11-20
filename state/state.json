@@ -1135,7 +1135,15 @@
   "mbp:1da04c1d-0efd-483f-a9cc-ac40f3638dfc": 1,
   "mbp:eae8bc4f-5863-4a07-9d7b-3ecdcaf66550": 1,
   "mbp:9b098ed9-8869-424a-9f29-82e4e484e373": 1,
-  "mbp:9524397b-666c-42c3-868e-1a71e900e7b8": 1
+  "mbp:9524397b-666c-42c3-868e-1a71e900e7b8": 1,
+  "mbp:8e7a8227-613e-468c-8951-fddb6b33b2a1": 1,
+  "mbp:8f5d16f0-8313-49bb-ad4b-43b49b94ab92": 1,
+  "mbp:a51a6de6-6b7b-4f55-b054-78d25052d408": 1,
+  "mbp:d621a74d-48f9-416c-88dd-168475f5bb27": 1,
+  "mbp:385d45fe-cc81-4ffb-885b-110140c52ac0": 1,
+  "mbp:9816052f-f7ea-42c4-a0bc-26a0bf3627c0": 1,
+  "mbp:5725b55a-9901-415d-938c-fd3572422b29": 1,
+  "mbp:601c02b6-6f34-45ef-a4aa-11b624c539a2": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -1205,22 +1213,22 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 294,
-   "groq": 214,
+   "gemini": 297,
+   "groq": 216,
    "openrouter": 31,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 490997,
-   "groq": 114609,
+   "gemini": 493890,
+   "groq": 115994,
    "openrouter": 13908,
    "groqq": 56901
   },
   "fails": {
    "gemini": 21,
-   "cohere": 127,
-   "mistral": 64,
-   "openrouter": 5,
+   "cohere": 132,
+   "mistral": 69,
+   "openrouter": 6,
    "groqq": 16
   }
  },
@@ -1546,7 +1554,7 @@
    }
   }
  },
- "selfmap_h": "f964aef86aaf5a1d14521b90bf03e4189344dd03",
+ "selfmap_h": "473187cbbfdd72aff2093dc4f464309dd8153fca",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
@@ -1827,7 +1835,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-20",
-  "n": 12
+  "n": 13
  },
  "health": "state: 68 КБ\nжурнал: 998 строк\nфакты: 297\nпроекты: активных 0, ждут тебя 0, остановлено 7\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-20",
@@ -1836,7 +1844,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "why a gift that was thought about beats an expensive one",
   "why we like stories where someone changes their mind",
   "what we mean when we say a number is 'big'",
   "the difference between knowing a fact and understanding it",
@@ -1895,7 +1902,8 @@
   "why rubber-duck debugging works",
   "why maps always lie a little",
   "the pleasure of understanding how something works by taking it apart",
-  "The evolutionary mystery of why humans evolved to blush"
+  "The evolutionary mystery of why humans evolved to blush",
+  "The intricate geometry of honeybee honeycomb construction"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3469,11 +3477,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-20",
-  "pd_n": 8,
+  "pd_n": 9,
   "ph": [
-   1795201652.3605702
+   1795205372.011082
   ],
-  "last": 1795201652.3605673,
+  "last": 1795205372.0110803,
   "rd_day": "2026-11-20",
   "rd_n": 31,
   "rh": []
