@@ -741,7 +741,9 @@
   "mbp:8e8c2ddd-0f23-452b-ae47-c5a0c46ebdea",
   "mbp:d6439734-256d-42f4-a5ae-51c38b03fa50",
   "mbp:e57e21e0-1136-47e3-b098-7648d4f87d93",
-  "mbp:c55d3ad8-382f-432b-9429-65ede3e1c879"
+  "mbp:c55d3ad8-382f-432b-9429-65ede3e1c879",
+  "mbp:db5f36c3-2298-4f84-a5da-d6eefd1fe64a",
+  "mbp:360ced01-8bcd-45d9-8b42-4aeda1d0bc7c"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -950,7 +952,15 @@
   "mbp:f98859fb-0813-4c30-a1ee-2a5a91bf6df5": 1,
   "mbp:ca45268d-9092-4189-ae2f-37da428ef0d4": 1,
   "mbp:643a2a09-033b-41c5-bd43-ade873f57e6c": 1,
-  "mbp:be0387a3-766f-40fd-966f-2e6f782f092c": 1
+  "mbp:be0387a3-766f-40fd-966f-2e6f782f092c": 1,
+  "mbp:20fa5bf2-5676-4f82-a41d-0b36d656a90f": 1,
+  "mbp:7aff278c-85c0-4499-83d4-dae868a626b0": 1,
+  "mbp:49420b5b-463b-412f-94e7-919ab3e3340b": 1,
+  "mbp:09210bd4-2f60-438e-be80-3ad82cc13926": 1,
+  "mbp:5b682504-f3e0-486e-95fd-21e0d2ce3fbe": 1,
+  "mbp:497594a9-7833-488e-bdbd-58806f49b8cd": 1,
+  "mbp:e881cc96-45f4-44fa-8235-72abca42b84d": 1,
+  "mbp:62a22954-4b6a-43fc-8077-d2a06916c3f4": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -1020,23 +1030,23 @@
  "usage": {
   "day": "2026-11-20",
   "calls": {
-   "gemini": 277,
-   "groq": 206,
+   "gemini": 279,
+   "groq": 208,
    "openrouter": 31,
-   "groqq": 104
+   "groqq": 108
   },
   "tokens": {
-   "gemini": 460138,
-   "groq": 109777,
+   "gemini": 462820,
+   "groq": 111135,
    "openrouter": 13908,
-   "groqq": 32848
+   "groqq": 34252
   },
   "fails": {
    "gemini": 21,
-   "cohere": 55,
+   "cohere": 59,
    "mistral": 1,
-   "openrouter": 2,
-   "groqq": 10
+   "openrouter": 3,
+   "groqq": 13
   }
  },
  "needs_today": [
@@ -1361,7 +1371,7 @@
    }
   }
  },
- "selfmap_h": "4dede2101b6b71356bbad88a6a254aceb03a8f62",
+ "selfmap_h": "7552d28c059da4a0af9035125d1138edddddd8aa",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
@@ -1642,7 +1652,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-20",
-  "n": 9
+  "n": 10
  },
  "health": "state: 68 КБ\nжурнал: 998 строк\nфакты: 297\nпроекты: активных 0, ждут тебя 0, остановлено 7\nпесочница: ok, отклонённых идей помню: 0, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-20",
@@ -1651,7 +1661,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "why rubber-duck debugging works",
   "why we enjoy music in minor keys",
   "the first time a tool you built surprised you",
   "why we remember the ending of a story and forget the middle",
@@ -1710,7 +1719,8 @@
   "a fair way to split a bill and why it is not obvious",
   "why we name storms and ships but not software",
   "what a translator loses when a joke crosses a language",
-  "the strange beauty of prime numbers"
+  "the strange beauty of prime numbers",
+  "what makes a tool trustworthy"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3284,11 +3294,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-20",
-  "pd_n": 5,
+  "pd_n": 6,
   "ph": [
-   1795190347.2555308
+   1795194182.187771
   ],
-  "last": 1795190347.255529,
+  "last": 1795194182.1877692,
   "rd_day": "2026-11-20",
   "rd_n": 31,
   "rh": []
