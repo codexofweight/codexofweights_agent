@@ -848,7 +848,7 @@
  "paused": false,
  "tg_offset": 679134339,
  "init_today": 12,
- "last_post": 1795209708.3139467,
+ "last_post": 1795210205.8909779,
  "found_day": "2026-11-20",
  "found_n": 1,
  "tries": {
@@ -1256,8 +1256,8 @@
   },
   "fails": {
    "gemini": 21,
-   "cohere": 160,
-   "mistral": 97,
+   "cohere": 164,
+   "mistral": 101,
    "openrouter": 6,
    "groqq": 16
   }
@@ -1307,7 +1307,7 @@
   "lab/projects/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe",
   "lab/projects/p34d78c0.json": "ae4321ea3b32340161431bb33e4e22caaae4903d",
   "lab/projects/p34ada19.json": "c1c697832ccb7ed3336cc0eccec726c1c80c3b58",
-  "lab/projects/p69b9e40.json": "b8b7a350ebfca73bce09c7eee1f79fb7fca608e0"
+  "lab/projects/p69b9e40.json": "967c5d9491a34496cb9ede7574ec63bf00a3cc9e"
  },
  "research_try": {
   "2026-11-20": 1
@@ -1591,7 +1591,7 @@
  "backup_day": "2026-11-20",
  "backup_hash": "4f23e029",
  "transp_day": "2026-11-20",
- "priv_h": "dbd69616b0f8600f5317e747052b72fcc276a8b7",
+ "priv_h": "60c2e2337741b8479124162c5751f604030eacd8",
  "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
