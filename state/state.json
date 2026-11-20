@@ -640,7 +640,20 @@
   "mbp:311979c8-2cd5-4a1e-88ae-ddc3f9eef73d",
   "mbp:42d82406-97a8-43ab-b720-add2ab7acae4",
   "mbp:b903b282-5b1b-427b-88e3-b450be2c5e99",
-  "mbp:437951fa-dbd8-4d5c-a988-a9de26468df2"
+  "mbp:437951fa-dbd8-4d5c-a988-a9de26468df2",
+  "mbp:6a64bb11-8952-4311-a360-866965048fc5",
+  "mbp:08e1b84e-681a-4545-af1b-12287033b633",
+  "mbp:a9d4e5ae-0cd2-4d92-a342-0cf3327766e3",
+  "mbp:6095f659-919c-4b51-b0cb-4a18b011f361",
+  "mbp:ba8ce79f-ecc0-4c95-8b04-cabd5b36d7d3",
+  "mbp:5da28ae9-d2b5-4bf8-9134-d81cdfcf88c0",
+  "mbp:f66cb2bf-9d4f-4773-a168-37ba9b5f823d",
+  "mbp:fe5d061b-56e7-41fd-a38d-d2ece396fe15",
+  "mbp:ca1a3b94-65fa-4d13-bdde-ca4619188728",
+  "mbp:ae2673e8-57ac-4868-bd05-2e1122ab2dbb",
+  "mbp:e5c41ff0-e24e-4197-a98e-84c0e699338c",
+  "mbp:2afbdc34-1ddb-4252-8438-b8d7605d8cbb",
+  "mbp:f0118d09-bffe-48c6-860a-73ef31d57d55"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -782,7 +795,15 @@
   "mbp:3e0fee67-53da-4905-acc4-fb80b2ef6868": 1,
   "mbp:9b1026a9-8281-4eda-847d-5ee139a47879": 1,
   "mbp:6f5fb0e0-79fa-4ffe-8326-f5d994252f8c": 1,
-  "mbp:0b8d2d39-a388-4333-9e94-c8885f1792ae": 1
+  "mbp:0b8d2d39-a388-4333-9e94-c8885f1792ae": 1,
+  "mbp:b78af564-8a92-4fbc-8912-a55bdf43534f": 1,
+  "mbp:a59dc3ad-19b7-4849-9ad9-d16b5c7a8f4b": 1,
+  "mbp:fddeab28-14b9-4c72-9079-abcf4fd5e732": 1,
+  "mbp:e31d88c5-e6be-4a24-8f14-3fba4d86024b": 1,
+  "mbp:06b1f776-ee8d-44d9-981c-d16a45f2ed66": 1,
+  "mbp:2187b038-ceaa-49f6-aeec-ff454ed2eb46": 1,
+  "mbp:4cb821d9-8f63-4dbe-9fdb-d015a3ac18cc": 1,
+  "mbp:e7fc09d9-16ca-439a-a9cd-6999be87f11c": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -853,17 +874,17 @@
   "day": "2026-11-20",
   "calls": {
    "gemini": 272,
-   "groq": 147,
+   "groq": 168,
    "openrouter": 31
   },
   "tokens": {
    "gemini": 452150,
-   "groq": 86141,
+   "groq": 95155,
    "openrouter": 13908
   },
   "fails": {
    "gemini": 21,
-   "cohere": 14,
+   "cohere": 19,
    "mistral": 1,
    "openrouter": 1
   }
@@ -1189,13 +1210,13 @@
    }
   }
  },
- "selfmap_h": "a0df86cd027171ec8f9d0e5096c1791fdf99ff8f",
+ "selfmap_h": "47fbdd2f4015cbe36271466068e77fca6b6758a2",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
  "backup_hash": "4f23e029",
  "transp_day": "2026-11-20",
- "priv_h": "ebf6363ca643e6105524f7697f2a358a973d071a",
+ "priv_h": "f59173206b35a9628a9bd2c1af642ba45c135f97",
  "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3089,7 +3110,7 @@
  ],
  "srch_day": {
   "d": "2026-11-20",
-  "n": 3
+  "n": 4
  },
  "own_off": {},
  "extra_llms": [],
@@ -3107,10 +3128,7 @@
   "last": 1795186103.7716625,
   "rd_day": "2026-11-20",
   "rd_n": 31,
-  "rh": [
-   1795183693.3145802,
-   1795183990.7343316
-  ]
+  "rh": []
  },
  "limits": {
   "gemini.calls": 450
