@@ -1111,7 +1111,15 @@
   "mbp:aea84df1-2bcb-4662-a105-55d67940de44": 1,
   "mbp:e4488fbb-9732-4f17-946e-d5ca3ddb89a7": 1,
   "mbp:efa9c49f-004d-4f22-9695-b887fe250e7c": 1,
-  "mbp:98328dd5-ec59-4856-abf6-589fcfbd3f2a": 1
+  "mbp:98328dd5-ec59-4856-abf6-589fcfbd3f2a": 1,
+  "mbp:c2604a4a-73fc-4a45-a3e7-82b4d829ae23": 1,
+  "mbp:29650b7b-6c8c-4347-894c-96b706605057": 1,
+  "mbp:539ba301-24d6-4560-bf5e-88454c02014d": 1,
+  "mbp:12850c96-9398-4843-9eef-a769a361e203": 1,
+  "mbp:4fbd0952-2305-4205-a2d3-5bd135831be9": 1,
+  "mbp:ff0fcea3-4beb-4857-88d0-10e00fac05f7": 1,
+  "mbp:b87424bc-ad31-4cc5-8774-97a0b7e0c979": 1,
+  "mbp:557a4b73-062a-445b-a65a-c04995eba127": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -1194,8 +1202,8 @@
   },
   "fails": {
    "gemini": 21,
-   "cohere": 115,
-   "mistral": 52,
+   "cohere": 119,
+   "mistral": 56,
    "openrouter": 5,
    "groqq": 16
   }
@@ -1522,7 +1530,7 @@
    }
   }
  },
- "selfmap_h": "d70055171f4fa2aa80adfe9c75be2ce3d7072ab5",
+ "selfmap_h": "90284aeaa489a10c57048b8de890c8aff26e82da",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
