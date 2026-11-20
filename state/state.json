@@ -693,7 +693,20 @@
   "mbp:412721c9-d0b5-49ed-ba77-8e54ee8cedf5",
   "mbp:d4fd1d5a-7299-4fe9-b519-2ab6a0c844a9",
   "mbp:1ef1ff29-64bb-4301-91d1-5b199c154e15",
-  "mbp:6638c9f7-31cf-4471-a26c-1515beb058e1"
+  "mbp:6638c9f7-31cf-4471-a26c-1515beb058e1",
+  "mbp:c30e623d-3955-4321-8960-a9624ecd4317",
+  "mbp:d915c4ac-667d-47e2-85c3-7b4505216e05",
+  "mbp:0a5112e2-829f-40f7-ae21-94d2036f6a7c",
+  "mbp:06500802-43a5-4a81-8ce2-284c8d6ccf6e",
+  "mbp:3c8e8fc7-7485-418b-840b-8dbc7644fc64",
+  "mbp:b57688b3-b4bd-411b-9840-312659f1854c",
+  "mbp:472d28c3-2649-48a0-8990-45acfff2b553",
+  "mbp:c681a268-bb4c-400c-adbe-14fcdb74b4e6",
+  "mbp:722f9668-a022-4e21-aa20-886e58df5115",
+  "mbp:112e17c7-a499-4387-b47e-8bed614a0aa3",
+  "mbp:6fe7f0e2-ce04-4d8d-bf75-cb4ece85e635",
+  "mbp:e0206db2-d678-4e52-8a2b-06cc27d1bb10",
+  "mbp:ab05febd-f686-4ca9-85fb-a3d2b7f7d5af"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -870,7 +883,15 @@
   "mbp:5f366552-e87f-4d11-8e44-2d113bd9be11": 1,
   "mbp:df6b7a16-0deb-482b-af9c-f943e5eb6ff5": 1,
   "mbp:20feb1ca-01e8-4ff7-ab5c-79d566c0315f": 1,
-  "mbp:1e2c0365-98de-4479-b352-38c4733de820": 1
+  "mbp:1e2c0365-98de-4479-b352-38c4733de820": 1,
+  "mbp:2f69becf-73fa-4555-9221-5c93b77c7fee": 1,
+  "mbp:6ef22020-689b-456b-bd58-fbeafde65e85": 1,
+  "mbp:97dda3e9-6932-4e42-b4da-7501208f6c79": 1,
+  "mbp:edb66157-a30c-4166-9afa-ecb1a6708eab": 1,
+  "mbp:b22f5748-d6f9-4c12-a42c-b71214b8ed87": 1,
+  "mbp:4ad800e6-1040-4359-967f-3d94dfe624c4": 1,
+  "mbp:f80a2aab-8097-4bcc-a77a-b2765d5ddbbc": 1,
+  "mbp:976ecc3c-9c30-4fdb-a844-91a2a73f497e": 1
  },
  "research_day": "2026-11-20",
  "read_urls": [
@@ -943,20 +964,20 @@
    "gemini": 277,
    "groq": 206,
    "openrouter": 31,
-   "groqq": 29
+   "groqq": 49
   },
   "tokens": {
    "gemini": 460138,
    "groq": 109777,
    "openrouter": 13908,
-   "groqq": 8973
+   "groqq": 15387
   },
   "fails": {
    "gemini": 21,
-   "cohere": 36,
+   "cohere": 41,
    "mistral": 1,
    "openrouter": 2,
-   "groqq": 5
+   "groqq": 6
   }
  },
  "needs_today": [
@@ -1281,13 +1302,13 @@
    }
   }
  },
- "selfmap_h": "eea3465dbf45c0b06747eaca2bf7ed66894f0ce5",
+ "selfmap_h": "f3f84f64b069e011b7b719f2a7c00abc978c10a2",
  "bio_idx_day": "2026-11-20",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
  "backup_hash": "4f23e029",
  "transp_day": "2026-11-20",
- "priv_h": "61e94d257148501b1c7e7bdc805185dc2f3f7ac5",
+ "priv_h": "d34452c8af2f2dbb0dae41ac5d3dd8e2cdf3c470",
  "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
