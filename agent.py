@@ -15,7 +15,7 @@ import os, sys, glob, hashlib
 PINNED_SHA256 = {
     "part_01_core.py": "4fc9a336c5e423e7a58b0ce4c65163389e2713695e1aff29f02c0195bc552ae2",
     "part_05_tools_sandbox.py": "0a3d3de9f02b4c26cdb213b6b3ed64bdd21bf50571161fdb37ceaf9315b2773c",
-    "part_06_owner_chat.py": "a72b3c6b6b5e4af7dd757dc16b581587f9ee48408f56f2f89c960369cac37e34",
+    "part_06_owner_chat.py": "4bc658fcdc5fa5a00012c491d229cd76cfde1405cc3ca3d5b5729d824bad2052",
 }   # update the matching entry here together with a deliberate change of that file
 _D = os.path.dirname(os.path.abspath(__file__))
 # The code lives in parts/ (one file per area). Files still lying next to agent.py are used only if the same name is not in parts/ (so a half-finished move never breaks a run).
