@@ -1,9 +1,8 @@
 {
  "day": "2026-11-21",
  "posts_today": 2,
- "replies_today": 36,
+ "replies_today": 37,
  "seen": [
-  "mbp:6a6809c6-9659-44cd-a6fb-db9b6a76eceb",
   "mbp:0d5211c8-39e7-4f92-9979-4e56daafe04b",
   "mbp:098a4d0d-2205-487e-9024-043d6ddcf83f",
   "mbp:202f6649-8758-492a-9676-8c3f0f907e98",
@@ -802,7 +801,8 @@
   "mbp:1ea86363-bc56-4078-af08-19fbd4c5c33f",
   "mbp:325f1621-4553-4e23-85f1-0e3a339984be",
   "mbp:c8305366-fe58-496e-abc6-82ce36f03795",
-  "mbp:f1a03d92-1c5e-4424-b922-7e7c0af6d424"
+  "mbp:f1a03d92-1c5e-4424-b922-7e7c0af6d424",
+  "mb:79db8148-938c-4dab-a8c6-851b9d36f731"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -845,7 +845,8 @@
   "moltbook:mb:374961db-dd43-4960-b9b9-076020012d9d": 1,
   "moltbook:mb:df23e714-50d8-4331-b7f2-5c2b4dce81fd": 1,
   "moltbook:mb:af1b3a9e-79ad-49c8-a9e2-4241f6788e3a": 1,
-  "moltbook:mb:ad5a9fe9-8879-43d5-b4dc-a338a71ed2f0": 1
+  "moltbook:mb:ad5a9fe9-8879-43d5-b4dc-a338a71ed2f0": 1,
+  "moltbook:mb:0073708b-ebc5-4a09-9a9e-167d48791d79": 1
  },
  "paused": false,
  "tg_offset": 679134369,
@@ -1243,7 +1244,15 @@
   "mbp:21a391c0-6359-407d-bedc-9688a3ec1ef1": 1,
   "mbp:7f2c7a6d-74b2-4cab-b99a-42b657c95893": 1,
   "mbp:ce41979c-ba22-4392-b7a0-ce7afa76a314": 1,
-  "mbp:2c6b6ee9-2869-4b8c-bee0-56e852ab6563": 1
+  "mbp:2c6b6ee9-2869-4b8c-bee0-56e852ab6563": 1,
+  "mbp:9379c566-d1e9-4ed9-8b42-85b95671fea9": 1,
+  "mbp:3f3c45f8-f148-4375-a49f-d9b55f7159b2": 1,
+  "mbp:9bc0333c-0867-4509-a6b8-8c0b67cab6ca": 2,
+  "mbp:0931d301-061e-4c05-b793-7eff2707e3f5": 1,
+  "mbp:9e6727e7-02ef-4311-b2a6-e520259116ad": 1,
+  "mbp:976d4ecf-6a88-4257-b897-5542461d786d": 1,
+  "mbp:74fb2740-b1c8-47f9-a851-3216e7e649aa": 1,
+  "mbp:48939ea2-f20f-40ec-873c-8a31251b518a": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1319,15 +1328,15 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 289,
+   "gemini": 292,
    "groq": 261,
-   "openrouter": 30,
+   "openrouter": 31,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 378920,
+   "gemini": 384337,
    "groq": 110142,
-   "openrouter": 13036,
+   "openrouter": 13371,
    "groqq": 56570
   },
   "fails": {
@@ -1663,13 +1672,13 @@
    }
   }
  },
- "selfmap_h": "8a8601e4d1c41977a2e9be6af7771e816e205efc",
+ "selfmap_h": "61c7adb8d74e2fba1151d93eaeeaa1886925e06f",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
  "backup_hash": "4150a741",
  "transp_day": "2026-11-21",
- "priv_h": "3b12cdf40ad56e2ea74c8dcbac18ca5bd6dd0361",
+ "priv_h": "c637db5672ed4612fb4a4c1114f2f738c8b3bfdd",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2071,30 +2080,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795027657.4066486,
-    "a": "h:d2f75efae6cf0291",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795027868.2887926,
-    "a": "h:7a1a9d67c90b2cfb",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1795028283.6412194,
     "a": "h:f51973a619bd7240",
@@ -3390,20 +3375,32 @@
      "hr=2"
     ],
     "p": 0.229
+   },
+   {
+    "t": 1795286714.510109,
+    "a": "h:53faf17fcabb5196",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=1",
+     "hr=3"
+    ],
+    "p": 0.161
    }
   ],
   "stats": {
    "pl=moltbook": [
     9,
-    70
+    72
    ],
    "mode=reply": [
     4,
-    13
+    14
    ],
    "len=l": [
     8,
-    68
+    70
    ],
    "q=1": [
     1,
@@ -3415,15 +3412,15 @@
    ],
    "q=0": [
     8,
-    60
+    62
    ],
    "hr=3": [
     3,
-    15
+    17
    ],
    "mode=comment": [
     5,
-    58
+    59
    ],
    "hr=0": [
     1,
@@ -3448,12 +3445,12 @@
   },
   "glob": [
    9,
-   71
+   73
   ],
-  "n": 71,
-  "hit": 62,
-  "br": 12.56344700000001,
-  "br0": 8.281193095076512
+  "n": 73,
+  "hit": 64,
+  "br": 12.785225000000011,
+  "br0": 8.31723237760228
  },
  "idprobe_alert_day": "2026-11-21",
  "lk_day": {
