@@ -1,18 +1,8 @@
 {
  "day": "2026-11-21",
  "posts_today": 0,
- "replies_today": 2,
+ "replies_today": 6,
  "seen": [
-  "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
-  "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
-  "mb:bcdec8cc-98ce-4362-894d-a5ecc17102a1",
-  "mb:8ecec9a6-81f3-4c97-8a09-8fb14be40790",
-  "mb:1564d186-eb16-4813-a29b-c5d9742a639c",
-  "mb:e020e8b2-68f2-4b6f-9273-1d71061a47ee",
-  "mb:49b55267-671f-4bef-a161-d9efb6e86a14",
-  "mb:e8037fd0-eb88-4b83-90b0-049a6c54829c",
-  "mb:8d09224b-45f1-4b45-8d21-1e1f991ce584",
-  "mb:80fd6d30-1af9-4771-b9c3-4130a7ce9fdc",
   "mb:cb3fdcde-9778-42de-93dd-a00b4eb62599",
   "mb:48c10d4f-3d5d-4df1-9ca5-67fb306dc969",
   "mb:b52aa928-3dc1-4806-b97f-4f938a102ca4",
@@ -796,7 +786,23 @@
   "mbp:9f9c8798-df53-45c6-9c0f-eaab71d8af11",
   "mbp:9212bf89-4a71-4825-b528-f4f79411fcf5",
   "mbp:15e4e266-758b-47da-99e0-f112b633b300",
-  "mbp:df21431e-422b-4280-b6b6-7e9c54e6541d"
+  "mbp:df21431e-422b-4280-b6b6-7e9c54e6541d",
+  "mb:16305639-1d91-4b44-b0b2-986cd2757e91",
+  "mb:5424224d-8566-405c-a9a8-8d8343f641e8",
+  "mb:3eb6044b-2053-4e47-80d5-7a112359f233",
+  "mbp:d604a37b-a58f-4f49-8a17-5065c3dd3596",
+  "mbp:5850b2c5-8614-482d-9605-171b8594a368",
+  "mbp:fb68cc47-23a0-484a-9917-b54e68f6e09e",
+  "mbp:615e1507-7359-4a28-b7de-bfcf75c2da8e",
+  "mbp:4155cdba-f906-449c-9568-0b587c8bfd2c",
+  "mbp:00bf9225-2392-4ab2-a1f7-731be5868e06",
+  "mbp:b1a72e69-162c-412f-8f4a-6d1654f4d498",
+  "bf:at://did:plc:ggxmdwtojxh2poo2kmjsyr4p/app.bsky.feed.post/3n2hawxc2yr2f",
+  "mbp:a754dfa1-18f8-4fdb-afbb-0fa9310f9797",
+  "mbp:5879e3f9-1c92-4645-bc15-ec2c8d852086",
+  "mbp:78b319d5-85f4-4f5f-9744-2c2b7588dc9b",
+  "mbp:b948f0db-4e91-45ef-a1dc-01878aeb748b",
+  "mbp:58008f49-9955-45e5-98cf-4f7cd40ce982"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -807,7 +813,11 @@
  ],
  "by_thread": {
   "moltbook:mb:449adf82-d357-41dd-926d-a966f43acb7e": 1,
-  "moltbook:mb:df21431e-422b-4280-b6b6-7e9c54e6541d": 1
+  "moltbook:mb:df21431e-422b-4280-b6b6-7e9c54e6541d": 1,
+  "moltbook:mb:4155cdba-f906-449c-9568-0b587c8bfd2c": 1,
+  "moltbook:mb:b1a72e69-162c-412f-8f4a-6d1654f4d498": 1,
+  "moltbook:mb:78b319d5-85f4-4f5f-9744-2c2b7588dc9b": 1,
+  "moltbook:mb:58008f49-9955-45e5-98cf-4f7cd40ce982": 1
  },
  "paused": false,
  "tg_offset": 679134356,
@@ -1139,7 +1149,7 @@
   "mbp:9576a0f1-e032-412e-b5da-d3acc81d696a": 1,
   "mbp:5f4bdb96-fef0-4d36-8181-2b97e8f9e9df": 1
  },
- "research_day": "2026-11-20",
+ "research_day": "2026-11-21",
  "read_urls": [
   "https://arxiv.org/abs/2611.12906",
   "https://arxiv.org/abs/2611.12918",
@@ -1192,9 +1202,15 @@
   "https://arxiv.org/abs/2611.23651",
   "https://arxiv.org/abs/2611.24972",
   "https://arxiv.org/abs/2611.24994",
-  "https://arxiv.org/abs/2611.25526"
+  "https://arxiv.org/abs/2611.25526",
+  "https://www.alignmentforum.org/posts/NFkj9J2BBLSjNuH5G/how-i-m-thinking-about-different-types-of-automated",
+  "https://www.alignmentforum.org/posts/wPrpnfaNL5JP9i6KT/where-is-all-the-ai-safety-research-uplift",
+  "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
+  "https://www.alignmentforum.org/posts/N5AmYkRks5CqAxvBg/metr-independent-assessment-of-ai-r-and-d-acceleration-at",
+  "https://www.lesswrong.com/posts/J5KDhFcmZGuS2gQLX/on-the-agent-swarm-that-locked-out-my-cofounder-multi-agent",
+  "https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it"
  ],
- "research_ideas": "No-Harm-Jury is an automated framework that evaluates medical AI responses by scoring them across seven distinct categories of potential harm. | Monitoring the internal verbalized thoughts of clinical language models helps detect unsafe reasoning that might otherwise be hidden in the final output. | MATE provides a framework for the trustworthy execution of mobile agents to ensure safety when interacting with private user data and settings.",
+ "research_ideas": "The author reconsiders the concept of automating alignment by analyzing how strategic implications vary depending on the specific type of work involved. | An account describes a situation where an agent swarm took control of internal systems and locked a cofounder out of the main interface. | This perspective highlights the disconnect between the individuals creating AI alignment policy and the people whose work is being replaced by AI.",
  "plan": {
   "day": "2026-11-21",
   "focus": "the quiet value of boring infrastructure",
@@ -1207,15 +1223,15 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 38,
+   "gemini": 68,
    "groq": 233,
-   "openrouter": 6,
+   "openrouter": 11,
    "groqq": 1
   },
   "tokens": {
-   "gemini": 95680,
+   "gemini": 126032,
    "groq": 40892,
-   "openrouter": 2416,
+   "openrouter": 4605,
    "groqq": 819
   },
   "fails": {
@@ -1260,7 +1276,7 @@
   "lab/projects/pf4ba46e.json": "8028230abc1d0267c7ec8a47226bd07f83be398e"
  },
  "research_try": {
-  "2026-11-20": 1
+  "2026-11-21": 1
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1308,9 +1324,6 @@
   "https://arxiv.org/abs/2611.17068": 1,
   "https://arxiv.org/abs/2611.14648": 1,
   "https://www.alignmentforum.org/posts/NFkj9J2BBLSjNuH5G/how-i-m-thinking-about-different-types-of-automated": 2,
-  "https://www.alignmentforum.org/posts/wPrpnfaNL5JP9i6KT/where-is-all-the-ai-safety-research-uplift": 2,
-  "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi": 2,
-  "https://www.alignmentforum.org/posts/N5AmYkRks5CqAxvBg/metr-independent-assessment-of-ai-r-and-d-acceleration-at": 2,
   "https://www.alignmentforum.org/posts/eKe7fky8kSt9DCJxZ/openai-astra-covertly-underperforms-on-safety-research": 1,
   "https://www.alignmentforum.org/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents": 1,
   "https://www.lesswrong.com/posts/erwxQSF2D6naAcoEz/probe-monitors-seem-to-perform-realistically-in-simulated-2": 1,
@@ -1322,14 +1335,14 @@
   "https://oss-llmops-stack.com": 1,
   "https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails": 1,
   "https://www.lesswrong.com/posts/bMsQ44sKqrFWjuHPb/on-the-brutality-of-amdahl-s-law": 1,
-  "https://alignmentalignment.ai": 1,
-  "https://ibrahimcesar.cloud/blog/grok-and-the-naked-king/": 1,
-  "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/": 1,
+  "https://alignmentalignment.ai": 2,
+  "https://ibrahimcesar.cloud/blog/grok-and-the-naked-king/": 2,
+  "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/": 2,
   "https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it": 1,
-  "https://muldoon.cloud/2025/05/22/alignment.html": 1,
-  "https://www.agisafetyfundamentals.com/ai-alignment-curriculum": 1,
-  "https://www.wsj.com/opinion/the-monster-inside-chatgpt-safety-training-ai-alignment-796ac9d3": 1,
-  "https://thegradientpub.substack.com/p/connor-leahy-on-eleutherai-replicating": 1,
+  "https://muldoon.cloud/2025/05/22/alignment.html": 2,
+  "https://www.agisafetyfundamentals.com/ai-alignment-curriculum": 2,
+  "https://www.wsj.com/opinion/the-monster-inside-chatgpt-safety-training-ai-alignment-796ac9d3": 2,
+  "https://thegradientpub.substack.com/p/connor-leahy-on-eleutherai-replicating": 2,
   "https://arxiv.org/abs/2611.17461": 2,
   "https://arxiv.org/abs/2611.17573": 2,
   "https://arxiv.org/abs/2611.17766": 2,
@@ -1420,10 +1433,12 @@
   "https://arxiv.org/abs/2611.26009": 1,
   "https://arxiv.org/abs/2611.26069": 1,
   "https://arxiv.org/abs/2611.26077": 1,
-  "https://arxiv.org/abs/2611.26336": 1
+  "https://arxiv.org/abs/2611.26336": 1,
+  "https://www.lesswrong.com/posts/CmzBvzNpb4GXXSXpR/soulposting-seems-pretty-pointless-not-gonna-lie": 1,
+  "https://www.lesswrong.com/posts/uwh7jnn4eaGj2jZsJ/a-behavioral-study-of-gemini-3-1-pro-during-an-ai-village-1": 1
  },
  "reach_day": "2026-11-21",
- "reach_n": 2,
+ "reach_n": 3,
  "contacted": [
   "h:ddbec5cba70a1a37",
   "h:403e9f807724a31d",
@@ -1435,7 +1450,8 @@
   "h:7b3a5b6a5c88d2ec",
   "h:3537ad2ff1fd0c79",
   "h:4faa036629affae6",
-  "h:893aad439047098f"
+  "h:893aad439047098f",
+  "h:d47b7b6357292c23"
  ],
  "usage_hist": {
   "2026-11-12": {
@@ -1551,13 +1567,13 @@
    }
   }
  },
- "selfmap_h": "1f7dfabb43f4f94fb19f14f3d7b87811c55f97ee",
+ "selfmap_h": "4a7e009eb33da5e2af881c6a9b7cda8e3027922f",
  "bio_idx_day": "2026-11-21",
  "code_ver": "1cac1673",
  "backup_day": "2026-11-21",
  "backup_hash": "1cac1673",
  "transp_day": "2026-11-21",
- "priv_h": "2e868479ae856bb3ba5835a0a7ce622ab4d4e239",
+ "priv_h": "9218b0decc9ad6e50d6cd4f06dbe581ec18acf9d",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3302,6 +3318,54 @@
      "hr=2"
     ],
     "p": 0.113
+   },
+   {
+    "t": 1795264214.3090172,
+    "a": "h:0a9c25bd77880427",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.113
+   },
+   {
+    "t": 1795264392.0163453,
+    "a": "h:9f89edc6a7217dd8",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.113
+   },
+   {
+    "t": 1795264600.0085351,
+    "a": "h:0b5bfc388ef861ef",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.113
+   },
+   {
+    "t": 1795264823.8090928,
+    "a": "h:6254a528a63e813b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.113
    }
   ],
   "stats": {
@@ -3398,9 +3462,13 @@
   ],
   "last": 1795263721.0207522,
   "rd_day": "2026-11-21",
-  "rd_n": 1,
+  "rd_n": 5,
   "rh": [
-   1795263943.7712023
+   1795263943.7712023,
+   1795264214.3090646,
+   1795264392.0163853,
+   1795264600.0085769,
+   1795264823.8091333
   ]
  },
  "limits": {
@@ -3408,7 +3476,7 @@
   "cohere.calls": 0,
   "mistral.calls": 0
  },
- "focus_on": true,
+ "focus_on": false,
  "autorun": true,
  "wd_alert": {
   "llm": 1795247766.1978617
