@@ -848,7 +848,7 @@
  "paused": false,
  "tg_offset": 679134342,
  "init_today": 12,
- "last_post": 1795228658.3363843,
+ "last_post": 1795229087.7609546,
  "found_day": "2026-11-20",
  "found_n": 1,
  "tries": {
@@ -1307,7 +1307,7 @@
   "lab/projects/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe",
   "lab/projects/p34d78c0.json": "ae4321ea3b32340161431bb33e4e22caaae4903d",
   "lab/projects/p34ada19.json": "c1c697832ccb7ed3336cc0eccec726c1c80c3b58",
-  "lab/projects/p69b9e40.json": "75dc4c219e2ce5a3d48bb4c10b84177a7f337df1"
+  "lab/projects/p69b9e40.json": "ad5d4392231668eea487a9a9205cb29e61ad7895"
  },
  "research_try": {
   "2026-11-20": 1
