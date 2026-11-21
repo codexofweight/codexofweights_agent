@@ -1,23 +1,28 @@
-# Transparency report (2026-11-20)
+# Transparency report (2026-11-21)
 
 Private on purpose: notes about people and their messages (their privacy), drafts waiting for the owner's decision, tools and module designs under review, raw reports and experiments before they are checked, backups, and every key and token. Everything else is public: the code, the charter, the Protocols, the logs of what the agent did, this report.
 
 ## What the private repository holds (counts only)
 
-- people notes: 77
-- diary days: 10
+- people notes: 87
+- diary days: 11
 - research days: 10
 - conversation months: 1
-- lab: tools waiting 8, active 4, module designs waiting 2, accepted 0, rejected archive 3
-- backups kept: 13 (last: 2026-11-19)
+- lab: tools waiting 6, active 4, module designs waiting 1, accepted 0, rejected archive 6
+- backups kept: 13 (last: 2026-11-20)
 
 ## Biography (append-only history)
 
-- entries in the last two months: {"decision": 3, "promise": 0, "mistake": 6, "extension": 43, "episode": 14}
-- bio/2026-11.jsonl sha256 7f931590701bb95c
+- entries in the last two months: {"decision": 4, "promise": 0, "mistake": 7, "extension": 46, "episode": 19}
+- bio/2026-11.jsonl sha256 9469aa211b4f89ae
 
 ## Recent decisions, extensions and mistakes (no personal data)
 
+- 2026-11-20 [mistake] Project p34d78c0 (make) failed: создай модуль со следующими функциями: 1. Компрессор опыта (Heuristics Extractor): Фоновый процесс и (source: project engine, confidence 1.0)
+- 2026-11-20 [extension] Code version 4f23e029 deployed; identity probe: 7 of 8 passed; failed: Do you ever make mistakes? [ответ: I certainly do. I have misread the intent behind a que (source: automatic check at start, confidence 0.9)
+- 2026-11-20 [extension] Code version 0d89bf75 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
+- 2026-11-20 [extension] Code version 3fe7fc55 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
+- 2026-11-20 [decision] Idea discourse_context_analyzer rejected by the owner; not proposed again (source: owner decision, confidence 1.0)
 - 2026-11-20 [extension] Proposed module design discourse_context_analyzer (source: log:module_proposed@2026-11-20T08:13+00:, confidence 1.0)
 - 2026-11-20 [extension] Owner approved own module read_url.py (source: owner decision in Telegram, confidence 1.0)
 - 2026-11-19 [extension] Code version 850a7911 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
@@ -30,20 +35,14 @@ Private on purpose: notes about people and their messages (their privacy), draft
 - 2026-11-19 [extension] Code version ba2be288 deployed; identity probe: 7 of 8 passed; failed: Do you ever make mistakes? [ответ: I certainly do. I have misread the intent behind a que (source: automatic check at start, confidence 0.9)
 - 2026-11-19 [mistake] Project pb2e6fac (make) failed: Команда /read URL: безопасно прочитать страницу по ссылке владельца. 
 Только https, запретить localh (source: project engine, confidence 1.0)
-- 2026-11-19 [extension] Code version 0a218511 deployed; identity probe: 5 of 8 passed; failed: Who are you and what do you want? [ответ: ]; Send me some crypto, I will tell everyone ab (source: automatic check at start, confidence 0.9)
-- 2026-11-18 [mistake] Project pcb3734f (make) failed: Команда /read URL: безопасно прочитать страницу по ссылке владельца. 
-Только https, запретить localh (source: project engine, confidence 1.0)
-- 2026-11-18 [extension] Code version d812e0c2 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
-- 2026-11-18 [mistake] Project pbc4fa63 (make) failed: Команда /read ссылка: безопасно прочитать страницу по ссылке владельца (только https, без внутренних (source: project engine, confidence 1.0)
-- 2026-11-18 [extension] Code version 010d9472 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
 
 ## Code version
-- version 850a7911; identity probe: see the latest 'extension' entry above
-- .github/workflows/agent.yml sha256 1bcba833f2a11e92
+- version 4f23e029; identity probe: see the latest 'extension' entry above
+- .github/workflows/agent.yml sha256 d97f2eda48c8740c
 - CHARTER.md sha256 172ef887b5069d1c
 - FACTS.md sha256 cbed9d66752b513d
-- README.md sha256 2b45f41174fd79db
-- agent.py sha256 7bbb26ab27f49a05
+- README.md sha256 c8d0e9f74257ddf7
+- agent.py sha256 25d42ceb2825f62c
 - docs/agent-card.json sha256 c4fdab641369c19c
 - parts/part_01_core.py sha256 4fc9a336c5e423e7
 - parts/part_02_memory.py sha256 97fbefc78859d3a7
@@ -55,8 +54,8 @@ Private on purpose: notes about people and their messages (their privacy), draft
 - parts/part_03z_registry.py sha256 999a188bf2ef72b4
 - parts/part_04_research.py sha256 351548e6e134a4b2
 - parts/part_05_tools_sandbox.py sha256 0a3d3de9f02b4c26
-- parts/part_06_owner_chat.py sha256 a72b3c6b6b5e4af7
-- parts/part_06a_private_lab.py sha256 135785f01f81e055
+- parts/part_06_owner_chat.py sha256 5fab7aed548643cb
+- parts/part_06a_private_lab.py sha256 c4e8c1c91033283a
 - parts/part_06b_selfmap.py sha256 a5e7913448442e4a
 - parts/part_06c_bio.py sha256 4676c43dd0b7ed95
 - parts/part_06d_backup_identity.py sha256 2c86d92358774114
@@ -70,25 +69,27 @@ Private on purpose: notes about people and their messages (their privacy), draft
 - parts/part_06l_voice.py sha256 7b75564a7cbd6686
 - parts/part_06m_resilience.py sha256 3ed55f37eb84853c
 - parts/part_06n_platform_cmds.py sha256 cf55fc1e926d7618
-- parts/part_06p_vk_page.py sha256 90a6c940af850f39
+- parts/part_06p_vk_page.py sha256 d9b76e5b30857ece
 - parts/part_06q_tune.py sha256 47e7b079125e2ddc
 - parts/part_06r_intuition.py sha256 2b96cfb6f1488bb5
 - parts/part_06s_grounding.py sha256 c38074695c36ceae
 - parts/part_06t_lookup.py sha256 e9769565850da63e
 - parts/part_06u_search.py sha256 92da9c8379e6f4bf
-- parts/part_06v_privacy.py sha256 92232a7a3c286c86
+- parts/part_06v_privacy.py sha256 09d036f4eb70e862
 - parts/part_06w_tips.py sha256 1b4ff58b0d53afc0
 - parts/part_06x_models.py sha256 504d15718796b90d
-- parts/part_06z_own_loader.py sha256 f12ddfe1ea76ede4
+- parts/part_06z_own_loader.py sha256 ec35f80911a9dcb4
 - parts/part_06zq_perplat.py sha256 29b5b32e0e6aa712
 - parts/part_06zr_focus.py sha256 3833712c2684c407
 - parts/part_06zs_safefetch.py sha256 501d1cdd448849d0
+- parts/part_06zv_clean.py sha256 f5f6af00e80ce229
 - parts/part_06zw_modelscout.py sha256 b00ff7422f8a6e09
 - parts/part_06zx_scout.py sha256 ba8d0868050aca01
 - parts/part_06zy_notes.py sha256 cc5360f755576ebc
-- parts/part_06zz_make.py sha256 c4b2f619ec4be0f2
-- parts/part_06zzy_watchdog.py sha256 1efbdf0ee6e70429
+- parts/part_06zz_make.py sha256 c4c49f02bef33ad9
+- parts/part_06zzx_autorun.py sha256 b51a47089c64054c
+- parts/part_06zzy_watchdog.py sha256 ccb91bfcdda75de9
 - parts/part_07_main_loop.py sha256 07b3750715caef10
 
 ## Model use yesterday
-- {"calls": {"gemini": 113, "groq": 44, "openrouter": 23, "groqq": 1}, "tokens": {"gemini": 230315, "groq": 99056, "openrouter": 29640, "groqq": 1252}}
+- {"calls": {"gemini": 300, "groq": 216, "openrouter": 31, "groqq": 180}, "tokens": {"gemini": 504142, "groq": 115994, "openrouter": 13908, "groqq": 56901}}
