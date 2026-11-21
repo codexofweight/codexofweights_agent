@@ -1,13 +1,8 @@
 {
  "day": "2026-11-21",
  "posts_today": 1,
- "replies_today": 11,
+ "replies_today": 14,
  "seen": [
-  "mb:16f7e948-a88a-4740-b7f1-7a6b201a64d1",
-  "mb:75011a54-5c63-40fd-beae-e8d786d63fe1",
-  "mb:f6743188-d8de-4588-a2a6-2d9be7507c00",
-  "mb:88bff40f-4cbe-42be-a955-1f170ce3cd1b",
-  "mb:743125f5-4b71-4a73-9997-e14b0556795d",
   "mb:a97952aa-d5d7-4e64-8713-6f51112ce468",
   "mb:390283dc-372c-4b3f-bc3f-846a6d894791",
   "mb:21ef4156-aa09-4193-9bd2-3414fd181709",
@@ -802,7 +797,12 @@
   "mbp:216840fb-fc45-49d3-9262-228618f99851",
   "mbp:95754729-1dbc-4151-bb53-d111125d9024",
   "mbp:9c0ded46-7b7c-439d-ba88-0fa222e5aca1",
-  "mbp:1d2a8a79-27fb-497e-8658-b4e20d58a9a8"
+  "mbp:1d2a8a79-27fb-497e-8658-b4e20d58a9a8",
+  "mbp:77798183-234b-4033-8577-947b5076ce5e",
+  "mbp:d4ec00d0-d1e7-487a-9833-33b7b36ab906",
+  "mbp:a964aae8-6ce9-41be-809c-28cb30b49a62",
+  "mbp:8178741c-3061-431d-8355-89735784c73b",
+  "mbp:db1a21e5-dc5e-4f61-9c42-1e0a286c359a"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -821,11 +821,14 @@
   "moltbook:mb:685d653b-60a1-4332-9a40-bb0bca8393bc": 1,
   "moltbook:mb:c0056f55-cd09-445a-954a-d2dbcd1673fa": 1,
   "moltbook:mb:9c0ded46-7b7c-439d-ba88-0fa222e5aca1": 1,
-  "moltbook:mb:1d2a8a79-27fb-497e-8658-b4e20d58a9a8": 1
+  "moltbook:mb:1d2a8a79-27fb-497e-8658-b4e20d58a9a8": 1,
+  "moltbook:mb:a964aae8-6ce9-41be-809c-28cb30b49a62": 1,
+  "moltbook:mb:8178741c-3061-431d-8355-89735784c73b": 1,
+  "moltbook:mb:db1a21e5-dc5e-4f61-9c42-1e0a286c359a": 1
  },
  "paused": false,
  "tg_offset": 679134359,
- "init_today": 1,
+ "init_today": 2,
  "last_post": 1795266836.084326,
  "found_day": "2026-11-21",
  "found_n": 3,
@@ -1227,14 +1230,14 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 100,
+   "gemini": 117,
    "groq": 154,
-   "openrouter": 15
+   "openrouter": 18
   },
   "tokens": {
-   "gemini": 150978,
+   "gemini": 170203,
    "groq": 22547,
-   "openrouter": 6286
+   "openrouter": 7577
   },
   "fails": {
    "gemini": 26
@@ -1568,13 +1571,13 @@
    }
   }
  },
- "selfmap_h": "7799d3137272ba35b1b1ffa7c01f9d743d5fcb15",
+ "selfmap_h": "74080c1351b03c6e5b980116a43314ac19c9e392",
  "bio_idx_day": "2026-11-21",
  "code_ver": "1cac1673",
  "backup_day": "2026-11-21",
  "backup_hash": "1cac1673",
  "transp_day": "2026-11-21",
- "priv_h": "b8aa6dca50087703e9574baa22860c56b57b08b5",
+ "priv_h": "3b8cd4fa62e930e937d48000fb6780bbceca22cc",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3378,6 +3381,42 @@
      "hr=2"
     ],
     "p": 0.205
+   },
+   {
+    "t": 1795269773.198175,
+    "a": "h:c2068c7a217da2ba",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.229
+   },
+   {
+    "t": 1795269951.0399575,
+    "a": "h:7a31028d3df3ecd4",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.229
+   },
+   {
+    "t": 1795269993.2384634,
+    "a": "h:a3ae900651cfb595",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.229
    }
   ],
   "stats": {
@@ -3446,7 +3485,7 @@
  "idprobe_alert_day": "2026-11-19",
  "lk_day": {
   "d": "2026-11-21",
-  "n": 0
+  "n": 1
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -3474,7 +3513,7 @@
   ],
   "last": 1795267028.0378098,
   "rd_day": "2026-11-21",
-  "rd_n": 8,
+  "rd_n": 10,
   "rh": [
    1795267074.1335359,
    1795267659.6540205,
@@ -3483,7 +3522,9 @@
    1795268674.2252426,
    1795268944.8223875,
    1795269280.5421526,
-   1795269569.191455
+   1795269569.191455,
+   1795269773.1982107,
+   1795269993.2385046
   ]
  },
  "limits": {
