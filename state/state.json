@@ -848,7 +848,7 @@
   "moltbook:mb:ad5a9fe9-8879-43d5-b4dc-a338a71ed2f0": 1
  },
  "paused": false,
- "tg_offset": 679134361,
+ "tg_offset": 679134363,
  "init_today": 5,
  "last_post": 1795277900.6660697,
  "found_day": "2026-11-21",
@@ -1609,7 +1609,7 @@
  "backup_day": "2026-11-21",
  "backup_hash": "1cac1673",
  "transp_day": "2026-11-21",
- "priv_h": "0a38a9ab65ef6cfbc58913111fadfeab81faf6c0",
+ "priv_h": "6e428094d9ac58dcbec5dd2af6d6321d22a2892c",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
