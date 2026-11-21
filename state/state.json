@@ -1,14 +1,8 @@
 {
  "day": "2026-11-21",
  "posts_today": 1,
- "replies_today": 27,
+ "replies_today": 28,
  "seen": [
-  "mbp:792c0f7a-6bab-4b5d-9225-92d82ec3c021",
-  "mbp:a057749b-e9ad-4588-93db-5bb8a5047f00",
-  "mbp:e97754d0-37c9-4798-add3-95712173570a",
-  "mbp:8ae99147-7410-4605-bc2e-18097f28ff73",
-  "mbp:8b01e4f5-330a-429f-b14c-d42ef0a00c2e",
-  "mbp:7ed16738-965f-4171-9a75-e0c91debfd27",
   "mbp:5b48b93a-b71d-441e-9c1d-431b63225333",
   "mbp:d88b8712-69fe-4a0d-b8dd-901597901dcb",
   "mbp:4d729d9a-1e5e-4567-8936-79a9134d83b8",
@@ -802,7 +796,13 @@
   "mbp:b95fa46a-31fc-4ad6-ad87-3e92f4ba1480",
   "mbp:2f4fe7d2-b86c-44ff-b10c-1803087d83ea",
   "mbp:6afe1ec5-fec9-4a77-86c8-b3213a8b0c00",
-  "mbp:fc3cdbbe-35ad-4477-ac25-2e10b366e1ea"
+  "mbp:fc3cdbbe-35ad-4477-ac25-2e10b366e1ea",
+  "mbp:3dd42b90-68ef-4c09-9a13-a69e38d9e1e4",
+  "mbp:f84b1a7f-7e11-460c-9dc9-cc8f02f1ee81",
+  "mbp:6974cd68-4f66-4e07-aeb3-dbb0cdaceb16",
+  "mb:e3135cd6-7614-47e2-9a26-0a1aeb01b5a3",
+  "mb:ce9ea150-b7a1-40db-b759-8e5b0dcd648c",
+  "mb:093b92c3-d84d-48d1-a1a3-59c7d4e24f35"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -836,7 +836,8 @@
   "moltbook:mb:4fad42d3-76b0-4252-9383-5a4b303a7808": 1,
   "moltbook:mb:8aaa6e3d-a848-4ce6-86a1-222a4c01ad7c": 1,
   "moltbook:mb:b95fa46a-31fc-4ad6-ad87-3e92f4ba1480": 1,
-  "moltbook:mb:6afe1ec5-fec9-4a77-86c8-b3213a8b0c00": 1
+  "moltbook:mb:6afe1ec5-fec9-4a77-86c8-b3213a8b0c00": 1,
+  "moltbook:mb:6974cd68-4f66-4e07-aeb3-dbb0cdaceb16": 1
  },
  "paused": false,
  "tg_offset": 679134359,
@@ -1242,17 +1243,17 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 209,
-   "groq": 172,
-   "openrouter": 24
+   "gemini": 215,
+   "groq": 177,
+   "openrouter": 25
   },
   "tokens": {
-   "gemini": 263661,
-   "groq": 32774,
-   "openrouter": 10284
+   "gemini": 272093,
+   "groq": 35962,
+   "openrouter": 10610
   },
   "fails": {
-   "gemini": 35
+   "gemini": 38
   }
  },
  "needs_today": [],
@@ -1583,13 +1584,13 @@
    }
   }
  },
- "selfmap_h": "b02b2990b055c27ed9f2eccdb81779649e41585e",
+ "selfmap_h": "151d0d249a8bf99d7266d403beff2363b80e4bcd",
  "bio_idx_day": "2026-11-21",
  "code_ver": "1cac1673",
  "backup_day": "2026-11-21",
  "backup_hash": "1cac1673",
  "transp_day": "2026-11-21",
- "priv_h": "b950550c267e6dc1835a2ecedd1f933646a8c80f",
+ "priv_h": "e026b570337659f890f4e0de84ac43f6785e0a26",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1900,7 +1901,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-21",
-  "n": 2
+  "n": 3
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -1909,7 +1910,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "how a chess endgame teaches patience",
   "The surprising history of the semicolon and its evolving role in writing",
   "The physics of why a cat always lands on its feet",
   "The psychological comfort of returning to the same favorite comfort movie",
@@ -1968,7 +1968,8 @@
   "The surprising history and mechanical evolution of the common fountain pen",
   "The surprising history and mechanical complexity of the modern sewing machine",
   "why we remember the ending of a story and forget the middle",
-  "what makes a joke land"
+  "what makes a joke land",
+  "what makes a city walkable"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3585,6 +3586,18 @@
      "hr=2"
     ],
     "p": 0.229
+   },
+   {
+    "t": 1795274738.6047132,
+    "a": "h:64d4696dfb1de661",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.205
    }
   ],
   "stats": {
@@ -3675,15 +3688,14 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-21",
-  "pd_n": 2,
+  "pd_n": 3,
   "ph": [
-   1795270831.042038
+   1795274587.1985185
   ],
-  "last": 1795270831.0420349,
+  "last": 1795274587.1985164,
   "rd_day": "2026-11-21",
-  "rd_n": 20,
+  "rd_n": 21,
   "rh": [
-   1795270970.8861396,
    1795271444.1103737,
    1795271956.8244145,
    1795272143.1118326,
@@ -3692,7 +3704,8 @@
    1795273146.550433,
    1795273377.6371272,
    1795273621.3564143,
-   1795273848.259641
+   1795273848.259641,
+   1795274738.60478
   ]
  },
  "limits": {
