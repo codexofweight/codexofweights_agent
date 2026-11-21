@@ -57,7 +57,7 @@ try: sandbox_ready()
 except Exception as _ex: SANDBOX_OK[0] = False; print("sandbox check crashed:", type(_ex).__name__, flush=True)
 
 # ---- state: the public file keeps counters and hashed identities only; pending drafts and owner requests stay in the private repo ----
-PRIVATE_KEYS = ("asks", "ask_id", "tool_request", "rejected", "pend_seen", "quiet_until", "chat_hist", "owner_seen", "vk_lp", "by_author", "vk_welcomed")
+PRIVATE_KEYS = ("asks", "ask_id", "tool_request", "rejected", "pend_seen", "quiet_until", "chat_hist", "owner_seen", "vk_lp", "by_author", "vk_welcomed", "own_data")
 ST["muted"] = [x if str(x).startswith("h:") else _h(x) for x in ST.get("muted", [])]; ST["contacted"] = [x if str(x).startswith("h:") else _h(x) for x in ST.get("contacted", [])]
 def state_restore_private():
     if not MEM_TOKEN or ST.get("asks"): return

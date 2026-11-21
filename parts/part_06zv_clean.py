@@ -49,3 +49,15 @@ def clean_command(c, raw):
     log("memory_clean", moved=done, left=len(items) - done)
     tg("Переехало в archive/: %d. Осталось: %d.%s" % (done, len(items) - done, " Повтори /clean go." if len(items) - done > 0 else ""))
 EXT_CMDS["/clean"] = clean_command
+def clean_weekly():
+    """Called from the weekly report (WEEKLY_EXTRA): archives stale notes by itself (moved to archive/, nothing deleted). Returns one line, never raises."""
+    try:
+        if not (LIVE and MEM_TOKEN): return ""
+        items = _cl_scan()
+        if not items: return "Память: чистка не нужна."
+        done = sum(1 for p_, s_, w_ in items[:_CL_MAX_OPS] if _cl_move(p_, s_))
+        log("memory_clean", moved=done, left=len(items) - done, auto=True)
+        return "Память: в archive/ перенесено %d устаревших записей%s. Вернуть можно из archive/." % (done, ", осталось %d (в следующий раз)" % (len(items) - done) if len(items) > done else "")
+    except Exception as ex: return "Память: чистка не удалась (%s)." % type(ex).__name__
+try: WEEKLY_EXTRA.append(clean_weekly)
+except Exception: pass

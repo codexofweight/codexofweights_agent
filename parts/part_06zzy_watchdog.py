@@ -19,11 +19,14 @@ except Exception as _e: print("watchdog init failed:", repr(_e)[:100], flush=Tru
 _wd_llm_orig = llm
 _wd_streak = [0]
 def llm(*a, **k):
+    _pr = PRIO[0]      # background tasks (priority 4-5) are limited to a share of the budget on purpose; their refusals are not an outage
     try: r = _wd_llm_orig(*a, **k)
     except Exception:
+        if _pr > 3: raise
         _wd_streak[0] += 1
         if _wd_streak[0] >= 8: _wd_alert("llm", "модели не отвечают %d раз подряд (лимиты или ошибка сервиса). Агент ждёт, ничего не ломается." % _wd_streak[0], every=8 * 3600)
         raise
+    if _pr > 3: return r
     if r and r[0]: _wd_streak[0] = 0
     else:
         _wd_streak[0] += 1
