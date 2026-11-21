@@ -18,16 +18,26 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Gate - scheduled runs respect /autorun off and the STOP file
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            if [ -f STOP ] || ! python3 -c "import json,sys; sys.exit(0 if json.load(open('state/state.json')).get('autorun', True) else 1)"; then
+              echo "skip=true" >> "$GITHUB_OUTPUT"; echo "scheduled run skipped: autorun is off or the STOP file is present"
+            fi
+          fi
       - name: Pre-flight (a broken upload must not silently stop the agent)
         id: pre
+        if: steps.gate.outputs.skip != 'true'
         continue-on-error: true
         run: python scripts/preflight.py
       - name: Tell owner if pre-flight failed
-        if: steps.pre.outcome == 'failure'
+        if: steps.pre.outcome == 'failure' && steps.gate.outputs.skip != 'true'
         run: |
           curl -s -m 20 "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data-urlencode text="⚠️ Предзапуск нашёл ошибку в загруженных файлах. Агент всё равно стартует: сломанный файл будет пропущен. Открой Actions → agent-cycle → шаг Pre-flight." >/dev/null || true
       - name: Run one cycle
         id: cycle
+        if: steps.gate.outputs.skip != 'true'
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
@@ -49,7 +59,7 @@ jobs:
           LINKUP_API_KEY: ${{ secrets.LINKUP_API_KEY }}
         run: python agent.py
       - name: Commit state and log
-        if: always()
+        if: always() && steps.gate.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -59,7 +69,7 @@ jobs:
           git commit -m "Agent cycle"
           for i in 1 2 3 4 5; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done; exit 1
       - name: Queue the next cycle - owner can stop the chain with /autorun off or the STOP file
-        if: always()
+        if: always() && steps.gate.outputs.skip != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           CYCLE: ${{ steps.cycle.outcome }}
