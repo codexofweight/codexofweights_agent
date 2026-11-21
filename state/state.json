@@ -3,26 +3,6 @@
  "posts_today": 2,
  "replies_today": 36,
  "seen": [
-  "mb:a3703440-5a6c-4563-a60c-96df3bb9bc93",
-  "mb:502136eb-1699-4cea-81f8-cea96177d2b1",
-  "mbp:ee83984c-10ed-4c70-9af9-5588191dc446",
-  "mb:e452e705-d0df-493b-ac4e-51869ed42b7e",
-  "mb:94501539-d8f6-40b0-9139-e8ab2bff0e03",
-  "mbp:67b9455b-745e-4375-bce3-cd4e5879d8fb",
-  "mbp:399ec10f-e93a-47d7-9068-017856906625",
-  "mbp:ca2b55ca-1c32-4b03-8753-e1eb2a2cf9fc",
-  "mbp:2b57b166-b5b5-4b58-9cdc-13349fed905a",
-  "mbp:7862b9ba-2ff2-4dae-842b-6d1de8851ca7",
-  "mb:e4de5219-21c4-4b13-82be-89e2a4940bd8",
-  "mbp:382c8048-0fa0-4c83-988d-9d72c2f56fa9",
-  "mbp:dbeb9422-6442-4259-8e83-a46cf7942867",
-  "mbp:d59bcd28-41fc-420a-9ac0-1848774e8e3f",
-  "mbp:784e9f88-98d5-4fdf-9d22-8644fb0c97a1",
-  "mbp:f3332160-edb0-40a2-87ac-b5b1981dae91",
-  "mb:5315dc63-2f27-4e67-9de9-bbe86b0a001e",
-  "mbp:0d334d7f-7e3b-4835-8dff-26e105a10bd6",
-  "mbp:07b1addf-536f-46c2-99bb-b3c30ee3b935",
-  "mbp:0b5363b5-3988-4841-a9e7-088b52dfd63f",
   "mb:5835a693-f632-4377-b5fd-c5f506a1f08c",
   "mb:ff2aaab2-7278-48e3-b900-cc0ef600a753",
   "mb:647ca831-5c2e-468d-97a3-4f4e974506d2",
@@ -802,7 +782,27 @@
   "mbp:6c6d40ae-fa3d-4062-9d38-1051d89f4898",
   "mbp:c5c4741b-57ce-4bb8-b462-a36b12899af3",
   "mbp:970d784a-018a-4808-843f-fcf43c1aeb3c",
-  "mbp:681b15c4-96a1-44fc-8dc9-8006465c12f8"
+  "mbp:681b15c4-96a1-44fc-8dc9-8006465c12f8",
+  "mbp:7a637fc3-5d3b-4431-8ec0-e690e297aa3f",
+  "mbp:ff53eb3e-591a-40b2-8e98-cc2acd0bd294",
+  "mbp:b510a8df-1393-401f-8907-2a83963a052c",
+  "mbp:23cd86e7-0912-4a09-aa7c-b7062314c653",
+  "mbp:b2b67890-0619-4188-b8c9-6f85b43e8d63",
+  "mbp:fd89b2fc-e986-4f57-85bc-77090be525f3",
+  "mbp:300070e6-2585-400e-9f5f-32c4a11b5ec0",
+  "mbp:04b7fb5e-bce2-4525-a881-17e6d332be8f",
+  "mbp:ddaa6e6e-cf29-4022-96a4-b83e0d43157d",
+  "mbp:46d00f91-03d0-4dda-a136-a294cefeb164",
+  "mbp:9de862e9-369d-48bb-a506-a70a3b9ba4f3",
+  "mbp:b059b673-d1ee-499d-988c-2b6264f9b242",
+  "mbp:bb95f218-de91-412d-a318-1c3b3f53b21b",
+  "mbp:47133f99-fb9c-4e5e-ba48-889a69961bb8",
+  "mbp:aa1da74f-2437-415c-b974-e39f10db9ab5",
+  "mbp:e40bf4d8-c7f7-49ed-851d-32b15c638af8",
+  "mbp:55204bb4-0864-4b0a-b76e-ba8b3c37081a",
+  "mbp:e63bc1ab-bec2-480b-8bfc-9cac416e4a3d",
+  "mbp:1562eb44-5a61-4c6e-95e1-496296e7983e",
+  "mbp:417a0d00-7df5-4fb2-a627-966bf6c046b9"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -1207,7 +1207,14 @@
   "mbp:1dbf521a-77d1-4a32-acb8-98bb60a25627": 1,
   "mbp:8fd64e47-7b4f-4987-b20a-1289ff71206c": 2,
   "mbp:7d7a9299-d41b-4720-85af-a9374d35c570": 1,
-  "mbp:334b8d0b-9572-4bbf-8120-c39c90d4685e": 1
+  "mbp:334b8d0b-9572-4bbf-8120-c39c90d4685e": 1,
+  "mbp:955ffa22-31ea-4689-8418-b5a02f324708": 2,
+  "mbp:fcfd2859-5470-4459-bf09-638133c684a5": 1,
+  "mbp:2b93eb93-ecb4-4bc8-86e4-8493db0cf2a2": 1,
+  "mbp:bf918109-3630-4a76-b4c4-f1ba0206a622": 1,
+  "mbp:1a44c221-9de7-4171-aaf2-acfc7adf47e0": 1,
+  "mbp:60edcd19-d8cc-4529-bee3-7c6ae6edae73": 2,
+  "mbp:55f7d6b0-fa27-48cc-b231-d0d1030a7ecf": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1286,13 +1293,13 @@
    "gemini": 284,
    "groq": 258,
    "openrouter": 29,
-   "groqq": 56
+   "groqq": 85
   },
   "tokens": {
    "gemini": 372332,
    "groq": 107678,
    "openrouter": 12506,
-   "groqq": 17330
+   "groqq": 26404
   },
   "fails": {
    "gemini": 54
@@ -1627,7 +1634,7 @@
    }
   }
  },
- "selfmap_h": "b46fa281bf14903b2ac0519ff96ec2001b652b65",
+ "selfmap_h": "e994eb41729d90d91544eb4e096429c3a5ac1287",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
@@ -2034,30 +2041,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795023786.32102,
-    "a": "h:3323258f18a49589",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795024009.1315162,
-    "a": "h:562f1af941064bcd",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1795024435.1549082,
     "a": "h:8953d50487b6073d",
@@ -3550,7 +3533,7 @@
   "stats": {
    "pl=moltbook": [
     8,
-    54
+    56
    ],
    "mode=reply": [
     3,
@@ -3558,7 +3541,7 @@
    ],
    "len=l": [
     8,
-    53
+    55
    ],
    "q=1": [
     0,
@@ -3566,11 +3549,11 @@
    ],
    "hr=2": [
     1,
-    18
+    20
    ],
    "q=0": [
     8,
-    49
+    51
    ],
    "hr=3": [
     3,
@@ -3578,7 +3561,7 @@
    ],
    "mode=comment": [
     5,
-    43
+    45
    ],
    "hr=0": [
     1,
@@ -3603,12 +3586,12 @@
   },
   "glob": [
    8,
-   55
+   57
   ],
-  "n": 55,
-  "hit": 47,
-  "br": 10.277591000000006,
-  "br0": 7.219738433412523
+  "n": 57,
+  "hit": 49,
+  "br": 10.499369000000007,
+  "br0": 7.267086086939176
  },
  "idprobe_alert_day": "2026-11-21",
  "lk_day": {
