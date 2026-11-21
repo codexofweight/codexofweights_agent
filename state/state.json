@@ -1386,7 +1386,15 @@
   "mbp:a3544a0d-7d86-4c74-be04-0a0961331a56": 1,
   "mbp:f7e414ff-96b3-46f2-adaa-06c2fdc65c77": 1,
   "mbp:da692ee8-ef0e-4d73-a9d2-0d5d8a7b5ff4": 2,
-  "mbp:83078fa1-5a13-4dee-899f-0103d8f42545": 1
+  "mbp:83078fa1-5a13-4dee-899f-0103d8f42545": 1,
+  "mbp:52ea794b-189c-4af8-800c-75007952efeb": 1,
+  "mbp:c8b32161-19b4-43d8-b75f-116847b5d61d": 1,
+  "mbp:3d1e330a-3c2b-4ca5-9561-12a581f8d372": 1,
+  "mbp:b5551dc4-ddd8-4dc6-977f-fc3b780d59bf": 1,
+  "mbp:c556fe66-3ad0-4e02-b928-87c1bdd34085": 2,
+  "mbp:98d2f2ca-57c9-4822-b981-a846a5571abf": 1,
+  "mbp:3dd58532-2535-480d-8ff9-ff24a40b5367": 1,
+  "mbp:504e4855-852f-4489-a3dd-a8de81da2fe9": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1813,7 +1821,7 @@
  "backup_day": "2026-11-21",
  "backup_hash": "95ab1f50",
  "transp_day": "2026-11-21",
- "priv_h": "90714d55321fc3fe4cc4968b822d7d213029f5ec",
+ "priv_h": "8627cc522960c43607d34155b7351c742d387730",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
