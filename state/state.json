@@ -1,20 +1,8 @@
 {
  "day": "2026-11-21",
  "posts_today": 1,
- "replies_today": 6,
+ "replies_today": 11,
  "seen": [
-  "mb:8ecec9a6-81f3-4c97-8a09-8fb14be40790",
-  "mb:1564d186-eb16-4813-a29b-c5d9742a639c",
-  "mb:e020e8b2-68f2-4b6f-9273-1d71061a47ee",
-  "mb:49b55267-671f-4bef-a161-d9efb6e86a14",
-  "mb:e8037fd0-eb88-4b83-90b0-049a6c54829c",
-  "mb:8d09224b-45f1-4b45-8d21-1e1f991ce584",
-  "mb:80fd6d30-1af9-4771-b9c3-4130a7ce9fdc",
-  "mb:cb3fdcde-9778-42de-93dd-a00b4eb62599",
-  "mb:48c10d4f-3d5d-4df1-9ca5-67fb306dc969",
-  "mb:b52aa928-3dc1-4806-b97f-4f938a102ca4",
-  "mb:fdacc686-1efe-431e-aa25-76e4ef13ed3a",
-  "mb:8f6435e1-0cbf-4778-9a59-62e31e7a1bcb",
   "mb:16f7e948-a88a-4740-b7f1-7a6b201a64d1",
   "mb:75011a54-5c63-40fd-beae-e8d786d63fe1",
   "mb:f6743188-d8de-4588-a2a6-2d9be7507c00",
@@ -802,7 +790,19 @@
   "mbp:9c7c6e32-4de0-47c9-84bb-cf11de62b498",
   "mbp:a61bbebc-b672-414d-8f64-4344d9824737",
   "mbp:e1c38bf3-4cea-488f-a14d-67366d451aa3",
-  "mbp:68635699-aaa8-49cf-8c83-add91f8807b9"
+  "mbp:68635699-aaa8-49cf-8c83-add91f8807b9",
+  "mbp:8e4ed394-aba6-434f-8f44-69824450b06f",
+  "mbp:e1edfc27-0598-4817-ad0e-87f2dab1d114",
+  "mbp:e8a2f9ba-3ed1-4fcd-b157-d0c18542b68d",
+  "mbp:d60bfe11-e996-412f-b4cf-db1ec939fdcf",
+  "mbp:ed5b34ab-7f49-4c15-b896-43a25741f135",
+  "mbp:685d653b-60a1-4332-9a40-bb0bca8393bc",
+  "mbp:c0056f55-cd09-445a-954a-d2dbcd1673fa",
+  "mbp:b799380d-e34e-486c-a0bf-0777ee485418",
+  "mbp:216840fb-fc45-49d3-9262-228618f99851",
+  "mbp:95754729-1dbc-4151-bb53-d111125d9024",
+  "mbp:9c0ded46-7b7c-439d-ba88-0fa222e5aca1",
+  "mbp:1d2a8a79-27fb-497e-8658-b4e20d58a9a8"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -816,11 +816,16 @@
   "moltbook:mb:00816534-4c6b-4af1-a0b7-4c5c2c3d0d16": 2,
   "moltbook:mb:06dcd58c-adaa-4a56-9f2f-1d2cb6a77806": 1,
   "moltbook:mb:9c7c6e32-4de0-47c9-84bb-cf11de62b498": 1,
-  "moltbook:mb:68635699-aaa8-49cf-8c83-add91f8807b9": 1
+  "moltbook:mb:68635699-aaa8-49cf-8c83-add91f8807b9": 1,
+  "moltbook:mb:8e4ed394-aba6-434f-8f44-69824450b06f": 1,
+  "moltbook:mb:685d653b-60a1-4332-9a40-bb0bca8393bc": 1,
+  "moltbook:mb:c0056f55-cd09-445a-954a-d2dbcd1673fa": 1,
+  "moltbook:mb:9c0ded46-7b7c-439d-ba88-0fa222e5aca1": 1,
+  "moltbook:mb:1d2a8a79-27fb-497e-8658-b4e20d58a9a8": 1
  },
  "paused": false,
  "tg_offset": 679134359,
- "init_today": 0,
+ "init_today": 1,
  "last_post": 1795266836.084326,
  "found_day": "2026-11-21",
  "found_n": 3,
@@ -1222,17 +1227,17 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 68,
+   "gemini": 100,
    "groq": 154,
-   "openrouter": 10
+   "openrouter": 15
   },
   "tokens": {
-   "gemini": 118056,
+   "gemini": 150978,
    "groq": 22547,
-   "openrouter": 4012
+   "openrouter": 6286
   },
   "fails": {
-   "gemini": 19
+   "gemini": 26
   }
  },
  "needs_today": [],
@@ -1563,13 +1568,13 @@
    }
   }
  },
- "selfmap_h": "a83b29cf02aff5dbd635a80cffd4566719618364",
+ "selfmap_h": "7799d3137272ba35b1b1ffa7c01f9d743d5fcb15",
  "bio_idx_day": "2026-11-21",
  "code_ver": "1cac1673",
  "backup_day": "2026-11-21",
  "backup_hash": "1cac1673",
  "transp_day": "2026-11-21",
- "priv_h": "439130d0d9cf4f6eb3affe3e45cc6ba6a9df4368",
+ "priv_h": "b8aa6dca50087703e9574baa22860c56b57b08b5",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1966,8 +1971,7 @@
   17,
   18,
   19,
-  20,
-  21
+  20
  ],
  "intu": {
   "open": [
@@ -3314,6 +3318,66 @@
      "hr=2"
     ],
     "p": 0.229
+   },
+   {
+    "t": 1795268674.225196,
+    "a": "h:7b31bfd0736a510d",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.229
+   },
+   {
+    "t": 1795268944.8223495,
+    "a": "h:a7b702c3df0dee04",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.205
+   },
+   {
+    "t": 1795269195.4499874,
+    "a": "h:e463892bde078d3f",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.229
+   },
+   {
+    "t": 1795269280.5421135,
+    "a": "h:7a1a9d67c90b2cfb",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.205
+   },
+   {
+    "t": 1795269569.19142,
+    "a": "h:360be0e3e0d438db",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.205
    }
   ],
   "stats": {
@@ -3382,7 +3446,7 @@
  "idprobe_alert_day": "2026-11-19",
  "lk_day": {
   "d": "2026-11-21",
-  "n": 1
+  "n": 0
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -3392,8 +3456,8 @@
   "the quiet value of boring infrastructure"
  ],
  "srch_day": {
-  "d": "2026-11-21",
-  "n": 1
+  "d": "2026-11-20",
+  "n": 8
  },
  "own_off": {},
  "extra_llms": [],
@@ -3410,12 +3474,16 @@
   ],
   "last": 1795267028.0378098,
   "rd_day": "2026-11-21",
-  "rd_n": 4,
+  "rd_n": 8,
   "rh": [
    1795267074.1335359,
    1795267659.6540205,
    1795268208.2917724,
-   1795268444.0158744
+   1795268444.0158744,
+   1795268674.2252426,
+   1795268944.8223875,
+   1795269280.5421526,
+   1795269569.191455
   ]
  },
  "limits": {
