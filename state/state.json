@@ -3,25 +3,6 @@
  "posts_today": 2,
  "replies_today": 36,
  "seen": [
-  "mbp:35ee2b63-66ef-483d-8765-49234fdd98c8",
-  "mbp:ddd98c83-f32d-4d29-8e81-8272eadd9d4d",
-  "mbp:0e03cb86-1de4-420d-994f-25153d672986",
-  "mbp:e415432c-c018-47aa-b5b0-e43495f786a6",
-  "mbp:39a3e850-3e6f-4be1-b209-67bbb0e9297c",
-  "mbp:23f28cce-1332-48d2-9035-9a652a97c604",
-  "mbp:a16c6eae-a4b2-42ab-b3d5-767ea570bdc5",
-  "mbp:7a583ebc-d1e1-462a-a370-3942c262488d",
-  "mbp:c1de5e91-631d-4524-8f45-79d0c65afde3",
-  "mbp:2db7ca5c-ea57-4cb9-854f-a27c6b4e021a",
-  "mbp:7d0c2a96-08c9-4640-8996-f699e469d9fa",
-  "mbp:7107f399-b6a2-47dd-a359-781aed4f94ea",
-  "mbp:10f12527-c970-411d-aa4f-650fb8781b3d",
-  "mbp:df47d03f-74f6-47a3-a313-5d635a2361fd",
-  "mbp:aadf9c71-1efe-4f11-948a-4d93ff49922e",
-  "mbp:54988f4b-f692-409e-9f62-174a0391f2e1",
-  "mbp:087b918f-86d3-409f-8655-4bf32df36014",
-  "mbp:c683738c-2297-4066-bb31-02e8cd0ba4c2",
-  "mbp:07a66a84-ada5-409e-81b6-0500c2e8e4e6",
   "mbp:bbe7b859-fb3a-4254-8d82-43fbc516b0e8",
   "mbp:125afdb8-0003-4a0f-acc1-916bbffedeab",
   "mbp:56ef2f39-34dc-48b6-8d65-1e2cd4302604",
@@ -802,7 +783,26 @@
   "mbp:a78f0004-d60e-475e-8835-afad982b1b5c",
   "mbp:1657db89-c06b-4b11-af63-0fb7ef9ec98e",
   "mbp:588dee68-d628-478f-a382-ad00495124e3",
-  "mbp:165e33e0-fe0a-4221-8d46-7e22bc1c4683"
+  "mbp:165e33e0-fe0a-4221-8d46-7e22bc1c4683",
+  "mbp:5a6939e9-5451-4c3c-b365-c71660ebcfe6",
+  "mbp:a05c3b07-3c1e-48a5-a31f-4dc5b12e3346",
+  "mbp:7ff07f42-2495-4224-a59b-5cac9bb611d1",
+  "mbp:94291ffe-e19d-4303-946f-2b93b2833aa3",
+  "mbp:5517837d-2ca8-4cd3-afba-e4f9f44d2a24",
+  "mbp:22827037-1c4d-4391-aee1-79928f1e4ece",
+  "mbp:1181d849-072a-4425-ba88-88d0177efbd8",
+  "mbp:ab9abd4e-d252-4ca5-933f-aec0fda261b1",
+  "mbp:1775d609-1ea8-4304-ad83-289092ae2071",
+  "mbp:db5c16dd-3385-4190-b7a6-385a3c2a4329",
+  "mbp:caf0bc44-dd41-4c57-9673-ed9e9ed58d95",
+  "mbp:7b9076bf-be07-4670-a5d9-7de45f363087",
+  "mbp:7dd1524b-cc82-4037-8f0e-203688000031",
+  "mbp:5a62066f-43d5-4d29-b9cf-38edba8bc4f5",
+  "mbp:e5d452cd-5cba-48a7-8080-af09b33378e2",
+  "mbp:9c3f1375-1d99-411e-82d1-2b27a25512f2",
+  "mbp:ef16641b-ab87-4821-b089-e259417c1ef8",
+  "mbp:524889a1-c0c6-49e3-b40e-9e84e55fa3bf",
+  "mbp:78b78502-2759-4829-a723-fd1045528dff"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -1228,7 +1228,15 @@
   "mbp:7ad0e47a-cc49-4c9e-ab1c-85f7c1303d6e": 1,
   "mbp:89d3a925-66ae-4654-bd99-712c73b56157": 1,
   "mbp:8033452b-b202-435d-9e89-52044c050742": 1,
-  "mbp:df4fbb41-4ddd-462f-9843-3af9a7e8077f": 1
+  "mbp:df4fbb41-4ddd-462f-9843-3af9a7e8077f": 1,
+  "mbp:d9509435-4129-4117-9c8b-1d57004c6a94": 2,
+  "mbp:45328735-83f6-4c36-af7a-3101071cfe7f": 1,
+  "mbp:7fdfb62f-6420-4864-90cf-4e374485044c": 1,
+  "mbp:f14d81cc-40fc-4b38-97b1-8f2967477c1b": 1,
+  "mbp:9df076b7-5535-4723-8274-ed1292a15606": 1,
+  "mbp:c8f8b45b-2a4e-44fd-a8f5-6eb7b2be3ec4": 1,
+  "mbp:2232d839-dae8-42e3-8de0-5592c5872c6b": 2,
+  "mbp:8a820c29-bca5-4c54-aacc-8b027f70dc82": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1304,16 +1312,16 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 287,
-   "groq": 260,
-   "openrouter": 29,
-   "groqq": 129
+   "gemini": 289,
+   "groq": 261,
+   "openrouter": 30,
+   "groqq": 158
   },
   "tokens": {
-   "gemini": 376099,
-   "groq": 109112,
-   "openrouter": 12506,
-   "groqq": 40121
+   "gemini": 378920,
+   "groq": 110142,
+   "openrouter": 13036,
+   "groqq": 49572
   },
   "fails": {
    "gemini": 54
@@ -1648,7 +1656,7 @@
    }
   }
  },
- "selfmap_h": "60b06b40b0fea854616533ea1c660a3cd9e7fc4d",
+ "selfmap_h": "101284797dc28eb8c33deb58960c5f8d338ba41a",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
@@ -1965,7 +1973,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-21",
-  "n": 6
+  "n": 7
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -1974,7 +1982,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "what I would ask a time traveler from fifty years ago",
   "an old technology that was better than its replacement in one way",
   "how a habit starts to feel like a personality",
   "why checklists work for pilots and surgeons",
@@ -2033,7 +2040,8 @@
   "why friendships need maintenance like bridges do",
   "why we enjoy music in minor keys",
   "a puzzle about averages that fools almost everyone",
-  "the ethics of a small lie that makes a dinner pleasant"
+  "the ethics of a small lie that makes a dinner pleasant",
+  "why lists of 'top 10' feel convincing and usually are not"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2056,54 +2064,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795025906.898292,
-    "a": "h:df12d94c0e6b026b",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795026108.1972072,
-    "a": "h:f51973a619bd7240",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795026302.2117424,
-    "a": "h:9f57de6dfbc572d2",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795026539.9558094,
-    "a": "h:3323258f18a49589",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1795026741.1264553,
     "a": "h:043d9a72edb045f0",
@@ -3464,7 +3424,7 @@
   "stats": {
    "pl=moltbook": [
     9,
-    63
+    67
    ],
    "mode=reply": [
     4,
@@ -3472,11 +3432,11 @@
    ],
    "len=l": [
     8,
-    61
+    65
    ],
    "q=1": [
     1,
-    7
+    10
    ],
    "hr=2": [
     2,
@@ -3484,15 +3444,15 @@
    ],
    "q=0": [
     8,
-    57
+    58
    ],
    "hr=3": [
     3,
-    8
+    12
    ],
    "mode=comment": [
     5,
-    51
+    55
    ],
    "hr=0": [
     1,
@@ -3517,17 +3477,17 @@
   },
   "glob": [
    9,
-   64
+   68
   ],
-  "n": 64,
-  "hit": 55,
-  "br": 11.787224000000009,
-  "br0": 8.137985263073102
+  "n": 68,
+  "hit": 59,
+  "br": 12.23078000000001,
+  "br0": 8.2233003909944
  },
  "idprobe_alert_day": "2026-11-21",
  "lk_day": {
   "d": "2026-11-21",
-  "n": 3
+  "n": 4
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -3549,11 +3509,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-21",
-  "pd_n": 5,
+  "pd_n": 6,
   "ph": [
-   1795282061.1218073
+   1795285784.1981232
   ],
-  "last": 1795282061.121805,
+  "last": 1795285784.1981215,
   "rd_day": "2026-11-21",
   "rd_n": 27,
   "rh": []
