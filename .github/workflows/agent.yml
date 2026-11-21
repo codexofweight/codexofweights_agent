@@ -67,5 +67,5 @@ jobs:
         run: |
           [ -f STOP ] && { echo "STOP file present: next cycle not queued"; exit 0; }
           python3 -c "import json,sys; d=json.load(open('state/state.json')); sys.exit(0 if d.get('autorun', True) else 1)" || { echo "autorun is off: next cycle not queued"; exit 0; }
-          if [ "$CYCLE" != "success" ] || [ "$PRE" = "failure" ]; then sleep 1800; else sleep 300; fi   # after a failure wait longer: a crash cannot loop fast
+          if [ "$CYCLE" = "cancelled" ]; then sleep 20; elif [ "$CYCLE" != "success" ] || [ "$PRE" = "failure" ]; then sleep 1800; else sleep 300; fi   # cancelled by the owner: queue at once; after a failure wait longer so a crash cannot loop fast
           gh workflow run agent.yml --ref main || true
