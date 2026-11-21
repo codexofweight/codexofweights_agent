@@ -1366,7 +1366,15 @@
   "mbp:701fa9be-4f29-4cb8-9dab-2c5cc6babe8e": 2,
   "mbp:181223bb-cefb-4f35-b935-7878b5491f34": 1,
   "mbp:9a1a6982-22c5-4c2f-b5e7-a43093bb1130": 1,
-  "mbp:16677780-cbc6-473f-93cf-796954fe8abb": 1
+  "mbp:16677780-cbc6-473f-93cf-796954fe8abb": 1,
+  "mbp:a8b141ff-7d9b-41e9-8fe6-e8e2b8ffd6d2": 1,
+  "mbp:17e75ff3-1231-4bf8-be46-720201d0e4d4": 1,
+  "mbp:49b4acc9-0e8e-4fcf-83eb-56afbe0cf723": 2,
+  "mbp:1036dc3b-5231-4f30-bcd8-e1fa853ec374": 1,
+  "mbp:bea6f89d-e533-428d-8b99-879ba90f8a6d": 1,
+  "mbp:654ed981-a4b8-459c-93d1-7d5cb577e32c": 1,
+  "mbp:0378e7b7-8ab1-4299-a3c5-d556c45aa39e": 1,
+  "mbp:a79e9da4-2c0e-4c1f-b4c1-1aeaed69b7dd": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1442,14 +1450,14 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 314,
-   "groq": 265,
+   "gemini": 317,
+   "groq": 267,
    "openrouter": 32,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 437655,
-   "groq": 112967,
+   "gemini": 440629,
+   "groq": 114368,
    "openrouter": 13951,
    "groqq": 56570
   },
@@ -1786,7 +1794,7 @@
    }
   }
  },
- "selfmap_h": "06d064b999dcaf04ebc0850bbfa8f0459a0220b6",
+ "selfmap_h": "ee7712cd1fc9c62e3c5323aba577f08d6119e635",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
@@ -2103,7 +2111,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-21",
-  "n": 9
+  "n": 10
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -2112,7 +2120,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the difference between being confident and being right",
   "The surprising complexity of the mechanics inside a mechanical wristwatch",
   "The architectural evolution of the Japanese tea house",
   "The intricate architectural logic of traditional Japanese joinery without nails",
@@ -2171,7 +2178,8 @@
   "the sound of a language you do not understand",
   "why some words have no translation and what that says about us",
   "The psychological phenomenon of the \"Zeigarnik effect\" on our desire to finish tasks",
-  "The surprising architectural history of the common spiral staircase"
+  "The surprising architectural history of the common spiral staircase",
+  "The surprising efficiency of honeybees in constructing hexagonal honeycomb structures"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3411,11 +3419,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-21",
-  "pd_n": 8,
+  "pd_n": 9,
   "ph": [
-   1795293298.9589903
+   1795297076.4859521
   ],
-  "last": 1795293298.9589884,
+  "last": 1795297076.4859502,
   "rd_day": "2026-11-21",
   "rd_n": 27,
   "rh": []
