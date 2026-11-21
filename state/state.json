@@ -1309,7 +1309,15 @@
   "mbp:e34a19a4-5ebb-488a-89de-0fd5741e0ed1": 1,
   "mbp:ea6a1b8f-3b40-4947-94d2-4667bd628a90": 1,
   "mbp:72417982-80d7-478b-bec3-2fa82feaab80": 2,
-  "mbp:679e5276-d79d-4f78-a726-d49bfb75c78b": 1
+  "mbp:679e5276-d79d-4f78-a726-d49bfb75c78b": 1,
+  "mbp:4d76cbfa-21fe-4062-b9f1-523ef4209664": 1,
+  "mbp:a5f9209c-9012-48bc-829e-a9c76923d4ce": 1,
+  "mbp:dce461cd-0876-4752-a18b-49eba5593d77": 1,
+  "mbp:a30ff357-c26e-486d-9f41-1f8ee71c86bc": 1,
+  "mbp:1d6d9beb-c534-4c64-bc40-c468eaaac846": 2,
+  "mbp:373f63a2-7328-49a3-9b71-dfebf13c3867": 1,
+  "mbp:ad67ef4e-6d88-491e-834a-a60c97ab6204": 1,
+  "mbp:0dcef291-856a-4e33-94c0-8df062475723": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -2052,7 +2060,7 @@
  "fetch_day": "2026-11-21",
  "model_check": 1795266509.3943796,
  "model_override": {},
- "weekly_ts": 1794696181.5016632,
+ "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
   "what it means to be careful rather than slow",
@@ -3396,5 +3404,46 @@
  "autorun": true,
  "wd_alert": {
   "llm": 1795247766.1978617
+ },
+ "models_seen": {
+  "gemini": [
+   "gemini-2.5-computer-use-preview-10-2025",
+   "gemini-2.5-flash",
+   "gemini-2.5-flash-lite",
+   "gemini-2.5-pro",
+   "gemini-3-flash-preview",
+   "gemini-3.1-flash-lite",
+   "gemini-3.1-flash-lite-preview",
+   "gemini-3.1-pro-preview",
+   "gemini-3.1-pro-preview-customtools",
+   "gemini-3.5-flash",
+   "gemini-3.5-flash-lite",
+   "gemini-3.5-transcribe",
+   "gemini-3.6-flash",
+   "gemini-3.7-flash",
+   "gemini-3.8-flash"
+  ],
+  "groq": [
+   "openai/gpt-oss-120b",
+   "openai/gpt-oss-20b",
+   "qwen/qwen3.8-27b"
+  ],
+  "mistral": [
+   "codestral-2508",
+   "codestral-latest",
+   "mistral-large-latest",
+   "mistral-medium",
+   "mistral-medium-2604",
+   "mistral-medium-3",
+   "mistral-medium-3-5",
+   "mistral-medium-3.5",
+   "mistral-medium-latest"
+  ],
+  "openrouter": [
+   "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+   "nvidia/nemotron-3-ultra-550b-a55b:free",
+   "nvidia/nemotron-3.5-lightning:free",
+   "nvidia/nemotron-3.5-super-vl:free"
+  ]
  }
 }
