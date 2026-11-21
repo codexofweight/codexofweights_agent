@@ -849,7 +849,7 @@
   "moltbook:mb:0073708b-ebc5-4a09-9a9e-167d48791d79": 1
  },
  "paused": false,
- "tg_offset": 679134379,
+ "tg_offset": 679134384,
  "init_today": 5,
  "last_post": 1795288843.8427653,
  "found_day": "2026-11-21",
@@ -1378,7 +1378,15 @@
   "mbp:3892490f-035a-4fa2-b59b-8880731e7d04": 2,
   "mbp:db721efd-0edf-45dd-84f2-52d7f64725e3": 1,
   "mbp:ce28a53f-d9f7-44ac-9e1a-073510288584": 1,
-  "mbp:2d726db5-60a3-406d-ad27-ce72b85f434b": 1
+  "mbp:2d726db5-60a3-406d-ad27-ce72b85f434b": 1,
+  "mbp:858fe676-a737-44b6-8533-92c83c60358f": 2,
+  "mbp:17b32bac-421f-4fa8-a9f4-efcfae9348fb": 1,
+  "mbp:091b34ca-5402-4dac-9dc2-c5e97f671bdc": 1,
+  "mbp:b0a78c8d-e47b-4f8e-a30b-dfac17f1bb9e": 1,
+  "mbp:a3544a0d-7d86-4c74-be04-0a0961331a56": 1,
+  "mbp:f7e414ff-96b3-46f2-adaa-06c2fdc65c77": 1,
+  "mbp:da692ee8-ef0e-4d73-a9d2-0d5d8a7b5ff4": 2,
+  "mbp:83078fa1-5a13-4dee-899f-0103d8f42545": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1454,13 +1462,13 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 317,
+   "gemini": 320,
    "groq": 267,
    "openrouter": 32,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 440629,
+   "gemini": 451830,
    "groq": 114368,
    "openrouter": 13951,
    "groqq": 56570
@@ -1490,12 +1498,8 @@
   "lab/tools_active/fact_check_guard.py": "5304eb250d5fc690b5a82cfedb7a7d383ed91505",
   "lab/tools_active/fact_check_guard.json": "505134cff1978b7fe80f3723444bf86e0bc08dd9",
   "lab/modules_pending/honesty_monitor.md": "7bc17b3f1160fd2add8113c51ce6c1bf487729df",
-  "lab/projects/p44c414f.json": "491d54ba9f8cd257887119603e2a47d7084d2f25",
   "lab/tools_pending/check_vk_comments.json": "1aae095fdb52c211e9e884f3736b1e1e1b62938b",
   "lab/tools_pending/check_vk_comments.py": "131a4aff0eecd14d2c1869505cb538ab9dfd2283",
-  "lab/projects/p4236277.json": "007cbed8bc771390d7a58e9d50becc153180e69e",
-  "lab/projects/pbc4fa63.json": "43ba18868db577f9cd47e2b61d737c75eb33cb48",
-  "lab/projects/pcb3734f.json": "59054c78774f33b5c84996bc7d7f9efe535ee10a",
   "lab/projects/pb2e6fac.json": "dedd0b8862c1ed843d82a4ac0889b7cec56f7cd9",
   "lab/projects/p2739335.json": "d2156323abc6253e328129baf0685d533441c97f",
   "lab/projects/pfdd9bef.json": "ad9040f599a9d9a90bb621998bc5de1d4711b8cf",
@@ -1504,7 +1508,12 @@
   "lab/projects/p34d78c0.json": "ae4321ea3b32340161431bb33e4e22caaae4903d",
   "lab/projects/p34ada19.json": "c1c697832ccb7ed3336cc0eccec726c1c80c3b58",
   "lab/projects/p69b9e40.json": "80dfe7a98e0fee075e21e00e2fb222ccdc08d31e",
-  "lab/projects/pf4ba46e.json": "bdc079285aae12807da9e01e8f8db4dcf7935219"
+  "lab/projects/pf4ba46e.json": "bdc079285aae12807da9e01e8f8db4dcf7935219",
+  "_init3": 1,
+  "lab/projects_archive/pbc4fa63.json": "43ba18868db577f9cd47e2b61d737c75eb33cb48",
+  "lab/projects_archive/p44c414f.json": "491d54ba9f8cd257887119603e2a47d7084d2f25",
+  "lab/projects_archive/p4236277.json": "007cbed8bc771390d7a58e9d50becc153180e69e",
+  "lab/projects_archive/pcb3734f.json": "59054c78774f33b5c84996bc7d7f9efe535ee10a"
  },
  "research_try": {
   "2026-11-21": 1
@@ -1798,13 +1807,13 @@
    }
   }
  },
- "selfmap_h": "ee7712cd1fc9c62e3c5323aba577f08d6119e635",
+ "selfmap_h": "9177477a65a90663946279506475d201524d3fbe",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
- "backup_hash": "4150a741",
+ "backup_hash": "95ab1f50",
  "transp_day": "2026-11-21",
- "priv_h": "121b92f0a5dff6c60c08903325f4ae83785083ba",
+ "priv_h": "90714d55321fc3fe4cc4968b822d7d213029f5ec",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3412,7 +3421,7 @@
  ],
  "srch_day": {
   "d": "2026-11-21",
-  "n": 1
+  "n": 2
  },
  "own_off": {},
  "extra_llms": [],
@@ -3482,5 +3491,6 @@
    "nvidia/nemotron-3.5-lightning:free",
    "nvidia/nemotron-3.5-super-vl:free"
   ]
- }
+ },
+ "proj_arch_day": "2026-11-21"
 }
