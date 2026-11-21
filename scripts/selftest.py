@@ -75,4 +75,7 @@ def run(g):
     try: res = g["identity_probe"]()
     finally: g["llm"] = old_llm; g["PRIO"][0] = old_prio
     check("empty model answers are not identity failures", res == [], res)
+    # 11. own modules, scripts and workflows are part of the code that is hashed, checked and backed up
+    cb = g["code_bundle"]()
+    check("code_bundle covers own/, scripts and workflows", "own/MANIFEST.json" in cb and any(k.startswith("own/") and k.endswith(".py") for k in cb) and any(k.startswith(".github/workflows/") for k in cb), sorted(cb)[:3])
     return bad
