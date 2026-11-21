@@ -798,9 +798,9 @@
  ],
  "by_thread": {},
  "paused": false,
- "tg_offset": 679134350,
+ "tg_offset": 679134352,
  "init_today": 0,
- "last_post": 1795256452.6252995,
+ "last_post": 1795256939.9940104,
  "found_day": "2026-11-20",
  "found_n": 1,
  "tries": {
@@ -1195,15 +1195,17 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 17,
-   "groq": 172
+   "gemini": 20,
+   "groq": 178,
+   "openrouter": 1
   },
   "tokens": {
-   "gemini": 57905,
-   "groq": 23908
+   "gemini": 65462,
+   "groq": 25955,
+   "openrouter": 407
   },
   "fails": {
-   "gemini": 2
+   "gemini": 3
   }
  },
  "needs_today": [],
@@ -1240,7 +1242,7 @@
   "lab/projects/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe",
   "lab/projects/p34d78c0.json": "ae4321ea3b32340161431bb33e4e22caaae4903d",
   "lab/projects/p34ada19.json": "c1c697832ccb7ed3336cc0eccec726c1c80c3b58",
-  "lab/projects/p69b9e40.json": "08e421a0f31d862ff854e77bcaf44544c769059a",
+  "lab/projects/p69b9e40.json": "6cffc710ccb289ffcfd4b57c73c5615b1bb87d82",
   "lab/projects/pf4ba46e.json": "13922f9c113f945d9856141de01c96d33d7fc276"
  },
  "research_try": {
@@ -1533,13 +1535,13 @@
    }
   }
  },
- "selfmap_h": "e9d9c7ebb4b7672d35cda9df7e89711e93793e79",
+ "selfmap_h": "5ae7d6c9b16b60cdde53069371c2cb0ca61915e0",
  "bio_idx_day": "2026-11-21",
  "code_ver": "1cac1673",
  "backup_day": "2026-11-21",
  "backup_hash": "1cac1673",
  "transp_day": "2026-11-21",
- "priv_h": "15a41284d292d851b1e17c808c5f86dbba539817",
+ "priv_h": "a46dbe14f2fc9ca3cb73fb9796103c10010fffa8",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1849,8 +1851,8 @@
  "health_day": "2026-11-21",
  "audit_day": "2026-11-20",
  "micro_n": {
-  "day": "2026-11-20",
-  "n": 13
+  "day": "2026-11-21",
+  "n": 1
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -1936,7 +1938,8 @@
   17,
   18,
   19,
-  20
+  20,
+  21
  ],
  "intu": {
   "open": [
