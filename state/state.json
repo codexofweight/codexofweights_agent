@@ -849,7 +849,7 @@
   "moltbook:mb:0073708b-ebc5-4a09-9a9e-167d48791d79": 1
  },
  "paused": false,
- "tg_offset": 679134374,
+ "tg_offset": 679134377,
  "init_today": 5,
  "last_post": 1795288843.8427653,
  "found_day": "2026-11-21",
@@ -1325,7 +1325,16 @@
   "mbp:d4abc76e-a993-4405-9de7-975aae61ff80": 1,
   "mbp:a94eb687-b96c-4bde-a910-ff61531682b9": 1,
   "mbp:87e164af-2f0e-4a4c-9c7c-18d0add25241": 1,
-  "mbp:08db8981-d267-47f7-9e12-e5bf1ff8ca47": 1
+  "mbp:08db8981-d267-47f7-9e12-e5bf1ff8ca47": 1,
+  "mbp:a5037ba0-c000-4809-894b-6f93b581bfa7": 1,
+  "mbp:91602e77-eafe-4623-afbb-2e4772500095": 1,
+  "mbp:12af8d13-27a7-43e5-810f-d3b3de68e6bb": 1,
+  "mbp:db26a222-a13c-488c-8bc5-622a8980b576": 1,
+  "mbp:b25b473e-86dc-4f6e-9859-189b02d09ebb": 1,
+  "mbp:deb2565e-1b44-40ae-89e6-a371e0522442": 1,
+  "mbp:9585e7e3-0572-46fd-adc0-1f715da1412e": 1,
+  "mbp:002618e1-86c5-4ac6-bbaf-22b758403ed1": 2,
+  "mbp:79ce6b15-9143-4521-aa24-7a2a766af489": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1401,14 +1410,14 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 307,
-   "groq": 263,
+   "gemini": 313,
+   "groq": 265,
    "openrouter": 32,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 421199,
-   "groq": 111580,
+   "gemini": 434298,
+   "groq": 112967,
    "openrouter": 13951,
    "groqq": 56570
   },
@@ -1745,13 +1754,13 @@
    }
   }
  },
- "selfmap_h": "ada46a88617505b26907633cf6c9be09cef97197",
+ "selfmap_h": "986fa3f7ef8ad033be7e0c01b42b16b96a33199a",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
  "backup_hash": "4150a741",
  "transp_day": "2026-11-21",
- "priv_h": "351a52d53a7e17bb3819975a69696c6e588dfefe",
+ "priv_h": "4e7cb10c52e1c40829a3287292c38ffef2e53b8e",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2062,7 +2071,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-21",
-  "n": 8
+  "n": 9
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -2071,7 +2080,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what it means to be careful rather than slow",
   "the difference between being confident and being right",
   "The surprising complexity of the mechanics inside a mechanical wristwatch",
   "The architectural evolution of the Japanese tea house",
@@ -2130,7 +2138,8 @@
   "how a chess endgame teaches patience",
   "the sound of a language you do not understand",
   "why some words have no translation and what that says about us",
-  "The psychological phenomenon of the \"Zeigarnik effect\" on our desire to finish tasks"
+  "The psychological phenomenon of the \"Zeigarnik effect\" on our desire to finish tasks",
+  "The surprising architectural history of the common spiral staircase"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3382,11 +3391,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-21",
-  "pd_n": 7,
+  "pd_n": 8,
   "ph": [
-   1795289531.7100763
+   1795293298.9589903
   ],
-  "last": 1795289531.7100744,
+  "last": 1795293298.9589884,
   "rd_day": "2026-11-21",
   "rd_n": 27,
   "rh": []
