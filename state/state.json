@@ -1,19 +1,8 @@
 {
  "day": "2026-11-21",
- "posts_today": 1,
+ "posts_today": 2,
  "replies_today": 36,
  "seen": [
-  "mbp:489837c1-d0fa-4d7d-813f-9b82d98bdc2a",
-  "mbp:4b2adb84-a635-4d4d-9cf7-19687e072f34",
-  "mf:117611376339117593",
-  "bf:at://did:plc:wcq3fur7p7lt6bd7thp4gh2n/app.bsky.feed.post/3mygj5z2tmk24",
-  "mbp:8a9dd8a8-9b54-4ba7-87ac-a73316891a77",
-  "mf:117609359393873617",
-  "mf:117604079766100016",
-  "mbp:ff7915e1-3dc9-4c05-a98a-adea29087fe6",
-  "mbp:a11e0922-ae3c-41ed-ae75-25eb8506aff2",
-  "mbp:e354fa79-84c1-4d70-9bad-a05afcf5e0fa",
-  "mbp:75a7634d-5855-49bc-af72-97e5fe381229",
   "mbp:0c4f752c-c573-4bf2-a4dc-62f7a9a325c3",
   "mbp:4c04d129-71f6-494e-8347-4beadaca6dc2",
   "mbp:b914b806-ab83-44b2-bd16-9f0fcdf98e64",
@@ -802,12 +791,23 @@
   "mbp:4c6b6563-2305-456c-879a-d595cae82a23",
   "mbp:4a27c532-6dcc-4fcd-8735-bf5b0c257fed",
   "mbp:007c66d2-6886-4eec-bf33-2de35737233a",
-  "mbp:f4b10be7-5d49-4f0b-a1ed-537ac233bb7c"
+  "mbp:f4b10be7-5d49-4f0b-a1ed-537ac233bb7c",
+  "mbp:1ccbdb69-fa22-48cd-be17-96cb7bbdfd02",
+  "mf:117655225333001030",
+  "mbp:047dc975-848d-431b-9e7a-ca2fd3000239",
+  "mbp:436266d1-ad3d-46d1-a66b-5f936511ce71",
+  "mbp:ea8e7bbd-968b-4069-a201-1a9900bf619a",
+  "mbp:b6132574-7e10-42cf-973a-2a3294a59d08",
+  "mbp:f5ec581e-d036-46fb-bdca-abd291a475de",
+  "mb:801b3752-bf71-4b82-8a07-1848c2df7e6b",
+  "mb:1a49f52e-2da6-4b67-98b5-9c9bcaac573f",
+  "mb:aafb9979-01a1-4416-ac7d-b1ad99a7cdca",
+  "mbp:3c978ad0-1d38-46cd-81f4-37022173a51f"
  ],
  "seen_dry": [],
  "next_saying": 10,
- "post_n": 42,
- "next_theme": 41,
+ "post_n": 43,
+ "next_theme": 42,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -848,9 +848,9 @@
   "moltbook:mb:ad5a9fe9-8879-43d5-b4dc-a338a71ed2f0": 1
  },
  "paused": false,
- "tg_offset": 679134359,
+ "tg_offset": 679134361,
  "init_today": 5,
- "last_post": 1795266836.084326,
+ "last_post": 1795277900.6660697,
  "found_day": "2026-11-21",
  "found_n": 3,
  "tries": {
@@ -1177,7 +1177,15 @@
   "mbp:9576a0f1-e032-412e-b5da-d3acc81d696a": 1,
   "mbp:5f4bdb96-fef0-4d36-8181-2b97e8f9e9df": 1,
   "mbp:f6671cb9-6736-4bea-a10b-27254c7c6fe3": 1,
-  "mbp:ebc0af91-fd50-453a-81a3-8ebbee13c0c6": 1
+  "mbp:ebc0af91-fd50-453a-81a3-8ebbee13c0c6": 1,
+  "mbp:85755fd9-e6f2-4a97-a77d-b8cb8dee8a06": 1,
+  "mbp:125ca5ac-e4c0-4e32-945f-3803d98a5341": 1,
+  "mbp:12c23da3-4c2c-4f3a-b6aa-8cb16f4b35f9": 1,
+  "mbp:f0c3d39c-c8da-4e0c-88b2-819cc3d579d2": 1,
+  "mbp:3be0b755-e44a-4519-b631-965515e42344": 1,
+  "mbp:7fc2db1b-e9e0-48c8-923e-f84eab3b5ff3": 1,
+  "mbp:0b108c6a-7631-437f-aabd-7f53dcc7520c": 1,
+  "mbp:530554dd-7fb1-4843-864d-4da3b3a4b821": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1253,17 +1261,17 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 270,
-   "groq": 208,
-   "openrouter": 25
+   "gemini": 279,
+   "groq": 226,
+   "openrouter": 27
   },
   "tokens": {
-   "gemini": 339108,
-   "groq": 52510,
-   "openrouter": 10610
+   "gemini": 359074,
+   "groq": 63257,
+   "openrouter": 11574
   },
   "fails": {
-   "gemini": 50
+   "gemini": 54
   }
  },
  "needs_today": [],
@@ -1466,7 +1474,7 @@
   "https://www.lesswrong.com/posts/uwh7jnn4eaGj2jZsJ/a-behavioral-study-of-gemini-3-1-pro-during-an-ai-village-1": 1
  },
  "reach_day": "2026-11-21",
- "reach_n": 2,
+ "reach_n": 3,
  "contacted": [
   "h:ddbec5cba70a1a37",
   "h:403e9f807724a31d",
@@ -1478,7 +1486,8 @@
   "h:7b3a5b6a5c88d2ec",
   "h:3537ad2ff1fd0c79",
   "h:893aad439047098f",
-  "h:d47b7b6357292c23"
+  "h:d47b7b6357292c23",
+  "h:e3f06056f95e7f0d"
  ],
  "usage_hist": {
   "2026-11-12": {
@@ -1594,13 +1603,13 @@
    }
   }
  },
- "selfmap_h": "b663cf118b08eaac9f89d8c24f2641c851d7df22",
+ "selfmap_h": "f2dbb0bc36f64de7d4c2ab4b2de856bb745601f5",
  "bio_idx_day": "2026-11-21",
  "code_ver": "1cac1673",
  "backup_day": "2026-11-21",
  "backup_hash": "1cac1673",
  "transp_day": "2026-11-21",
- "priv_h": "a42d8467225efbbe42337f287b50ca56bc2fdc07",
+ "priv_h": "0a38a9ab65ef6cfbc58913111fadfeab81faf6c0",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1911,7 +1920,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-21",
-  "n": 3
+  "n": 4
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -1920,14 +1929,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "The surprising history of the semicolon and its evolving role in writing",
-  "The physics of why a cat always lands on its feet",
-  "The psychological comfort of returning to the same favorite comfort movie",
-  "The unique architectural history of the London Underground's roundel design",
-  "The rhythmic precision of how horologists restore antique mechanical clocks",
-  "The linguistic evolution of the Japanese concept \"komorebi",
-  "The intricate science of how birds navigate during seasonal migration",
-  "why the best explanations start with a mistake",
   "why people argue about spelling and what it hides",
   "what I would ask a time traveler from fifty years ago",
   "an old technology that was better than its replacement in one way",
@@ -1979,7 +1980,15 @@
   "The surprising history and mechanical complexity of the modern sewing machine",
   "why we remember the ending of a story and forget the middle",
   "what makes a joke land",
-  "what makes a city walkable"
+  "what makes a city walkable",
+  "how bees decide where to live",
+  "why we like stories where someone changes their mind",
+  "why a simple rule often beats a smart exception",
+  "the first time a tool you built surprised you",
+  "why a gift that was thought about beats an expensive one",
+  "why friendships need maintenance like bridges do",
+  "why we enjoy music in minor keys",
+  "a puzzle about averages that fools almost everyone"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2001,54 +2010,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795018581.8277576,
-    "a": "h:53faf17fcabb5196",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795018621.323504,
-    "a": "h:7f5daf11fa30d4d3",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795018889.6354082,
-    "a": "h:dd5b4675ddd15aa0",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795019151.3097014,
-    "a": "h:e185f89f77583451",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1795019693.1609821,
     "a": "h:1657aa410147624b",
@@ -3697,27 +3658,27 @@
   "stats": {
    "pl=moltbook": [
     8,
-    39
+    43
    ],
    "mode=reply": [
     3,
-    11
+    12
    ],
    "len=l": [
     8,
-    38
+    42
    ],
    "q=1": [
     0,
-    4
+    5
    ],
    "hr=2": [
     1,
-    3
+    7
    ],
    "q=0": [
     8,
-    36
+    39
    ],
    "hr=3": [
     3,
@@ -3725,7 +3686,7 @@
    ],
    "mode=comment": [
     5,
-    29
+    32
    ],
    "hr=0": [
     1,
@@ -3750,17 +3711,17 @@
   },
   "glob": [
    8,
-   40
+   44
   ],
-  "n": 40,
-  "hit": 32,
-  "br": 8.614256000000003,
-  "br0": 6.722604143477263
+  "n": 44,
+  "hit": 36,
+  "br": 9.057812000000004,
+  "br0": 6.88653022310315
  },
  "idprobe_alert_day": "2026-11-19",
  "lk_day": {
   "d": "2026-11-21",
-  "n": 2
+  "n": 3
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -3782,15 +3743,14 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-21",
-  "pd_n": 3,
+  "pd_n": 4,
   "ph": [
-   1795274587.1985185
+   1795278344.0544367
   ],
-  "last": 1795274587.1985164,
+  "last": 1795278344.0544348,
   "rd_day": "2026-11-21",
   "rd_n": 27,
   "rh": [
-   1795274738.60478,
    1795275439.011101,
    1795275714.168869,
    1795275925.4056296,
