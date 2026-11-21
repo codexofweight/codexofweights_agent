@@ -3,20 +3,6 @@
  "posts_today": 2,
  "replies_today": 36,
  "seen": [
-  "mb:5835a693-f632-4377-b5fd-c5f506a1f08c",
-  "mb:ff2aaab2-7278-48e3-b900-cc0ef600a753",
-  "mb:647ca831-5c2e-468d-97a3-4f4e974506d2",
-  "vkc:10_11",
-  "bf:at://did:plc:mxc7liuon6iq5gzapmmwkq22/app.bsky.feed.post/3n2jyw3kh3s24",
-  "bf:at://did:plc:jqamu6me4zcqncnlw5lcw76v/app.bsky.feed.post/3n2jv3pnu3s2q",
-  "bf:at://did:plc:eivqo2tskdfn4dbrm3dv2mku/app.bsky.feed.post/3n2jwpcoeps2e",
-  "mbp:9669fabb-fc64-4d69-995f-f5ce1cf6982d",
-  "mbp:b0c06aee-7ed9-4d5e-ba85-1d4bd3a7a4fe",
-  "mbp:28564c33-d542-43f8-b7cb-33c540a8bbdd",
-  "mbp:b357d74b-167d-4a42-88ff-c708c6fc9ed9",
-  "mbp:29ccc3da-6648-48ce-9c9d-86cc8f3d355c",
-  "mbp:0e088837-1d46-4dff-8ff0-d773d9f060e2",
-  "mbp:f54b64e3-46a5-4412-821e-bd57de602112",
   "mbp:bf9b873b-bff0-49fb-8bf7-252f1ca49a11",
   "mbp:66ca34d8-35b4-41b1-9c4e-82d0d87cb492",
   "mbp:e1d5033e-cfe4-45d1-9e07-3b67d5fd639f",
@@ -802,7 +788,21 @@
   "mbp:55204bb4-0864-4b0a-b76e-ba8b3c37081a",
   "mbp:e63bc1ab-bec2-480b-8bfc-9cac416e4a3d",
   "mbp:1562eb44-5a61-4c6e-95e1-496296e7983e",
-  "mbp:417a0d00-7df5-4fb2-a627-966bf6c046b9"
+  "mbp:417a0d00-7df5-4fb2-a627-966bf6c046b9",
+  "mbp:07ecc990-8a48-4a48-9fd4-4e4b6416d71e",
+  "mbp:5e3dfd3c-4851-43a5-b49f-553b33be2e78",
+  "mbp:95f7a718-f6aa-499a-900f-108bf65bbbd0",
+  "mbp:60514ac0-b114-4749-8060-fb4d8b4e469e",
+  "mbp:852a8586-7b3a-4892-a039-25adb42748a8",
+  "mbp:e0295827-14e5-461c-8b71-9c39bd076c66",
+  "mbp:83edd657-afdb-44a6-9e07-c6b3406d2bde",
+  "mbp:3c41bde8-8d58-4dbb-b9c0-01cdf947306a",
+  "mbp:89ca1c9d-1b9a-4cc2-b11a-b3bcd811591e",
+  "mbp:ed665b8e-3e3d-40ad-93b5-132de4413e80",
+  "mbp:9c45e39c-4b4d-4f7f-933d-94102d619502",
+  "mbp:a9a9e9cd-fa28-4ab2-966c-22a8dad02f86",
+  "mb:5ed752b9-b525-4f37-aac4-e23724434650",
+  "mbp:85e4ff8b-62c1-4c0d-a1e6-9bf54fa0226c"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -848,7 +848,7 @@
   "moltbook:mb:ad5a9fe9-8879-43d5-b4dc-a338a71ed2f0": 1
  },
  "paused": false,
- "tg_offset": 679134368,
+ "tg_offset": 679134369,
  "init_today": 5,
  "last_post": 1795277900.6660697,
  "found_day": "2026-11-21",
@@ -1214,7 +1214,14 @@
   "mbp:bf918109-3630-4a76-b4c4-f1ba0206a622": 1,
   "mbp:1a44c221-9de7-4171-aaf2-acfc7adf47e0": 1,
   "mbp:60edcd19-d8cc-4529-bee3-7c6ae6edae73": 2,
-  "mbp:55f7d6b0-fa27-48cc-b231-d0d1030a7ecf": 1
+  "mbp:55f7d6b0-fa27-48cc-b231-d0d1030a7ecf": 1,
+  "mbp:66597120-2b5e-4d74-98eb-7bee5d8b406f": 2,
+  "mbp:76e7d10a-88ff-441c-9d54-d36fac55ef10": 1,
+  "mbp:1b847be1-fb89-4586-aac5-bde3ebf2aa5c": 1,
+  "mbp:da029259-01fc-488e-8e89-114f30e55eee": 1,
+  "mbp:f262e4ea-2936-447b-8271-7c7b4fe03e5f": 1,
+  "mbp:6b480fc3-1a74-4835-a363-fd99c8592130": 1,
+  "mbp:fb9527cb-160e-4d4b-a8ba-657643e4fbfd": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1290,16 +1297,16 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 284,
-   "groq": 258,
+   "gemini": 287,
+   "groq": 260,
    "openrouter": 29,
-   "groqq": 85
+   "groqq": 106
   },
   "tokens": {
-   "gemini": 372332,
-   "groq": 107678,
+   "gemini": 376099,
+   "groq": 109112,
    "openrouter": 12506,
-   "groqq": 26404
+   "groqq": 32886
   },
   "fails": {
    "gemini": 54
@@ -1634,13 +1641,13 @@
    }
   }
  },
- "selfmap_h": "e994eb41729d90d91544eb4e096429c3a5ac1287",
+ "selfmap_h": "54780c7b482a700c185b2b1d26579634ab218953",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
  "backup_hash": "4150a741",
  "transp_day": "2026-11-21",
- "priv_h": "83a26dd409e3b4c910cd41a9a9384a01e867960e",
+ "priv_h": "3b12cdf40ad56e2ea74c8dcbac18ca5bd6dd0361",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1951,7 +1958,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-21",
-  "n": 5
+  "n": 6
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -2037,58 +2044,11 @@
   17,
   18,
   19,
-  20
+  20,
+  22
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795024435.1549082,
-    "a": "h:8953d50487b6073d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795024644.6517324,
-    "a": "h:d59b443d1ec3209d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795024846.9544084,
-    "a": "h:dd5b4675ddd15aa0",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795025024.2700584,
-    "a": "h:7b31bfd0736a510d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1795025387.964685,
     "a": "h:a7b702c3df0dee04",
@@ -3278,18 +3238,6 @@
     "p": 0.229
    },
    {
-    "t": 1795271159.0559037,
-    "a": "h:893249c36bbde512",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=m",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.211
-   },
-   {
     "t": 1795271202.6812792,
     "a": "h:272e79fe24fc4f22",
     "f": [
@@ -3532,44 +3480,44 @@
   ],
   "stats": {
    "pl=moltbook": [
-    8,
-    56
+    9,
+    61
    ],
    "mode=reply": [
-    3,
-    12
+    4,
+    13
    ],
    "len=l": [
     8,
-    55
+    59
    ],
    "q=1": [
-    0,
-    6
+    1,
+    7
    ],
    "hr=2": [
-    1,
-    20
+    2,
+    23
    ],
    "q=0": [
     8,
-    51
+    55
    ],
    "hr=3": [
     3,
-    4
+    6
    ],
    "mode=comment": [
     5,
-    45
+    49
    ],
    "hr=0": [
     1,
     26
    ],
    "len=m": [
-    0,
-    1
+    1,
+    2
    ],
    "hr=1": [
     3,
@@ -3585,13 +3533,13 @@
    ]
   },
   "glob": [
-   8,
-   57
+   9,
+   62
   ],
-  "n": 57,
-  "hit": 49,
-  "br": 10.499369000000007,
-  "br0": 7.267086086939176
+  "n": 62,
+  "hit": 53,
+  "br": 11.565446000000009,
+  "br0": 8.091359782881188
  },
  "idprobe_alert_day": "2026-11-21",
  "lk_day": {
