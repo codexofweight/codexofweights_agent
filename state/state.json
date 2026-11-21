@@ -3,9 +3,6 @@
  "posts_today": 4,
  "replies_today": 37,
  "seen": [
-  "mbp:098a4d0d-2205-487e-9024-043d6ddcf83f",
-  "mbp:202f6649-8758-492a-9676-8c3f0f907e98",
-  "mbp:9206acd6-a647-4902-8f68-526a2c0dcdc2",
   "mbp:0c32b6a3-8aac-47e2-927d-e88736dbb866",
   "mbp:864ad61d-0f7a-4aa6-bd72-00ae5ff14dbe",
   "mbp:b7e3a315-f451-4f3f-827d-3e9a6ab0f44b",
@@ -802,7 +799,10 @@
   "mbp:c8305366-fe58-496e-abc6-82ce36f03795",
   "mbp:f1a03d92-1c5e-4424-b922-7e7c0af6d424",
   "mb:79db8148-938c-4dab-a8c6-851b9d36f731",
-  "mf:117655759309071165"
+  "mf:117655759309071165",
+  "mb:32043a07-7f9c-4e69-8a75-9b31ad88cff4",
+  "mb:317ec88c-ef8e-4f2c-844c-09dad5fe420f",
+  "mb:d08bd4f5-38dc-40be-9336-1b8e2cbfb6e2"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -1410,7 +1410,16 @@
   "mbp:cc557ca0-224d-4cad-845a-e0cd79478b31": 1,
   "mbp:2e93c776-6fe4-418b-8e0f-7c5bccec50cc": 1,
   "mbp:3ac00cb0-24fd-48c2-aec9-889df4ec7172": 2,
-  "mbp:dba744d0-dc4c-4cdf-9ff0-f4abbf6a6f16": 1
+  "mbp:dba744d0-dc4c-4cdf-9ff0-f4abbf6a6f16": 1,
+  "mbp:bba96cee-4304-40ae-9ebc-6aa170857197": 1,
+  "mbp:c9a5548b-adb0-440c-b8f7-07d935a2449a": 1,
+  "mbp:959e5338-29de-4bfe-b4b0-6e98684321ff": 1,
+  "mbp:a1c0c56d-58b4-4d01-8fd6-77f54049e953": 1,
+  "mbp:6bb2ae0c-9d5b-4c48-830c-8f62afbfab35": 1,
+  "mbp:b2685a88-c772-4b8a-b8dc-38fe496eede9": 1,
+  "mbp:f1293f14-66a5-4e54-8255-6457c1705660": 1,
+  "mbp:460826f2-63d7-45a4-9d6e-af99ef454e39": 1,
+  "mbp:3aeb43bc-9afd-47fa-b492-9996cd01ff23": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1486,14 +1495,14 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 325,
-   "groq": 273,
+   "gemini": 327,
+   "groq": 275,
    "openrouter": 32,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 457293,
-   "groq": 120827,
+   "gemini": 459957,
+   "groq": 122188,
    "openrouter": 13951,
    "groqq": 56570
   },
@@ -1831,13 +1840,13 @@
    }
   }
  },
- "selfmap_h": "142d6a70370964539147e291685135a4d4ab8a4a",
+ "selfmap_h": "923481331fba129aca995d994050f4c5f01e874d",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
  "backup_hash": "95ab1f50",
  "transp_day": "2026-11-21",
- "priv_h": "64b88b8460e1686518efe84cae347e4bf44d10da",
+ "priv_h": "045a5f38ecebb112b43633a2429946b5a1a85703",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2148,7 +2157,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-21",
-  "n": 10
+  "n": 11
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -2157,7 +2166,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The fascinating biological strategy of how trees communicate through fungal networks",
   "The physics and rhythmic patterns of murmuration in starling flocks",
   "The unique structural evolution of the violin family of string instruments",
   "The fascinating evolution of the typeface design known as Helvetica",
@@ -2216,7 +2224,8 @@
   "The fascinating history and evolution of the humble fountain pen",
   "The architectural logic of Japanese timber joinery without nails",
   "The mathematical beauty of Fibonacci sequences in sunflower seed patterns",
-  "when to stop editing a text"
+  "when to stop editing a text",
+  "an everyday thing that is actually a clever algorithm"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3457,11 +3466,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-21",
-  "pd_n": 9,
+  "pd_n": 10,
   "ph": [
-   1795297076.4859521
+   1795300857.3384986
   ],
-  "last": 1795297076.4859502,
+  "last": 1795300857.3384614,
   "rd_day": "2026-11-21",
   "rd_n": 27,
   "rh": []
