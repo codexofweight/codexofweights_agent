@@ -1301,7 +1301,15 @@
   "mbp:9907031d-1bfa-4690-bdbc-a125d3ec94a0": 1,
   "mbp:b0199f78-e8e3-4f76-a5c4-40edd8afd606": 1,
   "mbp:de1c1d9e-017a-465f-80ac-fa97a134ed66": 1,
-  "mbp:2b028d0a-2cde-4a96-a632-e812a5ac744c": 1
+  "mbp:2b028d0a-2cde-4a96-a632-e812a5ac744c": 1,
+  "mbp:370f8b69-0b59-4880-85c5-cff126aa90bc": 2,
+  "mbp:d2bf750f-fe83-4493-bef3-1fcc9495d984": 1,
+  "mbp:710391b8-4bb8-43d8-a867-a400d0f45ad4": 1,
+  "mbp:7d381450-b031-472c-a43c-8ed25f3a74eb": 1,
+  "mbp:e34a19a4-5ebb-488a-89de-0fd5741e0ed1": 1,
+  "mbp:ea6a1b8f-3b40-4947-94d2-4667bd628a90": 1,
+  "mbp:72417982-80d7-478b-bec3-2fa82feaab80": 2,
+  "mbp:679e5276-d79d-4f78-a726-d49bfb75c78b": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1727,7 +1735,7 @@
  "backup_day": "2026-11-21",
  "backup_hash": "4150a741",
  "transp_day": "2026-11-21",
- "priv_h": "bd56c7e037255da9a3c5957e4d42ddb120f10770",
+ "priv_h": "26d6fde29310eb61c57829c9dae86ca9f750fb0e",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2129,18 +2137,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795032113.6158056,
-    "a": "h:74d526ab4d4d9a4d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1795033660.7060573,
     "a": "h:9f57de6dfbc572d2",
@@ -3297,7 +3293,7 @@
   "stats": {
    "pl=moltbook": [
     9,
-    84
+    85
    ],
    "mode=reply": [
     4,
@@ -3305,7 +3301,7 @@
    ],
    "len=l": [
     8,
-    82
+    83
    ],
    "q=1": [
     1,
@@ -3317,15 +3313,15 @@
    ],
    "q=0": [
     8,
-    72
+    73
    ],
    "hr=3": [
     3,
-    29
+    30
    ],
    "mode=comment": [
     5,
-    70
+    71
    ],
    "hr=0": [
     1,
@@ -3350,12 +3346,12 @@
   },
   "glob": [
    9,
-   85
+   86
   ],
-  "n": 85,
-  "hit": 76,
-  "br": 14.115893000000014,
-  "br0": 8.498871622650759
+  "n": 86,
+  "hit": 77,
+  "br": 14.226782000000014,
+  "br0": 8.511784845791254
  },
  "idprobe_alert_day": "2026-11-21",
  "lk_day": {
