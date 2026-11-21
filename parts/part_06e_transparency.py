@@ -18,7 +18,7 @@ def transparency_sync():
             if t: hs.append("- bio/%s.jsonl sha256 %s" % (ym, hashlib.sha256(t.encode()).hexdigest()[:16]))
         L += hs + ["", "## Recent decisions, extensions and mistakes (no personal data)\n"]
         pub = sorted((e for e in ents.values() if e["kind"] in ("decision", "extension", "mistake")), key=lambda e: e["ts"], reverse=True)[:15]
-        L += ["- %s [%s] %s (source: %s, confidence %.1f)" % (e["ts"][:10], e["kind"], ((e["fix"] or [e])[-1])["text"][:160], e.get("source", "?")[:40], e.get("conf", 0)) for e in pub]
+        L += ["- %s [%s] %s (source: %s, confidence %.1f)" % (e["ts"][:10], e["kind"], (lambda t: t.split(": ", 1)[0] if t.startswith("Project p") else t)(((e["fix"] or [e])[-1])["text"])[:160], e.get("source", "?")[:40], e.get("conf", 0)) for e in pub]
     except Exception: pass
     b = code_bundle(); L += ["", "## Code version", "- version %s; identity probe: see the latest 'extension' entry above" % code_hash(b)[:8]] + ["- %s sha256 %s" % (k, hashlib.sha256(v.encode()).hexdigest()[:16]) for k, v in sorted(b.items()) if k != "state/state.json"]
     L += ["", "## Model use yesterday", "- " + json.dumps((ST.get("usage_hist") or {}).get(sorted(ST.get("usage_hist", {"": 0}))[-1], {}))]

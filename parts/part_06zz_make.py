@@ -32,6 +32,9 @@ def _fake(req, timeout=0, **k):
     if "createSession" in u: return _R(b'{"did":"did:dry","accessJwt":"x"}')
     raise urllib.error.URLError("network is disabled in the dry test")
 urllib.request.urlopen = _fake
+import socket
+def _nosock(*a, **k): raise OSError("network is disabled in the dry test")
+socket.socket.connect = _nosock; socket.create_connection = _nosock; socket.getaddrinfo = _nosock      # safe_get opens raw sockets: the promise "no network" must hold for it too
 G = {"__name__": "agent_dry", "__file__": os.path.join(root, "agent.py")}
 try:
     files = {os.path.basename(f): f for f in glob.glob(os.path.join(root, "part_*.py")) + glob.glob(os.path.join(root, "parts", "part_*.py"))}

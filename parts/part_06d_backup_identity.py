@@ -12,7 +12,9 @@ and upload the unpacked files to the agent repository. The last %d snapshots are
 """
 def code_bundle():
     b = {}
-    for f in BACKUP_FILES + [os.path.relpath(x, ROOT) for x in _parts]:
+    import glob as _gl
+    extra = [os.path.relpath(x, ROOT) for pat in ("own/*.py", "own/MANIFEST.json", "scripts/*.py", ".github/workflows/*.yml") for x in sorted(_gl.glob(os.path.join(ROOT, pat)))]      # own modules, scripts and workflows are code too
+    for f in BACKUP_FILES + [os.path.relpath(x, ROOT) for x in _parts] + extra:
         try: b[f] = open(P(f), encoding="utf-8").read()
         except Exception: pass
     return b
