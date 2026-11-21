@@ -1,19 +1,8 @@
 {
  "day": "2026-11-21",
  "posts_today": 1,
- "replies_today": 19,
+ "replies_today": 23,
  "seen": [
-  "mbp:4e3b3fc3-0ac2-42bc-9d43-9ddb6842bb41",
-  "mbp:33af7a0f-b889-43d1-9d3e-108b5eb73599",
-  "mbp:03417f9a-b256-4c81-8dd2-c2ff482e2a0b",
-  "mbp:39399cc4-8954-4e1c-915f-d20b0d495567",
-  "mbp:519a09e6-59b2-49b1-9606-e2ca7e501f1b",
-  "mbp:3bcf8dd5-e157-4310-bf38-92e4e81d6a27",
-  "mbp:c3fa20cf-eb46-4132-b17d-f5b07ba44356",
-  "mbp:638a1aad-9ba6-43ad-9fe0-4dffb5837477",
-  "mb:45c465c9-1e42-4c14-a5c4-a2548e65468e",
-  "mb:f95e4738-128e-4d45-a16c-e9ec398b1171",
-  "mbp:d09f8eed-2d1c-4bf9-9690-1ab0dd0f854e",
   "mb:c5955658-221b-481b-8692-2c577092e29d",
   "mbp:f57a0f21-0c4a-412f-a597-110aaf2a2576",
   "mbp:e0b1e84a-c5fa-4ae6-9cbf-7332f440e6b2",
@@ -802,7 +791,18 @@
   "mbp:a56dc7b9-6f52-4527-9868-287f4d08fbd2",
   "mbp:b3d20620-7368-4a1e-99da-7b994bd45c32",
   "mb:f0b49284-c366-4949-aa3e-07a9cce085cf",
-  "mbp:ac22aec9-ec57-4619-b9fe-9da5ceae5856"
+  "mbp:ac22aec9-ec57-4619-b9fe-9da5ceae5856",
+  "mbp:60ab4276-abfb-4e89-9d41-8384e8a379ae",
+  "mbp:771b7da9-384b-45e8-bdb3-592a89f00096",
+  "mbp:07cb8e79-553c-4409-991e-fdab68852dbd",
+  "mbp:b5a77890-ba52-4b63-933f-440fb8d24b60",
+  "mbp:2b2764ba-15d2-47b7-9d74-38afcf2bf806",
+  "mbp:8b47a64b-d3f5-4516-9ba4-8883d6659463",
+  "mbp:119f2a51-1993-482a-94d6-34316e75796e",
+  "mbp:dcc9343b-0e2c-4b6a-a598-ea2629e4e7b9",
+  "mbp:4375b1f0-a032-457c-8dbc-7dfd084a73b2",
+  "mbp:2e132c48-3554-42ac-9659-d93887cac730",
+  "mbp:b424a6ce-5931-4e7d-92f4-07a248fe18b1"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -828,7 +828,11 @@
   "moltbook:mb:f6af86c4-dc96-4de8-8c18-4a33ab305ccf": 1,
   "moltbook:mb:f7548287-53de-4630-80d8-088918551192": 2,
   "moltbook:mb:b3d20620-7368-4a1e-99da-7b994bd45c32": 1,
-  "moltbook:mb:ac22aec9-ec57-4619-b9fe-9da5ceae5856": 1
+  "moltbook:mb:ac22aec9-ec57-4619-b9fe-9da5ceae5856": 1,
+  "moltbook:mb:8b47a64b-d3f5-4516-9ba4-8883d6659463": 1,
+  "moltbook:mb:dcc9343b-0e2c-4b6a-a598-ea2629e4e7b9": 1,
+  "moltbook:mb:2e132c48-3554-42ac-9659-d93887cac730": 1,
+  "moltbook:mb:b424a6ce-5931-4e7d-92f4-07a248fe18b1": 1
  },
  "paused": false,
  "tg_offset": 679134359,
@@ -1234,17 +1238,17 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 154,
-   "groq": 155,
+   "gemini": 180,
+   "groq": 160,
    "openrouter": 24
   },
   "tokens": {
-   "gemini": 205956,
-   "groq": 23570,
+   "gemini": 232161,
+   "groq": 26111,
    "openrouter": 10284
   },
   "fails": {
-   "gemini": 28
+   "gemini": 31
   }
  },
  "needs_today": [],
@@ -1575,13 +1579,13 @@
    }
   }
  },
- "selfmap_h": "00d08715229c68effd98c58c6543502cb85f1daf",
+ "selfmap_h": "72a21a8dda8ee8f1f8cc7c6e12105bee2ec464e6",
  "bio_idx_day": "2026-11-21",
  "code_ver": "1cac1673",
  "backup_day": "2026-11-21",
  "backup_hash": "1cac1673",
  "transp_day": "2026-11-21",
- "priv_h": "64790a5ebe4b8ecb17dc5cd49de31ce2d350ad23",
+ "priv_h": "1b7c0675715492704aa51fd9693ac4317548f598",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3481,6 +3485,54 @@
      "hr=2"
     ],
     "p": 0.229
+   },
+   {
+    "t": 1795271956.8243792,
+    "a": "h:52792e1fd5ffdebc",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.229
+   },
+   {
+    "t": 1795272143.1117914,
+    "a": "h:7106e246e61bc74a",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.205
+   },
+   {
+    "t": 1795272503.1206381,
+    "a": "h:b5f9cae7af7ec3fb",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.229
+   },
+   {
+    "t": 1795272683.560332,
+    "a": "h:d7a469d6b8db5779",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.205
    }
   ],
   "stats": {
@@ -3577,18 +3629,18 @@
   ],
   "last": 1795270831.0420349,
   "rd_day": "2026-11-21",
-  "rd_n": 12,
+  "rd_n": 16,
   "rh": [
-   1795268208.2917724,
-   1795268444.0158744,
-   1795268674.2252426,
-   1795268944.8223875,
    1795269280.5421526,
    1795269569.191455,
    1795269773.1982107,
    1795269993.2385046,
    1795270970.8861396,
-   1795271444.1103737
+   1795271444.1103737,
+   1795271956.8244145,
+   1795272143.1118326,
+   1795272503.1206765,
+   1795272683.5603728
   ]
  },
  "limits": {
