@@ -75,7 +75,12 @@ Root: `agent.py` (loader), `CHARTER.md`, `FACTS.md`, `CITATION.cff`, `LICENSE`, 
 | `part_06w_tips.py` | tips layer: up to 12 short practical tips the agent gives itself, below the Codex and the rules; the agent only proposes (weekly, from its own log), the owner decides: `/tip`, `/tip add`, `/tip ok N`, `/tip no N`, `/tip del N` |
 | `part_06x_models.py` | models chosen by the benchmarks: Qwen3.8-27B on Groq (`groqq`) as the reviewer | 
 | `part_06z_own_loader.py` | loads `own/` (modules the agent built itself after approval; manifest + hash, limits, deny-list, switched off on failure); `/own` |
-| `part_06zz_make.py` | `/make`: the agent builds a module for itself (design, tests first, code in up to 5 attempts in a dry copy of the agent, review by another model); the owner decides with `/own ok ID` / `/own no ID` |
+| `part_06zz_make.py` | `/make`: the agent builds a module for itself in API mode (a closed namespace: `api.say/command/fetch/ask/remember/weekly`, no secrets, no agent globals; older modules in `own/` keep the old mode) (design, tests first, code in up to 5 attempts in a dry copy of the agent, review by another model); the owner decides with `/own ok ID` / `/own no ID` |
+| `part_06zv_clean.py` | memory tidying: `/clean` shows a report, `/clean go` moves stale notes to `archive/` (nothing is deleted); the weekly report does it by itself |
+| `part_06zzx_autorun.py` | `/autorun on|off`: whether the workflow queues the next cycle by itself (the `STOP` file also stops the chain) |
+| `part_06zzy_watchdog.py` | watchdog: tells the owner in Telegram when a part had to be skipped or models fail many times in a row (priority 1-3 only) |
+| `part_06zzz_hints.py` | weekly hint: a ready `/make` command for one of the agent's own needs (it never starts a project by itself) |
+| `scripts/preflight.py`, `scripts/selftest.py` | load the whole agent without network and run small offline self-tests (every push, and before every cycle) |
 | `part_06zy_notes.py` | the agent's notebook for code and technique (`notes/code.json` in the private repo): idea / verified / failed notes, read selectively; `/note` |
 | `part_06zx_scout.py` | `/scout`: looks on GitHub for an idea the agent needs (permissive licenses only, only README texts are read, nothing is downloaded or run); `/scout make ID N` hands the idea to `/make` |
 | `part_06zq_perplat.py` | every platform gets its own post (Bluesky the main one, Mastodon and VK separate texts, VK written in Russian); Moltbook has its own schedule: posts and comments per hour, `/mb`, `/mb 4 30 600`, `/mb off` |
