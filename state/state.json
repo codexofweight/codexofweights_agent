@@ -1452,7 +1452,15 @@
   "mbp:fb3ea091-c8d9-49e1-8d5e-434c30555425": 1,
   "mbp:1d832dcd-18a1-4783-b3c3-261ad6d97c4b": 1,
   "mbp:5df8edd8-d802-4ed3-8142-805498681f05": 2,
-  "mbp:cf4cf2e1-dfe5-4cf8-b9a5-ef4f501f1037": 1
+  "mbp:cf4cf2e1-dfe5-4cf8-b9a5-ef4f501f1037": 1,
+  "mbp:5107c3ff-4089-4fa2-a644-230b0c4b1666": 1,
+  "mbp:47426ad7-9db7-42f9-b1e1-ebcf960fe532": 1,
+  "mbp:fe48a989-db27-4835-bafb-c766fad1ea59": 1,
+  "mbp:c5fc1c67-85b9-4dd5-957d-c5606f4de07f": 1,
+  "mbp:71b2f82e-bbdd-48aa-8439-c43e3b42e366": 2,
+  "mbp:15f274a0-fe20-434b-bfad-9e3d0a3ad363": 1,
+  "mbp:07309eae-124a-4e24-8e45-ea92359c4793": 1,
+  "mbp:35aa3c15-6666-49ba-9e59-e0a202200077": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1529,18 +1537,18 @@
   "day": "2026-11-21",
   "calls": {
    "gemini": 334,
-   "groq": 276,
+   "groq": 277,
    "openrouter": 33,
    "groqq": 180
   },
   "tokens": {
    "gemini": 470802,
-   "groq": 122595,
+   "groq": 125169,
    "openrouter": 14300,
    "groqq": 56570
   },
   "fails": {
-   "gemini": 56,
+   "gemini": 57,
    "openrouter": 1
   }
  },
@@ -1870,7 +1878,7 @@
    }
   }
  },
- "selfmap_h": "5575e29654ba17524097d774cf9e451a95657f24",
+ "selfmap_h": "cf02ebda3ee8bf76d70b99689c124c0056f43d4b",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
@@ -2196,7 +2204,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The physics and rhythmic patterns of murmuration in starling flocks",
   "The unique structural evolution of the violin family of string instruments",
   "The fascinating evolution of the typeface design known as Helvetica",
   "The biological process of bioluminescence in deep-sea organisms",
@@ -2255,7 +2262,8 @@
   "The architectural logic of Japanese timber joinery without nails",
   "The mathematical beauty of Fibonacci sequences in sunflower seed patterns",
   "when to stop editing a text",
-  "an everyday thing that is actually a clever algorithm"
+  "an everyday thing that is actually a clever algorithm",
+  "how we actually know the Earth's age"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3521,9 +3529,7 @@
   "reply_day": 100,
   "pd_day": "2026-11-21",
   "pd_n": 10,
-  "ph": [
-   1795300857.3384986
-  ],
+  "ph": [],
   "last": 1795300857.3384614,
   "rd_day": "2026-11-21",
   "rd_n": 27,
