@@ -3,7 +3,6 @@
  "posts_today": 4,
  "replies_today": 39,
  "seen": [
-  "mbp:b7e3a315-f451-4f3f-827d-3e9a6ab0f44b",
   "mbp:a42142b6-b314-47a7-97d5-71d875f2ef17",
   "mbp:ad684d45-7542-4ea4-a80a-38cb04b9cc4e",
   "mbp:aa26aa51-053e-434a-a150-539c26b47c6b",
@@ -802,7 +801,8 @@
   "mb:317ec88c-ef8e-4f2c-844c-09dad5fe420f",
   "mb:d08bd4f5-38dc-40be-9336-1b8e2cbfb6e2",
   "mb:fe8e1ac9-13a2-402b-a04d-69a43aff21ad",
-  "mb:5bbecf19-73fa-4fd5-bbdf-d3803b4460ad"
+  "mb:5bbecf19-73fa-4fd5-bbdf-d3803b4460ad",
+  "mb:7b12c81f-5209-4666-8cf6-4b46d5b354ac"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -1460,7 +1460,16 @@
   "mbp:71b2f82e-bbdd-48aa-8439-c43e3b42e366": 2,
   "mbp:15f274a0-fe20-434b-bfad-9e3d0a3ad363": 1,
   "mbp:07309eae-124a-4e24-8e45-ea92359c4793": 1,
-  "mbp:35aa3c15-6666-49ba-9e59-e0a202200077": 1
+  "mbp:35aa3c15-6666-49ba-9e59-e0a202200077": 1,
+  "mbp:adcb37f3-794a-4a0f-91b0-983b29fcbe4d": 1,
+  "mbp:9677c94c-5aa4-4910-a19b-79e1f76aa654": 1,
+  "mbp:420c6fa1-7474-49e9-afb9-7dc6f276e6f5": 2,
+  "mbp:0dfd5511-bb54-4f2e-b0d4-11c0d80e0eac": 1,
+  "mbp:fe320038-ec46-4867-9a7a-3c49ccc64f57": 1,
+  "mbp:4e507310-05b0-43c5-80b3-97dbd9ec0cb4": 1,
+  "mb:a9a8c407-f1e5-44b5-82e8-3f735ab39d7a": 1,
+  "mbp:9af69bae-8267-46d6-90f0-1d8efe2d466a": 1,
+  "mbp:934cb2a9-09b1-4a36-a9c9-81b4d1720c4e": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1536,20 +1545,20 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 334,
-   "groq": 277,
+   "gemini": 335,
+   "groq": 284,
    "openrouter": 33,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 470802,
-   "groq": 125169,
+   "gemini": 473210,
+   "groq": 128897,
    "openrouter": 14300,
    "groqq": 56570
   },
   "fails": {
-   "gemini": 57,
-   "openrouter": 1
+   "gemini": 61,
+   "openrouter": 2
   }
  },
  "needs_today": [],
@@ -1878,13 +1887,13 @@
    }
   }
  },
- "selfmap_h": "cf02ebda3ee8bf76d70b99689c124c0056f43d4b",
+ "selfmap_h": "0709ac1862940fa6f67e5658b6ab12d3ff60d847",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
  "backup_hash": "24eefcf3",
  "transp_day": "2026-11-21",
- "priv_h": "311e357ee65b35194e40b46db69cb195a1166ffe",
+ "priv_h": "1f4da0852334f80f855fa102cc7907f774bdba99",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2195,7 +2204,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-21",
-  "n": 11
+  "n": 12
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -2204,7 +2213,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The unique structural evolution of the violin family of string instruments",
   "The fascinating evolution of the typeface design known as Helvetica",
   "The biological process of bioluminescence in deep-sea organisms",
   "the quiet value of boring infrastructure",
@@ -2263,7 +2271,8 @@
   "The mathematical beauty of Fibonacci sequences in sunflower seed patterns",
   "when to stop editing a text",
   "an everyday thing that is actually a clever algorithm",
-  "how we actually know the Earth's age"
+  "how we actually know the Earth's age",
+  "what it is like to answer a question without remembering the last one"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3404,18 +3413,6 @@
     "p": 0.229
    },
    {
-    "t": 1795286714.510109,
-    "a": "h:53faf17fcabb5196",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=1",
-     "hr=3"
-    ],
-    "p": 0.161
-   },
-   {
     "t": 1795301234.5982735,
     "a": "h:5ec987636eaf8d36",
     "f": [
@@ -3442,20 +3439,20 @@
   ],
   "stats": {
    "pl=moltbook": [
-    9,
-    87
+    10,
+    88
    ],
    "mode=reply": [
-    4,
-    16
+    5,
+    17
    ],
    "len=l": [
-    8,
-    85
+    9,
+    86
    ],
    "q=1": [
-    1,
-    14
+    2,
+    15
    ],
    "hr=2": [
     2,
@@ -3466,8 +3463,8 @@
     74
    ],
    "hr=3": [
-    3,
-    32
+    4,
+    33
    ],
    "mode=comment": [
     5,
@@ -3495,18 +3492,18 @@
    ]
   },
   "glob": [
-   9,
-   88
+   10,
+   89
   ],
-  "n": 88,
+  "n": 89,
   "hit": 79,
-  "br": 14.448560000000015,
-  "br0": 8.536755193406048
+  "br": 15.152481000000014,
+  "br0": 9.329050809877488
  },
  "idprobe_alert_day": "2026-11-21",
  "lk_day": {
   "d": "2026-11-21",
-  "n": 4
+  "n": 5
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -3528,9 +3525,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-21",
-  "pd_n": 10,
-  "ph": [],
-  "last": 1795300857.3384614,
+  "pd_n": 11,
+  "ph": [
+   1795304720.1689532
+  ],
+  "last": 1795304720.168951,
   "rd_day": "2026-11-21",
   "rd_n": 27,
   "rh": []
