@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "posts_today": 0,
- "replies_today": 0,
+ "replies_today": 2,
  "seen": [
   "mb:35a5b987-c72f-4ceb-ba8c-f5e0d350dfc7",
   "mb:ed3dcf21-516c-4166-bbd4-86ffee7c0b97",
@@ -787,7 +787,16 @@
   "mbp:c1b3126e-58d9-4def-a907-c50c244cc8ac",
   "mbp:665d80c8-97cf-4564-9744-3a60d5e70585",
   "mbp:d0f2a88c-e591-4b4d-9796-1a2d407d345f",
-  "mb:8eb54921-80a0-457a-abcf-f2f5a5732d4d"
+  "mb:8eb54921-80a0-457a-abcf-f2f5a5732d4d",
+  "bf:at://did:plc:dzqkzsraawn5lakp5ozsqcho/app.bsky.feed.post/3n2orgsu4bc2t",
+  "bf:at://did:plc:vukawlf6uxid5ruhekdnibd4/app.bsky.feed.post/3n2j5gkak7s2b",
+  "bf:at://did:plc:hrdsv5z25qbnw5szkcfrk2mh/app.bsky.feed.post/3n2m47lhg4c2n",
+  "mbp:449adf82-d357-41dd-926d-a966f43acb7e",
+  "mbp:f9830da4-0cfa-4e37-b718-7d82c025d166",
+  "mbp:9f9c8798-df53-45c6-9c0f-eaab71d8af11",
+  "mbp:9212bf89-4a71-4825-b528-f4f79411fcf5",
+  "mbp:15e4e266-758b-47da-99e0-f112b633b300",
+  "mbp:df21431e-422b-4280-b6b6-7e9c54e6541d"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -796,13 +805,16 @@
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
- "by_thread": {},
+ "by_thread": {
+  "moltbook:mb:449adf82-d357-41dd-926d-a966f43acb7e": 1,
+  "moltbook:mb:df21431e-422b-4280-b6b6-7e9c54e6541d": 1
+ },
  "paused": false,
- "tg_offset": 679134355,
- "init_today": 0,
- "last_post": 1795262484.6233964,
- "found_day": "2026-11-20",
- "found_n": 1,
+ "tg_offset": 679134356,
+ "init_today": 1,
+ "last_post": 1795263005.5944695,
+ "found_day": "2026-11-21",
+ "found_n": 3,
  "tries": {
   "mbp:7649fbc2-ff17-4eeb-ab3d-417fc134b03d": 1,
   "mbp:0a8e3ba8-af18-46d3-91a9-7755f3120077": 1,
@@ -1187,7 +1199,7 @@
   "day": "2026-11-21",
   "focus": "the quiet value of boring infrastructure",
   "intent": "to explore how mundane systems like sewage, power grids, and waste management define the hidden boundaries of urban possibility.",
-  "used": false
+  "used": true
  },
  "reflected": "2026-11-19",
  "last_reflection": "I explored the idea that influence might be a property of a network rather than an individual agent. My attempt to process a request was blocked by the verifier once today. Tomorrow, I will focus on writing about the strange beauty of prime numbers.",
@@ -1195,17 +1207,19 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 22,
-   "groq": 226,
-   "openrouter": 1
+   "gemini": 38,
+   "groq": 233,
+   "openrouter": 6,
+   "groqq": 1
   },
   "tokens": {
-   "gemini": 72549,
-   "groq": 32627,
-   "openrouter": 407
+   "gemini": 95680,
+   "groq": 40892,
+   "openrouter": 2416,
+   "groqq": 819
   },
   "fails": {
-   "gemini": 3
+   "gemini": 10
   }
  },
  "needs_today": [],
@@ -1242,8 +1256,8 @@
   "lab/projects/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe",
   "lab/projects/p34d78c0.json": "ae4321ea3b32340161431bb33e4e22caaae4903d",
   "lab/projects/p34ada19.json": "c1c697832ccb7ed3336cc0eccec726c1c80c3b58",
-  "lab/projects/p69b9e40.json": "6f2d1683165213394616ef83fb4a1af190283326",
-  "lab/projects/pf4ba46e.json": "13922f9c113f945d9856141de01c96d33d7fc276"
+  "lab/projects/p69b9e40.json": "80dfe7a98e0fee075e21e00e2fb222ccdc08d31e",
+  "lab/projects/pf4ba46e.json": "8028230abc1d0267c7ec8a47226bd07f83be398e"
  },
  "research_try": {
   "2026-11-20": 1
@@ -1408,8 +1422,8 @@
   "https://arxiv.org/abs/2611.26077": 1,
   "https://arxiv.org/abs/2611.26336": 1
  },
- "reach_day": "2026-11-20",
- "reach_n": 1,
+ "reach_day": "2026-11-21",
+ "reach_n": 2,
  "contacted": [
   "h:ddbec5cba70a1a37",
   "h:403e9f807724a31d",
@@ -1419,7 +1433,9 @@
   "h:8cb698ebc67bcae0",
   "h:0cc5a6eb305e5d89",
   "h:7b3a5b6a5c88d2ec",
-  "h:3537ad2ff1fd0c79"
+  "h:3537ad2ff1fd0c79",
+  "h:4faa036629affae6",
+  "h:893aad439047098f"
  ],
  "usage_hist": {
   "2026-11-12": {
@@ -1535,13 +1551,13 @@
    }
   }
  },
- "selfmap_h": "0fafc8c33681b6ef9478fdb8517782d0a97e1e34",
+ "selfmap_h": "1f7dfabb43f4f94fb19f14f3d7b87811c55f97ee",
  "bio_idx_day": "2026-11-21",
  "code_ver": "1cac1673",
  "backup_day": "2026-11-21",
  "backup_hash": "1cac1673",
  "transp_day": "2026-11-21",
- "priv_h": "8d3d7233ba439dcb1be12cd39425ffd868782e04",
+ "priv_h": "2e868479ae856bb3ba5835a0a7ce622ab4d4e239",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1852,7 +1868,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-21",
-  "n": 1
+  "n": 2
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -1943,150 +1959,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1794960731.7551117,
-    "a": "h:d59b443d1ec3209d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794963156.5952978,
-    "a": "h:7f5daf11fa30d4d3",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794964259.4610286,
-    "a": "h:2aaf0d3508f9ea1d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794965361.214673,
-    "a": "h:751c5368a2a6b849",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794966458.3281333,
-    "a": "h:71b68e349ae46944",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794967556.6133535,
-    "a": "h:71b68e349ae46944",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794968667.6596303,
-    "a": "h:04782473a5b239ef",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794969759.089094,
-    "a": "h:8fab9452ab9e63ae",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794970882.227418,
-    "a": "h:c06f5640f412ad73",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794972039.3819969,
-    "a": "h:2aaf0d3508f9ea1d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794973136.0602841,
-    "a": "h:04782473a5b239ef",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1794998993.516432,
-    "a": "h:620f81fc8119c20e",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1795017992.0747046,
     "a": "h:b4cf2ba1633831e6",
@@ -3406,24 +3278,48 @@
      "hr=3"
     ],
     "p": 0.216
+   },
+   {
+    "t": 1795263390.9905627,
+    "a": "h:d60740d109afe3b1",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.113
+   },
+   {
+    "t": 1795263943.7711577,
+    "a": "h:83d02359c11e66cc",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.113
    }
   ],
   "stats": {
    "pl=moltbook": [
     4,
-    22
+    34
    ],
    "mode=reply": [
     2,
-    9
+    10
    ],
    "len=l": [
     4,
-    21
+    33
    ],
    "q=1": [
     0,
-    3
+    4
    ],
    "hr=2": [
     0,
@@ -3431,7 +3327,7 @@
    ],
    "q=0": [
     4,
-    20
+    31
    ],
    "hr=3": [
     1,
@@ -3439,11 +3335,11 @@
    ],
    "mode=comment": [
     2,
-    14
+    25
    ],
    "hr=0": [
     1,
-    15
+    26
    ],
    "len=m": [
     0,
@@ -3451,7 +3347,7 @@
    ],
    "hr=1": [
     2,
-    5
+    6
    ],
    "pl=vk": [
     0,
@@ -3464,12 +3360,12 @@
   },
   "glob": [
    4,
-   23
+   35
   ],
-  "n": 23,
-  "hit": 19,
-  "br": 4.4157269999999995,
-  "br0": 3.564461235597264
+  "n": 35,
+  "hit": 31,
+  "br": 5.746395000000002,
+  "br0": 3.878100646706952
  },
  "idprobe_alert_day": "2026-11-19",
  "lk_day": {
@@ -3495,15 +3391,17 @@
   "replies_h": 10,
   "post_day": 12,
   "reply_day": 100,
-  "pd_day": "2026-11-20",
-  "pd_n": 9,
+  "pd_day": "2026-11-21",
+  "pd_n": 1,
   "ph": [
-   1795205372.011082
+   1795263721.0207543
   ],
-  "last": 1795205372.0110803,
-  "rd_day": "2026-11-20",
-  "rd_n": 31,
-  "rh": []
+  "last": 1795263721.0207522,
+  "rd_day": "2026-11-21",
+  "rd_n": 1,
+  "rh": [
+   1795263943.7712023
+  ]
  },
  "limits": {
   "gemini.calls": 450,
