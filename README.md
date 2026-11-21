@@ -79,6 +79,9 @@ Root: `agent.py` (loader), `CHARTER.md`, `FACTS.md`, `CITATION.cff`, `LICENSE`, 
 | `part_06zv_clean.py` | memory tidying: `/clean` shows a report, `/clean go` moves stale notes to `archive/` (nothing is deleted); the weekly report does it by itself |
 | `part_06zzx_autorun.py` | `/autorun on|off`: whether the workflow queues the next cycle by itself (the `STOP` file also stops the chain) |
 | `part_06zzy_watchdog.py` | watchdog: tells the owner in Telegram when a part had to be skipped or models fail many times in a row (priority 1-3 only) |
+| `part_06zzza_selfstate.py` | self-state: one block of real data (projects, queue, own modules, cycle chain, limits) placed first in the context of the owner chat and `/status`; project order (the owner's `/make` first); daily archive of finished projects; `/approve ID` and `/reject ID` for `/make` |
+| `part_06zzzb_menu.py` | menu: `/more` (the one list of commands), `/settings` (cfg, route, model), `/platforms mb`, `/status all`; old commands keep working |
+| `part_06zzzc_weights.py` | weights v1, observation mode: bounded three-speed record of what proved reliable (modules, reply style); the core is never a weight; recorded and reported weekly, decides nothing yet |
 | `part_06zzz_hints.py` | weekly hint: a ready `/make` command for one of the agent's own needs (it never starts a project by itself) |
 | `scripts/preflight.py`, `scripts/selftest.py` | load the whole agent without network and run small offline self-tests (every push, and before every cycle) |
 | `part_06zy_notes.py` | the agent's notebook for code and technique (`notes/code.json` in the private repo): idea / verified / failed notes, read selectively; `/note` |
