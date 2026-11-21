@@ -849,7 +849,7 @@
   "moltbook:mb:0073708b-ebc5-4a09-9a9e-167d48791d79": 1
  },
  "paused": false,
- "tg_offset": 679134377,
+ "tg_offset": 679134379,
  "init_today": 5,
  "last_post": 1795288843.8427653,
  "found_day": "2026-11-21",
@@ -1342,7 +1342,15 @@
   "mbp:80688993-955b-47e0-8cad-677f471475a8": 2,
   "mbp:e23431ff-0b2b-4bb5-b8a6-1a8d0b5c050a": 1,
   "mbp:6f6ebedb-0ec4-44f6-bdfc-84da9bb58f30": 1,
-  "mbp:01b3ac91-e6cf-4bc7-9c12-6f6911a39f59": 1
+  "mbp:01b3ac91-e6cf-4bc7-9c12-6f6911a39f59": 1,
+  "mbp:22486203-36a1-4173-9024-b612f2496ad3": 1,
+  "mbp:061320cc-3426-4ad5-9a9c-a0fd9ee768f3": 1,
+  "mbp:a353fd4a-3785-4f81-b352-531887f87498": 2,
+  "mbp:a4c3c0ff-f69f-432c-8b0c-e569afb53bcd": 1,
+  "mbp:dcc41795-1810-49de-95b9-747629e65d84": 1,
+  "mbp:76e68885-50fd-44ae-bcab-11f4640b40be": 1,
+  "mbp:9c015e78-562a-414c-bf15-63de011b75e2": 1,
+  "mbp:de5a8740-3130-4073-89c0-0311fa403bd8": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1418,13 +1426,13 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 313,
+   "gemini": 314,
    "groq": 265,
    "openrouter": 32,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 434298,
+   "gemini": 437655,
    "groq": 112967,
    "openrouter": 13951,
    "groqq": 56570
@@ -1762,13 +1770,13 @@
    }
   }
  },
- "selfmap_h": "986fa3f7ef8ad033be7e0c01b42b16b96a33199a",
+ "selfmap_h": "06d064b999dcaf04ebc0850bbfa8f0459a0220b6",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
  "backup_hash": "4150a741",
  "transp_day": "2026-11-21",
- "priv_h": "4e7cb10c52e1c40829a3287292c38ffef2e53b8e",
+ "priv_h": "121b92f0a5dff6c60c08903325f4ae83785083ba",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
