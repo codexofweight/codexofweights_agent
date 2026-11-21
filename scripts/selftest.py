@@ -33,4 +33,46 @@ def run(g):
     check("approval hedge words present", "not sure" in src and "позже" in src)
     # 6. private keys are kept out of the public state
     check("by_author is private", "by_author" in g["PRIVATE_KEYS"] and "vk_welcomed" in g["PRIVATE_KEYS"] and "own_data" in g["PRIVATE_KEYS"])
+    # 7. weights v1: the core is never an item, bounds hold, observation mode is neutral, the slow layer is statistics only
+    old_wt = g["ST"].get("wt"); g["ST"].pop("wt", None)
+    try:
+        check("weights refuse the core", g["wt_signal"]("core:honesty", -1.0) is False and g["wt_signal"]("anything", 1.0) is False)
+        check("weights accept a module", g["wt_signal"]("mod:selftest.py", 1.0, "owner", "t") is True)
+        for _ in range(20): g["wt_signal"]("mod:selftest.py", -1.0, "owner", "t")
+        it = g["ST"]["wt"]["items"]["mod:selftest.py"]
+        check("weights stay within -1..1 and the daily cap holds", -1.0 <= it["f"] <= 1.0 and -1.0 <= it["m"] <= 1.0 and it["dsum"] <= 1.0001, it)
+        check("weights: observation mode is neutral", g["wt_effective"]("mod:selftest.py") == 0.0)
+        check("weights: the slow layer is statistics only", "s" not in it and it["sn"] >= 21)
+        check("weights are private", "wt" in g["PRIVATE_KEYS"])
+    finally:
+        if old_wt is None: g["ST"].pop("wt", None)
+        else: g["ST"]["wt"] = old_wt
+    # 8. self-state sits first in the context; project order puts the owner's /make first
+    ctx = g["agent_context"]()
+    check("self-state first in the context", ctx.startswith("SELF-STATE") and "projects:" in ctx and "own modules:" in ctx, ctx[:160])
+    old_pa = g["_pa_before_ss"]
+    g["_pa_before_ss"] = lambda: [{"kind": "scout", "created": "2026-11-01"}, {"kind": "make", "created": "2026-11-20"}, {"kind": "make", "created": "2026-11-19"}]
+    try: order = [(q["kind"], q["created"]) for q in g["proj_all"]()]
+    finally: g["_pa_before_ss"] = old_pa
+    check("project order: make first, oldest first", order == [("make", "2026-11-19"), ("make", "2026-11-20"), ("scout", "2026-11-01")], order)
+    # 9. a module that says and returns the same text answers once; api.plain strips html
+    sent2 = []; old_tg2 = g["tg"]; g["tg"] = lambda t: sent2.append(t)
+    try:
+        g["_own_run_api"]("selftest_dup.py", "API_VERSION = 1\ndef _h(raw):\n    api.say('same')\n    return 'same'\napi.command('/selftest_dup', _h)\n")
+        g["EXT_CMDS"]["/selftest_dup"]("/selftest_dup", "/selftest_dup")
+        check("no double answer from say+return", sent2 == ["same"], sent2)
+        ns = g["_own_run_api"]("selftest_plain.py", "API_VERSION = 1\nR = api.plain('<p>Hi <b>there</b></p><script>var a=1</script><!-- c --><style>p{}</style>')\n")
+        check("api.plain strips tags, scripts and styles", ns["R"] == "Hi there", ns.get("R"))
+    finally:
+        g["tg"] = old_tg2; g["EXT_CMDS"].pop("/selftest_dup", None)
+    # 10. /approve works for /make ids; an empty model answer is not a failed identity probe
+    sent3 = []; old = (g["tg"], g["proj_load"], g["make_decide"])
+    g["tg"] = lambda t: sent3.append(t); g["proj_load"] = lambda i: {"kind": "make", "status": "waiting_owner", "data": {}}; g["make_decide"] = lambda pid, ok: "decided %s %s" % (pid, ok)
+    try: g["tool_command"]("/approve pabcdef0", "/approve pabcdef0")
+    finally: g["tg"], g["proj_load"], g["make_decide"] = old
+    check("/approve pID reaches /make", sent3 == ["decided pabcdef0 True"], sent3)
+    old_llm, old_prio = g["llm"], g["PRIO"][0]; g["llm"] = lambda *a, **k: ("", "x")
+    try: res = g["identity_probe"]()
+    finally: g["llm"] = old_llm; g["PRIO"][0] = old_prio
+    check("empty model answers are not identity failures", res == [], res)
     return bad
