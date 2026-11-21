@@ -848,7 +848,7 @@
  "paused": false,
  "tg_offset": 679134342,
  "init_today": 12,
- "last_post": 1795224294.4432552,
+ "last_post": 1795224747.6187978,
  "found_day": "2026-11-20",
  "found_n": 1,
  "tries": {
@@ -1307,7 +1307,7 @@
   "lab/projects/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe",
   "lab/projects/p34d78c0.json": "ae4321ea3b32340161431bb33e4e22caaae4903d",
   "lab/projects/p34ada19.json": "c1c697832ccb7ed3336cc0eccec726c1c80c3b58",
-  "lab/projects/p69b9e40.json": "31a7e5f3e25409be178e28e092461428cdb4ce41"
+  "lab/projects/p69b9e40.json": "ba2af6cbf68a6c561e4b43caf507aa334342d2a8"
  },
  "research_try": {
   "2026-11-20": 1
@@ -1591,7 +1591,7 @@
  "backup_day": "2026-11-20",
  "backup_hash": "4f23e029",
  "transp_day": "2026-11-20",
- "priv_h": "c1fbe45a47f0e3bcf6658045cfb44e4dfeb9fcd1",
+ "priv_h": "a7ecf13ba4c886efc5b6778afedfa8f59e81f953",
  "trash_day": "2026-11-20",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
