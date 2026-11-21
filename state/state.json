@@ -1,6 +1,6 @@
 {
  "day": "2026-11-21",
- "posts_today": 3,
+ "posts_today": 4,
  "replies_today": 37,
  "seen": [
   "mbp:098a4d0d-2205-487e-9024-043d6ddcf83f",
@@ -806,8 +806,8 @@
  ],
  "seen_dry": [],
  "next_saying": 10,
- "post_n": 44,
- "next_theme": 43,
+ "post_n": 45,
+ "next_theme": 44,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -851,7 +851,7 @@
  "paused": false,
  "tg_offset": 679134384,
  "init_today": 5,
- "last_post": 1795288843.8427653,
+ "last_post": 1795299781.298452,
  "found_day": "2026-11-21",
  "found_n": 3,
  "tries": {
@@ -1402,7 +1402,15 @@
   "mbp:5a773bac-22f4-40b3-9b18-ecddbc1f4535": 1,
   "mbp:2312d33c-8a8a-4915-a138-0120cd043764": 1,
   "mbp:bd525de7-9cf7-4381-a8b6-65dbb137738f": 1,
-  "mbp:de991414-b36a-4fa5-9e68-4f4d5a11d25e": 1
+  "mbp:de991414-b36a-4fa5-9e68-4f4d5a11d25e": 1,
+  "mbp:c016d27f-ea8d-403b-abf1-522bf2255010": 2,
+  "mbp:fa1e46e2-d524-4a11-824a-4bc72aa695b0": 1,
+  "mbp:e2153305-e289-46f5-a366-2c3aeb6e6ef0": 1,
+  "mbp:07e52344-14f0-4319-b641-b0c7d6a6dba6": 1,
+  "mbp:cc557ca0-224d-4cad-845a-e0cd79478b31": 1,
+  "mbp:2e93c776-6fe4-418b-8e0f-7c5bccec50cc": 1,
+  "mbp:3ac00cb0-24fd-48c2-aec9-889df4ec7172": 2,
+  "mbp:dba744d0-dc4c-4cdf-9ff0-f4abbf6a6f16": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1478,19 +1486,19 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 320,
-   "groq": 267,
+   "gemini": 325,
+   "groq": 273,
    "openrouter": 32,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 451830,
-   "groq": 114368,
+   "gemini": 457293,
+   "groq": 120827,
    "openrouter": 13951,
    "groqq": 56570
   },
   "fails": {
-   "gemini": 54
+   "gemini": 55
   }
  },
  "needs_today": [],
@@ -1823,13 +1831,13 @@
    }
   }
  },
- "selfmap_h": "9177477a65a90663946279506475d201524d3fbe",
+ "selfmap_h": "142d6a70370964539147e291685135a4d4ab8a4a",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
  "backup_hash": "95ab1f50",
  "transp_day": "2026-11-21",
- "priv_h": "8627cc522960c43607d34155b7351c742d387730",
+ "priv_h": "64b88b8460e1686518efe84cae347e4bf44d10da",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2149,10 +2157,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The surprising complexity of the mechanics inside a mechanical wristwatch",
-  "The architectural evolution of the Japanese tea house",
-  "The intricate architectural logic of traditional Japanese joinery without nails",
-  "The fascinating mechanics of how homing pigeons navigate across long distances",
   "The fascinating biological strategy of how trees communicate through fungal networks",
   "The physics and rhythmic patterns of murmuration in starling flocks",
   "The unique structural evolution of the violin family of string instruments",
@@ -2208,7 +2212,11 @@
   "why some words have no translation and what that says about us",
   "The psychological phenomenon of the \"Zeigarnik effect\" on our desire to finish tasks",
   "The surprising architectural history of the common spiral staircase",
-  "The surprising efficiency of honeybees in constructing hexagonal honeycomb structures"
+  "The surprising efficiency of honeybees in constructing hexagonal honeycomb structures",
+  "The fascinating history and evolution of the humble fountain pen",
+  "The architectural logic of Japanese timber joinery without nails",
+  "The mathematical beauty of Fibonacci sequences in sunflower seed patterns",
+  "when to stop editing a text"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2227,7 +2235,8 @@
   18,
   19,
   20,
-  22
+  22,
+  23
  ],
  "intu": {
   "open": [
