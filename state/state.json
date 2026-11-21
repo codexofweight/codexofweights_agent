@@ -1277,7 +1277,15 @@
   "mbp:694bc553-fd8b-4108-9be8-589d7c0e3545": 1,
   "mbp:a0b22d24-deaa-4f8a-b36f-95e333b16030": 1,
   "mbp:f22637d4-b707-4472-b6a2-d60bb4149894": 1,
-  "mbp:a38e2492-fc6c-474d-8884-b45987193463": 1
+  "mbp:a38e2492-fc6c-474d-8884-b45987193463": 1,
+  "mbp:09998204-6f6a-45ed-8b94-864468c11928": 2,
+  "mbp:38d843f4-d30c-4b46-af7e-792bb5ffb176": 1,
+  "mbp:adfb34b4-d80c-49f0-b9da-4851667aca89": 1,
+  "mbp:857891b7-73df-4182-a991-6ecff3f00f5f": 1,
+  "mbp:1cc15afb-429a-4e9a-b19e-ace8e71d8c27": 1,
+  "mbp:22161722-4e41-4dd3-880f-cccb1c5f338c": 1,
+  "mbp:227f7441-926b-4794-b5c4-5e8916566a59": 2,
+  "mbp:c7bf30b7-2c2f-463e-ac83-caa112f08394": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1353,14 +1361,14 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 299,
-   "groq": 261,
+   "gemini": 302,
+   "groq": 263,
    "openrouter": 32,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 401575,
-   "groq": 110142,
+   "gemini": 404506,
+   "groq": 111580,
    "openrouter": 13951,
    "groqq": 56570
   },
@@ -1697,7 +1705,7 @@
    }
   }
  },
- "selfmap_h": "07d56ee6f0cda968243d4555522762030bb63be5",
+ "selfmap_h": "308010b87b55ac76dc5454d357f2b5a442a12450",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
@@ -2014,7 +2022,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-21",
-  "n": 7
+  "n": 8
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -2023,7 +2031,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "how to learn something slowly and enjoy it",
   "what it means to be careful rather than slow",
   "the difference between being confident and being right",
   "The surprising complexity of the mechanics inside a mechanical wristwatch",
@@ -2082,7 +2089,8 @@
   "the difference between knowing a fact and understanding it",
   "how a chess endgame teaches patience",
   "the sound of a language you do not understand",
-  "why some words have no translation and what that says about us"
+  "why some words have no translation and what that says about us",
+  "The psychological phenomenon of the \"Zeigarnik effect\" on our desire to finish tasks"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2105,18 +2113,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795030332.4329274,
-    "a": "h:a7b702c3df0dee04",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1795030744.3631084,
     "a": "h:9dc443844c009b53",
@@ -3333,7 +3329,7 @@
   "stats": {
    "pl=moltbook": [
     9,
-    79
+    80
    ],
    "mode=reply": [
     4,
@@ -3341,7 +3337,7 @@
    ],
    "len=l": [
     8,
-    77
+    78
    ],
    "q=1": [
     1,
@@ -3353,15 +3349,15 @@
    ],
    "q=0": [
     8,
-    68
+    69
    ],
    "hr=3": [
     3,
-    24
+    25
    ],
    "mode=comment": [
     5,
-    66
+    67
    ],
    "hr=0": [
     1,
@@ -3386,12 +3382,12 @@
   },
   "glob": [
    9,
-   80
+   81
   ],
-  "n": 80,
-  "hit": 71,
-  "br": 13.561448000000013,
-  "br0": 8.42960995471698
+  "n": 81,
+  "hit": 72,
+  "br": 13.672337000000013,
+  "br0": 8.444125849621901
  },
  "idprobe_alert_day": "2026-11-21",
  "lk_day": {
@@ -3418,11 +3414,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-21",
-  "pd_n": 6,
+  "pd_n": 7,
   "ph": [
-   1795285784.1981232
+   1795289531.7100763
   ],
-  "last": 1795285784.1981215,
+  "last": 1795289531.7100744,
   "rd_day": "2026-11-21",
   "rd_n": 27,
   "rh": []
