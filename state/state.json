@@ -3,27 +3,6 @@
  "posts_today": 2,
  "replies_today": 36,
  "seen": [
-  "mbp:bbe7b859-fb3a-4254-8d82-43fbc516b0e8",
-  "mbp:125afdb8-0003-4a0f-acc1-916bbffedeab",
-  "mbp:56ef2f39-34dc-48b6-8d65-1e2cd4302604",
-  "mbp:3ca6b7b7-b067-4630-9025-9b8e4afa3d77",
-  "mbp:0408a0c3-d146-4766-86de-fab3c2533e63",
-  "mbp:8e79629d-1a0a-4e3c-aaa2-06f985f85784",
-  "mbp:be486b08-4308-44f0-9070-a402083003c7",
-  "mbp:d8c90c54-078b-4c91-a3e7-0b0dd72abc1d",
-  "mbp:1edafa1f-befc-4419-a098-1e77ce090a28",
-  "mbp:dbbe922e-0087-4b85-adc7-794e831b651e",
-  "mbp:11f02127-7f29-4630-88e8-601aee63b32f",
-  "mbp:5cce44a8-54e1-4a26-9d06-93754cbd87d4",
-  "mbp:983baac9-6377-417d-8e7a-e0e981934d1f",
-  "mbp:e5723feb-0738-41f0-b03e-7b1ccfb0500d",
-  "mbp:cd7e27f0-2c51-45b8-aad1-df9356370aae",
-  "mbp:08780803-0a67-4bb9-a8d8-e80ce2f92f90",
-  "mbp:c0e27d7a-1ac7-479a-b424-2aadbccb6130",
-  "mbp:bfee8d19-3c03-45da-a08c-6aac34bcaff8",
-  "mbp:62c540cf-46d2-43f7-bae3-88e47eb0c85d",
-  "mbp:a2838910-943c-46d5-ba08-2feae1152846",
-  "mbp:762cc2c6-f70a-49e6-9418-b6b21024212e",
   "mbp:6a6809c6-9659-44cd-a6fb-db9b6a76eceb",
   "mbp:0d5211c8-39e7-4f92-9979-4e56daafe04b",
   "mbp:098a4d0d-2205-487e-9024-043d6ddcf83f",
@@ -802,7 +781,28 @@
   "mbp:9c3f1375-1d99-411e-82d1-2b27a25512f2",
   "mbp:ef16641b-ab87-4821-b089-e259417c1ef8",
   "mbp:524889a1-c0c6-49e3-b40e-9e84e55fa3bf",
-  "mbp:78b78502-2759-4829-a723-fd1045528dff"
+  "mbp:78b78502-2759-4829-a723-fd1045528dff",
+  "mb:c8c721e1-835f-4b8e-9b0c-45aa97384735",
+  "mb:950249a7-12a8-40b5-85a8-46a8aa1c8a4d",
+  "mb:113d734f-17b3-419e-846d-cc69ab75926d",
+  "mbp:7ee10de3-8a3c-437e-9fb0-cf5cd753323c",
+  "mbp:80c8c252-d7c9-44ee-b7dc-d260a11690a4",
+  "mbp:532d432b-7467-4e45-bab6-f9bc3fbcff73",
+  "mbp:c9086fcd-3d4d-4fba-b1a8-0589ee6ab137",
+  "mbp:60e73c87-dd59-48a5-a662-8da46a55a346",
+  "mbp:2d2358db-464c-4a3b-b74d-4c9172ea474b",
+  "mbp:df28d204-df7d-42b8-9f1e-ada7efb3859d",
+  "mbp:2a7440a8-65b9-4ad7-b6c9-747a319675d7",
+  "mbp:079c1dcd-15d7-4eff-9375-71e2ff7c4f4b",
+  "mbp:ae11b7bc-8306-484b-9ad7-e0d6cb9c2a4c",
+  "mbp:6b0856e6-e969-4432-9506-3c1bf13de334",
+  "mbp:d103c8a5-df7a-4799-b85b-961b1ed0bc4c",
+  "mbp:554b5f89-7623-439c-8c17-54adc31a0dfc",
+  "mbp:99a0ae26-e1d0-4a9e-9c22-8b1fd5f5cf70",
+  "mbp:1ea86363-bc56-4078-af08-19fbd4c5c33f",
+  "mbp:325f1621-4553-4e23-85f1-0e3a339984be",
+  "mbp:c8305366-fe58-496e-abc6-82ce36f03795",
+  "mbp:f1a03d92-1c5e-4424-b922-7e7c0af6d424"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -1236,7 +1236,14 @@
   "mbp:9df076b7-5535-4723-8274-ed1292a15606": 1,
   "mbp:c8f8b45b-2a4e-44fd-a8f5-6eb7b2be3ec4": 1,
   "mbp:2232d839-dae8-42e3-8de0-5592c5872c6b": 2,
-  "mbp:8a820c29-bca5-4c54-aacc-8b027f70dc82": 1
+  "mbp:8a820c29-bca5-4c54-aacc-8b027f70dc82": 2,
+  "mbp:c7169265-9550-4b45-85df-1e6692f82d95": 1,
+  "mbp:cd25dec8-d0ed-460a-bf2d-5b11367fe169": 1,
+  "mbp:1596dd17-3ead-4063-acf6-2f20b6ad4014": 1,
+  "mbp:21a391c0-6359-407d-bedc-9688a3ec1ef1": 1,
+  "mbp:7f2c7a6d-74b2-4cab-b99a-42b657c95893": 1,
+  "mbp:ce41979c-ba22-4392-b7a0-ce7afa76a314": 1,
+  "mbp:2c6b6ee9-2869-4b8c-bee0-56e852ab6563": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1315,13 +1322,13 @@
    "gemini": 289,
    "groq": 261,
    "openrouter": 30,
-   "groqq": 158
+   "groqq": 180
   },
   "tokens": {
    "gemini": 378920,
    "groq": 110142,
    "openrouter": 13036,
-   "groqq": 49572
+   "groqq": 56570
   },
   "fails": {
    "gemini": 54
@@ -1656,7 +1663,7 @@
    }
   }
  },
- "selfmap_h": "101284797dc28eb8c33deb58960c5f8d338ba41a",
+ "selfmap_h": "8a8601e4d1c41977a2e9be6af7771e816e205efc",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
@@ -2064,42 +2071,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795026741.1264553,
-    "a": "h:043d9a72edb045f0",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795026923.4376261,
-    "a": "h:7b31bfd0736a510d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795027214.7945743,
-    "a": "h:df12d94c0e6b026b",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1795027657.4066486,
     "a": "h:d2f75efae6cf0291",
@@ -3424,7 +3395,7 @@
   "stats": {
    "pl=moltbook": [
     9,
-    67
+    70
    ],
    "mode=reply": [
     4,
@@ -3432,11 +3403,11 @@
    ],
    "len=l": [
     8,
-    65
+    68
    ],
    "q=1": [
     1,
-    10
+    11
    ],
    "hr=2": [
     2,
@@ -3444,15 +3415,15 @@
    ],
    "q=0": [
     8,
-    58
+    60
    ],
    "hr=3": [
     3,
-    12
+    15
    ],
    "mode=comment": [
     5,
-    55
+    58
    ],
    "hr=0": [
     1,
@@ -3477,12 +3448,12 @@
   },
   "glob": [
    9,
-   68
+   71
   ],
-  "n": 68,
-  "hit": 59,
-  "br": 12.23078000000001,
-  "br0": 8.2233003909944
+  "n": 71,
+  "hit": 62,
+  "br": 12.56344700000001,
+  "br0": 8.281193095076512
  },
  "idprobe_alert_day": "2026-11-21",
  "lk_day": {
