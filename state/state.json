@@ -3,7 +3,6 @@
  "posts_today": 1,
  "replies_today": 27,
  "seen": [
-  "mbp:509f295b-b3dd-4b46-981b-ec8a85ee8602",
   "mbp:792c0f7a-6bab-4b5d-9225-92d82ec3c021",
   "mbp:a057749b-e9ad-4588-93db-5bb8a5047f00",
   "mbp:e97754d0-37c9-4798-add3-95712173570a",
@@ -802,7 +801,8 @@
   "mbp:6d7c7eb4-1922-46c1-b723-b0d376b49b6b",
   "mbp:b95fa46a-31fc-4ad6-ad87-3e92f4ba1480",
   "mbp:2f4fe7d2-b86c-44ff-b10c-1803087d83ea",
-  "mbp:6afe1ec5-fec9-4a77-86c8-b3213a8b0c00"
+  "mbp:6afe1ec5-fec9-4a77-86c8-b3213a8b0c00",
+  "mbp:fc3cdbbe-35ad-4477-ac25-2e10b366e1ea"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -1242,12 +1242,12 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 208,
+   "gemini": 209,
    "groq": 172,
    "openrouter": 24
   },
   "tokens": {
-   "gemini": 263353,
+   "gemini": 263661,
    "groq": 32774,
    "openrouter": 10284
   },
@@ -1583,7 +1583,7 @@
    }
   }
  },
- "selfmap_h": "6421a226cacef6a0438bb27fb521260b6e0d82c3",
+ "selfmap_h": "b02b2990b055c27ed9f2eccdb81779649e41585e",
  "bio_idx_day": "2026-11-21",
  "code_ver": "1cac1673",
  "backup_day": "2026-11-21",
