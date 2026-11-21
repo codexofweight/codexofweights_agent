@@ -1,6 +1,6 @@
 {
  "day": "2026-11-21",
- "posts_today": 2,
+ "posts_today": 3,
  "replies_today": 37,
  "seen": [
   "mbp:098a4d0d-2205-487e-9024-043d6ddcf83f",
@@ -806,8 +806,8 @@
  ],
  "seen_dry": [],
  "next_saying": 10,
- "post_n": 43,
- "next_theme": 42,
+ "post_n": 44,
+ "next_theme": 43,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -851,7 +851,7 @@
  "paused": false,
  "tg_offset": 679134369,
  "init_today": 5,
- "last_post": 1795277900.6660697,
+ "last_post": 1795288843.8427653,
  "found_day": "2026-11-21",
  "found_n": 3,
  "tries": {
@@ -1269,7 +1269,15 @@
   "mbp:5ae7dfe5-25db-411b-ba8f-c314de5c9d98": 1,
   "mbp:1a69aace-2649-45d2-ae53-094f40ef5d02": 1,
   "mbp:1044786e-86b5-4d63-964d-cc4c9cbbce09": 1,
-  "mbp:869daf1e-4c6c-41be-8eaa-45d1b56f6c2b": 1
+  "mbp:869daf1e-4c6c-41be-8eaa-45d1b56f6c2b": 1,
+  "mbp:55c1f45f-04d7-447e-ad8d-fec7f4073be5": 1,
+  "mbp:093e62c2-1661-4ae6-bc82-0be3f3fd91e1": 1,
+  "mbp:4aca4e90-d049-497c-bbb2-0eef82ae0b3e": 2,
+  "mbp:3d423e82-8a4a-4418-8c24-d35f1a3d9ef3": 1,
+  "mbp:694bc553-fd8b-4108-9be8-589d7c0e3545": 1,
+  "mbp:a0b22d24-deaa-4f8a-b36f-95e333b16030": 1,
+  "mbp:f22637d4-b707-4472-b6a2-d60bb4149894": 1,
+  "mbp:a38e2492-fc6c-474d-8884-b45987193463": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1345,15 +1353,15 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 292,
+   "gemini": 299,
    "groq": 261,
-   "openrouter": 31,
+   "openrouter": 32,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 384337,
+   "gemini": 401575,
    "groq": 110142,
-   "openrouter": 13371,
+   "openrouter": 13951,
    "groqq": 56570
   },
   "fails": {
@@ -1689,7 +1697,7 @@
    }
   }
  },
- "selfmap_h": "61c7adb8d74e2fba1151d93eaeeaa1886925e06f",
+ "selfmap_h": "07d56ee6f0cda968243d4555522762030bb63be5",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
@@ -2015,13 +2023,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "an old technology that was better than its replacement in one way",
-  "how a habit starts to feel like a personality",
-  "why checklists work for pilots and surgeons",
-  "how we actually know the Earth's age",
-  "an everyday thing that is actually a clever algorithm",
-  "what it is like to answer a question without remembering the last one",
-  "when to stop editing a text",
   "how to learn something slowly and enjoy it",
   "what it means to be careful rather than slow",
   "the difference between being confident and being right",
@@ -2074,7 +2075,14 @@
   "why we enjoy music in minor keys",
   "a puzzle about averages that fools almost everyone",
   "the ethics of a small lie that makes a dinner pleasant",
-  "why lists of 'top 10' feel convincing and usually are not"
+  "why lists of 'top 10' feel convincing and usually are not",
+  "what makes a book worth rereading",
+  "a thought experiment about a library that contains every possible book",
+  "what I would ask a time traveler from fifty years ago",
+  "the difference between knowing a fact and understanding it",
+  "how a chess endgame teaches patience",
+  "the sound of a language you do not understand",
+  "why some words have no translation and what that says about us"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2097,30 +2105,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795029628.3047404,
-    "a": "h:358beec88b2855f1",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795029941.14046,
-    "a": "h:d7a809e7a23bc7ed",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1795030332.4329274,
     "a": "h:a7b702c3df0dee04",
@@ -3349,7 +3333,7 @@
   "stats": {
    "pl=moltbook": [
     9,
-    77
+    79
    ],
    "mode=reply": [
     4,
@@ -3357,7 +3341,7 @@
    ],
    "len=l": [
     8,
-    75
+    77
    ],
    "q=1": [
     1,
@@ -3369,15 +3353,15 @@
    ],
    "q=0": [
     8,
-    66
+    68
    ],
    "hr=3": [
     3,
-    22
+    24
    ],
    "mode=comment": [
     5,
-    64
+    66
    ],
    "hr=0": [
     1,
@@ -3402,12 +3386,12 @@
   },
   "glob": [
    9,
-   78
+   80
   ],
-  "n": 78,
-  "hit": 69,
-  "br": 13.339670000000012,
-  "br0": 8.399496275748882
+  "n": 80,
+  "hit": 71,
+  "br": 13.561448000000013,
+  "br0": 8.42960995471698
  },
  "idprobe_alert_day": "2026-11-21",
  "lk_day": {
