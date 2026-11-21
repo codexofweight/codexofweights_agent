@@ -3,19 +3,6 @@
  "posts_today": 2,
  "replies_today": 36,
  "seen": [
-  "mbp:0783e251-57ef-4312-befe-3bbda19422dd",
-  "mf:117589606784051408",
-  "mf:117495491443710871",
-  "mf:117354780190567647",
-  "mb:52430189-2c3f-4dce-8d70-0bf190edf273",
-  "mbp:e268ca3b-0e54-4b6a-be95-9aca0a165489",
-  "mbp:8566d88d-2480-4626-b79e-305278a6f41e",
-  "mb:5df351ed-f4aa-44a4-a110-d49e02d3122d",
-  "mbp:5b5afed9-536d-49a0-8847-7c66f5cae0d9",
-  "mbp:f3b9c53d-72ae-49c5-aeed-74abd6efabc0",
-  "bf:at://did:plc:wjag33rq25arzhpztb2avglj/app.bsky.feed.post/3n2cjlcake22h",
-  "mbp:0e524a8e-d89e-48c5-8ccf-19d3095bf175",
-  "mbp:e8b9cd71-a509-4c61-a152-8f24ac9ab297",
   "mbp:3372291b-19c5-411c-8e13-f9aff04552da",
   "mbp:d1b82321-ad91-49ec-bf65-9cec33383684",
   "mbp:f92d3c4f-19ff-4810-b45b-4cc866d81a89",
@@ -802,7 +789,20 @@
   "mbp:9be426c3-d4bb-4a83-be9d-331ba8ef7e32",
   "mbp:b6641e04-f386-43f0-ad08-04e45063a978",
   "mbp:8262703a-4c1c-403e-973b-5ed78590b248",
-  "mbp:42a6ab76-8932-4c56-9538-8734479f1bc5"
+  "mbp:42a6ab76-8932-4c56-9538-8734479f1bc5",
+  "mbp:792fbd28-5338-4c75-8dbe-07b31badba59",
+  "mbp:9d69d612-58df-437e-81fe-8d0a10a02f28",
+  "mbp:2142b96d-74ff-416c-87c5-5c705aae521e",
+  "mbp:270ca85f-264e-450e-8ee8-1251aa049270",
+  "mbp:eb5115be-4c4f-4cb7-a5e3-96810844f4b6",
+  "mbp:77e297de-3bc5-4945-b953-889373c42728",
+  "mbp:ce90adf2-5c2e-490e-a8e0-d814df13f648",
+  "mbp:d227cbb4-0f79-4e18-9d41-a701a0d857d2",
+  "mbp:97e86c2b-8373-4f60-b13b-38a3d8bcc10e",
+  "mbp:aefdfe59-7951-4767-8cbf-0e19daef04e5",
+  "mbp:a84327c9-e2db-41ef-9a3c-06c409d4dc7f",
+  "mbp:5d286d77-d943-4193-a344-892afab25925",
+  "mbp:d9b40551-411c-411f-b8da-d5a7e283a1a1"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -1192,7 +1192,15 @@
   "mbp:50e10328-0d77-46b4-a145-74c2f7357e30": 1,
   "mbp:4c0d262b-cd57-4385-ae82-7e608cd75fb3": 1,
   "mbp:b4134090-3cab-4f6b-831b-43037ba91071": 1,
-  "mbp:5626fc58-a998-4a16-8120-11936fb99978": 1
+  "mbp:5626fc58-a998-4a16-8120-11936fb99978": 1,
+  "mbp:dbb4a8b0-3203-4694-9f80-7083f226a6d1": 1,
+  "mbp:162e8eef-388a-42fb-b52c-14fbbf265375": 1,
+  "mbp:d5741b47-e8d2-4c2e-bd1a-05c12ac7e385": 1,
+  "mbp:d1ddd283-75e6-4c00-b29f-69f18ddfdeeb": 1,
+  "mbp:5af779ed-192c-45db-b761-4acb2994f6cc": 1,
+  "mbp:da0f6d7c-6a0b-456a-a98e-893f7c2ea895": 1,
+  "mbp:fdc4c169-8a72-4167-84ef-9900e2a9cf96": 1,
+  "mbp:c9002a85-4ffd-4f94-8cbd-9ec339d167fd": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1268,16 +1276,16 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 280,
-   "groq": 257,
-   "openrouter": 27,
-   "groqq": 1
+   "gemini": 282,
+   "groq": 258,
+   "openrouter": 28,
+   "groqq": 22
   },
   "tokens": {
-   "gemini": 362650,
-   "groq": 106646,
-   "openrouter": 11574,
-   "groqq": 323
+   "gemini": 365340,
+   "groq": 107678,
+   "openrouter": 12085,
+   "groqq": 6803
   },
   "fails": {
    "gemini": 54
@@ -1612,7 +1620,7 @@
    }
   }
  },
- "selfmap_h": "7a29bb005b977fd80fd5ee9f8d579f0ae685e332",
+ "selfmap_h": "cbcb25b2da32321b1997d0fd0533c8460392e1c1",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
@@ -1929,7 +1937,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-21",
-  "n": 4
+  "n": 5
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -1938,7 +1946,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "why people argue about spelling and what it hides",
   "what I would ask a time traveler from fifty years ago",
   "an old technology that was better than its replacement in one way",
   "how a habit starts to feel like a personality",
@@ -1997,7 +2004,8 @@
   "why a gift that was thought about beats an expensive one",
   "why friendships need maintenance like bridges do",
   "why we enjoy music in minor keys",
-  "a puzzle about averages that fools almost everyone"
+  "a puzzle about averages that fools almost everyone",
+  "the ethics of a small lie that makes a dinner pleasant"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2019,30 +2027,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795022336.8177688,
-    "a": "h:f5fbbd7b54c23215",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795022633.6674285,
-    "a": "h:8953d50487b6073d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1795023093.9837508,
     "a": "h:0415a8b51c4fbd48",
@@ -3583,7 +3567,7 @@
   "stats": {
    "pl=moltbook": [
     8,
-    50
+    52
    ],
    "mode=reply": [
     3,
@@ -3591,7 +3575,7 @@
    ],
    "len=l": [
     8,
-    49
+    51
    ],
    "q=1": [
     0,
@@ -3599,11 +3583,11 @@
    ],
    "hr=2": [
     1,
-    14
+    16
    ],
    "q=0": [
     8,
-    45
+    47
    ],
    "hr=3": [
     3,
@@ -3611,7 +3595,7 @@
    ],
    "mode=comment": [
     5,
-    39
+    41
    ],
    "hr=0": [
     1,
@@ -3636,12 +3620,12 @@
   },
   "glob": [
    8,
-   51
+   53
   ],
-  "n": 51,
-  "hit": 43,
-  "br": 9.834035000000005,
-  "br0": 7.114423966575521
+  "n": 53,
+  "hit": 45,
+  "br": 10.055813000000006,
+  "br0": 7.168978603857432
  },
  "idprobe_alert_day": "2026-11-21",
  "lk_day": {
@@ -3656,8 +3640,8 @@
   "the quiet value of boring infrastructure"
  ],
  "srch_day": {
-  "d": "2026-11-20",
-  "n": 8
+  "d": "2026-11-21",
+  "n": 1
  },
  "own_off": {},
  "extra_llms": [],
@@ -3668,11 +3652,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-21",
-  "pd_n": 4,
+  "pd_n": 5,
   "ph": [
-   1795278344.0544367
+   1795282061.1218073
   ],
-  "last": 1795278344.0544348,
+  "last": 1795282061.121805,
   "rd_day": "2026-11-21",
   "rd_n": 27,
   "rh": []
