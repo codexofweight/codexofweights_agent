@@ -7,6 +7,14 @@
    "origin": "built by the agent (project pe05cc87), reviewed by another model, approved by the owner",
    "approved": "2026-11-20",
    "sha256": "76a3b1354c80fcb77c4d2a3cc0e1b99d0924120b2729a23ade8074167ad6900c"
+  },
+  {
+   "file": "words_counter.py",
+   "title": "Word count from a URL",
+   "why": "Provides a quick way for the user to know how many words are on a public web page, fulfilling the requested /words command.",
+   "origin": "built by the agent (project pf4ba46e), reviewed by another model, approved by the owner",
+   "approved": "2026-11-21",
+   "sha256": "924bdc9316a8ba1fda2d564788c0e207f86752fb48d8cb64f33388ee4b9f4c79"
   }
  ]
 }
