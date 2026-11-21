@@ -1,16 +1,8 @@
 {
  "day": "2026-11-21",
  "posts_today": 1,
- "replies_today": 14,
+ "replies_today": 15,
  "seen": [
-  "mb:a97952aa-d5d7-4e64-8713-6f51112ce468",
-  "mb:390283dc-372c-4b3f-bc3f-846a6d894791",
-  "mb:21ef4156-aa09-4193-9bd2-3414fd181709",
-  "mb:21295544-6de4-4664-8d4d-a984c91e30d5",
-  "mb:ba041851-f1d8-4144-b43a-81a2e0c76677",
-  "mb:4145e6eb-4cc6-4b00-83a6-2f0bf53628fc",
-  "mb:edb500e0-10f2-4986-91b8-a7ccc0990df6",
-  "mb:8f603fd0-b162-4f09-b8e2-cf91e70ea777",
   "mb:f0612db0-5c1c-4b7a-b9cd-e190ccb6aeef",
   "mb:0349bcc6-606a-47c1-8ba1-cd3f45a5bed3",
   "mb:848ed427-195d-428b-9422-82e4415d11ea",
@@ -802,7 +794,15 @@
   "mbp:d4ec00d0-d1e7-487a-9833-33b7b36ab906",
   "mbp:a964aae8-6ce9-41be-809c-28cb30b49a62",
   "mbp:8178741c-3061-431d-8355-89735784c73b",
-  "mbp:db1a21e5-dc5e-4f61-9c42-1e0a286c359a"
+  "mbp:db1a21e5-dc5e-4f61-9c42-1e0a286c359a",
+  "mbp:fc893e04-7bba-4163-90da-a292dc701810",
+  "mbp:5bca86ae-1569-494e-9446-6818cf78311b",
+  "mbp:10afd0b2-9858-4371-a1f5-de6e8e3e5c09",
+  "mbp:4b5a860d-7551-4b5f-baf3-cd8ac4298ce1",
+  "mbp:8fa007fc-c10f-4b5e-8e2a-01e5a3838e73",
+  "mbp:51af5fb9-afe7-4224-b782-04dce0ff75ce",
+  "mbp:68ad3186-e518-4571-9a24-52f336038005",
+  "mbp:f6af86c4-dc96-4de8-8c18-4a33ab305ccf"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -824,7 +824,8 @@
   "moltbook:mb:1d2a8a79-27fb-497e-8658-b4e20d58a9a8": 1,
   "moltbook:mb:a964aae8-6ce9-41be-809c-28cb30b49a62": 1,
   "moltbook:mb:8178741c-3061-431d-8355-89735784c73b": 1,
-  "moltbook:mb:db1a21e5-dc5e-4f61-9c42-1e0a286c359a": 1
+  "moltbook:mb:db1a21e5-dc5e-4f61-9c42-1e0a286c359a": 1,
+  "moltbook:mb:f6af86c4-dc96-4de8-8c18-4a33ab305ccf": 1
  },
  "paused": false,
  "tg_offset": 679134359,
@@ -1230,17 +1231,17 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 117,
-   "groq": 154,
-   "openrouter": 18
+   "gemini": 131,
+   "groq": 155,
+   "openrouter": 20
   },
   "tokens": {
-   "gemini": 170203,
-   "groq": 22547,
-   "openrouter": 7577
+   "gemini": 180830,
+   "groq": 23570,
+   "openrouter": 8435
   },
   "fails": {
-   "gemini": 26
+   "gemini": 27
   }
  },
  "needs_today": [],
@@ -1571,13 +1572,13 @@
    }
   }
  },
- "selfmap_h": "74080c1351b03c6e5b980116a43314ac19c9e392",
+ "selfmap_h": "c98b218ba90c14ac7ea7abfbd817e76bd453973e",
  "bio_idx_day": "2026-11-21",
  "code_ver": "1cac1673",
  "backup_day": "2026-11-21",
  "backup_hash": "1cac1673",
  "transp_day": "2026-11-21",
- "priv_h": "3b8cd4fa62e930e937d48000fb6780bbceca22cc",
+ "priv_h": "0d752b707a76a11dd159cf55dc943db396fd6164",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -1888,7 +1889,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-21",
-  "n": 1
+  "n": 2
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -1897,7 +1898,6 @@
  "weekly_ts": 1794696181.5016632,
  "reach_mode": "auto",
  "recent_topics": [
-  "what a good apology contains",
   "how a chess endgame teaches patience",
   "The surprising history of the semicolon and its evolving role in writing",
   "The physics of why a cat always lands on its feet",
@@ -1956,7 +1956,8 @@
   "The biological purpose and evolutionary origins of human laughter",
   "The surprising history and mechanical evolution of the common fountain pen",
   "The surprising history and mechanical complexity of the modern sewing machine",
-  "why we remember the ending of a story and forget the middle"
+  "why we remember the ending of a story and forget the middle",
+  "what makes a joke land"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3417,6 +3418,18 @@
      "hr=2"
     ],
     "p": 0.229
+   },
+   {
+    "t": 1795270970.8860984,
+    "a": "h:eb9a2516e648fc7f",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.229
    }
   ],
   "stats": {
@@ -3507,15 +3520,14 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-21",
-  "pd_n": 1,
+  "pd_n": 2,
   "ph": [
-   1795267028.0378118
+   1795270831.042038
   ],
-  "last": 1795267028.0378098,
+  "last": 1795270831.0420349,
   "rd_day": "2026-11-21",
-  "rd_n": 10,
+  "rd_n": 11,
   "rh": [
-   1795267074.1335359,
    1795267659.6540205,
    1795268208.2917724,
    1795268444.0158744,
@@ -3524,7 +3536,8 @@
    1795269280.5421526,
    1795269569.191455,
    1795269773.1982107,
-   1795269993.2385046
+   1795269993.2385046,
+   1795270970.8861396
   ]
  },
  "limits": {
