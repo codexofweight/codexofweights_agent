@@ -800,7 +800,7 @@
  "paused": false,
  "tg_offset": 679134342,
  "init_today": 0,
- "last_post": 1795251155.9707787,
+ "last_post": 1795251611.481121,
  "found_day": "2026-11-20",
  "found_n": 1,
  "tries": {
@@ -1196,11 +1196,11 @@
   "day": "2026-11-21",
   "calls": {
    "gemini": 2,
-   "groq": 132
+   "groq": 136
   },
   "tokens": {
    "gemini": 837,
-   "groq": 18348
+   "groq": 18904
   },
   "fails": {}
  },
@@ -1238,7 +1238,7 @@
   "lab/projects/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe",
   "lab/projects/p34d78c0.json": "ae4321ea3b32340161431bb33e4e22caaae4903d",
   "lab/projects/p34ada19.json": "c1c697832ccb7ed3336cc0eccec726c1c80c3b58",
-  "lab/projects/p69b9e40.json": "99d513b3335fa244ebddf4ea31dd14dfe2d2dc8d"
+  "lab/projects/p69b9e40.json": "e0b4928da6a4580aea84aaee1814cab6373a5d24"
  },
  "research_try": {
   "2026-11-20": 1
@@ -1530,7 +1530,7 @@
    }
   }
  },
- "selfmap_h": "03ad1771a8fd8207bd52c633a2f9e24ef6cb7691",
+ "selfmap_h": "744f2912209c8da4438156d02ca59c79053ca69a",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4f23e029",
  "backup_day": "2026-11-20",
