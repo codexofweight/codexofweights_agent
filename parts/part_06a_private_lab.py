@@ -31,9 +31,9 @@ def lab_sync():
     """Mirror local lab folders into the private repo; a file that left a folder is removed there, and a rejected tool/module is archived in lab/rejected/."""
     if not MEM_TOKEN or not LIVE: return
     sent = ST.setdefault("lab_sent", {})
-    if not sent.get("_init2"):
-        idx = "# Lab\n\nPrivate workshop of the agent. Path: lab -> report -> owner says yes -> agent repo. Nothing is promoted without consent.\n\n" + "".join("- `%s/` - %s\n" % kv for kv in (("tools_pending", "tools waiting for the owner's decision"), ("tools_active", "approved tools"), ("modules_pending", "module designs waiting for a decision"), ("modules_approved", "accepted designs (not connected to the core)"), ("rejected", "archive of rejected tools and modules"), ("reports", "raw reports"), ("experiments", "experiments and null results")))
-        if _put("lab/README.md", idx, "lab index"): sent["_init2"] = 1
+    if not sent.get("_init3"):
+        idx = "# Lab\n\nPrivate workshop of the agent. Path: lab -> report -> owner says yes -> agent repo. Nothing is promoted without consent.\n\n" + "".join("- `%s/` - %s\n" % kv for kv in (("projects", "active and waiting projects (/make, research, scout)"), ("projects_archive", "finished, failed and stopped projects (moved here after 3 days)"), ("reports", "raw reports"), ("experiments", "experiments and null results"), ("skills", "skill notes"), ("content", "content drafts"), ("rejected", "archive of rejected items"), ("tools, tools_active, tools_pending, modules, modules_pending, modules_approved, architecture, adapters", "older folders of the previous tool and module systems (kept for history; the current way is /make -> own/)")))
+        if _put("lab/README.md", idx, "lab index"): sent["_init3"] = 1
     for loc, rp in LAB_MAP.items():
         d = P(loc)
         if not os.path.isdir(d): continue
@@ -57,7 +57,7 @@ try: sandbox_ready()
 except Exception as _ex: SANDBOX_OK[0] = False; print("sandbox check crashed:", type(_ex).__name__, flush=True)
 
 # ---- state: the public file keeps counters and hashed identities only; pending drafts and owner requests stay in the private repo ----
-PRIVATE_KEYS = ("asks", "ask_id", "tool_request", "rejected", "pend_seen", "quiet_until", "chat_hist", "owner_seen", "vk_lp", "by_author", "vk_welcomed", "own_data")
+PRIVATE_KEYS = ("asks", "ask_id", "tool_request", "rejected", "pend_seen", "quiet_until", "chat_hist", "owner_seen", "vk_lp", "by_author", "vk_welcomed", "own_data", "wt")
 ST["muted"] = [x if str(x).startswith("h:") else _h(x) for x in ST.get("muted", [])]; ST["contacted"] = [x if str(x).startswith("h:") else _h(x) for x in ST.get("contacted", [])]
 def state_restore_private():
     if not MEM_TOKEN or ST.get("asks"): return

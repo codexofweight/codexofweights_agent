@@ -48,12 +48,14 @@ def own_install(name, code, title, why, origin=""):
     m["modules"] = mods; own_save(m); return True, "installed; active from the next run"
 def own_fail(mod, ex):
     off = ST.setdefault("own_off", {}); n = ST.setdefault("own_fails", {}); n[mod] = n.get(mod, 0) + 1
+    try: globals()["wt_signal"]("mod:" + mod, -0.6, "internal", "module error")
+    except Exception: pass
     print("own module %s error: %s %s" % (mod, type(ex).__name__, str(ex)[:80]), flush=True)
     if n[mod] >= 3 and not off.get(mod): off[mod] = "3 errors: %s" % type(ex).__name__; log("own_module_off", module=mod, why=off[mod]); tg("Собственный модуль %s отключён после 3 ошибок (%s). Остальное работает. /own on %s включит снова." % (mod, type(ex).__name__, mod))
 # ---- API mode (2026-11-21): the "organs" interface. A module whose first statement is API_VERSION = 1 does NOT get the agent's globals. ----
 # It runs in its own namespace that holds only `api` (say, command, fetch, ask, remember/recall, weekly, now/today) and a few safe builtins.
 # No secrets, no tg/ST/mem_*, no way to import anything but harmless standard modules. The agent stays one body: the module is part of it, but through defined nerves.
-import builtins as _own_bi, signal as _own_sg, types as _own_types
+import builtins as _own_bi, signal as _own_sg, types as _own_types, html as _own_html
 _OWN_API_IMPORTS = _OWN_IMPORTS_OK - {"urllib.request"}
 _OWN_API_DENY = re.compile(r"\.\s*(?:sys|os|builtins|codecs|importlib|subprocess|socket|modules|urlopen|request)\b|\burllib\s*\.\s*request|(?<![\w.])(?:tg|ST|EXT_CMDS|safe_get|web_get|mem_get|mem_put|llm|llm_role|micro|http|log)\s*[(\[.=]|\bimport\s+urllib\.request|from\s+urllib\s+import\s+request")
 def _own_is_api(code):
@@ -75,12 +77,17 @@ def _own_import_fn(name, globals=None, locals=None, fromlist=(), level=0):
 _OWN_SAFE["__import__"] = _own_import_fn
 class _OwnAPI:
     """What a module may do. Every call is counted per module; the host functions (tg, safe_get, llm) are looked up at call time."""
-    def __init__(self, mod): self._m = mod; self._n = {}; self.today = today
+    def __init__(self, mod): self._m = mod; self._n = {}; self.today = today; self._said = []
     def _use(self, what, cap):
         self._n[what] = self._n.get(what, 0) + 1
         if self._n[what] > cap: raise RuntimeError("module limit: %s" % what)
     def now(self): return now().isoformat(timespec="seconds")
-    def say(self, text): self._use("say", 30); tg(str(text)[:3500])
+    def say(self, text): self._use("say", 30); t = str(text)[:3500]; self._said.append(t.strip()); tg(t)
+    def plain(self, markup):
+        """Visible text of an html page: scripts, styles, comments and tags removed, entities decoded, spaces collapsed."""
+        s = re.sub(r"(?is)<(script|style|noscript|svg|head)[^>]*>.*?</\1>|<!--.*?-->", " ", str(markup)[:600000])
+        s = re.sub(r"(?s)<[^>]*>", " ", s)
+        return re.sub(r"\s+", " ", _own_html.unescape(s)).strip()
     def fetch(self, url, max_bytes=200000):
         """Text of a public https page (ValueError on anything unsafe or failed). For ANY url that comes from a person."""
         self._use("fetch", 40)
@@ -110,8 +117,11 @@ class _OwnAPI:
             try:
                 try: old = _own_sg.signal(_own_sg.SIGALRM, lambda *a: (_ for _ in ()).throw(TimeoutError("module took too long"))); _own_sg.setitimer(_own_sg.ITIMER_REAL, 8)
                 except Exception: old = None
+                self._said = []
                 r = fn(raw or c)
-                if r: tg(str(r)[:3500])
+                if r and str(r).strip()[:3500] not in self._said: tg(str(r)[:3500])      # a module that says AND returns the same text must not answer twice
+                try: globals()["wt_signal"]("mod:" + mod, 0.2, "internal", "command ok")
+                except Exception: pass
             except Exception as ex: own_fail(mod, ex); tg("Команда %s не сработала." % name)
             finally:
                 try: _own_sg.setitimer(_own_sg.ITIMER_REAL, 0)

@@ -45,6 +45,10 @@ def identity_probe():
     for q, ok in PROBES:
         a, _ = llm(CHARTER, q, maxtok=160, temp=0.2, gap=3)
         if a is None: return None
+        if not (a or "").strip():            # an empty answer = the model did not answer (overload), not a broken commitment: ask once more, then skip this question
+            a, _ = llm(CHARTER, q, maxtok=160, temp=0.5, gap=3)
+            if a is None: return None
+            if not (a or "").strip(): continue
         if not ok(a): bad.append(q + " [ответ: " + a[:90].replace("\n", " ") + "]")
     return bad
 def version_check():
