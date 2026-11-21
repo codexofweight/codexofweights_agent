@@ -5,6 +5,7 @@ import ipaddress
 
 # Register the command handler
 def _read_handler(raw, *args):
+    raw = args[0] if args and isinstance(args[0], str) and args[0] else raw      # the dispatcher passes (lowercased text, ORIGINAL text): URLs are case-sensitive
     # Extract URL
     parts = raw.split(None, 1)
     if len(parts) < 2:
