@@ -798,9 +798,9 @@
  ],
  "by_thread": {},
  "paused": false,
- "tg_offset": 679134346,
+ "tg_offset": 679134350,
  "init_today": 0,
- "last_post": 1795255987.1722095,
+ "last_post": 1795256452.6252995,
  "found_day": "2026-11-20",
  "found_n": 1,
  "tries": {
@@ -1195,12 +1195,12 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 13,
-   "groq": 168
+   "gemini": 17,
+   "groq": 172
   },
   "tokens": {
-   "gemini": 43953,
-   "groq": 23352
+   "gemini": 57905,
+   "groq": 23908
   },
   "fails": {
    "gemini": 2
@@ -1240,7 +1240,7 @@
   "lab/projects/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe",
   "lab/projects/p34d78c0.json": "ae4321ea3b32340161431bb33e4e22caaae4903d",
   "lab/projects/p34ada19.json": "c1c697832ccb7ed3336cc0eccec726c1c80c3b58",
-  "lab/projects/p69b9e40.json": "81406c4f9b667cd2995678690996902ced9552e7",
+  "lab/projects/p69b9e40.json": "08e421a0f31d862ff854e77bcaf44544c769059a",
   "lab/projects/pf4ba46e.json": "13922f9c113f945d9856141de01c96d33d7fc276"
  },
  "research_try": {
@@ -1533,13 +1533,13 @@
    }
   }
  },
- "selfmap_h": "50d51826c429acfe19610cd47c9a05c7a9c6b057",
+ "selfmap_h": "e9d9c7ebb4b7672d35cda9df7e89711e93793e79",
  "bio_idx_day": "2026-11-21",
  "code_ver": "1cac1673",
  "backup_day": "2026-11-21",
  "backup_hash": "1cac1673",
  "transp_day": "2026-11-21",
- "priv_h": "eab06f50a1f0f171d4fcfc0866d1dfc241dba9b3",
+ "priv_h": "15a41284d292d851b1e17c808c5f86dbba539817",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3481,8 +3481,8 @@
   "the quiet value of boring infrastructure"
  ],
  "srch_day": {
-  "d": "2026-11-20",
-  "n": 8
+  "d": "2026-11-21",
+  "n": 1
  },
  "own_off": {},
  "extra_llms": [],
