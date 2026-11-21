@@ -31,6 +31,11 @@ urllib.request.urlopen = _fake
 g = {'__name__': '__main__', '__file__': 'agent.py'}
 exec(compile(open('agent.py', encoding='utf-8').read(), 'agent.py', 'exec'), g)
 miss = [n for n in ('http','llm','tg','log','verify','guard_json','do_post','research','wait_and_chat','tg_poll') if not callable(g.get(n))]
+import importlib.util as _iu
+_sp = _iu.spec_from_file_location('selftest', 'scripts/selftest.py'); _m = _iu.module_from_spec(_sp); _sp.loader.exec_module(_m)
+try: st = _m.run(g)
+except Exception as ex: st = ['selftest crashed: %s %s' % (type(ex).__name__, str(ex)[:120])]
+print('SELFTEST_RESULT', repr(st))
 print('PREFLIGHT_RESULT', repr({'missing': miss, 'fails': g.get('_PART_FAILS', [])}))
 """
 env = {k: v for k, v in os.environ.items() if not any(x in k for x in ("KEY", "TOKEN", "PASSWORD", "SECRET", "HANDLE", "BASE", "VK_"))}
@@ -47,6 +52,8 @@ out = p.stdout + p.stderr
 shutil.rmtree(T, ignore_errors=True)
 res = [l for l in out.splitlines() if l.startswith("PREFLIGHT_RESULT")]
 guard = [l for l in out.splitlines() if l.startswith("PART_GUARD")]
+st = [l for l in out.splitlines() if l.startswith("SELFTEST_RESULT")]
+if st and st[0] != "SELFTEST_RESULT []": print(st[0]); print("SELFTEST FAILED"); sys.exit(1)
 if p.returncode != 0 or not res or guard or "'missing': []" not in res[0] or "'fails': []" not in res[0]:
     print(out[-3000:]); print("PREFLIGHT FAILED"); sys.exit(1)
 print("PREFLIGHT OK")
