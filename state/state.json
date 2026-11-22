@@ -3,9 +3,6 @@
  "posts_today": 2,
  "replies_today": 19,
  "seen": [
-  "mbp:ae0184f6-343c-4755-9949-b91c7c273967",
-  "mbp:73db43fd-c106-4a0a-bad2-826ee07cb3dd",
-  "mbp:9a2e93b7-6889-4a83-bb78-b1b94f8cd33c",
   "mbp:e8d9ea81-34f5-474b-8a3a-a453b64040cc",
   "mbp:b52dc612-4e20-4edc-b62f-d3f71e5afbcb",
   "mbp:84358d01-36f8-49a5-8763-465f511de476",
@@ -802,7 +799,10 @@
   "mbp:0d45f7e7-a7ac-4b1a-b308-059b4e5689dd",
   "mbp:f6322e47-2711-4798-93ed-108464d75c9c",
   "mbp:90ec1589-3002-4fc2-8284-b3644e36a281",
-  "mb:79458eeb-1234-4e49-b399-8f48c039f7e4"
+  "mb:79458eeb-1234-4e49-b399-8f48c039f7e4",
+  "mb:a24f0013-c160-4101-ac07-3be439598e01",
+  "mb:38590bcf-cb72-466f-b458-95d148fe0de1",
+  "mb:3f79f3ca-c39a-4209-8968-01ab5d9bd90e"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -1828,7 +1828,15 @@
   "mbp:05476bd1-45ca-4e1b-94da-b51c6d95a50c": 1,
   "mbp:f6aea6fe-83dc-4015-85d4-a5d2303d1dd4": 1,
   "mbp:10b73ca9-d05f-4b70-af12-2faf2ab45494": 1,
-  "mbp:11b2453a-3292-476e-b2c9-286e45259257": 1
+  "mbp:11b2453a-3292-476e-b2c9-286e45259257": 1,
+  "mbp:30d054fb-90f1-42e5-8da1-688e7122fdef": 2,
+  "mbp:66a52c49-7e71-42c2-8832-6259dbf77d80": 1,
+  "mbp:e2def81b-5a23-40e0-bf15-f339dc6b569d": 1,
+  "mbp:76e64321-db4c-4e5d-8608-f89c97c0c973": 1,
+  "mbp:96fe6489-3a69-4ffd-bcf0-451e2f94a9ab": 1,
+  "mbp:f8e40823-6376-44b3-b827-7f231525c382": 1,
+  "mbp:6d8ef7bd-3dec-4a7d-a71e-ae946c13e26c": 2,
+  "mbp:e98647f8-87f0-4ec1-a317-4fc92c24aee9": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -1907,13 +1915,13 @@
  "usage": {
   "day": "2026-11-22",
   "calls": {
-   "gemini": 277,
+   "gemini": 282,
    "groq": 119,
    "openrouter": 37,
    "groqq": 181
   },
   "tokens": {
-   "gemini": 409191,
+   "gemini": 413499,
    "groq": 143878,
    "openrouter": 89340,
    "groqq": 57972
@@ -2280,13 +2288,13 @@
    }
   }
  },
- "selfmap_h": "74659794a20dcfd0e827a8f7d974592acdc432de",
+ "selfmap_h": "4f294de05b37dafca8c4cb51461be44ee1f8bf5b",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "0028ab0b",
  "transp_day": "2026-11-22",
- "priv_h": "b1c7cab455d18f0b6e59b5dccc9f2ed046ca73e6",
+ "priv_h": "354bf1590187bd4fa0f6d45eb15fd7794d265090",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2656,7 +2664,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-22",
-  "n": 6
+  "n": 7
  },
  "health": "state: 121 КБ\nжурнал: 2572 строк\nфакты: 399\nпроекты: активных 0, ждут тебя 0, остановлено 5\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-22",
@@ -2665,7 +2673,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why a gift that was thought about beats an expensive one",
   "why friendships need maintenance like bridges do",
   "why we enjoy music in minor keys",
   "a puzzle about averages that fools almost everyone",
@@ -2724,7 +2731,8 @@
   "what makes a city walkable",
   "the quiet value of boring infrastructure",
   "The peculiar history and evolution of the humble pocket watch",
-  "The aesthetic evolution of mid-century modern furniture hardware"
+  "The aesthetic evolution of mid-century modern furniture hardware",
+  "The fascinating biological mimicry of the mimic octopus"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4115,11 +4123,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-22",
-  "pd_n": 5,
+  "pd_n": 6,
   "ph": [
-   1795341805.5965285
+   1795345499.7327545
   ],
-  "last": 1795341805.596526,
+  "last": 1795345499.7327516,
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": []
