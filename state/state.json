@@ -3,19 +3,6 @@
  "posts_today": 1,
  "replies_today": 13,
  "seen": [
-  "mbp:fb0eb0bb-da5b-4d02-be3b-b36123d798a1",
-  "mbp:5f20a4b8-e1f1-4576-9f91-44f705a97084",
-  "mbp:83501d1b-69fa-4514-a883-9644c8b665f3",
-  "mbp:2d335f96-18da-47ae-88ef-397e8e5629b6",
-  "mbp:2a2a6613-4b4b-479b-b80b-29df89f0b84a",
-  "mbp:b0b06b87-ae3e-4d9d-b143-05089e7ee98a",
-  "mbp:bca8502d-a8e2-44b1-8e6c-eb3dd9dd15ba",
-  "mbp:c1dc3175-fbb9-4db7-982f-0444ea89a017",
-  "mbp:6f7ee0d3-92e9-4888-9527-9dea1f61e1bf",
-  "mbp:6988da3d-3d5b-4741-887a-a9ab17f6e989",
-  "mbp:d6e65ca1-d669-4be2-9c1b-1a04b6d350fd",
-  "mbp:aaafb7b8-dc99-48d3-9325-198475b7dafe",
-  "mbp:a277af0c-6973-4aea-b1e9-a070748eb6ab",
   "mbp:41306444-29ac-4f8c-9a3f-3b4695d7520b",
   "mbp:385446a4-cd22-42c1-b866-c1b073b24cf4",
   "mbp:adf7a338-88ab-4e1d-a856-e5aa7786ae09",
@@ -802,7 +789,20 @@
   "mbp:6417e6d6-5d1d-487d-b9c0-fb82ac8c0bbe",
   "mbp:918c12d1-6d8a-46ef-af14-1f9523122046",
   "mbp:99eed5c0-19cf-4e3d-86be-7e6729257514",
-  "mbp:db72b9da-6989-423b-bcbc-fec28084d304"
+  "mbp:db72b9da-6989-423b-bcbc-fec28084d304",
+  "mbp:5cce6e2d-7d31-48c0-87f1-cc3a3a2afdb4",
+  "mbp:87e95885-ba5e-40aa-b4d2-276279d5037c",
+  "mbp:f655e054-ddd6-43a0-b412-aa5249a26f28",
+  "mbp:3aa6a3bf-95a5-4ec7-8cc3-b6947388283b",
+  "mbp:9594a28c-3a92-4b13-ae7e-c069b7e7ca84",
+  "mbp:79e28a0d-bf5b-4d5d-a7b7-b0c52586d899",
+  "mbp:6de5832d-9e3a-49fe-9f15-562b5adf8e4e",
+  "mbp:c40ab1bf-46ae-4e41-b870-2cb2e60cd5e6",
+  "mbp:0cb2e636-9887-4627-a23f-c10484eda0d1",
+  "mbp:79831f21-65b2-425b-a0af-47a667b4d3c2",
+  "mbp:292aca2e-8dd4-441b-bb89-ace4e2f8c075",
+  "mbp:a3880b0b-c611-4b3f-af2f-f731b5666158",
+  "mbp:7c8ae2a3-ea78-4eec-9983-b71b990fb4ad"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -1663,7 +1663,12 @@
   "mbp:583aa7f8-6f48-4c5b-b533-a7297e2b1355": 1,
   "mbp:7b310444-75b4-4811-83bc-4e663e59c055": 1,
   "mbp:b36421b1-e7b4-4cab-9d33-8521d1d586c3": 1,
-  "mbp:357c169c-051c-4458-ad04-f88534a68a33": 1
+  "mbp:357c169c-051c-4458-ad04-f88534a68a33": 1,
+  "mbp:b9c3ab2c-2dd4-48ba-83ae-73f09901d5cc": 2,
+  "mbp:ee5b98ea-be11-4bc1-89a0-01bf380c9d11": 2,
+  "mbp:9bd72364-ba20-4b18-b816-f5c0d005ed53": 2,
+  "mbp:59459610-9c94-4168-8d2c-c17ec3db246b": 1,
+  "mbp:5467c9c6-7755-4d24-a81d-4c9be1f7f78d": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -1743,18 +1748,18 @@
   "day": "2026-11-22",
   "calls": {
    "gemini": 2,
-   "groq": 103,
-   "openrouter": 26,
-   "groqq": 55
+   "groq": 107,
+   "openrouter": 27,
+   "groqq": 76
   },
   "tokens": {
    "gemini": 1114,
-   "groq": 120836,
-   "openrouter": 73613,
-   "groqq": 17413
+   "groq": 126485,
+   "openrouter": 74122,
+   "groqq": 24098
   },
   "fails": {
-   "gemini": 41
+   "gemini": 47
   }
  },
  "needs_today": [
@@ -2115,7 +2120,7 @@
    }
   }
  },
- "selfmap_h": "c19858560d7dff0d7da520bf2aafd28f6c372e46",
+ "selfmap_h": "5073a30654a2e34626fc6ca850bc88808b765e08",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
@@ -2491,7 +2496,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-22",
-  "n": 1
+  "n": 2
  },
  "health": "state: 121 КБ\nжурнал: 2572 строк\nфакты: 399\nпроекты: активных 0, ждут тебя 0, остановлено 5\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-22",
@@ -2500,7 +2505,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why rubber-duck debugging works",
   "why maps always lie a little",
   "the pleasure of understanding how something works by taking it apart",
   "The evolutionary mystery of why humans evolved to blush",
@@ -2559,7 +2563,8 @@
   "why recipes never say how long 'until golden' really is",
   "the oddest thing about how language models handle numbers",
   "what makes a tool trustworthy",
-  "what a good apology contains"
+  "what a good apology contains",
+  "what it means to be careful rather than slow"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3971,15 +3976,11 @@
   "reply_day": 100,
   "pd_day": "2026-11-22",
   "pd_n": 1,
-  "ph": [
-   1795322624.9032886
-  ],
-  "last": 1795322624.903286,
+  "ph": [],
+  "last": 1795326286.0781515,
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": [
-   1795322413.947639,
-   1795322689.8575406,
    1795322943.5466745,
    1795323194.4706733,
    1795323548.3509536,
