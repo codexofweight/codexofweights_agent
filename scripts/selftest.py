@@ -120,4 +120,19 @@ def run(g):
     finally: g["tg"] = old_tg5
     mods_ = [x["file"] for x in g["own_manifest"]()["modules"]]
     check("read_url.py and words_counter.py are API-mode modules", all(g["_own_is_api"](open(os.path.join(root_, "own", f), encoding="utf-8").read()) for f in ("read_url.py", "words_counter.py") if f in mods_))
+    # 13. self-map v0: block statistics, the brake after 6 blocked replies in a row, no weight signal for an unavailable verifier, real command list in the chat
+    g["ST"].pop("smap", None); g["ST"].pop("wt", None)
+    for _ in range(5): g["log"]("blocked_by_verifier", to="x", their="t", text="t", reason="verifier unavailable (fail closed)", uri="u1")
+    check("a block from an unavailable verifier is not a weight signal", "style:reply" not in (g["ST"].get("wt") or {}).get("items", {}), g["ST"].get("wt"))
+    check("self-state reports the block reasons", "5 blocked" in g["self_state"]() and "unavailable" in g["self_state"](), g["self_state"]())
+    old_tg6 = g["tg"]; sent6 = []; g["tg"] = lambda t, *a, **k: sent6.append(t)
+    try:
+        check("five blocks do not brake yet", not g["sm_braking"]())
+        g["log"]("blocked_by_verifier", to="x", their="t", text="t", reason="verifier unavailable (fail closed)", uri="u1")
+        check("six blocks in a row brake replies and tell the owner once", g["sm_braking"]() and len(sent6) == 1, sent6)
+        check("while braking, respond returns retry without work and settle keeps the tries", g["respond"]("a", "h", "hello there", "t", "uX", lambda t: ("sent", "r")) == "retry" and g["settle"]("kk", True) is False and "kk" not in g["ST"].get("tries", {}))
+        g["ST"]["smap"]["brake_until"] = 0
+        check("the brake ends by itself", not g["sm_braking"]())
+    finally: g["tg"] = old_tg6; g["ST"].pop("smap", None); g["ST"].pop("wt", None)
+    check("the chat knows the real commands", "/stop" in g["CHAT_SYS"] and "/pause" not in g["CHAT_SYS"])
     return bad
