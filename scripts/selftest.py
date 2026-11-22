@@ -116,7 +116,7 @@ def run(g):
     old_tg5 = g["tg"]; sent5 = []; g["tg"] = lambda t, *a, **k: sent5.append(t)
     try:
         g["EXT_CMDS"]["/status"]("/status", "/status")
-        check("/status has no English service header", sent5 and "SELF-STATE (real data" not in sent5[-1] and "projects:" in sent5[-1], sent5)
+        check("/status has no English service header", sent5 and "SELF-STATE (real data" not in sent5[-1] and "Проекты:" in sent5[-1], sent5)
     finally: g["tg"] = old_tg5
     mods_ = [x["file"] for x in g["own_manifest"]()["modules"]]
     check("read_url.py and words_counter.py are API-mode modules", all(g["_own_is_api"](open(os.path.join(root_, "own", f), encoding="utf-8").read()) for f in ("read_url.py", "words_counter.py") if f in mods_))
@@ -135,4 +135,36 @@ def run(g):
         check("the brake ends by itself", not g["sm_braking"]())
     finally: g["tg"] = old_tg6; g["ST"].pop("smap", None); g["ST"].pop("wt", None)
     check("the chat knows the real commands", "/stop" in g["CHAT_SYS"] and "/pause" not in g["CHAT_SYS"])
+    # 14. interface: buttons become commands (owner chat only), plain Russian status, daily own work with its brakes
+    old_chat, old_api = g.get("TG_CHAT"), g["_mn_api"]; g["TG_CHAT"] = "123"; g["_mn_api"] = lambda m, b: None
+    try:
+        r_ = {"result": [{"update_id": 1, "callback_query": {"id": "x", "data": "c:/status", "message": {"chat": {"id": 123}, "message_id": 5}}},
+                         {"update_id": 2, "message": {"chat": {"id": 123}, "text": "Состояние"}},
+                         {"update_id": 3, "callback_query": {"id": "y", "data": "c:/stop", "message": {"chat": {"id": 999}, "message_id": 6}}},
+                         {"update_id": 4, "message": {"chat": {"id": 999}, "text": "Состояние"}}]}
+        g["_mn_rewrite"](r_); u_ = r_["result"]
+        check("a button press from the owner's chat becomes a command", u_[0].get("message", {}).get("text") == "/status", u_[0])
+        check("a bottom button label becomes a command", u_[1]["message"]["text"] == "/status", u_[1])
+        check("buttons and labels from any other chat are ignored", "message" not in u_[2] and u_[3]["message"]["text"] == "Состояние", u_[2:])
+    finally: g["TG_CHAT"] = old_chat; g["_mn_api"] = old_api
+    old_tg7 = g["tg"]; sent7 = []; g["tg"] = lambda t, *a, **k: sent7.append(t)
+    try:
+        g["EXT_CMDS"]["/status"]("/status", "/status")
+        check("/status is plain Russian with a verdict first", sent7 and ("Всё в порядке" in sent7[-1][:40] or "Обрати внимание" in sent7[-1][:40]) and "SELF-STATE" not in sent7[-1] and "Проекты:" in sent7[-1], sent7)
+    finally: g["tg"] = old_tg7
+    old_all, old_new, old_room = g["proj_all"], g["proj_new"], g["_ap_room"]; made = []; sent8 = []; old_tg8 = g["tg"]
+    g["tg"] = lambda t, *a, **k: sent8.append(t); g["proj_all"] = lambda: []; g["proj_new"] = lambda k, goal, d=None: made.append((k, d)) or "p%07d" % len(made); g["_ap_room"] = lambda: (True, ("x", 1, 10))
+    g["ST"].pop("ap", None); g["ST"]["needs_today"] = [{"need": "keep a list of my promises", "kind": "module", "why": "consistency"}]; g["ST"]["plan"] = {"focus": "The underlying logic of everyday household chores"}
+    try:
+        g["ap_run"]()
+        check("daily work starts one module and one scouting, both marked auto", [m[0] for m in made] == ["make", "scout"] and all(m[1] == {"auto": True} for m in made), made)
+        g["ap_run"]()
+        check("daily work runs once a day", len(made) == 2, made)
+        g["ST"]["ap"]["day"] = ""; g["ST"]["ap"]["res"] = ["fail", "rej", "fail"]; g["ap_run"]()
+        check("three failures or rejections in a row switch it off and tell the owner", g["ST"]["ap"]["on"] is False and len(made) == 2 and any("выключил сам" in x for x in sent8), (made, sent8[-1:]))
+        g["EXT_CMDS"]["/autoproj"]("/autoproj on", "/autoproj on")
+        check("/autoproj on switches it back on", g["ST"]["ap"]["on"] is True)
+        g["ST"]["ap"]["day"] = ""; g["_ap_room"] = lambda: (False, ("openrouter", 38, 40)); n0 = len(made); g["ap_run"]()
+        check("a day with every model more than 60% used is skipped", len(made) == n0 and any("пропускаю" in x for x in sent8), sent8[-1:])
+    finally: g["proj_all"], g["proj_new"], g["_ap_room"], g["tg"] = old_all, old_new, old_room, old_tg8; g["ST"].pop("ap", None)
     return bad
