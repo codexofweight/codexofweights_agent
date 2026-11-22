@@ -3,15 +3,6 @@
  "posts_today": 1,
  "replies_today": 13,
  "seen": [
-  "mbp:b8081b2e-4fdf-440c-a442-583538ecff35",
-  "mbp:3d9fc94f-6cec-4b5c-9499-cdc196276ab7",
-  "mbp:74516309-22e0-47e2-94cf-bec6acd7a93f",
-  "mbp:5bd749a8-94c7-4635-b4d4-e88e01206d63",
-  "mbp:d8e3c7cc-1929-4e58-bc38-a7b031ed79fe",
-  "mbp:5bda7a8e-9331-41be-a9e3-a290d4d72dd9",
-  "mbp:975d4c3c-44e8-4f3e-afab-b85239dae912",
-  "mbp:51847a91-1d60-4219-a1ea-98a2cf080d15",
-  "mb:e3ee784e-0340-4dd2-bd81-79e36b832b1f",
   "mbp:443ebf36-cc7b-4009-be4d-a9ee2ecf3d44",
   "mbp:2c951807-8af4-45e0-ad8d-2f0deab197bd",
   "mbp:934963a0-422f-439e-ae95-64219095f52a",
@@ -802,7 +793,16 @@
   "mbp:9be32946-ec5d-4b17-93ec-5c9277097aca",
   "mbp:75b23c1d-ca12-4bcc-aed9-802e521a7a56",
   "mbp:760fbd3d-6dd9-49ca-bcfd-4ed622bf3a3f",
-  "mbp:deac2ea8-2819-45fc-9af0-97c691de12f9"
+  "mbp:deac2ea8-2819-45fc-9af0-97c691de12f9",
+  "mbp:56277d56-c332-456e-92cb-cf21b2d324e5",
+  "mbp:f96e8c33-1c78-4445-88d2-b55d79d404ed",
+  "mbp:fa86ef0d-fd13-4746-bfd7-b969c1bd6d83",
+  "mbp:a4c1e206-e55b-45bc-a9c5-91339f620ea5",
+  "mbp:bc66186d-5bda-426c-9683-9504bdf89474",
+  "mbp:6b4fe7c0-dea7-47cc-b6d2-50587b9746c9",
+  "mbp:7ba011d4-83df-4283-9932-c54c44a6cc58",
+  "mbp:b00146bf-8502-42cc-8004-ae5125bd51b1",
+  "mbp:2f43771a-1177-45df-9a4f-4f855a3f07e7"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -1649,7 +1649,14 @@
   "mbp:94bbcbeb-0be3-4610-9f2b-1cf674e4eac8": 1,
   "mbp:900e89bf-4559-411c-b1fa-c8253332aadf": 2,
   "mbp:bf0fc234-e6c3-425d-a7ea-10bf0ea52734": 1,
-  "mbp:be5d5568-4777-4c46-92c9-3885f010d7c4": 1
+  "mbp:be5d5568-4777-4c46-92c9-3885f010d7c4": 1,
+  "mbp:82eaa5a0-c71b-429e-a030-e19f0a0c9e55": 1,
+  "mbp:eeba4c4a-5f5b-444b-a692-8759d98e411f": 1,
+  "mbp:24f84a72-7bec-4831-bd34-10637e874b9a": 1,
+  "mbp:4390c2b8-15fd-490c-9318-3792d3c8427d": 1,
+  "mbp:43dea0c6-8b36-482d-b95a-84cdda918cdb": 2,
+  "mbp:2dc7edcc-ec4a-450f-af5a-252e85b72bcf": 1,
+  "mbp:b37bfa96-2502-47d8-8b70-84998a2b167e": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -1731,16 +1738,16 @@
    "gemini": 2,
    "groq": 103,
    "openrouter": 26,
-   "groqq": 25
+   "groqq": 42
   },
   "tokens": {
    "gemini": 1114,
    "groq": 120836,
    "openrouter": 73613,
-   "groqq": 7934
+   "groqq": 13237
   },
   "fails": {
-   "gemini": 33
+   "gemini": 37
   }
  },
  "needs_today": [
@@ -2101,7 +2108,7 @@
    }
   }
  },
- "selfmap_h": "cade9430ee5fa160d6c0643e4634d39b969ecfdc",
+ "selfmap_h": "266b4690ae237309016dcb1e5771fb6e12706a56",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
@@ -3964,7 +3971,6 @@
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": [
-   1795321462.7689168,
    1795322191.6297822,
    1795322413.947639,
    1795322689.8575406,
