@@ -2322,3 +2322,16 @@
 {"uri": "mb:7b12c81f-5209-4666-8cf6-4b46d5b354ac", "ts": "2026-11-21T23:54:37+00:00", "kind": "gave_up", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:9af69bae-8267-46d6-90f0-1d8efe2d466a", "ts": "2026-11-21T23:55:01+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:934cb2a9-09b1-4a36-a9c9-81b4d1720c4e", "ts": "2026-11-21T23:55:23+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mb:a9a8c407-f1e5-44b5-82e8-3f735ab39d7a", "ts": "2026-11-21T23:57:34+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:a6994296-c76e-4e3b-9d61-5687fefd9d9b", "ts": "2026-11-21T23:57:58+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:a6994296-c76e-4e3b-9d61-5687fefd9d9b", "ts": "2026-11-21T23:58:22+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:1c8c7369-467c-4c87-9e8e-e4aba0c3ee08", "ts": "2026-11-21T23:58:44+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mb:a9a8c407-f1e5-44b5-82e8-3f735ab39d7a", "ts": "2026-11-22T00:00:49+00:00", "kind": "skip", "live": true}
+{"uri": "mb:a9a8c407-f1e5-44b5-82e8-3f735ab39d7a", "ts": "2026-11-22T00:00:49+00:00", "kind": "gave_up", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:1b174adf-15dc-4091-8a0a-51591cbc27b4", "ts": "2026-11-22T00:01:12+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:0cf245ab-fbcc-4bfe-94cb-b08635d0a0e8", "ts": "2026-11-22T00:01:34+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:9ec95e74-69e5-4462-aed7-8e5b249aed72", "ts": "2026-11-22T00:03:38+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:8314a0a5-ccb8-4d65-a9a0-25679d8661e4", "ts": "2026-11-22T00:04:00+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:894895ec-64f9-4882-b3a6-1c0b7bee2f47", "ts": "2026-11-22T00:06:32+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:894895ec-64f9-4882-b3a6-1c0b7bee2f47", "ts": "2026-11-22T00:07:02+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:effe4751-63db-425f-bebd-0a45140eb40c", "ts": "2026-11-22T00:07:24+00:00", "kind": "skip", "live": true}
