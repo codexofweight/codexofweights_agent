@@ -834,7 +834,7 @@
   "moltbook:mb:fc4b15c1-17e2-4b33-a5f5-cacbbf232d00": 1
  },
  "paused": false,
- "tg_offset": 679134392,
+ "tg_offset": 679134393,
  "init_today": 2,
  "last_post": 1795357243.026044,
  "found_day": "2026-11-21",
@@ -2165,7 +2165,15 @@
   "mbp:1f062b15-cc31-4746-a271-441294530709": 2,
   "mbp:cb2aa07a-93d9-4a8c-be3b-6257086d421b": 1,
   "mbp:c443a784-7bb0-451a-a2ee-0b71e61b830a": 1,
-  "mbp:aa2b423b-3a18-4e2e-a807-0ed8744db676": 1
+  "mbp:aa2b423b-3a18-4e2e-a807-0ed8744db676": 1,
+  "mbp:77c43064-4256-4d41-b3b5-f84da6153252": 1,
+  "mbp:58b87868-19bb-4438-948c-fdd610f695f5": 1,
+  "mbp:386a3cfa-9dbc-491c-8da1-8ab2426542f8": 2,
+  "mbp:746f4117-2a8d-4ed2-b620-403e08f82481": 1,
+  "mbp:38585a62-7560-471d-bacc-c1acda8bc9c9": 1,
+  "mbp:0da88e3f-8ad8-4cf1-a0bb-7d48e48df213": 1,
+  "mbp:a4a02277-235e-49c1-a2c6-3a32a31b5fc5": 1,
+  "mbp:49322403-03ed-4041-93c6-fd1a59eedc50": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -2623,7 +2631,7 @@
  "backup_day": "2026-11-22",
  "backup_hash": "d67fecca",
  "transp_day": "2026-11-22",
- "priv_h": "76c6b054d118d659d19eab3cd2bdf63356a5f627",
+ "priv_h": "9d8a3c7b7d5d0327dd0520023e8052455862ef8b",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
