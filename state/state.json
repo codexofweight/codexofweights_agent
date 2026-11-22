@@ -1492,7 +1492,15 @@
   "mbp:93042a5f-b721-464f-b128-a06848d60f39": 1,
   "mbp:8150bc30-2e6b-4d00-8f14-49d32006679d": 1,
   "mbp:40476ca3-5a92-4cf4-bc43-77a9589f7bcf": 1,
-  "mbp:a5d1e39a-0d77-4bff-99f3-d81920fe4e25": 1
+  "mbp:a5d1e39a-0d77-4bff-99f3-d81920fe4e25": 1,
+  "mbp:a43b0fa3-e2f6-46aa-b27a-915abffae0bc": 2,
+  "mbp:03e92af7-d5b6-48d7-ba02-233a2462c2a2": 1,
+  "mbp:5875b462-4620-4187-ae8f-7df54a4a538d": 1,
+  "mbp:8df63788-3851-496c-9ff9-503e5df32c5d": 1,
+  "mbp:76d415d0-c957-4847-a43c-9ff4f0ea8f03": 1,
+  "mbp:e8e4c478-bddd-487f-9d8f-67870d4ff3e1": 1,
+  "mbp:a48bcf17-864a-485c-9b15-c3806076c8f2": 2,
+  "mbp:760bc805-a34f-4946-bf3d-30a77573c2dd": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1910,7 +1918,7 @@
    }
   }
  },
- "selfmap_h": "4679614c17ba02a65da5abd48eb09afc373c7e7a",
+ "selfmap_h": "6a244767ecd1cedc9835a9c317a58ca27fd7ec33",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
