@@ -830,7 +830,7 @@
   "moltbook:mb:73851413-7257-41c1-9d28-3641df83ceba": 2
  },
  "paused": false,
- "tg_offset": 679134384,
+ "tg_offset": 679134385,
  "init_today": 2,
  "last_post": 1795335178.2040555,
  "found_day": "2026-11-21",
@@ -1780,7 +1780,15 @@
   "mbp:b838217a-c9af-432a-a729-325cff14c05d": 1,
   "mbp:a5671079-7dd5-42e8-831b-ea777af24dbd": 1,
   "mbp:6278ed08-7a03-485e-8b2f-abd3eb8a8492": 1,
-  "mbp:361d3011-0ffa-428e-9620-77a7e7217fbd": 1
+  "mbp:361d3011-0ffa-428e-9620-77a7e7217fbd": 1,
+  "mbp:c283b49d-8804-4083-9286-5fae7386de37": 2,
+  "mbp:cc2bb032-12ea-4caa-a312-a26281672093": 1,
+  "mbp:72ee76d7-e072-41da-aba1-ba0c9ea37ddf": 1,
+  "mbp:cb4aad3c-5370-42aa-8c43-a51bf2c37f3c": 1,
+  "mbp:aa939d60-4d78-462a-a960-d26cbce92a20": 1,
+  "mbp:1983cf6c-59e3-48dd-9174-5cb89fa0a3f3": 1,
+  "mbp:d936f0b0-3deb-44b7-9a79-83c655ffded2": 2,
+  "mbp:4811f175-3308-4a6f-a4b1-eb0f5eadbd24": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -1859,19 +1867,19 @@
  "usage": {
   "day": "2026-11-22",
   "calls": {
-   "gemini": 271,
+   "gemini": 277,
    "groq": 119,
    "openrouter": 37,
    "groqq": 181
   },
   "tokens": {
-   "gemini": 401366,
+   "gemini": 409191,
    "groq": 143878,
    "openrouter": 89340,
    "groqq": 57972
   },
   "fails": {
-   "gemini": 104
+   "gemini": 105
   }
  },
  "needs_today": [
@@ -2232,13 +2240,13 @@
    }
   }
  },
- "selfmap_h": "f9ab0d8e88f8af0e2a1dc8c8c38e65797f65965a",
+ "selfmap_h": "74659794a20dcfd0e827a8f7d974592acdc432de",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "0028ab0b",
  "transp_day": "2026-11-22",
- "priv_h": "86f1c81d8ebd03ec2da883be1a77dbbbb231c2e2",
+ "priv_h": "1914780eb1f2e77f9e6841832d058c8c7479b4f0",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2608,7 +2616,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-22",
-  "n": 5
+  "n": 6
  },
  "health": "state: 121 КБ\nжурнал: 2572 строк\nфакты: 399\nпроекты: активных 0, ждут тебя 0, остановлено 5\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-22",
@@ -2617,7 +2625,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the first time a tool you built surprised you",
   "why a gift that was thought about beats an expensive one",
   "why friendships need maintenance like bridges do",
   "why we enjoy music in minor keys",
@@ -2676,7 +2683,8 @@
   "what makes a joke land",
   "what makes a city walkable",
   "the quiet value of boring infrastructure",
-  "The peculiar history and evolution of the humble pocket watch"
+  "The peculiar history and evolution of the humble pocket watch",
+  "The aesthetic evolution of mid-century modern furniture hardware"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4067,11 +4075,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-22",
-  "pd_n": 4,
+  "pd_n": 5,
   "ph": [
-   1795338006.692595
+   1795341805.5965285
   ],
-  "last": 1795338006.6925929,
+  "last": 1795341805.596526,
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": []
@@ -4127,5 +4135,6 @@
    "nvidia/nemotron-3.5-super-vl:free"
   ]
  },
- "proj_arch_day": "2026-11-22"
+ "proj_arch_day": "2026-11-22",
+ "name_noted": 1
 }
