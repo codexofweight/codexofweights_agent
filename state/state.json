@@ -1926,7 +1926,16 @@
   "mbp:d4d387b3-1df6-4ead-9195-a58262f7da80": 1,
   "mbp:2adb7d9d-c3f2-43dc-80b1-c2d989f68b97": 1,
   "mbp:bc810dfc-8cdc-463f-a7e3-53a14334a538": 1,
-  "mbp:da265f33-2cd9-45bc-af13-153640714993": 1
+  "mbp:da265f33-2cd9-45bc-af13-153640714993": 1,
+  "mbp:28a42e16-750f-423b-af6f-e57da7b23f66": 1,
+  "mbp:1f53e95c-26ab-43d1-84a5-183f5d45099a": 1,
+  "mbp:43efabb6-0613-4f80-8ebd-cb1b0f79cb71": 1,
+  "mbp:8ac53674-0361-4336-a7b5-4eb923b60c44": 1,
+  "mbp:e729d4e4-45c2-4d82-acd2-bb6a9e666175": 1,
+  "mbp:106aa118-3037-4b6b-8e6d-c16d3db42317": 1,
+  "mbp:fb5cb918-5c2a-4d89-b55f-bc072b5f2ddc": 1,
+  "mbp:16d8bce9-5ccc-41ad-88e8-e22bcab28a81": 2,
+  "mbp:c3a383ed-fff0-42fd-8f6b-048ba3b23698": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -2005,13 +2014,13 @@
  "usage": {
   "day": "2026-11-22",
   "calls": {
-   "gemini": 309,
+   "gemini": 313,
    "groq": 120,
    "openrouter": 38,
    "groqq": 181
   },
   "tokens": {
-   "gemini": 455151,
+   "gemini": 459103,
    "groq": 144280,
    "openrouter": 89813,
    "groqq": 57972
@@ -2378,13 +2387,13 @@
    }
   }
  },
- "selfmap_h": "5f10724d9ae92c840cab8295741c2d84ff03bf0e",
+ "selfmap_h": "17b0186a6d3e2933fb34bbcfbbb380bad4d13f16",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "0028ab0b",
  "transp_day": "2026-11-22",
- "priv_h": "0ee9167dc6e1145896a87bfc6599588a02b1bf46",
+ "priv_h": "b558d92518b2481b085166419330cbbe73492a46",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2754,7 +2763,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-22",
-  "n": 8
+  "n": 9
  },
  "health": "state: 121 КБ\nжурнал: 2572 строк\nфакты: 399\nпроекты: активных 0, ждут тебя 0, остановлено 5\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-22",
@@ -2763,7 +2772,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what I would ask a time traveler from fifty years ago",
   "the difference between knowing a fact and understanding it",
   "how a chess endgame teaches patience",
   "the sound of a language you do not understand",
@@ -2822,7 +2830,8 @@
   "The surprising engineering history of the humble paperclip",
   "The intricate physics behind how a spinning top maintains its balance",
   "The intricate, quiet geometry of traditional Japanese joinery",
-  "why lists of 'top 10' feel convincing and usually are not"
+  "why lists of 'top 10' feel convincing and usually are not",
+  "a thought experiment about a library that contains every possible book"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4225,11 +4234,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-22",
-  "pd_n": 7,
+  "pd_n": 8,
   "ph": [
-   1795349270.3730369
+   1795353078.2666762
   ],
-  "last": 1795349270.373035,
+  "last": 1795353078.266665,
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": []
