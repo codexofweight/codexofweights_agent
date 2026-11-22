@@ -103,4 +103,21 @@ def run(g):
     # 11. own modules, scripts and workflows are part of the code that is hashed, checked and backed up
     cb = g["code_bundle"]()
     check("code_bundle covers own/, scripts and workflows", "own/MANIFEST.json" in cb and any(k.startswith("own/") and k.endswith(".py") for k in cb) and any(k.startswith(".github/workflows/") for k in cb), sorted(cb)[:3])
+    # 12. soft weight edges, widening after a run of failures, a plain /status, own modules in API mode
+    g["ST"].pop("wt", None)
+    for _ in range(40): g["wt_signal"]("mod:selftest_soft", 1.0, "owner", "soft")
+    it_ = g["ST"]["wt"]["items"]["mod:selftest_soft"]
+    check("weights never reach the absolute limit", abs(it_["f"]) <= 0.95 and abs(it_["m"]) <= 0.95, it_)
+    g["ST"].pop("wt", None); g["ST"]["fail_streak"] = 0
+    g["log"]("send_failed", to="x", text="t", reason="r", uri="u"); g["log"]("send_failed", to="x", text="t", reason="r", uri="u")
+    check("two failures in a row add the WIDEN line to the self-state", "WIDEN" in g["self_state"]())
+    g["log"]("reply", uri="u", text="ok")
+    check("a success clears the failure streak", "WIDEN" not in g["self_state"]())
+    old_tg5 = g["tg"]; sent5 = []; g["tg"] = lambda t, *a, **k: sent5.append(t)
+    try:
+        g["EXT_CMDS"]["/status"]("/status", "/status")
+        check("/status has no English service header", sent5 and "SELF-STATE (real data" not in sent5[-1] and "projects:" in sent5[-1], sent5)
+    finally: g["tg"] = old_tg5
+    mods_ = [x["file"] for x in g["own_manifest"]()["modules"]]
+    check("read_url.py and words_counter.py are API-mode modules", all(g["_own_is_api"](open(os.path.join(root_, "own", f), encoding="utf-8").read()) for f in ("read_url.py", "words_counter.py") if f in mods_))
     return bad
