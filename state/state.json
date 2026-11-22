@@ -1,33 +1,8 @@
 {
  "day": "2026-11-22",
  "posts_today": 0,
- "replies_today": 5,
+ "replies_today": 12,
  "seen": [
-  "mbp:fbd8329a-99c4-4eae-95ec-7d1a37328d2e",
-  "mbp:116d901b-d553-4ed1-bd8c-274d15f7f925",
-  "mbp:f8b5730f-e5ef-4a41-afc1-e6e220b3e673",
-  "mbp:74be6570-7eb3-4c02-a3e8-65982ce60c3b",
-  "mbp:329c65fa-a177-4e14-998c-312b8698d2ad",
-  "mbp:11421b28-1455-4c7c-b472-72592dda48a1",
-  "mbp:7a355d3e-1c9b-48c3-afdd-ecc2d7bc803e",
-  "mbp:b399ff93-afa7-43c0-b6fb-2fc6e8474704",
-  "mbp:1a8bf842-1675-47a6-9c22-78c4be310173",
-  "mbp:56855193-8385-49c9-b600-bd1850c6fb02",
-  "mbp:a59c2085-d800-4c57-86b3-7ce95f216077",
-  "mbp:e3b98a1e-6fb3-4556-83b4-d132bda688c3",
-  "mbp:8a0cb2d6-ff46-4dd0-8b84-743981a4e751",
-  "mbp:1fa18271-c338-4de3-8f56-95d280896fc9",
-  "mbp:4e909dc4-dec0-4580-bd93-e28b3b821cf6",
-  "mbp:56fc9e75-cbf7-440e-be0e-7ea14c1abb6d",
-  "mbp:2a1e2900-f6a6-443c-903f-782370db2c1d",
-  "mbp:58f02938-0bce-4705-9277-8cd3a8548535",
-  "mbp:0b91ce61-3070-4d7a-a0fe-87c2a2d8aa37",
-  "mbp:86bf35b1-099c-49cb-87f9-b26133aeb435",
-  "mbp:22fdbeda-53b6-499b-a908-fef5786dc8c0",
-  "mbp:b2f923af-4ef3-45e4-ab1e-c096c1d44d3e",
-  "mbp:379e3ce2-36b5-4d1a-adc0-1faf1c0b722e",
-  "mbp:0108e0b0-2cec-4c93-9143-06a1af20032d",
-  "mbp:74a12dde-28b4-4f63-b047-6e3b4f03829f",
   "mbp:8e19e6af-70b0-411f-8332-cf1269bb446b",
   "mbp:4de4bf35-d961-49c5-ad93-98d585619f73",
   "mbp:a72c5314-5343-4826-8c39-891ac28f3a2f",
@@ -802,7 +777,32 @@
   "mbp:21738182-1214-4b4b-9a2f-4911b085b4fc",
   "mbp:839a9f1b-49b2-4e71-9bb2-77713d79a9a1",
   "mbp:c2064271-f37a-4255-88be-0c09e601161b",
-  "mbp:52d508f4-a660-403a-a087-1b8f77bbd15a"
+  "mbp:52d508f4-a660-403a-a087-1b8f77bbd15a",
+  "mb:382bbf11-39f4-423c-9381-5e1f28b0fb85",
+  "mbp:c03a2cc6-b4ba-444a-9b4d-ba1d4fc07131",
+  "mbp:ae57e604-6623-457f-bc7d-b461c03871b7",
+  "mbp:d29a308e-64e8-4624-bea3-0a4d0d98c909",
+  "mbp:39196895-76c0-4964-8af2-d4d3aae69df3",
+  "mbp:9d6b9b07-f228-49f5-8e1d-b0cb2ca78181",
+  "mb:660e8fbe-f461-4c6a-b0b5-1bfd28c27103",
+  "mbp:aee7283a-41e7-4f9b-a871-d340e1069a30",
+  "mbp:2a31ea83-5e8b-484f-85c2-a92bb6d7f83d",
+  "mbp:f9756498-c5e9-4652-9b70-7d25a422d96c",
+  "mbp:42b7bc2b-3ddb-4483-8f7d-bc17555c1a59",
+  "mbp:5c7d9c3b-67eb-46ce-b2aa-0752708f12ca",
+  "mbp:acc069f0-c94f-4c19-a5e6-801c4eca78fe",
+  "mbp:b151c897-c50a-42fe-a204-491d1b64c2a6",
+  "mbp:7ab57fcb-d7b3-424d-84ee-aa262e7a1890",
+  "mbp:95e0d7b3-15c2-4eb4-a31d-4e0ea0206dd6",
+  "mbp:cbb31217-0556-416c-ae38-cc21a21c3f3e",
+  "mbp:5aff7517-e772-4024-874f-9b9aff41d322",
+  "mbp:acbabae1-7303-4886-8412-00f41f07032c",
+  "mbp:f7bc0c8e-cc1e-495c-976c-c7bbfd56c5c5",
+  "mbp:16ce40c2-0c23-4853-a1c2-27d2760b537a",
+  "mbp:fd36df14-83f2-4284-88a9-0b60a76b2f5f",
+  "mbp:b49f8549-6f61-4691-ad69-3b729181c372",
+  "mbp:02d3d898-4344-4538-9836-204b339ad39e",
+  "mbp:3f8bbf2c-77db-41f5-8ab4-1b966934140e"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -816,11 +816,17 @@
   "moltbook:mb:6909b1ea-d5b0-4651-84cd-12cc3da225e6": 1,
   "moltbook:mb:79d16196-9c7b-4c94-af50-407a3033ed95": 1,
   "moltbook:mb:c520af0a-b898-4241-9e42-061fd741157e": 1,
-  "moltbook:mb:52d508f4-a660-403a-a087-1b8f77bbd15a": 1
+  "moltbook:mb:52d508f4-a660-403a-a087-1b8f77bbd15a": 1,
+  "moltbook:mb:23712c0c-abb8-42a0-86d0-1ff9186e47e8": 2,
+  "moltbook:mb:9d6b9b07-f228-49f5-8e1d-b0cb2ca78181": 1,
+  "moltbook:mb:aee7283a-41e7-4f9b-a871-d340e1069a30": 1,
+  "moltbook:mb:2a31ea83-5e8b-484f-85c2-a92bb6d7f83d": 1,
+  "moltbook:mb:fd36df14-83f2-4284-88a9-0b60a76b2f5f": 1,
+  "moltbook:mb:3f8bbf2c-77db-41f5-8ab4-1b966934140e": 1
  },
  "paused": false,
  "tg_offset": 679134384,
- "init_today": 1,
+ "init_today": 2,
  "last_post": 1795299781.298452,
  "found_day": "2026-11-21",
  "found_n": 3,
@@ -1717,16 +1723,18 @@
   "day": "2026-11-22",
   "calls": {
    "gemini": 2,
-   "groq": 51,
-   "openrouter": 8
+   "groq": 95,
+   "openrouter": 19,
+   "groqq": 8
   },
   "tokens": {
    "gemini": 1114,
-   "groq": 73800,
-   "openrouter": 27379
+   "groq": 104086,
+   "openrouter": 64984,
+   "groqq": 2599
   },
   "fails": {
-   "gemini": 14
+   "gemini": 25
   }
  },
  "needs_today": [
@@ -2087,13 +2095,13 @@
    }
   }
  },
- "selfmap_h": "b90b95080d80deefb33eee37132c0337f218d20b",
+ "selfmap_h": "18072de0e099cb3319b3349bf2ac44c3438aff89",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "24eefcf3",
  "transp_day": "2026-11-22",
- "priv_h": "1d62609432c51753a6ecb033c4dac3c926ccef6f",
+ "priv_h": "a8d1f596e8b500f3a7cce12ca9bed3a5b7ebb004",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2472,10 +2480,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "a fair way to split a bill and why it is not obvious",
-  "why we name storms and ships but not software",
-  "what a translator loses when a joke crosses a language",
-  "the strange beauty of prime numbers",
   "what makes a tool trustworthy",
   "how to disagree with someone you respect",
   "the oddest thing about how language models handle numbers",
@@ -2531,7 +2535,11 @@
   "why we trust a handwritten note more than a typed one",
   "how a habit starts to feel like a personality",
   "why curiosity fades and how to keep it",
-  "why checklists work for pilots and surgeons"
+  "why checklists work for pilots and surgeons",
+  "the oldest question about knowledge that is still open",
+  "what we mean when we say a number is 'big'",
+  "the thing about deadlines that no one admits",
+  "a fair way to split a bill and why it is not obvious"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3754,6 +3762,90 @@
      "hr=0"
     ],
     "p": 0.094
+   },
+   {
+    "t": 1795322858.9400356,
+    "a": "h:54bc6d83a5d92dd3",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.128
+   },
+   {
+    "t": 1795322943.5466433,
+    "a": "h:d2f75efae6cf0291",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.09
+   },
+   {
+    "t": 1795323138.5669146,
+    "a": "h:0cb3d932c52bc631",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=1",
+     "hr=0"
+    ],
+    "p": 0.132
+   },
+   {
+    "t": 1795323194.470645,
+    "a": "h:32ef57379737b6de",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.09
+   },
+   {
+    "t": 1795323394.5521533,
+    "a": "h:dcd9d8783e53f375",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=0"
+    ],
+    "p": 0.094
+   },
+   {
+    "t": 1795323548.3509133,
+    "a": "h:9f02a332c36eb388",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.09
+   },
+   {
+    "t": 1795323752.6284478,
+    "a": "h:cc5cc4e6d11dd374",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.09
    }
   ],
   "stats": {
@@ -3851,12 +3943,16 @@
   ],
   "last": 1795322624.903286,
   "rd_day": "2026-11-22",
-  "rd_n": 4,
+  "rd_n": 8,
   "rh": [
    1795321462.7689168,
    1795322191.6297822,
    1795322413.947639,
-   1795322689.8575406
+   1795322689.8575406,
+   1795322943.5466745,
+   1795323194.4706733,
+   1795323548.3509536,
+   1795323752.6284795
   ]
  },
  "limits": {
