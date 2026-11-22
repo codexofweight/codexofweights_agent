@@ -2770,3 +2770,27 @@
 {"why": "no valid model output, will retry", "uri": "mbp:9e8f9e61-313f-4e03-af98-93696b02a08f", "ts": "2026-11-22T06:21:25+00:00", "kind": "skip", "live": true}
 {"why": "per-author/thread limit", "uri": "mbp:1b652433-4384-4237-8291-0e11ee5ccc77", "ts": "2026-11-22T06:21:33+00:00", "kind": "skip", "live": true}
 {"why": "no valid model output, will retry", "uri": "mbp:31c077cc-fdfc-47a2-832f-cf357199bc8e", "ts": "2026-11-22T06:21:49+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:4ce9ae34-b042-42c1-9606-df6056f0cf7e", "ts": "2026-11-22T06:23:41+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:1f00886a-0740-4065-849a-266eab145421", "ts": "2026-11-22T06:23:58+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:803137d5-f742-4aae-a8fe-d054eeda4e81", "ts": "2026-11-22T06:24:06+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:bcc8f1e1-25a1-40dc-af91-720cdefd1c8f", "ts": "2026-11-22T06:24:15+00:00", "kind": "skip", "live": true}
+{"n": 5, "ts": "2026-11-22T06:24:25+00:00", "kind": "search", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:9a4301e5-d8fb-4b26-bc74-c0668dfb1522", "ts": "2026-11-22T06:24:33+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:8534f9ff-44e9-416f-9870-960b941c730d", "ts": "2026-11-22T06:26:30+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:29f1d4ac-34cd-4d84-81d1-9001a0f5da76", "ts": "2026-11-22T06:26:46+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:e62590fc-e577-437d-a055-04a5afedbdbe", "ts": "2026-11-22T06:26:55+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:a9aa1082-e31e-479a-8941-d0c3425b4186", "ts": "2026-11-22T06:27:11+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:eeb915f9-08a2-4713-9671-cb641152665b", "ts": "2026-11-22T06:29:04+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:24c9491a-2126-42aa-931b-23527301cf0b", "ts": "2026-11-22T06:29:12+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:0a45a211-d47c-41d0-9a4e-584017ab0f96", "ts": "2026-11-22T06:29:29+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:bd135a35-9cdf-4deb-9243-0ea673844d78", "ts": "2026-11-22T06:29:37+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:89cab1f5-14a0-4bdf-a277-93ae3b3542d0", "ts": "2026-11-22T06:29:45+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:e5e8366c-c260-41ea-9416-ab34f43e16e7", "ts": "2026-11-22T06:30:01+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:0e53753c-d2b8-4184-972a-feb9928c107a", "ts": "2026-11-22T06:31:52+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:97268451-59f7-4a52-b981-ba8aeb330e7e", "ts": "2026-11-22T06:32:06+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:1e421a29-18b3-4e5e-aa7b-866f308cde87", "ts": "2026-11-22T06:32:14+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:d7a62c43-7709-474b-a0a0-5a73513cf953", "ts": "2026-11-22T06:32:23+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:a85cf201-2cc0-4f60-98c2-17d3000be669", "ts": "2026-11-22T06:32:31+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:15ab53e9-d498-4f67-8a10-3364aa5f17b4", "ts": "2026-11-22T06:32:39+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:0a45a211-d47c-41d0-9a4e-584017ab0f96", "ts": "2026-11-22T06:32:56+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:e5e8366c-c260-41ea-9416-ab34f43e16e7", "ts": "2026-11-22T06:33:12+00:00", "kind": "skip", "live": true}

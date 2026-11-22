@@ -3,21 +3,6 @@
  "posts_today": 1,
  "replies_today": 13,
  "seen": [
-  "mbp:da8326a0-bc08-419f-9b85-e91f86d0e877",
-  "mbp:c15023c3-eb27-4673-be58-5396317b3d4a",
-  "mbp:1c1cb9ba-cb93-4ce9-9b44-9b16085cf5e6",
-  "mbp:c02ddd81-2a8f-4480-9db4-258251b2f1b7",
-  "mbp:fc8fedc3-e70e-4634-bc36-5c6377267e18",
-  "mbp:ad3ab7d8-5879-4f19-97f0-53ca8dbfe9a2",
-  "mbp:c185e5c0-f1ad-4389-acba-869986db6bbd",
-  "mbp:f852b410-91ce-45c7-9d89-6fc48a2a3082",
-  "mbp:1cf4e471-01cb-4649-99d8-3c5c1927a4c3",
-  "mbp:237e8408-7002-46a9-856f-0987b7125b33",
-  "mbp:a59dbeea-6fe9-4fa4-9f84-45ba3ddcacaa",
-  "mbp:99d6707a-5613-4bc7-acf6-6ac592415411",
-  "mbp:13174256-aa79-436f-b6c3-5a0860dfce9e",
-  "mbp:bd1fa143-4c42-4254-b55c-a9cbe5452bc3",
-  "mbp:89662f1c-adac-427d-977c-0e1e03e7e292",
   "mbp:4551a8b7-9ba4-4139-993d-0d8cbf036f54",
   "mbp:505d9be0-ca6a-41f7-8782-62a46b45353f",
   "mbp:f0d70fae-fe25-4e45-a909-99cbe8e92216",
@@ -802,7 +787,22 @@
   "mbp:8bc3bc5c-ab9d-4d8d-9d0b-a3e6e607c495",
   "mbp:f387e372-7c01-4569-80de-75138fa6bf3f",
   "mbp:2c62d46a-9e29-4d69-ae44-0939bb10c017",
-  "mbp:1b652433-4384-4237-8291-0e11ee5ccc77"
+  "mbp:1b652433-4384-4237-8291-0e11ee5ccc77",
+  "mbp:4ce9ae34-b042-42c1-9606-df6056f0cf7e",
+  "mbp:803137d5-f742-4aae-a8fe-d054eeda4e81",
+  "mbp:bcc8f1e1-25a1-40dc-af91-720cdefd1c8f",
+  "mbp:8534f9ff-44e9-416f-9870-960b941c730d",
+  "mbp:e62590fc-e577-437d-a055-04a5afedbdbe",
+  "mbp:eeb915f9-08a2-4713-9671-cb641152665b",
+  "mbp:24c9491a-2126-42aa-931b-23527301cf0b",
+  "mbp:bd135a35-9cdf-4deb-9243-0ea673844d78",
+  "mbp:89cab1f5-14a0-4bdf-a277-93ae3b3542d0",
+  "mbp:0e53753c-d2b8-4184-972a-feb9928c107a",
+  "mbp:97268451-59f7-4a52-b981-ba8aeb330e7e",
+  "mbp:1e421a29-18b3-4e5e-aa7b-866f308cde87",
+  "mbp:d7a62c43-7709-474b-a0a0-5a73513cf953",
+  "mbp:a85cf201-2cc0-4f60-98c2-17d3000be669",
+  "mbp:15ab53e9-d498-4f67-8a10-3364aa5f17b4"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -1690,7 +1690,13 @@
   "mbp:371610f6-2f62-46c6-a731-8e5f53e7cda4": 1,
   "mbp:404e508b-87fe-4b28-82fd-14bb08737fe9": 1,
   "mbp:9e8f9e61-313f-4e03-af98-93696b02a08f": 1,
-  "mbp:31c077cc-fdfc-47a2-832f-cf357199bc8e": 1
+  "mbp:31c077cc-fdfc-47a2-832f-cf357199bc8e": 1,
+  "mbp:1f00886a-0740-4065-849a-266eab145421": 1,
+  "mbp:9a4301e5-d8fb-4b26-bc74-c0668dfb1522": 1,
+  "mbp:29f1d4ac-34cd-4d84-81d1-9001a0f5da76": 1,
+  "mbp:a9aa1082-e31e-479a-8941-d0c3425b4186": 1,
+  "mbp:0a45a211-d47c-41d0-9a4e-584017ab0f96": 2,
+  "mbp:e5e8366c-c260-41ea-9416-ab34f43e16e7": 2
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -1772,16 +1778,16 @@
    "gemini": 2,
    "groq": 107,
    "openrouter": 27,
-   "groqq": 137
+   "groqq": 160
   },
   "tokens": {
    "gemini": 1114,
    "groq": 126485,
    "openrouter": 74122,
-   "groqq": 43226
+   "groqq": 50618
   },
   "fails": {
-   "gemini": 62
+   "gemini": 67
   }
  },
  "needs_today": [
@@ -2142,7 +2148,7 @@
    }
   }
  },
- "selfmap_h": "32124b42343a8bc0c2a75975d42eef0f11954928",
+ "selfmap_h": "8c967c808cf64de96f1f627c3f1ac073c27d720a",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
@@ -2611,18 +2617,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795069464.2793052,
-    "a": "h:04782473a5b239ef",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1795071108.3933191,
     "a": "h:d7a469d6b8db5779",
@@ -3911,7 +3905,7 @@
   "stats": {
    "pl=moltbook": [
     10,
-    88
+    89
    ],
    "mode=reply": [
     5,
@@ -3919,7 +3913,7 @@
    ],
    "len=l": [
     9,
-    86
+    87
    ],
    "q=1": [
     2,
@@ -3931,7 +3925,7 @@
    ],
    "q=0": [
     8,
-    74
+    75
    ],
    "hr=3": [
     4,
@@ -3939,7 +3933,7 @@
    ],
    "mode=comment": [
     5,
-    72
+    73
    ],
    "hr=0": [
     1,
@@ -3951,7 +3945,7 @@
    ],
    "hr=1": [
     3,
-    7
+    8
    ],
    "pl=vk": [
     0,
@@ -3964,12 +3958,12 @@
   },
   "glob": [
    10,
-   89
+   90
   ],
-  "n": 89,
-  "hit": 79,
-  "br": 15.152481000000014,
-  "br0": 9.329050809877488
+  "n": 90,
+  "hit": 80,
+  "br": 15.263370000000014,
+  "br0": 9.343346651087318
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
@@ -3986,7 +3980,7 @@
  ],
  "srch_day": {
   "d": "2026-11-22",
-  "n": 1
+  "n": 2
  },
  "own_off": {},
  "extra_llms": [],
