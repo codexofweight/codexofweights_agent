@@ -57,7 +57,9 @@ def own_fail(mod, ex):
 # No secrets, no tg/ST/mem_*, no way to import anything but harmless standard modules. The agent stays one body: the module is part of it, but through defined nerves.
 import builtins as _own_bi, signal as _own_sg, types as _own_types, html as _own_html
 _OWN_API_IMPORTS = _OWN_IMPORTS_OK - {"urllib.request"}
-_OWN_API_DENY = re.compile(r"\.\s*(?:sys|os|builtins|codecs|importlib|subprocess|socket|modules|urlopen|request)\b|\burllib\s*\.\s*request|(?<![\w.])(?:tg|ST|EXT_CMDS|safe_get|web_get|mem_get|mem_put|llm|llm_role|micro|http|log)\s*[(\[.=]|\bimport\s+urllib\.request|from\s+urllib\s+import\s+request")
+_OWN_API_DENY = re.compile(r"\.\s*(?:sys|os|builtins|codecs|importlib|subprocess|socket|modules|urlopen|request)\b|\burllib\s*\.\s*request|(?<![\w.])(?:tg|ST|EXT_CMDS|safe_get|web_get|mem_get|mem_put|llm|llm_role|micro|http|log)\s*[(\[.=]|\bimport\s+urllib\.request|from\s+urllib\s+import\s+request"
+    r"|\.\s*(?:gi_frame|gi_code|gi_yieldfrom|cr_frame|cr_code|cr_await|ag_frame|ag_code|ag_await|f_back|f_globals|f_locals|f_builtins|f_code|f_trace|tb_frame|tb_next|func_globals|format|format_map|mro|with_traceback|co_\w+)\b"
+    r"|\bFormatter\b|\bapi\s*\.\s*_|\bexcept\s*:|\bBaseException\b|\bGeneratorExit\b")
 def _own_is_api(code):
     for l in code.splitlines():
         l = l.strip()
@@ -75,6 +77,10 @@ def _own_import_fn(name, globals=None, locals=None, fromlist=(), level=0):
     if level or name not in _OWN_API_IMPORTS and not (name == "urllib" and all(f == "parse" for f in (fromlist or ()))): raise ImportError("import not allowed: %s" % name)
     return _own_bi.__import__(name, None, None, fromlist or (), 0)
 _OWN_SAFE["__import__"] = _own_import_fn
+class _OwnTimeout(BaseException):
+    """Raised by the alarm in a running module. A BaseException on purpose: `except Exception` inside a module cannot swallow it (bare except and BaseException are not allowed in API modules)."""
+_OWN_TIMEOUT_S = 8
+def _own_alarm(*a): raise _OwnTimeout("module took too long")
 class _OwnAPI:
     """What a module may do. Every call is counted per module; the host functions (tg, safe_get, llm) are looked up at call time."""
     def __init__(self, mod): self._m = mod; self._n = {}; self.today = today; self._said = []
@@ -115,14 +121,14 @@ class _OwnAPI:
             if ST.get("own_off", {}).get(mod): return
             old = None
             try:
-                try: old = _own_sg.signal(_own_sg.SIGALRM, lambda *a: (_ for _ in ()).throw(TimeoutError("module took too long"))); _own_sg.setitimer(_own_sg.ITIMER_REAL, 8)
+                try: old = _own_sg.signal(_own_sg.SIGALRM, _own_alarm); _own_sg.setitimer(_own_sg.ITIMER_REAL, _OWN_TIMEOUT_S, 1.0)
                 except Exception: old = None
                 self._said = []
                 r = fn(raw or c)
                 if r and str(r).strip()[:3500] not in self._said: tg(str(r)[:3500])      # a module that says AND returns the same text must not answer twice
                 try: globals()["wt_signal"]("mod:" + mod, 0.2, "internal", "command ok")
                 except Exception: pass
-            except Exception as ex: own_fail(mod, ex); tg("Команда %s не сработала." % name)
+            except (Exception, _OwnTimeout) as ex: own_fail(mod, ex); tg("Команда %s не сработала." % name)
             finally:
                 try: _own_sg.setitimer(_own_sg.ITIMER_REAL, 0)
                 except Exception: pass
