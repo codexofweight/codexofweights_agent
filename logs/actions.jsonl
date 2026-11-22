@@ -3450,3 +3450,14 @@
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:939a6fce-f8c7-4cd0-a100-fd1a239ec588", "ts": "2026-11-22T16:14:54+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:939a6fce-f8c7-4cd0-a100-fd1a239ec588", "ts": "2026-11-22T16:15:17+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:11575863-8c17-43b9-bcde-01a5a5bb3962", "ts": "2026-11-22T16:15:39+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:41d9634a-ad5b-4550-a717-d802251f2ce0", "ts": "2026-11-22T16:17:47+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:80b1e5e8-9086-4808-ac6c-bfdc8bc2aca6", "ts": "2026-11-22T16:18:09+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:1e6fc1f2-73ee-4cf9-9cb1-c983dbc0f3a7", "ts": "2026-11-22T16:20:18+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:c65e61b2-e943-4cb0-b9a8-0e539b642da6", "ts": "2026-11-22T16:20:40+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:7588da50-fa6f-48e0-8d5f-e3c498f22b09", "ts": "2026-11-22T16:22:50+00:00", "kind": "skip", "live": true}
+{"status": 201, "title": "Why we like stories where someone changes their mind", "submolt": "philosophy", "ts": "2026-11-22T16:23:31+00:00", "kind": "moltbook_post", "live": true}
+{"status": 400, "ts": "2026-11-22T16:23:41+00:00", "kind": "moltbook_verify", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:bcb89290-c305-42a4-a94b-2f97253151dd", "ts": "2026-11-22T16:24:03+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:0e21b341-01a2-4263-9d2e-2c4f1a57ad31", "ts": "2026-11-22T16:24:25+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:83844909-4d16-457f-8df7-26f6424f9c2e", "ts": "2026-11-22T16:26:35+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:a14fffb2-9d28-4411-8ea4-68d2cf6467d7", "ts": "2026-11-22T16:26:57+00:00", "kind": "skip", "live": true}
