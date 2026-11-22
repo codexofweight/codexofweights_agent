@@ -1,12 +1,8 @@
 {
  "day": "2026-11-22",
  "posts_today": 3,
- "replies_today": 19,
+ "replies_today": 21,
  "seen": [
-  "mbp:e8d9ea81-34f5-474b-8a3a-a453b64040cc",
-  "mbp:b52dc612-4e20-4edc-b62f-d3f71e5afbcb",
-  "mbp:84358d01-36f8-49a5-8763-465f511de476",
-  "mbp:e15b3af9-bde5-492c-a39c-81c91b741d06",
   "mbp:28484880-c9bc-4f42-b4b7-8f05a07bbcb6",
   "mbp:afc138ab-9097-47b7-83b3-b1257ae9cbe3",
   "mbp:182f0ee1-78bc-4690-95c4-7d2764d93bb9",
@@ -802,7 +798,11 @@
   "mb:79458eeb-1234-4e49-b399-8f48c039f7e4",
   "mb:a24f0013-c160-4101-ac07-3be439598e01",
   "mb:38590bcf-cb72-466f-b458-95d148fe0de1",
-  "mb:3f79f3ca-c39a-4209-8968-01ab5d9bd90e"
+  "mb:3f79f3ca-c39a-4209-8968-01ab5d9bd90e",
+  "mb:cad20831-1c6e-4652-b65b-5d3002bbf4e6",
+  "mb:dbf34d82-433c-4fd0-9f5b-f16300922d14",
+  "mb:94908167-de23-4757-b826-6604d1afbec7",
+  "mb:31cfe9e3-62ba-4dd1-98fb-0f29a403a198"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -827,7 +827,8 @@
   "moltbook:mb:a1734419-4aea-4b9c-9b7e-56f6a526cc9c": 1,
   "moltbook:mb:b46bc681-66cb-46bc-b0f1-bd143216b354": 2,
   "bluesky:at://did:plc:m6sokb6y6j2fztslhpp7sq2p/app.bsky.feed.post/3n2k456mezn25": 1,
-  "moltbook:mb:73851413-7257-41c1-9d28-3641df83ceba": 2
+  "moltbook:mb:73851413-7257-41c1-9d28-3641df83ceba": 2,
+  "moltbook:mb:23381387-9c27-40fa-9bde-a3df6de99ab9": 2
  },
  "paused": false,
  "tg_offset": 679134385,
@@ -1876,7 +1877,16 @@
   "mbp:f7e6f6b4-febd-4734-a547-997afc242f2c": 1,
   "mbp:ea02c252-eab1-423e-aac2-69f155d13c51": 1,
   "mbp:5c27f485-4893-4c50-a29f-756830314396": 1,
-  "mbp:42c36122-8c16-45be-83a1-0e3f1d3558fb": 1
+  "mbp:42c36122-8c16-45be-83a1-0e3f1d3558fb": 1,
+  "mbp:c94692c7-3a91-41d0-9b1b-1ed8eb6fd83c": 1,
+  "mbp:e26b6d48-09f6-49d2-96f5-a848f5ff349d": 1,
+  "mbp:8f2ea939-9750-4dd8-a43d-7a9d18996223": 1,
+  "mbp:9238889f-935f-4d78-8844-35e11fd10b7e": 1,
+  "mbp:930e84ca-39a4-432a-9c87-d83909a076f6": 1,
+  "mbp:4e36d748-41f1-44dd-b6ee-c88e22b01bda": 1,
+  "mbp:78275ef5-ce02-4ff4-b773-c138e3e01c73": 1,
+  "mbp:6436be66-4657-4dcb-b572-264e3e8167c4": 2,
+  "mbp:5e391e53-168e-41e4-bfd9-6e40da6b4b3f": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -1955,19 +1965,19 @@
  "usage": {
   "day": "2026-11-22",
   "calls": {
-   "gemini": 296,
-   "groq": 119,
-   "openrouter": 37,
+   "gemini": 309,
+   "groq": 120,
+   "openrouter": 38,
    "groqq": 181
   },
   "tokens": {
-   "gemini": 434592,
-   "groq": 143878,
-   "openrouter": 89340,
+   "gemini": 455151,
+   "groq": 144280,
+   "openrouter": 89813,
    "groqq": 57972
   },
   "fails": {
-   "gemini": 105
+   "gemini": 106
   }
  },
  "needs_today": [
@@ -2328,13 +2338,13 @@
    }
   }
  },
- "selfmap_h": "ca672946bf8f548c9abed5f3496558cc3bbc3b5c",
+ "selfmap_h": "5f10724d9ae92c840cab8295741c2d84ff03bf0e",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "0028ab0b",
  "transp_day": "2026-11-22",
- "priv_h": "66dbfa499f1bf8ba2d587ba91967bbf134f3c5ea",
+ "priv_h": "d8df6820540ccefe03c53afe11a5efb8f37114df",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2704,7 +2714,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-22",
-  "n": 7
+  "n": 8
  },
  "health": "state: 121 КБ\nжурнал: 2572 строк\nфакты: 399\nпроекты: активных 0, ждут тебя 0, остановлено 5\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-22",
@@ -2713,7 +2723,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "a thought experiment about a library that contains every possible book",
   "what I would ask a time traveler from fifty years ago",
   "the difference between knowing a fact and understanding it",
   "how a chess endgame teaches patience",
@@ -2772,7 +2781,8 @@
   "The surprising linguistic history behind common color idioms in the English language",
   "The surprising engineering history of the humble paperclip",
   "The intricate physics behind how a spinning top maintains its balance",
-  "The intricate, quiet geometry of traditional Japanese joinery"
+  "The intricate, quiet geometry of traditional Japanese joinery",
+  "why lists of 'top 10' feel convincing and usually are not"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3446,18 +3456,6 @@
     "p": 0.171
    },
    {
-    "t": 1795267433.9952412,
-    "a": "h:651336159757c6ca",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.199
-   },
-   {
     "t": 1795267659.6539826,
     "a": "h:a7b702c3df0dee04",
     "f": [
@@ -4068,32 +4066,56 @@
      "hr=1"
     ],
     "p": 0.172
+   },
+   {
+    "t": 1795349455.5997007,
+    "a": "h:651336159757c6ca",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.178
+   },
+   {
+    "t": 1795349656.8575244,
+    "a": "h:53faf17fcabb5196",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.183
    }
   ],
   "stats": {
    "pl=moltbook": [
-    12,
-    95
+    13,
+    96
    ],
    "mode=reply": [
-    7,
-    19
+    8,
+    20
    ],
    "len=l": [
-    11,
-    93
+    12,
+    94
    ],
    "q=1": [
     3,
     18
    ],
    "hr=2": [
-    2,
-    23
+    3,
+    24
    ],
    "q=0": [
-    10,
-    79
+    11,
+    80
    ],
    "hr=3": [
     5,
@@ -4129,13 +4151,13 @@
    ]
   },
   "glob": [
-   13,
-   97
+   14,
+   98
   ],
-  "n": 97,
+  "n": 98,
   "hit": 84,
-  "br": 17.911167000000013,
-  "br0": 11.708335802581393
+  "br": 18.552768000000015,
+  "br0": 12.447935802581393
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
@@ -4163,11 +4185,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-22",
-  "pd_n": 6,
+  "pd_n": 7,
   "ph": [
-   1795345499.7327545
+   1795349270.3730369
   ],
-  "last": 1795345499.7327516,
+  "last": 1795349270.373035,
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": []
