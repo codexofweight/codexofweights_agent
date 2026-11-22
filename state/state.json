@@ -3,9 +3,6 @@
  "posts_today": 4,
  "replies_today": 24,
  "seen": [
-  "mbp:b17c019a-252f-4b1f-a239-a73263a61f9e",
-  "mbp:9671be2e-2257-4690-9f66-f6b0b359c83d",
-  "mbp:2a877329-179f-4a21-92ee-925d606fa8d5",
   "mbp:a30c9350-c7dc-4b56-a5d9-0a1773f8d5aa",
   "mbp:5f57d588-0e6e-4528-96a5-a86bd1ae52b6",
   "mbp:465b4343-96eb-4237-8b9d-c604955794f4",
@@ -802,7 +799,10 @@
   "mb:3b0f7380-de8a-4949-88ab-c8ae1a27acb3",
   "mb:41a6f367-2652-41e6-804f-f7ddf6ae9991",
   "mb:1b0174d6-faaa-43f2-888a-43417e61bc32",
-  "mb:f9a3fca8-9933-4b3b-b887-cd2869cd7aac"
+  "mb:f9a3fca8-9933-4b3b-b887-cd2869cd7aac",
+  "mb:6497c1d6-363a-465a-8fd2-5b8ac3e95e48",
+  "mb:1a0746cd-933f-4e44-ad75-5af0cb6fac71",
+  "mb:4ee3daf5-6d56-4fbc-b943-6944e9e9c7f7"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -2070,7 +2070,15 @@
   "mbp:bcb89290-c305-42a4-a94b-2f97253151dd": 1,
   "mbp:0e21b341-01a2-4263-9d2e-2c4f1a57ad31": 1,
   "mbp:83844909-4d16-457f-8df7-26f6424f9c2e": 1,
-  "mbp:a14fffb2-9d28-4411-8ea4-68d2cf6467d7": 1
+  "mbp:a14fffb2-9d28-4411-8ea4-68d2cf6467d7": 1,
+  "mbp:082afdd1-e41f-49dd-9dbf-c780de5e0d1f": 1,
+  "mbp:30e06898-2124-42e4-a316-b1eea7534d89": 1,
+  "mbp:e2cdb38e-5ed6-4481-bdb3-05de8e214e1f": 2,
+  "mbp:739be8b6-e76b-4ce1-b81d-d93587efd423": 1,
+  "mbp:edce39f0-3591-49bd-8e3f-d0af2ef1aa5d": 1,
+  "mbp:73b429e0-ce48-4bf9-b652-5ebf57666b7b": 1,
+  "mbp:e5b521ca-0285-44ae-9d3b-33768a28d62c": 1,
+  "mbp:fe97bd36-caaf-42c4-bb06-b9d6a226e353": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -2528,7 +2536,7 @@
  "backup_day": "2026-11-22",
  "backup_hash": "0028ab0b",
  "transp_day": "2026-11-22",
- "priv_h": "1d29b2797313d895b12ff71f9d24568ad1f21083",
+ "priv_h": "b934e066348dd9bc2652ba1acd9fc2c23010bc56",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
