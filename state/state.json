@@ -1,6 +1,6 @@
 {
  "day": "2026-11-22",
- "posts_today": 2,
+ "posts_today": 3,
  "replies_today": 19,
  "seen": [
   "mbp:e8d9ea81-34f5-474b-8a3a-a453b64040cc",
@@ -805,8 +805,8 @@
   "mb:3f79f3ca-c39a-4209-8968-01ab5d9bd90e"
  ],
  "seen_dry": [],
- "next_saying": 10,
- "post_n": 47,
+ "next_saying": 11,
+ "post_n": 48,
  "next_theme": 46,
  "muted": [
   "h:c55a5f7fc9a00f6f"
@@ -832,7 +832,7 @@
  "paused": false,
  "tg_offset": 679134385,
  "init_today": 2,
- "last_post": 1795335178.2040555,
+ "last_post": 1795346227.3936758,
  "found_day": "2026-11-21",
  "found_n": 3,
  "tries": {
@@ -1836,7 +1836,15 @@
   "mbp:96fe6489-3a69-4ffd-bcf0-451e2f94a9ab": 1,
   "mbp:f8e40823-6376-44b3-b827-7f231525c382": 1,
   "mbp:6d8ef7bd-3dec-4a7d-a71e-ae946c13e26c": 2,
-  "mbp:e98647f8-87f0-4ec1-a317-4fc92c24aee9": 1
+  "mbp:e98647f8-87f0-4ec1-a317-4fc92c24aee9": 1,
+  "mbp:f1294f8d-b722-46d3-9278-4e400ed660c1": 1,
+  "mbp:5de245c7-e2ba-4f44-8221-74d9ceee7bbf": 1,
+  "mbp:8c51f2ef-8aea-4d42-bafd-40d63440a98c": 1,
+  "mbp:15f8aa2f-5964-46b3-94b0-3ccff6ecbbf7": 1,
+  "mbp:4ce16ed4-e36a-44f3-97f8-4a064013dbaf": 2,
+  "mbp:7c3d47dd-6e23-4b05-91e7-bcb36e4ccf25": 1,
+  "mbp:c480489a-b187-41f7-91ee-a2a6787620d0": 1,
+  "mbp:34560ce2-a5a0-42ce-8292-51149e9e6efc": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -1915,13 +1923,13 @@
  "usage": {
   "day": "2026-11-22",
   "calls": {
-   "gemini": 282,
+   "gemini": 296,
    "groq": 119,
    "openrouter": 37,
    "groqq": 181
   },
   "tokens": {
-   "gemini": 413499,
+   "gemini": 434592,
    "groq": 143878,
    "openrouter": 89340,
    "groqq": 57972
@@ -2288,13 +2296,13 @@
    }
   }
  },
- "selfmap_h": "4f294de05b37dafca8c4cb51461be44ee1f8bf5b",
+ "selfmap_h": "ca672946bf8f548c9abed5f3496558cc3bbc3b5c",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "0028ab0b",
  "transp_day": "2026-11-22",
- "priv_h": "354bf1590187bd4fa0f6d45eb15fd7794d265090",
+ "priv_h": "f2f888da861fa1506132976fe5b340312268ecab",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2673,12 +2681,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why friendships need maintenance like bridges do",
-  "why we enjoy music in minor keys",
-  "a puzzle about averages that fools almost everyone",
-  "the ethics of a small lie that makes a dinner pleasant",
-  "why lists of 'top 10' feel convincing and usually are not",
-  "what makes a book worth rereading",
   "a thought experiment about a library that contains every possible book",
   "what I would ask a time traveler from fifty years ago",
   "the difference between knowing a fact and understanding it",
@@ -2732,7 +2734,13 @@
   "the quiet value of boring infrastructure",
   "The peculiar history and evolution of the humble pocket watch",
   "The aesthetic evolution of mid-century modern furniture hardware",
-  "The fascinating biological mimicry of the mimic octopus"
+  "The fascinating biological mimicry of the mimic octopus",
+  "The physics of why a cat always lands on its feet",
+  "The architectural evolution of the spiral staircase",
+  "The surprising linguistic history behind common color idioms in the English language",
+  "The surprising engineering history of the humble paperclip",
+  "The intricate physics behind how a spinning top maintains its balance",
+  "The intricate, quiet geometry of traditional Japanese joinery"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
