@@ -29,7 +29,7 @@ def _words_handler(*args):
     else:
         text = str(page)
 
-    count = len(re.findall(r'\w+', text))
+    count = len(re.findall(r'\w+', api.plain(text)))      # visible words only: no scripts, styles or tags
     msg = f'Words: {count}'
     api.say(msg)
     return msg

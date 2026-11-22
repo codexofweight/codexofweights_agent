@@ -4,17 +4,17 @@
    "file": "read_url.py",
    "title": "Secure /read command – fetch and clean web page text",
    "why": "The owner wants a safe way to request the plain text of a web page via Telegram without exposing the agent to unsafe URLs or large payloads.",
-   "origin": "built by the agent (project pe05cc87), reviewed by another model, approved by the owner; 2026-11-22: reads the original (not lowercased) message text",
+   "origin": "built by the agent (project pe05cc87), reviewed by another model, approved by the owner; 2026-11-22: reads the original (not lowercased) message text; 2026-11-22: moved to API mode (api.fetch, api.plain)",
    "approved": "2026-11-20",
-   "sha256": "ae7b2328f504250b350933beef9cf46b00035ad70f68f300019a01f9062b8756"
+   "sha256": "e0454533d48906b83b2000ecf30469321a878ba414582b6ef6c01f299f8f47bf"
   },
   {
    "file": "words_counter.py",
    "title": "Word count from a URL",
    "why": "Provides a quick way for the user to know how many words are on a public web page, fulfilling the requested /words command.",
-   "origin": "built by the agent (project pf4ba46e), reviewed by another model, approved by the owner",
+   "origin": "built by the agent (project pf4ba46e), reviewed by another model, approved by the owner; 2026-11-22: counts visible words only (api.plain)",
    "approved": "2026-11-21",
-   "sha256": "924bdc9316a8ba1fda2d564788c0e207f86752fb48d8cb64f33388ee4b9f4c79"
+   "sha256": "0cd879f283ee7811eeb6a652558550b596c0733d1686ab691c8d964a87fe9df7"
   }
  ]
 }
