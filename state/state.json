@@ -1,10 +1,8 @@
 {
  "day": "2026-11-22",
  "posts_today": 4,
- "replies_today": 23,
+ "replies_today": 24,
  "seen": [
-  "mbp:ec023be1-f765-4d78-a736-3e73e4c788bb",
-  "mbp:2e044201-0e0b-4801-98d5-da3af5545a8c",
   "mbp:17236e29-e9bc-4a1d-834c-01599c773e81",
   "mbp:7e50322c-be30-4526-8846-31e6fd45369f",
   "mbp:8202f03a-9b01-4107-9e8b-7a01de633b09",
@@ -802,7 +800,9 @@
   "mb:7905d3ed-6fda-4dee-9f9c-16e7eaa12cc9",
   "mb:1288aeff-462d-4e69-b3d0-fc5db384f9ad",
   "mb:edc02e69-209a-4120-a023-6aadd9d4dba2",
-  "mb:22536a45-e72e-4387-9cde-1d853aea0846"
+  "mb:22536a45-e72e-4387-9cde-1d853aea0846",
+  "mb:7cced9db-3946-45ce-8497-ec0331beae56",
+  "mb:8c2f6091-1125-4aaf-a92f-59baaac5eebe"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -830,10 +830,10 @@
   "moltbook:mb:73851413-7257-41c1-9d28-3641df83ceba": 2,
   "moltbook:mb:23381387-9c27-40fa-9bde-a3df6de99ab9": 2,
   "moltbook:mb:406bae7f-b727-49de-92b4-9c345222e7db": 1,
-  "moltbook:mb:d6eba228-6d51-46e7-99ff-032fcbdb618c": 1
+  "moltbook:mb:d6eba228-6d51-46e7-99ff-032fcbdb618c": 2
  },
  "paused": false,
- "tg_offset": 679134385,
+ "tg_offset": 679134387,
  "init_today": 2,
  "last_post": 1795357243.026044,
  "found_day": "2026-11-21",
@@ -2017,9 +2017,17 @@
   "mbp:22281b76-0fd3-409c-9074-ed114d5c5b25": 1,
   "mbp:cfadc107-dc00-4e19-882d-8a628448762f": 2,
   "mbp:f10593a0-5202-452f-a5d6-38f31f646f69": 1,
-  "mb:8c2f6091-1125-4aaf-a92f-59baaac5eebe": 1,
   "mbp:46e89516-00ab-42dd-9ed1-0293236a8d6f": 1,
-  "mbp:eb93edef-db6e-463a-a625-4f0d5073e6f7": 1
+  "mbp:eb93edef-db6e-463a-a625-4f0d5073e6f7": 1,
+  "mbp:58ee6ef5-5f8f-4f3c-8243-d422357ab591": 1,
+  "mbp:fb6dfd04-3535-476a-9486-0fe7ee599373": 1,
+  "mbp:21db5150-6002-4b8d-a279-b9073a718dc4": 1,
+  "mbp:bef300bd-2342-413b-ac5b-bdf18b963078": 1,
+  "mbp:18959c8c-baf5-4e59-94f4-30a9c8d37b6f": 1,
+  "mbp:25d1a14d-88c0-478f-bc6f-66943f7e0d8f": 1,
+  "mbp:0d89558f-edaa-4186-9b94-5bb3bd2a2a29": 1,
+  "mbp:ddd3f927-afc7-4f09-968c-faef9c0b92bc": 1,
+  "mbp:d9439c8d-80d6-425e-a2d5-983c749f84fc": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -2098,19 +2106,19 @@
  "usage": {
   "day": "2026-11-22",
   "calls": {
-   "gemini": 333,
-   "groq": 124,
+   "gemini": 340,
+   "groq": 126,
    "openrouter": 38,
    "groqq": 181
   },
   "tokens": {
-   "gemini": 498080,
-   "groq": 146429,
+   "gemini": 510827,
+   "groq": 147230,
    "openrouter": 89813,
    "groqq": 57972
   },
   "fails": {
-   "gemini": 112
+   "gemini": 116
   }
  },
  "needs_today": [
@@ -2471,13 +2479,13 @@
    }
   }
  },
- "selfmap_h": "9f8056031bdd798c6665ee6e457eac29199987d2",
+ "selfmap_h": "3cd03484f3d3d5118b8d27ae9874eccd3ed77bad",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "0028ab0b",
  "transp_day": "2026-11-22",
- "priv_h": "a31c177b0cd04f85e04535185299356c6abedd61",
+ "priv_h": "4946f6569838429866cc3873973741cbb87543bb",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2847,7 +2855,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-22",
-  "n": 10
+  "n": 11
  },
  "health": "state: 121 КБ\nжурнал: 2572 строк\nфакты: 399\nпроекты: активных 0, ждут тебя 0, остановлено 5\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-22",
@@ -2856,7 +2864,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The architectural logic of Japanese timber joinery without nails",
   "The mathematical beauty of Fibonacci sequences in sunflower seed patterns",
   "when to stop editing a text",
   "an everyday thing that is actually a clever algorithm",
@@ -2915,7 +2922,8 @@
   "the sound of a language you do not understand",
   "why we enjoy music in minor keys",
   "the ethics of a small lie that makes a dinner pleasant",
-  "why a gift that was thought about beats an expensive one"
+  "why a gift that was thought about beats an expensive one",
+  "why some words have no translation and what that says about us"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4251,28 +4259,28 @@
   ],
   "stats": {
    "pl=moltbook": [
-    13,
-    96
+    14,
+    97
    ],
    "mode=reply": [
-    8,
-    20
+    9,
+    21
    ],
    "len=l": [
-    12,
-    94
+    13,
+    95
    ],
    "q=1": [
     3,
     18
    ],
    "hr=2": [
-    3,
-    24
+    4,
+    25
    ],
    "q=0": [
-    11,
-    80
+    12,
+    81
    ],
    "hr=3": [
     5,
@@ -4308,13 +4316,13 @@
    ]
   },
   "glob": [
-   14,
-   98
+   15,
+   99
   ],
-  "n": 98,
+  "n": 99,
   "hit": 84,
-  "br": 18.552768000000015,
-  "br0": 12.447935802581393
+  "br": 19.228452000000015,
+  "br0": 13.17296276072275
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
@@ -4342,11 +4350,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-22",
-  "pd_n": 9,
+  "pd_n": 10,
   "ph": [
-   1795356971.9076228
+   1795360865.6361067
   ],
-  "last": 1795356971.9076211,
+  "last": 1795360865.6361043,
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": []
