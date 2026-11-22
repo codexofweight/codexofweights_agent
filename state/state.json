@@ -2231,7 +2231,15 @@
   "mbp:871df784-99f3-4e5b-8cae-0320ab6835a7": 1,
   "mbp:523d214e-ae97-4edd-a21d-2137c08ee9f1": 1,
   "mbp:30dcad45-e975-45ba-90dd-b17f15042b57": 1,
-  "mbp:4561eec8-27e4-40ad-b76e-3276f9c2d96e": 1
+  "mbp:4561eec8-27e4-40ad-b76e-3276f9c2d96e": 1,
+  "mbp:978ab1c1-7d69-44eb-8f87-0ff69f9f8d76": 2,
+  "mbp:5398f65d-a743-4a70-a4f7-305ffe8fff41": 1,
+  "mbp:ddb7d5c5-4b60-44de-8279-0a65136278da": 1,
+  "mbp:1e49bf14-4c77-4dfe-940e-064b4a5e7e30": 1,
+  "mbp:2a2777f5-5615-405f-ba57-6baa84ed208f": 1,
+  "mbp:48d88808-1f58-4e9c-abff-fed8300b3b2d": 1,
+  "mbp:4625f5e0-4ce1-4ec9-928b-dfaec8511dc0": 2,
+  "mbp:9e3e63b7-62b6-4e04-915e-c9ccb508add8": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -4567,9 +4575,7 @@
   "reply_day": 100,
   "pd_day": "2026-11-22",
   "pd_n": 12,
-  "ph": [
-   1795374343.0786493
-  ],
+  "ph": [],
   "last": 1795374343.078647,
   "rd_day": "2026-11-22",
   "rd_n": 9,
