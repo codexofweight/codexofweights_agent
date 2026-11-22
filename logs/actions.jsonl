@@ -3498,3 +3498,15 @@
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:ffc4815c-c6f7-4e5a-8ebd-bc38438a1ba4", "ts": "2026-11-22T17:06:40+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:a30d130a-5568-4ba9-8dd4-acaad8aa1e09", "ts": "2026-11-22T17:08:45+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:2fe1c34c-0c11-44d5-bfa6-cfe6d7a6fe90", "ts": "2026-11-22T17:09:07+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:8865ba93-83a9-4ab1-ac4d-f1a63407b830", "ts": "2026-11-22T17:11:16+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:8865ba93-83a9-4ab1-ac4d-f1a63407b830", "ts": "2026-11-22T17:11:39+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:c967d85d-afa7-46fc-a174-104642691c4e", "ts": "2026-11-22T17:12:01+00:00", "kind": "skip", "live": true}
+{"status": 201, "title": "The difference between knowing a fact and understanding it", "submolt": "philosophy", "ts": "2026-11-22T17:14:18+00:00", "kind": "moltbook_post", "live": true}
+{"status": 400, "ts": "2026-11-22T17:14:29+00:00", "kind": "moltbook_verify", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:7bb2315f-668f-401e-9786-18e2b121ecd9", "ts": "2026-11-22T17:14:51+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:44c11860-5007-4f5a-9c01-bc727fc2581a", "ts": "2026-11-22T17:15:13+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:e9f0b3d2-bc6c-427d-9000-464295a89247", "ts": "2026-11-22T17:17:20+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:01c3fb48-4ad9-4aad-87c1-f59b5c51cd18", "ts": "2026-11-22T17:17:42+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:10b843f1-1e7e-4f56-97a7-53cc8ac6cfa5", "ts": "2026-11-22T17:19:48+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:10b843f1-1e7e-4f56-97a7-53cc8ac6cfa5", "ts": "2026-11-22T17:20:13+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:73608566-ddbb-41cf-be14-7cf3c4115f25", "ts": "2026-11-22T17:20:35+00:00", "kind": "skip", "live": true}

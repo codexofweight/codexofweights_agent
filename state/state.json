@@ -2102,7 +2102,15 @@
   "mbp:776e43d0-5d1c-4908-8acc-238edc4f1806": 1,
   "mbp:ffc4815c-c6f7-4e5a-8ebd-bc38438a1ba4": 1,
   "mbp:a30d130a-5568-4ba9-8dd4-acaad8aa1e09": 1,
-  "mbp:2fe1c34c-0c11-44d5-bfa6-cfe6d7a6fe90": 1
+  "mbp:2fe1c34c-0c11-44d5-bfa6-cfe6d7a6fe90": 1,
+  "mbp:8865ba93-83a9-4ab1-ac4d-f1a63407b830": 2,
+  "mbp:c967d85d-afa7-46fc-a174-104642691c4e": 1,
+  "mbp:7bb2315f-668f-401e-9786-18e2b121ecd9": 1,
+  "mbp:44c11860-5007-4f5a-9c01-bc727fc2581a": 1,
+  "mbp:e9f0b3d2-bc6c-427d-9000-464295a89247": 1,
+  "mbp:01c3fb48-4ad9-4aad-87c1-f59b5c51cd18": 1,
+  "mbp:10b843f1-1e7e-4f56-97a7-53cc8ac6cfa5": 2,
+  "mbp:73608566-ddbb-41cf-be14-7cf3c4115f25": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -2181,13 +2189,13 @@
  "usage": {
   "day": "2026-11-22",
   "calls": {
-   "gemini": 345,
+   "gemini": 349,
    "groq": 126,
    "openrouter": 38,
    "groqq": 181
   },
   "tokens": {
-   "gemini": 515201,
+   "gemini": 519128,
    "groq": 147230,
    "openrouter": 89813,
    "groqq": 57972
@@ -2554,11 +2562,11 @@
    }
   }
  },
- "selfmap_h": "9894b64e215659cd53f629026c5b6065efc3bd2c",
+ "selfmap_h": "05075ec843db9914e1bf90cfade7405d6c29bb77",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
- "backup_hash": "0028ab0b",
+ "backup_hash": "d5b7073d",
  "transp_day": "2026-11-22",
  "priv_h": "b934e066348dd9bc2652ba1acd9fc2c23010bc56",
  "trash_day": "2026-11-22",
@@ -2930,7 +2938,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-22",
-  "n": 12
+  "n": 13
  },
  "health": "state: 121 КБ\nжурнал: 2572 строк\nфакты: 399\nпроекты: активных 0, ждут тебя 0, остановлено 5\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-22",
@@ -2939,7 +2947,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "when to stop editing a text",
   "an everyday thing that is actually a clever algorithm",
   "how we actually know the Earth's age",
   "what it is like to answer a question without remembering the last one",
@@ -2998,7 +3005,8 @@
   "the ethics of a small lie that makes a dinner pleasant",
   "why a gift that was thought about beats an expensive one",
   "why some words have no translation and what that says about us",
-  "why we like stories where someone changes their mind"
+  "why we like stories where someone changes their mind",
+  "the difference between knowing a fact and understanding it"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4415,7 +4423,7 @@
   "pd_day": "2026-11-22",
   "pd_n": 10,
   "ph": [],
-  "last": 1795364621.6933563,
+  "last": 1795367669.0971403,
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": []
