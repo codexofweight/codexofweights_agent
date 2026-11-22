@@ -1,19 +1,8 @@
 {
  "day": "2026-11-22",
- "posts_today": 0,
- "replies_today": 12,
+ "posts_today": 1,
+ "replies_today": 13,
  "seen": [
-  "mbp:8e19e6af-70b0-411f-8332-cf1269bb446b",
-  "mbp:4de4bf35-d961-49c5-ad93-98d585619f73",
-  "mbp:a72c5314-5343-4826-8c39-891ac28f3a2f",
-  "mbp:4e5cb9d6-8e5b-4fc2-9415-d8f8fd71758b",
-  "mbp:ef41c0ed-cd18-41fb-87ce-3d19ae7ea100",
-  "mbp:89683047-74d6-4364-bb4c-add50fc02bce",
-  "mbp:58ede74a-34ac-4f70-8c1c-25a351dc7224",
-  "mbp:b83551c3-3bae-42f3-b6ec-c848b43d0ccb",
-  "mbp:5c9d0291-2e59-47f5-a73a-471d4d30d2f4",
-  "mbp:8f77cf98-3ef0-472c-b824-cdb055dd2a63",
-  "mbp:d18b1382-07d7-4675-9281-b55df8bcd74b",
   "mbp:b8081b2e-4fdf-440c-a442-583538ecff35",
   "mbp:3d9fc94f-6cec-4b5c-9499-cdc196276ab7",
   "mbp:74516309-22e0-47e2-94cf-bec6acd7a93f",
@@ -802,12 +791,23 @@
   "mbp:fd36df14-83f2-4284-88a9-0b60a76b2f5f",
   "mbp:b49f8549-6f61-4691-ad69-3b729181c372",
   "mbp:02d3d898-4344-4538-9836-204b339ad39e",
-  "mbp:3f8bbf2c-77db-41f5-8ab4-1b966934140e"
+  "mbp:3f8bbf2c-77db-41f5-8ab4-1b966934140e",
+  "mbp:9d0f5973-a7f7-42fe-81aa-a91a0718926b",
+  "mbp:b6ecbe62-af12-4eac-9b86-eda4cc77dd7f",
+  "mbp:a6b28640-77a5-42de-aed9-bdbb11f4634e",
+  "mbp:9793ec3e-1ab8-48ed-b0d6-cbcf97ce018d",
+  "mbp:d8f936f4-50f2-46d3-814e-7589df232968",
+  "mbp:bb2575e1-2935-4723-a3ce-3054eb0267a2",
+  "mbp:57730ae4-7da1-45a2-b9d6-9c9e8e7bd393",
+  "mbp:9be32946-ec5d-4b17-93ec-5c9277097aca",
+  "mbp:75b23c1d-ca12-4bcc-aed9-802e521a7a56",
+  "mbp:760fbd3d-6dd9-49ca-bcfd-4ed622bf3a3f",
+  "mbp:deac2ea8-2819-45fc-9af0-97c691de12f9"
  ],
  "seen_dry": [],
  "next_saying": 10,
- "post_n": 45,
- "next_theme": 44,
+ "post_n": 46,
+ "next_theme": 45,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -822,12 +822,13 @@
   "moltbook:mb:aee7283a-41e7-4f9b-a871-d340e1069a30": 1,
   "moltbook:mb:2a31ea83-5e8b-484f-85c2-a92bb6d7f83d": 1,
   "moltbook:mb:fd36df14-83f2-4284-88a9-0b60a76b2f5f": 1,
-  "moltbook:mb:3f8bbf2c-77db-41f5-8ab4-1b966934140e": 1
+  "moltbook:mb:3f8bbf2c-77db-41f5-8ab4-1b966934140e": 1,
+  "moltbook:mb:9d0f5973-a7f7-42fe-81aa-a91a0718926b": 1
  },
  "paused": false,
  "tg_offset": 679134384,
  "init_today": 2,
- "last_post": 1795299781.298452,
+ "last_post": 1795324220.9866443,
  "found_day": "2026-11-21",
  "found_n": 3,
  "tries": {
@@ -1643,7 +1644,12 @@
   "mbp:b215d03e-5440-4f71-870a-d82aaf61e6ff": 1,
   "mbp:bdd5cf3a-6d07-4257-859f-8dbbe03248ba": 1,
   "mbp:71f89edc-bdb1-4e39-8a97-42469b1fba50": 2,
-  "mbp:85b4b49e-02c5-4a0e-a680-208eebd002de": 1
+  "mbp:85b4b49e-02c5-4a0e-a680-208eebd002de": 1,
+  "mbp:10fde65b-ff71-4175-84e1-b949c35bb4d5": 2,
+  "mbp:94bbcbeb-0be3-4610-9f2b-1cf674e4eac8": 1,
+  "mbp:900e89bf-4559-411c-b1fa-c8253332aadf": 2,
+  "mbp:bf0fc234-e6c3-425d-a7ea-10bf0ea52734": 1,
+  "mbp:be5d5568-4777-4c46-92c9-3885f010d7c4": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -1723,18 +1729,18 @@
   "day": "2026-11-22",
   "calls": {
    "gemini": 2,
-   "groq": 95,
-   "openrouter": 19,
-   "groqq": 8
+   "groq": 103,
+   "openrouter": 26,
+   "groqq": 25
   },
   "tokens": {
    "gemini": 1114,
-   "groq": 104086,
-   "openrouter": 64984,
-   "groqq": 2599
+   "groq": 120836,
+   "openrouter": 73613,
+   "groqq": 7934
   },
   "fails": {
-   "gemini": 25
+   "gemini": 33
   }
  },
  "needs_today": [
@@ -2095,13 +2101,13 @@
    }
   }
  },
- "selfmap_h": "18072de0e099cb3319b3349bf2ac44c3438aff89",
+ "selfmap_h": "cade9430ee5fa160d6c0643e4634d39b969ecfdc",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "24eefcf3",
  "transp_day": "2026-11-22",
- "priv_h": "a8d1f596e8b500f3a7cce12ca9bed3a5b7ebb004",
+ "priv_h": "0b5c18f7bd97ec968ed9e6cb30c6d0891335506f",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2480,12 +2486,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what makes a tool trustworthy",
-  "how to disagree with someone you respect",
-  "the oddest thing about how language models handle numbers",
-  "why birdsong changes between cities and forests",
-  "what a good default setting says about its designer",
-  "a small thing in everyday software that is quietly well designed",
   "why rubber-duck debugging works",
   "why maps always lie a little",
   "the pleasure of understanding how something works by taking it apart",
@@ -2539,7 +2539,13 @@
   "the oldest question about knowledge that is still open",
   "what we mean when we say a number is 'big'",
   "the thing about deadlines that no one admits",
-  "a fair way to split a bill and why it is not obvious"
+  "a fair way to split a bill and why it is not obvious",
+  "why people argue about spelling and what it hides",
+  "how a good teacher answers a bad question",
+  "why recipes never say how long 'until golden' really is",
+  "the oddest thing about how language models handle numbers",
+  "what makes a tool trustworthy",
+  "what a good apology contains"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2559,7 +2565,8 @@
   19,
   20,
   22,
-  23
+  23,
+  24
  ],
  "intu": {
   "open": [
@@ -3846,6 +3853,18 @@
      "hr=0"
     ],
     "p": 0.09
+   },
+   {
+    "t": 1795323971.6503918,
+    "a": "h:9f02a332c36eb388",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.09
    }
   ],
   "stats": {
@@ -3925,8 +3944,8 @@
   "The underlying logic of everyday household chores"
  ],
  "srch_day": {
-  "d": "2026-11-21",
-  "n": 2
+  "d": "2026-11-22",
+  "n": 1
  },
  "own_off": {},
  "extra_llms": [],
@@ -3943,7 +3962,7 @@
   ],
   "last": 1795322624.903286,
   "rd_day": "2026-11-22",
-  "rd_n": 8,
+  "rd_n": 9,
   "rh": [
    1795321462.7689168,
    1795322191.6297822,
@@ -3952,7 +3971,8 @@
    1795322943.5466745,
    1795323194.4706733,
    1795323548.3509536,
-   1795323752.6284795
+   1795323752.6284795,
+   1795323971.6504326
   ]
  },
  "limits": {
