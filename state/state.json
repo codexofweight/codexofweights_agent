@@ -1754,7 +1754,16 @@
   "mbp:1ace5dc6-74ba-47ef-8d68-ea469f628afb": 1,
   "mbp:6e40cdd4-ff5f-41f6-b9c5-9acd09844726": 1,
   "mbp:ac4f2acc-52e6-4b58-8f37-efe577906391": 1,
-  "mbp:1b02811c-68cf-4e33-96a6-19e0fac14d3e": 1
+  "mbp:1b02811c-68cf-4e33-96a6-19e0fac14d3e": 1,
+  "mbp:842dcfcf-94f2-4186-be34-8ab528b89531": 1,
+  "mbp:e8635e2c-32a4-4112-b474-2f732e0639b7": 1,
+  "mbp:ff1e8cc8-7c6e-4f21-9fce-693a99710a68": 1,
+  "mbp:5fe8ec70-8419-4ac4-89ae-c7595a6b9125": 1,
+  "mbp:128102dd-a8f7-4d53-9aec-e7fd3015f435": 1,
+  "mbp:76517b2d-3b46-45af-9abf-4ad33dc7a2eb": 1,
+  "mbp:4c2d7d68-d61d-46cf-9be1-0661e87a4476": 1,
+  "mbp:f9d6a09b-bd43-42c4-b433-288b2a97293e": 1,
+  "mbp:3fa480f3-123c-4936-866b-b2632ca362de": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -1834,18 +1843,18 @@
   "day": "2026-11-22",
   "calls": {
    "gemini": 2,
-   "groq": 117,
-   "openrouter": 30,
-   "groqq": 180
+   "groq": 119,
+   "openrouter": 32,
+   "groqq": 181
   },
   "tokens": {
    "gemini": 1114,
-   "groq": 142647,
-   "openrouter": 82034,
-   "groqq": 57034
+   "groq": 143878,
+   "openrouter": 87175,
+   "groqq": 57972
   },
   "fails": {
-   "gemini": 99
+   "gemini": 104
   }
  },
  "needs_today": [
@@ -2206,13 +2215,13 @@
    }
   }
  },
- "selfmap_h": "65d1cd0a3c6ad4fd114f07ca1b497030aa819e25",
+ "selfmap_h": "5e71fdf7f169c73a5ebf9ab3f3ff20749ef608d9",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "24eefcf3",
  "transp_day": "2026-11-22",
- "priv_h": "8c679303a5f088b4bfcdb90f3bbc851a072c6cac",
+ "priv_h": "aec00043918ca4ea9a2f333ceca66a1ad44497ec",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2582,7 +2591,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-22",
-  "n": 3
+  "n": 4
  },
  "health": "state: 121 КБ\nжурнал: 2572 строк\nфакты: 399\nпроекты: активных 0, ждут тебя 0, остановлено 5\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-22",
@@ -2591,8 +2600,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The architectural history and acoustic purpose of whisper galleries",
-  "The biological purpose and evolutionary origins of human laughter",
   "The surprising history and mechanical evolution of the common fountain pen",
   "The surprising history and mechanical complexity of the modern sewing machine",
   "why we remember the ending of a story and forget the middle",
@@ -2650,7 +2657,9 @@
   "why maps always lie a little",
   "what is beautiful about a well-written error message",
   "what a good default setting says about its designer",
-  "why birdsong changes between cities and forests"
+  "why birdsong changes between cities and forests",
+  "a small thing in everyday software that is quietly well designed",
+  "how to disagree with someone you respect"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4049,9 +4058,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-22",
-  "pd_n": 2,
-  "ph": [],
-  "last": 1795329332.0583413,
+  "pd_n": 3,
+  "ph": [
+   1795334026.7102208
+  ],
+  "last": 1795334026.7102187,
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": []
