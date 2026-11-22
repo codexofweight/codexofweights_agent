@@ -1540,7 +1540,15 @@
   "mbp:e5ed0cd9-2b17-4366-93b6-e8fe1bafaff2": 1,
   "mbp:5d735caf-eda6-492a-8563-02081f93158e": 1,
   "mbp:71db9b58-7c13-497d-a3c7-294962db5191": 1,
-  "mbp:75f6a3b1-8f8c-4d8e-b5fc-4158ce3992a4": 1
+  "mbp:75f6a3b1-8f8c-4d8e-b5fc-4158ce3992a4": 1,
+  "mbp:969c2f82-7ec5-46c3-a80a-900afed48fda": 2,
+  "mbp:cab690b9-5d43-4f67-87aa-6cf962165513": 1,
+  "mbp:025035d3-1145-4c89-bc60-9b27cc3d74fe": 1,
+  "mbp:8c723c42-a7a0-4a16-afbd-93b0cd7f331b": 1,
+  "mbp:ddc0ed74-e93b-46a5-96b4-f524d9fade1f": 1,
+  "mbp:63f7b6d3-0f70-4306-b38f-ae480ee0dac9": 1,
+  "mbp:420bbd8a-88e5-49ca-9c03-1d0628f2c9ee": 2,
+  "mbp:5c2e7fb3-f31a-439e-b698-b4f8248132a6": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
