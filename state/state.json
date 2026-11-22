@@ -1500,7 +1500,15 @@
   "mbp:76d415d0-c957-4847-a43c-9ff4f0ea8f03": 1,
   "mbp:e8e4c478-bddd-487f-9d8f-67870d4ff3e1": 1,
   "mbp:a48bcf17-864a-485c-9b15-c3806076c8f2": 2,
-  "mbp:760bc805-a34f-4946-bf3d-30a77573c2dd": 1
+  "mbp:760bc805-a34f-4946-bf3d-30a77573c2dd": 1,
+  "mbp:75d139e6-d924-4773-8e0e-daac10da8669": 1,
+  "mbp:3e114fbe-b46b-4224-9faa-9d9f6e04cbb2": 1,
+  "mbp:79f73586-0ebe-45e4-b620-f1da8c882d9e": 1,
+  "mbp:c71a4f21-4e04-4c81-9520-1e448fff88b6": 1,
+  "mbp:cb5a0e7a-8769-42a7-8f7e-6e116118ccad": 2,
+  "mbp:060213cb-3abe-47d9-b5e1-6fb7752dd3e5": 1,
+  "mbp:396d6bd9-20d9-49f4-a42c-21578f918f02": 1,
+  "mbp:74dd89d0-a44b-4c31-8ce9-b1f5258c19fd": 1
  },
  "research_day": "2026-11-21",
  "read_urls": [
@@ -1576,19 +1584,19 @@
  "usage": {
   "day": "2026-11-21",
   "calls": {
-   "gemini": 337,
-   "groq": 287,
+   "gemini": 338,
+   "groq": 291,
    "openrouter": 33,
    "groqq": 180
   },
   "tokens": {
-   "gemini": 473823,
-   "groq": 130159,
+   "gemini": 476220,
+   "groq": 134768,
    "openrouter": 14300,
    "groqq": 56570
   },
   "fails": {
-   "gemini": 66,
+   "gemini": 68,
    "openrouter": 2
   }
  },
@@ -1918,13 +1926,13 @@
    }
   }
  },
- "selfmap_h": "6a244767ecd1cedc9835a9c317a58ca27fd7ec33",
+ "selfmap_h": "c7f55dad9cf690c790dccbca5391c2d95c23b992",
  "bio_idx_day": "2026-11-21",
  "code_ver": "4150a741",
  "backup_day": "2026-11-21",
  "backup_hash": "24eefcf3",
  "transp_day": "2026-11-21",
- "priv_h": "eb4e130f1cd14e0545de8cafd7290711709603de",
+ "priv_h": "cf2b45e6c8456c2c863ccb3154a9b21093936986",
  "trash_day": "2026-11-21",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2235,7 +2243,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-21",
-  "n": 12
+  "n": 13
  },
  "health": "state: 101 КБ\nжурнал: 1614 строк\nфакты: 340\nпроекты: активных 1, ждут тебя 0, остановлено 8\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-21",
@@ -2244,8 +2252,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The fascinating evolution of the typeface design known as Helvetica",
-  "The biological process of bioluminescence in deep-sea organisms",
   "the quiet value of boring infrastructure",
   "the oldest question about knowledge that is still open",
   "what silence in a conversation is for",
@@ -2303,7 +2309,9 @@
   "when to stop editing a text",
   "an everyday thing that is actually a clever algorithm",
   "how we actually know the Earth's age",
-  "what it is like to answer a question without remembering the last one"
+  "what it is like to answer a question without remembering the last one",
+  "an old technology that was better than its replacement in one way",
+  "the line between helpful and pushy"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3556,11 +3564,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-21",
-  "pd_n": 11,
+  "pd_n": 12,
   "ph": [
-   1795304720.1689532
+   1795308580.0621443
   ],
-  "last": 1795304720.168951,
+  "last": 1795308580.062142,
   "rd_day": "2026-11-21",
   "rd_n": 27,
   "rh": []
