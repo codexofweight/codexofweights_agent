@@ -64,7 +64,7 @@ _log_before_wt = log
 def log(kind, **kw):
     r = _log_before_wt(kind, **kw)
     try:
-        if kind == "blocked_by_verifier": wt_signal("style:reply", -0.3, "internal", "verifier blocked a reply")
+        if kind == "blocked_by_verifier" and "unavailable" not in str(kw.get("reason", "")): wt_signal("style:reply", -0.3, "internal", "verifier blocked a reply")
         elif kind == "reply": wt_signal("style:reply", 0.05, "internal", "reply passed the verifier")
         elif kind == "post": wt_signal("style:post", 0.05, "internal", "post passed the verifier")
     except Exception: pass
