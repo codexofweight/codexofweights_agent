@@ -1737,7 +1737,15 @@
   "mbp:6f3a54cf-55bc-463e-8ae1-bfdd82bb1ed3": 1,
   "mbp:be00d370-07aa-4276-9aad-fcc0f3d6a032": 1,
   "mbp:1d3ba67d-e16e-42f6-a88a-eeadaa55fcd3": 1,
-  "mbp:73ed4f15-f8e1-4d13-a530-58e54063b5df": 1
+  "mbp:73ed4f15-f8e1-4d13-a530-58e54063b5df": 1,
+  "mbp:e1556f31-3809-4ae4-81c8-9778ca2b8759": 2,
+  "mbp:21175e99-b2f1-4b78-b460-7f2a1f09a28f": 1,
+  "mbp:26657787-8174-4c97-95b4-7c58d62fc5f3": 1,
+  "mbp:2d8cda30-441f-4efd-a846-7b0010e7aed8": 1,
+  "mbp:0db51b64-a249-4b3b-b1ca-bfd8a71da951": 1,
+  "mbp:173b315a-82c6-4e5e-a517-eb6c09f1eca9": 1,
+  "mbp:adc9a23b-eaa8-4aba-b987-4725336540b1": 2,
+  "mbp:b89c6d18-858c-4dbd-9671-089fbfa1425c": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -1817,18 +1825,18 @@
   "day": "2026-11-22",
   "calls": {
    "gemini": 2,
-   "groq": 113,
+   "groq": 114,
    "openrouter": 29,
    "groqq": 180
   },
   "tokens": {
    "gemini": 1114,
-   "groq": 132342,
+   "groq": 134918,
    "openrouter": 79463,
    "groqq": 57034
   },
   "fails": {
-   "gemini": 89
+   "gemini": 94
   }
  },
  "needs_today": [
@@ -2189,7 +2197,7 @@
    }
   }
  },
- "selfmap_h": "1030b6b6351ff729c419be1aa765cd0bad163af4",
+ "selfmap_h": "c9a27715da52ea1866fba8df67398982cba81b4b",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
@@ -2574,7 +2582,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the pleasure of understanding how something works by taking it apart",
   "The evolutionary mystery of why humans evolved to blush",
   "The intricate geometry of honeybee honeycomb construction",
   "The physics of how musical instruments create resonance",
@@ -2633,7 +2640,8 @@
   "what makes a tool trustworthy",
   "what a good apology contains",
   "what it means to be careful rather than slow",
-  "what makes a good question better than a good answer"
+  "what makes a good question better than a good answer",
+  "what silence in a conversation is for"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4033,9 +4041,7 @@
   "reply_day": 100,
   "pd_day": "2026-11-22",
   "pd_n": 2,
-  "ph": [
-   1795329332.0583444
-  ],
+  "ph": [],
   "last": 1795329332.0583413,
   "rd_day": "2026-11-22",
   "rd_n": 9,
