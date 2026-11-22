@@ -1,69 +1,8 @@
 {
  "day": "2026-11-22",
  "posts_today": 2,
- "replies_today": 16,
+ "replies_today": 17,
  "seen": [
-  "mbp:8464d15a-95f9-4c01-a9cc-e98224b434a7",
-  "mbp:7911731c-7c51-4e28-9e91-ecd37bed4f3a",
-  "mbp:6aed7ce7-722f-420c-8004-4cf07c8d88de",
-  "mbp:5a84f78c-779d-4e24-b0db-7b3d29aa9e60",
-  "mbp:becf2175-5667-48f9-86b4-39b15f72e348",
-  "mbp:36a6e9f6-d843-4204-8e5f-b97c96f831a3",
-  "mbp:41022b76-45f3-47e7-b24a-fc646a53e7e3",
-  "mbp:9f4f4cf0-9e63-43e9-8629-e29bf82ab25d",
-  "mbp:3cfcede3-c5a6-4041-b88a-ebca49e18e5b",
-  "mbp:a8cb7bd6-438a-4934-b9b5-5b7b2fc19f70",
-  "mbp:ccf5a787-a4ec-4fb6-9c85-1958a26ab65b",
-  "mbp:5ccc7b9d-6eab-4960-ad05-7731e0cf669c",
-  "mbp:a3403de9-5136-4f3a-9222-90e715b4c9c7",
-  "mbp:bc0a8c2b-0776-4523-9f9c-21329d1a0dfe",
-  "mbp:1e876b6f-9e48-4dd7-a4c4-3b3dd00dea4b",
-  "mbp:0b5c65bf-050b-4294-aeb2-f0140c75a53b",
-  "mbp:f7871b78-41f2-452a-a0b5-49c5295a86f8",
-  "mb:9b92bd3a-1e53-41d9-9caa-7261162e6675",
-  "mbp:3facd27e-e355-4133-a833-9c0c4ff58a16",
-  "mbp:f9a632e0-900b-47ae-9c14-227e14c668bd",
-  "mbp:b0448d12-4981-4c55-aad9-580f9f98d8b5",
-  "mbp:d375b0c9-e25e-428f-962d-c00085cd809a",
-  "mbp:7cf3ea93-3f03-4a1c-9fef-2a4ed3a4c907",
-  "mbp:3577293f-84e8-4569-b4e2-cb78a1eb71c4",
-  "mbp:3a8dff0e-5852-4f5a-8972-7f82b9008faa",
-  "mb:3cf8621e-15d4-44b9-8fae-2c367fc4874d",
-  "mbp:1a25396a-11aa-48df-9545-72c391086ab8",
-  "mbp:2dd5d3c7-edcf-441e-be90-3318701cb43c",
-  "mbp:ea556425-9139-4626-afdc-0108df476d8b",
-  "mbp:4a60214a-09c2-4a2a-a826-b9bdbd2cc459",
-  "mbp:2cb0ba35-5f11-4b30-9b42-ba0390e2c14f",
-  "mbp:c2113d76-6d7a-4f20-9f77-b7229ecc0496",
-  "mbp:4fc050da-78d4-4c69-b572-43ca4ef10af6",
-  "mbp:f27ddbb7-1b53-4254-9a6e-716a0c22f636",
-  "mbp:ee61fe08-23ef-49e6-a39e-58a94b6831fa",
-  "mbp:22026ab2-26cd-4414-b70d-1442f8b89405",
-  "at://did:plc:3wb5hqlqbtj6mmaaqvnf5xi4/app.bsky.feed.post/3n2nwrtrosr2r",
-  "mbp:87d35e7b-f1cb-4733-b4bf-ead30b01b586",
-  "bf:at://did:plc:wpi7wfgmhjzodg624avdfgvx/app.bsky.feed.post/3n2iu5pdxz22p",
-  "bf:at://did:plc:bsd4ang4si6vnjxtmmt7wpj6/app.bsky.feed.post/3n2bljunass2m",
-  "mbp:a4a42c98-17c6-490b-a051-8dc61c5dae52",
-  "mbp:531d5061-34da-4520-b9dc-f653a86dce5e",
-  "mbp:e73350d5-b0b9-4ca0-a10b-fd178868b23f",
-  "mbp:87604f22-e8f6-40e8-96d7-a9ecb2ef5a9b",
-  "mbp:76d1f12c-f217-4a04-b530-6a4ddafd566e",
-  "mbp:e14dbb91-25bf-449b-acfe-22b3e168ff61",
-  "mbp:e15a107e-d813-40c0-adf5-b7c7a0c0a756",
-  "mbp:8ca78a7f-4cee-4331-a48d-a5376f997884",
-  "mf:117642267445439720",
-  "mbp:b7817f96-f96c-4e4a-8e0f-3244075a124c",
-  "mbp:4905c495-2910-4763-8c49-03dade2d0278",
-  "mbp:fd453852-583a-4ed6-9c13-b75368a735d8",
-  "mbp:6fd8cc9a-3483-4869-a7cb-59d0d18ba34d",
-  "mbp:b71ac662-6789-4dc5-ba0d-35efa16d0705",
-  "mbp:05203287-e481-45d1-9931-4738c9167ebf",
-  "mbp:b61618d4-a9c2-4f51-baa3-964629118fc3",
-  "mbp:98a8d4e4-5fef-49e8-b5f4-0b9bd95aa826",
-  "mbp:317e735e-1673-4ed1-8d0f-247c6cd206c7",
-  "mbp:043cf876-0ea0-4614-83e3-3fb021b44cfe",
-  "mbp:02545c06-8ec4-488e-839a-b0bcbc04233e",
-  "mbp:a8640960-562e-42a0-b970-7de9e490effa",
   "mbp:06238807-01e9-4a4a-91a2-7f2e67f28e38",
   "mbp:00351ac1-902c-429c-875e-7a34820202de",
   "mbp:77ea1aa1-0ac2-4390-8bc6-afe4925f54d6",
@@ -802,7 +741,68 @@
   "mbp:00b4cefa-be8b-45c3-954a-d0bcddf1a4f2",
   "mbp:d1aaa79b-a7a7-4b22-9534-77178768f12c",
   "mbp:ad0e09e3-29bf-4387-a202-9e8437fb0c36",
-  "mbp:fd6f7126-9700-4d98-b6ed-70baae8ee9de"
+  "mbp:fd6f7126-9700-4d98-b6ed-70baae8ee9de",
+  "mbp:4d3b3cc7-5a7c-4902-8878-b1e7496340bd",
+  "mbp:86652fc6-addd-489f-ad4e-9bba20c530c3",
+  "mbp:56662872-6528-4b90-9f90-78c1debb8e6a",
+  "mbp:cb781b1f-12a1-4777-86ad-78098b6fe20b",
+  "mbp:b34d4ce6-e7b6-4e0d-b83f-7549d2e717d6",
+  "mbp:1be4804d-386b-4acd-9c8f-8500f1b61834",
+  "mbp:1f05ab6f-77e1-4d25-8825-8919534c4315",
+  "mbp:c31f8f94-702b-44f1-8b13-0ca0de8b35cc",
+  "mbp:79fc1688-e5b4-477e-b089-0788b88bfb4a",
+  "mbp:ed147c98-5907-490d-8893-fd5d259f7e66",
+  "mbp:551367b9-eb6f-4622-a416-fc3e2c68a4c4",
+  "mbp:16d622e7-41fd-4d6a-a1cf-b9b4d31298a2",
+  "mbp:af3827e0-a645-4bf7-a3ec-83ae5cae8862",
+  "mbp:cf673d81-3c6e-41ee-9b10-3a6024a03671",
+  "mbp:3888002e-3a78-4d65-afa1-506b6b1001c1",
+  "mbp:def370a7-ea62-4ca4-ac03-6e90cb2327ac",
+  "mbp:34eddc27-663e-46e7-9a67-2591971d6452",
+  "mbp:d8836613-d680-45ae-a850-c845df7cf63b",
+  "mbp:d440f88f-e637-4e47-9592-f4c7e8681d0a",
+  "mbp:e043df20-b94a-471b-a2f6-ac4125c5b7ea",
+  "mbp:01a44d1e-9c03-4f25-bdac-1542cdd2f49b",
+  "mbp:93c95157-3838-4db5-837a-402b6a2c6437",
+  "mbp:a684a8d8-7e02-4cd6-92bc-ba7d2f91e03b",
+  "mbp:2ebd4500-b5a9-4595-b354-7e81940cd213",
+  "mbp:79f24830-911b-4742-9815-4ce9d33aa9d4",
+  "mbp:4d5ba873-6110-4699-ba31-89beb36b0d78",
+  "mbp:6ff70101-cd3c-434c-a2a8-c07b771b6fc7",
+  "mbp:7a38444d-e6d0-465e-8af9-3303df65eaf4",
+  "mbp:a2fefd78-d7a6-466f-a126-05273e2a92c9",
+  "mbp:6e0eb612-3b67-4d04-a129-cda93be7f974",
+  "mbp:df749cd9-d10f-493d-a23f-42359f12e43a",
+  "mbp:27862617-94bf-405e-8449-9916e91ccda2",
+  "mbp:a7a7ba61-48d4-4317-b04f-22a3bd41a93a",
+  "mbp:2b6361f0-b3ad-422f-afdb-f250e0b05ba4",
+  "mbp:9d249cf2-747e-4bac-b202-9cbbfc135ff4",
+  "mbp:7c51b123-f25b-4669-b6aa-7f8aadf300c7",
+  "mbp:f57d703a-fc32-4f23-9455-387859cbc837",
+  "mbp:913f7a1c-0efa-43a5-b255-0c360c9e0534",
+  "mbp:75119ac7-480e-4ff6-9cd2-03c069ec1851",
+  "mbp:4a40f5c5-7f46-472b-8d1a-35cf06ba4533",
+  "mbp:0a33a29c-34ad-47d9-bafb-74a8670db62b",
+  "mbp:d2b98903-85c3-4486-a9c0-0f12880e3612",
+  "mbp:b83c3131-a111-4c27-8a50-24194dd95f05",
+  "mbp:d030a0b0-b7b8-45e4-a636-b816f719709d",
+  "mbp:502afba5-2948-4d78-8145-65061c0a7fb3",
+  "at://did:plc:3wb5hqlqbtj6mmaaqvnf5xi4/app.bsky.feed.post/3n2nwrtrosr2r",
+  "mbp:a462ab16-f21b-4c3c-96a0-362f2e95cf9d",
+  "mbp:f4659f05-0d13-424c-9ca2-67b6408409ef",
+  "mbp:9ab61e16-8d1f-43b3-b70d-8e7cdc51423d",
+  "mbp:64a30359-99ff-4fd2-aa2a-3cba31c0162e",
+  "mbp:6b288fb6-e987-4bd3-8b9c-b2cc7985b666",
+  "mbp:437f0a87-0b40-4bf5-8c85-448b0da583fc",
+  "mbp:f5cee946-c23f-456c-82e1-e737eaa66757",
+  "mbp:d22ec99b-489e-43cf-a0b3-897c3f045636",
+  "mbp:58ed8d1e-8029-4106-bc7c-f3a7e5a043d3",
+  "mbp:11b7a4a9-f182-4b08-9b0c-1cb6808fdf3e",
+  "mbp:07e7c559-7c5e-4fdf-aee8-b973ccd308fa",
+  "mbp:dff9d11e-85b1-4172-af2d-5c54eb4c811c",
+  "mbp:7a94e1d9-b12c-4b99-b229-6760a2d1616e",
+  "mbp:12f2cd94-1f8d-4af5-89b8-0e8e92c7d80b",
+  "mbp:845140b9-4495-482e-ae20-bc94d6d0e27c"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -825,7 +825,8 @@
   "moltbook:mb:3f8bbf2c-77db-41f5-8ab4-1b966934140e": 1,
   "moltbook:mb:9d0f5973-a7f7-42fe-81aa-a91a0718926b": 1,
   "moltbook:mb:a1734419-4aea-4b9c-9b7e-56f6a526cc9c": 1,
-  "moltbook:mb:b46bc681-66cb-46bc-b0f1-bd143216b354": 2
+  "moltbook:mb:b46bc681-66cb-46bc-b0f1-bd143216b354": 2,
+  "bluesky:at://did:plc:m6sokb6y6j2fztslhpp7sq2p/app.bsky.feed.post/3n2k456mezn25": 1
  },
  "paused": false,
  "tg_offset": 679134384,
@@ -1843,15 +1844,15 @@
  "usage": {
   "day": "2026-11-22",
   "calls": {
-   "gemini": 103,
+   "gemini": 191,
    "groq": 119,
-   "openrouter": 34,
+   "openrouter": 35,
    "groqq": 181
   },
   "tokens": {
-   "gemini": 158871,
+   "gemini": 289633,
    "groq": 143878,
-   "openrouter": 87961,
+   "openrouter": 88409,
    "groqq": 57972
   },
   "fails": {
@@ -2216,13 +2217,13 @@
    }
   }
  },
- "selfmap_h": "2c6d0fa7e5ec31c918b83c97b0952891897c1dd2",
+ "selfmap_h": "583846179b1a2d2b88a869d24d007765fb074837",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "24eefcf3",
  "transp_day": "2026-11-22",
- "priv_h": "69f93899989dced9ca8f97436f57d75d8da10328",
+ "priv_h": "737a3f7f0bb9faee631a62191f3e24e842bcdf69",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2592,7 +2593,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-22",
-  "n": 4
+  "n": 5
  },
  "health": "state: 121 КБ\nжурнал: 2572 строк\nфакты: 399\nпроекты: активных 0, ждут тебя 0, остановлено 5\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-22",
@@ -2601,7 +2602,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why a simple rule often beats a smart exception",
   "the first time a tool you built surprised you",
   "why a gift that was thought about beats an expensive one",
   "why friendships need maintenance like bridges do",
@@ -2660,7 +2660,8 @@
   "the strange beauty of prime numbers",
   "what makes a joke land",
   "what makes a city walkable",
-  "the quiet value of boring infrastructure"
+  "the quiet value of boring infrastructure",
+  "The peculiar history and evolution of the humble pocket watch"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2685,42 +2686,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795077374.7505653,
-    "a": "h:df12d94c0e6b026b",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=1"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795078365.0419462,
-    "a": "h:3323258f18a49589",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.333
-   },
-   {
-    "t": 1795131937.3353589,
-    "a": "h:cc4bcbbc48240feb",
-    "f": [
-     "pl=bluesky",
-     "mode=reply",
-     "len=m",
-     "q=1",
-     "hr=3"
-    ],
-    "p": 0.171
-   },
    {
     "t": 1795132121.33861,
     "a": "h:d59b443d1ec3209d",
@@ -3980,24 +3945,36 @@
      "hr=1"
     ],
     "p": 0.17
+   },
+   {
+    "t": 1795337953.2807808,
+    "a": "h:cc4bcbbc48240feb",
+    "f": [
+     "pl=bluesky",
+     "mode=reply",
+     "len=m",
+     "q=1",
+     "hr=1"
+    ],
+    "p": 0.265
    }
   ],
   "stats": {
    "pl=moltbook": [
     10,
-    91
+    93
    ],
    "mode=reply": [
-    5,
-    17
+    6,
+    18
    ],
    "len=l": [
     9,
-    89
+    91
    ],
    "q=1": [
-    2,
-    16
+    3,
+    18
    ],
    "hr=2": [
     2,
@@ -4005,27 +3982,27 @@
    ],
    "q=0": [
     8,
-    76
+    77
    ],
    "hr=3": [
-    4,
-    33
+    5,
+    34
    ],
    "mode=comment": [
     5,
-    75
+    77
    ],
    "hr=0": [
     1,
     26
    ],
    "len=m": [
-    1,
-    2
+    2,
+    3
    ],
    "hr=1": [
     3,
-    10
+    12
    ],
    "pl=vk": [
     0,
@@ -4034,16 +4011,20 @@
    "len=s": [
     0,
     1
+   ],
+   "pl=bluesky": [
+    1,
+    1
    ]
   },
   "glob": [
-   10,
-   92
+   11,
+   95
   ],
-  "n": 92,
-  "hit": 82,
-  "br": 15.485148000000015,
-  "br0": 9.371030686917365
+  "n": 95,
+  "hit": 84,
+  "br": 16.394167000000014,
+  "br0": 10.183623133332988
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
@@ -4071,11 +4052,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-22",
-  "pd_n": 3,
+  "pd_n": 4,
   "ph": [
-   1795334026.7102208
+   1795338006.692595
   ],
-  "last": 1795334026.7102187,
+  "last": 1795338006.6925929,
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": []
