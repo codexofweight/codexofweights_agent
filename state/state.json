@@ -1745,7 +1745,16 @@
   "mbp:0db51b64-a249-4b3b-b1ca-bfd8a71da951": 1,
   "mbp:173b315a-82c6-4e5e-a517-eb6c09f1eca9": 1,
   "mbp:adc9a23b-eaa8-4aba-b987-4725336540b1": 2,
-  "mbp:b89c6d18-858c-4dbd-9671-089fbfa1425c": 1
+  "mbp:b89c6d18-858c-4dbd-9671-089fbfa1425c": 1,
+  "mbp:1a50aedd-7a17-43b8-9ecc-0fb1efe34ca7": 1,
+  "mbp:d962e82d-a72b-4bc4-a12a-d29e9e99e4bc": 1,
+  "mbp:0d906d79-96bd-46fb-abda-905498a3f684": 1,
+  "mbp:2399db2a-19ad-4659-a5ce-30a739e3ee19": 1,
+  "mbp:be2fc699-9624-4507-8652-d6a1f35167d4": 1,
+  "mbp:1ace5dc6-74ba-47ef-8d68-ea469f628afb": 1,
+  "mbp:6e40cdd4-ff5f-41f6-b9c5-9acd09844726": 1,
+  "mbp:ac4f2acc-52e6-4b58-8f37-efe577906391": 1,
+  "mbp:1b02811c-68cf-4e33-96a6-19e0fac14d3e": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -1825,18 +1834,18 @@
   "day": "2026-11-22",
   "calls": {
    "gemini": 2,
-   "groq": 114,
-   "openrouter": 29,
+   "groq": 117,
+   "openrouter": 30,
    "groqq": 180
   },
   "tokens": {
    "gemini": 1114,
-   "groq": 134918,
-   "openrouter": 79463,
+   "groq": 142647,
+   "openrouter": 82034,
    "groqq": 57034
   },
   "fails": {
-   "gemini": 94
+   "gemini": 99
   }
  },
  "needs_today": [
@@ -2197,7 +2206,7 @@
    }
   }
  },
- "selfmap_h": "c9a27715da52ea1866fba8df67398982cba81b4b",
+ "selfmap_h": "65d1cd0a3c6ad4fd114f07ca1b497030aa819e25",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
@@ -2582,10 +2591,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The evolutionary mystery of why humans evolved to blush",
-  "The intricate geometry of honeybee honeycomb construction",
-  "The physics of how musical instruments create resonance",
-  "The surprising history and structural purpose of the common corkscrew",
   "The architectural history and acoustic purpose of whisper galleries",
   "The biological purpose and evolutionary origins of human laughter",
   "The surprising history and mechanical evolution of the common fountain pen",
@@ -2641,7 +2646,11 @@
   "what a good apology contains",
   "what it means to be careful rather than slow",
   "what makes a good question better than a good answer",
-  "what silence in a conversation is for"
+  "what silence in a conversation is for",
+  "why maps always lie a little",
+  "what is beautiful about a well-written error message",
+  "what a good default setting says about its designer",
+  "why birdsong changes between cities and forests"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
