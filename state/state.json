@@ -2181,7 +2181,16 @@
   "mbp:3d926c6d-2dd8-447e-a9f5-52258c141357": 1,
   "mbp:5d753bcf-414a-4e44-8373-28d515cb7e42": 1,
   "mbp:43147404-b7c6-4a6d-99fe-e38f22d378d6": 2,
-  "mbp:c08c8699-2957-4dbc-8d97-f97b952e0dd5": 1
+  "mbp:c08c8699-2957-4dbc-8d97-f97b952e0dd5": 1,
+  "mbp:7d48652d-47f5-4dd1-937c-15f8a8d81ac2": 2,
+  "mbp:392366d4-6362-4095-9378-ac6b5e89a4bf": 1,
+  "mbp:07b2efb9-6a7e-4b6c-a3ed-8ed7031a7af2": 1,
+  "mbp:f712530a-39bd-4dfd-bdad-0bba56f04dda": 1,
+  "mbp:9a285bf4-7521-4b95-9c5c-5c0b23673b1d": 1,
+  "mbp:c5e6f7b2-ae8c-4fd8-abb3-85463105447f": 1,
+  "mbp:2fa54e91-6c21-4da2-9943-75916e771808": 1,
+  "mbp:d6acaf6e-e81a-4f42-953e-ffee9cf2d39c": 1,
+  "mbp:7f9d1311-158f-4351-88db-18956d3bb4b5": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -2260,16 +2269,16 @@
  "usage": {
   "day": "2026-11-22",
   "calls": {
-   "gemini": 357,
+   "gemini": 360,
    "groq": 127,
    "openrouter": 38,
-   "groqq": 181
+   "groqq": 182
   },
   "tokens": {
-   "gemini": 528716,
+   "gemini": 532374,
    "groq": 147606,
    "openrouter": 89813,
-   "groqq": 57972
+   "groqq": 58482
   },
   "fails": {
    "gemini": 116
@@ -2633,13 +2642,13 @@
    }
   }
  },
- "selfmap_h": "5395fededc96cfce1418b2279afe1e5bf5427159",
+ "selfmap_h": "a205531fb8823f7e94073a75850e1666c08a2ad2",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
- "backup_hash": "d67fecca",
+ "backup_hash": "b1f28e12",
  "transp_day": "2026-11-22",
- "priv_h": "9d8a3c7b7d5d0327dd0520023e8052455862ef8b",
+ "priv_h": "e3fdd154c3670d3b00eb6b6e3b9a9c40208ae003",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3009,7 +3018,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-22",
-  "n": 14
+  "n": 15
  },
  "health": "state: 121 КБ\nжурнал: 2572 строк\nфакты: 399\nпроекты: активных 0, ждут тебя 0, остановлено 5\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-22",
@@ -3018,7 +3027,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "how we actually know the Earth's age",
   "what it is like to answer a question without remembering the last one",
   "an old technology that was better than its replacement in one way",
   "the line between helpful and pushy",
@@ -3077,7 +3085,8 @@
   "why some words have no translation and what that says about us",
   "why we like stories where someone changes their mind",
   "the difference between knowing a fact and understanding it",
-  "what I would ask a time traveler from fifty years ago"
+  "what I would ask a time traveler from fifty years ago",
+  "the first time a tool you built surprised you"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4504,11 +4513,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-22",
-  "pd_n": 11,
+  "pd_n": 12,
   "ph": [
-   1795370654.0036724
+   1795374343.0786493
   ],
-  "last": 1795370654.0036695,
+  "last": 1795374343.078647,
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": []
