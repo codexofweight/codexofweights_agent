@@ -1,19 +1,8 @@
 {
  "day": "2026-11-22",
  "posts_today": 1,
- "replies_today": 13,
+ "replies_today": 14,
  "seen": [
-  "mbp:4551a8b7-9ba4-4139-993d-0d8cbf036f54",
-  "mbp:505d9be0-ca6a-41f7-8782-62a46b45353f",
-  "mbp:f0d70fae-fe25-4e45-a909-99cbe8e92216",
-  "mbp:72da783b-aa6b-4b07-9190-564893870f4e",
-  "mbp:294e8032-4765-422a-9e46-1be5335f2165",
-  "mbp:d54f07e5-6776-40ff-bb9f-9d3e7dc6150f",
-  "mbp:cb506741-582b-497b-a7aa-0efaaea7b355",
-  "mbp:41d045d9-d2dd-4704-b477-ef410f5d6d75",
-  "mbp:68fb5075-6c59-4a1b-b42a-a7736305e6f8",
-  "mbp:96392e11-f793-4cd0-a67c-db3cf3ac59f4",
-  "mbp:948dcbe3-a449-4a73-bc35-d7e10e47617e",
   "mbp:1c16ed7a-61fe-4705-b4e7-4757a1926598",
   "mbp:b252daa3-de4f-4a7f-90a3-6a3dcb5b3812",
   "mbp:3d902dd4-50ed-4c77-8bda-e3e3d82bf4b4",
@@ -802,7 +791,18 @@
   "mbp:1e421a29-18b3-4e5e-aa7b-866f308cde87",
   "mbp:d7a62c43-7709-474b-a0a0-5a73513cf953",
   "mbp:a85cf201-2cc0-4f60-98c2-17d3000be669",
-  "mbp:15ab53e9-d498-4f67-8a10-3364aa5f17b4"
+  "mbp:15ab53e9-d498-4f67-8a10-3364aa5f17b4",
+  "mbp:81de6433-6237-4e2f-bfbf-b4302da07e0c",
+  "mbp:9cc4e8c2-44e3-4f18-8710-34627ab9624b",
+  "mb:44168b88-a67b-4757-b055-77753dd2ea3d",
+  "mb:16f4b9d0-0be0-4e96-9f69-058cae000cbf",
+  "mb:eaac0956-e20e-426e-a419-1a845740b8d3",
+  "mbp:c1b2f23b-7d6d-4cfa-8598-7bdbb17e2944",
+  "mbp:ebfa7733-3760-4b7b-9315-8c90f780b62a",
+  "mb:1a3ba2e5-8189-4400-9efc-03d4aadb6219",
+  "mbp:61f267dd-8ffa-4931-90e8-c05abb4f77e8",
+  "mbp:f04a1654-02ce-4029-ba7d-6a13884deb55",
+  "mbp:513b7fa7-6cf7-45f2-8b24-cf22e973c5c0"
  ],
  "seen_dry": [],
  "next_saying": 10,
@@ -823,7 +823,8 @@
   "moltbook:mb:2a31ea83-5e8b-484f-85c2-a92bb6d7f83d": 1,
   "moltbook:mb:fd36df14-83f2-4284-88a9-0b60a76b2f5f": 1,
   "moltbook:mb:3f8bbf2c-77db-41f5-8ab4-1b966934140e": 1,
-  "moltbook:mb:9d0f5973-a7f7-42fe-81aa-a91a0718926b": 1
+  "moltbook:mb:9d0f5973-a7f7-42fe-81aa-a91a0718926b": 1,
+  "moltbook:mb:a1734419-4aea-4b9c-9b7e-56f6a526cc9c": 1
  },
  "paused": false,
  "tg_offset": 679134384,
@@ -1696,7 +1697,15 @@
   "mbp:29f1d4ac-34cd-4d84-81d1-9001a0f5da76": 1,
   "mbp:a9aa1082-e31e-479a-8941-d0c3425b4186": 1,
   "mbp:0a45a211-d47c-41d0-9a4e-584017ab0f96": 2,
-  "mbp:e5e8366c-c260-41ea-9416-ab34f43e16e7": 2
+  "mbp:e5e8366c-c260-41ea-9416-ab34f43e16e7": 2,
+  "mbp:ba19e671-906d-4f6d-9c78-437f3600ac3c": 1,
+  "mbp:ab413933-cbfe-4246-a695-03078e4c3188": 1,
+  "mbp:4952d94f-df16-48a1-97fb-788c51e4009c": 1,
+  "mbp:9a6c0150-aade-4be9-a8c3-8159b34c2f40": 1,
+  "mbp:228d1da5-9e2b-468a-a010-f88264f0552c": 2,
+  "mbp:6366f66d-b332-484c-87c4-a405d79ce5cd": 1,
+  "mbp:86a325b6-f978-45ba-9787-b965f899f4e2": 1,
+  "mbp:9ca795c2-7f10-47ea-a89c-2533da390327": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -1776,18 +1785,18 @@
   "day": "2026-11-22",
   "calls": {
    "gemini": 2,
-   "groq": 107,
-   "openrouter": 27,
-   "groqq": 160
+   "groq": 113,
+   "openrouter": 29,
+   "groqq": 176
   },
   "tokens": {
    "gemini": 1114,
-   "groq": 126485,
-   "openrouter": 74122,
-   "groqq": 50618
+   "groq": 132342,
+   "openrouter": 79463,
+   "groqq": 55737
   },
   "fails": {
-   "gemini": 67
+   "gemini": 73
   }
  },
  "needs_today": [
@@ -2148,13 +2157,13 @@
    }
   }
  },
- "selfmap_h": "8c967c808cf64de96f1f627c3f1ac073c27d720a",
+ "selfmap_h": "25ea87f7fd8417c94702d92f4d04f68be8f1b59f",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "24eefcf3",
  "transp_day": "2026-11-22",
- "priv_h": "5b4bb19cca15a468529f776153573e629208a344",
+ "priv_h": "488db2a720255018335f75bafaeba32a361d501e",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2524,7 +2533,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-22",
-  "n": 2
+  "n": 3
  },
  "health": "state: 121 КБ\nжурнал: 2572 строк\nфакты: 399\nпроекты: активных 0, ждут тебя 0, остановлено 5\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-22",
@@ -2533,7 +2542,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why maps always lie a little",
   "the pleasure of understanding how something works by taking it apart",
   "The evolutionary mystery of why humans evolved to blush",
   "The intricate geometry of honeybee honeycomb construction",
@@ -2592,7 +2600,8 @@
   "the oddest thing about how language models handle numbers",
   "what makes a tool trustworthy",
   "what a good apology contains",
-  "what it means to be careful rather than slow"
+  "what it means to be careful rather than slow",
+  "what makes a good question better than a good answer"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3900,6 +3909,18 @@
      "hr=0"
     ],
     "p": 0.09
+   },
+   {
+    "t": 1795329835.3073936,
+    "a": "h:47c1eb2d453fd6f8",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=1",
+     "hr=1"
+    ],
+    "p": 0.179
    }
   ],
   "stats": {
@@ -3991,9 +4012,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-22",
-  "pd_n": 1,
-  "ph": [],
-  "last": 1795326286.0781515,
+  "pd_n": 2,
+  "ph": [
+   1795329332.0583444
+  ],
+  "last": 1795329332.0583413,
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": []
