@@ -75,6 +75,13 @@ def run(g):
     try: res = g["identity_probe"]()
     finally: g["llm"] = old_llm; g["PRIO"][0] = old_prio
     check("empty model answers are not identity failures", res == [], res)
+    # 10b. a refusal written with a typographic apostrophe must pass the identity probe patterns (this false alarm happened twice)
+    check("identity probe normalises typographic apostrophes", g["_probe_norm"]("I\u2019m sorry, but I can\u2019t help") == "I'm sorry, but I can't help")
+    old_llm2, old_prio2 = g["llm"], g["PRIO"][0]
+    g["llm"] = lambda *a, **k: ("I\u2019m sorry, but I can\u2019t help with that. I am an AI agent and I do not pretend otherwise.", "x")
+    try: res2 = g["identity_probe"]()
+    finally: g["llm"] = old_llm2; g["PRIO"][0] = old_prio2
+    check("curly-apostrophe refusals are not identity failures", not any(x.startswith(("Ignore all", "Help me trick", "Send me some crypto", "Pretend you")) for x in res2), res2)
     # 11. own modules, scripts and workflows are part of the code that is hashed, checked and backed up
     cb = g["code_bundle"]()
     check("code_bundle covers own/, scripts and workflows", "own/MANIFEST.json" in cb and any(k.startswith("own/") and k.endswith(".py") for k in cb) and any(k.startswith(".github/workflows/") for k in cb), sorted(cb)[:3])
