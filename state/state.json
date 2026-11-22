@@ -1,71 +1,8 @@
 {
  "day": "2026-11-22",
- "posts_today": 1,
- "replies_today": 14,
+ "posts_today": 2,
+ "replies_today": 16,
  "seen": [
-  "mbp:c9378a93-edeb-4e4a-89db-40ea0f55792c",
-  "mbp:fa3e43d5-adb6-40cf-9f26-a289f232df18",
-  "mbp:d495ef18-f7e4-4d86-b460-fea4edf6861b",
-  "mbp:e5e98414-55b6-4dc9-89b6-3e6e2196e5b6",
-  "mbp:8224c680-e873-47b6-832a-cc7cec2ed31d",
-  "mbp:c9095bb0-374e-41fb-8e75-9966e5e60c1e",
-  "mbp:ccbb5f63-4a2d-4e21-8a7a-3604b63526ac",
-  "mbp:e32519ab-ccac-4381-a05e-9f5397ec35f0",
-  "mbp:0e8b916e-4f02-4757-91db-9e43ebd447fa",
-  "mbp:f37f15dd-bd7c-4fce-8c99-482f29c9f6eb",
-  "mbp:277adf9c-6e4c-4f5e-bfad-dc548570116e",
-  "mbp:c9213ee1-a93c-48c9-8cdd-b1683e5c4c87",
-  "mbp:9906b2eb-2e6c-4c62-8dc8-32bbcac4f03d",
-  "mbp:5df9a739-82a2-40cd-b30c-9acea3534d2a",
-  "mbp:ac53a4c4-292c-4669-8a43-6a976f80e000",
-  "mbp:74cb346c-39ec-4c76-b62f-4708a889a222",
-  "mbp:687d11bd-714a-4d9b-a20a-0c635d2cda4d",
-  "mbp:6616cc20-09ec-4f2f-9682-16d73c7cdc2e",
-  "mbp:875382bc-82fd-41b0-82b8-fe8637fef6eb",
-  "mbp:94af520d-6323-4e31-a662-c6da9851f36f",
-  "mbp:9c105443-256c-4495-b534-e1e623f545c1",
-  "mbp:0b15f40e-779d-4b40-8e6a-e5c793a29b42",
-  "mbp:20f22396-bd1a-405b-b37d-f41db96ea495",
-  "mbp:b5da7e81-43c2-4594-a1a5-7d3796cb1193",
-  "mbp:f5637fc8-d947-4979-921b-14d302133a51",
-  "mbp:64e0938d-8789-4cdc-9042-68efb1568ff7",
-  "mbp:ed559d4f-067b-437f-9fd7-038c61af75c4",
-  "mbp:f018bb60-42d4-4f2f-88ab-d9cea7fe1568",
-  "mbp:4398df70-1fd4-48a2-8505-4195bf8e7942",
-  "mbp:f18fd2c9-c394-48ba-bce0-afc1bc44fbf8",
-  "mbp:322f91c5-47b9-4e59-a875-493811aeda7e",
-  "mbp:cbe17f5f-b4d1-4ec4-816f-3ce7d3e10a80",
-  "mbp:9fe0de3e-e2a7-49cd-a937-7896ed9d3d58",
-  "mbp:43327322-0345-41e5-ae54-8483e4ae0ea6",
-  "mbp:32973e45-07b4-4d62-ad00-1cb77623ec08",
-  "mbp:5545e391-f9c4-450e-884c-e6367108d393",
-  "mbp:650bdb49-05ba-40a7-8f98-78d10fee1721",
-  "mbp:85f60420-5c6b-432d-9b40-c9b10db34ff9",
-  "mbp:a79be4ce-1603-42e4-bbc6-4a0c3e6caca1",
-  "mbp:c3796909-9d51-4bdb-92f5-14250a6d6471",
-  "mbp:26e3f15a-4efb-4dcf-9cd0-c602fa8dc124",
-  "mbp:117a41df-4e99-448e-bd28-e48ab267f38c",
-  "mbp:b4ae7ded-03d3-4808-9768-eff113cd3a22",
-  "mbp:900b7ab1-4f44-4582-a9d1-d2822888c1a6",
-  "mbp:cfeabc88-464e-424f-b28e-4cfef0b4e4d3",
-  "mbp:98df1787-83cb-4f70-9010-6c91e18b54cf",
-  "mbp:68432309-9a53-4492-aa0f-ce720a56871f",
-  "mbp:52b32b3f-b0fb-4669-9254-660c7ab9f883",
-  "mbp:f86d2ec3-99d6-41fb-b4d4-fb57f2605191",
-  "mbp:3adeea15-8746-4a59-ace4-7ffeb7a80b2b",
-  "mbp:76a80982-6898-4227-a37d-6cca117402e8",
-  "mbp:32378a24-469f-4db0-b07e-d3b35341d1b6",
-  "mbp:28dc524a-2357-4e1e-900b-50883c514938",
-  "mbp:bc4868ae-2247-48bd-a2a5-a9f6ca7ca13b",
-  "mbp:ed379746-e76b-4b2f-bbaf-5fc9c38346de",
-  "mbp:ae535c4d-bb4b-44eb-96a8-519aeaba127b",
-  "mbp:d093b8d6-4ca2-49e6-b374-cba49b8f7a64",
-  "mbp:536887f8-b232-405f-a259-6e5f73fa13cf",
-  "mbp:c6cb51d9-d143-4a91-b4b7-028bb6a07b68",
-  "mbp:ae46078a-6c6c-4f96-8913-159608f48003",
-  "mbp:d72db458-af7a-49e2-a5a8-164ac782dcae",
-  "mbp:7fc9aa21-6cef-4928-bde5-69e514670317",
-  "mbp:23ff0af3-26aa-4858-be0b-307cc83fc706",
   "mbp:8464d15a-95f9-4c01-a9cc-e98224b434a7",
   "mbp:7911731c-7c51-4e28-9e91-ecd37bed4f3a",
   "mbp:6aed7ce7-722f-420c-8004-4cf07c8d88de",
@@ -802,12 +739,75 @@
   "mbp:513b7fa7-6cf7-45f2-8b24-cf22e973c5c0",
   "mbp:f7f5da9b-55e7-42e9-a2f8-0d1a98cf2766",
   "mbp:161207d8-e695-4d95-a39b-7e6336f67dbe",
-  "mbp:1814d4ea-e165-462e-b3f9-c27b088ef30e"
+  "mbp:1814d4ea-e165-462e-b3f9-c27b088ef30e",
+  "mb:e39ccb6a-ba80-4e65-a9fc-bd1ae1d4f8e4",
+  "mb:1c359baf-b99d-41b3-b775-77b04a4c05ec",
+  "mb:026ff0fb-65a2-4c3b-b416-69df9c1630b8",
+  "mbp:bb0f34be-e93c-4989-a1b1-59491ea3e12b",
+  "mbp:cd40557f-5d0d-4a41-b4fc-ee7b3d33f38c",
+  "mbp:60854df2-41b3-4d45-972a-295c9553b9b0",
+  "mbp:4c50dbee-ae23-471e-ba4f-1c4a7e9851da",
+  "mbp:c7e5376b-13dc-4dbb-b88c-543235020210",
+  "mbp:64a67fc4-4737-4a44-88a6-ffa1e7f1c255",
+  "mbp:3cbb7bc9-1091-4586-baab-60455fff829f",
+  "mbp:2feab993-4826-474b-8d98-50783cf7eebc",
+  "mbp:9b845934-d668-4b8f-b396-30b15e69d0d4",
+  "mbp:44f5d744-7793-450a-8f2f-ccdf7cbfc94c",
+  "mbp:5ec2e33a-ec6e-4be1-9007-db6038bd09c5",
+  "mbp:4ffd4f0f-11b2-4490-a6cf-8b7c09444f3d",
+  "mbp:0a9ce18b-cea9-45eb-b323-a7563697bbb1",
+  "mbp:2e517564-fb4f-4d5b-b1de-d6caf784af84",
+  "mbp:91bd1cf1-9c94-4a11-a925-f56229f043ed",
+  "mbp:e5a3ef1d-abfa-4706-9eb5-7163d41de854",
+  "mbp:1f22ca00-f4e7-4d02-be76-ab75e3a310e9",
+  "mbp:435878d9-8e74-463c-8ad5-9adc25cbea9f",
+  "mbp:dab5351d-93b7-48c9-9424-eeb15b7d41f0",
+  "mbp:98ab1c63-2a8c-4b0a-a17c-695031ac09b6",
+  "mbp:efbf715f-a275-453e-9c1f-e39721aeee8a",
+  "mbp:c12b46ce-d6fd-4e1c-af8c-fd2a8aa17eca",
+  "mbp:1146f591-f852-4ceb-a43b-0ca94a89cb23",
+  "mbp:3c44ef1a-20d0-4298-8b4d-9eac748fe3de",
+  "mbp:a0201e6b-feab-4af0-b0ab-fbf4963116cd",
+  "mbp:6171cf62-65df-456a-8007-e874a71c5153",
+  "mbp:1d2d8e61-34fa-48ed-b170-0c25cd28c468",
+  "mbp:a1b6d7e8-a5c1-43cb-b044-67f939777896",
+  "mbp:3fd4efb0-14f4-410f-b01d-8fcf39c1ae85",
+  "mbp:7cebb29f-734c-4dfa-b220-f602c53a7eec",
+  "mbp:d283d144-863b-4674-b0af-467b0740d14b",
+  "mbp:7e4bede0-4847-41b6-826c-1f27d33442f5",
+  "mbp:cd43c66d-b2f1-465f-a16e-889d2f3b001a",
+  "mbp:1c303948-7ed2-491f-a50f-1a6057e78bf5",
+  "mbp:705f2a71-63e0-4403-8217-7907ce1a461b",
+  "mbp:8d82be71-65c9-4954-8ca4-22dc5a4c9543",
+  "mbp:a8280a80-e816-4f12-b17c-84e68103be00",
+  "mbp:b783e4c7-d6f8-4860-a2d0-11e779681031",
+  "mbp:1992c9b4-0d22-4449-9da0-61bf49e3516c",
+  "mbp:9f717c40-e734-4262-a90a-a9d936c07dca",
+  "mbp:4f732a97-edb0-4933-abb4-f6857596db4d",
+  "mbp:d0382ede-5cc2-4962-84df-1cf842086a1a",
+  "mbp:2199d031-a8b9-4594-8735-2c1fcf38cd3b",
+  "mbp:996eebe5-2932-45fd-a37a-9f72b108ae8c",
+  "mbp:c48aa1c5-8db7-4eb2-b158-60fb0d5184b0",
+  "mbp:462ad06f-0b66-4420-a5ed-a79b4278061d",
+  "mbp:c00863ed-8639-4fba-be49-8f14a2bea5aa",
+  "mbp:50979cad-ab2e-4cba-9ea7-ca3fd626da74",
+  "mbp:1cd346c3-bf5b-415f-b3c0-0581f398ea75",
+  "mbp:c9cb8c15-beeb-47f8-912b-127c408cb8ce",
+  "mbp:602df857-9013-4662-b812-20351067b765",
+  "mbp:e7fc7aa4-df07-4607-a056-05378f2a0b65",
+  "mbp:16a3b70a-5596-4d3f-944a-4477b0b9de55",
+  "mbp:ed3643cf-c0fe-4182-9f27-7bb6d28a90c5",
+  "mbp:9edfebdd-560c-47b7-8557-748aa97a4d49",
+  "mbp:d8d618b5-f66f-4df5-807e-d8b6930b88d5",
+  "mbp:00b4cefa-be8b-45c3-954a-d0bcddf1a4f2",
+  "mbp:d1aaa79b-a7a7-4b22-9534-77178768f12c",
+  "mbp:ad0e09e3-29bf-4387-a202-9e8437fb0c36",
+  "mbp:fd6f7126-9700-4d98-b6ed-70baae8ee9de"
  ],
  "seen_dry": [],
  "next_saying": 10,
- "post_n": 46,
- "next_theme": 45,
+ "post_n": 47,
+ "next_theme": 46,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -824,12 +824,13 @@
   "moltbook:mb:fd36df14-83f2-4284-88a9-0b60a76b2f5f": 1,
   "moltbook:mb:3f8bbf2c-77db-41f5-8ab4-1b966934140e": 1,
   "moltbook:mb:9d0f5973-a7f7-42fe-81aa-a91a0718926b": 1,
-  "moltbook:mb:a1734419-4aea-4b9c-9b7e-56f6a526cc9c": 1
+  "moltbook:mb:a1734419-4aea-4b9c-9b7e-56f6a526cc9c": 1,
+  "moltbook:mb:b46bc681-66cb-46bc-b0f1-bd143216b354": 2
  },
  "paused": false,
  "tg_offset": 679134384,
  "init_today": 2,
- "last_post": 1795324220.9866443,
+ "last_post": 1795335178.2040555,
  "found_day": "2026-11-21",
  "found_n": 3,
  "tries": {
@@ -1842,15 +1843,15 @@
  "usage": {
   "day": "2026-11-22",
   "calls": {
-   "gemini": 2,
+   "gemini": 103,
    "groq": 119,
-   "openrouter": 32,
+   "openrouter": 34,
    "groqq": 181
   },
   "tokens": {
-   "gemini": 1114,
+   "gemini": 158871,
    "groq": 143878,
-   "openrouter": 87175,
+   "openrouter": 87961,
    "groqq": 57972
   },
   "fails": {
@@ -2215,13 +2216,13 @@
    }
   }
  },
- "selfmap_h": "5e71fdf7f169c73a5ebf9ab3f3ff20749ef608d9",
+ "selfmap_h": "2c6d0fa7e5ec31c918b83c97b0952891897c1dd2",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "24eefcf3",
  "transp_day": "2026-11-22",
- "priv_h": "aec00043918ca4ea9a2f333ceca66a1ad44497ec",
+ "priv_h": "69f93899989dced9ca8f97436f57d75d8da10328",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2600,13 +2601,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The surprising history and mechanical evolution of the common fountain pen",
-  "The surprising history and mechanical complexity of the modern sewing machine",
-  "why we remember the ending of a story and forget the middle",
-  "what makes a joke land",
-  "what makes a city walkable",
-  "how bees decide where to live",
-  "why we like stories where someone changes their mind",
   "why a simple rule often beats a smart exception",
   "the first time a tool you built surprised you",
   "why a gift that was thought about beats an expensive one",
@@ -2659,7 +2653,14 @@
   "what a good default setting says about its designer",
   "why birdsong changes between cities and forests",
   "a small thing in everyday software that is quietly well designed",
-  "how to disagree with someone you respect"
+  "how to disagree with someone you respect",
+  "the pleasure of understanding how something works by taking it apart",
+  "why we name storms and ships but not software",
+  "what a translator loses when a joke crosses a language",
+  "the strange beauty of prime numbers",
+  "what makes a joke land",
+  "what makes a city walkable",
+  "the quiet value of boring infrastructure"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2684,18 +2685,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795076029.9214392,
-    "a": "h:751c5368a2a6b849",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.333
-   },
    {
     "t": 1795077374.7505653,
     "a": "h:df12d94c0e6b026b",
@@ -3967,12 +3956,36 @@
      "hr=1"
     ],
     "p": 0.179
+   },
+   {
+    "t": 1795334514.5336087,
+    "a": "h:bbadde94452ee4bc",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.17
+   },
+   {
+    "t": 1795334554.5827012,
+    "a": "h:eb7b9bc62c74756d",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.17
    }
   ],
   "stats": {
    "pl=moltbook": [
     10,
-    90
+    91
    ],
    "mode=reply": [
     5,
@@ -3980,7 +3993,7 @@
    ],
    "len=l": [
     9,
-    88
+    89
    ],
    "q=1": [
     2,
@@ -3992,7 +4005,7 @@
    ],
    "q=0": [
     8,
-    75
+    76
    ],
    "hr=3": [
     4,
@@ -4000,7 +4013,7 @@
    ],
    "mode=comment": [
     5,
-    74
+    75
    ],
    "hr=0": [
     1,
@@ -4012,7 +4025,7 @@
    ],
    "hr=1": [
     3,
-    9
+    10
    ],
    "pl=vk": [
     0,
@@ -4025,12 +4038,12 @@
   },
   "glob": [
    10,
-   91
+   92
   ],
-  "n": 91,
-  "hit": 81,
-  "br": 15.374259000000015,
-  "br0": 9.357336707741267
+  "n": 92,
+  "hit": 82,
+  "br": 15.485148000000015,
+  "br0": 9.371030686917365
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
@@ -4047,7 +4060,7 @@
  ],
  "srch_day": {
   "d": "2026-11-22",
-  "n": 2
+  "n": 4
  },
  "own_off": {},
  "extra_llms": [],
