@@ -2141,7 +2141,15 @@
   "mbp:9a0670f6-2eb5-42e9-a85f-4b1966afafcd": 2,
   "mbp:fd8775b8-87a0-4473-94c0-49bdde49d02b": 1,
   "mbp:fc8e4466-7e03-4bf0-98b1-4c9cb85acaab": 1,
-  "mbp:b011af97-3369-4ae4-a24b-6a2c2dd9f193": 1
+  "mbp:b011af97-3369-4ae4-a24b-6a2c2dd9f193": 1,
+  "mbp:fcc847af-a737-4540-baba-75a764a47643": 1,
+  "mbp:2d5b47b5-eaaa-408c-86aa-842dbeeded71": 1,
+  "mbp:dc75d310-3aee-4841-81b5-d0525ef367e6": 2,
+  "mbp:def015b9-d4c5-4870-b5bb-d64620265c3a": 1,
+  "mbp:1be77c72-e791-49b7-bd7b-5d3fb02524ab": 1,
+  "mbp:8d66eda8-715c-45ef-97b3-2c756dd2c5ec": 1,
+  "mbp:b517906f-0b45-4485-b810-2cdfbb6cffae": 1,
+  "mbp:e9ed305d-2f56-42d0-baf4-f5a91850a364": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -2220,13 +2228,13 @@
  "usage": {
   "day": "2026-11-22",
   "calls": {
-   "gemini": 352,
+   "gemini": 356,
    "groq": 127,
    "openrouter": 38,
    "groqq": 181
   },
   "tokens": {
-   "gemini": 524463,
+   "gemini": 528434,
    "groq": 147606,
    "openrouter": 89813,
    "groqq": 57972
@@ -2593,13 +2601,13 @@
    }
   }
  },
- "selfmap_h": "2f29446664230b0d69634df438cb9c0630e3993b",
+ "selfmap_h": "99be304febd880a53437b251523b15026ec68d0a",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "d67fecca",
  "transp_day": "2026-11-22",
- "priv_h": "2540eed6359d9123e04fabb608e96c7f33201015",
+ "priv_h": "76c6b054d118d659d19eab3cd2bdf63356a5f627",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2969,7 +2977,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-22",
-  "n": 13
+  "n": 14
  },
  "health": "state: 121 КБ\nжурнал: 2572 строк\nфакты: 399\nпроекты: активных 0, ждут тебя 0, остановлено 5\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-22",
@@ -2978,7 +2986,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "an everyday thing that is actually a clever algorithm",
   "how we actually know the Earth's age",
   "what it is like to answer a question without remembering the last one",
   "an old technology that was better than its replacement in one way",
@@ -3037,7 +3044,8 @@
   "why a gift that was thought about beats an expensive one",
   "why some words have no translation and what that says about us",
   "why we like stories where someone changes their mind",
-  "the difference between knowing a fact and understanding it"
+  "the difference between knowing a fact and understanding it",
+  "what I would ask a time traveler from fifty years ago"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4464,9 +4472,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-22",
-  "pd_n": 10,
-  "ph": [],
-  "last": 1795367669.0971403,
+  "pd_n": 11,
+  "ph": [
+   1795370654.0036724
+  ],
+  "last": 1795370654.0036695,
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": []
@@ -4523,5 +4533,6 @@
   ]
  },
  "proj_arch_day": "2026-11-22",
- "name_noted": 1
+ "name_noted": 1,
+ "fail_streak": 0
 }
