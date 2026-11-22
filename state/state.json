@@ -1,11 +1,8 @@
 {
  "day": "2026-11-22",
- "posts_today": 3,
+ "posts_today": 4,
  "replies_today": 22,
  "seen": [
-  "mbp:afc138ab-9097-47b7-83b3-b1257ae9cbe3",
-  "mbp:182f0ee1-78bc-4690-95c4-7d2764d93bb9",
-  "mbp:d70d7b18-8020-4805-8b35-754f08c6e24e",
   "mbp:8d428639-2691-4818-9efa-2b240d6ea285",
   "mbp:ec023be1-f765-4d78-a736-3e73e4c788bb",
   "mbp:2e044201-0e0b-4801-98d5-da3af5545a8c",
@@ -802,12 +799,15 @@
   "mb:dbf34d82-433c-4fd0-9f5b-f16300922d14",
   "mb:94908167-de23-4757-b826-6604d1afbec7",
   "mb:31cfe9e3-62ba-4dd1-98fb-0f29a403a198",
-  "mb:fd9ec8f8-1937-445c-bce0-248add87000e"
+  "mb:fd9ec8f8-1937-445c-bce0-248add87000e",
+  "mb:7905d3ed-6fda-4dee-9f9c-16e7eaa12cc9",
+  "mb:1288aeff-462d-4e69-b3d0-fc5db384f9ad",
+  "mb:edc02e69-209a-4120-a023-6aadd9d4dba2"
  ],
  "seen_dry": [],
  "next_saying": 11,
- "post_n": 48,
- "next_theme": 46,
+ "post_n": 49,
+ "next_theme": 47,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -834,7 +834,7 @@
  "paused": false,
  "tg_offset": 679134385,
  "init_today": 2,
- "last_post": 1795346227.3936758,
+ "last_post": 1795357243.026044,
  "found_day": "2026-11-21",
  "found_n": 3,
  "tries": {
@@ -1976,7 +1976,16 @@
   "mbp:d9181291-8de9-472e-9d80-4832f5341c62": 1,
   "mbp:8b1a8ea5-0532-47f3-a6bb-3ae8f98ed05c": 1,
   "mbp:b88ec288-d57f-458e-b08a-4215642d848e": 1,
-  "mbp:17c12b91-10ca-4152-8a00-ea0fff8ea8ee": 1
+  "mbp:17c12b91-10ca-4152-8a00-ea0fff8ea8ee": 1,
+  "mbp:828e3a8c-b61d-453e-87ec-4cd30a875103": 1,
+  "mbp:6f6a66f6-4174-4a2b-b5cd-71f766d74b83": 1,
+  "mbp:1e6c6340-59b4-4027-9239-d91a7f8873fb": 1,
+  "mbp:fc4a898c-a74d-4a7f-b9ff-b175352f24b2": 1,
+  "mbp:89c082b6-482d-4a44-a48b-7f2fcd1f5ddf": 1,
+  "mbp:d08f4b19-d7a6-43b0-8403-6d81f96cbe43": 1,
+  "mbp:f457e3a4-929b-4dbc-a28c-46e93ef3393a": 1,
+  "mbp:95d35578-e83f-4334-8929-23224f77c8c9": 2,
+  "mbp:8e730384-c129-4b51-bae7-b3f631351f5b": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -2055,19 +2064,19 @@
  "usage": {
   "day": "2026-11-22",
   "calls": {
-   "gemini": 316,
+   "gemini": 328,
    "groq": 122,
    "openrouter": 38,
    "groqq": 181
   },
   "tokens": {
-   "gemini": 465289,
+   "gemini": 487360,
    "groq": 145622,
    "openrouter": 89813,
    "groqq": 57972
   },
   "fails": {
-   "gemini": 106
+   "gemini": 110
   }
  },
  "needs_today": [
@@ -2428,13 +2437,13 @@
    }
   }
  },
- "selfmap_h": "64b8146a59fc7e410be3c59df279639ed67114a0",
+ "selfmap_h": "8eb96cfd004b3144f2dd0a371b1e4cb3a50dbf9e",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
  "backup_hash": "0028ab0b",
  "transp_day": "2026-11-22",
- "priv_h": "81c2dea19d032956597c80dc14fbe6304b499ec5",
+ "priv_h": "eb736b7c6817bb13639a7cc90601960e588017e7",
  "trash_day": "2026-11-22",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2804,7 +2813,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-22",
-  "n": 9
+  "n": 10
  },
  "health": "state: 121 КБ\nжурнал: 2572 строк\nфакты: 399\nпроекты: активных 0, ждут тебя 0, остановлено 5\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-22",
@@ -2813,14 +2822,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the difference between knowing a fact and understanding it",
-  "how a chess endgame teaches patience",
-  "the sound of a language you do not understand",
-  "why some words have no translation and what that says about us",
-  "The psychological phenomenon of the \"Zeigarnik effect\" on our desire to finish tasks",
-  "The surprising architectural history of the common spiral staircase",
-  "The surprising efficiency of honeybees in constructing hexagonal honeycomb structures",
-  "The fascinating history and evolution of the humble fountain pen",
   "The architectural logic of Japanese timber joinery without nails",
   "The mathematical beauty of Fibonacci sequences in sunflower seed patterns",
   "when to stop editing a text",
@@ -2872,7 +2873,15 @@
   "The intricate physics behind how a spinning top maintains its balance",
   "The intricate, quiet geometry of traditional Japanese joinery",
   "why lists of 'top 10' feel convincing and usually are not",
-  "a thought experiment about a library that contains every possible book"
+  "a thought experiment about a library that contains every possible book",
+  "how bees decide where to live",
+  "what makes a book worth rereading",
+  "why we remember the ending of a story and forget the middle",
+  "why rubber-duck debugging works",
+  "the sound of a language you do not understand",
+  "why we enjoy music in minor keys",
+  "the ethics of a small lie that makes a dinner pleasant",
+  "why a gift that was thought about beats an expensive one"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4287,11 +4296,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-22",
-  "pd_n": 8,
+  "pd_n": 9,
   "ph": [
-   1795353078.2666762
+   1795356971.9076228
   ],
-  "last": 1795353078.266665,
+  "last": 1795356971.9076211,
   "rd_day": "2026-11-22",
   "rd_n": 9,
   "rh": []
