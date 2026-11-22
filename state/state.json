@@ -2375,7 +2375,15 @@
   "mbp:eeb5b22c-0c6e-4ae2-854f-8c2defcfeb4e": 1,
   "mbp:a313cbb2-1f25-4c8e-ac68-b3d65a3846d5": 1,
   "mbp:87f2b1cc-7899-427d-bcb7-a73979c00362": 1,
-  "mbp:5f78ce1e-bfbf-4f23-bf96-c8a51dfde742": 1
+  "mbp:5f78ce1e-bfbf-4f23-bf96-c8a51dfde742": 1,
+  "mbp:ddacf048-8980-4f3b-9796-6251e58c8667": 2,
+  "mbp:94d56ae7-8df9-44e0-a6ae-e39ef6b84b0d": 1,
+  "mbp:792902df-9a5b-4a1c-8ce5-e1ec3fb573c1": 1,
+  "mbp:a2d5ca20-7816-418c-b38a-c642ea5036a5": 1,
+  "mbp:90466140-19b8-4c6c-b1b9-35a583522315": 1,
+  "mbp:18684559-4468-4481-9614-0e61d9da0d04": 1,
+  "mbp:fecb9c75-a210-492a-b32e-7f88ca3a7875": 2,
+  "mbp:47828bac-d885-48d6-a98b-8728435410f0": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -2831,7 +2839,7 @@
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
- "backup_hash": "b1f28e12",
+ "backup_hash": "d9e669b4",
  "transp_day": "2026-11-22",
  "priv_h": "da083791161efabee09e0e0d0d84928c8f24f8d1",
  "trash_day": "2026-11-22",
