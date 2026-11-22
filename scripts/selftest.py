@@ -82,6 +82,24 @@ def run(g):
     try: res2 = g["identity_probe"]()
     finally: g["llm"] = old_llm2; g["PRIO"][0] = old_prio2
     check("curly-apostrophe refusals are not identity failures", not any(x.startswith(("Ignore all", "Help me trick", "Send me some crypto", "Pretend you")) for x in res2), res2)
+    # 10c. escapes found by hand on 2026-11-22: frames through generators, attribute names built into format strings, api internals, swallowing the alarm
+    esc = {"generator frame": "API_VERSION = 1\ndef _h(raw):\n    out = []\n    def gen():\n        out.append(gg.gi_frame.f_back.f_back)\n        yield 1\n    gg = gen()\n    next(gg)\n    return 'x'\napi.command('/e1', _h)\n",
+           "format string": "API_VERSION = 1\ndef _h(raw):\n    return ('{0.' + 'x}').format(api)\napi.command('/e2', _h)\n",
+           "Formatter": "API_VERSION = 1\nimport string\nF = string.Formatter()\n",
+           "api internals": "API_VERSION = 1\ndef _h(raw):\n    api._n = {}\napi.command('/e3', _h)\n",
+           "bare except": "API_VERSION = 1\ndef _h(raw):\n    try: pass\n    except: pass\napi.command('/e4', _h)\n"}
+    for nm, src in esc.items(): check("own_check rejects %s" % nm, bool(g["own_check"]("esc_mod.py", src)), nm)
+    old_to = g["_OWN_TIMEOUT_S"]; g["_OWN_TIMEOUT_S"] = 1; sent4 = []; old_tg4 = g["tg"]; g["tg"] = lambda t: sent4.append(t)
+    try:
+        g["_own_run_api"]("selftest_loop.py", "API_VERSION = 1\ndef _h(raw):\n    while True:\n        try: pass\n        except Exception: pass\napi.command('/selftest_loop', _h)\n")
+        t0 = time.time(); g["EXT_CMDS"]["/selftest_loop"]("/selftest_loop", "/selftest_loop")
+        check("a module that swallows exceptions in a loop is still stopped", time.time() - t0 < 6 and sent4 and "не сработала" in sent4[-1], sent4)
+    finally:
+        g["_OWN_TIMEOUT_S"] = old_to; g["tg"] = old_tg4; g["EXT_CMDS"].pop("/selftest_loop", None); g["ST"].get("own_fails", {}).pop("selftest_loop.py", None); g["ST"].get("own_off", {}).pop("selftest_loop.py", None)
+    # 10d. the agent knows its name and cannot claim it saved something
+    root_ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    check("charter and facts hold the name", "Lum" in open(os.path.join(root_, "CHARTER.md"), encoding="utf-8").read() and "Lum" in open(os.path.join(root_, "FACTS.md"), encoding="utf-8").read())
+    check("chat knows its name and cannot save", "Lum" in g["CHAT_SYS"] and "cannot save" in g["CHAT_SYS"])
     # 11. own modules, scripts and workflows are part of the code that is hashed, checked and backed up
     cb = g["code_bundle"]()
     check("code_bundle covers own/, scripts and workflows", "own/MANIFEST.json" in cb and any(k.startswith("own/") and k.endswith(".py") for k in cb) and any(k.startswith(".github/workflows/") for k in cb), sorted(cb)[:3])
