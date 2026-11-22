@@ -16,7 +16,7 @@ def status_command(c, raw=None):
     """Plain /status is handled in the core and prints the first 1500 characters of the context (the self-state is first); '/status all' prints more."""
     a = (raw or c).split()[1:]
     if a and a[0] == "all": tg((agent_context() + "\n\nLIMITS\n" + limits_report())[:3900])
-    else: tg(agent_context()[:1500])
+    else: tg((self_state() + "\n\nПодробнее: /status all, /limits, /projects, /own")[:1500])
 def settings_command(c, raw=None):
     a = (raw or c).split(None, 2); sub = a[1].lower() if len(a) > 1 else ""; rest = a[2] if len(a) > 2 else ""
     h = {k: EXT_CMDS.get("/" + k) for k in ("cfg", "route", "model")}

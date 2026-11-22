@@ -26,10 +26,11 @@ def wt_signal(item, value, source="internal", why=""):
     step = _wt_clamp(0.30 * v * wgt, -0.5, 0.5)
     room = max(0.0, 1.0 - it["dsum"])                       # a day's total movement per item is capped
     if abs(step) > room: step = room if step > 0 else -room
-    it["f"] = _wt_clamp(it["f"] + step); it["dsum"] += abs(step)
+    if it["f"] and (step > 0) == (it["f"] > 0): step *= max(0.1, 1.0 - abs(it["f"]))   # soft edges: the closer to the limit, the smaller the step (no absolute certainty, for or against)
+    it["f"] = _wt_clamp(it["f"] + step, -0.95, 0.95); it["dsum"] += abs(step)
     it["rec"] = [r for r in it["rec"] if t - r[0] < 7 * 86400][-19:] + [[t, v]]
     same = [r[1] for r in it["rec"] if (r[1] > 0) == (v > 0)]
-    if len(same) >= 3: it["m"] = _wt_clamp(it["m"] + 0.1 * (sum(same) / len(same) - it["m"]))   # inertia: the medium layer moves only on a repeated direction
+    if len(same) >= 3: it["m"] = _wt_clamp(it["m"] + 0.1 * (sum(same) / len(same) - it["m"]), -0.95, 0.95)   # inertia: the medium layer moves only on a repeated direction
     it["sa"] = round(it["sa"] + v, 3); it["sn"] += 1                                           # the slow layer only collects statistics
     if source == "owner" and abs(it["m"]) >= 0.3 and (it["m"] > 0) != (v > 0):
         w["tension"] = (w["tension"] + [[today, item, "owner %s vs own average %+.2f" % ("approves" if v > 0 else "rejects", it["m"])]])[-10:]
