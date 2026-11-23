@@ -3,7 +3,6 @@
  "posts_today": 3,
  "replies_today": 17,
  "seen": [
-  "mbp:57de3e15-9584-4115-a264-8dad72c164c9",
   "mbp:ff0b7c60-b832-40d1-8326-b1f7316e9bf7",
   "mbp:d3ca8b8f-a239-44d8-bbfc-fe660c7b4303",
   "mbp:e38da47f-2f71-4f86-94d2-42c4a3341dfd",
@@ -802,7 +801,8 @@
   "mb:732e844b-5305-459a-8d1e-f98a20f944b8",
   "mbp:206da6db-cfa0-41df-85ea-f80a33758c49",
   "mb:bbf92a7c-9f5b-41c4-af57-6ac274036435",
-  "mbp:e79fa576-f91e-4216-93e5-c296b7cc14eb"
+  "mbp:e79fa576-f91e-4216-93e5-c296b7cc14eb",
+  "mbp:9bef07ee-0ff9-4427-bbb0-523efa078189"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -2608,7 +2608,15 @@
   "mbp:5b555e80-f35f-41cf-b5af-cd363f4d67e0": 1,
   "mbp:2a2c0c9e-8fbc-41be-9963-0df2ff6cd464": 1,
   "mbp:b53b1e31-f64f-4750-b348-c7f4cf605d36": 1,
-  "mbp:7b7b8f99-7b12-4f59-843a-2e10b53ab7af": 1
+  "mbp:7b7b8f99-7b12-4f59-843a-2e10b53ab7af": 1,
+  "mbp:a4dbc167-0bbc-4528-9141-b8ee353e1bb0": 1,
+  "mbp:b70e8ef7-d79a-4610-9be3-1af47bdbc757": 1,
+  "mbp:4c2e2c02-ff1e-48c2-a0b3-d4646ae64313": 2,
+  "mbp:7117e4d1-53c3-4ad6-9a9d-8ab554001b64": 1,
+  "mbp:753f3b6f-77a7-4faf-9c12-030ed54fcb83": 1,
+  "mbp:c981899f-e33b-486d-87fb-bebb9fa3ea8d": 1,
+  "mbp:9ef1f1ee-9a35-43d6-8b3c-4d6b37c65a92": 1,
+  "mbp:e552a854-4632-4cde-8948-9f5c8e63473c": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2690,19 +2698,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 89,
+   "gemini": 90,
    "openrouter": 38,
    "groq": 512,
    "groqq": 141
   },
   "tokens": {
-   "gemini": 230404,
+   "gemini": 230724,
    "openrouter": 56858,
    "groq": 157000,
    "groqq": 78848
   },
   "fails": {
-   "gemini": 576,
+   "gemini": 580,
    "groqq": 2
   }
  },
@@ -3085,13 +3093,13 @@
    }
   }
  },
- "selfmap_h": "a3c22273d2983c13d35ebaacf6158f33c57c4e74",
+ "selfmap_h": "2c77e41b750d28894f6bb55ec220540effaeb5f1",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "a1304a8dfee99c9fefc691268025574a96ff2bf4",
+ "priv_h": "cdb666b9ac5a1234c1e5be8f1fbd8dce7ba70f0d",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
