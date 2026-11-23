@@ -24,7 +24,7 @@ def proj_tick():
         proj_save(p)
         if r in ("done", "failed"):
             bio_add("episode" if r == "done" else "mistake", "Project %s (%s) %s: %s" % (p["id"], p["kind"], r, p["goal"][:100]), "project engine", 1.0)
-            tg("Проект %s %s: %s" % (p["id"], "завершён" if r == "done" else "остановлен после ошибок", p["goal"][:100]))
+            tg("Проект %s %s: %s" % (p["id"], "завершён" if r == "done" else "остановлен после ошибок", _ru_goal(p["goal"]) if "_ru_goal" in globals() else p["goal"][:100]))
         if r == "later": return
 # ---------- research: sources -> full text -> claims with exact quotes -> verification -> for/against -> conclusion with confidence ----------
 def _norm(s): return re.sub(r"\W+", " ", str(s).lower()).strip()

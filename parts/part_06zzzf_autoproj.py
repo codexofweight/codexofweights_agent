@@ -25,11 +25,11 @@ def ap_run(force=False):
     done = []; ns = ST.get("needs_today") or []
     if ns:
         n = ns[0]; i = proj_new("make", ("Build one small own module (standard library only, at most 150 lines) for this need of the agent: %s. Why it matters: %s" % (str(n.get("need", ""))[:150], str(n.get("why", ""))[:80]))[:300], {"auto": True})
-        if i: done.append("Модуль: делаю по своей нужде «%s» (проект %s)." % (str(n.get("need", ""))[:80], i))
+        if i: done.append("Модуль: делаю по своей нужде «%s» (проект %s)." % (_ru_cut(n.get("need", "")), i))
     focus = str((ST.get("plan") or {}).get("focus") or "")
     if len(focus) >= 15:
         i = proj_new("scout", "Find open-source ideas on GitHub useful for the agent on this topic: " + focus[:200], {"auto": True})
-        if i: done.append("Разведка: ищу на GitHub по теме «%s» (проект %s)." % (focus[:80], i))
+        if i: done.append("Разведка: ищу на GitHub по теме «%s» (проект %s)." % (_ru_cut(focus), i))
     w["last"] = "начал: %d" % len(done) if done else "нечего делать"
     tg(("Сегодняшняя работа началась.\n" + "\n".join("— " + x for x in done) + "\nКогда будет готово, напишу. Устанавливать модуль буду только после твоего «да».") if done else "Сегодня заняться нечем: нет ни новой нужды, ни темы плана. Попробую завтра.")
 def ap_line():

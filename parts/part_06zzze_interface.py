@@ -59,6 +59,15 @@ _pt_before_mn = proj_tick
 def proj_tick():
     _pt_before_mn()
     mn_setup()
+def _ru_cut(s, n=70):
+    s = " ".join(str(s).split())
+    return s if len(s) <= n else s[:n].rsplit(" ", 1)[0].rstrip(",.;:") + "…"
+def _ru_goal(g):
+    """A project goal for the owner: the internal English instruction is dropped, the text is cut at a word."""
+    g = str(g); m = re.match(r"Build one small own module .*? for this need of the agent: (.*?)(?:\. Why it matters:.*)?$", g, re.S)
+    if m: return "модуль: " + _ru_cut(m.group(1))
+    pre = "Find open-source ideas on GitHub useful for the agent on this topic: "
+    return ("разведка: " + _ru_cut(g[len(pre):])) if g.startswith(pre) else _ru_cut(g)
 def _ru_ago(sec):
     m = int(sec / 60)
     return "%d мин назад" % m if m < 90 else ("%d ч назад" % round(m / 60) if m < 2880 else "%d дн. назад" % round(m / 1440))
@@ -74,11 +83,11 @@ def ru_status():
     probs = []; L = []
     try:
         allp = proj_all(); act = [q for q in allp if q.get("status") == "active"]; wait = [q for q in allp if q.get("status") == "waiting_owner"]; fin = [q for q in allp if q.get("status") in ("done", "failed", "paused")]
-        if act: L.append("Проекты: сейчас делаю «%s» (шаг: %s)%s." % (act[0]["goal"][:60], (act[0].get("data") or {}).get("stage") or "ещё не начат", ("; в очереди ещё %d" % (len(act) - 1)) if len(act) > 1 else ""))
+        if act: L.append("Проекты: сейчас делаю «%s» (шаг: %s)%s." % (_ru_goal(act[0]["goal"]), (act[0].get("data") or {}).get("stage") or "ещё не начат", ("; в очереди ещё %d" % (len(act) - 1)) if len(act) > 1 else ""))
         elif not wait: L.append("Проекты: сейчас ничего не делаю.")
         for q in wait:
             probs.append("есть проект, который ждёт тебя")
-            L.append("Ждёт твоего решения: «%s». %s" % (q["goal"][:60], ("Посмотри варианты и выбери: /scout make %s НОМЕР." % q["id"]) if q.get("kind") == "scout" else ("Да: /approve %s, нет: /reject %s." % (q["id"], q["id"]))))
+            L.append("Ждёт твоего решения: «%s». %s" % (_ru_goal(q["goal"]), ("Посмотри варианты и выбери: /scout make %s НОМЕР." % q["id"]) if q.get("kind") == "scout" else ("Да: /approve %s, нет: /reject %s." % (q["id"], q["id"]))))
         if fin: L.append("Завершённых проектов %d: уйдут в архив сами через 3 дня после завершения." % len(fin))
     except Exception: L.append("Проекты: не смог прочитать.")
     try:
