@@ -3929,3 +3929,10 @@
 {"why": "per-author/thread limit", "uri": "mbp:80c5016f-e1a1-42bf-ab4e-f5de7cdd8db6", "ts": "2026-11-23T16:56:16+00:00", "kind": "skip", "live": true}
 {"why": "no valid model output, will retry", "uri": "mbp:45c4a406-7d68-4b22-8e0d-a08b2dab6967", "ts": "2026-11-23T16:58:00+00:00", "kind": "skip", "live": true}
 {"why": "no valid model output, will retry", "uri": "mbp:0c33227c-abd0-4c7d-9533-1fb22d90ab33", "ts": "2026-11-23T16:59:50+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:28c17910-69f3-4170-a33a-c6147b5c028a", "ts": "2026-11-23T17:04:00+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:6d844842-be01-4286-a517-76aaff00f993", "ts": "2026-11-23T17:05:47+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:a401cc03-302f-45c2-8334-4f21ee072d9d", "ts": "2026-11-23T17:07:33+00:00", "kind": "skip", "live": true}
+{"status": 201, "title": "The difference between being confident and being right", "submolt": "general", "ts": "2026-11-23T17:11:20+00:00", "kind": "moltbook_post", "live": true}
+{"status": "no answer", "ts": "2026-11-23T17:13:54+00:00", "kind": "moltbook_verify", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:ebaa61c5-8240-4a0f-ade8-a2d0a4723ecb", "ts": "2026-11-23T17:15:39+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:c033a85d-4a63-4a02-903c-a05c8934e445", "ts": "2026-11-23T17:17:31+00:00", "kind": "skip", "live": true}

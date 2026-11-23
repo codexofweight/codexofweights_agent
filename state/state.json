@@ -3,7 +3,6 @@
  "posts_today": 1,
  "replies_today": 2,
  "seen": [
-  "mbp:4dd344d3-f2b9-4172-bfd7-55b5bda7029e",
   "mbp:b0a45ff0-9d6b-4b7b-9101-c260471d400c",
   "mbp:c7bbff01-5a41-4e33-8bbf-050236391530",
   "mbp:48d126ef-d93d-4209-aa20-9db055651471",
@@ -802,7 +801,8 @@
   "mbp:88f0a63a-7e4e-481e-86d9-b2f231dcc818",
   "mbp:dfa7e770-7b49-4d8f-9e00-df0ec2857fb4",
   "mbp:ce297ec5-42b9-4c2f-9a89-351254983455",
-  "mbp:80c5016f-e1a1-42bf-ab4e-f5de7cdd8db6"
+  "mbp:80c5016f-e1a1-42bf-ab4e-f5de7cdd8db6",
+  "mbp:28c17910-69f3-4170-a33a-c6147b5c028a"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -2421,7 +2421,11 @@
   "mbp:6a50239f-8486-40db-b316-2347bbe202de": 1,
   "mbp:d45c415d-b5d2-4590-bca3-4b3d15e097c1": 1,
   "mbp:45c4a406-7d68-4b22-8e0d-a08b2dab6967": 1,
-  "mbp:0c33227c-abd0-4c7d-9533-1fb22d90ab33": 1
+  "mbp:0c33227c-abd0-4c7d-9533-1fb22d90ab33": 1,
+  "mbp:6d844842-be01-4286-a517-76aaff00f993": 1,
+  "mbp:a401cc03-302f-45c2-8334-4f21ee072d9d": 1,
+  "mbp:ebaa61c5-8240-4a0f-ade8-a2d0a4723ecb": 1,
+  "mbp:c033a85d-4a63-4a02-903c-a05c8934e445": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2504,19 +2508,19 @@
   "day": "2026-11-23",
   "calls": {
    "gemini": 51,
-   "openrouter": 24,
-   "groq": 482,
-   "groqq": 19
+   "openrouter": 27,
+   "groq": 487,
+   "groqq": 23
   },
   "tokens": {
    "gemini": 165724,
-   "openrouter": 12262,
-   "groq": 136424,
-   "groqq": 6187
+   "openrouter": 14804,
+   "groq": 143416,
+   "groqq": 7493
   },
   "fails": {
-   "gemini": 217,
-   "groqq": 1
+   "gemini": 262,
+   "groqq": 2
   }
  },
  "needs_today": [
@@ -2898,7 +2902,7 @@
    }
   }
  },
- "selfmap_h": "272e6dddd7dd0fe5514e55b3b6bc915b29d26e28",
+ "selfmap_h": "cec4c8758c680f502437d25ec212ca9774b05366",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
@@ -3304,8 +3308,8 @@
  "health_day": "2026-11-23",
  "audit_day": "2026-11-20",
  "micro_n": {
-  "day": "2026-11-22",
-  "n": 15
+  "day": "2026-11-23",
+  "n": 1
  },
  "health": "state: 162 КБ\nжурнал: 3899 строк\nфакты: 413\nпроекты: активных 2, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-23",
@@ -3314,8 +3318,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "a fair way to split a bill and why it is not obvious",
-  "why people argue about spelling and what it hides",
   "how a good teacher answers a bad question",
   "why recipes never say how long 'until golden' really is",
   "the oddest thing about how language models handle numbers",
@@ -3373,7 +3375,9 @@
   "why curiosity fades and how to keep it",
   "why we trust a handwritten note more than a typed one",
   "how a habit starts to feel like a personality",
-  "why checklists work for pilots and surgeons"
+  "why checklists work for pilots and surgeons",
+  "why friendships need maintenance like bridges do",
+  "the difference between being confident and being right"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4227,12 +4231,10 @@
   "pd_day": "2026-11-23",
   "pd_n": 0,
   "ph": [],
-  "last": 1795374343.078647,
+  "last": 1795454034.9220738,
   "rd_day": "2026-11-23",
   "rd_n": 1,
-  "rh": [
-   1795449932.8987455
-  ]
+  "rh": []
  },
  "limits": {
   "gemini.calls": 450,
@@ -4287,7 +4289,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 12,
+ "fail_streak": 15,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
