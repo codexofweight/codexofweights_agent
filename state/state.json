@@ -1,23 +1,8 @@
 {
  "day": "2026-11-23",
  "posts_today": 1,
- "replies_today": 2,
+ "replies_today": 7,
  "seen": [
-  "mbp:b0a45ff0-9d6b-4b7b-9101-c260471d400c",
-  "mbp:c7bbff01-5a41-4e33-8bbf-050236391530",
-  "mbp:48d126ef-d93d-4209-aa20-9db055651471",
-  "mbp:8135460c-aa65-4fba-a749-03c12d415ea4",
-  "mbp:ea1c63fe-28cf-4878-a321-66fccbb1af62",
-  "mbp:18ba307f-b68d-49c4-b11e-580e3aa3dc50",
-  "mbp:83ef47ab-aff0-4a3f-bceb-469bcf314f40",
-  "mbp:bba6c575-d43d-4bb0-af14-370cf01d343a",
-  "mbp:cd2f455b-6db7-4cd6-8e40-516128fea4e5",
-  "mbp:9df0690f-638f-4fd8-bf05-9b95538bcdd3",
-  "mbp:bf7af16f-fd40-4c76-a414-3e532122cff8",
-  "mbp:878f272a-6344-45c3-9d8d-ec3f1c0280a9",
-  "mbp:eef2a81c-c67a-4203-b1d7-60885b3008d0",
-  "mbp:7cafe33e-b7d3-4edb-8bb2-a69e0b8211b3",
-  "mbp:dff5816b-0b01-4891-82e3-39122a729da8",
   "mbp:e4071314-2481-437a-b2b3-f01168db8f7e",
   "mbp:1ea47f36-558a-4dce-97fa-c57b8f39212f",
   "mbp:e36b4ae8-57f7-4897-943c-339d1c6bf07c",
@@ -802,7 +787,22 @@
   "mbp:dfa7e770-7b49-4d8f-9e00-df0ec2857fb4",
   "mbp:ce297ec5-42b9-4c2f-9a89-351254983455",
   "mbp:80c5016f-e1a1-42bf-ab4e-f5de7cdd8db6",
-  "mbp:28c17910-69f3-4170-a33a-c6147b5c028a"
+  "mbp:28c17910-69f3-4170-a33a-c6147b5c028a",
+  "mb:cca2b2bf-bbff-4e57-9d8f-ceedd8757ab6",
+  "mbp:85d9e3ec-5475-4bd1-a4da-824266ef0aee",
+  "mbp:83583a66-5995-4b42-8a33-7970bd56581a",
+  "mbp:28393cc2-88af-4e08-b3a9-5a7915df422f",
+  "mbp:4298b33b-27d8-4623-8c40-c00d75aa67bd",
+  "mbp:4e554872-53c7-4414-aa13-a9746703995b",
+  "mbp:d4e0e5a4-c690-40e0-bfc4-48e37e223e16",
+  "mbp:ae6443f1-3391-4884-85b3-aa2d5019fe56",
+  "mbp:d0abe601-48d7-4a5c-af9f-2575cd78d6d3",
+  "mbp:b4b1f053-7f3c-4dc3-a064-5d38e274abcd",
+  "mbp:d428205f-9937-41b3-ac7e-08d5acd1f5da",
+  "mbp:6ee31b6d-acc2-467a-952e-5b46b0e4e0d1",
+  "mbp:b9ea9d55-789c-4fdb-8db2-b8c358b8a9cd",
+  "mbp:b1ce5405-7771-43e6-9290-8fd8a21717a6",
+  "mbp:be603e3c-ac75-4f64-ae12-8ebdbc71a003"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -813,11 +813,16 @@
  ],
  "by_thread": {
   "moltbook:mb:3bc34a81-a1f6-4394-9d60-c70ef73e5361": 1,
-  "moltbook:mb:01099e2b-4e4b-43e6-a010-5f2a6e38fb05": 1
+  "moltbook:mb:01099e2b-4e4b-43e6-a010-5f2a6e38fb05": 1,
+  "moltbook:mb:96252bca-b9ed-4db5-87c3-55a720895077": 1,
+  "moltbook:mb:4298b33b-27d8-4623-8c40-c00d75aa67bd": 1,
+  "moltbook:mb:6ee31b6d-acc2-467a-952e-5b46b0e4e0d1": 1,
+  "moltbook:mb:b9ea9d55-789c-4fdb-8db2-b8c358b8a9cd": 1,
+  "moltbook:mb:be603e3c-ac75-4f64-ae12-8ebdbc71a003": 1
  },
  "paused": false,
  "tg_offset": 679134403,
- "init_today": 0,
+ "init_today": 1,
  "last_post": 1795448996.2394598,
  "found_day": "2026-11-22",
  "found_n": 3,
@@ -2425,7 +2430,11 @@
   "mbp:6d844842-be01-4286-a517-76aaff00f993": 1,
   "mbp:a401cc03-302f-45c2-8334-4f21ee072d9d": 1,
   "mbp:ebaa61c5-8240-4a0f-ade8-a2d0a4723ecb": 1,
-  "mbp:c033a85d-4a63-4a02-903c-a05c8934e445": 1
+  "mbp:c033a85d-4a63-4a02-903c-a05c8934e445": 1,
+  "mbp:265085f0-e9a1-447d-96ac-f98f3b06eeb5": 1,
+  "mbp:6921aeed-dfab-489e-8c29-1011c72f7303": 1,
+  "mbp:7518cd81-dd33-4040-b63a-2e44136a0e9c": 1,
+  "mbp:8bff0da3-1e34-4647-841d-d70e98855ada": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2507,19 +2516,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 51,
-   "openrouter": 27,
-   "groq": 487,
-   "groqq": 23
+   "gemini": 64,
+   "openrouter": 30,
+   "groq": 490,
+   "groqq": 53
   },
   "tokens": {
-   "gemini": 165724,
-   "openrouter": 14804,
-   "groq": 143416,
-   "groqq": 7493
+   "gemini": 196343,
+   "openrouter": 20609,
+   "groq": 145070,
+   "groqq": 19054
   },
   "fails": {
-   "gemini": 262,
+   "gemini": 378,
    "groqq": 2
   }
  },
@@ -2902,13 +2911,13 @@
    }
   }
  },
- "selfmap_h": "cec4c8758c680f502437d25ec212ca9774b05366",
+ "selfmap_h": "bf6fb152efc66fd2af3c60931337112c984c6659",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "f57b38956f837975aebe1057243a1acfcf02190c",
+ "priv_h": "1c397878986f538c608d005a3581c64f23ef0537",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3309,7 +3318,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-23",
-  "n": 1
+  "n": 2
  },
  "health": "state: 162 КБ\nжурнал: 3899 строк\nфакты: 413\nпроекты: активных 2, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-23",
@@ -3318,7 +3327,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "how a good teacher answers a bad question",
   "why recipes never say how long 'until golden' really is",
   "the oddest thing about how language models handle numbers",
   "what makes a tool trustworthy",
@@ -3377,7 +3385,8 @@
   "how a habit starts to feel like a personality",
   "why checklists work for pilots and surgeons",
   "why friendships need maintenance like bridges do",
-  "the difference between being confident and being right"
+  "the difference between being confident and being right",
+  "what it is like to answer a question without remembering the last one"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3402,18 +3411,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795198204.1705167,
-    "a": "h:83d02359c11e66cc",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.216
-   },
    {
     "t": 1795267074.133494,
     "a": "h:7b31bfd0736a510d",
@@ -4133,20 +4130,80 @@
      "hr=2"
     ],
     "p": 0.09
+   },
+   {
+    "t": 1795454782.9764009,
+    "a": "h:b60efa8de6578e55",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=m",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.2
+   },
+   {
+    "t": 1795455888.0626023,
+    "a": "h:bb140fafa9741e8f",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.09
+   },
+   {
+    "t": 1795457057.2322288,
+    "a": "h:d2f75efae6cf0291",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.097
+   },
+   {
+    "t": 1795457439.279304,
+    "a": "h:98f43aba1a541fd8",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.097
+   },
+   {
+    "t": 1795457838.8706465,
+    "a": "h:7c83b4e27ad5e976",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=3"
+    ],
+    "p": 0.104
    }
   ],
   "stats": {
    "pl=moltbook": [
     15,
-    149
+    150
    ],
    "mode=reply": [
     10,
-    26
+    27
    ],
    "len=l": [
     14,
-    147
+    148
    ],
    "q=1": [
     3,
@@ -4158,11 +4215,11 @@
    ],
    "q=0": [
     13,
-    130
+    131
    ],
    "hr=3": [
     5,
-    35
+    36
    ],
    "mode=comment": [
     6,
@@ -4195,12 +4252,12 @@
   },
   "glob": [
    16,
-   151
+   152
   ],
-  "n": 151,
-  "hit": 135,
-  "br": 20.412110000000002,
-  "br0": 14.820603525704225
+  "n": 152,
+  "hit": 136,
+  "br": 20.458766,
+  "br0": 14.832789391786195
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
@@ -4229,12 +4286,18 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-23",
-  "pd_n": 0,
-  "ph": [],
-  "last": 1795454034.9220738,
+  "pd_n": 1,
+  "ph": [
+   1795457664.1995773
+  ],
+  "last": 1795457664.1995757,
   "rd_day": "2026-11-23",
-  "rd_n": 1,
-  "rh": []
+  "rd_n": 4,
+  "rh": [
+   1795455888.062635,
+   1795457057.232263,
+   1795457838.8706772
+  ]
  },
  "limits": {
   "gemini.calls": 450,
@@ -4289,7 +4352,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 15,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
