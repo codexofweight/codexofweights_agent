@@ -1,9 +1,8 @@
 {
  "day": "2026-11-23",
  "posts_today": 1,
- "replies_today": 0,
+ "replies_today": 1,
  "seen": [
-  "mbp:437951fa-dbd8-4d5c-a988-a9de26468df2",
   "mbp:6a64bb11-8952-4311-a360-866965048fc5",
   "mbp:08e1b84e-681a-4545-af1b-12287033b633",
   "mbp:a9d4e5ae-0cd2-4d92-a342-0cf3327766e3",
@@ -802,7 +801,8 @@
   "mb:7bc1e1bb-08f3-4304-be2f-58954cd64394",
   "mf:117589606784051408",
   "mf:117495491443710871",
-  "mf:117354780190567647"
+  "mf:117354780190567647",
+  "mb:7e4b80c7-2771-417f-a886-e9c0f5150505"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -811,11 +811,13 @@
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
- "by_thread": {},
+ "by_thread": {
+  "moltbook:mb:3bc34a81-a1f6-4394-9d60-c70ef73e5361": 1
+ },
  "paused": false,
  "tg_offset": 679134396,
  "init_today": 0,
- "last_post": 1795429813.6795244,
+ "last_post": 1795430263.7218947,
  "found_day": "2026-11-22",
  "found_n": 3,
  "tries": {
@@ -2487,16 +2489,18 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 44,
-   "openrouter": 1,
-   "groq": 315
+   "gemini": 49,
+   "openrouter": 2,
+   "groq": 319
   },
   "tokens": {
-   "gemini": 159275,
-   "openrouter": 415,
-   "groq": 84043
+   "gemini": 165375,
+   "openrouter": 902,
+   "groq": 84675
   },
-  "fails": {}
+  "fails": {
+   "gemini": 1
+  }
  },
  "needs_today": [
   {
@@ -2540,7 +2544,7 @@
   "_init3": 1,
   "lab/modules_pending/research_rank.md": "d95e04b90b20cece2878b769669a33bdd945deed",
   "lab/modules_pending/bluesky_atproto_adapter.md": "a1e09fdbf2aad0b0fff53c8c6d72071115e92420",
-  "lab/projects/p4bf0271.json": "85e93859e0db9c5ae9409e348bb6d774ba448f94",
+  "lab/projects/p4bf0271.json": "994cac2b696bf9f09f18159071c4420d251bab3a",
   "lab/projects/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb"
  },
  "research_try": {
@@ -2877,13 +2881,13 @@
    }
   }
  },
- "selfmap_h": "0ea5f3b7e76f799da91e1ab572a170997721a396",
+ "selfmap_h": "c2ccaf0b9a269e840d4c336ded375d30ad646def",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "de52534ca45cbd9bbca77100525e7dacf3adb636",
+ "priv_h": "4b844e85b5cc115ab867b1708c4e7296d4a44b30",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3377,162 +3381,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795134557.3534038,
-    "a": "h:7f5daf11fa30d4d3",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.165
-   },
-   {
-    "t": 1795135661.9937508,
-    "a": "h:0415a8b51c4fbd48",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.165
-   },
-   {
-    "t": 1795136807.0404053,
-    "a": "h:04782473a5b239ef",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.165
-   },
-   {
-    "t": 1795137984.403911,
-    "a": "h:d59b443d1ec3209d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.165
-   },
-   {
-    "t": 1795139107.243209,
-    "a": "h:0415a8b51c4fbd48",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.114
-   },
-   {
-    "t": 1795162599.7934089,
-    "a": "h:d59b443d1ec3209d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.014
-   },
-   {
-    "t": 1795163707.8381581,
-    "a": "h:7f5daf11fa30d4d3",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.014
-   },
-   {
-    "t": 1795164853.549212,
-    "a": "h:e185f89f77583451",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.014
-   },
-   {
-    "t": 1795165962.9228463,
-    "a": "h:8fab9452ab9e63ae",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.014
-   },
-   {
-    "t": 1795167054.1873446,
-    "a": "h:8953d50487b6073d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.014
-   },
-   {
-    "t": 1795168149.7861412,
-    "a": "h:0415a8b51c4fbd48",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
-    "t": 1795169214.699207,
-    "a": "h:8953d50487b6073d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
-    "t": 1795170313.5563505,
-    "a": "h:8fab9452ab9e63ae",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
    {
     "t": 1795171429.28174,
     "a": "h:0415a8b51c4fbd48",
@@ -4672,12 +4520,24 @@
      "hr=3"
     ],
     "p": 0.205
+   },
+   {
+    "t": 1795430338.5384085,
+    "a": "h:0eb5cff3c2beef31",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.197
    }
   ],
   "stats": {
    "pl=moltbook": [
     15,
-    100
+    113
    ],
    "mode=reply": [
     10,
@@ -4685,7 +4545,7 @@
    ],
    "len=l": [
     14,
-    98
+    111
    ],
    "q=1": [
     3,
@@ -4697,7 +4557,7 @@
    ],
    "q=0": [
     13,
-    84
+    97
    ],
    "hr=3": [
     5,
@@ -4705,11 +4565,11 @@
    ],
    "mode=comment": [
     6,
-    80
+    93
    ],
    "hr=0": [
     2,
-    28
+    33
    ],
    "len=m": [
     2,
@@ -4717,7 +4577,7 @@
    ],
    "hr=1": [
     4,
-    13
+    21
    ],
    "pl=vk": [
     0,
@@ -4734,12 +4594,12 @@
   },
   "glob": [
    16,
-   102
+   115
   ],
-  "n": 102,
-  "hit": 86,
-  "br": 19.956010000000017,
-  "br0": 13.937803887656544
+  "n": 115,
+  "hit": 99,
+  "br": 20.079393000000017,
+  "br0": 14.243773400741885
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
