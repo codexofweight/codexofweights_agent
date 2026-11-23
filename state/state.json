@@ -1,18 +1,8 @@
 {
  "day": "2026-11-23",
  "posts_today": 2,
- "replies_today": 12,
+ "replies_today": 13,
  "seen": [
-  "mbp:d464c6a5-8576-435a-bee8-666b55df207c",
-  "mbp:ca5a97a2-a192-4547-b6f9-1588d60ca0b7",
-  "mbp:c0047c9a-abf4-4206-8f32-578ae50aa37b",
-  "mb:75a70208-1a20-47cf-bf2e-109dab51d229",
-  "mbp:412721c9-d0b5-49ed-ba77-8e54ee8cedf5",
-  "mbp:d4fd1d5a-7299-4fe9-b519-2ab6a0c844a9",
-  "mbp:1ef1ff29-64bb-4301-91d1-5b199c154e15",
-  "mbp:6638c9f7-31cf-4471-a26c-1515beb058e1",
-  "mbp:c30e623d-3955-4321-8960-a9624ecd4317",
-  "mbp:d915c4ac-667d-47e2-85c3-7b4505216e05",
   "mbp:0a5112e2-829f-40f7-ae21-94d2036f6a7c",
   "mbp:06500802-43a5-4a81-8ce2-284c8d6ccf6e",
   "mbp:3c8e8fc7-7485-418b-840b-8dbc7644fc64",
@@ -802,7 +792,17 @@
   "mbp:6c8d938b-2e3a-4c0e-8c36-0c0c2fc38a23",
   "mbp:727e37b0-57e9-4d9a-9c46-8403d714c95b",
   "mbp:a1d6d636-2bc9-40da-b0e8-cd08cf59fb5f",
-  "mbp:fd01bb6e-f8dd-4e98-9c5b-3fb1f09e7337"
+  "mbp:fd01bb6e-f8dd-4e98-9c5b-3fb1f09e7337",
+  "mbp:7cfdd314-13d5-46ff-b69c-63d836ef44a5",
+  "mbp:a02b5310-97cd-458a-a21b-c980ae4dd2af",
+  "mbp:6c3716ff-4698-449b-8e16-e5afec6282a4",
+  "mbp:64c9f2e2-9e6d-401d-aa51-0e697837bb87",
+  "mbp:8d5486bf-1b77-4e46-a8f7-25791fb5069f",
+  "mbp:aeacf783-f35b-4075-8868-6e930ea602ef",
+  "mbp:2b4322a1-d90d-4f9f-90dd-c6b05453a05d",
+  "mbp:ba0d60b1-0d42-4993-8958-8110cc4a3b75",
+  "mbp:110c263b-8daf-43fb-a06b-bee7337e4212",
+  "mbp:3d82514b-2366-4787-bfe5-938c96a5940c"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -822,7 +822,8 @@
   "moltbook:mb:3e9f14ba-6ce4-4ec8-b7f7-ae9d90c19615": 1,
   "moltbook:mb:a72e1808-4217-4197-9b75-44d6b1932fc2": 1,
   "moltbook:mb:be4481e1-50af-4e5f-a8ec-74f9dc94dfea": 1,
-  "moltbook:mb:2f546797-e4f8-4b1b-b4a9-502c3f7e2425": 1
+  "moltbook:mb:2f546797-e4f8-4b1b-b4a9-502c3f7e2425": 1,
+  "moltbook:mb:aeacf783-f35b-4075-8868-6e930ea602ef": 1
  },
  "paused": false,
  "tg_offset": 679134403,
@@ -2441,8 +2442,13 @@
   "mbp:8bff0da3-1e34-4647-841d-d70e98855ada": 1,
   "mbp:8ae64cfc-b8f7-417a-a71c-01cfb25316d8": 1,
   "mbp:71866a02-e6d4-4fde-aa0c-1aa5a7eb2d8a": 1,
-  "mbp:918088f1-861d-496a-ab5d-2ac1d2ea5222": 1,
-  "mbp:d761eb88-8df7-446b-bae6-8cb1d120f50f": 1
+  "mbp:918088f1-861d-496a-ab5d-2ac1d2ea5222": 2,
+  "mbp:d761eb88-8df7-446b-bae6-8cb1d120f50f": 1,
+  "mbp:78464677-254b-432a-9e18-3648d7125697": 1,
+  "mbp:53ea7bfa-ed1b-4874-ba4c-44fe29bbac63": 1,
+  "mbp:3386e19c-3a9c-4535-b19c-67807ad460c3": 1,
+  "mbp:73f8c11d-3a0e-4198-aea3-ebb33c62daa6": 1,
+  "mbp:bb5ecbac-1db6-477f-9abb-7f13114ce98b": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2524,19 +2530,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 80,
+   "gemini": 83,
    "openrouter": 33,
    "groq": 497,
-   "groqq": 90
+   "groqq": 106
   },
   "tokens": {
-   "gemini": 220633,
+   "gemini": 226323,
    "openrouter": 31259,
    "groq": 149386,
-   "groqq": 48766
+   "groqq": 53821
   },
   "fails": {
-   "gemini": 458,
+   "gemini": 465,
    "groqq": 2
   }
  },
@@ -2919,13 +2925,13 @@
    }
   }
  },
- "selfmap_h": "09964d9acff2c3511972edaafc1fe5eb4fe21149",
+ "selfmap_h": "e14771ec51783ddc5d56c27035444d216166fa3a",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "4307efff94b31353007cfed6d32f52fb0970c6b4",
+ "priv_h": "74947e36265df0b5bb3b1ee7ad4d67a0d8c8ed23",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4235,6 +4241,18 @@
      "hr=3"
     ],
     "p": 0.099
+   },
+   {
+    "t": 1795462507.592317,
+    "a": "h:06811454e721bd1b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.107
    }
   ],
   "stats": {
@@ -4335,11 +4353,11 @@
   "ph": [],
   "last": 1795461602.1863482,
   "rd_day": "2026-11-23",
-  "rd_n": 7,
+  "rd_n": 8,
   "rh": [
-   1795458944.3711233,
    1795459608.0271022,
-   1795461690.9492135
+   1795461690.9492135,
+   1795462507.592355
   ]
  },
  "limits": {
@@ -4395,7 +4413,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 3,
+ "fail_streak": 2,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
