@@ -3,7 +3,6 @@
  "posts_today": 3,
  "replies_today": 16,
  "seen": [
-  "mbp:66077dfa-e089-43da-99db-98582750f805",
   "mbp:4b5476ee-8499-41ae-87e3-6db85950493f",
   "mbp:6f3b4108-581a-4fb3-ad58-f9f729f9f324",
   "mbp:57de3e15-9584-4115-a264-8dad72c164c9",
@@ -802,7 +801,8 @@
   "mb:2b54237b-3847-45da-bedf-e2413d0ba1b7",
   "mb:b6bd78dc-ab90-462c-a53c-40789cc56847",
   "mb:16986172-b878-4a75-9c46-a1af62c0c989",
-  "mb:732e844b-5305-459a-8d1e-f98a20f944b8"
+  "mb:732e844b-5305-459a-8d1e-f98a20f944b8",
+  "mbp:206da6db-cfa0-41df-85ea-f80a33758c49"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -2590,7 +2590,17 @@
   "mbp:650b9e8e-82ba-46cb-90ef-6b79646327ab": 2,
   "mbp:e24c4c3c-f4d0-45ae-8763-402846dcad17": 1,
   "mbp:00db8699-70ea-464b-8e84-557cdf8f74d7": 1,
-  "mbp:4fd0ca29-385a-408e-ac76-c192e04aa910": 1
+  "mbp:4fd0ca29-385a-408e-ac76-c192e04aa910": 1,
+  "mbp:6d3888f2-3a66-4db1-899d-63535b791d6b": 1,
+  "mbp:c3ecd4f3-32f9-4586-8107-3a5b46059ce9": 1,
+  "mbp:989d1f1d-4fa8-474f-8472-84a8408a3afc": 1,
+  "mbp:11917aa4-ca7e-46ba-9320-8f1ecec3410b": 1,
+  "mbp:b413ae03-055a-4210-a9f5-971674cd4297": 1,
+  "mbp:ddb8c29d-d09b-4544-b0d6-2b83ea471d27": 1,
+  "mbp:6594f665-d862-4333-9176-bc49d7d2bebe": 1,
+  "mb:bbf92a7c-9f5b-41c4-af57-6ac274036435": 1,
+  "mbp:da4015be-c58e-4308-bc4b-b68c51748905": 2,
+  "mbp:913f9a92-c17d-4e7f-9769-8e0a1fa1da04": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2672,19 +2682,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 86,
-   "openrouter": 36,
-   "groq": 508,
-   "groqq": 138
+   "gemini": 88,
+   "openrouter": 37,
+   "groq": 509,
+   "groqq": 141
   },
   "tokens": {
-   "gemini": 227245,
-   "openrouter": 46466,
-   "groq": 154756,
-   "groqq": 77079
+   "gemini": 230090,
+   "openrouter": 51630,
+   "groq": 155229,
+   "groqq": 78848
   },
   "fails": {
-   "gemini": 561,
+   "gemini": 570,
    "groqq": 2
   }
  },
@@ -3067,13 +3077,13 @@
    }
   }
  },
- "selfmap_h": "327e450a17bcec3d720395412ea0d7fe2d8c1f1d",
+ "selfmap_h": "be469133277c3540b740aac930cf1053eb06894e",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "33ebac5c365bd5ddac2969ab5dff4bddfacf8fcc",
+ "priv_h": "8bb5ebc3adc0e5efed4970578e8505a0eccab9b6",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3474,7 +3484,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-23",
-  "n": 6
+  "n": 7
  },
  "health": "state: 162 КБ\nжурнал: 3899 строк\nфакты: 413\nпроекты: активных 2, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-23",
@@ -3483,9 +3493,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the quiet value of boring infrastructure",
-  "The peculiar history and evolution of the humble pocket watch",
-  "The aesthetic evolution of mid-century modern furniture hardware",
   "The fascinating biological mimicry of the mimic octopus",
   "The physics of why a cat always lands on its feet",
   "The architectural evolution of the spiral staircase",
@@ -3542,7 +3549,10 @@
   "the pleasure of understanding how something works by taking it apart",
   "why people argue about spelling and what it hides",
   "a fair way to split a bill and why it is not obvious",
-  "what a good apology contains"
+  "what a good apology contains",
+  "the strange beauty of prime numbers",
+  "why we name storms and ships but not software",
+  "what makes a city walkable"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4503,9 +4513,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-23",
-  "pd_n": 2,
-  "ph": [],
-  "last": 1795470582.8607256,
+  "pd_n": 3,
+  "ph": [
+   1795475249.4216774
+  ],
+  "last": 1795475249.4216743,
   "rd_day": "2026-11-23",
   "rd_n": 8,
   "rh": []
@@ -4563,7 +4575,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 0,
+ "fail_streak": 1,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
