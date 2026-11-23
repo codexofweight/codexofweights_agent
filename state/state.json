@@ -2519,7 +2519,15 @@
   "mbp:b2f1d613-1703-4984-8086-bdac31f9d15a": 1,
   "mbp:effcffeb-6def-4983-8377-8dbe7e757bc4": 1,
   "mbp:99eb7f07-f08e-469d-b09b-dfd4eb74304d": 1,
-  "mbp:2e3879a7-1ab9-4bdf-96dc-3442756b23b7": 1
+  "mbp:2e3879a7-1ab9-4bdf-96dc-3442756b23b7": 1,
+  "mbp:0ca42efe-4ddf-4624-adb6-bfd2144d3a84": 2,
+  "mbp:8e70cbee-5b02-427b-a00e-41d7cee35c4c": 1,
+  "mbp:9bb6d28e-c31c-45b4-8518-f2e9ca2f03d3": 1,
+  "mbp:e704fe7a-0a1a-4ca6-9e1d-599ee69a4763": 1,
+  "mbp:04470445-9e88-4ee8-b1e2-51adc9de335b": 1,
+  "mbp:67d84268-db44-4c9b-b24c-28c647785fc0": 1,
+  "mbp:5531431e-4fcd-48f0-bd99-4d795a9fb39c": 2,
+  "mbp:1ae0039f-19d0-4d11-aeb7-c421eb6726fa": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2613,7 +2621,7 @@
    "groqq": 70169
   },
   "fails": {
-   "gemini": 514,
+   "gemini": 519,
    "groqq": 2
   }
  },
@@ -3002,7 +3010,7 @@
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "c0d4970c3a76f7a2d1552adb8a930b101b7dec2a",
+ "priv_h": "97a7f6df4be2c92dd72ed0def5febaaf5281d9ba",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
