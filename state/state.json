@@ -2584,7 +2584,13 @@
   "mbp:95d16589-fdb4-4245-b834-ad7d7fca83d4": 2,
   "mbp:b6e76488-4884-4916-b43a-9af333a003b6": 1,
   "mbp:02fb9791-2980-4902-8a93-4385db4379a3": 1,
-  "mbp:c892420b-63bd-4610-9c17-18e2e9dc57e3": 1
+  "mbp:c892420b-63bd-4610-9c17-18e2e9dc57e3": 1,
+  "mbp:3c3c3d0d-58af-4606-a45b-6c4134314df5": 1,
+  "mbp:86d5281d-c122-4298-8ac9-51b3e01e8cdc": 1,
+  "mbp:650b9e8e-82ba-46cb-90ef-6b79646327ab": 2,
+  "mbp:e24c4c3c-f4d0-45ae-8763-402846dcad17": 1,
+  "mbp:00db8699-70ea-464b-8e84-557cdf8f74d7": 1,
+  "mbp:4fd0ca29-385a-408e-ac76-c192e04aa910": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2678,7 +2684,7 @@
    "groqq": 77079
   },
   "fails": {
-   "gemini": 557,
+   "gemini": 561,
    "groqq": 2
   }
  },
@@ -3477,8 +3483,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what makes a joke land",
-  "what makes a city walkable",
   "the quiet value of boring infrastructure",
   "The peculiar history and evolution of the humble pocket watch",
   "The aesthetic evolution of mid-century modern furniture hardware",
@@ -3536,7 +3540,9 @@
   "the oldest question about knowledge that is still open",
   "what a good default setting says about its designer",
   "the pleasure of understanding how something works by taking it apart",
-  "why people argue about spelling and what it hides"
+  "why people argue about spelling and what it hides",
+  "a fair way to split a bill and why it is not obvious",
+  "what a good apology contains"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4498,9 +4504,7 @@
   "reply_day": 100,
   "pd_day": "2026-11-23",
   "pd_n": 2,
-  "ph": [
-   1795470582.8607295
-  ],
+  "ph": [],
   "last": 1795470582.8607256,
   "rd_day": "2026-11-23",
   "rd_n": 8,
