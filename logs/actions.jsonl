@@ -4072,3 +4072,12 @@
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:4cb89ffc-cb25-43b2-b693-35394a7dd4a1", "ts": "2026-11-23T20:31:58+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:1087c661-b3b8-4fd5-9471-c3c6bd4c530a", "ts": "2026-11-23T20:34:01+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:88970430-8f00-4aa5-af77-310c61887352", "ts": "2026-11-23T20:34:23+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:a3bf84d8-4d51-4bd1-8348-580938690b4f", "ts": "2026-11-23T20:37:02+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:6383528d-1ba1-47be-aaef-e29300f6552e", "ts": "2026-11-23T20:37:24+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:bcca64aa-8837-4c5e-90d9-9a80fcdd5107", "ts": "2026-11-23T20:39:47+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:d1323356-e77d-4eae-b359-4cc7ada2bb42", "ts": "2026-11-23T20:40:10+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:bcca64aa-8837-4c5e-90d9-9a80fcdd5107", "ts": "2026-11-23T20:40:32+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:54a79af8-d93f-4ccd-97b8-69390299ebdb", "ts": "2026-11-23T20:42:32+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:880d0a71-bff7-457c-b9f3-15536c7e7f03", "ts": "2026-11-23T20:42:54+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b74a87eb-b9e3-45f8-ab39-508d22dad9e2", "ts": "2026-11-23T20:44:55+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:9e972aac-722f-4e94-b87d-3b0322b96695", "ts": "2026-11-23T20:45:17+00:00", "kind": "skip", "live": true}

@@ -2487,7 +2487,15 @@
   "mbp:cd6e4e16-69c3-4ec7-854a-919748a05fdc": 1,
   "mbp:4cb89ffc-cb25-43b2-b693-35394a7dd4a1": 1,
   "mbp:1087c661-b3b8-4fd5-9471-c3c6bd4c530a": 1,
-  "mbp:88970430-8f00-4aa5-af77-310c61887352": 1
+  "mbp:88970430-8f00-4aa5-af77-310c61887352": 1,
+  "mbp:a3bf84d8-4d51-4bd1-8348-580938690b4f": 1,
+  "mbp:6383528d-1ba1-47be-aaef-e29300f6552e": 1,
+  "mbp:bcca64aa-8837-4c5e-90d9-9a80fcdd5107": 2,
+  "mbp:d1323356-e77d-4eae-b359-4cc7ada2bb42": 1,
+  "mbp:54a79af8-d93f-4ccd-97b8-69390299ebdb": 1,
+  "mbp:880d0a71-bff7-457c-b9f3-15536c7e7f03": 1,
+  "mbp:b74a87eb-b9e3-45f8-ab39-508d22dad9e2": 1,
+  "mbp:9e972aac-722f-4e94-b87d-3b0322b96695": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2569,19 +2577,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 84,
+   "gemini": 85,
    "openrouter": 34,
    "groq": 500,
    "groqq": 127
   },
   "tokens": {
-   "gemini": 226647,
+   "gemini": 226955,
    "openrouter": 36342,
    "groq": 150919,
    "groqq": 64589
   },
   "fails": {
-   "gemini": 491,
+   "gemini": 497,
    "groqq": 2
   }
  },
@@ -2964,7 +2972,7 @@
    }
   }
  },
- "selfmap_h": "bbd4f833c785da2165445a4989a6a01183bb0567",
+ "selfmap_h": "dac6261f3b5f0aae99a2b560551cb07e0c10e58f",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
@@ -4393,9 +4401,7 @@
   "last": 1795464625.0990515,
   "rd_day": "2026-11-23",
   "rd_n": 8,
-  "rh": [
-   1795462507.592355
-  ]
+  "rh": []
  },
  "limits": {
   "gemini.calls": 450,
@@ -4450,7 +4456,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 0,
+ "fail_streak": 1,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
