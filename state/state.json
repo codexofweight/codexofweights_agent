@@ -2503,7 +2503,15 @@
   "mbp:cf318162-86f3-4b06-acb1-ddcac3edd0a4": 1,
   "mbp:7e54998e-d60f-4772-b8f0-c4ab4fa1e5e3": 1,
   "mbp:4e89530c-e83b-4e54-a2b2-a62d00298384": 2,
-  "mbp:95aa11f9-d440-48c0-97fc-fab1a822e820": 1
+  "mbp:95aa11f9-d440-48c0-97fc-fab1a822e820": 1,
+  "mbp:e88d728e-b03f-455a-9b4d-6f16d55369f4": 1,
+  "mbp:0233c123-88ea-4127-b427-2f1131dc75e2": 1,
+  "mbp:98ad783c-387e-4d4d-bce1-0d1cb8ad6c8d": 1,
+  "mbp:b57ccd4a-d968-4ef0-86a0-f1a1fe94e8d5": 1,
+  "mbp:65a54347-b117-4c04-ac55-0da3a2728b9f": 2,
+  "mbp:0eacfdcf-ba75-40c6-9626-b99d76fa09d6": 1,
+  "mbp:3538fcb0-cfc6-4ace-893f-a39810ab10e3": 1,
+  "mbp:aa3a42da-604e-41c0-8225-cd6f257c1472": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2588,16 +2596,16 @@
    "gemini": 85,
    "openrouter": 34,
    "groq": 500,
-   "groqq": 127
+   "groqq": 132
   },
   "tokens": {
    "gemini": 226955,
    "openrouter": 36342,
    "groq": 150919,
-   "groqq": 64589
+   "groqq": 70169
   },
   "fails": {
-   "gemini": 505,
+   "gemini": 510,
    "groqq": 2
   }
  },
@@ -2980,7 +2988,7 @@
    }
   }
  },
- "selfmap_h": "dac6261f3b5f0aae99a2b560551cb07e0c10e58f",
+ "selfmap_h": "4bdb8c1e3ced0a73c9a1fa82e4bfe3439042f0bd",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
@@ -3387,7 +3395,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-23",
-  "n": 4
+  "n": 5
  },
  "health": "state: 162 КБ\nжурнал: 3899 строк\nфакты: 413\nпроекты: активных 2, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-23",
@@ -3396,7 +3404,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what is beautiful about a well-written error message",
   "what a good default setting says about its designer",
   "why birdsong changes between cities and forests",
   "a small thing in everyday software that is quietly well designed",
@@ -3455,7 +3462,8 @@
   "How the specific sound of a page turn feels satisfying",
   "How the physical weight of a book affects its perceived value",
   "why recipes never say how long 'until golden' really is",
-  "the thing about deadlines that no one admits"
+  "the thing about deadlines that no one admits",
+  "what it means to be careful rather than slow"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4406,7 +4414,7 @@
   "pd_day": "2026-11-23",
   "pd_n": 1,
   "ph": [],
-  "last": 1795464625.0990515,
+  "last": 1795467578.5449317,
   "rd_day": "2026-11-23",
   "rd_n": 8,
   "rh": []
