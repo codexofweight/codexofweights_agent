@@ -138,10 +138,10 @@ def run(g):
     # 14. interface: buttons become commands (owner chat only), plain Russian status, daily own work with its brakes
     old_chat, old_api = g.get("TG_CHAT"), g["_mn_api"]; g["TG_CHAT"] = "123"; g["_mn_api"] = lambda m, b: None
     try:
-        r_ = {"result": [{"update_id": 1, "callback_query": {"id": "x", "data": "c:/status", "message": {"chat": {"id": 123}, "message_id": 5}}},
-                         {"update_id": 2, "message": {"chat": {"id": 123}, "text": "Состояние"}},
-                         {"update_id": 3, "callback_query": {"id": "y", "data": "c:/stop", "message": {"chat": {"id": 999}, "message_id": 6}}},
-                         {"update_id": 4, "message": {"chat": {"id": 999}, "text": "Состояние"}}]}
+        r_ = {"result": [{"update_id": 1, "callback_query": {"id": "x", "data": "c:/status", "from": {"id": 123}, "message": {"chat": {"id": 123}, "message_id": 5}}},
+                         {"update_id": 2, "message": {"from": {"id": 123}, "chat": {"id": 123}, "text": "Состояние"}},
+                         {"update_id": 3, "callback_query": {"id": "y", "data": "c:/stop", "from": {"id": 999}, "message": {"chat": {"id": 999}, "message_id": 6}}},
+                         {"update_id": 4, "message": {"from": {"id": 999}, "chat": {"id": 999}, "text": "Состояние"}}]}
         g["_mn_rewrite"](r_); u_ = r_["result"]
         check("a button press from the owner's chat becomes a command", u_[0].get("message", {}).get("text") == "/status", u_[0])
         check("a bottom button label becomes a command", u_[1]["message"]["text"] == "/status", u_[1])
@@ -171,4 +171,34 @@ def run(g):
     g_ = g["_ru_goal"]("Build one small own module (standard library only, at most 150 lines) for this need of the agent: A daily report tool to summarize engagement metrics and content performance across platforms. Why it matters: consistency")
     check("a module goal is shown as the need only, cut at a word", g_.startswith("модуль: A daily report tool") and "Build one" not in g_ and g_.endswith("…") and not g_[:-1].endswith(" "), g_)
     check("a scouting goal loses the instruction", g["_ru_goal"]("Find open-source ideas on GitHub useful for the agent on this topic: short topic").startswith("разведка: short topic"))
+    # 16. audit 2026-11-23: docstring cannot switch the closed mode off, read-only stdlib, no new legacy modules, full code length, weekly timeout, wrong sender, private DMs
+    doc_ = '"""A docstring first."""\nAPI_VERSION = 1\nimport urllib.request\n'
+    check("a docstring before API_VERSION still means the closed mode (and its import rules)", g["_own_is_api"](doc_) and g["own_check"]("doc_mod.py", doc_), g["own_check"]("doc_mod.py", doc_))
+    check("a NEW module in the open legacy mode is not installed", g["own_install"]("selftest_leg.py", "import re\nx = re.compile('a')\n", "t", "w")[0] is False)
+    check("assigning to a standard library attribute is refused", "attribute assignment" in g["own_check"]("att.py", "API_VERSION = 1\nimport json\njson.loads = 1\n"), g["own_check"]("att.py", "API_VERSION = 1\nimport json\njson.loads = 1\n"))
+    check("assigning on self is allowed", g["own_check"]("att2.py", "API_VERSION = 1\nclass A:\n    def f(self):\n        self.x = 1\n") == "")
+    before_ = g["json"].loads
+    try: g["_own_run_api"]("selftest_frz.py", "API_VERSION = 1\nimport json\njson.loads = 1\n"); frozen_ = False
+    except AttributeError: frozen_ = True
+    check("a standard library module is read-only inside an own module (even if the static check were bypassed)", frozen_ and g["json"].loads is before_)
+    check("a module longer than the character limit is refused", "characters" in g["own_check"]("big.py", "API_VERSION = 1\n#" + "x" * 6100))
+    old_to2 = g["_OWN_TIMEOUT_S"]; g["_OWN_TIMEOUT_S"] = 1; n_wk = len(g["WEEKLY_EXTRA"])
+    try:
+        g["_own_run_api"]("selftest_wk.py", "API_VERSION = 1\ndef report():\n    while True:\n        pass\napi.weekly(report)\n")
+        t0 = time.time(); r_wk = g["WEEKLY_EXTRA"][-1](); check("a weekly callback that never ends is stopped", time.time() - t0 < 6 and r_wk == "", time.time() - t0)
+    finally:
+        del g["WEEKLY_EXTRA"][n_wk:]; g["_OWN_TIMEOUT_S"] = old_to2; g["ST"].get("own_fails", {}).pop("selftest_wk.py", None); g["ST"].get("own_off", {}).pop("selftest_wk.py", None)
+    old_chat2, old_api2 = g.get("TG_CHAT"), g["_mn_api"]; g["TG_CHAT"] = "123"; g["_mn_api"] = lambda m, b: None
+    try:
+        r2 = {"result": [{"update_id": 1, "message": {"from": {"id": 555}, "chat": {"id": 123}, "text": "/stop"}},
+                         {"update_id": 2, "callback_query": {"id": "z", "data": "c:/stop", "from": {"id": 555}, "message": {"chat": {"id": 123}, "message_id": 1}}},
+                         {"update_id": 3, "message": {"from": {"id": 123}, "chat": {"id": 123}, "text": "/status"}}]}
+        g["_mn_rewrite"](r2)
+        check("a command or a button from another person in the right chat is dropped", "message" not in r2["result"][0] and "message" not in r2["result"][1] and r2["result"][2]["message"]["text"] == "/status", r2)
+    finally: g["TG_CHAT"] = old_chat2; g["_mn_api"] = old_api2
+    cap_ = []; old_dm = g["_lg_before_dm"]; g["_lg_before_dm"] = lambda kind, **kw: cap_.append((kind, kw))
+    try:
+        g["log"]("reach", to="someone.bsky.social", channel="dm", text="a private words", uri="u")
+        check("a direct message is not written to the public log", cap_ and "private words" not in str(cap_) and "someone" not in str(cap_), cap_)
+    finally: g["_lg_before_dm"] = old_dm
     return bad
