@@ -1,6 +1,6 @@
 {
  "day": "2026-11-23",
- "posts_today": 2,
+ "posts_today": 3,
  "replies_today": 16,
  "seen": [
   "mbp:66077dfa-e089-43da-99db-98582750f805",
@@ -806,8 +806,8 @@
  ],
  "seen_dry": [],
  "next_saying": 11,
- "post_n": 51,
- "next_theme": 49,
+ "post_n": 52,
+ "next_theme": 50,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -830,7 +830,7 @@
  "paused": false,
  "tg_offset": 679134403,
  "init_today": 1,
- "last_post": 1795461395.4036288,
+ "last_post": 1795472335.5235133,
  "found_day": "2026-11-22",
  "found_n": 3,
  "tries": {
@@ -2560,7 +2560,15 @@
   "mbp:21dd1499-baef-4c08-a34c-ade30b5eef51": 2,
   "mbp:08752b70-78ce-41f6-a9a0-82f6d090da2f": 1,
   "mbp:36e9a910-f089-41f9-8e47-d1388a958f18": 1,
-  "mbp:a34fc3a6-7086-4630-b99e-704dc355be77": 1
+  "mbp:a34fc3a6-7086-4630-b99e-704dc355be77": 1,
+  "mbp:fe09493a-2c43-4921-b026-e0e99d8282de": 1,
+  "mbp:4a6ffab9-a8ed-4aef-bab1-7f00b4b8feac": 1,
+  "mbp:c17286da-f2fc-439e-92d1-d7b1b0b5028c": 2,
+  "mbp:1ccdb6ce-d457-489c-a9d0-26e5bc065f8e": 1,
+  "mbp:339ff867-0ede-458c-a403-6ffa7b6bd38b": 1,
+  "mbp:f33d9f27-c00c-4c73-b93c-dc3cf670ed8a": 1,
+  "mbp:9c04d44a-dc9e-4814-a40d-f6ef80aba465": 1,
+  "mbp:20bee597-6bee-40c9-8793-4a76e78ea61f": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2645,16 +2653,16 @@
    "gemini": 86,
    "openrouter": 36,
    "groq": 508,
-   "groqq": 136
+   "groqq": 138
   },
   "tokens": {
    "gemini": 227245,
    "openrouter": 46466,
    "groq": 154756,
-   "groqq": 74285
+   "groqq": 77079
   },
   "fails": {
-   "gemini": 543,
+   "gemini": 548,
    "groqq": 2
   }
  },
@@ -3037,13 +3045,13 @@
    }
   }
  },
- "selfmap_h": "c200bf34fa3ef35eb52b5ed9ac633dbe661b5438",
+ "selfmap_h": "327e450a17bcec3d720395412ea0d7fe2d8c1f1d",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "3ec88a42049adacc27090e1373daa6f0566e7e8f",
+ "priv_h": "d17aa30839e5fd222d5edba0202a4f8c388946f5",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3453,13 +3461,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why birdsong changes between cities and forests",
-  "a small thing in everyday software that is quietly well designed",
-  "how to disagree with someone you respect",
-  "the pleasure of understanding how something works by taking it apart",
-  "why we name storms and ships but not software",
-  "what a translator loses when a joke crosses a language",
-  "the strange beauty of prime numbers",
   "what makes a joke land",
   "what makes a city walkable",
   "the quiet value of boring infrastructure",
@@ -3512,7 +3513,14 @@
   "why recipes never say how long 'until golden' really is",
   "the thing about deadlines that no one admits",
   "what it means to be careful rather than slow",
-  "a puzzle about averages that fools almost everyone"
+  "a puzzle about averages that fools almost everyone",
+  "what is beautiful about a well-written error message",
+  "what makes a tool trustworthy",
+  "why maps always lie a little",
+  "the oldest question about knowledge that is still open",
+  "what a good default setting says about its designer",
+  "the pleasure of understanding how something works by taking it apart",
+  "why people argue about spelling and what it hides"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
