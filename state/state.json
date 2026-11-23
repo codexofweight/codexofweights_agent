@@ -3,10 +3,6 @@
  "posts_today": 4,
  "replies_today": 26,
  "seen": [
-  "mbp:9dcf5738-ec8f-4ad0-b0ed-67b0d6113b55",
-  "mbp:311979c8-2cd5-4a1e-88ae-ddc3f9eef73d",
-  "mbp:42d82406-97a8-43ab-b720-add2ab7acae4",
-  "mbp:b903b282-5b1b-427b-88e3-b450be2c5e99",
   "mbp:437951fa-dbd8-4d5c-a988-a9de26468df2",
   "mbp:6a64bb11-8952-4311-a360-866965048fc5",
   "mbp:08e1b84e-681a-4545-af1b-12287033b633",
@@ -802,7 +798,11 @@
   "mb:22e26e18-bbcf-4378-b511-b117ca882751",
   "mb:ea1e5ced-e512-48ee-9c5d-ed27823687f2",
   "mb:a0a2e48b-03e9-4027-9b3c-166658c1c999",
-  "mb:9bfc3b07-5659-409e-943b-8fe63613ff5c"
+  "mb:9bfc3b07-5659-409e-943b-8fe63613ff5c",
+  "mb:7bc1e1bb-08f3-4304-be2f-58954cd64394",
+  "mf:117589606784051408",
+  "mf:117495491443710871",
+  "mf:117354780190567647"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -838,7 +838,7 @@
  "tg_offset": 679134394,
  "init_today": 2,
  "last_post": 1795357243.026044,
- "found_day": "2026-11-21",
+ "found_day": "2026-11-22",
  "found_n": 3,
  "tries": {
   "mbp:7649fbc2-ff17-4eeb-ab3d-417fc134b03d": 1,
@@ -2407,7 +2407,15 @@
   "mbp:a51e7cd9-504b-43c2-a627-19d945258598": 1,
   "mbp:bfa8cffb-aebc-4a4d-accc-34bf99a0e785": 1,
   "mbp:47a44cc8-6e50-4250-af5d-e9573e086a85": 2,
-  "mbp:2c8e05f3-6deb-4e23-90d2-e7ae9444ab6f": 1
+  "mbp:2c8e05f3-6deb-4e23-90d2-e7ae9444ab6f": 1,
+  "mbp:a9c5bae8-d5b2-4de6-b536-9192033897d5": 1,
+  "mbp:9a53edc1-f529-42b9-8184-4510b2780fdb": 1,
+  "mbp:b0d1702b-5bdc-4a26-8aec-9fb5e2f0a268": 1,
+  "mbp:fa816075-274f-45dc-a527-ff7a9e4636a3": 1,
+  "mbp:9a2d81e7-25a2-4a7b-a023-b0119bccb05d": 2,
+  "mbp:d90ae311-ce32-4a37-a53b-2cb08ee034c8": 1,
+  "mbp:f6fe6442-e160-492e-b914-e9a5acc5f365": 1,
+  "mbp:fae4fb65-920f-45b6-9eb3-d4a4d7f507b0": 1
  },
  "research_day": "2026-11-22",
  "read_urls": [
@@ -2486,13 +2494,13 @@
  "usage": {
   "day": "2026-11-22",
   "calls": {
-   "gemini": 364,
+   "gemini": 365,
    "groq": 128,
    "openrouter": 38,
    "groqq": 182
   },
   "tokens": {
-   "gemini": 538216,
+   "gemini": 538554,
    "groq": 147982,
    "openrouter": 89813,
    "groqq": 58482
@@ -2715,8 +2723,8 @@
   "https://twitter.com/lifeof_jer/status/2048103471019434248": 1,
   "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/": 1
  },
- "reach_day": "2026-11-21",
- "reach_n": 3,
+ "reach_day": "2026-11-22",
+ "reach_n": 0,
  "contacted": [
   "h:ddbec5cba70a1a37",
   "h:403e9f807724a31d",
@@ -2859,7 +2867,7 @@
    }
   }
  },
- "selfmap_h": "851062c2a9ba1a35393daf8dc4afa6128b9f8411",
+ "selfmap_h": "bd47d25c639ef1cf02212b9ca9b01cdd66cb6b7e",
  "bio_idx_day": "2026-11-22",
  "code_ver": "24eefcf3",
  "backup_day": "2026-11-22",
