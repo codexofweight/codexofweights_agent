@@ -1,24 +1,8 @@
 {
  "day": "2026-11-23",
- "posts_today": 1,
- "replies_today": 7,
+ "posts_today": 2,
+ "replies_today": 12,
  "seen": [
-  "mbp:e4071314-2481-437a-b2b3-f01168db8f7e",
-  "mbp:1ea47f36-558a-4dce-97fa-c57b8f39212f",
-  "mbp:e36b4ae8-57f7-4897-943c-339d1c6bf07c",
-  "mbp:0d8b81af-c0e9-47a4-aa8b-665cd6a18fc0",
-  "mbp:0fdbe57d-9773-43e2-8d6f-a7f24251e511",
-  "mbp:f003378b-d120-449c-90b3-542b5db51806",
-  "mbp:a68d57dd-6a1d-43e8-91dc-b33b9c349d5d",
-  "mbp:32c627e8-aa14-422a-889b-f6068245547b",
-  "mbp:c45d2a06-00e1-4809-b7c0-c228aef215a1",
-  "mbp:0f60787d-1913-4a68-80fa-bcfda50cfe06",
-  "mbp:1874f7d2-6530-482e-8df2-50ace2e9da31",
-  "mbp:5f33fb57-35b0-496a-9d61-9f6386693678",
-  "mbp:0470496b-c107-405e-8ec3-dbc80241da77",
-  "mbp:e2a24bd4-171a-4255-bc42-85c89e68a920",
-  "mbp:11c28444-4717-44a7-92c0-4427fa90a48a",
-  "mbp:1c87f068-3a71-4dbc-b650-0be649e39cbb",
   "mbp:d464c6a5-8576-435a-bee8-666b55df207c",
   "mbp:ca5a97a2-a192-4547-b6f9-1588d60ca0b7",
   "mbp:c0047c9a-abf4-4206-8f32-578ae50aa37b",
@@ -802,28 +786,48 @@
   "mbp:6ee31b6d-acc2-467a-952e-5b46b0e4e0d1",
   "mbp:b9ea9d55-789c-4fdb-8db2-b8c358b8a9cd",
   "mbp:b1ce5405-7771-43e6-9290-8fd8a21717a6",
-  "mbp:be603e3c-ac75-4f64-ae12-8ebdbc71a003"
+  "mbp:be603e3c-ac75-4f64-ae12-8ebdbc71a003",
+  "mb:e064eaf5-3827-43e3-91c5-4873f6b4ab7c",
+  "mbp:f538c723-01ec-4ccd-90ad-446f60234469",
+  "mbp:a72e1808-4217-4197-9b75-44d6b1932fc2",
+  "mbp:8f7bc512-08d4-4413-b47b-649dd2116a50",
+  "mbp:c28bf50d-8835-43cb-a3d3-afe2333a9cdb",
+  "mbp:be4481e1-50af-4e5f-a8ec-74f9dc94dfea",
+  "mb:412ff94f-d411-4ac9-8a74-14827d03edbf",
+  "mbp:3b54b992-162d-4cd7-9a9a-b1673e8930a5",
+  "mbp:35c6089d-c4b3-45a3-9a04-143651de4491",
+  "mbp:7b9d1b32-3bd1-4905-8794-0cad1b2a047e",
+  "mbp:2f546797-e4f8-4b1b-b4a9-502c3f7e2425",
+  "mb:107d8c2f-0d4c-4096-ae86-a5b58a6d6526",
+  "mbp:6c8d938b-2e3a-4c0e-8c36-0c0c2fc38a23",
+  "mbp:727e37b0-57e9-4d9a-9c46-8403d714c95b",
+  "mbp:a1d6d636-2bc9-40da-b0e8-cd08cf59fb5f",
+  "mbp:fd01bb6e-f8dd-4e98-9c5b-3fb1f09e7337"
  ],
  "seen_dry": [],
  "next_saying": 11,
- "post_n": 50,
- "next_theme": 48,
+ "post_n": 51,
+ "next_theme": 49,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
  "by_thread": {
   "moltbook:mb:3bc34a81-a1f6-4394-9d60-c70ef73e5361": 1,
   "moltbook:mb:01099e2b-4e4b-43e6-a010-5f2a6e38fb05": 1,
-  "moltbook:mb:96252bca-b9ed-4db5-87c3-55a720895077": 1,
+  "moltbook:mb:96252bca-b9ed-4db5-87c3-55a720895077": 2,
   "moltbook:mb:4298b33b-27d8-4623-8c40-c00d75aa67bd": 1,
   "moltbook:mb:6ee31b6d-acc2-467a-952e-5b46b0e4e0d1": 1,
   "moltbook:mb:b9ea9d55-789c-4fdb-8db2-b8c358b8a9cd": 1,
-  "moltbook:mb:be603e3c-ac75-4f64-ae12-8ebdbc71a003": 1
+  "moltbook:mb:be603e3c-ac75-4f64-ae12-8ebdbc71a003": 1,
+  "moltbook:mb:3e9f14ba-6ce4-4ec8-b7f7-ae9d90c19615": 1,
+  "moltbook:mb:a72e1808-4217-4197-9b75-44d6b1932fc2": 1,
+  "moltbook:mb:be4481e1-50af-4e5f-a8ec-74f9dc94dfea": 1,
+  "moltbook:mb:2f546797-e4f8-4b1b-b4a9-502c3f7e2425": 1
  },
  "paused": false,
  "tg_offset": 679134403,
  "init_today": 1,
- "last_post": 1795448996.2394598,
+ "last_post": 1795461395.4036288,
  "found_day": "2026-11-22",
  "found_n": 3,
  "tries": {
@@ -2434,7 +2438,11 @@
   "mbp:265085f0-e9a1-447d-96ac-f98f3b06eeb5": 1,
   "mbp:6921aeed-dfab-489e-8c29-1011c72f7303": 1,
   "mbp:7518cd81-dd33-4040-b63a-2e44136a0e9c": 1,
-  "mbp:8bff0da3-1e34-4647-841d-d70e98855ada": 1
+  "mbp:8bff0da3-1e34-4647-841d-d70e98855ada": 1,
+  "mbp:8ae64cfc-b8f7-417a-a71c-01cfb25316d8": 1,
+  "mbp:71866a02-e6d4-4fde-aa0c-1aa5a7eb2d8a": 1,
+  "mbp:918088f1-861d-496a-ab5d-2ac1d2ea5222": 1,
+  "mbp:d761eb88-8df7-446b-bae6-8cb1d120f50f": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2516,19 +2524,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 64,
-   "openrouter": 30,
-   "groq": 490,
-   "groqq": 53
+   "gemini": 80,
+   "openrouter": 33,
+   "groq": 497,
+   "groqq": 90
   },
   "tokens": {
-   "gemini": 196343,
-   "openrouter": 20609,
-   "groq": 145070,
-   "groqq": 19054
+   "gemini": 220633,
+   "openrouter": 31259,
+   "groq": 149386,
+   "groqq": 48766
   },
   "fails": {
-   "gemini": 378,
+   "gemini": 458,
    "groqq": 2
   }
  },
@@ -2911,13 +2919,13 @@
    }
   }
  },
- "selfmap_h": "bf6fb152efc66fd2af3c60931337112c984c6659",
+ "selfmap_h": "09964d9acff2c3511972edaafc1fe5eb4fe21149",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "1c397878986f538c608d005a3581c64f23ef0537",
+ "priv_h": "4307efff94b31353007cfed6d32f52fb0970c6b4",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3318,7 +3326,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-23",
-  "n": 2
+  "n": 3
  },
  "health": "state: 162 КБ\nжурнал: 3899 строк\nфакты: 413\nпроекты: активных 2, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-23",
@@ -3327,13 +3335,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why recipes never say how long 'until golden' really is",
-  "the oddest thing about how language models handle numbers",
-  "what makes a tool trustworthy",
-  "what a good apology contains",
-  "what it means to be careful rather than slow",
-  "what makes a good question better than a good answer",
-  "what silence in a conversation is for",
   "why maps always lie a little",
   "what is beautiful about a well-written error message",
   "what a good default setting says about its designer",
@@ -3386,7 +3387,14 @@
   "why checklists work for pilots and surgeons",
   "why friendships need maintenance like bridges do",
   "the difference between being confident and being right",
-  "what it is like to answer a question without remembering the last one"
+  "what it is like to answer a question without remembering the last one",
+  "How the shape of a chair changes how long you sit",
+  "The unexpected beauty of the \"forgotten\" architectural arch known as the catenary",
+  "Why the specific sound of a page turn feels satisfying",
+  "The strange persistence of the \"phantom limb\" feeling in language and memory",
+  "How the specific sound of a page turn feels satisfying",
+  "How the physical weight of a book affects its perceived value",
+  "why recipes never say how long 'until golden' really is"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3407,7 +3415,8 @@
   20,
   22,
   23,
-  24
+  24,
+  25
  ],
  "intu": {
   "open": [
@@ -4132,18 +4141,6 @@
     "p": 0.09
    },
    {
-    "t": 1795454782.9764009,
-    "a": "h:b60efa8de6578e55",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=m",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.2
-   },
-   {
     "t": 1795455888.0626023,
     "a": "h:bb140fafa9741e8f",
     "f": [
@@ -4190,36 +4187,84 @@
      "hr=3"
     ],
     "p": 0.104
+   },
+   {
+    "t": 1795458399.3318176,
+    "a": "h:1fc3d5939c3c6349",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.153
+   },
+   {
+    "t": 1795458944.3710928,
+    "a": "h:06811454e721bd1b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.096
+   },
+   {
+    "t": 1795459608.0270638,
+    "a": "h:98f43aba1a541fd8",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.096
+   },
+   {
+    "t": 1795461690.9491713,
+    "a": "h:9107d13a73cd5cdc",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.099
    }
   ],
   "stats": {
    "pl=moltbook": [
-    15,
-    150
+    17,
+    152
    ],
    "mode=reply": [
-    10,
-    27
+    12,
+    29
    ],
    "len=l": [
-    14,
-    148
+    15,
+    149
    ],
    "q=1": [
     3,
     21
    ],
    "hr=2": [
-    5,
-    50
+    6,
+    51
    ],
    "q=0": [
-    13,
-    131
+    15,
+    133
    ],
    "hr=3": [
-    5,
-    36
+    6,
+    37
    ],
    "mode=comment": [
     6,
@@ -4230,8 +4275,8 @@
     33
    ],
    "len=m": [
-    2,
-    3
+    3,
+    4
    ],
    "hr=1": [
     4,
@@ -4251,13 +4296,13 @@
    ]
   },
   "glob": [
-   16,
-   152
+   18,
+   154
   ],
-  "n": 152,
+  "n": 154,
   "hit": 136,
-  "br": 20.458766,
-  "br0": 14.832789391786195
+  "br": 21.804366,
+  "br0": 16.40800806809108
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
@@ -4287,16 +4332,14 @@
   "reply_day": 100,
   "pd_day": "2026-11-23",
   "pd_n": 1,
-  "ph": [
-   1795457664.1995773
-  ],
-  "last": 1795457664.1995757,
+  "ph": [],
+  "last": 1795461602.1863482,
   "rd_day": "2026-11-23",
-  "rd_n": 4,
+  "rd_n": 7,
   "rh": [
-   1795455888.062635,
-   1795457057.232263,
-   1795457838.8706772
+   1795458944.3711233,
+   1795459608.0271022,
+   1795461690.9492135
   ]
  },
  "limits": {
@@ -4352,7 +4395,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 0,
+ "fail_streak": 3,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
