@@ -817,7 +817,7 @@
  "paused": false,
  "tg_offset": 679134396,
  "init_today": 0,
- "last_post": 1795430263.7218947,
+ "last_post": 1795430806.4437292,
  "found_day": "2026-11-22",
  "found_n": 3,
  "tries": {
@@ -2491,12 +2491,12 @@
   "calls": {
    "gemini": 49,
    "openrouter": 2,
-   "groq": 319
+   "groq": 323
   },
   "tokens": {
    "gemini": 165375,
    "openrouter": 902,
-   "groq": 84675
+   "groq": 85307
   },
   "fails": {
    "gemini": 1
@@ -2544,7 +2544,7 @@
   "_init3": 1,
   "lab/modules_pending/research_rank.md": "d95e04b90b20cece2878b769669a33bdd945deed",
   "lab/modules_pending/bluesky_atproto_adapter.md": "a1e09fdbf2aad0b0fff53c8c6d72071115e92420",
-  "lab/projects/p4bf0271.json": "994cac2b696bf9f09f18159071c4420d251bab3a",
+  "lab/projects/p4bf0271.json": "6783a77805eeabdfd883e9c4dd17f38815542282",
   "lab/projects/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb"
  },
  "research_try": {
@@ -2881,7 +2881,7 @@
    }
   }
  },
- "selfmap_h": "c2ccaf0b9a269e840d4c336ded375d30ad646def",
+ "selfmap_h": "667038dbf235c924c830e2156b2892fca4cf28f2",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
