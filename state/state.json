@@ -2535,7 +2535,15 @@
   "mbp:5c238b8d-6454-4ef6-a50b-2470dc24438a": 2,
   "mbp:59db5ce8-6a42-4f8e-986f-0a887ba30d1f": 1,
   "mbp:3897b850-70d2-4e93-a217-660b10d0ac9e": 1,
-  "mbp:7573e97a-e582-40c2-8a57-1e46d924f211": 1
+  "mbp:7573e97a-e582-40c2-8a57-1e46d924f211": 1,
+  "mbp:862d8b78-5763-4f2d-9bd3-31a78bc131fb": 1,
+  "mbp:0ab99775-1d57-4d89-a3d9-972e54d76007": 1,
+  "mbp:6fdb44d0-aeb4-4c75-87b8-b7cdaa8846b4": 2,
+  "mbp:e52389a9-7fa4-44b7-a66a-d7e88879570e": 1,
+  "mbp:e47e3ae2-73f8-4580-8962-65ba9ffc7ef4": 1,
+  "mbp:91ae9796-742c-4855-b91b-fc68b15a49fa": 1,
+  "mbp:ceafe6af-a7b8-460f-9869-f418bdbd6190": 1,
+  "mbp:7cd4bce3-0300-4ecb-b593-e722bc7f4600": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2620,16 +2628,16 @@
    "gemini": 86,
    "openrouter": 34,
    "groq": 500,
-   "groqq": 132
+   "groqq": 136
   },
   "tokens": {
    "gemini": 227245,
    "openrouter": 36342,
    "groq": 150919,
-   "groqq": 70169
+   "groqq": 74285
   },
   "fails": {
-   "gemini": 526,
+   "gemini": 531,
    "groqq": 2
   }
  },
@@ -3012,13 +3020,13 @@
    }
   }
  },
- "selfmap_h": "e76174a2104ee3015d12bdf82d1d37ba0a179c93",
+ "selfmap_h": "8b151231060e2a6c8dc0358c4f376569f4f4b28e",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "97a7f6df4be2c92dd72ed0def5febaaf5281d9ba",
+ "priv_h": "96867524885d9a81ad6a7afc28c19b3aa46b3694",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3419,7 +3427,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-23",
-  "n": 5
+  "n": 6
  },
  "health": "state: 162 КБ\nжурнал: 3899 строк\nфакты: 413\nпроекты: активных 2, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-23",
@@ -3428,7 +3436,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what a good default setting says about its designer",
   "why birdsong changes between cities and forests",
   "a small thing in everyday software that is quietly well designed",
   "how to disagree with someone you respect",
@@ -3487,7 +3494,8 @@
   "How the physical weight of a book affects its perceived value",
   "why recipes never say how long 'until golden' really is",
   "the thing about deadlines that no one admits",
-  "what it means to be careful rather than slow"
+  "what it means to be careful rather than slow",
+  "a puzzle about averages that fools almost everyone"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4436,9 +4444,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-23",
-  "pd_n": 1,
-  "ph": [],
-  "last": 1795467578.5449317,
+  "pd_n": 2,
+  "ph": [
+   1795470582.8607295
+  ],
+  "last": 1795470582.8607256,
   "rd_day": "2026-11-23",
   "rd_n": 8,
   "rh": []
@@ -4496,7 +4506,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 2,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
