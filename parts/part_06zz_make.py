@@ -2,7 +2,7 @@
 # Project kind "make", one step per round, resumable: design -> tests FIRST -> code (up to 5 attempts against the tests, run in a separate process: the whole agent loaded
 # in dry mode, no keys, no network) -> independent review (another model) -> the owner decides: /own ok ID installs it into own/ (loader: part_06z), /own no ID drops it.
 # Writer = role 'code' (gpt-oss-120b on Groq), reviewer = role 'review' (qwen3.8-27b), chosen by the benchmarks of 2026-11-17/18.
-MAKE_RULES = ("RULES FOR THE MODULE. A Python file of at most %d non-empty lines. Its FIRST statement must be exactly: API_VERSION = 1 . The module runs in a closed namespace: it does NOT see the agent's functions or variables. It sees only the object `api` and a few plain builtins. "
+MAKE_RULES = ("RULES FOR THE MODULE. A Python file of at most %d non-empty lines and 5500 characters in total. Its FIRST statement must be exactly: API_VERSION = 1 . The module runs in a closed namespace: it does NOT see the agent's functions or variables. It sees only the object `api` and a few plain builtins. "
   "Allowed imports ONLY: json, re, time, datetime, hashlib, math, collections, ipaddress, html, urllib.parse, string, itertools, functools, textwrap, unicodedata. NEVER import os, sys, http, ssl, urllib.request, operator, types; never use getattr/setattr/hasattr, open(), eval, exec, compile, dunder names (anything like __x__), environ, subprocess, socket. The file is rejected otherwise. "
   "api.say(text) sends a message to the owner. api.command('/name', fn) registers a Telegram command: fn(raw) gets the WHOLE message text including the command (for example '/read https://x.y'; take the argument with raw.split(None, 1)[1] when there is one) and RETURNS the answer string (or None). "
   "api.plain(html) -> the visible text of an html page (tags, scripts and styles removed): ALWAYS use it before counting, searching or quoting words of a fetched page. Answer by RETURNING the string from the command function; do NOT also call api.say with the same text (the owner would get it twice). api.fetch(url, max_bytes=200000) -> text of a public https page; it is the ONLY way to read the internet and works for any url from a person; it raises ValueError on anything unsafe or failed: catch it and answer with a short fixed message, never the error text. "
@@ -118,13 +118,17 @@ def make_step(p):
         if not out: return "later"
         j = _mk_json(out)
         if not j: d["review_fail"] = d.get("review_fail", 0) + 1; return "failed" if d["review_fail"] >= 3 else "later"
-        d["review"] = {"risk": str(j.get("risk", "")), "issues": [str(x)[:160] for x in (j.get("issues") or [])][:5], "summary": str(j.get("summary_ru", ""))[:500]}
+        rk_ = str(j.get("risk", "")).strip().lower(); rk_ok = rk_ in ("low", "medium", "high")      # anything else is a failed review, never a pass
+        d["review"] = {"risk": rk_ if rk_ok else "high", "issues": ([str(x)[:160] for x in (j.get("issues") or [])] + ([] if rk_ok else ["the reviewer gave no valid risk level"]))[:5], "summary": str(j.get("summary_ru", ""))[:500]}
         if d["review"]["risk"] == "high": note_add("Reviewer found a serious problem in module %s: %s" % (d["title"], "; ".join(d["review"]["issues"])[:120]), "failed", "make " + p["id"], "make review")
         if d["review"]["risk"] == "high": tg("Проект %s (модуль %s): рецензент нашёл серьёзную проблему, ничего не установлено: %s" % (p["id"], d["name"], "; ".join(d["review"]["issues"])[:300])); return "failed"
         d["stage"] = "ask"; return "continue"
     if st == "ask":
         r = d["review"]
-        tg("Модуль для меня: %s — %s\nЗачем: %s\nТесты: %s пройдены. Рецензия (другая модель): риск %s. %s\nЗамечания: %s\n\nКод (%d строк):\n%s\n\nУстановить: /own ok %s   Отклонить: /own no %s" % (d["name"], d["title"], d["why"], d.get("test_result", "?"), r["risk"], r["summary"], "; ".join(r["issues"]) or "нет", len([l for l in d["code"].splitlines() if l.strip()]), d["code"][:2600], p["id"], p["id"]))
+        code_ = d["code"]; sha_ = hashlib.sha256(code_.encode("utf-8")).hexdigest()[:12]
+        tg("Модуль для меня: %s — %s\nЗачем: %s\nТесты: %s пройдены. Рецензия (другая модель): риск %s. %s\nЗамечания: %s\n\nКод целиком ниже (%d строк, %d символов, SHA256 %s)." % (d["name"], d["title"], d["why"], d.get("test_result", "?"), r["risk"], r["summary"], "; ".join(r["issues"]) or "нет", len([l for l in code_.splitlines() if l.strip()]), len(code_), sha_))
+        for i_ in range(0, len(code_), 3500): tg(code_[i_:i_ + 3500])
+        tg("Установить: /own ok %s   Отклонить: /own no %s" % (p["id"], p["id"]))
         d["stage"] = "waiting"; return "wait"
     return "failed"
 PROJ_HANDLERS["make"] = make_step

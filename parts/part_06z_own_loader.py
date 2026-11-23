@@ -13,11 +13,13 @@ def own_manifest():
     m.setdefault("modules", []); return m
 def own_save(m):
     os.makedirs(OWN_DIR, exist_ok=True); json.dump(m, open(os.path.join(OWN_DIR, "MANIFEST.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+OWN_CHARS = 6000
 def own_check(name, code):
     """'' if the module may be installed, else the reason."""
     if not _OWN_NAME.match(name or ""): return "bad file name (lowercase letters, digits, underscore, .py)"
     n = len([l for l in code.splitlines() if l.strip()])
     if n > OWN_LINES: return "too long: %d lines (limit %d)" % (n, OWN_LINES)
+    if len(code) > OWN_CHARS: return "too long: %d characters (limit %d): the owner and the reviewer must see ALL of it" % (len(code), OWN_CHARS)
     m = _OWN_DENY.search(code)
     if m: return "forbidden construct: %s" % m.group(0)[:30]
     if _own_is_api(code): return _own_api_check(code)
@@ -42,6 +44,7 @@ def own_install(name, code, title, why, origin=""):
     m = own_manifest(); mods = [x for x in m["modules"] if x["file"] != name]
     bad = own_check(name, code)
     if bad: return False, bad
+    if not _own_is_api(code) and not any(x["file"] == name and x.get("sha256") == hashlib.sha256(code.encode("utf-8")).hexdigest() for x in m["modules"]): return False, "a new module must be in the closed mode: its first statement must be API_VERSION = 1"
     if len(mods) >= OWN_MAX: return False, "no room: %d modules already (limit %d); remove one first (/own del NAME)" % (len(mods), OWN_MAX)
     os.makedirs(OWN_DIR, exist_ok=True); open(os.path.join(OWN_DIR, name), "w", encoding="utf-8").write(code)
     mods.append(dict(file=name, title=str(title)[:80], why=str(why)[:200], origin=str(origin)[:200], approved=now().strftime("%Y-%m-%d"), sha256=hashlib.sha256(code.encode("utf-8")).hexdigest()))
@@ -55,27 +58,58 @@ def own_fail(mod, ex):
 # ---- API mode (2026-11-21): the "organs" interface. A module whose first statement is API_VERSION = 1 does NOT get the agent's globals. ----
 # It runs in its own namespace that holds only `api` (say, command, fetch, ask, remember/recall, weekly, now/today) and a few safe builtins.
 # No secrets, no tg/ST/mem_*, no way to import anything but harmless standard modules. The agent stays one body: the module is part of it, but through defined nerves.
-import builtins as _own_bi, signal as _own_sg, types as _own_types, html as _own_html
+import builtins as _own_bi, signal as _own_sg, types as _own_types, html as _own_html, ast as _own_ast
 _OWN_API_IMPORTS = _OWN_IMPORTS_OK - {"urllib.request"}
 _OWN_API_DENY = re.compile(r"\.\s*(?:sys|os|builtins|codecs|importlib|subprocess|socket|modules|urlopen|request)\b|\burllib\s*\.\s*request|(?<![\w.])(?:tg|ST|EXT_CMDS|safe_get|web_get|mem_get|mem_put|llm|llm_role|micro|http|log)\s*[(\[.=]|\bimport\s+urllib\.request|from\s+urllib\s+import\s+request"
     r"|\.\s*(?:gi_frame|gi_code|gi_yieldfrom|cr_frame|cr_code|cr_await|ag_frame|ag_code|ag_await|f_back|f_globals|f_locals|f_builtins|f_code|f_trace|tb_frame|tb_next|func_globals|format|format_map|mro|with_traceback|co_\w+)\b"
     r"|\bFormatter\b|\bapi\s*\.\s*_|\bexcept\s*:|\bBaseException\b|\bGeneratorExit\b")
 def _own_is_api(code):
-    for l in code.splitlines():
-        l = l.strip()
-        if not l or l.startswith("#"): continue
-        return bool(re.match(r"API_VERSION\s*=\s*1\s*(#.*)?$", l))
-    return False
+    """API mode = the first statement (after an optional docstring and comments) is API_VERSION = 1. Read with the real parser: a docstring cannot slip a module into the open legacy mode."""
+    try: body = list(_own_ast.parse(code).body)
+    except Exception: return False
+    if body and isinstance(body[0], _own_ast.Expr) and isinstance(getattr(body[0], "value", None), _own_ast.Constant) and isinstance(body[0].value.value, str): body = body[1:]
+    return bool(body and isinstance(body[0], _own_ast.Assign) and len(body[0].targets) == 1 and isinstance(body[0].targets[0], _own_ast.Name) and body[0].targets[0].id == "API_VERSION"
+                and isinstance(body[0].value, _own_ast.Constant) and body[0].value.value == 1)
+def _own_attr_assign(code):
+    """'' or the reason: the standard library is shared with the agent core, so an own module may assign attributes only on self/cls (never json.loads = ..., re.X.y = ...)."""
+    try: tree = _own_ast.parse(code)
+    except Exception: return ""
+    def bad(t):
+        if isinstance(t, _own_ast.Attribute): return not (isinstance(t.value, _own_ast.Name) and t.value.id in ("self", "cls"))
+        if isinstance(t, (_own_ast.Tuple, _own_ast.List)): return any(bad(x) for x in t.elts)
+        if isinstance(t, _own_ast.Starred): return bad(t.value)
+        return False
+    for n in _own_ast.walk(tree):
+        ts = []
+        if isinstance(n, _own_ast.Assign): ts = n.targets
+        elif isinstance(n, (_own_ast.AugAssign, _own_ast.AnnAssign)): ts = [n.target]
+        elif isinstance(n, _own_ast.Delete): ts = n.targets
+        elif isinstance(n, (_own_ast.For, _own_ast.AsyncFor, _own_ast.comprehension)): ts = [n.target]
+        elif isinstance(n, (_own_ast.With, _own_ast.AsyncWith)): ts = [i.optional_vars for i in n.items if i.optional_vars is not None]
+        if any(bad(t) for t in ts): return "attribute assignment is allowed only on self (standard library objects are shared with the agent)"
+    return ""
 def _own_api_check(code):
     """'' if an API-mode module is acceptable (it already passed the deny-list)."""
-    bad = _own_imports(code, _OWN_API_IMPORTS)
+    bad = _own_imports(code, _OWN_API_IMPORTS) or _own_attr_assign(code)
     if bad: return bad
     m = _OWN_API_DENY.search(code)
     return "not allowed in an API module: %s (use api.* instead)" % m.group(0)[:30] if m else ""
 _OWN_SAFE = {k: getattr(_own_bi, k) for k in ("len", "range", "str", "int", "float", "bool", "list", "dict", "set", "tuple", "frozenset", "min", "max", "sum", "sorted", "reversed", "enumerate", "zip", "any", "all", "abs", "round", "isinstance", "print", "repr", "ord", "chr", "divmod", "map", "filter", "bytes", "bytearray", "slice", "iter", "next", "True", "False", "None", "Exception", "ValueError", "TypeError", "KeyError", "IndexError", "StopIteration", "ArithmeticError", "ZeroDivisionError", "AttributeError", "RuntimeError", "UnicodeError", "NotImplementedError", "LookupError", "__build_class__")}
+def _own_freeze(m):
+    """The module object is shared with the agent core: an own module gets a read-only view (no assignment, no names starting with an underscore, nested modules are frozen too)."""
+    if not isinstance(m, _own_types.ModuleType): return m
+    class _Frozen:
+        __slots__ = ()
+        def __getattr__(self, k):
+            if k.startswith("_"): raise AttributeError(k)
+            v = getattr(m, k)
+            return _own_freeze(v) if isinstance(v, _own_types.ModuleType) else v
+        def __setattr__(self, k, v): raise AttributeError("standard library modules are read-only for own modules")
+        __delattr__ = __setattr__
+    return _Frozen()
 def _own_import_fn(name, globals=None, locals=None, fromlist=(), level=0):
     if level or name not in _OWN_API_IMPORTS and not (name == "urllib" and all(f == "parse" for f in (fromlist or ()))): raise ImportError("import not allowed: %s" % name)
-    return _own_bi.__import__(name, None, None, fromlist or (), 0)
+    return _own_freeze(_own_bi.__import__(name, None, None, fromlist or (), 0))
 _OWN_SAFE["__import__"] = _own_import_fn
 class _OwnTimeout(BaseException):
     """Raised by the alarm in a running module. A BaseException on purpose: `except Exception` inside a module cannot swallow it (bare except and BaseException are not allowed in API modules)."""
@@ -136,8 +170,18 @@ class _OwnAPI:
     def weekly(self, fn):
         mod = self._m
         def line():
-            try: return str(fn() or "")[:400]
-            except Exception as ex: own_fail(mod, ex); return ""
+            if ST.get("own_off", {}).get(mod): return ""
+            old = None
+            try:
+                try: old = _own_sg.signal(_own_sg.SIGALRM, _own_alarm); _own_sg.setitimer(_own_sg.ITIMER_REAL, _OWN_TIMEOUT_S, 1.0)
+                except Exception: old = None
+                return str(fn() or "")[:400]
+            except (Exception, _OwnTimeout) as ex: own_fail(mod, ex); return ""
+            finally:
+                try: _own_sg.setitimer(_own_sg.ITIMER_REAL, 0)
+                except Exception: pass
+                try: old is not None and _own_sg.signal(_own_sg.SIGALRM, old)
+                except Exception: pass
         WEEKLY_EXTRA.append(line)
 def _own_run_api(name, code):
     """Runs an API-mode module in its own namespace. Returns that namespace (the dry test copies its functions out for the tests)."""

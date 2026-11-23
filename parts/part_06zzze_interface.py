@@ -23,12 +23,19 @@ def _mn_nav(name, chat_id, mid):
     text, rows = _MN_MENUS.get(name) or _MN_MENUS["main"]
     try: _mn_api("editMessageText", {"chat_id": chat_id, "message_id": mid, "text": text, "reply_markup": _mn_markup(rows)})
     except Exception: _mn_api("sendMessage", {"chat_id": chat_id, "text": text, "reply_markup": _mn_markup(rows)})
+def _mn_owner_id():
+    """Who may command the agent: TG_OWNER_ID if set, else the chat id when it is a private chat (positive); in a group without TG_OWNER_ID the sender cannot be checked."""
+    o = os.environ.get("TG_OWNER_ID", "").strip()
+    return o or (str(TG_CHAT) if str(TG_CHAT).isdigit() else "")
 def _mn_rewrite(r):
+    oid = _mn_owner_id()
     for u in r.get("result", []):
         cq = u.get("callback_query")
+        if not cq and oid and str(((u.get("message") or {}).get("from") or {}).get("id")) != oid and str(((u.get("message") or {}).get("chat") or {}).get("id")) == str(TG_CHAT): u.pop("message", None); continue      # right chat, wrong sender
         if cq:
             m = cq.get("message") or {}; chat = m.get("chat") or {}; d = str(cq.get("data") or ""); u.pop("callback_query", None)
             if not TG_CHAT or str(chat.get("id")) != str(TG_CHAT): continue      # only the owner's chat
+            if oid and str((cq.get("from") or {}).get("id")) != oid: continue      # and only the owner
             try: _mn_api("answerCallbackQuery", {"callback_query_id": cq.get("id")})
             except Exception: pass
             if d.startswith("m:"): _mn_nav(d[2:], chat.get("id"), m.get("message_id"))
@@ -125,3 +132,14 @@ def status_command(c, raw=None):
 MORE_TEXT = MORE_TEXT.replace("/more: этот список", "/menu: кнопки\n/autoproj: ежедневная работа (on|off|now)\n/more: этот список")
 CHAT_SYS += " Also real: /menu (buttons) and /autoproj (daily own work: on, off, now)."
 EXT_CMDS.update({"/menu": menu_command, "/status": status_command})
+_lg_before_dm = log
+def log(kind, **kw):
+    """Direct messages on Bluesky and Mastodon are private: the public log keeps no text and only a hash of the person."""
+    try:
+        if kw.get("channel") == "dm":
+            for k in ("to", "handle"):
+                if k in kw: kw[k] = _h(kw[k])
+            for k in ("text", "their", "dm_text", "question"):
+                if k in kw: kw[k] = "[private message, not logged]"
+    except Exception: pass
+    return _lg_before_dm(kind, **kw)
