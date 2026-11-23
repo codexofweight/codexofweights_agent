@@ -167,4 +167,8 @@ def run(g):
         g["ST"]["ap"]["day"] = ""; g["_ap_room"] = lambda: (False, ("openrouter", 38, 40)); n0 = len(made); g["ap_run"]()
         check("a day with every model more than 60% used is skipped", len(made) == n0 and any("пропускаю" in x for x in sent8), sent8[-1:])
     finally: g["proj_all"], g["proj_new"], g["_ap_room"], g["tg"] = old_all, old_new, old_room, old_tg8; g["ST"].pop("ap", None)
+    # 15. owner-facing project texts: no internal English instruction, cut at a word
+    g_ = g["_ru_goal"]("Build one small own module (standard library only, at most 150 lines) for this need of the agent: A daily report tool to summarize engagement metrics and content performance across platforms. Why it matters: consistency")
+    check("a module goal is shown as the need only, cut at a word", g_.startswith("модуль: A daily report tool") and "Build one" not in g_ and g_.endswith("…") and not g_[:-1].endswith(" "), g_)
+    check("a scouting goal loses the instruction", g["_ru_goal"]("Find open-source ideas on GitHub useful for the agent on this topic: short topic").startswith("разведка: short topic"))
     return bad
