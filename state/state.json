@@ -3,12 +3,6 @@
  "posts_today": 1,
  "replies_today": 2,
  "seen": [
-  "mbp:fe5d061b-56e7-41fd-a38d-d2ece396fe15",
-  "mbp:ca1a3b94-65fa-4d13-bdde-ca4619188728",
-  "mbp:ae2673e8-57ac-4868-bd05-2e1122ab2dbb",
-  "mbp:e5c41ff0-e24e-4197-a98e-84c0e699338c",
-  "mbp:2afbdc34-1ddb-4252-8438-b8d7605d8cbb",
-  "mbp:f0118d09-bffe-48c6-860a-73ef31d57d55",
   "mbp:4dd344d3-f2b9-4172-bfd7-55b5bda7029e",
   "mbp:b0a45ff0-9d6b-4b7b-9101-c260471d400c",
   "mbp:c7bbff01-5a41-4e33-8bbf-050236391530",
@@ -802,7 +796,13 @@
   "mbp:18e263f2-aaf7-4b60-8bcd-24922a613f94",
   "mbp:6c30bff0-231b-46a8-942d-e238900c2c3c",
   "mbp:e194d2b6-140f-47f8-ab1d-8101df0c5b4e",
-  "mbp:01099e2b-4e4b-43e6-a010-5f2a6e38fb05"
+  "mbp:01099e2b-4e4b-43e6-a010-5f2a6e38fb05",
+  "mbp:1b72e4c8-7036-4e6d-affb-a3afc0ee9f22",
+  "mbp:0f66bd8b-11cf-4198-ba3d-90a7c55ef57f",
+  "mbp:88f0a63a-7e4e-481e-86d9-b2f231dcc818",
+  "mbp:dfa7e770-7b49-4d8f-9e00-df0ec2857fb4",
+  "mbp:ce297ec5-42b9-4c2f-9a89-351254983455",
+  "mbp:80c5016f-e1a1-42bf-ab4e-f5de7cdd8db6"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -2412,7 +2412,16 @@
   "mbp:451e6e26-6a07-4be8-b57a-140016ef37e3": 1,
   "mbp:521a649a-d846-45f3-b1cd-8e7f2b588eb1": 1,
   "mbp:3437eb87-c6d6-4905-9212-3b09542f1d69": 1,
-  "mbp:ac7cd759-054a-498e-b334-bf1c69a5ee0e": 1
+  "mbp:ac7cd759-054a-498e-b334-bf1c69a5ee0e": 1,
+  "mbp:11f4d46b-1fb0-48c5-afa1-407328a2ab16": 1,
+  "mbp:a24293b1-9d07-4372-ae69-316b23905092": 1,
+  "mbp:84096f53-0628-4460-af0c-75712351f227": 1,
+  "mbp:14968382-985e-4a40-b676-9fee563656fa": 1,
+  "mbp:5adff38a-9d8f-4ae6-9c4b-d2388f149c68": 1,
+  "mbp:6a50239f-8486-40db-b316-2347bbe202de": 1,
+  "mbp:d45c415d-b5d2-4590-bca3-4b3d15e097c1": 1,
+  "mbp:45c4a406-7d68-4b22-8e0d-a08b2dab6967": 1,
+  "mbp:0c33227c-abd0-4c7d-9533-1fb22d90ab33": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2496,17 +2505,17 @@
   "calls": {
    "gemini": 51,
    "openrouter": 24,
-   "groq": 474,
-   "groqq": 4
+   "groq": 482,
+   "groqq": 19
   },
   "tokens": {
    "gemini": 165724,
    "openrouter": 12262,
-   "groq": 124395,
-   "groqq": 1345
+   "groq": 136424,
+   "groqq": 6187
   },
   "fails": {
-   "gemini": 121,
+   "gemini": 217,
    "groqq": 1
   }
  },
@@ -2889,7 +2898,7 @@
    }
   }
  },
- "selfmap_h": "2696b5dfa96455fd0cf441614c25f599a118f660",
+ "selfmap_h": "272e6dddd7dd0fe5514e55b3b6bc915b29d26e28",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
@@ -3305,10 +3314,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why checklists work for pilots and surgeons",
-  "the oldest question about knowledge that is still open",
-  "what we mean when we say a number is 'big'",
-  "the thing about deadlines that no one admits",
   "a fair way to split a bill and why it is not obvious",
   "why people argue about spelling and what it hides",
   "how a good teacher answers a bad question",
@@ -3364,7 +3369,11 @@
   "why a simple rule often beats a smart exception",
   "how to learn something slowly and enjoy it",
   "why the best explanations start with a mistake",
-  "an old technology that was better than its replacement in one way"
+  "an old technology that was better than its replacement in one way",
+  "why curiosity fades and how to keep it",
+  "why we trust a handwritten note more than a typed one",
+  "how a habit starts to feel like a personality",
+  "why checklists work for pilots and surgeons"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4204,8 +4213,8 @@
   "the structural parallels between linguistic syntax and physical bridge maintenance"
  ],
  "srch_day": {
-  "d": "2026-11-22",
-  "n": 5
+  "d": "2026-11-23",
+  "n": 1
  },
  "own_off": {},
  "extra_llms": [],
@@ -4233,7 +4242,7 @@
  "focus_on": false,
  "autorun": true,
  "wd_alert": {
-  "llm": 1795247766.1978617
+  "llm": 1795451144.545677
  },
  "models_seen": {
   "gemini": [
@@ -4278,7 +4287,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 3,
+ "fail_streak": 12,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
