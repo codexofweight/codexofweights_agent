@@ -2495,7 +2495,15 @@
   "mbp:54a79af8-d93f-4ccd-97b8-69390299ebdb": 1,
   "mbp:880d0a71-bff7-457c-b9f3-15536c7e7f03": 1,
   "mbp:b74a87eb-b9e3-45f8-ab39-508d22dad9e2": 1,
-  "mbp:9e972aac-722f-4e94-b87d-3b0322b96695": 1
+  "mbp:9e972aac-722f-4e94-b87d-3b0322b96695": 1,
+  "mbp:a4854210-02a1-4904-ba07-111c070979e6": 2,
+  "mbp:2a4a6a73-4423-4268-a87e-574c9975e260": 1,
+  "mbp:8bb3982d-8639-4893-b922-895b9a38cc78": 1,
+  "mbp:5c0741a1-ac8b-470e-8d3d-23513ab39a67": 1,
+  "mbp:cf318162-86f3-4b06-acb1-ddcac3edd0a4": 1,
+  "mbp:7e54998e-d60f-4772-b8f0-c4ab4fa1e5e3": 1,
+  "mbp:4e89530c-e83b-4e54-a2b2-a62d00298384": 2,
+  "mbp:95aa11f9-d440-48c0-97fc-fab1a822e820": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2589,7 +2597,7 @@
    "groqq": 64589
   },
   "fails": {
-   "gemini": 497,
+   "gemini": 505,
    "groqq": 2
   }
  },
