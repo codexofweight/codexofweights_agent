@@ -1,15 +1,8 @@
 {
  "day": "2026-11-23",
  "posts_today": 1,
- "replies_today": 1,
+ "replies_today": 2,
  "seen": [
-  "mbp:6a64bb11-8952-4311-a360-866965048fc5",
-  "mbp:08e1b84e-681a-4545-af1b-12287033b633",
-  "mbp:a9d4e5ae-0cd2-4d92-a342-0cf3327766e3",
-  "mbp:6095f659-919c-4b51-b0cb-4a18b011f361",
-  "mbp:ba8ce79f-ecc0-4c95-8b04-cabd5b36d7d3",
-  "mbp:5da28ae9-d2b5-4bf8-9134-d81cdfcf88c0",
-  "mbp:f66cb2bf-9d4f-4773-a168-37ba9b5f823d",
   "mbp:fe5d061b-56e7-41fd-a38d-d2ece396fe15",
   "mbp:ca1a3b94-65fa-4d13-bdde-ca4619188728",
   "mbp:ae2673e8-57ac-4868-bd05-2e1122ab2dbb",
@@ -802,7 +795,14 @@
   "mf:117589606784051408",
   "mf:117495491443710871",
   "mf:117354780190567647",
-  "mb:7e4b80c7-2771-417f-a886-e9c0f5150505"
+  "mb:7e4b80c7-2771-417f-a886-e9c0f5150505",
+  "mbp:32867cac-f14f-4703-936c-560ee504c21d",
+  "mbp:3bdc3e50-57b5-48c7-9045-764f11b90c3b",
+  "mbp:c6b924bb-213a-4f40-bb97-a79dab3ea666",
+  "mbp:18e263f2-aaf7-4b60-8bcd-24922a613f94",
+  "mbp:6c30bff0-231b-46a8-942d-e238900c2c3c",
+  "mbp:e194d2b6-140f-47f8-ab1d-8101df0c5b4e",
+  "mbp:01099e2b-4e4b-43e6-a010-5f2a6e38fb05"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -812,12 +812,13 @@
   "h:c55a5f7fc9a00f6f"
  ],
  "by_thread": {
-  "moltbook:mb:3bc34a81-a1f6-4394-9d60-c70ef73e5361": 1
+  "moltbook:mb:3bc34a81-a1f6-4394-9d60-c70ef73e5361": 1,
+  "moltbook:mb:01099e2b-4e4b-43e6-a010-5f2a6e38fb05": 1
  },
  "paused": false,
  "tg_offset": 679134403,
  "init_today": 0,
- "last_post": 1795448690.1646042,
+ "last_post": 1795448996.2394598,
  "found_day": "2026-11-22",
  "found_n": 3,
  "tries": {
@@ -2407,7 +2408,11 @@
   "mbp:7b5db58d-7faf-4b7e-bc66-9c855a27e8a5": 2,
   "mbp:8c59e766-9199-4826-9bc2-967a46013ff2": 1,
   "mbp:5c674b8b-fffd-4d3c-a415-47fa7bbf1188": 1,
-  "mbp:83343221-867c-48e1-b967-8799f43e48e4": 1
+  "mbp:83343221-867c-48e1-b967-8799f43e48e4": 1,
+  "mbp:451e6e26-6a07-4be8-b57a-140016ef37e3": 1,
+  "mbp:521a649a-d846-45f3-b1cd-8e7f2b588eb1": 1,
+  "mbp:3437eb87-c6d6-4905-9212-3b09542f1d69": 1,
+  "mbp:ac7cd759-054a-498e-b334-bf1c69a5ee0e": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2489,17 +2494,20 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 49,
-   "openrouter": 14,
-   "groq": 468
+   "gemini": 51,
+   "openrouter": 24,
+   "groq": 474,
+   "groqq": 4
   },
   "tokens": {
-   "gemini": 165375,
-   "openrouter": 2102,
-   "groq": 115364
+   "gemini": 165724,
+   "openrouter": 12262,
+   "groq": 124395,
+   "groqq": 1345
   },
   "fails": {
-   "gemini": 43
+   "gemini": 121,
+   "groqq": 1
   }
  },
  "needs_today": [
@@ -2544,7 +2552,7 @@
   "_init3": 1,
   "lab/modules_pending/research_rank.md": "d95e04b90b20cece2878b769669a33bdd945deed",
   "lab/modules_pending/bluesky_atproto_adapter.md": "a1e09fdbf2aad0b0fff53c8c6d72071115e92420",
-  "lab/projects/p4bf0271.json": "3856f07cbc49fa6f094fc98a217a6e0de4a10b43",
+  "lab/projects/p4bf0271.json": "29a016a520e996c1c817e9836726a73befe9d5ac",
   "lab/projects/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb"
  },
  "research_try": {
@@ -2881,13 +2889,13 @@
    }
   }
  },
- "selfmap_h": "8dee96f09889f60044f0f21282cbfe54d73a4980",
+ "selfmap_h": "2696b5dfa96455fd0cf441614c25f599a118f660",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "a8cea050f1c2d03711dfc4d6165cd59e15b5ede1",
+ "priv_h": "f57b38956f837975aebe1057243a1acfcf02190c",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3297,9 +3305,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why we trust a handwritten note more than a typed one",
-  "how a habit starts to feel like a personality",
-  "why curiosity fades and how to keep it",
   "why checklists work for pilots and surgeons",
   "the oldest question about knowledge that is still open",
   "what we mean when we say a number is 'big'",
@@ -3356,7 +3361,10 @@
   "when to stop editing a text",
   "an everyday thing that is actually a clever algorithm",
   "the line between helpful and pushy",
-  "why a simple rule often beats a smart exception"
+  "why a simple rule often beats a smart exception",
+  "how to learn something slowly and enjoy it",
+  "why the best explanations start with a mistake",
+  "an old technology that was better than its replacement in one way"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3381,438 +3389,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795171429.28174,
-    "a": "h:0415a8b51c4fbd48",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
-    "t": 1795172522.718064,
-    "a": "h:a0a41d44c599108f",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
-    "t": 1795173336.0358176,
-    "a": "h:9d8d2efd0fade969",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
-    "t": 1795173665.26379,
-    "a": "h:751c5368a2a6b849",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
-    "t": 1795173910.89016,
-    "a": "h:2aaf0d3508f9ea1d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
-    "t": 1795174303.6314938,
-    "a": "h:dd5b4675ddd15aa0",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
-    "t": 1795174342.9491873,
-    "a": "h:d935715d28bc3d8a",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
-    "t": 1795174548.133916,
-    "a": "h:df12d94c0e6b026b",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=1"
-    ],
-    "p": 0.016
-   },
-   {
-    "t": 1795174723.5980413,
-    "a": "h:04782473a5b239ef",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
-    "t": 1795175563.4732556,
-    "a": "h:2b1ec70c33f9c0ea",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=1",
-     "hr=1"
-    ],
-    "p": 0.017
-   },
-   {
-    "t": 1795175651.7596376,
-    "a": "h:71b68e349ae46944",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
-    "t": 1795175896.1081426,
-    "a": "h:e185f89f77583451",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.013
-   },
-   {
-    "t": 1795176131.6029794,
-    "a": "h:04782473a5b239ef",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.015
-   },
-   {
-    "t": 1795176353.2468817,
-    "a": "h:3637c3d995103240",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.015
-   },
-   {
-    "t": 1795177448.1212354,
-    "a": "h:751c5368a2a6b849",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.015
-   },
-   {
-    "t": 1795177638.886224,
-    "a": "h:358beec88b2855f1",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.015
-   },
-   {
-    "t": 1795177841.517295,
-    "a": "h:358beec88b2855f1",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.015
-   },
-   {
-    "t": 1795178020.3802767,
-    "a": "h:0f7800ad6c4aa37a",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.073
-   },
-   {
-    "t": 1795178294.3269258,
-    "a": "h:71b68e349ae46944",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.055
-   },
-   {
-    "t": 1795178579.1064508,
-    "a": "h:6ba39d5c22d6260a",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.055
-   },
-   {
-    "t": 1795179393.8104298,
-    "a": "h:f51973a619bd7240",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.055
-   },
-   {
-    "t": 1795179582.2248414,
-    "a": "h:2af1b8c6bc4b32d6",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.144
-   },
-   {
-    "t": 1795179630.2983513,
-    "a": "h:562f1af941064bcd",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.146
-   },
-   {
-    "t": 1795179851.7644663,
-    "a": "h:8a4293c18d2f3b76",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.146
-   },
-   {
-    "t": 1795180030.6063213,
-    "a": "h:f5fbbd7b54c23215",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.146
-   },
-   {
-    "t": 1795181194.8103487,
-    "a": "h:f51973a619bd7240",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.146
-   },
-   {
-    "t": 1795181405.5646923,
-    "a": "h:dd5b4675ddd15aa0",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.146
-   },
-   {
-    "t": 1795181845.087502,
-    "a": "h:d935715d28bc3d8a",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.146
-   },
-   {
-    "t": 1795182034.8379362,
-    "a": "h:d59b443d1ec3209d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.146
-   },
-   {
-    "t": 1795182480.301187,
-    "a": "h:8881a236ab62bf78",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.146
-   },
-   {
-    "t": 1795182649.8935323,
-    "a": "h:df2f5db2ea300a50",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.146
-   },
-   {
-    "t": 1795183157.8478653,
-    "a": "h:627684286600c70b",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.146
-   },
-   {
-    "t": 1795183371.474495,
-    "a": "h:624804c6dd233a7b",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.146
-   },
-   {
-    "t": 1795183693.3145416,
-    "a": "h:df12d94c0e6b026b",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.133
-   },
-   {
-    "t": 1795183990.7342923,
-    "a": "h:562f1af941064bcd",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.146
-   },
-   {
-    "t": 1795190549.5083115,
-    "a": "h:ed67fb4e8e64b5a4",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.144
-   },
    {
     "t": 1795198204.1705167,
     "a": "h:83d02359c11e66cc",
@@ -4532,32 +4108,44 @@
      "hr=1"
     ],
     "p": 0.197
+   },
+   {
+    "t": 1795449932.8987093,
+    "a": "h:f3330f0a37b154b7",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.09
    }
   ],
   "stats": {
    "pl=moltbook": [
     15,
-    113
+    149
    ],
    "mode=reply": [
     10,
-    22
+    26
    ],
    "len=l": [
     14,
-    111
+    147
    ],
    "q=1": [
     3,
-    18
+    21
    ],
    "hr=2": [
     5,
-    26
+    50
    ],
    "q=0": [
     13,
-    97
+    130
    ],
    "hr=3": [
     5,
@@ -4565,7 +4153,7 @@
    ],
    "mode=comment": [
     6,
-    93
+    125
    ],
    "hr=0": [
     2,
@@ -4577,7 +4165,7 @@
    ],
    "hr=1": [
     4,
-    21
+    33
    ],
    "pl=vk": [
     0,
@@ -4594,12 +4182,12 @@
   },
   "glob": [
    16,
-   115
+   151
   ],
-  "n": 115,
-  "hit": 99,
-  "br": 20.079393000000017,
-  "br0": 14.243773400741885
+  "n": 151,
+  "hit": 135,
+  "br": 20.412110000000002,
+  "br0": 14.820603525704225
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
@@ -4627,20 +4215,22 @@
   "replies_h": 10,
   "post_day": 12,
   "reply_day": 100,
-  "pd_day": "2026-11-22",
-  "pd_n": 12,
+  "pd_day": "2026-11-23",
+  "pd_n": 0,
   "ph": [],
   "last": 1795374343.078647,
-  "rd_day": "2026-11-22",
-  "rd_n": 9,
-  "rh": []
+  "rd_day": "2026-11-23",
+  "rd_n": 1,
+  "rh": [
+   1795449932.8987455
+  ]
  },
  "limits": {
   "gemini.calls": 450,
   "cohere.calls": 0,
   "mistral.calls": 0
  },
- "focus_on": true,
+ "focus_on": false,
  "autorun": true,
  "wd_alert": {
   "llm": 1795247766.1978617
@@ -4688,7 +4278,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 0,
+ "fail_streak": 3,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
