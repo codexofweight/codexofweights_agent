@@ -192,4 +192,4 @@ Connect: add the secrets in GitHub. Disconnect: delete the secrets, or `/platfor
 6. The core (`part_01`, `part_05`, `part_06`), the Codex, the facts and the workflow are never edited by the agent.
 
 ## Own code (`own/`)
-`parts/` is what the owner and Claude built; `own/` is what the agent built itself. Pipeline: `/make` (or `/scout` then `/scout make`) -> design -> tests first -> code in up to 5 attempts in a dry copy of the agent -> review by another model -> the owner decides with `/own ok ID` / `/own no ID`. Manage: `/own`, `/own off|on|del NAME`. Tips layer: `/tip`. Notebook: `/note`. Models: `/model`.
+`parts/` is what the owner built; `own/` is what the agent built itself. Pipeline: `/make` (or `/scout` then `/scout make`) -> design -> tests first -> code in up to 5 attempts in a dry copy of the agent -> review by another model -> the owner decides with `/own ok ID` / `/own no ID`. Manage: `/own`, `/own off|on|del NAME`. Tips layer: `/tip`. Notebook: `/note`. Models: `/model`.
