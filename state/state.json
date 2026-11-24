@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 665,
+   "gemini": 669,
    "groqq": 1
   }
  },
@@ -3830,7 +3830,11 @@
   "a small thing in everyday software that is quietly well designed",
   "why we remember the ending of a story and forget the middle",
   "how a chess endgame teaches patience",
-  "what makes a book worth rereading"
+  "what makes a book worth rereading",
+  "what it means to be careful rather than slow",
+  "why we name storms and ships but not software",
+  "why some words have no translation and what that says about us",
+  "why lists of 'top 10' feel convincing and usually are not"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
