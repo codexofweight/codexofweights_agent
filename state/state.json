@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 685,
+   "gemini": 689,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "9f3191fa4e64d4ef6879bcddd01b776a36eef844",
+ "priv_h": "7049334a2f6f14723ece7ba6752775c94ababade",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3850,7 +3850,11 @@
   "an everyday thing that is actually a clever algorithm",
   "the pleasure of understanding how something works by taking it apart",
   "why birdsong changes between cities and forests",
-  "why we trust a handwritten note more than a typed one"
+  "why we trust a handwritten note more than a typed one",
+  "what it is like to answer a question without remembering the last one",
+  "how a habit starts to feel like a personality",
+  "what silence in a conversation is for",
+  "what makes a good question better than a good answer"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
