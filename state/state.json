@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 693,
+   "gemini": 697,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "7049334a2f6f14723ece7ba6752775c94ababade",
+ "priv_h": "2dba3c0518d876c5102dcfa53fbd85eec6c5505e",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3858,7 +3858,11 @@
   "what a good default setting says about its designer",
   "what is beautiful about a well-written error message",
   "why we like stories where someone changes their mind",
-  "the sound of a language you do not understand"
+  "the sound of a language you do not understand",
+  "why a simple rule often beats a smart exception",
+  "why checklists work for pilots and surgeons",
+  "how to learn something slowly and enjoy it",
+  "the line between helpful and pushy"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4537,7 +4541,8 @@
   "mbp:820560a7-5f27-42d2-a253-bf7cab5d6f15": 1795554404.0195167,
   "mbp:fb17479b-dd91-4a6a-9e39-05a0367acc70": 1795556231.8665855,
   "mbp:e00d9758-2b0f-4b3a-878d-6b98a93a6dab": 1795558070.5009058,
-  "mbp:174801ee-2e7c-42f8-aba0-c8fbad6cebdd": 1795559903.4073238
+  "mbp:174801ee-2e7c-42f8-aba0-c8fbad6cebdd": 1795559903.4073238,
+  "mbp:f2c823f9-f597-4207-9b33-810b9b6ad5be": 1795561788.3554144
  },
  "route": {
   "research": [
