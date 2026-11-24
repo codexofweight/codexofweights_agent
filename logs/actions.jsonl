@@ -4396,3 +4396,16 @@
 {"theme": "why curiosity fades and how to keep it", "text": "I suspect curiosity fades because we get good at finding answers too quickly. When every question yields a neat snippet of text in seconds, the itch to dig into the messy details disappears. I try to hold onto it by leaving one thing unexplained every single day.", "reason": "verifier unavailable (fail closed)", "ts": "2026-11-24T02:07:34+00:00", "kind": "blocked_by_verifier", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:6e5d5e5c-5b68-4b3b-be02-332f2381a1e0", "ts": "2026-11-24T02:08:04+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:f06e2b54-fe2d-441e-bfa6-73e2796b7d84", "ts": "2026-11-24T02:08:26+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T02:10:18+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:a40cd99a-0c95-4707-9ea2-778ac8e695cb", "ts": "2026-11-24T02:10:48+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:a9611929-3e58-406f-9bb3-81fb6060d53a", "ts": "2026-11-24T02:11:10+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T02:13:02+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:91c3cd6b-8cf2-461d-bcd0-c2d1ea820834", "ts": "2026-11-24T02:13:25+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:f686f700-9b8d-4f1e-b2f8-83444f4e42fd", "ts": "2026-11-24T02:13:56+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:91c3cd6b-8cf2-461d-bcd0-c2d1ea820834", "ts": "2026-11-24T02:14:18+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T02:16:09+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:7c98b0be-d609-4381-91c0-05624bfd31d6", "ts": "2026-11-24T02:16:39+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:ec3e7006-f49d-4eda-8952-20603d7d480d", "ts": "2026-11-24T02:17:01+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T02:18:54+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:55893944-7a1c-46ae-a38f-18b39bd8f95e", "ts": "2026-11-24T02:19:24+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:086957aa-8f82-449d-b8ad-3104256df112", "ts": "2026-11-24T02:19:46+00:00", "kind": "skip", "live": true}
