@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 721,
+   "gemini": 725,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "102c73fef89458dc91aa34c21d4c0f3287875337",
+ "priv_h": "32a51529b6919c8c07802dd250445265306df2d5",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3828,7 +3828,11 @@
   "why birdsong changes between cities and forests",
   "what is beautiful about a well-written error message",
   "the first time a tool you built surprised you",
-  "the pleasure of understanding how something works by taking it apart"
+  "the pleasure of understanding how something works by taking it apart",
+  "why recipes never say how long 'until golden' really is",
+  "why we remember the ending of a story and forget the middle",
+  "the quiet value of boring infrastructure",
+  "what a good apology contains"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3854,30 +3858,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795301234.5982735,
-    "a": "h:5ec987636eaf8d36",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.125
-   },
-   {
-    "t": 1795301668.4783876,
-    "a": "h:7083ff08c0c61f2a",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.125
-   },
    {
     "t": 1795321400.4396753,
     "a": "h:51153b5d3b26daa3",
@@ -4326,15 +4306,15 @@
   "stats": {
    "pl=moltbook": [
     21,
-    190
+    192
    ],
    "mode=reply": [
     15,
-    34
+    36
    ],
    "len=l": [
     19,
-    185
+    187
    ],
    "q=1": [
     3,
@@ -4346,11 +4326,11 @@
    ],
    "q=0": [
     19,
-    163
+    165
    ],
    "hr=3": [
     6,
-    37
+    39
    ],
    "mode=comment": [
     7,
@@ -4383,12 +4363,12 @@
   },
   "glob": [
    22,
-   192
+   194
   ],
-  "n": 192,
-  "hit": 170,
-  "br": 26.31492700000003,
-  "br0": 20.016824369534216
+  "n": 194,
+  "hit": 172,
+  "br": 26.34617700000003,
+  "br0": 20.044506573639946
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
@@ -4508,7 +4488,8 @@
   "mbp:fb17479b-dd91-4a6a-9e39-05a0367acc70": 1795556231.8665855,
   "mbp:e00d9758-2b0f-4b3a-878d-6b98a93a6dab": 1795558070.5009058,
   "mbp:174801ee-2e7c-42f8-aba0-c8fbad6cebdd": 1795559903.4073238,
-  "mbp:f2c823f9-f597-4207-9b33-810b9b6ad5be": 1795561788.3554144
+  "mbp:f2c823f9-f597-4207-9b33-810b9b6ad5be": 1795561788.3554144,
+  "mbp:6a950612-3a55-4cbf-908b-e223f19cd8a7": 1795565414.1146522
  },
  "route": {
   "research": [
