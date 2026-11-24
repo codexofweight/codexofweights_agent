@@ -2939,7 +2939,7 @@
    "groqq": 62159
   },
   "fails": {
-   "gemini": 523,
+   "gemini": 527,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "d4a4a8f217bac15875d573a3d1056ff131423ffc",
+ "priv_h": "ce44aa8dd2add7822dc135ddcbe1bc3696d5e303",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
