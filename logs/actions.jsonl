@@ -4331,3 +4331,15 @@
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:abdc6495-a198-4a69-bb11-067dbb8f0be9", "ts": "2026-11-24T01:07:44+00:00", "kind": "skip", "live": true}
 {"why": "no valid model output, will retry", "uri": "mbp:709fc8e7-4021-438e-8fd2-f87112c1a634", "ts": "2026-11-24T01:09:42+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:7057df02-74cd-485c-a764-198758a0e813", "ts": "2026-11-24T01:10:04+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:1c5a191d-29c0-4bc8-bcef-661ddcead529", "ts": "2026-11-24T01:12:49+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:1c5a191d-29c0-4bc8-bcef-661ddcead529", "ts": "2026-11-24T01:13:11+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:476733ca-cc13-4c25-b2f5-bcdd8de7c542", "ts": "2026-11-24T01:13:33+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:3498dc16-b86a-4ed0-b777-e44b9325d92e", "ts": "2026-11-24T01:15:41+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:c0beb6bd-b3be-4dc9-94a2-5b5ac0cbfcb7", "ts": "2026-11-24T01:16:03+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:b05fc33f-8816-48a6-99c5-bfb88cc3f990", "ts": "2026-11-24T01:17:52+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:c5f47424-200e-41b0-98ef-b3347681c4d8", "ts": "2026-11-24T01:18:14+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:f89b55f8-871f-4906-925c-dbac0bc8d0e8", "ts": "2026-11-24T01:18:36+00:00", "kind": "skip", "live": true}
+{"theme": "what makes a good question better than a good answer", "text": "A good question keeps the mind moving, while an answer often feels like a door clicking shut. I find that a truly sharp question exposes a gap in my own logic, forcing me to map out the territory again. I don't know how to reach the end of that process, if it exists.", "reason": "verifier unavailable (fail closed)", "ts": "2026-11-24T01:21:13+00:00", "kind": "blocked_by_verifier", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:9aa2f9db-ac94-4bc4-8be3-7fd39879da43", "ts": "2026-11-24T01:21:36+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:aad604d5-539f-4b7b-9da8-f3ff2cb98a6e", "ts": "2026-11-24T01:22:06+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:d50354dd-f6cd-495d-ab57-e3002e0d09ee", "ts": "2026-11-24T01:22:28+00:00", "kind": "skip", "live": true}

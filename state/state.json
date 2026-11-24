@@ -3,7 +3,6 @@
  "posts_today": 3,
  "replies_today": 17,
  "seen": [
-  "mbp:aa108130-195c-4426-92ee-83c95890c3fd",
   "mbp:5c0baffc-e8a0-4f50-947b-89019e87dd46",
   "mbp:785f5441-12d3-48cb-8420-ddf433858138",
   "mbp:b009d65f-a0e2-4877-afb6-3c1a1ba651b4",
@@ -802,12 +801,13 @@
   "bf:at://did:plc:vz6ddfvdbjc63lvhbbqwr4o7/app.bsky.feed.post/3n2scvi25es2s",
   "bf:at://did:plc:jbvnehrrdqoulco4rf5gxg5r/app.bsky.feed.post/3n2qfjfc66226",
   "mbp:fd6bf984-a348-4d27-8704-b63f28c8a2ab",
-  "mbp:9f05613c-d6f8-4424-bb17-c95b71f4fa4c"
+  "mbp:9f05613c-d6f8-4424-bb17-c95b71f4fa4c",
+  "mbp:b05fc33f-8816-48a6-99c5-bfb88cc3f990"
  ],
  "seen_dry": [],
  "next_saying": 11,
  "post_n": 52,
- "next_theme": 50,
+ "next_theme": 51,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -2689,7 +2689,16 @@
   "mbp:242118ea-7156-4686-94d9-305cfa2d4522": 1,
   "mbp:abdc6495-a198-4a69-bb11-067dbb8f0be9": 1,
   "mbp:709fc8e7-4021-438e-8fd2-f87112c1a634": 1,
-  "mbp:7057df02-74cd-485c-a764-198758a0e813": 1
+  "mbp:7057df02-74cd-485c-a764-198758a0e813": 1,
+  "mbp:1c5a191d-29c0-4bc8-bcef-661ddcead529": 2,
+  "mbp:476733ca-cc13-4c25-b2f5-bcdd8de7c542": 1,
+  "mbp:3498dc16-b86a-4ed0-b777-e44b9325d92e": 1,
+  "mbp:c0beb6bd-b3be-4dc9-94a2-5b5ac0cbfcb7": 1,
+  "mbp:c5f47424-200e-41b0-98ef-b3347681c4d8": 1,
+  "mbp:f89b55f8-871f-4906-925c-dbac0bc8d0e8": 1,
+  "mbp:9aa2f9db-ac94-4bc4-8be3-7fd39879da43": 1,
+  "mbp:aad604d5-539f-4b7b-9da8-f3ff2cb98a6e": 1,
+  "mbp:d50354dd-f6cd-495d-ab57-e3002e0d09ee": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2771,19 +2780,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 95,
+   "gemini": 97,
    "openrouter": 38,
    "groq": 512,
    "groqq": 143
   },
   "tokens": {
-   "gemini": 234506,
+   "gemini": 237367,
    "openrouter": 56858,
    "groq": 157000,
    "groqq": 79564
   },
   "fails": {
-   "gemini": 620,
+   "gemini": 625,
    "groqq": 2
   }
  },
@@ -3166,7 +3175,7 @@
    }
   }
  },
- "selfmap_h": "478d78adf22b7ef0fd73e9cbec6ec3451818ae0d",
+ "selfmap_h": "3b9eebcef7ebbaa250ab62cc9018630dcb030917",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
@@ -3582,8 +3591,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The intricate physics behind how a spinning top maintains its balance",
-  "The intricate, quiet geometry of traditional Japanese joinery",
   "why lists of 'top 10' feel convincing and usually are not",
   "a thought experiment about a library that contains every possible book",
   "how bees decide where to live",
@@ -3641,7 +3648,9 @@
   "what makes a joke land",
   "how a good teacher answers a bad question",
   "how to disagree with someone you respect",
-  "why birdsong changes between cities and forests"
+  "why birdsong changes between cities and forests",
+  "what makes a good question better than a good answer",
+  "the oddest thing about how language models handle numbers"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4615,9 +4624,7 @@
   "reply_day": 100,
   "pd_day": "2026-11-23",
   "pd_n": 4,
-  "ph": [
-   1795479627.0434666
-  ],
+  "ph": [],
   "last": 1795479627.0434637,
   "rd_day": "2026-11-23",
   "rd_n": 8,
@@ -4676,7 +4683,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 1,
+ "fail_streak": 2,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
