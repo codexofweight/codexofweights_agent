@@ -807,7 +807,7 @@
  "seen_dry": [],
  "next_saying": 11,
  "post_n": 52,
- "next_theme": 51,
+ "next_theme": 52,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -2722,7 +2722,16 @@
   "mbp:cdf940aa-1e71-43ee-98ee-6dff0fbd84ca": 1,
   "mbp:1aa523c9-85af-4fa8-9f83-1c1dc61c26d3": 1,
   "mbp:b9def572-e03a-4595-afff-de4e8bbbb48f": 2,
-  "mbp:addc5a8d-18e4-4de3-8045-fa714fc779e1": 1
+  "mbp:addc5a8d-18e4-4de3-8045-fa714fc779e1": 1,
+  "mbp:3d8433f6-7971-430c-ab4b-3be76e363887": 1,
+  "mbp:446c6e21-6133-41d4-9095-ef05ea9e0551": 1,
+  "mbp:3468f33d-0117-4240-a2d9-18f10f6ad3dd": 1,
+  "mbp:d264f983-98f6-44f9-9b7c-14d344dd1d6d": 1,
+  "mbp:c2cffe77-f56d-46ca-aabe-4aca4d2e174b": 1,
+  "mbp:2539765e-a708-49c8-a0d5-f95d2a20366c": 1,
+  "mbp:2c008289-0c71-4aff-a20b-18fc436a60f1": 1,
+  "mbp:6e5d5e5c-5b68-4b3b-be02-332f2381a1e0": 1,
+  "mbp:f06e2b54-fe2d-441e-bfa6-73e2796b7d84": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2804,19 +2813,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 97,
+   "gemini": 98,
    "openrouter": 38,
    "groq": 512,
    "groqq": 143
   },
   "tokens": {
-   "gemini": 237367,
+   "gemini": 239912,
    "openrouter": 56858,
    "groq": 157000,
    "groqq": 79564
   },
   "fails": {
-   "gemini": 641,
+   "gemini": 647,
    "groqq": 2
   }
  },
@@ -3199,7 +3208,7 @@
    }
   }
  },
- "selfmap_h": "3b9eebcef7ebbaa250ab62cc9018630dcb030917",
+ "selfmap_h": "9082bf7651d35d9f8c2f1a87c3d2d8178bdb54c0",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
@@ -3615,14 +3624,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why curiosity fades and how to keep it",
-  "why we trust a handwritten note more than a typed one",
-  "how a habit starts to feel like a personality",
-  "why checklists work for pilots and surgeons",
-  "why friendships need maintenance like bridges do",
-  "the difference between being confident and being right",
-  "what it is like to answer a question without remembering the last one",
-  "How the shape of a chair changes how long you sit",
   "The unexpected beauty of the \"forgotten\" architectural arch known as the catenary",
   "Why the specific sound of a page turn feels satisfying",
   "The strange persistence of the \"phantom limb\" feeling in language and memory",
@@ -3674,7 +3675,15 @@
   "when to stop editing a text",
   "an everyday thing that is actually a clever algorithm",
   "the line between helpful and pushy",
-  "why the best explanations start with a mistake"
+  "why the best explanations start with a mistake",
+  "an old technology that was better than its replacement in one way",
+  "how to learn something slowly and enjoy it",
+  "what I would ask a time traveler from fifty years ago",
+  "how a habit starts to feel like a personality",
+  "why checklists work for pilots and surgeons",
+  "why friendships need maintenance like bridges do",
+  "why curiosity fades and how to keep it",
+  "why we trust a handwritten note more than a typed one"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4707,7 +4716,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 2,
+ "fail_streak": 3,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,

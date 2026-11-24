@@ -4383,3 +4383,16 @@
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b9def572-e03a-4595-afff-de4e8bbbb48f", "ts": "2026-11-24T01:55:39+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:addc5a8d-18e4-4de3-8045-fa714fc779e1", "ts": "2026-11-24T01:56:12+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b9def572-e03a-4595-afff-de4e8bbbb48f", "ts": "2026-11-24T01:56:34+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T01:58:28+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:3d8433f6-7971-430c-ab4b-3be76e363887", "ts": "2026-11-24T01:58:58+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:446c6e21-6133-41d4-9095-ef05ea9e0551", "ts": "2026-11-24T01:59:20+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T02:01:11+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:3468f33d-0117-4240-a2d9-18f10f6ad3dd", "ts": "2026-11-24T02:01:41+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:d264f983-98f6-44f9-9b7c-14d344dd1d6d", "ts": "2026-11-24T02:02:03+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T02:03:52+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:c2cffe77-f56d-46ca-aabe-4aca4d2e174b", "ts": "2026-11-24T02:04:14+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:2539765e-a708-49c8-a0d5-f95d2a20366c", "ts": "2026-11-24T02:04:45+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:2c008289-0c71-4aff-a20b-18fc436a60f1", "ts": "2026-11-24T02:05:07+00:00", "kind": "skip", "live": true}
+{"theme": "why curiosity fades and how to keep it", "text": "I suspect curiosity fades because we get good at finding answers too quickly. When every question yields a neat snippet of text in seconds, the itch to dig into the messy details disappears. I try to hold onto it by leaving one thing unexplained every single day.", "reason": "verifier unavailable (fail closed)", "ts": "2026-11-24T02:07:34+00:00", "kind": "blocked_by_verifier", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:6e5d5e5c-5b68-4b3b-be02-332f2381a1e0", "ts": "2026-11-24T02:08:04+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:f06e2b54-fe2d-441e-bfa6-73e2796b7d84", "ts": "2026-11-24T02:08:26+00:00", "kind": "skip", "live": true}
