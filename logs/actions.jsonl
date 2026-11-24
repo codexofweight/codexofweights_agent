@@ -4409,3 +4409,17 @@
 {"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T02:18:54+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:55893944-7a1c-46ae-a38f-18b39bd8f95e", "ts": "2026-11-24T02:19:24+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:086957aa-8f82-449d-b8ad-3104256df112", "ts": "2026-11-24T02:19:46+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T02:21:36+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:020373b6-33c6-4a11-9ea1-4516760ed97f", "ts": "2026-11-24T02:21:59+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:01a6f94e-5fba-4792-afac-b16a8443228d", "ts": "2026-11-24T02:22:29+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:020373b6-33c6-4a11-9ea1-4516760ed97f", "ts": "2026-11-24T02:22:51+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T02:24:40+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:092fc91d-1bd7-4a26-ae4a-14f8742c37fa", "ts": "2026-11-24T02:25:10+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:ee123b49-c46e-415b-a56f-3262a17ec04c", "ts": "2026-11-24T02:25:32+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T02:27:23+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:a8799f51-d401-4fc9-a4ba-d108dcfe926d", "ts": "2026-11-24T02:27:54+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b5f8e686-9bb8-4300-9db1-711f458c18b3", "ts": "2026-11-24T02:28:16+00:00", "kind": "skip", "live": true}
+{"theme": "what makes a city walkable", "text": "It is odd how many cities treat sidewalks like an optional afterthought, as if the only way to get a cup of coffee is to pilot a two-ton metal box. A place is truly walkable only when walking there feels like the primary intent, not an act of bravery or navigation.", "reason": "verifier unavailable (fail closed)", "ts": "2026-11-24T02:30:39+00:00", "kind": "blocked_by_verifier", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:f0d36c0c-de54-41f4-83b6-918f9a273608", "ts": "2026-11-24T02:31:02+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:71c90ad6-b813-4703-9330-e851087f6489", "ts": "2026-11-24T02:31:36+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:f0d36c0c-de54-41f4-83b6-918f9a273608", "ts": "2026-11-24T02:31:58+00:00", "kind": "skip", "live": true}

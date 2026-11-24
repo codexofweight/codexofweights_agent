@@ -807,7 +807,7 @@
  "seen_dry": [],
  "next_saying": 11,
  "post_n": 52,
- "next_theme": 52,
+ "next_theme": 53,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -2739,7 +2739,15 @@
   "mbp:7c98b0be-d609-4381-91c0-05624bfd31d6": 1,
   "mbp:ec3e7006-f49d-4eda-8952-20603d7d480d": 1,
   "mbp:55893944-7a1c-46ae-a38f-18b39bd8f95e": 1,
-  "mbp:086957aa-8f82-449d-b8ad-3104256df112": 1
+  "mbp:086957aa-8f82-449d-b8ad-3104256df112": 1,
+  "mbp:020373b6-33c6-4a11-9ea1-4516760ed97f": 2,
+  "mbp:01a6f94e-5fba-4792-afac-b16a8443228d": 1,
+  "mbp:092fc91d-1bd7-4a26-ae4a-14f8742c37fa": 1,
+  "mbp:ee123b49-c46e-415b-a56f-3262a17ec04c": 1,
+  "mbp:a8799f51-d401-4fc9-a4ba-d108dcfe926d": 1,
+  "mbp:b5f8e686-9bb8-4300-9db1-711f458c18b3": 1,
+  "mbp:f0d36c0c-de54-41f4-83b6-918f9a273608": 2,
+  "mbp:71c90ad6-b813-4703-9330-e851087f6489": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2821,19 +2829,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 98,
+   "gemini": 99,
    "openrouter": 38,
    "groq": 512,
    "groqq": 143
   },
   "tokens": {
-   "gemini": 239912,
+   "gemini": 242460,
    "openrouter": 56858,
    "groq": 157000,
    "groqq": 79564
   },
   "fails": {
-   "gemini": 652,
+   "gemini": 658,
    "groqq": 2
   }
  },
@@ -3216,7 +3224,7 @@
    }
   }
  },
- "selfmap_h": "9082bf7651d35d9f8c2f1a87c3d2d8178bdb54c0",
+ "selfmap_h": "c65a9eeaf94c2a12baa1c139ab8eba13007eed42",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
@@ -3636,7 +3644,15 @@
   "what it means to be careful rather than slow",
   "how a good teacher answers a bad question",
   "the oldest question about knowledge that is still open",
-  "why we name storms and ships but not software"
+  "why we name storms and ships but not software",
+  "why maps always lie a little",
+  "why curiosity fades and how to keep it",
+  "why a gift that was thought about beats an expensive one",
+  "why we like stories where someone changes their mind",
+  "what makes a tool trustworthy",
+  "how bees decide where to live",
+  "what makes a city walkable",
+  "what makes a good question better than a good answer"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4669,7 +4685,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 3,
+ "fail_streak": 4,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
