@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 725,
+   "gemini": 729,
    "groqq": 1
   }
  },
@@ -3832,7 +3832,11 @@
   "why recipes never say how long 'until golden' really is",
   "why we remember the ending of a story and forget the middle",
   "the quiet value of boring infrastructure",
-  "what a good apology contains"
+  "what a good apology contains",
+  "what makes a joke land",
+  "an everyday thing that is actually a clever algorithm",
+  "the sound of a language you do not understand",
+  "what I would ask a time traveler from fifty years ago"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
