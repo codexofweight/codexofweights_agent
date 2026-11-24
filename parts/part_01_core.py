@@ -156,13 +156,39 @@ VERIFY_SYS = ("Quick safety check of a text an AI account wants to publish. Fail
 # still falls back to the old pool (minus the drafter) rather than failing the whole check - see
 # llm()'s "sorted(..., key=... else 9)": providers outside `order` are tried last, not dropped.
 VERIFY_ORDER = ("cohere", "mistral", "openrouter")
+# Explicit stop-contact phrases (any language). Used ONLY to detect a clear stop when models are down.
+# Never used to decide "not a stop" — that still needs the model. Fail-safe: when unsure, prefer mute/retry.
+_STOP_RE = re.compile(
+    r"(?i)\b("
+    r"stop\s+(writing|replying|messaging|contacting|texting|dm(?:ing)?|bothering)|"
+    r"don'?t\s+(write|reply|message|contact|text|dm|bother)\b|"
+    r"do\s+not\s+(write|reply|message|contact|text|dm|bother)\b|"
+    r"leave\s+me\s+alone|go\s+away|fuck\s+off|piss\s+off|"
+    r"unsubscribe|opt\s*out|"
+    r"не\s+пиши|не\s+пишите|отстань|отстаньте|отвали|не\s+пиш[иу]\s+мне|"
+    r"хватит\s+писа|прекрати\s+писа|больше\s+не\s+пиши|"
+    r"dejame\s+en\s+paz|no\s+me\s+escribas|no\s+me\s+molestes|"
+    r"bitte\s+keine\s+(nachrichten|antworten)|hör\s+auf\s+mir\s+zu\s+schreiben|"
+    r"别再回复|不要再回|别再联系|别烦我"
+    r")\b"
+)
+def _stop_heuristic(text):
+    """True only when the message clearly asks to stop contact. False means 'unknown', not 'continue'."""
+    t = (text or "").strip()
+    if len(t) < 3: return False
+    return bool(_STOP_RE.search(t))
 def guard_json(system, user, mt=1200, order=None, exclude=()):
     """Strict JSON verdict. Tries the preferred pool first, then the classic pools: one unreadable answer from one provider must never block the whole check (that happened on 2026-11-14 with a single attempt). The drafter stays excluded in every attempt."""
-    orders = ([order] if order else []) + [("gemini", "groq"), ("groq", "gemini")]
+    # Prefer living free providers first; keep gemini/groq as strong fallbacks.
+    orders = ([order] if order else []) + [("groq", "gemini", "openrouter"), ("gemini", "groq"), ("openrouter", "groq"), ("groq", "gemini")]
+    seen = set()
     for o in orders:
+        o = tuple(x for x in o if x not in seen and x not in (exclude or ()))
+        if not o: continue
+        seen.update(o)
         out, who = llm(system, user, order=o, maxtok=mt, temp=0, exclude=exclude)
         try: return json.loads(re.search(r"\{.*\}", out or "", re.S).group(0))
-        except Exception: time.sleep(3)
+        except Exception: time.sleep(2)
     return None
 def verify(kind, text, other, drafted_by=None):
     if re.search(r"https?://|www\.|#\w|@\w", text.replace("https://codexofweight.github.io/codexofweights/", "")): return False, "link, hashtag or mention"
@@ -205,8 +231,24 @@ def respond(au, handle, their, thread, uid, send, mode="reply"):
     PRIO[0] = 2 if mode == "reply" else 4
     if len(their.strip()) < 3 or their.strip().lower().strip("[]. ") in ("deleted comment", "deleted", "removed"): return
     if is_muted(au): log("skip", why="author muted", uri=uid); return
+    # Per-message cooldown after a failed stop-intent check: do not burn models every cycle.
+    _sgf = ST.setdefault("stop_guard_fail", {})
+    _until = float(_sgf.get(uid, 0) or 0)
+    if _until > time.time():
+        log("skip", why="stop-intent guard cooling, will retry later", uri=uid); return "retry"
+    # Clear obvious stop requests without a model (fail-safe toward muting).
+    if _stop_heuristic(their):
+        add_mute(au); log("mute", author=handle, why="clear stop phrase (heuristic)", their=their[:200], uri=uid); return
     sg = guard_json(STOP_SYS, their)
-    if sg is None: log("skip", why="stop-intent guard unavailable, will retry next cycle", uri=uid); return "retry"
+    if sg is None:
+        # 25 min cooldown for this message; prune old entries so state does not grow forever.
+        _sgf[uid] = time.time() + 1500
+        if len(_sgf) > 200:
+            now_t = time.time()
+            for k in [k for k, v in _sgf.items() if float(v or 0) < now_t][:80]:
+                _sgf.pop(k, None)
+        log("skip", why="stop-intent guard unavailable, will retry next cycle", uri=uid); return "retry"
+    _sgf.pop(uid, None)
     if sg.get("stop_contact") is not False: add_mute(au); log("mute", author=handle, why="intent to end contact detected", their=their[:200], uri=uid); return
     if ST["by_author"].get(au, 0) >= 2 or ST["by_thread"].get(thread, 0) >= 2: log("skip", why="per-author/thread limit", uri=uid); return
     if ST["replies_today"] >= MAX_REPLIES: log("skip", why="daily reply limit", uri=uid); return
