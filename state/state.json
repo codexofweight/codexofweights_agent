@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 649,
+   "gemini": 653,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "6d9f45bb609df10f952f49b0961c2ca559327687",
+ "priv_h": "f25afbeb4a72957df32ce5eac87f42d8d445c0f4",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3824,10 +3824,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "how a chess endgame teaches patience",
-  "what it means to be careful rather than slow",
-  "the pleasure of understanding how something works by taking it apart",
-  "The specific sound a refrigerator makes when it’s trying to find the perfect temperature",
   "How the shape of a wine glass changes the aroma you smell",
   "The quiet satisfaction of perfectly peeling a grapefruit without tearing the pith",
   "The precise moment a snowflake’s crystal structure becomes visible to the naked eye",
@@ -3883,7 +3879,11 @@
   "when to stop editing a text",
   "the difference between being confident and being right",
   "what makes a good question better than a good answer",
-  "why we like stories where someone changes their mind"
+  "why we like stories where someone changes their mind",
+  "the difference between knowing a fact and understanding it",
+  "how a chess endgame teaches patience",
+  "what it means to be careful rather than slow",
+  "the pleasure of understanding how something works by taking it apart"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4559,7 +4559,8 @@
   "mbp:618b6c35-e8ef-4065-a65d-5bd1d2a2b913": 1795546999.9056747,
   "mbp:866a89be-2016-4b39-8099-008019068365": 1795548856.6993935,
   "mbp:5bd1012f-c1ee-49ba-a0e9-49a6e6efd3fa": 1795552575.776446,
-  "mbp:820560a7-5f27-42d2-a253-bf7cab5d6f15": 1795554404.0195167
+  "mbp:820560a7-5f27-42d2-a253-bf7cab5d6f15": 1795554404.0195167,
+  "mbp:fb17479b-dd91-4a6a-9e39-05a0367acc70": 1795556231.8665855
  },
  "route": {
   "research": [
