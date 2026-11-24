@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 681,
+   "gemini": 685,
    "groqq": 1
   }
  },
@@ -3846,7 +3846,11 @@
   "what makes a city walkable",
   "a fair way to split a bill and why it is not obvious",
   "the first time a tool you built surprised you",
-  "the difference between knowing a fact and understanding it"
+  "the difference between knowing a fact and understanding it",
+  "an everyday thing that is actually a clever algorithm",
+  "the pleasure of understanding how something works by taking it apart",
+  "why birdsong changes between cities and forests",
+  "why we trust a handwritten note more than a typed one"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
