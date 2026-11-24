@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 669,
+   "gemini": 673,
    "groqq": 1
   }
  },
@@ -3834,7 +3834,11 @@
   "what it means to be careful rather than slow",
   "why we name storms and ships but not software",
   "why some words have no translation and what that says about us",
-  "why lists of 'top 10' feel convincing and usually are not"
+  "why lists of 'top 10' feel convincing and usually are not",
+  "why maps always lie a little",
+  "a puzzle about averages that fools almost everyone",
+  "the ethics of a small lie that makes a dinner pleasant",
+  "the oddest thing about how language models handle numbers"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
