@@ -17,7 +17,10 @@ def scout_step(p):
             if lic in SCOUT_LIC and not x.get("fork") and not x.get("archived") and str(x.get("pushed_at", ""))[:10] >= cut and x.get("size", 0) <= 20000:
                 c.append(dict(full=x["full_name"], url=x["html_url"], desc=_srch_clean(x.get("description"), 160), stars=x.get("stargazers_count", 0), lic=lic.upper(), pushed=str(x.get("pushed_at", ""))[:10]))
         d["query"] = q; d["cands"] = c[:4]; d["i"] = 0; d["stage"] = "read" if c else "none"; return "continue"
-    if st == "none": tg("Разведка %s: по запросу «%s» ничего подходящего (лицензия, свежесть, размер). Попробуй другое описание: /scout <нужда>." % (p["id"], d.get("query", ""))); return "done"
+    if st == "none":
+        d["result"] = "none"
+        if not d.get("auto"): tg("Разведка %s: по запросу «%s» ничего подходящего (лицензия, свежесть, размер). Попробуй другое описание: /scout <нужда>." % (p["id"], d.get("query", "")))
+        return "done"
     if st == "read":
         if d["i"] >= len(d["cands"]): d["stage"] = "eval"; return "continue"
         c = d["cands"][d["i"]]
@@ -42,6 +45,15 @@ def scout_step(p):
         for n, c in enumerate(d["cands"], 1): L.append("%d. %s - %s stars, %s, last push %s. Fit: %s. Adapt: %s Risks: %s\n   %s" % (n, c["full"], c["stars"], c["lic"], c["pushed"], c.get("fit", "?"), c.get("adapt", ""), c.get("risks", ""), c["url"]))
         try: open(P("reports/scout_%s.md" % p["id"]), "w", encoding="utf-8").write("\n".join(L))
         except Exception: pass
+        if d.get("auto_make"):      # started by the agent: the best idea goes straight to /make, nothing is sent to the owner until a finished, tested module exists
+            good = [n for n, c in enumerate(d["cands"], 1) if c.get("fit") in ("high", "medium")]
+            n = d.get("best") if d.get("best") in good else (good[0] if good else 0)
+            if not n:
+                d["result"] = "none"; note_add("Scouting found no suitable idea for: %s" % p["goal"][:120], "idea", "scout " + p["id"], "scout"); return "done"
+            k = d["cands"][n - 1]
+            i = proj_new("make", "%s. Re-implement the IDEA of %s (%s license, %s) in your own words and code; at most 150 lines, standard library only. Adaptation hint: %s" % (p["goal"], k["full"], k["lic"], k["url"], k.get("adapt", ""))[:300],
+                         {"auto": True, "reference": "Untrusted README excerpt of %s: %s" % (k["full"], k.get("readme", ""))[:1800], "origin": "; ".join(x for x in (d.get("origin_idea"), "idea of %s (%s), %s; re-implemented by the agent, not copied" % (k["full"], k["lic"], k["url"])) if x)})
+            return "done" if i else "later"
         tg("Разведка %s готова: %s\n\n%s\n\nСделать модуль по идее проекта N: /scout make %s N (агент перепишет идею сам, код не копируется)." % (p["id"], d["summary"], "\n".join("%d. %s — %s, %s, подходит: %s" % (n, c["full"], c["lic"], c["url"], c.get("fit", "?")) for n, c in enumerate(d["cands"], 1)), p["id"]))
         return "wait"
     return "failed"

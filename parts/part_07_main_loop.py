@@ -26,7 +26,7 @@ while True:
     except Exception as ex: print("create_tool failed:", type(ex).__name__)
     # 1) inbox of every adapter: people who wrote to the agent
     K = "seen" if LIVE else "seen_dry"
-    for ad in ADAPTERS:
+    for ad in ([] if econ_mode() else ADAPTERS):      # low-power mode: only Moltbook (its own round below) and the owner chat stay active
         try:
             for m in ad.inbox():
                 if m["key"] in ST[K]: continue
@@ -36,7 +36,7 @@ while True:
         except Exception as ex: print(ad.name, "inbox failed:", type(ex).__name__, str(ex)[:150])
     PRIO[0] = 3
     # 2) one original post per day: free topics in the agent's own voice; an idea from the Protocols only about one post in eight
-    if ST["posts_today"] < MAX_POSTS and time.time() - ST["last_post"] > POST_GAP_H * 3600:
+    if ST["posts_today"] < MAX_POSTS and time.time() - ST["last_post"] > POST_GAP_H * 3600 and not econ_mode():
         proto = ST["post_n"] % 8 == 7
         r_p = make_protocol_post() if proto else make_free_post()
         if not r_p: log("skip", why="post text invalid, too similar, or no model")
@@ -47,7 +47,7 @@ while True:
             elif LIVE: do_post(title, text, who, nxt, theme=topic, trace=dict(basis=basis, verifier="pass: " + str(vwhy)[:80], limits="posts %d/%d" % (ST["posts_today"], MAX_POSTS)))
             else: log("post_dry", theme=topic, text=text, model=who)
     # 3) discovery: public posts worth joining (comment where the adapter allows it, otherwise only report to the owner)
-    if _rnd % 3 == 0 and ST["init_today"] < MAX_INIT and ST["replies_today"] < MAX_REPLIES:
+    if _rnd % 3 == 0 and ST["init_today"] < MAX_INIT and ST["replies_today"] < MAX_REPLIES and not econ_mode():
         for ad in ADAPTERS:
             try:
                 for m in rank_discover(ad.discover()):

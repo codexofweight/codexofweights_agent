@@ -1,5 +1,5 @@
 # ---- own/: modules the agent built itself and the owner approved (2026-11-18) ----
-# parts/ is what the owner and Claude built; own/ is what the agent added. Only modules listed in own/MANIFEST.json with a matching sha256 are loaded.
+# parts/ is what the owner built; own/ is what the agent added. Only modules listed in own/MANIFEST.json with a matching sha256 are loaded.
 # A module runs in the same namespace as the parts (it can wrap functions by name, like the parts do), but never replaces or edits a file of parts/.
 # Hard limits: at most OWN_MAX modules, OWN_LINES lines each, a deny-list of dangerous constructs (the reviewer and the owner still read every module).
 # A module that fails to load, or fails 3 times at run time, is switched off (ST["own_off"]) and reported once; the agent keeps working. /own, /own off|on|del NAME.
