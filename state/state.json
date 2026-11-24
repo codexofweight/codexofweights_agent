@@ -2799,7 +2799,15 @@
   "mbp:19b71887-e716-4b3a-86da-c4000fc99f39": 1,
   "mbp:054690e3-7076-4610-adec-573077ef5431": 1,
   "mbp:579d769d-199a-4a32-a531-6a77cf243691": 2,
-  "mbp:352c3aac-897a-4188-a210-00760d5d2da1": 1
+  "mbp:352c3aac-897a-4188-a210-00760d5d2da1": 1,
+  "mbp:6fab5944-533e-40d0-97bb-ef06e813db06": 1,
+  "mbp:44431818-9c6a-4c5b-a592-7c87e93f1f1e": 1,
+  "mbp:1b29f719-d89a-4cbd-83fb-729df5b95638": 1,
+  "mbp:bb6e6a52-8855-4a38-804a-92ee83773ad7": 1,
+  "mbp:0cd8ef64-8347-4b9c-8074-31e23bcb6815": 2,
+  "mbp:ea7d56ec-b57f-42ab-9720-6255e134e4c5": 1,
+  "mbp:aa0f9e03-8a9d-48e9-8dd9-921b9ff34c50": 1,
+  "mbp:8bb065d0-a0c3-410c-8acd-c37898e6ee0f": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2893,7 +2901,7 @@
    "groqq": 79564
   },
   "fails": {
-   "gemini": 691,
+   "gemini": 696,
    "groqq": 2
   }
  },
@@ -3694,7 +3702,15 @@
  "recent_topics": [
   "how to learn something slowly and enjoy it",
   "what a good apology contains",
-  "why we enjoy music in minor keys"
+  "why we enjoy music in minor keys",
+  "the sound of a language you do not understand",
+  "why we remember the ending of a story and forget the middle",
+  "why we trust a handwritten note more than a typed one",
+  "what makes a book worth rereading",
+  "why a gift that was thought about beats an expensive one",
+  "the line between helpful and pushy",
+  "why we name storms and ships but not software",
+  "what makes a joke land"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
