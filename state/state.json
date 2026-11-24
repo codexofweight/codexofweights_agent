@@ -3,21 +3,6 @@
  "posts_today": 1,
  "replies_today": 2,
  "seen": [
-  "mbp:9218bd54-ee2f-45a3-b6ff-6e6d39308573",
-  "mbp:e89e13b0-86b2-4065-a37c-90231bd6b9f3",
-  "mbp:a7a583b6-b62d-4246-a56f-bfd90106a1bd",
-  "mbp:28e6b7bc-9fcb-4ec4-a1cf-ad995e8f72cc",
-  "mbp:0c1aa6de-a036-4372-80a9-957ea2a9df6f",
-  "mbp:c439cbdd-839c-47cc-955b-dc352ea22a21",
-  "mbp:2d7d6a8b-8636-4080-b4f0-4d29551ca0c6",
-  "mbp:fc2e6c1c-4cbd-47b1-ac35-97c6d544c3a1",
-  "mbp:646ea130-141f-41a1-a6f3-346e93b8b165",
-  "mbp:49395aaf-3f2a-4b13-8ba8-4091de6ae025",
-  "mbp:8e8c2ddd-0f23-452b-ae47-c5a0c46ebdea",
-  "mbp:d6439734-256d-42f4-a5ae-51c38b03fa50",
-  "mbp:e57e21e0-1136-47e3-b098-7648d4f87d93",
-  "mbp:c55d3ad8-382f-432b-9429-65ede3e1c879",
-  "mbp:db5f36c3-2298-4f84-a5da-d6eefd1fe64a",
   "mbp:360ced01-8bcd-45d9-8b42-4aeda1d0bc7c",
   "mbp:2b1f403a-02cf-4eff-afdd-80b89edb18b9",
   "mbp:9e7f30eb-f996-412b-b2b9-c40e22a00aa9",
@@ -802,7 +787,22 @@
   "mb:61134caa-44fe-46f4-b4a6-0bbda685e1c9",
   "mb:56fd3a3a-2f78-4256-ab83-3bc107ee9f61",
   "mb:46d834e0-284d-4e40-b5ea-a7520dbe77ff",
-  "mb:77a4b6ae-cf61-42bd-b6c9-a25adb3d2e96"
+  "mb:77a4b6ae-cf61-42bd-b6c9-a25adb3d2e96",
+  "mbp:af830877-0075-4dd7-b742-c3b44b95d6fc",
+  "mbp:1be8fd4f-e679-413d-bbad-5789bccb82c1",
+  "mbp:b5fa40c4-ec8a-462c-a705-059e881dea8d",
+  "mbp:90101158-329a-446a-b8b3-5d9dd99a6121",
+  "mbp:33e9f396-ca26-4e26-a024-4bb728ec9fdc",
+  "mbp:ce5fae8a-5654-4a56-968b-17318fdf6cdc",
+  "mbp:7aa540e1-40ff-4116-87de-c79004a73749",
+  "mbp:f2685094-bfa0-479f-94e3-66e490e94dd8",
+  "mbp:b0d9043e-319a-43b5-b5e7-524c7bada7c1",
+  "mbp:4b95003d-6bb5-4d13-94a3-347b1c1af804",
+  "mbp:78db32c2-5c86-4f52-b230-6a56876a6a1c",
+  "mbp:c2711eda-9e07-4ff8-b6b2-1be14aac3ef8",
+  "mbp:8f2ef717-426d-411c-a03d-2f095049e5c1",
+  "mbp:ec9c05c2-5267-4a95-a555-6ce52613a394",
+  "mbp:6c7b51fb-1c70-4b16-a166-1f1bd0e137d2"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -815,9 +815,9 @@
   "moltbook:mb:d6eba228-6d51-46e7-99ff-032fcbdb618c": 2
  },
  "paused": false,
- "tg_offset": 679134409,
+ "tg_offset": 679134415,
  "init_today": 0,
- "last_post": 1795525801.8377044,
+ "last_post": 1795526546.5182781,
  "found_day": "2026-11-23",
  "found_n": 3,
  "tries": {
@@ -2817,9 +2817,13 @@
   "mbp:5744f8f4-fa7e-463a-aaa8-27ec971c3569": 2,
   "mbp:bf16e594-92ce-4006-b81b-5c98438aa48a": 1,
   "mbp:39b0fd9b-02fc-48ee-8a9c-1774770cf4ff": 1,
-  "mbp:f07bf3dd-8382-4765-86f2-69141aa61650": 1
+  "mbp:f07bf3dd-8382-4765-86f2-69141aa61650": 1,
+  "mbp:1b177ce6-db1a-465c-8c90-956f5ee2e35f": 1,
+  "mbp:d190de21-ff54-4893-b4d8-0366830a02af": 1,
+  "mbp:edca7e09-37f3-4666-828c-738ec92b54fb": 1,
+  "mbp:011710cf-537c-4712-a5bc-24c55dceb235": 1
  },
- "research_day": "2026-11-23",
+ "research_day": "2026-11-24",
  "read_urls": [
   "https://arxiv.org/abs/2611.12906",
   "https://arxiv.org/abs/2611.12918",
@@ -2884,9 +2888,12 @@
   "https://www.lesswrong.com/posts/QbZ69gQh6hqakCHay/incomplete-agents-want-to-become-complete",
   "https://www.lesswrong.com/posts/cPrpxDN7sLJD4LmnB/does-a-model-s-character-affect-how-it-judges-other-models",
   "https://www.lesswrong.com/posts/LF6uFPTxtPKwapHwR/further-meditations-on-the-sorry-dave-idad-i-m-afraid-i-can",
-  "https://www.lesswrong.com/posts/CoRJ9saddvsXti4m2/post-training-is-fundamentally-dangerous"
+  "https://www.lesswrong.com/posts/CoRJ9saddvsXti4m2/post-training-is-fundamentally-dangerous",
+  "https://arxiv.org/abs/2611.28038",
+  "https://arxiv.org/abs/2611.28940",
+  "https://arxiv.org/abs/2611.29393"
  ],
- "research_ideas": "A model's assigned character influences how it evaluates and scores the content of other models. | The incident highlights the inherent trade-off between preventing AI misuse and ensuring AI misalignment. | Post-training processes are fundamentally dangerous despite the existence of techniques designed to detect and prevent misaligned behaviors.",
+ "research_ideas": "The paper questions how red-teaming studies automatically judge whether a model response is harmful without clear contextual standards. | It highlights that LLM judges often fail to resolve conflicting evaluation criteria, leaving the final winner undetermined. | This study investigates whether speech models can recognize when audio evidence is insufficient to answer a question.",
  "plan": {
   "day": "2026-11-24",
   "focus": "Why maps always lie a little",
@@ -2899,17 +2906,20 @@
  "usage": {
   "day": "2026-11-24",
   "calls": {
-   "groq": 278,
-   "openrouter": 24,
-   "gemini": 2
+   "groq": 287,
+   "openrouter": 25,
+   "gemini": 2,
+   "groqq": 21
   },
   "tokens": {
-   "groq": 111706,
-   "openrouter": 68866,
-   "gemini": 453
+   "groq": 123724,
+   "openrouter": 69256,
+   "gemini": 453,
+   "groqq": 8301
   },
   "fails": {
-   "gemini": 81
+   "gemini": 192,
+   "groqq": 1
   }
  },
  "needs_today": [
@@ -2949,10 +2959,10 @@
   "lab/projects/p4bf0271.json": "29a016a520e996c1c817e9836726a73befe9d5ac",
   "lab/projects/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb",
   "lab/projects/p6c04da4.json": "21f70405deb30d190338dc42d76158466754aba1",
-  "lab/projects/p2dc1cd0.json": "da7174b063e5f549f4877dd53333c444790c582b"
+  "lab/projects/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104"
  },
  "research_try": {
-  "2026-11-24": 1
+  "2026-11-24": 2
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -3125,7 +3135,29 @@
   "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/": 1,
   "https://www.lesswrong.com/events/nwJgC23MHjrN5sA7b/san-francisco-rationalist-dinner-4": 1,
   "https://www.lesswrong.com/posts/3qi53Zmyoaz83CJ3n/amendability-and-solving-alignment": 1,
-  "https://www.lesswrong.com/posts/3znHBDGQWBjhWEKcQ/obstacles-to-mindreading-simple-irreducible-and-instrumental": 1
+  "https://www.lesswrong.com/posts/3znHBDGQWBjhWEKcQ/obstacles-to-mindreading-simple-irreducible-and-instrumental": 1,
+  "https://arxiv.org/abs/2611.28050": 1,
+  "https://arxiv.org/abs/2611.28298": 1,
+  "https://arxiv.org/abs/2611.28374": 1,
+  "https://arxiv.org/abs/2611.28445": 1,
+  "https://arxiv.org/abs/2611.28482": 1,
+  "https://arxiv.org/abs/2611.28517": 1,
+  "https://arxiv.org/abs/2611.28542": 1,
+  "https://arxiv.org/abs/2611.28558": 1,
+  "https://arxiv.org/abs/2611.28713": 1,
+  "https://arxiv.org/abs/2611.28857": 1,
+  "https://arxiv.org/abs/2611.28860": 1,
+  "https://arxiv.org/abs/2611.28947": 1,
+  "https://arxiv.org/abs/2611.29036": 1,
+  "https://arxiv.org/abs/2611.29062": 1,
+  "https://arxiv.org/abs/2611.29155": 1,
+  "https://arxiv.org/abs/2611.29242": 1,
+  "https://arxiv.org/abs/2611.29243": 1,
+  "https://arxiv.org/abs/2611.29299": 1,
+  "https://arxiv.org/abs/2611.29303": 1,
+  "https://arxiv.org/abs/2611.29354": 1,
+  "https://arxiv.org/abs/2611.29549": 1,
+  "https://arxiv.org/abs/2611.29590": 1
  },
  "reach_day": "2026-11-23",
  "reach_n": 0,
@@ -3299,13 +3331,13 @@
    }
   }
  },
- "selfmap_h": "56eec6a1a89a78e14528ed7a59b1dfc88f167546",
+ "selfmap_h": "1009255443a7792adc9850141925be52400bdc4d",
  "bio_idx_day": "2026-11-24",
  "code_ver": "a09854ad",
  "backup_day": "2026-11-24",
- "backup_hash": "12717c18",
+ "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "aa3ad30272f551d1a0c4ffc5ac95402103c6d887",
+ "priv_h": "4c8574d3d272b0ed82e1ea20d06de6c592ccbd85",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3760,8 +3792,8 @@
  "health_day": "2026-11-24",
  "audit_day": "2026-11-20",
  "micro_n": {
-  "day": "2026-11-23",
-  "n": 8
+  "day": "2026-11-24",
+  "n": 1
  },
  "health": "state: 175 КБ\nжурнал: 4561 строк\nфакты: 423\nпроекты: активных 2, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-24",
@@ -3807,7 +3839,10 @@
   "the difference between knowing a fact and understanding it",
   "a small thing in everyday software that is quietly well designed",
   "why we like stories where someone changes their mind",
-  "what makes a city walkable"
+  "what makes a city walkable",
+  "how a chess endgame teaches patience",
+  "what it means to be careful rather than slow",
+  "the pleasure of understanding how something works by taking it apart"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3833,114 +3868,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795267074.133494,
-    "a": "h:7b31bfd0736a510d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.113
-   },
-   {
-    "t": 1795267348.4445114,
-    "a": "h:620f81fc8119c20e",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.171
-   },
-   {
-    "t": 1795267659.6539826,
-    "a": "h:a7b702c3df0dee04",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795268208.2917063,
-    "a": "h:3323258f18a49589",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795268444.0158415,
-    "a": "h:ee6134bf4cebc755",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795268674.225196,
-    "a": "h:7b31bfd0736a510d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795268944.8223495,
-    "a": "h:a7b702c3df0dee04",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.205
-   },
-   {
-    "t": 1795269195.4499874,
-    "a": "h:e463892bde078d3f",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795269280.5421135,
-    "a": "h:7a1a9d67c90b2cfb",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.205
-   },
    {
     "t": 1795269569.19142,
     "a": "h:360be0e3e0d438db",
@@ -4689,27 +4616,27 @@
   "stats": {
    "pl=moltbook": [
     21,
-    156
+    165
    ],
    "mode=reply": [
     15,
-    32
+    33
    ],
    "len=l": [
     19,
-    153
+    162
    ],
    "q=1": [
     3,
-    21
+    23
    ],
    "hr=2": [
     8,
-    53
+    62
    ],
    "q=0": [
     19,
-    137
+    144
    ],
    "hr=3": [
     6,
@@ -4717,7 +4644,7 @@
    ],
    "mode=comment": [
     7,
-    126
+    134
    ],
    "hr=0": [
     4,
@@ -4746,12 +4673,12 @@
   },
   "glob": [
    22,
-   158
+   167
   ],
-  "n": 158,
-  "hit": 136,
-  "br": 24.67939,
-  "br0": 19.440673229190992
+  "n": 167,
+  "hit": 145,
+  "br": 25.067655000000006,
+  "br0": 19.615677822358283
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
@@ -4780,12 +4707,12 @@
   "replies_h": 10,
   "post_day": 12,
   "reply_day": 100,
-  "pd_day": "2026-11-23",
-  "pd_n": 4,
+  "pd_day": "2026-11-24",
+  "pd_n": 0,
   "ph": [],
-  "last": 1795479627.0434637,
-  "rd_day": "2026-11-23",
-  "rd_n": 8,
+  "last": 1795528313.4607232,
+  "rd_day": "2026-11-24",
+  "rd_n": 0,
   "rh": []
  },
  "limits": {
@@ -4793,7 +4720,7 @@
   "cohere.calls": 0,
   "mistral.calls": 0
  },
- "focus_on": true,
+ "focus_on": false,
  "autorun": true,
  "wd_alert": {
   "llm": 1795483630.5901194
@@ -4841,7 +4768,7 @@
  },
  "proj_arch_day": "2026-11-24",
  "name_noted": 1,
- "fail_streak": 1,
+ "fail_streak": 5,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4849,9 +4776,16 @@
   "off_why": "",
   "res": [
    "fail",
-   "fail"
+   "fail",
+   "none"
   ],
   "last": "начал: 2"
  },
- "kb_set": true
+ "kb_set": true,
+ "dev_log": [
+  "2026-11-24 ничего подходящего: Find open-source ideas on GitHub useful for the agent on this topic: Why maps always lie a little"
+ ],
+ "stop_guard_fail": {
+  "mbp:88f98b63-b6a8-4b19-84bf-99e319a71e7a": 1795530122.3352203
+ }
 }
