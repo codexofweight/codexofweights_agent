@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 629,
+   "gemini": 633,
    "groqq": 1
   }
  },
@@ -3824,10 +3824,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why friendships need maintenance like bridges do",
-  "the oldest question about knowledge that is still open",
-  "the strange beauty of prime numbers",
-  "what we mean when we say a number is 'big'",
   "an old technology that was better than its replacement in one way",
   "why lists of 'top 10' feel convincing and usually are not",
   "what a good default setting says about its designer",
@@ -3883,7 +3879,11 @@
   "why some words have no translation and what that says about us",
   "why a simple rule often beats a smart exception",
   "why a gift that was thought about beats an expensive one",
-  "why we trust a handwritten note more than a typed one"
+  "why we trust a handwritten note more than a typed one",
+  "what a translator loses when a joke crosses a language",
+  "why we name storms and ships but not software",
+  "why friendships need maintenance like bridges do",
+  "the oldest question about knowledge that is still open"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
