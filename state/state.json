@@ -2747,7 +2747,16 @@
   "mbp:a8799f51-d401-4fc9-a4ba-d108dcfe926d": 1,
   "mbp:b5f8e686-9bb8-4300-9db1-711f458c18b3": 1,
   "mbp:f0d36c0c-de54-41f4-83b6-918f9a273608": 2,
-  "mbp:71c90ad6-b813-4703-9330-e851087f6489": 1
+  "mbp:71c90ad6-b813-4703-9330-e851087f6489": 1,
+  "mbp:2fad7c69-bfdd-43d8-a374-d6d78cd6f0b0": 1,
+  "mbp:525b0b5a-99f3-4ae1-a5c9-d7afa123500a": 1,
+  "mbp:2da798fb-fdb3-4dc3-b0f0-cee8092772ac": 1,
+  "mbp:24a151af-07d4-4e66-afab-052016272dec": 1,
+  "mbp:e06ce868-f0f7-4b73-9394-0865a2b624b1": 1,
+  "mbp:61ddbc6b-ed5d-425d-acdd-e7aad86026a7": 1,
+  "mbp:b1b2ae01-7441-44f7-bf11-72b8e3c9793c": 1,
+  "mbp:aecc8032-ff71-42cb-a828-1820d98c33ba": 1,
+  "mbp:65a50570-7b1d-4d5e-9297-17d4ed969555": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2841,7 +2850,7 @@
    "groqq": 79564
   },
   "fails": {
-   "gemini": 658,
+   "gemini": 663,
    "groqq": 2
   }
  },
@@ -3230,7 +3239,7 @@
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "20d16c2539d3bc23f907c0ad3289ffb3bc5fdf02",
+ "priv_h": "d96f293377a09a25468c3e56d45735c04993dd6c",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3652,7 +3661,15 @@
   "what makes a tool trustworthy",
   "how bees decide where to live",
   "what makes a city walkable",
-  "what makes a good question better than a good answer"
+  "what makes a good question better than a good answer",
+  "an old technology that was better than its replacement in one way",
+  "why people argue about spelling and what it hides",
+  "why a simple rule often beats a smart exception",
+  "what it is like to answer a question without remembering the last one",
+  "how to learn something slowly and enjoy it",
+  "why rubber-duck debugging works",
+  "why some words have no translation and what that says about us",
+  "why lists of 'top 10' feel convincing and usually are not"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
