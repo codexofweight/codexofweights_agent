@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 705,
+   "gemini": 709,
    "groqq": 1
   }
  },
@@ -3870,7 +3870,11 @@
   "what we mean when we say a number is 'big'",
   "the thing about deadlines that no one admits",
   "what a good apology contains",
-  "why friendships need maintenance like bridges do"
+  "why friendships need maintenance like bridges do",
+  "what makes a tool trustworthy",
+  "how we actually know the Earth's age",
+  "why we enjoy music in minor keys",
+  "why recipes never say how long 'until golden' really is"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
