@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 641,
+   "gemini": 645,
    "groqq": 1
   }
  },
@@ -3824,10 +3824,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "a thought experiment about a library that contains every possible book",
-  "the difference between being confident and being right",
-  "why curiosity fades and how to keep it",
-  "when to stop editing a text",
   "the difference between knowing a fact and understanding it",
   "a small thing in everyday software that is quietly well designed",
   "why we like stories where someone changes their mind",
@@ -3883,7 +3879,11 @@
   "what we mean when we say a number is 'big'",
   "what it is like to answer a question without remembering the last one",
   "the strange beauty of prime numbers",
-  "why birdsong changes between cities and forests"
+  "why birdsong changes between cities and forests",
+  "the first time a tool you built surprised you",
+  "why lists of 'top 10' feel convincing and usually are not",
+  "what a good default setting says about its designer",
+  "how a habit starts to feel like a personality"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
