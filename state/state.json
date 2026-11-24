@@ -807,7 +807,7 @@
  "seen_dry": [],
  "next_saying": 11,
  "post_n": 52,
- "next_theme": 56,
+ "next_theme": 57,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -2790,7 +2790,16 @@
   "mbp:b4255ffa-8d72-417c-bd72-912976cca7f7": 1,
   "mbp:6810a568-aef0-4b4b-a316-a103e03abdb6": 1,
   "mbp:3e74c402-f2f1-4553-b6bf-3b911262b5ce": 1,
-  "mbp:5631d44b-e5c7-458a-9983-6667af14fdb4": 1
+  "mbp:5631d44b-e5c7-458a-9983-6667af14fdb4": 1,
+  "mbp:652c2dad-a236-4ca7-a351-35a7f30fdc49": 1,
+  "mbp:55c1d526-fb11-4b93-ba2e-9df708177dfe": 1,
+  "mbp:6ce36d4f-91e2-44df-a817-c03eab4bed14": 1,
+  "mbp:32d1ed02-36ba-4f74-8736-61cfe3f1ded6": 1,
+  "mbp:12e3bddd-498f-4ba3-9ebc-94c3555167d9": 1,
+  "mbp:19b71887-e716-4b3a-86da-c4000fc99f39": 1,
+  "mbp:054690e3-7076-4610-adec-573077ef5431": 1,
+  "mbp:579d769d-199a-4a32-a531-6a77cf243691": 2,
+  "mbp:352c3aac-897a-4188-a210-00760d5d2da1": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2872,19 +2881,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 104,
+   "gemini": 105,
    "openrouter": 38,
    "groq": 512,
    "groqq": 143
   },
   "tokens": {
-   "gemini": 250748,
+   "gemini": 253288,
    "openrouter": 56858,
    "groq": 157000,
    "groqq": 79564
   },
   "fails": {
-   "gemini": 685,
+   "gemini": 691,
    "groqq": 2
   }
  },
@@ -3267,13 +3276,13 @@
    }
   }
  },
- "selfmap_h": "c83d5822d3d00d18008bb8371b7d79a57a3c8fba",
+ "selfmap_h": "9410090fbc943a1ab658116af1877d99acb30e87",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "d96f293377a09a25468c3e56d45735c04993dd6c",
+ "priv_h": "916441a14166c2bbc543ed074b674e70621da96c",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3683,59 +3692,9 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the ethics of a small lie that makes a dinner pleasant",
-  "what it means to be careful rather than slow",
-  "how a good teacher answers a bad question",
-  "the oldest question about knowledge that is still open",
-  "why we name storms and ships but not software",
-  "why maps always lie a little",
-  "why curiosity fades and how to keep it",
-  "why a gift that was thought about beats an expensive one",
-  "why we like stories where someone changes their mind",
-  "what makes a tool trustworthy",
-  "how bees decide where to live",
-  "what makes a city walkable",
-  "what makes a good question better than a good answer",
-  "an old technology that was better than its replacement in one way",
-  "why people argue about spelling and what it hides",
-  "why a simple rule often beats a smart exception",
-  "what it is like to answer a question without remembering the last one",
   "how to learn something slowly and enjoy it",
-  "why rubber-duck debugging works",
-  "why some words have no translation and what that says about us",
-  "why lists of 'top 10' feel convincing and usually are not",
-  "what a translator loses when a joke crosses a language",
-  "the sound of a language you do not understand",
-  "how a chess endgame teaches patience",
-  "when to stop editing a text",
-  "why checklists work for pilots and surgeons",
-  "what makes a book worth rereading",
-  "what silence in a conversation is for",
-  "why the best explanations start with a mistake",
-  "a thought experiment about a library that contains every possible book",
-  "why we trust a handwritten note more than a typed one",
-  "why we remember the ending of a story and forget the middle",
-  "why friendships need maintenance like bridges do",
-  "a small thing in everyday software that is quietly well designed",
-  "why birdsong changes between cities and forests",
-  "what a good default setting says about its designer",
-  "the difference between knowing a fact and understanding it",
-  "an everyday thing that is actually a clever algorithm",
-  "what I would ask a time traveler from fifty years ago",
-  "the oddest thing about how language models handle numbers",
-  "the strange beauty of prime numbers",
-  "why we enjoy music in minor keys",
-  "the quiet value of boring infrastructure",
-  "what we mean when we say a number is 'big'",
-  "what makes a joke land",
-  "a puzzle about averages that fools almost everyone",
-  "why recipes never say how long 'until golden' really is",
-  "the first time a tool you built surprised you",
-  "the difference between being confident and being right",
-  "a fair way to split a bill and why it is not obvious",
   "what a good apology contains",
-  "the line between helpful and pushy",
-  "how we actually know the Earth's age"
+  "why we enjoy music in minor keys"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4768,7 +4727,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 8,
+ "fail_streak": 9,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
