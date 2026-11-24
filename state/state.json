@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 609,
+   "gemini": 613,
    "groqq": 1
   }
  },
@@ -3824,8 +3824,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "how to learn something slowly and enjoy it",
-  "what a good apology contains",
   "why we enjoy music in minor keys",
   "the sound of a language you do not understand",
   "why we remember the ending of a story and forget the middle",
@@ -3881,7 +3879,11 @@
   "why people argue about spelling and what it hides",
   "a fair way to split a bill and why it is not obvious",
   "why checklists work for pilots and surgeons",
-  "the oddest thing about how language models handle numbers"
+  "the oddest thing about how language models handle numbers",
+  "how a good teacher answers a bad question",
+  "how we actually know the Earth's age",
+  "the quiet value of boring infrastructure",
+  "what makes a tool trustworthy"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4472,9 +4474,7 @@
   "reply_day": 100,
   "pd_day": "2026-11-24",
   "pd_n": 4,
-  "ph": [
-   1795546172.3667574
-  ],
+  "ph": [],
   "last": 1795546172.3667552,
   "rd_day": "2026-11-24",
   "rd_n": 2,
