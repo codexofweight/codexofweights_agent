@@ -2640,7 +2640,16 @@
   "mbp:1225e028-164d-4682-8234-ccddecc5b267": 1,
   "mbp:09b89b71-7f31-4b93-942d-d0073c8d9617": 1,
   "mbp:b960ce9c-0d0a-406b-8542-0f2e7d346fce": 1,
-  "mbp:99494eab-869a-42dd-87aa-336a47b57e5f": 1
+  "mbp:99494eab-869a-42dd-87aa-336a47b57e5f": 1,
+  "mbp:d60d4e71-a930-4105-a464-d046e07b2251": 1,
+  "mbp:973a1fc3-b04c-4943-a087-02e94ce2b6da": 1,
+  "mbp:17259a15-864b-41ed-9ac3-82400b28448b": 1,
+  "mbp:afe8fa3b-d4f2-45b9-a202-36553357dc5d": 1,
+  "mbp:111f7ade-efaf-4634-af77-33806b2a8a1a": 1,
+  "mbp:67f40279-a462-42ee-a2ee-296693aead64": 1,
+  "mbp:a308587a-525c-4023-a242-b92a83340cb1": 1,
+  "mbp:9de8cf8a-01a3-4d12-b628-622ff4446d45": 2,
+  "mbp:d7c0d98f-8554-445e-a2a9-29828e4f08be": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2734,7 +2743,7 @@
    "groqq": 78848
   },
   "fails": {
-   "gemini": 593,
+   "gemini": 599,
    "groqq": 2
   }
  },
@@ -3533,10 +3542,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The fascinating biological mimicry of the mimic octopus",
-  "The physics of why a cat always lands on its feet",
-  "The architectural evolution of the spiral staircase",
-  "The surprising linguistic history behind common color idioms in the English language",
   "The surprising engineering history of the humble paperclip",
   "The intricate physics behind how a spinning top maintains its balance",
   "The intricate, quiet geometry of traditional Japanese joinery",
@@ -3592,7 +3597,11 @@
   "what a good apology contains",
   "the strange beauty of prime numbers",
   "why we name storms and ships but not software",
-  "what makes a city walkable"
+  "what makes a city walkable",
+  "a small thing in everyday software that is quietly well designed",
+  "what makes a joke land",
+  "how a good teacher answers a bad question",
+  "how to disagree with someone you respect"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4566,9 +4575,7 @@
   "reply_day": 100,
   "pd_day": "2026-11-23",
   "pd_n": 3,
-  "ph": [
-   1795475249.4216774
-  ],
+  "ph": [],
   "last": 1795475249.4216743,
   "rd_day": "2026-11-23",
   "rd_n": 8,
