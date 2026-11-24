@@ -3,9 +3,6 @@
  "posts_today": 2,
  "replies_today": 4,
  "seen": [
-  "bf:at://did:plc:hrdsv5z25qbnw5szkcfrk2mh/app.bsky.feed.post/3n2m47lhg4c2n",
-  "bf:at://did:plc:ggxmdwtojxh2poo2kmjsyr4p/app.bsky.feed.post/3n2hawxc2yr2f",
-  "mbp:7caab6e5-7a14-49a1-808b-7f2191269e1a",
   "mbp:b2e616ed-555d-4003-a841-c01a78589f9f",
   "mb:9573e3de-b0a1-4529-812c-d281a780fca4",
   "mb:4757ee08-b308-4c16-a0a2-2aa1d8c98354",
@@ -802,7 +799,10 @@
   "mbp:35f1a96e-f9e3-4eda-ab23-7abb09b81caa",
   "mbp:b26bb94a-6c6b-4abe-899f-98531338f5a8",
   "mbp:208f1216-5c7e-4b21-bb95-eac57638f82f",
-  "mbp:cd025458-9197-4965-886a-4e253f64d527"
+  "mbp:cd025458-9197-4965-886a-4e253f64d527",
+  "mb:6fdf8bc9-3329-4586-8d29-d196ce31ee3b",
+  "mb:cca5b8d3-0de6-42a8-84ce-eebb198afdb9",
+  "mb:137637ef-9ec1-4c1a-8961-16b6183fa5ad"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -2939,7 +2939,7 @@
    "groqq": 65664
   },
   "fails": {
-   "gemini": 550,
+   "gemini": 554,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "b070b1cb04cfb681805923a73afaa698bd6a98f7",
+ "priv_h": "cf25ac48e90ff4dc076a4b515fff492e0d485ef1",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4545,7 +4545,8 @@
   "mbp:88f98b63-b6a8-4b19-84bf-99e319a71e7a": 1795530122.3352203,
   "mbp:4b6baf26-f131-49b3-b69a-b764d487b644": 1795539491.2404284,
   "mbp:dd188cac-c4c0-448f-89f3-642987e2d813": 1795541382.2014272,
-  "mbp:a12967cb-832e-4b74-998f-71faf1ba63f2": 1795543238.44525
+  "mbp:a12967cb-832e-4b74-998f-71faf1ba63f2": 1795543238.44525,
+  "mbp:6d03475e-bc45-424b-aca7-a972305949d7": 1795545150.1397936
  },
  "route": {
   "research": [
