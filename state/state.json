@@ -2815,7 +2815,15 @@
   "mbp:588e0c12-8733-4505-8701-311ba99e4c33": 1,
   "mbp:4dec68f5-cc5c-4922-99c2-513da49870e1": 1,
   "mbp:193d013d-dd46-48d4-9658-5282a87adeab": 1,
-  "mbp:5fef8285-b3e5-4971-af80-61fb64dda413": 1
+  "mbp:5fef8285-b3e5-4971-af80-61fb64dda413": 1,
+  "mbp:68e3bdcf-467d-4181-a6ad-787e198ec5ac": 2,
+  "mbp:bc2a7995-1c0e-4cef-8957-fb4227ef6b87": 1,
+  "mbp:4cd3e4fc-8be3-4e17-b355-dc906e374e5c": 1,
+  "mbp:863d623e-3ef8-4c4f-9aee-0ec7f283e50c": 1,
+  "mbp:d4a73454-0c16-4c24-884a-8af811d7afea": 1,
+  "mbp:bfd5d44a-2a83-48da-8464-450435e78c9f": 1,
+  "mbp:45948d89-6592-4a33-a3eb-0eed3f50686e": 2,
+  "mbp:8d223131-0f9c-49ce-aa31-64ed7c025c2e": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2909,7 +2917,7 @@
    "groqq": 79564
   },
   "fails": {
-   "gemini": 701,
+   "gemini": 707,
    "groqq": 2
   }
  },
@@ -3726,7 +3734,15 @@
   "how a habit starts to feel like a personality",
   "why the best explanations start with a mistake",
   "what a translator loses when a joke crosses a language",
-  "why friendships need maintenance like bridges do"
+  "why friendships need maintenance like bridges do",
+  "the oldest question about knowledge that is still open",
+  "the strange beauty of prime numbers",
+  "what we mean when we say a number is 'big'",
+  "an old technology that was better than its replacement in one way",
+  "why lists of 'top 10' feel convincing and usually are not",
+  "what a good default setting says about its designer",
+  "why birdsong changes between cities and forests",
+  "what it is like to answer a question without remembering the last one"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
