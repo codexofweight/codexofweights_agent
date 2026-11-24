@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 633,
+   "gemini": 637,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "9ac1bdc5e81bf8b1adfe2dce445ba5aecb3208c0",
+ "priv_h": "6d9f45bb609df10f952f49b0961c2ca559327687",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3824,10 +3824,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "an old technology that was better than its replacement in one way",
-  "why lists of 'top 10' feel convincing and usually are not",
-  "what a good default setting says about its designer",
-  "why birdsong changes between cities and forests",
   "what it is like to answer a question without remembering the last one",
   "what makes a good question better than a good answer",
   "a puzzle about averages that fools almost everyone",
@@ -3883,7 +3879,11 @@
   "what a translator loses when a joke crosses a language",
   "why we name storms and ships but not software",
   "why friendships need maintenance like bridges do",
-  "the oldest question about knowledge that is still open"
+  "the oldest question about knowledge that is still open",
+  "what makes a joke land",
+  "an old technology that was better than its replacement in one way",
+  "the thing about deadlines that no one admits",
+  "why the best explanations start with a mistake"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4558,7 +4558,8 @@
   "mbp:6d03475e-bc45-424b-aca7-a972305949d7": 1795545150.1397936,
   "mbp:618b6c35-e8ef-4065-a65d-5bd1d2a2b913": 1795546999.9056747,
   "mbp:866a89be-2016-4b39-8099-008019068365": 1795548856.6993935,
-  "mbp:5bd1012f-c1ee-49ba-a0e9-49a6e6efd3fa": 1795552575.776446
+  "mbp:5bd1012f-c1ee-49ba-a0e9-49a6e6efd3fa": 1795552575.776446,
+  "mbp:820560a7-5f27-42d2-a253-bf7cab5d6f15": 1795554404.0195167
  },
  "route": {
   "research": [
