@@ -2927,19 +2927,19 @@
  "usage": {
   "day": "2026-11-24",
   "calls": {
-   "groq": 294,
+   "groq": 297,
    "openrouter": 31,
    "gemini": 9,
-   "groqq": 110
+   "groqq": 112
   },
   "tokens": {
-   "groq": 138489,
+   "groq": 140888,
    "openrouter": 72130,
    "gemini": 16637,
-   "groqq": 62159
+   "groqq": 65664
   },
   "fails": {
-   "gemini": 546,
+   "gemini": 550,
    "groqq": 1
   }
  },
@@ -3353,7 +3353,7 @@
    }
   }
  },
- "selfmap_h": "c3d0ba4e34f21fdaaa413ee5dba99db7d05e6b75",
+ "selfmap_h": "025799a52e539561cd7809bc1505c70d2f8c6616",
  "bio_idx_day": "2026-11-24",
  "code_ver": "a09854ad",
  "backup_day": "2026-11-24",
@@ -3815,7 +3815,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-24",
-  "n": 4
+  "n": 5
  },
  "health": "state: 175 КБ\nжурнал: 4561 строк\nфакты: 423\nпроекты: активных 2, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-24",
@@ -3873,7 +3873,8 @@
   "How the weight of a pen changes the tactile feedback of handwriting",
   "The specific silence found in an empty parked car before the engine starts",
   "How the texture of paper affects the speed of cursive handwriting",
-  "why rubber-duck debugging works"
+  "why rubber-duck debugging works",
+  "how to disagree with someone you respect"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4464,10 +4465,8 @@
   "reply_day": 100,
   "pd_day": "2026-11-24",
   "pd_n": 3,
-  "ph": [
-   1795539549.0361729
-  ],
-  "last": 1795539549.0361707,
+  "ph": [],
+  "last": 1795543214.413621,
   "rd_day": "2026-11-24",
   "rd_n": 2,
   "rh": []
