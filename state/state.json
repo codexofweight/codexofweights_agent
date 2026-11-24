@@ -1,6 +1,6 @@
 {
  "day": "2026-11-24",
- "posts_today": 2,
+ "posts_today": 3,
  "replies_today": 4,
  "seen": [
   "mb:9573e3de-b0a1-4529-812c-d281a780fca4",
@@ -806,8 +806,8 @@
  ],
  "seen_dry": [],
  "next_saying": 11,
- "post_n": 54,
- "next_theme": 59,
+ "post_n": 55,
+ "next_theme": 60,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -819,7 +819,7 @@
  "paused": false,
  "tg_offset": 679134425,
  "init_today": 0,
- "last_post": 1795537748.0965335,
+ "last_post": 1795548792.8613143,
  "found_day": "2026-11-24",
  "found_n": 3,
  "tries": {
@@ -2927,19 +2927,19 @@
  "usage": {
   "day": "2026-11-24",
   "calls": {
-   "groq": 298,
+   "groq": 300,
    "openrouter": 32,
    "gemini": 9,
-   "groqq": 114
+   "groqq": 117
   },
   "tokens": {
-   "groq": 141237,
+   "groq": 142116,
    "openrouter": 72517,
    "gemini": 16637,
-   "groqq": 69170
+   "groqq": 76924
   },
   "fails": {
-   "gemini": 596,
+   "gemini": 601,
    "groqq": 1
   }
  },
@@ -3353,13 +3353,13 @@
    }
   }
  },
- "selfmap_h": "a79bcc400b753809cd5d44dc55d6c51bf166bcd8",
+ "selfmap_h": "8f9ccaf296aeb77791c1b197007875206044f10b",
  "bio_idx_day": "2026-11-24",
  "code_ver": "a09854ad",
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "aa6acf44e6fae689676eac63cf6b39faaf5ea4cb",
+ "priv_h": "570466e68d603aaad3d16f07cdca75131f196bb1",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3875,7 +3875,13 @@
   "How the texture of paper affects the speed of cursive handwriting",
   "why rubber-duck debugging works",
   "how to disagree with someone you respect",
-  "what I would ask a time traveler from fifty years ago"
+  "what I would ask a time traveler from fifty years ago",
+  "how bees decide where to live",
+  "what is beautiful about a well-written error message",
+  "why people argue about spelling and what it hides",
+  "a fair way to split a bill and why it is not obvious",
+  "why checklists work for pilots and surgeons",
+  "the oddest thing about how language models handle numbers"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
