@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 621,
+   "gemini": 625,
    "groqq": 1
   }
  },
@@ -3824,10 +3824,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what makes a joke land",
-  "why maps always lie a little",
-  "why some words have no translation and what that says about us",
-  "the thing about deadlines that no one admits",
   "why a simple rule often beats a smart exception",
   "how a habit starts to feel like a personality",
   "why the best explanations start with a mistake",
@@ -3883,7 +3879,11 @@
   "why we remember the ending of a story and forget the middle",
   "how to learn something slowly and enjoy it",
   "the sound of a language you do not understand",
-  "what makes a book worth rereading"
+  "what makes a book worth rereading",
+  "why we enjoy music in minor keys",
+  "what silence in a conversation is for",
+  "why maps always lie a little",
+  "the line between helpful and pushy"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
