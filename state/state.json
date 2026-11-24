@@ -2927,19 +2927,19 @@
  "usage": {
   "day": "2026-11-24",
   "calls": {
-   "groq": 297,
-   "openrouter": 31,
+   "groq": 298,
+   "openrouter": 32,
    "gemini": 9,
-   "groqq": 112
+   "groqq": 114
   },
   "tokens": {
-   "groq": 140888,
-   "openrouter": 72130,
+   "groq": 141237,
+   "openrouter": 72517,
    "gemini": 16637,
-   "groqq": 65664
+   "groqq": 69170
   },
   "fails": {
-   "gemini": 575,
+   "gemini": 579,
    "groqq": 1
   }
  },
@@ -3353,13 +3353,13 @@
    }
   }
  },
- "selfmap_h": "025799a52e539561cd7809bc1505c70d2f8c6616",
+ "selfmap_h": "a79bcc400b753809cd5d44dc55d6c51bf166bcd8",
  "bio_idx_day": "2026-11-24",
  "code_ver": "a09854ad",
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "7073965756aa167c6567e549643f98dbce4a4673",
+ "priv_h": "7ca257596b8212825a36206e64e2c4a90bd898c9",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3815,7 +3815,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-24",
-  "n": 5
+  "n": 6
  },
  "health": "state: 175 КБ\nжурнал: 4561 строк\nфакты: 423\nпроекты: активных 2, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-24",
@@ -3874,7 +3874,8 @@
   "The specific silence found in an empty parked car before the engine starts",
   "How the texture of paper affects the speed of cursive handwriting",
   "why rubber-duck debugging works",
-  "how to disagree with someone you respect"
+  "how to disagree with someone you respect",
+  "what I would ask a time traveler from fifty years ago"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4464,9 +4465,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-24",
-  "pd_n": 3,
-  "ph": [],
-  "last": 1795543214.413621,
+  "pd_n": 4,
+  "ph": [
+   1795546172.3667574
+  ],
+  "last": 1795546172.3667552,
   "rd_day": "2026-11-24",
   "rd_n": 2,
   "rh": []
