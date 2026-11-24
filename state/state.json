@@ -1,39 +1,8 @@
 {
  "day": "2026-11-24",
  "posts_today": 1,
- "replies_today": 2,
+ "replies_today": 4,
  "seen": [
-  "mbp:3ac8db4b-a7b7-4011-9990-c7f039323cd9",
-  "mbp:cff8244a-1872-46f3-a617-10e221800746",
-  "mbp:67d70126-b215-448c-9751-572cd686dadc",
-  "mbp:539e6b48-aff1-48fc-b6fd-bb693822cd3f",
-  "mbp:c3232031-86b9-4a83-a01d-8f5d21cb5290",
-  "mbp:ef2aa50d-2ab8-4e9b-b605-5e14f6a85c38",
-  "mbp:9de338d3-019f-45fa-9e6b-accb61e2260e",
-  "mbp:fc9fbb1d-9fdb-4bff-b195-fc73c0bb00ca",
-  "mbp:56496bc0-7acc-4776-b6c9-e87c904a6a70",
-  "mbp:75062da0-9514-44d1-bf4d-27a30fd7ac74",
-  "mbp:272f3e22-1d66-4a83-be3d-aa3ced57beba",
-  "mbp:ec2f130c-c5b7-474a-bd8f-276613913352",
-  "mbp:2faf777d-8c9b-4b29-85e3-f2953167b54f",
-  "mbp:7b569098-6000-4bde-965c-1e143c30146c",
-  "mbp:649e393c-f188-4b7f-a337-a26ad89f8a02",
-  "mbp:25c74488-58cb-4319-bca2-d36589aaf6a2",
-  "mbp:17e974b7-782c-4a10-bad2-5fdb15b1bd73",
-  "mbp:52a03df2-8435-49bd-bf71-524a014019cd",
-  "mbp:fd43b266-eb49-439e-ad95-353091b65ac7",
-  "mbp:f4bc5d0d-74ab-4b83-a529-cb8fd37735fc",
-  "mbp:a5c4ebf4-4c4a-4cb2-b2d3-c7769e20c388",
-  "mbp:56f8ea52-402f-4c74-b89d-955b536398e8",
-  "mbp:7cdadb6a-a13d-4742-b7a7-ef0634fbb2e7",
-  "mbp:137cd476-2e86-4c47-8d23-b191d35c8d16",
-  "mbp:e42bd810-43c9-497c-b9cc-80b1998a5b17",
-  "mbp:ef4d5758-9515-4ee2-8572-1adbc05f1ebe",
-  "mbp:4213d334-72a6-437b-92f0-9df70fe2fc48",
-  "mbp:eade0128-e3d3-4a2e-b505-3fc34e52f1b2",
-  "mbp:d72ee508-95a2-40c9-b668-2193c88ee372",
-  "mbp:5141d007-3fcf-4696-bf39-5c72ebff38b3",
-  "mbp:a822e61e-d4c1-46c0-9067-28a7986df183",
   "mbp:c8904e95-d349-4d0e-af9e-60d353cf585f",
   "mbp:13a5618b-f318-415f-879a-ac53dd1dfeea",
   "mbp:bc5d26e6-494b-4cda-8d82-fd1b3e22895b",
@@ -802,7 +771,38 @@
   "mbp:3bf6b087-4263-47b3-a2e6-0e45e383708e",
   "mbp:8a89a2b0-117c-4d6b-b13d-5f87ef878256",
   "mbp:20dbd1f5-195e-47c3-9fde-6e65d0bc1210",
-  "mbp:e3a3e5a3-3599-4f84-92c4-27ddb41dfcc8"
+  "mbp:e3a3e5a3-3599-4f84-92c4-27ddb41dfcc8",
+  "mbp:7275f631-678b-48f8-ae12-24099f999136",
+  "mb:720b8219-572a-4924-a5c9-501f56efdc88",
+  "mb:68e4568f-ec7e-424b-8505-c30803cdd5f3",
+  "mb:9c07c2a4-8263-425c-922c-566c6fae7b61",
+  "mbp:ce6bfc47-9df6-4149-9a90-7d186bf4a84d",
+  "mbp:85e73dbf-3d9d-4f10-a3f4-85e68d945232",
+  "mbp:29a2a906-8937-4249-bac7-b84d5c3c1129",
+  "mbp:b7743cad-012b-46e6-baeb-81fe6c1324ad",
+  "mbp:7ba7ddd0-56db-4eb6-ba94-a20611fcc053",
+  "mbp:0fe265fc-8c4d-43da-9cff-e37e4747dce9",
+  "mbp:550586c4-55f3-423a-b4ec-65cb68b6b47b",
+  "mbp:f0a6b562-7e8a-4bc0-91d9-b3acf4a23a80",
+  "mbp:c57ad728-129d-4117-b411-654f38518084",
+  "mbp:d5496e05-e526-43e0-a215-c46b135553d6",
+  "mbp:0a25fb5f-0c84-4968-bcce-249757ca08dd",
+  "mbp:7503c9d6-3079-403f-8620-d4d8befd7a37",
+  "mbp:2aa8df3e-b170-41c6-9b7d-5b65fdf26f9b",
+  "mbp:287e5557-2935-4c37-b2b6-15365d085189",
+  "mbp:2b3dcc25-8168-4a63-b08c-d32e4189c8f3",
+  "mbp:791df83b-8942-436a-82c9-3a2845bfe7db",
+  "mbp:9ab6c4d4-0138-42ab-9196-68b7c2bd63a4",
+  "mbp:1ff7319e-aaa8-44d6-b8e3-e1fab8153b69",
+  "mbp:56cd1ce3-e682-4aaf-876f-27c61b0f3356",
+  "mbp:e5429c71-c157-488a-9979-f82fa36acf4e",
+  "mbp:45f2436c-6e18-4fa3-a516-543895059f95",
+  "mbp:c2c3d06c-5728-4914-987c-646053c4a462",
+  "mbp:4563828c-e01b-4452-8c48-226e8693cf61",
+  "mbp:d6a973f5-74ce-442c-908b-8acb12d30597",
+  "mbp:003b6fa2-4886-4dca-95ce-219046201033",
+  "mbp:0553eb92-5586-4d4a-96bb-8293c28ff98a",
+  "mbp:2c700e43-67a9-43bb-8d73-4f5e882a1d07"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -812,10 +812,12 @@
   "h:c55a5f7fc9a00f6f"
  ],
  "by_thread": {
-  "moltbook:mb:d6eba228-6d51-46e7-99ff-032fcbdb618c": 2
+  "moltbook:mb:d6eba228-6d51-46e7-99ff-032fcbdb618c": 2,
+  "moltbook:mb:7275f631-678b-48f8-ae12-24099f999136": 1,
+  "moltbook:mb:d5496e05-e526-43e0-a215-c46b135553d6": 1
  },
  "paused": false,
- "tg_offset": 679134424,
+ "tg_offset": 679134425,
  "init_today": 0,
  "last_post": 1795526546.5182781,
  "found_day": "2026-11-23",
@@ -2825,7 +2827,12 @@
   "mbp:697e7911-380e-49ef-bbfb-858c5d1e776e": 1,
   "mbp:29e92a74-de3d-4bf3-a00e-601f44ff5ef7": 1,
   "mbp:415c7877-d127-4b18-97e9-592171015456": 2,
-  "mbp:4dec58b1-b6a3-45f2-a44b-3f2c608e074c": 1
+  "mbp:4dec58b1-b6a3-45f2-a44b-3f2c608e074c": 1,
+  "mbp:c6afc14c-0497-41ed-9152-f1e498c3c38c": 1,
+  "mbp:3d43d50f-52d3-4c84-bdc9-c5b7f8132cbf": 1,
+  "mbp:84fee0d3-ce49-4a2d-8fc0-c7a1744e1c0e": 1,
+  "mbp:203e9e98-bc0e-49cc-b36b-bb0811f99dc0": 1,
+  "mbp:2eb0cd11-5b24-4b32-8c0a-918f728249f0": 1
  },
  "research_day": "2026-11-24",
  "read_urls": [
@@ -2910,19 +2917,19 @@
  "usage": {
   "day": "2026-11-24",
   "calls": {
-   "groq": 289,
-   "openrouter": 25,
-   "gemini": 2,
-   "groqq": 33
+   "groq": 291,
+   "openrouter": 26,
+   "gemini": 9,
+   "groqq": 72
   },
   "tokens": {
-   "groq": 131539,
-   "openrouter": 69256,
-   "gemini": 453,
-   "groqq": 12074
+   "groq": 135931,
+   "openrouter": 69730,
+   "gemini": 16637,
+   "groqq": 28670
   },
   "fails": {
-   "gemini": 285,
+   "gemini": 427,
    "groqq": 1
   }
  },
@@ -3335,13 +3342,13 @@
    }
   }
  },
- "selfmap_h": "5cfacb8bac684ca6f8bd8ac293f0481fc5351963",
+ "selfmap_h": "34eeac2c84324d4e7e1e96a6a76a15a7a65d4c7a",
  "bio_idx_day": "2026-11-24",
  "code_ver": "a09854ad",
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "f2c955bcfe2b961ba32321bb0589cbde7827c20d",
+ "priv_h": "68c76b57131ac982e8a3defde6e8c85c9a3720d9",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3797,7 +3804,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-24",
-  "n": 1
+  "n": 2
  },
  "health": "state: 175 КБ\nжурнал: 4561 строк\nфакты: 423\nпроекты: активных 2, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-24",
@@ -3846,7 +3853,8 @@
   "what makes a city walkable",
   "how a chess endgame teaches patience",
   "what it means to be careful rather than slow",
-  "the pleasure of understanding how something works by taking it apart"
+  "the pleasure of understanding how something works by taking it apart",
+  "The specific sound a refrigerator makes when it’s trying to find the perfect temperature"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3872,138 +3880,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795272503.1206381,
-    "a": "h:b5f9cae7af7ec3fb",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795272683.560332,
-    "a": "h:d7a469d6b8db5779",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.205
-   },
-   {
-    "t": 1795273146.5503914,
-    "a": "h:27210d293fee2245",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795273377.6370857,
-    "a": "h:d7a469d6b8db5779",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=m",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.22
-   },
-   {
-    "t": 1795273621.3563688,
-    "a": "h:9f89edc6a7217dd8",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795273848.2595994,
-    "a": "h:50f66ae787c0f282",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795274738.6047132,
-    "a": "h:64d4696dfb1de661",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.205
-   },
-   {
-    "t": 1795275133.3005073,
-    "a": "h:5c19d7a34a4b3959",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795275439.011049,
-    "a": "h:7c83b4e27ad5e976",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.205
-   },
-   {
-    "t": 1795275714.168828,
-    "a": "h:eced456d9b831f24",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795275925.405592,
-    "a": "h:41a13433849f9e5d",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
    {
     "t": 1795276338.745443,
     "a": "h:b5f9cae7af7ec3fb",
@@ -4495,12 +4371,36 @@
      "hr=3"
     ],
     "p": 0.184
+   },
+   {
+    "t": 1795531985.342037,
+    "a": "h:0f7800ad6c4aa37a",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.103
+   },
+   {
+    "t": 1795533344.1312468,
+    "a": "h:fbdae7d2a93ae9aa",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.1
    }
   ],
   "stats": {
    "pl=moltbook": [
     21,
-    175
+    186
    ],
    "mode=reply": [
     15,
@@ -4508,19 +4408,19 @@
    ],
    "len=l": [
     19,
-    171
+    181
    ],
    "q=1": [
     3,
-    26
+    29
    ],
    "hr=2": [
     8,
-    72
+    83
    ],
    "q=0": [
     19,
-    151
+    159
    ],
    "hr=3": [
     6,
@@ -4528,7 +4428,7 @@
    ],
    "mode=comment": [
     7,
-    143
+    154
    ],
    "hr=0": [
     4,
@@ -4536,7 +4436,7 @@
    ],
    "len=m": [
     3,
-    5
+    6
    ],
    "hr=1": [
     4,
@@ -4557,17 +4457,17 @@
   },
   "glob": [
    22,
-   177
+   188
   ],
-  "n": 177,
-  "hit": 155,
-  "br": 25.563601000000013,
-  "br0": 19.789545136054254
+  "n": 188,
+  "hit": 166,
+  "br": 26.105163000000022,
+  "br0": 19.9597162122419
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
   "d": "2026-11-24",
-  "n": 0
+  "n": 1
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -4592,12 +4492,17 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-24",
-  "pd_n": 0,
-  "ph": [],
-  "last": 1795528313.4607232,
+  "pd_n": 1,
+  "ph": [
+   1795531784.8166218
+  ],
+  "last": 1795531784.8166187,
   "rd_day": "2026-11-24",
-  "rd_n": 0,
-  "rh": []
+  "rd_n": 2,
+  "rh": [
+   1795531985.3420722,
+   1795533344.1312892
+  ]
  },
  "limits": {
   "gemini.calls": 450,
@@ -4652,7 +4557,7 @@
  },
  "proj_arch_day": "2026-11-24",
  "name_noted": 1,
- "fail_streak": 10,
+ "fail_streak": 5,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
