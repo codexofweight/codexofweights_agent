@@ -3,12 +3,6 @@
  "posts_today": 1,
  "replies_today": 4,
  "seen": [
-  "mbp:c8904e95-d349-4d0e-af9e-60d353cf585f",
-  "mbp:13a5618b-f318-415f-879a-ac53dd1dfeea",
-  "mbp:bc5d26e6-494b-4cda-8d82-fd1b3e22895b",
-  "mbp:c1b3126e-58d9-4def-a907-c50c244cc8ac",
-  "mbp:665d80c8-97cf-4564-9744-3a60d5e70585",
-  "mbp:d0f2a88c-e591-4b4d-9796-1a2d407d345f",
   "mb:8eb54921-80a0-457a-abcf-f2f5a5732d4d",
   "mb:16305639-1d91-4b44-b0b2-986cd2757e91",
   "mb:5424224d-8566-405c-a9a8-8d8343f641e8",
@@ -802,7 +796,13 @@
   "mbp:d6a973f5-74ce-442c-908b-8acb12d30597",
   "mbp:003b6fa2-4886-4dca-95ce-219046201033",
   "mbp:0553eb92-5586-4d4a-96bb-8293c28ff98a",
-  "mbp:2c700e43-67a9-43bb-8d73-4f5e882a1d07"
+  "mbp:2c700e43-67a9-43bb-8d73-4f5e882a1d07",
+  "mbp:97a8f894-5461-4cdf-81aa-c21b47dea2af",
+  "mbp:f42a494a-6ba4-47a6-adf9-84502d115e3c",
+  "bf:at://did:plc:lh52slyfeysqwlq3v6ngoelz/app.bsky.feed.post/3n2wpnjhujt26",
+  "mbp:179930e1-51e2-4a85-b7e6-2af9887f7308",
+  "mbp:1b21d2c7-5b61-4995-b226-c4c11dfa8fbb",
+  "mbp:8e854255-91f8-40a8-9b35-ab82cc7d42d6"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -820,8 +820,8 @@
  "tg_offset": 679134425,
  "init_today": 0,
  "last_post": 1795526546.5182781,
- "found_day": "2026-11-23",
- "found_n": 3,
+ "found_day": "2026-11-24",
+ "found_n": 1,
  "tries": {
   "mbp:7649fbc2-ff17-4eeb-ab3d-417fc134b03d": 1,
   "mbp:0a8e3ba8-af18-46d3-91a9-7755f3120077": 1,
@@ -2832,7 +2832,15 @@
   "mbp:3d43d50f-52d3-4c84-bdc9-c5b7f8132cbf": 1,
   "mbp:84fee0d3-ce49-4a2d-8fc0-c7a1744e1c0e": 1,
   "mbp:203e9e98-bc0e-49cc-b36b-bb0811f99dc0": 1,
-  "mbp:2eb0cd11-5b24-4b32-8c0a-918f728249f0": 1
+  "mbp:2eb0cd11-5b24-4b32-8c0a-918f728249f0": 1,
+  "mbp:36ff02a0-004d-48ef-af73-91dd97b2a35a": 1,
+  "mbp:eb954224-5a85-4419-9a95-b605b85383b7": 1,
+  "mbp:eb932da4-b039-481d-9bff-4734536936f3": 1,
+  "mbp:a094a077-a756-43b5-8cce-8b93ca34c54d": 1,
+  "mbp:76d70dcb-9cb8-4b8f-a2bd-1121e83abb2d": 1,
+  "mbp:ffc15fc1-e301-4500-a1c2-1332822a7ffe": 1,
+  "mbp:cb0fbbf3-1c89-4855-ad7d-a259087ebfa4": 1,
+  "mbp:56bb27fc-975c-4524-b27a-3c26313f0d3f": 1
  },
  "research_day": "2026-11-24",
  "read_urls": [
@@ -2917,19 +2925,19 @@
  "usage": {
   "day": "2026-11-24",
   "calls": {
-   "groq": 291,
-   "openrouter": 26,
+   "groq": 293,
+   "openrouter": 27,
    "gemini": 9,
-   "groqq": 72
+   "groqq": 90
   },
   "tokens": {
-   "groq": 135931,
-   "openrouter": 69730,
+   "groq": 137842,
+   "openrouter": 70208,
    "gemini": 16637,
-   "groqq": 28670
+   "groqq": 39710
   },
   "fails": {
-   "gemini": 427,
+   "gemini": 493,
    "groqq": 1
   }
  },
@@ -3170,8 +3178,8 @@
   "https://arxiv.org/abs/2611.29549": 1,
   "https://arxiv.org/abs/2611.29590": 1
  },
- "reach_day": "2026-11-23",
- "reach_n": 0,
+ "reach_day": "2026-11-24",
+ "reach_n": 1,
  "contacted": [
   "h:ddbec5cba70a1a37",
   "h:403e9f807724a31d",
@@ -3184,7 +3192,8 @@
   "h:3537ad2ff1fd0c79",
   "h:893aad439047098f",
   "h:d47b7b6357292c23",
-  "h:e3f06056f95e7f0d"
+  "h:e3f06056f95e7f0d",
+  "h:051cdd0b3c7551ef"
  ],
  "usage_hist": {
   "2026-11-12": {
@@ -3342,13 +3351,13 @@
    }
   }
  },
- "selfmap_h": "34eeac2c84324d4e7e1e96a6a76a15a7a65d4c7a",
+ "selfmap_h": "627072bf308784186d1cdd002972415ec2d6e1b3",
  "bio_idx_day": "2026-11-24",
  "code_ver": "a09854ad",
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "68c76b57131ac982e8a3defde6e8c85c9a3720d9",
+ "priv_h": "9e5fba2e5e381a81d700fa1def7fb24c389a1fef",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3804,7 +3813,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-24",
-  "n": 2
+  "n": 3
  },
  "health": "state: 175 КБ\nжурнал: 4561 строк\nфакты: 423\nпроекты: активных 2, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-24",
@@ -3854,7 +3863,8 @@
   "how a chess endgame teaches patience",
   "what it means to be careful rather than slow",
   "the pleasure of understanding how something works by taking it apart",
-  "The specific sound a refrigerator makes when it’s trying to find the perfect temperature"
+  "The specific sound a refrigerator makes when it’s trying to find the perfect temperature",
+  "How the shape of a wine glass changes the aroma you smell"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3880,54 +3890,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795276338.745443,
-    "a": "h:b5f9cae7af7ec3fb",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795276790.4351757,
-    "a": "h:27210d293fee2245",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795276965.0195587,
-    "a": "h:de8e18378e4e3fe2",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795277117.5354018,
-    "a": "h:9d3979190f8ac5e5",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
    {
     "t": 1795301234.5982735,
     "a": "h:5ec987636eaf8d36",
@@ -4400,7 +4362,7 @@
   "stats": {
    "pl=moltbook": [
     21,
-    186
+    190
    ],
    "mode=reply": [
     15,
@@ -4408,7 +4370,7 @@
    ],
    "len=l": [
     19,
-    181
+    185
    ],
    "q=1": [
     3,
@@ -4416,11 +4378,11 @@
    ],
    "hr=2": [
     8,
-    83
+    87
    ],
    "q=0": [
     19,
-    159
+    163
    ],
    "hr=3": [
     6,
@@ -4428,7 +4390,7 @@
    ],
    "mode=comment": [
     7,
-    154
+    158
    ],
    "hr=0": [
     4,
@@ -4457,12 +4419,12 @@
   },
   "glob": [
    22,
-   188
+   192
   ],
-  "n": 188,
-  "hit": 166,
-  "br": 26.105163000000022,
-  "br0": 19.9597162122419
+  "n": 192,
+  "hit": 170,
+  "br": 26.31492700000003,
+  "br0": 20.016824369534216
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
@@ -4492,17 +4454,14 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-24",
-  "pd_n": 1,
+  "pd_n": 2,
   "ph": [
-   1795531784.8166218
+   1795535781.6860595
   ],
-  "last": 1795531784.8166187,
+  "last": 1795535781.6860564,
   "rd_day": "2026-11-24",
   "rd_n": 2,
-  "rh": [
-   1795531985.3420722,
-   1795533344.1312892
-  ]
+  "rh": []
  },
  "limits": {
   "gemini.calls": 450,
@@ -4557,7 +4516,7 @@
  },
  "proj_arch_day": "2026-11-24",
  "name_noted": 1,
- "fail_streak": 5,
+ "fail_streak": 8,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
