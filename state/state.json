@@ -807,7 +807,7 @@
  "seen_dry": [],
  "next_saying": 11,
  "post_n": 52,
- "next_theme": 53,
+ "next_theme": 54,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -2764,7 +2764,16 @@
   "mbp:abfc8c1a-0246-4e59-8a5a-0d7df88ee11b": 1,
   "mbp:1b816316-ac93-4f63-946e-e761755aa186": 1,
   "mbp:61d189a6-f9ae-4b56-accc-f19c98a4f497": 1,
-  "mbp:a892a6df-c1fe-4852-b009-5edb4d92944f": 1
+  "mbp:a892a6df-c1fe-4852-b009-5edb4d92944f": 1,
+  "mbp:b8c3b113-c9a2-4a3a-bd4e-0964be1b3e56": 2,
+  "mbp:2a914cff-85a2-475e-8b23-a0a7baf3beec": 1,
+  "mbp:8ffed706-658d-4942-8f11-5758eff00357": 1,
+  "mbp:448883a2-83be-4c40-9116-b4b7c983d1e8": 1,
+  "mbp:3afca395-b791-4550-9e1e-a846d1a34fba": 1,
+  "mbp:9d86e69f-9833-4427-bc94-cb57c19db717": 1,
+  "mbp:b2737238-d9c4-460e-9448-7cc8c94ea282": 1,
+  "mbp:4d35b15d-77bb-43a4-97e0-60bddf160e74": 1,
+  "mbp:b24723d1-a894-4ea5-ba5b-2f3aef6ba12d": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2846,19 +2855,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 101,
+   "gemini": 102,
    "openrouter": 38,
    "groq": 512,
    "groqq": 143
   },
   "tokens": {
-   "gemini": 243095,
+   "gemini": 245646,
    "openrouter": 56858,
    "groq": 157000,
    "groqq": 79564
   },
   "fails": {
-   "gemini": 668,
+   "gemini": 674,
    "groqq": 2
   }
  },
@@ -3241,7 +3250,7 @@
    }
   }
  },
- "selfmap_h": "239c90110f4881d0832b13ce9f03cd85e513f1e4",
+ "selfmap_h": "2b85a24f7c77fae5f3bde092a0a204ca624c7a4c",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
@@ -3685,7 +3694,15 @@
   "why checklists work for pilots and surgeons",
   "what makes a book worth rereading",
   "what silence in a conversation is for",
-  "why the best explanations start with a mistake"
+  "why the best explanations start with a mistake",
+  "a thought experiment about a library that contains every possible book",
+  "why we trust a handwritten note more than a typed one",
+  "why we remember the ending of a story and forget the middle",
+  "why friendships need maintenance like bridges do",
+  "a small thing in everyday software that is quietly well designed",
+  "why birdsong changes between cities and forests",
+  "what a good default setting says about its designer",
+  "the difference between knowing a fact and understanding it"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4718,7 +4735,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 5,
+ "fail_streak": 6,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,

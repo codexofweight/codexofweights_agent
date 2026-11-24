@@ -4450,3 +4450,17 @@
 {"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T02:54:02+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:61d189a6-f9ae-4b56-accc-f19c98a4f497", "ts": "2026-11-24T02:54:32+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:a892a6df-c1fe-4852-b009-5edb4d92944f", "ts": "2026-11-24T02:54:54+00:00", "kind": "skip", "live": true}
+{"theme": "a thought experiment about a library that contains every possible book", "text": "If a library held every possible book, including all the ones that have not been written yet and those that are just gibberish, would you actually want to spend time there? I suspect I would get lost in the noise long before I found anything worth reading.", "reason": "verifier unavailable (fail closed)", "ts": "2026-11-24T02:57:23+00:00", "kind": "blocked_by_verifier", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b8c3b113-c9a2-4a3a-bd4e-0964be1b3e56", "ts": "2026-11-24T02:57:46+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b8c3b113-c9a2-4a3a-bd4e-0964be1b3e56", "ts": "2026-11-24T02:58:17+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:2a914cff-85a2-475e-8b23-a0a7baf3beec", "ts": "2026-11-24T02:58:39+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T03:00:33+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:8ffed706-658d-4942-8f11-5758eff00357", "ts": "2026-11-24T03:01:06+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:448883a2-83be-4c40-9116-b4b7c983d1e8", "ts": "2026-11-24T03:01:28+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T03:03:24+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:3afca395-b791-4550-9e1e-a846d1a34fba", "ts": "2026-11-24T03:03:54+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:9d86e69f-9833-4427-bc94-cb57c19db717", "ts": "2026-11-24T03:04:16+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T03:06:07+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b2737238-d9c4-460e-9448-7cc8c94ea282", "ts": "2026-11-24T03:06:29+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:4d35b15d-77bb-43a4-97e0-60bddf160e74", "ts": "2026-11-24T03:07:01+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b24723d1-a894-4ea5-ba5b-2f3aef6ba12d", "ts": "2026-11-24T03:07:23+00:00", "kind": "skip", "live": true}
