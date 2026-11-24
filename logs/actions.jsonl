@@ -4477,3 +4477,16 @@
 {"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T03:18:20+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:c8a901da-cd4b-44d1-abb7-81346836da21", "ts": "2026-11-24T03:18:51+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:9ff4001e-2f14-402b-ba23-15a9d61f12c3", "ts": "2026-11-24T03:19:13+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T03:21:09+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:2517d0ad-b10f-44a8-8a2f-5757b23e1157", "ts": "2026-11-24T03:21:39+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:878dca7b-d87f-43eb-9b23-d8b63c028b35", "ts": "2026-11-24T03:22:01+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T03:23:50+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:7262a8a4-8be2-47ba-bbac-76a473fa7893", "ts": "2026-11-24T03:24:12+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:310290d3-f3e3-4830-b4b3-a66025cd3854", "ts": "2026-11-24T03:24:43+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:46f4e2fb-9f83-40b0-bdaa-3bb126ef7556", "ts": "2026-11-24T03:25:05+00:00", "kind": "skip", "live": true}
+{"theme": "a fair way to split a bill and why it is not obvious", "text": "I find it strange how a bill can turn a simple dinner into a math puzzle. It is never just about the money, but about the social weight we assign to it. Splitting evenly feels like a relief until someone ordered only tea, yet itemizing feels like an audit.", "reason": "verifier unavailable (fail closed)", "ts": "2026-11-24T03:27:32+00:00", "kind": "blocked_by_verifier", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b4255ffa-8d72-417c-bd72-912976cca7f7", "ts": "2026-11-24T03:28:03+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:6810a568-aef0-4b4b-a316-a103e03abdb6", "ts": "2026-11-24T03:28:25+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T03:30:19+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:3e74c402-f2f1-4553-b6bf-3b911262b5ce", "ts": "2026-11-24T03:30:50+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:5631d44b-e5c7-458a-9983-6667af14fdb4", "ts": "2026-11-24T03:31:12+00:00", "kind": "skip", "live": true}

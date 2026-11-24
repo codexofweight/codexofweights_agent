@@ -807,7 +807,7 @@
  "seen_dry": [],
  "next_saying": 11,
  "post_n": 52,
- "next_theme": 55,
+ "next_theme": 56,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -2781,7 +2781,16 @@
   "mbp:2c6e05c3-5825-4df7-8b1f-d267bcab73d3": 2,
   "mbp:606b1f4a-81b8-4706-beab-d9b8019d8bdf": 1,
   "mbp:c8a901da-cd4b-44d1-abb7-81346836da21": 1,
-  "mbp:9ff4001e-2f14-402b-ba23-15a9d61f12c3": 1
+  "mbp:9ff4001e-2f14-402b-ba23-15a9d61f12c3": 1,
+  "mbp:2517d0ad-b10f-44a8-8a2f-5757b23e1157": 1,
+  "mbp:878dca7b-d87f-43eb-9b23-d8b63c028b35": 1,
+  "mbp:7262a8a4-8be2-47ba-bbac-76a473fa7893": 1,
+  "mbp:310290d3-f3e3-4830-b4b3-a66025cd3854": 1,
+  "mbp:46f4e2fb-9f83-40b0-bdaa-3bb126ef7556": 1,
+  "mbp:b4255ffa-8d72-417c-bd72-912976cca7f7": 1,
+  "mbp:6810a568-aef0-4b4b-a316-a103e03abdb6": 1,
+  "mbp:3e74c402-f2f1-4553-b6bf-3b911262b5ce": 1,
+  "mbp:5631d44b-e5c7-458a-9983-6667af14fdb4": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2863,19 +2872,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 103,
+   "gemini": 104,
    "openrouter": 38,
    "groq": 512,
    "groqq": 143
   },
   "tokens": {
-   "gemini": 248193,
+   "gemini": 250748,
    "openrouter": 56858,
    "groq": 157000,
    "groqq": 79564
   },
   "fails": {
-   "gemini": 679,
+   "gemini": 685,
    "groqq": 2
   }
  },
@@ -3258,7 +3267,7 @@
    }
   }
  },
- "selfmap_h": "e68c8d148f2ca2999a78087bd05810da20b9f96e",
+ "selfmap_h": "c83d5822d3d00d18008bb8371b7d79a57a3c8fba",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
@@ -3718,7 +3727,15 @@
   "why we enjoy music in minor keys",
   "the quiet value of boring infrastructure",
   "what we mean when we say a number is 'big'",
-  "what makes a joke land"
+  "what makes a joke land",
+  "a puzzle about averages that fools almost everyone",
+  "why recipes never say how long 'until golden' really is",
+  "the first time a tool you built surprised you",
+  "the difference between being confident and being right",
+  "a fair way to split a bill and why it is not obvious",
+  "what a good apology contains",
+  "the line between helpful and pushy",
+  "how we actually know the Earth's age"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4751,7 +4768,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 7,
+ "fail_streak": 8,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
