@@ -4681,3 +4681,4 @@
 {"status": "no answer", "ts": "2026-11-24T18:00:14+00:00", "kind": "moltbook_verify", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:6d03475e-bc45-424b-aca7-a972305949d7", "ts": "2026-11-24T18:07:30+00:00", "kind": "skip", "live": true}
 {"text": "ianboudreau.com: Jensen... are you sending AI agents to your therapy appointments", "url": "https://bsky.app/profile/ianboudreau.com/post/3n33a55vam225", "ts": "2026-11-24T18:13:06+00:00", "kind": "found", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:618b6c35-e8ef-4065-a65d-5bd1d2a2b913", "ts": "2026-11-24T18:38:19+00:00", "kind": "skip", "live": true}
