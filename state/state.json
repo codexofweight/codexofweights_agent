@@ -3,13 +3,6 @@
  "posts_today": 1,
  "replies_today": 2,
  "seen": [
-  "mbp:360ced01-8bcd-45d9-8b42-4aeda1d0bc7c",
-  "mbp:2b1f403a-02cf-4eff-afdd-80b89edb18b9",
-  "mbp:9e7f30eb-f996-412b-b2b9-c40e22a00aa9",
-  "mbp:0bb88fd5-6ff3-4b4c-9f45-17e91ffc2212",
-  "mbp:14d3af6f-5ddf-462b-931a-042c0a9d1056",
-  "mbp:aead700b-2533-41df-80cf-a4628c4d3d51",
-  "mbp:79818efd-bbcd-4a77-9993-2a54d455d2c4",
   "mbp:3ac8db4b-a7b7-4011-9990-c7f039323cd9",
   "mbp:cff8244a-1872-46f3-a617-10e221800746",
   "mbp:67d70126-b215-448c-9751-572cd686dadc",
@@ -802,7 +795,14 @@
   "mbp:c2711eda-9e07-4ff8-b6b2-1be14aac3ef8",
   "mbp:8f2ef717-426d-411c-a03d-2f095049e5c1",
   "mbp:ec9c05c2-5267-4a95-a555-6ce52613a394",
-  "mbp:6c7b51fb-1c70-4b16-a166-1f1bd0e137d2"
+  "mbp:6c7b51fb-1c70-4b16-a166-1f1bd0e137d2",
+  "mbp:91ff914c-87f7-4b0b-aab4-28b106731f7d",
+  "mbp:c74ea0eb-1f4b-4afb-b693-c49a640c1c6e",
+  "mbp:e8452d9f-4fa8-452a-b28b-d176b0848eb8",
+  "mbp:3bf6b087-4263-47b3-a2e6-0e45e383708e",
+  "mbp:8a89a2b0-117c-4d6b-b13d-5f87ef878256",
+  "mbp:20dbd1f5-195e-47c3-9fde-6e65d0bc1210",
+  "mbp:e3a3e5a3-3599-4f84-92c4-27ddb41dfcc8"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -815,7 +815,7 @@
   "moltbook:mb:d6eba228-6d51-46e7-99ff-032fcbdb618c": 2
  },
  "paused": false,
- "tg_offset": 679134415,
+ "tg_offset": 679134424,
  "init_today": 0,
  "last_post": 1795526546.5182781,
  "found_day": "2026-11-23",
@@ -2821,7 +2821,11 @@
   "mbp:1b177ce6-db1a-465c-8c90-956f5ee2e35f": 1,
   "mbp:d190de21-ff54-4893-b4d8-0366830a02af": 1,
   "mbp:edca7e09-37f3-4666-828c-738ec92b54fb": 1,
-  "mbp:011710cf-537c-4712-a5bc-24c55dceb235": 1
+  "mbp:011710cf-537c-4712-a5bc-24c55dceb235": 1,
+  "mbp:697e7911-380e-49ef-bbfb-858c5d1e776e": 1,
+  "mbp:29e92a74-de3d-4bf3-a00e-601f44ff5ef7": 1,
+  "mbp:415c7877-d127-4b18-97e9-592171015456": 2,
+  "mbp:4dec58b1-b6a3-45f2-a44b-3f2c608e074c": 1
  },
  "research_day": "2026-11-24",
  "read_urls": [
@@ -2906,19 +2910,19 @@
  "usage": {
   "day": "2026-11-24",
   "calls": {
-   "groq": 287,
+   "groq": 289,
    "openrouter": 25,
    "gemini": 2,
-   "groqq": 21
+   "groqq": 33
   },
   "tokens": {
-   "groq": 123724,
+   "groq": 131539,
    "openrouter": 69256,
    "gemini": 453,
-   "groqq": 8301
+   "groqq": 12074
   },
   "fails": {
-   "gemini": 216,
+   "gemini": 285,
    "groqq": 1
   }
  },
@@ -3331,13 +3335,13 @@
    }
   }
  },
- "selfmap_h": "1009255443a7792adc9850141925be52400bdc4d",
+ "selfmap_h": "5cfacb8bac684ca6f8bd8ac293f0481fc5351963",
  "bio_idx_day": "2026-11-24",
  "code_ver": "a09854ad",
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "4c8574d3d272b0ed82e1ea20d06de6c592ccbd85",
+ "priv_h": "f2c955bcfe2b961ba32321bb0589cbde7827c20d",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3868,126 +3872,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795269569.19142,
-    "a": "h:360be0e3e0d438db",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.205
-   },
-   {
-    "t": 1795269773.198175,
-    "a": "h:c2068c7a217da2ba",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795269951.0399575,
-    "a": "h:7a31028d3df3ecd4",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795269993.2384634,
-    "a": "h:a3ae900651cfb595",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795270970.8860984,
-    "a": "h:eb9a2516e648fc7f",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795271202.6812792,
-    "a": "h:272e79fe24fc4f22",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=m",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.235
-   },
-   {
-    "t": 1795271444.1103346,
-    "a": "h:c5ae8cabaabdb943",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.205
-   },
-   {
-    "t": 1795271627.7180638,
-    "a": "h:df2f5db2ea300a50",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795271956.8243792,
-    "a": "h:52792e1fd5ffdebc",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.229
-   },
-   {
-    "t": 1795272143.1117914,
-    "a": "h:7106e246e61bc74a",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.205
-   },
    {
     "t": 1795272503.1206381,
     "a": "h:b5f9cae7af7ec3fb",
@@ -4616,27 +4500,27 @@
   "stats": {
    "pl=moltbook": [
     21,
-    165
+    175
    ],
    "mode=reply": [
     15,
-    33
+    34
    ],
    "len=l": [
     19,
-    162
+    171
    ],
    "q=1": [
     3,
-    23
+    26
    ],
    "hr=2": [
     8,
-    62
+    72
    ],
    "q=0": [
     19,
-    144
+    151
    ],
    "hr=3": [
     6,
@@ -4644,7 +4528,7 @@
    ],
    "mode=comment": [
     7,
-    134
+    143
    ],
    "hr=0": [
     4,
@@ -4652,7 +4536,7 @@
    ],
    "len=m": [
     3,
-    4
+    5
    ],
    "hr=1": [
     4,
@@ -4673,12 +4557,12 @@
   },
   "glob": [
    22,
-   167
+   177
   ],
-  "n": 167,
-  "hit": 145,
-  "br": 25.067655000000006,
-  "br0": 19.615677822358283
+  "n": 177,
+  "hit": 155,
+  "br": 25.563601000000013,
+  "br0": 19.789545136054254
  },
  "idprobe_alert_day": "2026-11-22",
  "lk_day": {
@@ -4768,7 +4652,7 @@
  },
  "proj_arch_day": "2026-11-24",
  "name_noted": 1,
- "fail_streak": 5,
+ "fail_streak": 10,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4787,5 +4671,35 @@
  ],
  "stop_guard_fail": {
   "mbp:88f98b63-b6a8-4b19-84bf-99e319a71e7a": 1795530122.3352203
+ },
+ "route": {
+  "research": [
+   "groq",
+   "groqq",
+   "openrouter",
+   "mistral",
+   "gemini"
+  ],
+  "micro": [
+   "groq",
+   "groqq",
+   "openrouter",
+   "mistral",
+   "gemini"
+  ],
+  "classify": [
+   "groq",
+   "groqq",
+   "openrouter",
+   "mistral",
+   "gemini"
+  ],
+  "code": [
+   "groq",
+   "groqq",
+   "openrouter",
+   "mistral",
+   "gemini"
+  ]
  }
 }

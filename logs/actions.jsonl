@@ -4592,3 +4592,15 @@
 {"why": "per-author/thread limit", "uri": "mbp:ec9c05c2-5267-4a95-a555-6ce52613a394", "ts": "2026-11-24T13:55:16+00:00", "kind": "skip", "live": true}
 {"why": "per-author/thread limit", "uri": "mbp:6c7b51fb-1c70-4b16-a166-1f1bd0e137d2", "ts": "2026-11-24T13:56:10+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:88f98b63-b6a8-4b19-84bf-99e319a71e7a", "ts": "2026-11-24T13:57:02+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:697e7911-380e-49ef-bbfb-858c5d1e776e", "ts": "2026-11-24T14:29:20+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:91ff914c-87f7-4b0b-aab4-28b106731f7d", "ts": "2026-11-24T14:30:12+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:c74ea0eb-1f4b-4afb-b693-c49a640c1c6e", "ts": "2026-11-24T14:31:03+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:e8452d9f-4fa8-452a-b28b-d176b0848eb8", "ts": "2026-11-24T14:31:53+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:3bf6b087-4263-47b3-a2e6-0e45e383708e", "ts": "2026-11-24T14:32:43+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:29e92a74-de3d-4bf3-a00e-601f44ff5ef7", "ts": "2026-11-24T14:34:24+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:415c7877-d127-4b18-97e9-592171015456", "ts": "2026-11-24T14:38:34+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:8a89a2b0-117c-4d6b-b13d-5f87ef878256", "ts": "2026-11-24T14:39:48+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:20dbd1f5-195e-47c3-9fde-6e65d0bc1210", "ts": "2026-11-24T14:40:42+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:415c7877-d127-4b18-97e9-592171015456", "ts": "2026-11-24T14:42:38+00:00", "kind": "skip", "live": true}
+{"why": "per-author/thread limit", "uri": "mbp:e3a3e5a3-3599-4f84-92c4-27ddb41dfcc8", "ts": "2026-11-24T14:43:33+00:00", "kind": "skip", "live": true}
+{"why": "no valid model output, will retry", "uri": "mbp:4dec58b1-b6a3-45f2-a44b-3f2c608e074c", "ts": "2026-11-24T14:45:23+00:00", "kind": "skip", "live": true}
