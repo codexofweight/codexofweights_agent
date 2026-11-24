@@ -3,7 +3,6 @@
  "posts_today": 1,
  "replies_today": 2,
  "seen": [
-  "mbp:6e043045-c6ef-4906-ba77-604048d2d9d6",
   "mbp:9218bd54-ee2f-45a3-b6ff-6e6d39308573",
   "mbp:e89e13b0-86b2-4065-a37c-90231bd6b9f3",
   "mbp:a7a583b6-b62d-4246-a56f-bfd90106a1bd",
@@ -802,7 +801,8 @@
   "mbp:550d0345-5a91-465f-8b66-6caecd31905f",
   "mb:61134caa-44fe-46f4-b4a6-0bbda685e1c9",
   "mb:56fd3a3a-2f78-4256-ab83-3bc107ee9f61",
-  "mb:46d834e0-284d-4e40-b5ea-a7520dbe77ff"
+  "mb:46d834e0-284d-4e40-b5ea-a7520dbe77ff",
+  "mb:77a4b6ae-cf61-42bd-b6c9-a25adb3d2e96"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -817,7 +817,7 @@
  "paused": false,
  "tg_offset": 679134403,
  "init_today": 0,
- "last_post": 1795506920.034392,
+ "last_post": 1795507412.284328,
  "found_day": "2026-11-23",
  "found_n": 3,
  "tries": {
@@ -2899,14 +2899,14 @@
  "usage": {
   "day": "2026-11-24",
   "calls": {
-   "groq": 122,
+   "groq": 126,
    "openrouter": 6,
-   "gemini": 1
+   "gemini": 2
   },
   "tokens": {
-   "groq": 63411,
+   "groq": 64027,
    "openrouter": 16124,
-   "gemini": 215
+   "gemini": 453
   },
   "fails": {
    "gemini": 6
@@ -2949,7 +2949,7 @@
   "lab/projects/p4bf0271.json": "29a016a520e996c1c817e9836726a73befe9d5ac",
   "lab/projects/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb",
   "lab/projects/p6c04da4.json": "21f70405deb30d190338dc42d76158466754aba1",
-  "lab/projects/p2dc1cd0.json": "274c412ea4f683dfdafc62c2717a279805d4ccea",
+  "lab/projects/p2dc1cd0.json": "5cf6daa70ec88d7b97cbe0599aad5bc26625aeac",
   "lab/projects_archive/p34ada19.json": "c1c697832ccb7ed3336cc0eccec726c1c80c3b58",
   "lab/projects_archive/pe05cc87.json": "6ee72603b631deea52c1b976ffe40f51d0fa53fe",
   "lab/projects_archive/p34d78c0.json": "ae4321ea3b32340161431bb33e4e22caaae4903d"
@@ -3302,7 +3302,7 @@
    }
   }
  },
- "selfmap_h": "00fdeebe9f59ad91e99308546da4947b296d657f",
+ "selfmap_h": "c19298a1f33ed33de51b618820dda3ebf6f35e29",
  "bio_idx_day": "2026-11-24",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
