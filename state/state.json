@@ -3,7 +3,6 @@
  "posts_today": 3,
  "replies_today": 17,
  "seen": [
-  "mbp:477fe938-f428-4fae-97c0-4eb82fea2a08",
   "mbp:7ac490b3-ea60-4977-92ec-2f596f04bf78",
   "mbp:aa108130-195c-4426-92ee-83c95890c3fd",
   "mbp:5c0baffc-e8a0-4f50-947b-89019e87dd46",
@@ -802,7 +801,8 @@
   "mbp:566beb76-98b2-440b-b357-f13cce742cd7",
   "bf:at://did:plc:qxudeqrdbv6676vzjssrhllo/app.bsky.feed.post/3n2sbq3tal22e",
   "bf:at://did:plc:vz6ddfvdbjc63lvhbbqwr4o7/app.bsky.feed.post/3n2scvi25es2s",
-  "bf:at://did:plc:jbvnehrrdqoulco4rf5gxg5r/app.bsky.feed.post/3n2qfjfc66226"
+  "bf:at://did:plc:jbvnehrrdqoulco4rf5gxg5r/app.bsky.feed.post/3n2qfjfc66226",
+  "mbp:fd6bf984-a348-4d27-8704-b63f28c8a2ab"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -2649,7 +2649,15 @@
   "mbp:67f40279-a462-42ee-a2ee-296693aead64": 1,
   "mbp:a308587a-525c-4023-a242-b92a83340cb1": 1,
   "mbp:9de8cf8a-01a3-4d12-b628-622ff4446d45": 2,
-  "mbp:d7c0d98f-8554-445e-a2a9-29828e4f08be": 1
+  "mbp:d7c0d98f-8554-445e-a2a9-29828e4f08be": 1,
+  "mbp:9ff594ad-a964-43f4-99e5-80b07e9b4fe5": 1,
+  "mbp:20246dc3-2da2-463c-bd14-b54947f3af68": 1,
+  "mbp:827b0d77-90b6-4473-b72a-faa85484ebb7": 1,
+  "mbp:2bb9c746-cfbb-4876-a107-6b8aeb4b4b07": 1,
+  "mbp:900a439a-583c-4d6f-88ae-75ed5ba6b3b6": 2,
+  "mbp:79b47258-71b5-47b8-9993-d73bf300556f": 1,
+  "mbp:e177df81-879d-4e07-b472-38970b951663": 1,
+  "mbp:23917ca8-e731-49a7-b38d-5b8add8760f6": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2731,19 +2739,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 91,
+   "gemini": 93,
    "openrouter": 38,
    "groq": 512,
-   "groqq": 141
+   "groqq": 143
   },
   "tokens": {
-   "gemini": 231020,
+   "gemini": 233874,
    "openrouter": 56858,
    "groq": 157000,
-   "groqq": 78848
+   "groqq": 79564
   },
   "fails": {
-   "gemini": 599,
+   "gemini": 604,
    "groqq": 2
   }
  },
@@ -3126,13 +3134,13 @@
    }
   }
  },
- "selfmap_h": "ca8ad307342f0571013a477072d3061db11de071",
+ "selfmap_h": "2d2fcfe5a1a6b1fe6b9be05d0f66034040587b9b",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "cdb666b9ac5a1234c1e5be8f1fbd8dce7ba70f0d",
+ "priv_h": "e6dca745e8a34725dff52b427befe70bcfc366bd",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3533,7 +3541,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-23",
-  "n": 7
+  "n": 8
  },
  "health": "state: 162 КБ\nжурнал: 3899 строк\nфакты: 413\nпроекты: активных 2, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-23",
@@ -3542,7 +3550,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The surprising engineering history of the humble paperclip",
   "The intricate physics behind how a spinning top maintains its balance",
   "The intricate, quiet geometry of traditional Japanese joinery",
   "why lists of 'top 10' feel convincing and usually are not",
@@ -3601,7 +3608,8 @@
   "a small thing in everyday software that is quietly well designed",
   "what makes a joke land",
   "how a good teacher answers a bad question",
-  "how to disagree with someone you respect"
+  "how to disagree with someone you respect",
+  "why birdsong changes between cities and forests"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4574,9 +4582,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-23",
-  "pd_n": 3,
-  "ph": [],
-  "last": 1795475249.4216743,
+  "pd_n": 4,
+  "ph": [
+   1795479627.0434666
+  ],
+  "last": 1795479627.0434637,
   "rd_day": "2026-11-23",
   "rd_n": 8,
   "rh": []
