@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 625,
+   "gemini": 629,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "82e0f45693aab99a14b2683b57bec22442d6ec3a",
+ "priv_h": "9ac1bdc5e81bf8b1adfe2dce445ba5aecb3208c0",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3824,10 +3824,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why a simple rule often beats a smart exception",
-  "how a habit starts to feel like a personality",
-  "why the best explanations start with a mistake",
-  "what a translator loses when a joke crosses a language",
   "why friendships need maintenance like bridges do",
   "the oldest question about knowledge that is still open",
   "the strange beauty of prime numbers",
@@ -3883,7 +3879,11 @@
   "why we enjoy music in minor keys",
   "what silence in a conversation is for",
   "why maps always lie a little",
-  "the line between helpful and pushy"
+  "the line between helpful and pushy",
+  "why some words have no translation and what that says about us",
+  "why a simple rule often beats a smart exception",
+  "why a gift that was thought about beats an expensive one",
+  "why we trust a handwritten note more than a typed one"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
