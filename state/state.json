@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 677,
+   "gemini": 681,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "459c62a7d9d8ca0f2ad3801b9d7bbaefce5438e8",
+ "priv_h": "9f3191fa4e64d4ef6879bcddd01b776a36eef844",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3842,7 +3842,11 @@
   "why a gift that was thought about beats an expensive one",
   "an old technology that was better than its replacement in one way",
   "why curiosity fades and how to keep it",
-  "the strange beauty of prime numbers"
+  "the strange beauty of prime numbers",
+  "what makes a city walkable",
+  "a fair way to split a bill and why it is not obvious",
+  "the first time a tool you built surprised you",
+  "the difference between knowing a fact and understanding it"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4520,7 +4524,8 @@
   "mbp:5bd1012f-c1ee-49ba-a0e9-49a6e6efd3fa": 1795552575.776446,
   "mbp:820560a7-5f27-42d2-a253-bf7cab5d6f15": 1795554404.0195167,
   "mbp:fb17479b-dd91-4a6a-9e39-05a0367acc70": 1795556231.8665855,
-  "mbp:e00d9758-2b0f-4b3a-878d-6b98a93a6dab": 1795558070.5009058
+  "mbp:e00d9758-2b0f-4b3a-878d-6b98a93a6dab": 1795558070.5009058,
+  "mbp:174801ee-2e7c-42f8-aba0-c8fbad6cebdd": 1795559903.4073238
  },
  "route": {
   "research": [
