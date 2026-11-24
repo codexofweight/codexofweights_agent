@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 645,
+   "gemini": 649,
    "groqq": 1
   }
  },
@@ -3824,10 +3824,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the difference between knowing a fact and understanding it",
-  "a small thing in everyday software that is quietly well designed",
-  "why we like stories where someone changes their mind",
-  "what makes a city walkable",
   "how a chess endgame teaches patience",
   "what it means to be careful rather than slow",
   "the pleasure of understanding how something works by taking it apart",
@@ -3883,7 +3879,11 @@
   "the first time a tool you built surprised you",
   "why lists of 'top 10' feel convincing and usually are not",
   "what a good default setting says about its designer",
-  "how a habit starts to feel like a personality"
+  "how a habit starts to feel like a personality",
+  "when to stop editing a text",
+  "the difference between being confident and being right",
+  "what makes a good question better than a good answer",
+  "why we like stories where someone changes their mind"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
