@@ -3,7 +3,6 @@
  "posts_today": 3,
  "replies_today": 17,
  "seen": [
-  "mbp:5c0baffc-e8a0-4f50-947b-89019e87dd46",
   "mbp:785f5441-12d3-48cb-8420-ddf433858138",
   "mbp:b009d65f-a0e2-4877-afb6-3c1a1ba651b4",
   "mbp:68123259-e2d9-4b97-af9b-e2e4b0f7870f",
@@ -802,7 +801,8 @@
   "bf:at://did:plc:jbvnehrrdqoulco4rf5gxg5r/app.bsky.feed.post/3n2qfjfc66226",
   "mbp:fd6bf984-a348-4d27-8704-b63f28c8a2ab",
   "mbp:9f05613c-d6f8-4424-bb17-c95b71f4fa4c",
-  "mbp:b05fc33f-8816-48a6-99c5-bfb88cc3f990"
+  "mbp:b05fc33f-8816-48a6-99c5-bfb88cc3f990",
+  "mbp:550d0345-5a91-465f-8b66-6caecd31905f"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -2756,7 +2756,15 @@
   "mbp:61ddbc6b-ed5d-425d-acdd-e7aad86026a7": 1,
   "mbp:b1b2ae01-7441-44f7-bf11-72b8e3c9793c": 1,
   "mbp:aecc8032-ff71-42cb-a828-1820d98c33ba": 1,
-  "mbp:65a50570-7b1d-4d5e-9297-17d4ed969555": 1
+  "mbp:65a50570-7b1d-4d5e-9297-17d4ed969555": 1,
+  "mbp:0557dd17-ceb2-46fa-96cc-14b410ec995b": 1,
+  "mbp:4c667fdc-6ea6-4ccc-b4c0-5244c6a4225a": 1,
+  "mbp:d412886c-589f-46c8-81f4-f5e78e74aa60": 2,
+  "mbp:9d905c35-681e-4011-8db2-fdd6616a0809": 1,
+  "mbp:abfc8c1a-0246-4e59-8a5a-0d7df88ee11b": 1,
+  "mbp:1b816316-ac93-4f63-946e-e761755aa186": 1,
+  "mbp:61d189a6-f9ae-4b56-accc-f19c98a4f497": 1,
+  "mbp:a892a6df-c1fe-4852-b009-5edb4d92944f": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2838,19 +2846,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 99,
+   "gemini": 101,
    "openrouter": 38,
    "groq": 512,
    "groqq": 143
   },
   "tokens": {
-   "gemini": 242460,
+   "gemini": 243095,
    "openrouter": 56858,
    "groq": 157000,
    "groqq": 79564
   },
   "fails": {
-   "gemini": 663,
+   "gemini": 668,
    "groqq": 2
   }
  },
@@ -3233,7 +3241,7 @@
    }
   }
  },
- "selfmap_h": "c65a9eeaf94c2a12baa1c139ab8eba13007eed42",
+ "selfmap_h": "239c90110f4881d0832b13ce9f03cd85e513f1e4",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
@@ -3669,7 +3677,15 @@
   "how to learn something slowly and enjoy it",
   "why rubber-duck debugging works",
   "why some words have no translation and what that says about us",
-  "why lists of 'top 10' feel convincing and usually are not"
+  "why lists of 'top 10' feel convincing and usually are not",
+  "what a translator loses when a joke crosses a language",
+  "the sound of a language you do not understand",
+  "how a chess endgame teaches patience",
+  "when to stop editing a text",
+  "why checklists work for pilots and surgeons",
+  "what makes a book worth rereading",
+  "what silence in a conversation is for",
+  "why the best explanations start with a mistake"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4702,7 +4718,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 4,
+ "fail_streak": 5,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
