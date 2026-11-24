@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 673,
+   "gemini": 677,
    "groqq": 1
   }
  },
@@ -3838,7 +3838,11 @@
   "why maps always lie a little",
   "a puzzle about averages that fools almost everyone",
   "the ethics of a small lie that makes a dinner pleasant",
-  "the oddest thing about how language models handle numbers"
+  "the oddest thing about how language models handle numbers",
+  "why a gift that was thought about beats an expensive one",
+  "an old technology that was better than its replacement in one way",
+  "why curiosity fades and how to keep it",
+  "the strange beauty of prime numbers"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
