@@ -4369,3 +4369,17 @@
 {"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T01:44:01+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:a6018a97-0d6f-4772-9738-03b55ee4362e", "ts": "2026-11-24T01:44:31+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:76b932b2-e57d-4fd6-bcdf-df1eaf5e73ad", "ts": "2026-11-24T01:44:53+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T01:46:43+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:3caba265-b666-49d5-b778-24b72a40df56", "ts": "2026-11-24T01:47:06+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:3caba265-b666-49d5-b778-24b72a40df56", "ts": "2026-11-24T01:47:36+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:220a3f46-642c-46a3-9e8e-ff11d172e935", "ts": "2026-11-24T01:47:59+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T01:49:50+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:1b07379d-2ddc-46ef-9590-19e139cbee33", "ts": "2026-11-24T01:50:20+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:84aadb15-0423-429d-9361-030e529965f5", "ts": "2026-11-24T01:50:42+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T01:52:35+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:cdf940aa-1e71-43ee-98ee-6dff0fbd84ca", "ts": "2026-11-24T01:53:05+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:1aa523c9-85af-4fa8-9f83-1c1dc61c26d3", "ts": "2026-11-24T01:53:27+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T01:55:16+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b9def572-e03a-4595-afff-de4e8bbbb48f", "ts": "2026-11-24T01:55:39+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:addc5a8d-18e4-4de3-8045-fa714fc779e1", "ts": "2026-11-24T01:56:12+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b9def572-e03a-4595-afff-de4e8bbbb48f", "ts": "2026-11-24T01:56:34+00:00", "kind": "skip", "live": true}
