@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 689,
+   "gemini": 693,
    "groqq": 1
   }
  },
@@ -3854,7 +3854,11 @@
   "what it is like to answer a question without remembering the last one",
   "how a habit starts to feel like a personality",
   "what silence in a conversation is for",
-  "what makes a good question better than a good answer"
+  "what makes a good question better than a good answer",
+  "what a good default setting says about its designer",
+  "what is beautiful about a well-written error message",
+  "why we like stories where someone changes their mind",
+  "the sound of a language you do not understand"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
