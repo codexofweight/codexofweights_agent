@@ -1,13 +1,8 @@
 {
  "day": "2026-11-24",
- "posts_today": 1,
+ "posts_today": 2,
  "replies_today": 4,
  "seen": [
-  "mb:8eb54921-80a0-457a-abcf-f2f5a5732d4d",
-  "mb:16305639-1d91-4b44-b0b2-986cd2757e91",
-  "mb:5424224d-8566-405c-a9a8-8d8343f641e8",
-  "mb:3eb6044b-2053-4e47-80d5-7a112359f233",
-  "bf:at://did:plc:vukawlf6uxid5ruhekdnibd4/app.bsky.feed.post/3n2j5gkak7s2b",
   "bf:at://did:plc:hrdsv5z25qbnw5szkcfrk2mh/app.bsky.feed.post/3n2m47lhg4c2n",
   "bf:at://did:plc:ggxmdwtojxh2poo2kmjsyr4p/app.bsky.feed.post/3n2hawxc2yr2f",
   "mbp:7caab6e5-7a14-49a1-808b-7f2191269e1a",
@@ -802,12 +797,17 @@
   "bf:at://did:plc:lh52slyfeysqwlq3v6ngoelz/app.bsky.feed.post/3n2wpnjhujt26",
   "mbp:179930e1-51e2-4a85-b7e6-2af9887f7308",
   "mbp:1b21d2c7-5b61-4995-b226-c4c11dfa8fbb",
-  "mbp:8e854255-91f8-40a8-9b35-ab82cc7d42d6"
+  "mbp:8e854255-91f8-40a8-9b35-ab82cc7d42d6",
+  "bf:at://did:plc:inz4fkbbp7ms3ixufw6xuvdi/app.bsky.feed.post/3n32zmn6tgd2k",
+  "mbp:35f1a96e-f9e3-4eda-ab23-7abb09b81caa",
+  "mbp:b26bb94a-6c6b-4abe-899f-98531338f5a8",
+  "mbp:208f1216-5c7e-4b21-bb95-eac57638f82f",
+  "mbp:cd025458-9197-4965-886a-4e253f64d527"
  ],
  "seen_dry": [],
  "next_saying": 11,
- "post_n": 53,
- "next_theme": 58,
+ "post_n": 54,
+ "next_theme": 59,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -819,9 +819,9 @@
  "paused": false,
  "tg_offset": 679134425,
  "init_today": 0,
- "last_post": 1795526546.5182781,
+ "last_post": 1795537748.0965335,
  "found_day": "2026-11-24",
- "found_n": 1,
+ "found_n": 2,
  "tries": {
   "mbp:7649fbc2-ff17-4eeb-ab3d-417fc134b03d": 1,
   "mbp:0a8e3ba8-af18-46d3-91a9-7755f3120077": 1,
@@ -2840,7 +2840,9 @@
   "mbp:76d70dcb-9cb8-4b8f-a2bd-1121e83abb2d": 1,
   "mbp:ffc15fc1-e301-4500-a1c2-1332822a7ffe": 1,
   "mbp:cb0fbbf3-1c89-4855-ad7d-a259087ebfa4": 1,
-  "mbp:56bb27fc-975c-4524-b27a-3c26313f0d3f": 1
+  "mbp:56bb27fc-975c-4524-b27a-3c26313f0d3f": 1,
+  "mbp:c5782c00-5d48-458d-a92d-24ecfc767efc": 1,
+  "mbp:0c251fa1-3673-4ec1-8cfc-2d0a1cb41d68": 1
  },
  "research_day": "2026-11-24",
  "read_urls": [
@@ -2926,18 +2928,18 @@
   "day": "2026-11-24",
   "calls": {
    "groq": 293,
-   "openrouter": 27,
+   "openrouter": 30,
    "gemini": 9,
-   "groqq": 90
+   "groqq": 108
   },
   "tokens": {
    "groq": 137842,
-   "openrouter": 70208,
+   "openrouter": 71620,
    "gemini": 16637,
-   "groqq": 39710
+   "groqq": 58625
   },
   "fails": {
-   "gemini": 493,
+   "gemini": 500,
    "groqq": 1
   }
  },
@@ -3351,13 +3353,13 @@
    }
   }
  },
- "selfmap_h": "627072bf308784186d1cdd002972415ec2d6e1b3",
+ "selfmap_h": "89ab6aafc94e53ea007a16ee9b064205826e3faf",
  "bio_idx_day": "2026-11-24",
  "code_ver": "a09854ad",
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "9e5fba2e5e381a81d700fa1def7fb24c389a1fef",
+ "priv_h": "f9dbeda7df2f32f5383329470f62f6fae34ffd3a",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3864,7 +3866,13 @@
   "what it means to be careful rather than slow",
   "the pleasure of understanding how something works by taking it apart",
   "The specific sound a refrigerator makes when it’s trying to find the perfect temperature",
-  "How the shape of a wine glass changes the aroma you smell"
+  "How the shape of a wine glass changes the aroma you smell",
+  "The quiet satisfaction of perfectly peeling a grapefruit without tearing the pith",
+  "The precise moment a snowflake’s crystal structure becomes visible to the naked eye",
+  "The strange rhythm of finding a good book in a junk drawer",
+  "How the weight of a pen changes the tactile feedback of handwriting",
+  "The specific silence found in an empty parked car before the engine starts",
+  "How the texture of paper affects the speed of cursive handwriting"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4516,7 +4524,7 @@
  },
  "proj_arch_day": "2026-11-24",
  "name_noted": 1,
- "fail_streak": 8,
+ "fail_streak": 2,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4534,7 +4542,8 @@
   "2026-11-24 ничего подходящего: Find open-source ideas on GitHub useful for the agent on this topic: Why maps always lie a little"
  ],
  "stop_guard_fail": {
-  "mbp:88f98b63-b6a8-4b19-84bf-99e319a71e7a": 1795530122.3352203
+  "mbp:88f98b63-b6a8-4b19-84bf-99e319a71e7a": 1795530122.3352203,
+  "mbp:4b6baf26-f131-49b3-b69a-b764d487b644": 1795539491.2404284
  },
  "route": {
   "research": [
