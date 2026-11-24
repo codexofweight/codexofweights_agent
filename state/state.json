@@ -817,7 +817,7 @@
  "paused": false,
  "tg_offset": 679134406,
  "init_today": 0,
- "last_post": 1795524532.8450437,
+ "last_post": 1795524986.342563,
  "found_day": "2026-11-23",
  "found_n": 3,
  "tries": {
@@ -2899,17 +2899,17 @@
  "usage": {
   "day": "2026-11-24",
   "calls": {
-   "groq": 274,
-   "openrouter": 9,
+   "groq": 277,
+   "openrouter": 10,
    "gemini": 2
   },
   "tokens": {
-   "groq": 107487,
-   "openrouter": 29236,
+   "groq": 107949,
+   "openrouter": 29332,
    "gemini": 453
   },
   "fails": {
-   "gemini": 30
+   "gemini": 33
   }
  },
  "needs_today": [
@@ -2949,7 +2949,7 @@
   "lab/projects/p4bf0271.json": "29a016a520e996c1c817e9836726a73befe9d5ac",
   "lab/projects/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb",
   "lab/projects/p6c04da4.json": "21f70405deb30d190338dc42d76158466754aba1",
-  "lab/projects/p2dc1cd0.json": "87f72e4a2093789edaa1663f6eafdfc0810d184b"
+  "lab/projects/p2dc1cd0.json": "f3da1c28eabb2ca27c0b5dbbf4866b07e4c17a0c"
  },
  "research_try": {
   "2026-11-24": 1
@@ -3299,13 +3299,13 @@
    }
   }
  },
- "selfmap_h": "f397d8986091062b64032e7897ea793348b71237",
+ "selfmap_h": "3cb376ca792c05258302e312c92f24814d28b965",
  "bio_idx_day": "2026-11-24",
  "code_ver": "a09854ad",
  "backup_day": "2026-11-24",
  "backup_hash": "a09854ad",
  "transp_day": "2026-11-24",
- "priv_h": "fc290adc3f8673941707897173f8ce192111e828",
+ "priv_h": "087a3fc06aa75c7b8a8eac0f15a2cae32249067b",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
