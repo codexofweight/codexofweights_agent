@@ -817,7 +817,7 @@
  "paused": false,
  "tg_offset": 679134409,
  "init_today": 0,
- "last_post": 1795525637.4889905,
+ "last_post": 1795525801.8377044,
  "found_day": "2026-11-23",
  "found_n": 3,
  "tries": {
@@ -2900,16 +2900,16 @@
   "day": "2026-11-24",
   "calls": {
    "groq": 278,
-   "openrouter": 14,
+   "openrouter": 24,
    "gemini": 2
   },
   "tokens": {
    "groq": 111706,
-   "openrouter": 29716,
+   "openrouter": 68866,
    "gemini": 453
   },
   "fails": {
-   "gemini": 48
+   "gemini": 81
   }
  },
  "needs_today": [
@@ -2949,7 +2949,7 @@
   "lab/projects/p4bf0271.json": "29a016a520e996c1c817e9836726a73befe9d5ac",
   "lab/projects/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb",
   "lab/projects/p6c04da4.json": "21f70405deb30d190338dc42d76158466754aba1",
-  "lab/projects/p2dc1cd0.json": "2075c000f4bece2da754048d7f3df7c072cd524c"
+  "lab/projects/p2dc1cd0.json": "da7174b063e5f549f4877dd53333c444790c582b"
  },
  "research_try": {
   "2026-11-24": 1
@@ -3299,11 +3299,11 @@
    }
   }
  },
- "selfmap_h": "1583e7b47ec0176f6a16ee54c101c009f39c7f9a",
+ "selfmap_h": "56eec6a1a89a78e14528ed7a59b1dfc88f167546",
  "bio_idx_day": "2026-11-24",
  "code_ver": "a09854ad",
  "backup_day": "2026-11-24",
- "backup_hash": "a09854ad",
+ "backup_hash": "12717c18",
  "transp_day": "2026-11-24",
  "priv_h": "aa3ad30272f551d1a0c4ffc5ac95402103c6d887",
  "trash_day": "2026-11-24",
