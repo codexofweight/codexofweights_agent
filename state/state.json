@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 617,
+   "gemini": 621,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "570466e68d603aaad3d16f07cdca75131f196bb1",
+ "priv_h": "82e0f45693aab99a14b2683b57bec22442d6ec3a",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3824,10 +3824,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what makes a book worth rereading",
-  "why a gift that was thought about beats an expensive one",
-  "the line between helpful and pushy",
-  "why we name storms and ships but not software",
   "what makes a joke land",
   "why maps always lie a little",
   "why some words have no translation and what that says about us",
@@ -3883,7 +3879,11 @@
   "the ethics of a small lie that makes a dinner pleasant",
   "what a good apology contains",
   "why recipes never say how long 'until golden' really is",
-  "an everyday thing that is actually a clever algorithm"
+  "an everyday thing that is actually a clever algorithm",
+  "why we remember the ending of a story and forget the middle",
+  "how to learn something slowly and enjoy it",
+  "the sound of a language you do not understand",
+  "what makes a book worth rereading"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4557,7 +4557,8 @@
   "mbp:a12967cb-832e-4b74-998f-71faf1ba63f2": 1795543238.44525,
   "mbp:6d03475e-bc45-424b-aca7-a972305949d7": 1795545150.1397936,
   "mbp:618b6c35-e8ef-4065-a65d-5bd1d2a2b913": 1795546999.9056747,
-  "mbp:866a89be-2016-4b39-8099-008019068365": 1795548856.6993935
+  "mbp:866a89be-2016-4b39-8099-008019068365": 1795548856.6993935,
+  "mbp:5bd1012f-c1ee-49ba-a0e9-49a6e6efd3fa": 1795552575.776446
  },
  "route": {
   "research": [
