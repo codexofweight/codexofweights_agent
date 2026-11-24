@@ -152,21 +152,80 @@ def run(g):
         g["EXT_CMDS"]["/status"]("/status", "/status")
         check("/status is plain Russian with a verdict first", sent7 and ("Всё в порядке" in sent7[-1][:40] or "Обрати внимание" in sent7[-1][:40]) and "SELF-STATE" not in sent7[-1] and "Проекты:" in sent7[-1], sent7)
     finally: g["tg"] = old_tg7
-    old_all, old_new, old_room = g["proj_all"], g["proj_new"], g["_ap_room"]; made = []; sent8 = []; old_tg8 = g["tg"]
-    g["tg"] = lambda t, *a, **k: sent8.append(t); g["proj_all"] = lambda: []; g["proj_new"] = lambda k, goal, d=None: made.append((k, d)) or "p%07d" % len(made); g["_ap_room"] = lambda: (True, ("x", 1, 10))
-    g["ST"].pop("ap", None); g["ST"]["needs_today"] = [{"need": "keep a list of my promises", "kind": "module", "why": "consistency"}]; g["ST"]["plan"] = {"focus": "The underlying logic of everyday household chores"}
+    # 14. daily development (2026-11-24): one silent slot a day; odd days from a need, even days from the radar; asked once; failures never ping
+    import datetime as _dt
+    old_all, old_new, old_room, old_tg8, old_today, old_save = g["proj_all"], g["proj_new"], g["_dev_room"], g["tg"], g["today"], g["proj_save"]; made = []; sent8 = []
+    g["tg"] = lambda t, *a, **k: sent8.append(t); g["proj_all"] = lambda: []; g["proj_new"] = lambda k, goal, d=None: made.append((k, goal, d)) or "p%07d" % len(made); g["_dev_room"] = lambda: True; g["proj_save"] = lambda q: None
+    d0 = _dt.date(2026, 11, 24)
+    odd = next(d0 + _dt.timedelta(days=i) for i in range(2) if (d0 + _dt.timedelta(days=i)).toordinal() % 2 == 1); even = odd + _dt.timedelta(days=1)
+    g["ST"].pop("ap", None); g["ST"].pop("dev_seen", None); g["ST"]["needs_today"] = [{"need": "keep a list of my promises", "kind": "module", "why": "consistency"}]
     try:
-        g["ap_run"]()
-        check("daily work starts one module and one scouting, both marked auto", [m[0] for m in made] == ["make", "scout"] and all(m[1] == {"auto": True} for m in made), made)
-        g["ap_run"]()
-        check("daily work runs once a day", len(made) == 2, made)
-        g["ST"]["ap"]["day"] = ""; g["ST"]["ap"]["res"] = ["fail", "rej", "fail"]; g["ap_run"]()
-        check("three failures or rejections in a row switch it off and tell the owner", g["ST"]["ap"]["on"] is False and len(made) == 2 and any("выключил сам" in x for x in sent8), (made, sent8[-1:]))
-        g["EXT_CMDS"]["/autoproj"]("/autoproj on", "/autoproj on")
-        check("/autoproj on switches it back on", g["ST"]["ap"]["on"] is True)
-        g["ST"]["ap"]["day"] = ""; g["_ap_room"] = lambda: (False, ("openrouter", 38, 40)); n0 = len(made); g["ap_run"]()
-        check("a day with every model more than 60% used is skipped", len(made) == n0 and any("пропускаю" in x for x in sent8), sent8[-1:])
-    finally: g["proj_all"], g["proj_new"], g["_ap_room"], g["tg"] = old_all, old_new, old_room, old_tg8; g["ST"].pop("ap", None)
+        g["today"] = odd.isoformat(); g["ap_run"]()
+        check("an odd day starts ONE scouting from the need, marked auto and auto_make", len(made) == 1 and made[0][0] == "scout" and made[0][2] == {"auto": True, "auto_make": True} and "promises" in made[0][1], made)
+        check("the start is silent", not sent8, sent8)
+        g["ap_run"](); check("development runs once a day", len(made) == 1, made)
+        g["today"] = even.isoformat(); g["ap_run"]()
+        check("an even day starts the radar", len(made) == 2 and made[1][0] == "radar" and made[1][2] == {"auto": True}, made)
+        g["today"] = (odd + _dt.timedelta(days=2)).isoformat(); g["ap_run"]()
+        check("the same need is not started twice within three weeks (the radar goes instead)", len(made) == 3 and made[2][0] == "radar", made)
+        g["_dev_room"] = lambda: False; g["today"] = (odd + _dt.timedelta(days=4)).isoformat(); n0 = len(made); g["ap_run"]()
+        check("no room: nothing starts, the day is not used up and nobody is pinged", len(made) == n0 and g["ST"]["ap"]["day"] != g["today"] and not sent8, (made, sent8))
+        g["_dev_room"] = lambda: True; g["proj_all"] = lambda: [{"id": "pw", "kind": "make", "status": "waiting_owner", "data": {}, "trail": []}]; g["ap_run"]()
+        check("a module waiting for the owner blocks a new start", len(made) == n0, made)
+        g["proj_all"] = lambda: []; g["ST"]["ap"]["day"] = ""; g["ST"]["ap"]["res"] = ["fail", "rej", "fail"]; g["ap_run"]()
+        check("three failures or rejections in a row switch it off and tell the owner", g["ST"]["ap"]["on"] is False and len(made) == n0 and any("выключил сам" in x for x in sent8), (made, sent8[-1:]))
+        g["EXT_CMDS"]["/autoproj"]("/autoproj on", "/autoproj on"); check("/autoproj on switches it back on", g["ST"]["ap"]["on"] is True)
+        # the owner is asked once: a reminder after a day, cancelled after three
+        g["today"] = "2026-12-10"; q = {"id": "pq", "kind": "make", "status": "waiting_owner", "goal": "g", "trail": [], "data": {"name": "x.py", "title": "X", "auto": True, "asked_day": "2026-12-09"}}
+        g["proj_all"] = lambda: [q]; sent8.clear(); g["_dev_watch"]()
+        check("one reminder after a day", len(sent8) == 1 and "Напоминаю один раз" in sent8[0] and q["data"]["reminded"] is True, sent8)
+        g["_dev_watch"](); check("no second reminder", len(sent8) == 1, sent8)
+        q["data"]["asked_day"] = "2026-12-07"; g["_dev_watch"]()
+        check("no answer in three days cancels the module", q["status"] == "failed" and any("отменён" in x for x in sent8), (q["status"], sent8))
+        # radar: fetch -> pick -> launch into the scouting chain; nothing fitting ends quietly
+        old_rf, old_lr = g["_radar_fetch"], g["llm_role"]; made.clear(); sent8.clear()
+        g["_radar_fetch"] = lambda: [{"t": "A memory index for agents", "u": "https://x.org/a", "s": "arxiv"}]
+        g["llm_role"] = lambda *a, **k: ('{"best": 1, "need": "compact memory index for a small agent", "why_ru": "нужна быстрая память"}', "x")
+        rp = {"id": "pr", "data": {}}; steps = [g["radar_step"](rp) for _ in range(3)]
+        check("radar goes fetch -> pick -> launch and starts an auto scouting with the source", steps == ["continue", "continue", "done"] and made and made[0][0] == "scout" and made[0][2].get("auto_make") and "memory index" in made[0][2].get("origin_idea", ""), (steps, made))
+        g["llm_role"] = lambda *a, **k: ('{"best": 0, "need": "", "why_ru": ""}', "x"); rp2 = {"id": "pr2", "data": {}}; made.clear()
+        st2 = [g["radar_step"](rp2) for _ in range(2)]
+        check("radar with nothing fitting ends quietly", st2[-1] == "done" and rp2["data"].get("result") == "none" and not made and not sent8, (st2, rp2["data"], sent8))
+        g["_radar_fetch"], g["llm_role"] = old_rf, old_lr
+        # scouting started by the agent turns its best idea into a make project by itself
+        sp = {"id": "ps", "goal": "tiny memory index", "data": {"auto": True, "auto_make": True, "stage": "report", "best": 1, "summary": "s", "cands": [{"full": "a/b", "url": "https://github.com/a/b", "desc": "d", "stars": 20, "lic": "MIT", "pushed": "2026-10-01", "fit": "high", "adapt": "index", "readme": "r"}]}}
+        made.clear(); r_ = g["scout_step"](sp)
+        check("an auto scouting starts the make project itself, silently", r_ == "done" and made and made[0][0] == "make" and made[0][2].get("auto") and "a/b" in made[0][2]["origin"] and not sent8, (r_, made, sent8))
+        g["proj_new"] = lambda k, goal, d=None: None; check("no free project slot: the scouting waits instead of losing the idea", g["scout_step"](sp) == "later")
+        sp2 = {"id": "ps2", "goal": "x", "data": {"auto": True, "auto_make": True, "stage": "report", "best": 0, "cands": [{"full": "c/d", "fit": "low", "url": "u", "lic": "MIT", "stars": 1, "pushed": "2026-10-01", "desc": "", "readme": ""}]}}
+        check("an auto scouting without a fitting idea ends quietly with result none", g["scout_step"](sp2) == "done" and sp2["data"].get("result") == "none")
+        # /make: one repair attempt; failures of auto projects are silent, the owner's own projects still report
+        sent8.clear(); mp = {"id": "pm", "data": {"stage": "failed_tests", "name": "x.py", "title": "X", "auto": True, "last_fail": "e"}}
+        check("an auto make failure is silent", g["make_step"](mp) == "failed" and not sent8, sent8)
+        mp2 = {"id": "pm2", "data": {"stage": "failed_tests", "name": "x.py", "title": "X", "last_fail": "e"}}
+        check("an owner-started make failure is still reported", g["make_step"](mp2) == "failed" and sent8, sent8)
+        src_mk = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "parts", "part_06zz_make.py"), encoding="utf-8").read()
+        check("make allows one attempt and one repair", 'd["try"] >= 2' in src_mk and "ONLY way to call a language model" in src_mk)
+    finally: g["proj_all"], g["proj_new"], g["_dev_room"], g["tg"], g["today"], g["proj_save"] = old_all, old_new, old_room, old_tg8, old_today, old_save; g["ST"].pop("ap", None); g["ST"].pop("dev_seen", None); g["ST"].pop("dev_log", None)
+    # 14b. limit balancer and low-power mode (2026-11-24)
+    old_llms = list(g["LLMS"]); old_st = {k: g["ST"].get(k) for k in ("usage", "limits")}; old_cool = dict(g["COOL"])
+    try:
+        g["ST"]["usage"] = {"day": g["today"], "calls": {"gemini": 1000, "groq": 10}, "tokens": {}, "fails": {}}
+        check("balancer moves a provider that used 70% of its day behind the others", g["_bal_order"](("gemini", "groq", "mistral")) == ("groq", "mistral", "gemini"), g["_bal_order"](("gemini", "groq", "mistral")))
+        check("balancer keeps a fresh chain as it is", g["_bal_order"](("groq", "mistral")) == ("groq", "mistral"))
+        g["LLMS"][:] = [("aa", "", "k", "m"), ("bb", "", "k", "m")]; g["ST"]["limits"] = {"aa.calls": 10, "bb.calls": 10}; g["COOL"].clear()
+        g["ST"]["usage"] = {"day": g["today"], "calls": {"aa": 9, "bb": 9}, "tokens": {}, "fails": {}}
+        check("low-power mode when every provider is above 80%", g["econ_mode"]() is True)
+        g["ST"]["usage"]["calls"]["bb"] = 3; check("not in low-power mode while one provider has room", g["econ_mode"]() is False)
+        g["ST"]["usage"]["calls"]["bb"] = 9; g["ST"]["limits"]["aa.calls"] = 0; g["ST"]["limits"]["bb.calls"] = 0
+        check("providers switched off with limit 0 do not count (nothing to judge, no low-power mode)", g["econ_mode"]() is False)
+        g["ST"]["limits"] = {"aa.calls": 10, "bb.calls": 10}; g["ST"]["usage"]["calls"]["bb"] = 9
+        check("self-state says it plainly", "EXHAUSTED" in g["_ss_limits"]() and "Moltbook" in g["econ_note"]())
+    finally:
+        g["LLMS"][:] = old_llms; g["COOL"].clear(); g["COOL"].update(old_cool)
+        for k, v in old_st.items():
+            if v is None: g["ST"].pop(k, None)
+            else: g["ST"][k] = v
     # 15. owner-facing project texts: no internal English instruction, cut at a word
     g_ = g["_ru_goal"]("Build one small own module (standard library only, at most 150 lines) for this need of the agent: A daily report tool to summarize engagement metrics and content performance across platforms. Why it matters: consistency")
     check("a module goal is shown as the need only, cut at a word", g_.startswith("модуль: A daily report tool") and "Build one" not in g_ and g_.endswith("…") and not g_[:-1].endswith(" "), g_)

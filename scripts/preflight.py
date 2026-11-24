@@ -7,6 +7,10 @@ bad = []
 for f in glob.glob(os.path.join(R, "agent.py")) + glob.glob(os.path.join(R, "part_*.py")) + glob.glob(os.path.join(R, "parts", "part_*.py")):
     try: compile(open(f, encoding="utf-8").read(), f, "exec")
     except Exception as e: bad.append("COMPILE %s: %s" % (os.path.basename(f), str(e)[-200:]))
+_m7 = os.path.join(R, "parts", "part_07_main_loop.py")
+if os.path.exists(_m7):      # low-power mode must gate the inbox, the posts and the discovery of the main loop (the Moltbook round stays)
+    _s7 = open(_m7, encoding="utf-8").read()
+    if _s7.count("econ_mode()") < 3 or "mb_round()" not in _s7: bad.append("MAIN LOOP: low-power gates (econ_mode) are missing")
 if bad: print("\n".join(bad)); sys.exit(1)
 T = tempfile.mkdtemp()
 for n in os.listdir(R):
