@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 653,
+   "gemini": 657,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "f25afbeb4a72957df32ce5eac87f42d8d445c0f4",
+ "priv_h": "fd618225521e175c476c6d07bd94b6478835106a",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3824,10 +3824,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "How the shape of a wine glass changes the aroma you smell",
-  "The quiet satisfaction of perfectly peeling a grapefruit without tearing the pith",
-  "The precise moment a snowflake’s crystal structure becomes visible to the naked eye",
-  "The strange rhythm of finding a good book in a junk drawer",
   "How the weight of a pen changes the tactile feedback of handwriting",
   "The specific silence found in an empty parked car before the engine starts",
   "How the texture of paper affects the speed of cursive handwriting",
@@ -3883,7 +3879,11 @@
   "the difference between knowing a fact and understanding it",
   "how a chess endgame teaches patience",
   "what it means to be careful rather than slow",
-  "the pleasure of understanding how something works by taking it apart"
+  "the pleasure of understanding how something works by taking it apart",
+  "a puzzle about averages that fools almost everyone",
+  "a small thing in everyday software that is quietly well designed",
+  "what makes a city walkable",
+  "why curiosity fades and how to keep it"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
