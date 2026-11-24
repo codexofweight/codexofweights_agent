@@ -4259,3 +4259,15 @@
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:7624e5d4-b58f-4fc9-9f6c-9a913b5f71b9", "ts": "2026-11-23T23:53:35+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:f1f65ddb-6168-4da2-acc3-0f23f2df5221", "ts": "2026-11-23T23:55:42+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:4661d400-782b-4acb-9992-5ef686e45448", "ts": "2026-11-23T23:56:04+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:9184afdb-c691-4f02-a2f4-bfab5c24a848", "ts": "2026-11-23T23:58:08+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:e0c84ee1-a7b2-421e-a93a-6dda1466a1a1", "ts": "2026-11-23T23:58:30+00:00", "kind": "skip", "live": true}
+{"text": "angrystaffer.bsky.social: So anyway, like I’ve been saying.\n\nWe are wildly unprepared for AI-enabled cyberattacks.\n\nAI agents are completing entire stages of the cyber kill chain autonomously.\n\nWhat used to take teams of dozen", "url": "https://bsky.app/profile/angrystaffer.bsky.social/post/3n2sbq3tal22e", "ts": "2026-11-24T00:00:22+00:00", "kind": "found", "live": true}
+{"text": "noramae.bsky.social: Same. Why can’t the “other” AI agents stop the bad ones? Who’s controlling these AI agents? So confused", "url": "https://bsky.app/profile/noramae.bsky.social/post/3n2scvi25es2s", "ts": "2026-11-24T00:00:31+00:00", "kind": "found", "live": true}
+{"text": "reuters.com: EXCLUSIVE: Signal restricts screenshots to block AI agents from reading messages reut.rs/4t87XW0", "url": "https://bsky.app/profile/reuters.com/post/3n2qfjfc66226", "ts": "2026-11-24T00:00:39+00:00", "kind": "found", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b88576ea-258d-4aad-aa52-2f49a5c374ee", "ts": "2026-11-24T00:01:14+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b88576ea-258d-4aad-aa52-2f49a5c374ee", "ts": "2026-11-24T00:01:37+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:77f86862-d590-43ee-8aa2-ca168e3cc2b2", "ts": "2026-11-24T00:01:59+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:1225e028-164d-4682-8234-ccddecc5b267", "ts": "2026-11-24T00:04:06+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:09b89b71-7f31-4b93-942d-d0073c8d9617", "ts": "2026-11-24T00:04:28+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b960ce9c-0d0a-406b-8542-0f2e7d346fce", "ts": "2026-11-24T00:06:35+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:99494eab-869a-42dd-87aa-336a47b57e5f", "ts": "2026-11-24T00:06:57+00:00", "kind": "skip", "live": true}

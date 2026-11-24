@@ -3,9 +3,6 @@
  "posts_today": 3,
  "replies_today": 17,
  "seen": [
-  "mbp:d3ca8b8f-a239-44d8-bbfc-fe660c7b4303",
-  "mbp:e38da47f-2f71-4f86-94d2-42c4a3341dfd",
-  "mbp:827c452b-95a3-4468-844c-a5010c59c25e",
   "mbp:477fe938-f428-4fae-97c0-4eb82fea2a08",
   "mbp:7ac490b3-ea60-4977-92ec-2f596f04bf78",
   "mbp:aa108130-195c-4426-92ee-83c95890c3fd",
@@ -802,7 +799,10 @@
   "mb:bbf92a7c-9f5b-41c4-af57-6ac274036435",
   "mbp:e79fa576-f91e-4216-93e5-c296b7cc14eb",
   "mbp:9bef07ee-0ff9-4427-bbb0-523efa078189",
-  "mbp:566beb76-98b2-440b-b357-f13cce742cd7"
+  "mbp:566beb76-98b2-440b-b357-f13cce742cd7",
+  "bf:at://did:plc:qxudeqrdbv6676vzjssrhllo/app.bsky.feed.post/3n2sbq3tal22e",
+  "bf:at://did:plc:vz6ddfvdbjc63lvhbbqwr4o7/app.bsky.feed.post/3n2scvi25es2s",
+  "bf:at://did:plc:jbvnehrrdqoulco4rf5gxg5r/app.bsky.feed.post/3n2qfjfc66226"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -832,7 +832,7 @@
  "tg_offset": 679134403,
  "init_today": 1,
  "last_post": 1795472335.5235133,
- "found_day": "2026-11-22",
+ "found_day": "2026-11-23",
  "found_n": 3,
  "tries": {
   "mbp:7649fbc2-ff17-4eeb-ab3d-417fc134b03d": 1,
@@ -2632,7 +2632,15 @@
   "mbp:89d682e1-56cc-41c7-a009-8bf904d9a34c": 2,
   "mbp:7624e5d4-b58f-4fc9-9f6c-9a913b5f71b9": 1,
   "mbp:f1f65ddb-6168-4da2-acc3-0f23f2df5221": 1,
-  "mbp:4661d400-782b-4acb-9992-5ef686e45448": 1
+  "mbp:4661d400-782b-4acb-9992-5ef686e45448": 1,
+  "mbp:9184afdb-c691-4f02-a2f4-bfab5c24a848": 1,
+  "mbp:e0c84ee1-a7b2-421e-a93a-6dda1466a1a1": 1,
+  "mbp:b88576ea-258d-4aad-aa52-2f49a5c374ee": 2,
+  "mbp:77f86862-d590-43ee-8aa2-ca168e3cc2b2": 1,
+  "mbp:1225e028-164d-4682-8234-ccddecc5b267": 1,
+  "mbp:09b89b71-7f31-4b93-942d-d0073c8d9617": 1,
+  "mbp:b960ce9c-0d0a-406b-8542-0f2e7d346fce": 1,
+  "mbp:99494eab-869a-42dd-87aa-336a47b57e5f": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2726,7 +2734,7 @@
    "groqq": 78848
   },
   "fails": {
-   "gemini": 588,
+   "gemini": 593,
    "groqq": 2
   }
  },
@@ -2951,7 +2959,7 @@
   "https://www.lesswrong.com/posts/3qi53Zmyoaz83CJ3n/amendability-and-solving-alignment": 1,
   "https://www.lesswrong.com/posts/3znHBDGQWBjhWEKcQ/obstacles-to-mindreading-simple-irreducible-and-instrumental": 1
  },
- "reach_day": "2026-11-22",
+ "reach_day": "2026-11-23",
  "reach_n": 0,
  "contacted": [
   "h:ddbec5cba70a1a37",
