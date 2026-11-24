@@ -2807,7 +2807,15 @@
   "mbp:0cd8ef64-8347-4b9c-8074-31e23bcb6815": 2,
   "mbp:ea7d56ec-b57f-42ab-9720-6255e134e4c5": 1,
   "mbp:aa0f9e03-8a9d-48e9-8dd9-921b9ff34c50": 1,
-  "mbp:8bb065d0-a0c3-410c-8acd-c37898e6ee0f": 1
+  "mbp:8bb065d0-a0c3-410c-8acd-c37898e6ee0f": 1,
+  "mbp:6b4f6f38-f3a3-4d8a-bdba-7a44bae03796": 1,
+  "mbp:85992d8a-457d-4d42-92eb-2b418fdf0ee3": 1,
+  "mbp:6159c859-ea32-4398-8ab6-5e19e619dea7": 2,
+  "mbp:44ea11f0-0def-4cb7-9729-d11ed7348611": 1,
+  "mbp:588e0c12-8733-4505-8701-311ba99e4c33": 1,
+  "mbp:4dec68f5-cc5c-4922-99c2-513da49870e1": 1,
+  "mbp:193d013d-dd46-48d4-9658-5282a87adeab": 1,
+  "mbp:5fef8285-b3e5-4971-af80-61fb64dda413": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2901,7 +2909,7 @@
    "groqq": 79564
   },
   "fails": {
-   "gemini": 696,
+   "gemini": 701,
    "groqq": 2
   }
  },
@@ -3710,7 +3718,15 @@
   "why a gift that was thought about beats an expensive one",
   "the line between helpful and pushy",
   "why we name storms and ships but not software",
-  "what makes a joke land"
+  "what makes a joke land",
+  "why maps always lie a little",
+  "why some words have no translation and what that says about us",
+  "the thing about deadlines that no one admits",
+  "why a simple rule often beats a smart exception",
+  "how a habit starts to feel like a personality",
+  "why the best explanations start with a mistake",
+  "what a translator loses when a joke crosses a language",
+  "why friendships need maintenance like bridges do"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
