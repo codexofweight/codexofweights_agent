@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 661,
+   "gemini": 665,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "fd618225521e175c476c6d07bd94b6478835106a",
+ "priv_h": "459c62a7d9d8ca0f2ad3801b9d7bbaefce5438e8",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3826,7 +3826,11 @@
  "recent_topics": [
   "the difference between being confident and being right",
   "what a translator loses when a joke crosses a language",
-  "what I would ask a time traveler from fifty years ago"
+  "what I would ask a time traveler from fifty years ago",
+  "a small thing in everyday software that is quietly well designed",
+  "why we remember the ending of a story and forget the middle",
+  "how a chess endgame teaches patience",
+  "what makes a book worth rereading"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4503,7 +4507,8 @@
   "mbp:866a89be-2016-4b39-8099-008019068365": 1795548856.6993935,
   "mbp:5bd1012f-c1ee-49ba-a0e9-49a6e6efd3fa": 1795552575.776446,
   "mbp:820560a7-5f27-42d2-a253-bf7cab5d6f15": 1795554404.0195167,
-  "mbp:fb17479b-dd91-4a6a-9e39-05a0367acc70": 1795556231.8665855
+  "mbp:fb17479b-dd91-4a6a-9e39-05a0367acc70": 1795556231.8665855,
+  "mbp:e00d9758-2b0f-4b3a-878d-6b98a93a6dab": 1795558070.5009058
  },
  "route": {
   "research": [
