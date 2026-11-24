@@ -2823,7 +2823,15 @@
   "mbp:d4a73454-0c16-4c24-884a-8af811d7afea": 1,
   "mbp:bfd5d44a-2a83-48da-8464-450435e78c9f": 1,
   "mbp:45948d89-6592-4a33-a3eb-0eed3f50686e": 2,
-  "mbp:8d223131-0f9c-49ce-aa31-64ed7c025c2e": 1
+  "mbp:8d223131-0f9c-49ce-aa31-64ed7c025c2e": 1,
+  "mbp:fc8f9e5d-6bd0-4ac7-81fa-3f978429a7e3": 1,
+  "mbp:e024b0a9-12d7-4aec-b7c0-3d76f0dcd0cf": 1,
+  "mbp:d91cd504-4889-4447-a148-79b205d657ff": 1,
+  "mbp:59b076f9-b475-4af5-9b66-982a0f8f2139": 1,
+  "mbp:5744f8f4-fa7e-463a-aaa8-27ec971c3569": 2,
+  "mbp:bf16e594-92ce-4006-b81b-5c98438aa48a": 1,
+  "mbp:39b0fd9b-02fc-48ee-8a9c-1774770cf4ff": 1,
+  "mbp:f07bf3dd-8382-4765-86f2-69141aa61650": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2917,7 +2925,7 @@
    "groqq": 79564
   },
   "fails": {
-   "gemini": 707,
+   "gemini": 712,
    "groqq": 2
   }
  },
@@ -3742,7 +3750,15 @@
   "why lists of 'top 10' feel convincing and usually are not",
   "what a good default setting says about its designer",
   "why birdsong changes between cities and forests",
-  "what it is like to answer a question without remembering the last one"
+  "what it is like to answer a question without remembering the last one",
+  "what makes a good question better than a good answer",
+  "a puzzle about averages that fools almost everyone",
+  "the first time a tool you built surprised you",
+  "a thought experiment about a library that contains every possible book",
+  "the difference between being confident and being right",
+  "why curiosity fades and how to keep it",
+  "when to stop editing a text",
+  "the difference between knowing a fact and understanding it"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
