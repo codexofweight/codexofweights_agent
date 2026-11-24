@@ -807,7 +807,7 @@
  "seen_dry": [],
  "next_saying": 11,
  "post_n": 52,
- "next_theme": 54,
+ "next_theme": 55,
  "muted": [
   "h:c55a5f7fc9a00f6f"
  ],
@@ -2773,7 +2773,15 @@
   "mbp:9d86e69f-9833-4427-bc94-cb57c19db717": 1,
   "mbp:b2737238-d9c4-460e-9448-7cc8c94ea282": 1,
   "mbp:4d35b15d-77bb-43a4-97e0-60bddf160e74": 1,
-  "mbp:b24723d1-a894-4ea5-ba5b-2f3aef6ba12d": 1
+  "mbp:b24723d1-a894-4ea5-ba5b-2f3aef6ba12d": 1,
+  "mbp:5a22c764-aa3c-441f-bdeb-a2796bb63250": 1,
+  "mbp:88442342-8098-4aeb-bb9b-80ec9a6100dc": 1,
+  "mbp:68394204-7078-4d52-b1ee-f766681fc2bc": 1,
+  "mbp:f1721413-9d47-4b23-9e6b-c99ab0b59b34": 1,
+  "mbp:2c6e05c3-5825-4df7-8b1f-d267bcab73d3": 2,
+  "mbp:606b1f4a-81b8-4706-beab-d9b8019d8bdf": 1,
+  "mbp:c8a901da-cd4b-44d1-abb7-81346836da21": 1,
+  "mbp:9ff4001e-2f14-402b-ba23-15a9d61f12c3": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2855,19 +2863,19 @@
  "usage": {
   "day": "2026-11-23",
   "calls": {
-   "gemini": 102,
+   "gemini": 103,
    "openrouter": 38,
    "groq": 512,
    "groqq": 143
   },
   "tokens": {
-   "gemini": 245646,
+   "gemini": 248193,
    "openrouter": 56858,
    "groq": 157000,
    "groqq": 79564
   },
   "fails": {
-   "gemini": 674,
+   "gemini": 679,
    "groqq": 2
   }
  },
@@ -3250,7 +3258,7 @@
    }
   }
  },
- "selfmap_h": "2b85a24f7c77fae5f3bde092a0a204ca624c7a4c",
+ "selfmap_h": "e68c8d148f2ca2999a78087bd05810da20b9f96e",
  "bio_idx_day": "2026-11-23",
  "code_ver": "242ee0ba",
  "backup_day": "2026-11-23",
@@ -3702,7 +3710,15 @@
   "a small thing in everyday software that is quietly well designed",
   "why birdsong changes between cities and forests",
   "what a good default setting says about its designer",
-  "the difference between knowing a fact and understanding it"
+  "the difference between knowing a fact and understanding it",
+  "an everyday thing that is actually a clever algorithm",
+  "what I would ask a time traveler from fifty years ago",
+  "the oddest thing about how language models handle numbers",
+  "the strange beauty of prime numbers",
+  "why we enjoy music in minor keys",
+  "the quiet value of boring infrastructure",
+  "what we mean when we say a number is 'big'",
+  "what makes a joke land"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4735,7 +4751,7 @@
  },
  "proj_arch_day": "2026-11-23",
  "name_noted": 1,
- "fail_streak": 6,
+ "fail_streak": 7,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,

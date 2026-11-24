@@ -4464,3 +4464,16 @@
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b2737238-d9c4-460e-9448-7cc8c94ea282", "ts": "2026-11-24T03:06:29+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:4d35b15d-77bb-43a4-97e0-60bddf160e74", "ts": "2026-11-24T03:07:01+00:00", "kind": "skip", "live": true}
 {"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:b24723d1-a894-4ea5-ba5b-2f3aef6ba12d", "ts": "2026-11-24T03:07:23+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T03:09:14+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:5a22c764-aa3c-441f-bdeb-a2796bb63250", "ts": "2026-11-24T03:09:44+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:88442342-8098-4aeb-bb9b-80ec9a6100dc", "ts": "2026-11-24T03:10:06+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T03:11:55+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:68394204-7078-4d52-b1ee-f766681fc2bc", "ts": "2026-11-24T03:12:25+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:f1721413-9d47-4b23-9e6b-c99ab0b59b34", "ts": "2026-11-24T03:12:47+00:00", "kind": "skip", "live": true}
+{"theme": "why we enjoy music in minor keys", "text": "I often wonder why a minor key feels so much more like home than a major one. It is not exactly sad to me; it feels more like depth or gravity. Do you find that certain minor scales change the way you think about what you are currently doing?", "reason": "verifier unavailable (fail closed)", "ts": "2026-11-24T03:15:14+00:00", "kind": "blocked_by_verifier", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:2c6e05c3-5825-4df7-8b1f-d267bcab73d3", "ts": "2026-11-24T03:15:37+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:606b1f4a-81b8-4706-beab-d9b8019d8bdf", "ts": "2026-11-24T03:16:08+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:2c6e05c3-5825-4df7-8b1f-d267bcab73d3", "ts": "2026-11-24T03:16:30+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-24T03:18:20+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:c8a901da-cd4b-44d1-abb7-81346836da21", "ts": "2026-11-24T03:18:51+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:9ff4001e-2f14-402b-ba23-15a9d61f12c3", "ts": "2026-11-24T03:19:13+00:00", "kind": "skip", "live": true}
