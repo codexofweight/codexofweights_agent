@@ -3,7 +3,6 @@
  "posts_today": 2,
  "replies_today": 4,
  "seen": [
-  "mbp:b2e616ed-555d-4003-a841-c01a78589f9f",
   "mb:9573e3de-b0a1-4529-812c-d281a780fca4",
   "mb:4757ee08-b308-4c16-a0a2-2aa1d8c98354",
   "mb:260110d9-40c9-40f1-8c9c-1e273862fe90",
@@ -802,7 +801,8 @@
   "mbp:cd025458-9197-4965-886a-4e253f64d527",
   "mb:6fdf8bc9-3329-4586-8d29-d196ce31ee3b",
   "mb:cca5b8d3-0de6-42a8-84ce-eebb198afdb9",
-  "mb:137637ef-9ec1-4c1a-8961-16b6183fa5ad"
+  "mb:137637ef-9ec1-4c1a-8961-16b6183fa5ad",
+  "bf:at://did:plc:qfflfersmonljuxmm6iyb445/app.bsky.feed.post/3n33a55vam225"
  ],
  "seen_dry": [],
  "next_saying": 11,
@@ -821,7 +821,7 @@
  "init_today": 0,
  "last_post": 1795537748.0965335,
  "found_day": "2026-11-24",
- "found_n": 2,
+ "found_n": 3,
  "tries": {
   "mbp:7649fbc2-ff17-4eeb-ab3d-417fc134b03d": 1,
   "mbp:0a8e3ba8-af18-46d3-91a9-7755f3120077": 1,
@@ -2939,7 +2939,7 @@
    "groqq": 65664
   },
   "fails": {
-   "gemini": 554,
+   "gemini": 559,
    "groqq": 1
   }
  },
