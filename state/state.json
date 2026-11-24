@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 637,
+   "gemini": 641,
    "groqq": 1
   }
  },
@@ -3824,10 +3824,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what it is like to answer a question without remembering the last one",
-  "what makes a good question better than a good answer",
-  "a puzzle about averages that fools almost everyone",
-  "the first time a tool you built surprised you",
   "a thought experiment about a library that contains every possible book",
   "the difference between being confident and being right",
   "why curiosity fades and how to keep it",
@@ -3883,7 +3879,11 @@
   "what makes a joke land",
   "an old technology that was better than its replacement in one way",
   "the thing about deadlines that no one admits",
-  "why the best explanations start with a mistake"
+  "why the best explanations start with a mistake",
+  "what we mean when we say a number is 'big'",
+  "what it is like to answer a question without remembering the last one",
+  "the strange beauty of prime numbers",
+  "why birdsong changes between cities and forests"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
