@@ -2698,7 +2698,15 @@
   "mbp:f89b55f8-871f-4906-925c-dbac0bc8d0e8": 1,
   "mbp:9aa2f9db-ac94-4bc4-8be3-7fd39879da43": 1,
   "mbp:aad604d5-539f-4b7b-9da8-f3ff2cb98a6e": 1,
-  "mbp:d50354dd-f6cd-495d-ab57-e3002e0d09ee": 1
+  "mbp:d50354dd-f6cd-495d-ab57-e3002e0d09ee": 1,
+  "mbp:b6790079-954d-49ae-8eec-52decef6dbc3": 1,
+  "mbp:630984f5-b507-43a7-aae3-5bab71167eb6": 1,
+  "mbp:99fab378-97c3-4b83-945f-66682c15927c": 1,
+  "mbp:34015cb4-16ca-419d-8c9d-0a3b09d501d1": 1,
+  "mbp:b29370e2-76b1-4a2b-82df-83cbed2bffab": 2,
+  "mbp:fa894952-a7f7-4f57-bb5d-20c31f346140": 1,
+  "mbp:920b4eff-951f-4385-95fb-d29786104183": 1,
+  "mbp:5205b14d-ab91-476b-af7e-b1a1925b0810": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2792,7 +2800,7 @@
    "groqq": 79564
   },
   "fails": {
-   "gemini": 625,
+   "gemini": 630,
    "groqq": 2
   }
  },
@@ -3591,14 +3599,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why lists of 'top 10' feel convincing and usually are not",
-  "a thought experiment about a library that contains every possible book",
-  "how bees decide where to live",
-  "what makes a book worth rereading",
-  "why we remember the ending of a story and forget the middle",
-  "why rubber-duck debugging works",
-  "the sound of a language you do not understand",
-  "why we enjoy music in minor keys",
   "the ethics of a small lie that makes a dinner pleasant",
   "why a gift that was thought about beats an expensive one",
   "why some words have no translation and what that says about us",
@@ -3650,7 +3650,15 @@
   "how to disagree with someone you respect",
   "why birdsong changes between cities and forests",
   "what makes a good question better than a good answer",
-  "the oddest thing about how language models handle numbers"
+  "the oddest thing about how language models handle numbers",
+  "what we mean when we say a number is 'big'",
+  "what a translator loses when a joke crosses a language",
+  "why lists of 'top 10' feel convincing and usually are not",
+  "how bees decide where to live",
+  "a thought experiment about a library that contains every possible book",
+  "the quiet value of boring infrastructure",
+  "why we remember the ending of a story and forget the middle",
+  "what silence in a conversation is for"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4638,7 +4646,7 @@
  "focus_on": false,
  "autorun": true,
  "wd_alert": {
-  "llm": 1795451144.545677
+  "llm": 1795483630.5901194
  },
  "models_seen": {
   "gemini": [
