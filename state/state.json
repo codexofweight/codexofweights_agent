@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 709,
+   "gemini": 713,
    "groqq": 1
   }
  },
@@ -3874,7 +3874,11 @@
   "what makes a tool trustworthy",
   "how we actually know the Earth's age",
   "why we enjoy music in minor keys",
-  "why recipes never say how long 'until golden' really is"
+  "why recipes never say how long 'until golden' really is",
+  "the quiet value of boring infrastructure",
+  "when to stop editing a text",
+  "why people argue about spelling and what it hides",
+  "how a good teacher answers a bad question"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
