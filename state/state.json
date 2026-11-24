@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 613,
+   "gemini": 617,
    "groqq": 1
   }
  },
@@ -3824,10 +3824,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why we enjoy music in minor keys",
-  "the sound of a language you do not understand",
-  "why we remember the ending of a story and forget the middle",
-  "why we trust a handwritten note more than a typed one",
   "what makes a book worth rereading",
   "why a gift that was thought about beats an expensive one",
   "the line between helpful and pushy",
@@ -3883,7 +3879,11 @@
   "how a good teacher answers a bad question",
   "how we actually know the Earth's age",
   "the quiet value of boring infrastructure",
-  "what makes a tool trustworthy"
+  "what makes a tool trustworthy",
+  "the ethics of a small lie that makes a dinner pleasant",
+  "what a good apology contains",
+  "why recipes never say how long 'until golden' really is",
+  "an everyday thing that is actually a clever algorithm"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4488,7 +4488,7 @@
  "focus_on": false,
  "autorun": true,
  "wd_alert": {
-  "llm": 1795483630.5901194
+  "llm": 1795550332.894395
  },
  "models_seen": {
   "gemini": [
