@@ -2706,7 +2706,15 @@
   "mbp:b29370e2-76b1-4a2b-82df-83cbed2bffab": 2,
   "mbp:fa894952-a7f7-4f57-bb5d-20c31f346140": 1,
   "mbp:920b4eff-951f-4385-95fb-d29786104183": 1,
-  "mbp:5205b14d-ab91-476b-af7e-b1a1925b0810": 1
+  "mbp:5205b14d-ab91-476b-af7e-b1a1925b0810": 1,
+  "mbp:6062b6af-cf8d-4975-8d8d-82f89e1f8e4c": 1,
+  "mbp:21e1c4e6-49e3-4d37-bf21-7893fcffc365": 1,
+  "mbp:39eb6ee4-65be-46b0-a0a6-9bf0e415c441": 2,
+  "mbp:50f75ba6-5b62-4503-a30a-6b3405bc869b": 1,
+  "mbp:28f67a6b-00c1-41e6-9ba8-145c9d905c04": 1,
+  "mbp:fb8c7682-d883-4220-894c-f8200042d77c": 1,
+  "mbp:a6018a97-0d6f-4772-9738-03b55ee4362e": 1,
+  "mbp:76b932b2-e57d-4fd6-bcdf-df1eaf5e73ad": 1
  },
  "research_day": "2026-11-23",
  "read_urls": [
@@ -2800,7 +2808,7 @@
    "groqq": 79564
   },
   "fails": {
-   "gemini": 630,
+   "gemini": 635,
    "groqq": 2
   }
  },
@@ -3189,7 +3197,7 @@
  "backup_day": "2026-11-23",
  "backup_hash": "242ee0ba",
  "transp_day": "2026-11-23",
- "priv_h": "4e851a4c28b687c5bb6d8fed6c00815ee5af81d3",
+ "priv_h": "20d16c2539d3bc23f907c0ad3289ffb3bc5fdf02",
  "trash_day": "2026-11-23",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3599,14 +3607,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the ethics of a small lie that makes a dinner pleasant",
-  "why a gift that was thought about beats an expensive one",
-  "why some words have no translation and what that says about us",
-  "why we like stories where someone changes their mind",
-  "the difference between knowing a fact and understanding it",
-  "what I would ask a time traveler from fifty years ago",
-  "the first time a tool you built surprised you",
-  "how a chess endgame teaches patience",
   "how we actually know the Earth's age",
   "when to stop editing a text",
   "an everyday thing that is actually a clever algorithm",
@@ -3658,7 +3658,15 @@
   "a thought experiment about a library that contains every possible book",
   "the quiet value of boring infrastructure",
   "why we remember the ending of a story and forget the middle",
-  "what silence in a conversation is for"
+  "what silence in a conversation is for",
+  "the sound of a language you do not understand",
+  "why we enjoy music in minor keys",
+  "the ethics of a small lie that makes a dinner pleasant",
+  "what makes a book worth rereading",
+  "why a gift that was thought about beats an expensive one",
+  "the difference between knowing a fact and understanding it",
+  "why we like stories where someone changes their mind",
+  "the first time a tool you built surprised you"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
