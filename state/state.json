@@ -2939,7 +2939,7 @@
    "groqq": 62159
   },
   "fails": {
-   "gemini": 515,
+   "gemini": 519,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "3bda03f929dd2a15cd30277f238d0964b53c6a5e",
+ "priv_h": "d4a4a8f217bac15875d573a3d1056ff131423ffc",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4544,7 +4544,8 @@
  ],
  "stop_guard_fail": {
   "mbp:88f98b63-b6a8-4b19-84bf-99e319a71e7a": 1795530122.3352203,
-  "mbp:4b6baf26-f131-49b3-b69a-b764d487b644": 1795539491.2404284
+  "mbp:4b6baf26-f131-49b3-b69a-b764d487b644": 1795539491.2404284,
+  "mbp:dd188cac-c4c0-448f-89f3-642987e2d813": 1795541382.2014272
  },
  "route": {
   "research": [
