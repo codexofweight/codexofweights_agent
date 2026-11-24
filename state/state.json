@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 701,
+   "gemini": 705,
    "groqq": 1
   }
  },
@@ -3866,7 +3866,11 @@
   "how bees decide where to live",
   "what makes a joke land",
   "why rubber-duck debugging works",
-  "a thought experiment about a library that contains every possible book"
+  "a thought experiment about a library that contains every possible book",
+  "what we mean when we say a number is 'big'",
+  "the thing about deadlines that no one admits",
+  "what a good apology contains",
+  "why friendships need maintenance like bridges do"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
