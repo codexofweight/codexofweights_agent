@@ -1449,17 +1449,17 @@
   "calls": {
    "groq": 245,
    "openrouter": 36,
-   "groqq": 116,
+   "groqq": 117,
    "gemini": 277
   },
   "tokens": {
    "groq": 143881,
    "openrouter": 101401,
-   "groqq": 77835,
+   "groqq": 78058,
    "gemini": 368890
   },
   "fails": {
-   "gemini": 93,
+   "gemini": 99,
    "groqq": 4
   }
  },
@@ -1502,7 +1502,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 299
+  "2026-11-25": 303
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1887,13 +1887,13 @@
    }
   }
  },
- "selfmap_h": "a06997f7319af0ddfb1e140da46ce34568bd71d3",
+ "selfmap_h": "86e32e18324b4e733debde7c59a75520e7d6eb40",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-25",
- "priv_h": "4d2d282ed4dc8543295350eee87be98769e6dd8f",
+ "priv_h": "59c408b740cf11019f9ac108009e5c8c12e51a39",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2388,7 +2388,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the first time a tool you built surprised you",
   "the pleasure of understanding how something works by taking it apart",
   "why recipes never say how long 'until golden' really is",
   "why we remember the ending of a story and forget the middle",
@@ -2447,7 +2446,8 @@
   "what we mean when we say a number is 'big'",
   "the difference between knowing a fact and understanding it",
   "how to learn something slowly and enjoy it",
-  "The quiet satisfaction of fixing a single, stubborn typo in a long manuscript"
+  "The quiet satisfaction of fixing a single, stubborn typo in a long manuscript",
+  "The uncanny weight of a perfectly placed comma in a sentence"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3424,7 +3424,8 @@
   "mbp:3cfa0ad6-22e9-42c7-aca8-32371ec07390": 1795624437.424246,
   "mbp:1680201c-abcc-4e78-b9ad-dd315705e723": 1795626314.12302,
   "mbp:05fa74ca-3bd9-458e-a450-e65d714e2af0": 1795628182.130277,
-  "mbp:9ed494a8-9fa1-4399-82d5-5c5c8cb701a7": 1795630020.6934388
+  "mbp:9ed494a8-9fa1-4399-82d5-5c5c8cb701a7": 1795630020.6934388,
+  "mbp:ac0598c3-7513-4872-9ccf-02cf4a9405b8": 1795631843.2642317
  },
  "route": {
   "research": [
@@ -3459,13 +3460,13 @@
  "dev_seen": {
   "53bc8e7865": "2026-11-25"
  },
- "post_rest_until": 1795629836.146019,
+ "post_rest_until": 1795637222.1621962,
  "hl": {
   "days": {},
   "cur": {
    "day": "2026-11-25",
-   "calls": 674,
-   "fails": 97
+   "calls": 675,
+   "fails": 103
   },
   "last_act": 1795627336.3093,
   "alert_day": ""
