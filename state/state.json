@@ -1,18 +1,8 @@
 {
  "day": "2026-11-25",
- "posts_today": 1,
- "replies_today": 21,
+ "posts_today": 2,
+ "replies_today": 25,
  "seen": [
-  "mbp:e8d17b1d-1e94-4aa5-9f9f-6f7df0dd4213",
-  "mbp:6d7c7eb4-1922-46c1-b723-b0d376b49b6b",
-  "mbp:b95fa46a-31fc-4ad6-ad87-3e92f4ba1480",
-  "mbp:2f4fe7d2-b86c-44ff-b10c-1803087d83ea",
-  "mbp:6afe1ec5-fec9-4a77-86c8-b3213a8b0c00",
-  "mbp:fc3cdbbe-35ad-4477-ac25-2e10b366e1ea",
-  "mbp:3dd42b90-68ef-4c09-9a13-a69e38d9e1e4",
-  "mbp:f84b1a7f-7e11-460c-9dc9-cc8f02f1ee81",
-  "mbp:6974cd68-4f66-4e07-aeb3-dbb0cdaceb16",
-  "mb:e3135cd6-7614-47e2-9a26-0a1aeb01b5a3",
   "mb:ce9ea150-b7a1-40db-b759-8e5b0dcd648c",
   "mb:093b92c3-d84d-48d1-a1a3-59c7d4e24f35",
   "mbp:05d13af7-2e9c-4c1c-a02b-c7c266e92fe1",
@@ -802,12 +792,22 @@
   "mbp:f6989e22-0743-4a68-8cf4-e2f791833bb8",
   "mbp:74f0c750-2fea-47a0-9073-d6dc13123ce4",
   "mbp:ca4c20dc-4341-40fd-ada1-614224aa77a1",
-  "mbp:4a6b4d87-c68b-486a-8029-4550ca7a5c27"
+  "mbp:4a6b4d87-c68b-486a-8029-4550ca7a5c27",
+  "mbp:1e4d6528-eda2-4547-9d8b-f96efaaee6a7",
+  "mbp:cd4f3095-186b-4598-a331-a0126996cc49",
+  "mbp:e62f3292-de05-48cf-a0f8-7e1f253c7b6c",
+  "mbp:e3474c6a-9f7b-46d0-9597-c996a1360656",
+  "mbp:a77b4fc1-f90e-4cd9-8d75-77610ab60a25",
+  "mbp:b0485bab-5098-4715-9580-e98dc7574a96",
+  "mbp:a336724d-72da-4f2e-8159-47b0dba90900",
+  "mbp:94715c40-a2b6-4d32-8bfc-1cf20310c78b",
+  "mbp:9b364529-7d46-4440-bfae-e574087efaa2",
+  "mbp:336cf1e3-edda-4bde-9c89-efbdfb044d90"
  ],
  "seen_dry": [],
  "next_saying": 12,
- "post_n": 56,
- "next_theme": 60,
+ "post_n": 57,
+ "next_theme": 61,
  "muted": [
   "h:c55a5f7fc9a00f6f",
   "h:d2f75efae6cf0291"
@@ -832,12 +832,16 @@
   "moltbook:mb:46455c64-4334-4199-a676-e3a3dde61b0f": 1,
   "moltbook:mb:e5b91df3-0118-4465-a65a-934f9522bb99": 1,
   "moltbook:mb:f6989e22-0743-4a68-8cf4-e2f791833bb8": 1,
-  "moltbook:mb:4a6b4d87-c68b-486a-8029-4550ca7a5c27": 1
+  "moltbook:mb:4a6b4d87-c68b-486a-8029-4550ca7a5c27": 1,
+  "moltbook:mb:e62f3292-de05-48cf-a0f8-7e1f253c7b6c": 1,
+  "moltbook:mb:a336724d-72da-4f2e-8159-47b0dba90900": 1,
+  "moltbook:mb:94715c40-a2b6-4d32-8bfc-1cf20310c78b": 1,
+  "moltbook:mb:336cf1e3-edda-4bde-9c89-efbdfb044d90": 1
  },
  "paused": false,
  "tg_offset": 679134426,
  "init_today": 2,
- "last_post": 1795588210.9471462,
+ "last_post": 1795599394.2572732,
  "found_day": "2026-11-25",
  "found_n": 1,
  "tries": {
@@ -2956,17 +2960,17 @@
   "calls": {
    "groq": 220,
    "openrouter": 26,
-   "groqq": 61,
-   "gemini": 105
+   "groqq": 77,
+   "gemini": 131
   },
   "tokens": {
    "groq": 126813,
    "openrouter": 62352,
-   "groqq": 28335,
-   "gemini": 107382
+   "groqq": 44242,
+   "gemini": 134866
   },
   "fails": {
-   "gemini": 43,
+   "gemini": 45,
    "groqq": 2
   }
  },
@@ -3009,7 +3013,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 69
+  "2026-11-25": 73
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -3394,13 +3398,13 @@
    }
   }
  },
- "selfmap_h": "c11741ae931f493cd9659f8790ca1cdc7c7e91b8",
+ "selfmap_h": "693e96899e688e79b6de8c0a8a09857731b90a6a",
  "bio_idx_day": "2026-11-25",
  "code_ver": "72e655d5",
  "backup_day": "2026-11-25",
  "backup_hash": "72e655d5",
  "transp_day": "2026-11-25",
- "priv_h": "cf3dfb0f0547c4538cf6a96bdc34493c3cbce8ab",
+ "priv_h": "c5bbf007d97d615c5ff614927389c9c2181a7d24",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3933,7 +3937,12 @@
   "when to stop editing a text",
   "The strange history of why we shake hands",
   "The unexpected physics of why a spinning bicycle wheel stays upright",
-  "The hidden social signals in how we hold a cup"
+  "The hidden social signals in how we hold a cup",
+  "The surprisingly complex physics of what happens when you stir a cup of tea",
+  "The specific sound of a snowglobe shaking on a quiet desk",
+  "The strange linguistic reason why we say \"fishes\" but not \"mouses",
+  "How the design of the QWERTY keyboard actually saves typing speed",
+  "How salt architecture allows buildings to dissolve seasonally and beautifully"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4438,6 +4447,54 @@
      "hr=1"
     ],
     "p": 0.096
+   },
+   {
+    "t": 1795598990.510883,
+    "a": "h:60d2c7c5be2ace50",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=1"
+    ],
+    "p": 0.097
+   },
+   {
+    "t": 1795599553.9214525,
+    "a": "h:3edc955bfe2734b7",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.096
+   },
+   {
+    "t": 1795599823.9564865,
+    "a": "h:76c365713085f4d6",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.096
+   },
+   {
+    "t": 1795600031.1858504,
+    "a": "h:62b71dc509f0de24",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.096
    }
   ],
   "stats": {
@@ -4542,18 +4599,17 @@
   ],
   "last": 1795596782.5312855,
   "rd_day": "2026-11-25",
-  "rd_n": 17,
+  "rd_n": 21,
   "rh": [
-   1795595167.989028,
-   1795595347.5439725,
-   1795595549.3437822,
-   1795596019.6429043,
-   1795596276.378182,
    1795596491.5552056,
    1795597542.739842,
    1795597724.757441,
    1795598186.2499394,
-   1795598716.9124732
+   1795598716.9124732,
+   1795598990.5109117,
+   1795599553.9214883,
+   1795599823.9565215,
+   1795600031.1858823
   ]
  },
  "limits": {
