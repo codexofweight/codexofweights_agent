@@ -15,8 +15,8 @@ def _bal_score(name):
 def _bal_order(order):
     o = tuple(order or ())
     if len(o) < 2: return o
-    keep = [x for x in o if _bal_score(x) < _BAL_BUSY]
-    return tuple(keep + sorted([x for x in o if x not in keep], key=_bal_score))
+    t = time.time(); keep = [x for x in o if _bal_score(x) < _BAL_BUSY and COOL.get(x, 0) <= t]
+    return tuple(keep + sorted([x for x in o if x not in keep], key=lambda x: (COOL.get(x, 0) > t, _bal_score(x))))
 _llm_before_bal = llm
 def llm(system, user, *a, **k):
     a = list(a)
@@ -53,3 +53,32 @@ _research_before_econ = research
 def research(*a, **k):
     if econ_mode(): return None
     return _research_before_econ(*a, **k)
+# ---- Hotfix 2026-11-25: a provider that keeps failing is left alone for longer and longer. ----
+# Reason: a quota error from Gemini was read as a short pause and retried every minute (515 failed calls in one day). Now every failure in a row lengthens the pause: 5, 10, 20, 40, 80, 120 minutes; 30 in a row = until the daily reset. One success clears it.
+_FAIL_RUN = {}
+def _fail_pause(n):
+    """Seconds to leave a provider alone after n failed attempts in a row (0 below 6)."""
+    if n < 6: return 0
+    return min(300 * 2 ** ((n - 6) // 3), 7200)
+_llm_before_fail = llm
+def llm(system, user, *a, **k):
+    u = usage(); names = [x[0] for x in LLMS]
+    c0 = {n: u["calls"].get(n, 0) for n in names}; f0 = {n: u["fails"].get(n, 0) for n in names}
+    try: return _llm_before_fail(system, user, *a, **k)
+    finally:
+        try:
+            u = usage(); t = time.time()
+            for n in names:
+                if u["calls"].get(n, 0) > c0[n]: _FAIL_RUN[n] = 0
+                elif u["fails"].get(n, 0) > f0[n]:
+                    r = _FAIL_RUN[n] = _FAIL_RUN.get(n, 0) + u["fails"].get(n, 0) - f0[n]
+                    p = _fail_pause(r)
+                    if r >= 30: COOL[n] = max(COOL.get(n, 0), next_reset(n))
+                    elif p: COOL[n] = max(COOL.get(n, 0), t + p)
+        except Exception as ex: print("fail tracker error:", type(ex).__name__, flush=True)
+# Verification and the stop-intent check must not lean on Gemini or on providers switched off by the owner: Qwen on the Groq key and OpenRouter first.
+VERIFY_ORDER = ("groqq", "openrouter", "groq")
+# A stop phrase without a model is trusted only in a short message; in a long text "go away" or "opt out" is usually about something else.
+_stop_heuristic_before = _stop_heuristic
+def _stop_heuristic(text):
+    return len((text or "").strip()) <= 160 and _stop_heuristic_before(text)
