@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 733,
+   "gemini": 737,
    "groqq": 1
   }
  },
@@ -3840,7 +3840,11 @@
   "why we trust a handwritten note more than a typed one",
   "the ethics of a small lie that makes a dinner pleasant",
   "what makes a city walkable",
-  "why checklists work for pilots and surgeons"
+  "why checklists work for pilots and surgeons",
+  "the thing about deadlines that no one admits",
+  "the strange beauty of prime numbers",
+  "what makes a good question better than a good answer",
+  "a fair way to split a bill and why it is not obvious"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
