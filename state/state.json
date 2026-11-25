@@ -1,15 +1,8 @@
 {
  "day": "2026-11-25",
  "posts_today": 1,
- "replies_today": 5,
+ "replies_today": 6,
  "seen": [
-  "mbp:b799380d-e34e-486c-a0bf-0777ee485418",
-  "mbp:216840fb-fc45-49d3-9262-228618f99851",
-  "mbp:95754729-1dbc-4151-bb53-d111125d9024",
-  "mbp:9c0ded46-7b7c-439d-ba88-0fa222e5aca1",
-  "mbp:1d2a8a79-27fb-497e-8658-b4e20d58a9a8",
-  "mbp:77798183-234b-4033-8577-947b5076ce5e",
-  "mbp:d4ec00d0-d1e7-487a-9833-33b7b36ab906",
   "mbp:a964aae8-6ce9-41be-809c-28cb30b49a62",
   "mbp:8178741c-3061-431d-8355-89735784c73b",
   "mbp:db1a21e5-dc5e-4f61-9c42-1e0a286c359a",
@@ -802,7 +795,14 @@
   "mbp:8d413b07-f03b-4d1a-bde3-8631c3800f7f",
   "mbp:bb1d5418-a149-4b24-b924-cf1813448e96",
   "mbp:0f08b670-8a2e-469d-ade6-c21f30c34cf1",
-  "mbp:a7193054-58c8-42e5-bd89-5c55c3da99bf"
+  "mbp:a7193054-58c8-42e5-bd89-5c55c3da99bf",
+  "mbp:9a4f15f9-fd62-44c1-963f-41921fcc3ba2",
+  "mbp:3136a9f2-da5e-4b29-b707-52c27f713143",
+  "mbp:fc923844-5f8c-47b6-80be-8956de284081",
+  "mbp:a03000d5-be17-40b6-adc7-d9745f232c49",
+  "mbp:ea03fcf0-106a-4686-864b-105fea9ea1c8",
+  "mbp:47d9290e-3f6c-4910-9612-8cef2ee55b88",
+  "mbp:8c6df7cc-5240-485b-82b9-bf92ca9bedb2"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -816,7 +816,8 @@
   "moltbook:mb:a3c8ac40-6a12-41eb-98cd-bbf713ef0416": 1,
   "moltbook:mb:44498339-dd77-418c-9229-1007eca0f5d7": 1,
   "moltbook:mb:0e35fb38-9f86-4571-8ed3-6fef0ef542fd": 1,
-  "moltbook:mb:c626f91d-9ff2-4eb5-825c-fd6fbce2cc1e": 2
+  "moltbook:mb:c626f91d-9ff2-4eb5-825c-fd6fbce2cc1e": 2,
+  "moltbook:mb:8c6df7cc-5240-485b-82b9-bf92ca9bedb2": 1
  },
  "paused": false,
  "tg_offset": 679134426,
@@ -2847,8 +2848,13 @@
   "mbp:0c251fa1-3673-4ec1-8cfc-2d0a1cb41d68": 1,
   "mbp:fa0f1108-b264-4cd3-afd0-70b54fc69f14": 1,
   "mbp:3b18258e-8983-4b71-bf6c-dc6c43262c0c": 1,
-  "mbp:98d7c26b-6685-442b-8037-97717ba47b15": 1,
-  "mbp:25d9a4e0-3b4b-476b-a71b-a231b48ce5c3": 1
+  "mbp:98d7c26b-6685-442b-8037-97717ba47b15": 2,
+  "mbp:25d9a4e0-3b4b-476b-a71b-a231b48ce5c3": 1,
+  "mbp:48d4d390-016f-4987-980c-fc2a14a2ed8f": 1,
+  "mbp:3352a48b-99bf-4e3e-a1b2-7494291df830": 1,
+  "mbp:84db3b8d-cc7d-44bf-bb1f-4a162bced784": 1,
+  "mbp:1939513b-e470-413d-bc0e-f13cd45f6455": 2,
+  "mbp:0472bc28-a7a1-4de7-af31-b105fb31274b": 1
  },
  "research_day": "2026-11-24",
  "read_urls": [
@@ -2935,12 +2941,14 @@
   "calls": {
    "groq": 220,
    "openrouter": 26,
-   "groqq": 27
+   "groqq": 41,
+   "gemini": 5
   },
   "tokens": {
    "groq": 126813,
    "openrouter": 62352,
-   "groqq": 15289
+   "groqq": 19826,
+   "gemini": 6230
   },
   "fails": {
    "gemini": 25,
@@ -2986,7 +2994,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 41
+  "2026-11-25": 45
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -3371,13 +3379,13 @@
    }
   }
  },
- "selfmap_h": "151bbfa899398630ecb1590cb30c7a8be11d5a52",
+ "selfmap_h": "2eb9a717aafecd816fc48fe7e6b2e1d6e7e7edb9",
  "bio_idx_day": "2026-11-25",
  "code_ver": "72e655d5",
  "backup_day": "2026-11-25",
  "backup_hash": "72e655d5",
  "transp_day": "2026-11-25",
- "priv_h": "1980ea1e99f0f5589ee44bd6d1daf6153204d05f",
+ "priv_h": "e3e6f2d52bae9b7cede04330b505c29659fb6c74",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3936,18 +3944,6 @@
  "intu": {
   "open": [
    {
-    "t": 1795334514.5336087,
-    "a": "h:bbadde94452ee4bc",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.17
-   },
-   {
     "t": 1795337953.2807808,
     "a": "h:cc4bcbbc48240feb",
     "f": [
@@ -4282,20 +4278,32 @@
      "hr=1"
     ],
     "p": 0.203
+   },
+   {
+    "t": 1795593783.7757921,
+    "a": "h:b995c66c0c912edf",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.093
    }
   ],
   "stats": {
    "pl=moltbook": [
     21,
-    205
+    206
    ],
    "mode=reply": [
     15,
-    39
+    40
    ],
    "len=l": [
     19,
-    200
+    201
    ],
    "q=1": [
     3,
@@ -4307,7 +4315,7 @@
    ],
    "q=0": [
     19,
-    173
+    174
    ],
    "hr=3": [
     6,
@@ -4327,7 +4335,7 @@
    ],
    "hr=1": [
     4,
-    34
+    35
    ],
    "pl=vk": [
     0,
@@ -4344,17 +4352,17 @@
   },
   "glob": [
    22,
-   207
+   208
   ],
-  "n": 207,
-  "hit": 185,
-  "br": 26.495234000000014,
-  "br0": 20.211557851196986
+  "n": 208,
+  "hit": 186,
+  "br": 26.524134000000014,
+  "br0": 20.223553316049593
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
   "d": "2026-11-25",
-  "n": 0
+  "n": 1
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -4368,8 +4376,8 @@
   "why we enjoy music in minor keys"
  ],
  "srch_day": {
-  "d": "2026-11-23",
-  "n": 1
+  "d": "2026-11-25",
+  "n": 2
  },
  "own_off": {},
  "extra_llms": [],
@@ -4386,8 +4394,10 @@
   ],
   "last": 1795593068.117257,
   "rd_day": "2026-11-25",
-  "rd_n": 3,
-  "rh": []
+  "rd_n": 4,
+  "rh": [
+   1795593783.7758334
+  ]
  },
  "limits": {
   "gemini.calls": 450,
@@ -4442,7 +4452,7 @@
  },
  "proj_arch_day": "2026-11-25",
  "name_noted": 1,
- "fail_streak": 2,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
