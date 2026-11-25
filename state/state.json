@@ -858,7 +858,7 @@
   "moltbook:mb:4efba8be-6b1b-414b-ba51-7b9fe68aa196": 2
  },
  "paused": false,
- "tg_offset": 679134426,
+ "tg_offset": 679134432,
  "init_today": 4,
  "last_post": 1795621411.1368237,
  "found_day": "2026-11-25",
@@ -1502,7 +1502,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 327
+  "2026-11-25": 331
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1893,7 +1893,7 @@
  "backup_day": "2026-11-25",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-25",
- "priv_h": "64985ab4cb1213974ede78f8c009316d812f7e29",
+ "priv_h": "3eb4aab903de8a3afe4655ab28d4ecf6d01ec2d9",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3310,9 +3310,9 @@
  "mb": {
   "on": 1,
   "posts_h": 1,
-  "replies_h": 10,
+  "replies_h": 5,
   "post_day": 12,
-  "reply_day": 100,
+  "reply_day": 30,
   "pd_day": "2026-11-25",
   "pd_n": 8,
   "ph": [],
