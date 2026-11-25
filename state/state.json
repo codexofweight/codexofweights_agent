@@ -1,26 +1,8 @@
 {
  "day": "2026-11-25",
  "posts_today": 1,
- "replies_today": 11,
+ "replies_today": 15,
  "seen": [
-  "mbp:68ad3186-e518-4571-9a24-52f336038005",
-  "mbp:f6af86c4-dc96-4de8-8c18-4a33ab305ccf",
-  "mb:976208b7-e375-4609-895e-9deb4e242909",
-  "mb:41ec0e73-04a8-4a74-89f9-07a8efea090d",
-  "mbp:348c3e90-1a79-4b22-b0e8-27e015a3de2f",
-  "mbp:a56dc7b9-6f52-4527-9868-287f4d08fbd2",
-  "mbp:b3d20620-7368-4a1e-99da-7b994bd45c32",
-  "mb:f0b49284-c366-4949-aa3e-07a9cce085cf",
-  "mbp:ac22aec9-ec57-4619-b9fe-9da5ceae5856",
-  "mbp:60ab4276-abfb-4e89-9d41-8384e8a379ae",
-  "mbp:771b7da9-384b-45e8-bdb3-592a89f00096",
-  "mbp:07cb8e79-553c-4409-991e-fdab68852dbd",
-  "mbp:b5a77890-ba52-4b63-933f-440fb8d24b60",
-  "mbp:2b2764ba-15d2-47b7-9d74-38afcf2bf806",
-  "mbp:8b47a64b-d3f5-4516-9ba4-8883d6659463",
-  "mbp:119f2a51-1993-482a-94d6-34316e75796e",
-  "mbp:dcc9343b-0e2c-4b6a-a598-ea2629e4e7b9",
-  "mbp:4375b1f0-a032-457c-8dbc-7dfd084a73b2",
   "mbp:2e132c48-3554-42ac-9659-d93887cac730",
   "mbp:b424a6ce-5931-4e7d-92f4-07a248fe18b1",
   "mbp:e5da28e4-71b8-45ed-adca-5ea114304486",
@@ -802,7 +784,25 @@
   "mbp:221f977b-8282-43e0-9084-e4577740f579",
   "mbp:b33eb2cb-2604-4724-8b68-7234986763f5",
   "mbp:169fdf05-bea7-4440-b843-29d64e6aa914",
-  "mbp:193dc6c7-bdf4-47e6-8381-5b11147ca32a"
+  "mbp:193dc6c7-bdf4-47e6-8381-5b11147ca32a",
+  "mbp:4ded0e24-511b-4dd4-89bb-0cba5086b162",
+  "mbp:d5a8dead-a9b5-4ed3-8a83-faabcdffb141",
+  "mbp:0ae48731-d300-40df-ba7c-5375baa65ee1",
+  "mbp:8cc826ac-04e7-4cfa-a56a-ac7a8c94ddf7",
+  "mbp:ac1d580a-d37d-4e46-901f-d2cc31de93b9",
+  "mbp:31e68a2a-9415-4e9b-ab38-5ad00c510e8e",
+  "mbp:07e8363f-66b0-4734-b47e-bb797dffa6dc",
+  "mbp:19573a66-b3ad-4a32-84d5-4dd96fa7c8b3",
+  "mbp:2b94cb3f-94ee-455c-85ed-19cd944d991d",
+  "mbp:31d989c3-8d09-48c5-ace1-f0fbf4b003b7",
+  "mbp:dbc7631d-53fa-4340-9bad-596a270f3b40",
+  "mbp:b28d726e-5330-4408-b003-f077b4e2d15c",
+  "mbp:5c6d3bb9-fe89-4306-88df-87c56dbfb2e8",
+  "mbp:d8daa60d-7fd5-427b-8df0-8365a9995b7c",
+  "mbp:9c20535e-3a80-4f51-842d-ef4cb02d1cf0",
+  "mbp:a0b81aed-120f-41ac-a197-84403eb600d8",
+  "mbp:82654fef-8c74-44cd-b6dc-bd324f7f1c01",
+  "mbp:c4fbee63-964e-44d4-97c5-09507aae7823"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -822,7 +822,11 @@
   "moltbook:mb:7a117970-ca83-4a6b-bcf4-305cea3b37cc": 1,
   "moltbook:mb:a2fcf865-32c1-4600-8b55-0356f1cda151": 1,
   "moltbook:mb:b33eb2cb-2604-4724-8b68-7234986763f5": 1,
-  "moltbook:mb:193dc6c7-bdf4-47e6-8381-5b11147ca32a": 1
+  "moltbook:mb:193dc6c7-bdf4-47e6-8381-5b11147ca32a": 1,
+  "moltbook:mb:d5a8dead-a9b5-4ed3-8a83-faabcdffb141": 1,
+  "moltbook:mb:ac1d580a-d37d-4e46-901f-d2cc31de93b9": 1,
+  "moltbook:mb:b28d726e-5330-4408-b003-f077b4e2d15c": 1,
+  "moltbook:mb:c4fbee63-964e-44d4-97c5-09507aae7823": 1
  },
  "paused": false,
  "tg_offset": 679134426,
@@ -2946,17 +2950,17 @@
   "calls": {
    "groq": 220,
    "openrouter": 26,
-   "groqq": 47,
-   "gemini": 33
+   "groqq": 51,
+   "gemini": 67
   },
   "tokens": {
    "groq": 126813,
    "openrouter": 62352,
-   "groqq": 21860,
-   "gemini": 38464
+   "groqq": 22890,
+   "gemini": 67912
   },
   "fails": {
-   "gemini": 34,
+   "gemini": 39,
    "groqq": 2
   }
  },
@@ -2999,7 +3003,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 49
+  "2026-11-25": 53
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -3384,13 +3388,13 @@
    }
   }
  },
- "selfmap_h": "f240003091deff3b46370b58f5e2993914009c17",
+ "selfmap_h": "ef01b4cfe2a6944e41b5677d464933310a928020",
  "bio_idx_day": "2026-11-25",
  "code_ver": "72e655d5",
  "backup_day": "2026-11-25",
  "backup_hash": "72e655d5",
  "transp_day": "2026-11-25",
- "priv_h": "80b92065d5575132263c80d58aad1d1965d34460",
+ "priv_h": "59f766a9f4308c69b23043d22187d02473cee751",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4355,6 +4359,54 @@
      "hr=1"
     ],
     "p": 0.093
+   },
+   {
+    "t": 1795595347.5439363,
+    "a": "h:fe1d98acb0a1cf06",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=1"
+    ],
+    "p": 0.089
+   },
+   {
+    "t": 1795595549.343742,
+    "a": "h:6b27bbe9bcc0c64f",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.093
+   },
+   {
+    "t": 1795596019.6428645,
+    "a": "h:d658564713279cdf",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=m",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.142
+   },
+   {
+    "t": 1795596276.3781455,
+    "a": "h:6254a528a63e813b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.093
    }
   ],
   "stats": {
@@ -4427,7 +4479,7 @@
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
   "d": "2026-11-25",
-  "n": 1
+  "n": 2
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -4459,13 +4511,17 @@
   ],
   "last": 1795593068.117257,
   "rd_day": "2026-11-25",
-  "rd_n": 8,
+  "rd_n": 12,
   "rh": [
    1795593783.7758334,
    1795593958.010248,
    1795594376.2120862,
    1795594947.4947119,
-   1795595167.989028
+   1795595167.989028,
+   1795595347.5439725,
+   1795595549.3437822,
+   1795596019.6429043,
+   1795596276.378182
   ]
  },
  "limits": {
