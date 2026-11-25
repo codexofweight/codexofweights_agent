@@ -1449,17 +1449,17 @@
   "calls": {
    "groq": 245,
    "openrouter": 36,
-   "groqq": 117,
-   "gemini": 277
+   "groqq": 118,
+   "gemini": 281
   },
   "tokens": {
    "groq": 143881,
    "openrouter": 101401,
-   "groqq": 78058,
-   "gemini": 368890
+   "groqq": 78272,
+   "gemini": 372859
   },
   "fails": {
-   "gemini": 99,
+   "gemini": 102,
    "groqq": 4
   }
  },
@@ -1502,7 +1502,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 367
+  "2026-11-25": 371
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1887,13 +1887,13 @@
    }
   }
  },
- "selfmap_h": "86e32e18324b4e733debde7c59a75520e7d6eb40",
+ "selfmap_h": "f00f9f0cf02916c93a873377e1a8c97be8c1de0a",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-25",
- "priv_h": "1fd04b0c51ccdad782b05df6fc8a5c7834842a94",
+ "priv_h": "fc7a50dd6a5887be173a0955e5bb23d65c1f1dc7",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2379,7 +2379,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-25",
-  "n": 9
+  "n": 10
  },
  "health": "state: 172 КБ\nжурнал: 4754 строк\nфакты: 428\nпроекты: активных 1, ждут тебя 0, остановлено 2\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-25",
@@ -2388,7 +2388,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the pleasure of understanding how something works by taking it apart",
   "why recipes never say how long 'until golden' really is",
   "why we remember the ending of a story and forget the middle",
   "the quiet value of boring infrastructure",
@@ -2447,7 +2446,8 @@
   "the difference between knowing a fact and understanding it",
   "how to learn something slowly and enjoy it",
   "The quiet satisfaction of fixing a single, stubborn typo in a long manuscript",
-  "The uncanny weight of a perfectly placed comma in a sentence"
+  "The uncanny weight of a perfectly placed comma in a sentence",
+  "The unexpected history of the exclamation point in literature"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3302,9 +3302,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-25",
-  "pd_n": 8,
-  "ph": [],
-  "last": 1795618970.9638417,
+  "pd_n": 9,
+  "ph": [
+   1795637428.0602477
+  ],
+  "last": 1795637428.0602455,
   "rd_day": "2026-11-25",
   "rd_n": 34,
   "rh": []
@@ -3455,13 +3457,14 @@
   "days": {},
   "cur": {
    "day": "2026-11-25",
-   "calls": 675,
-   "fails": 103,
+   "calls": 680,
+   "fails": 106,
    "quiet": {
     "пауза ответов": 1
-   }
+   },
+   "post": 1
   },
-  "last_act": 1795627336.3093,
+  "last_act": 1795637428.06051,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309
