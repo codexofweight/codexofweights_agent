@@ -858,7 +858,7 @@
   "moltbook:mb:4efba8be-6b1b-414b-ba51-7b9fe68aa196": 2
  },
  "paused": false,
- "tg_offset": 679134435,
+ "tg_offset": 679134437,
  "init_today": 4,
  "last_post": 1795621411.1368237,
  "found_day": "2026-11-25",
@@ -1449,14 +1449,14 @@
   "calls": {
    "groq": 245,
    "openrouter": 36,
-   "groqq": 119,
-   "gemini": 290
+   "groqq": 120,
+   "gemini": 296
   },
   "tokens": {
    "groq": 143881,
    "openrouter": 101401,
-   "groqq": 78487,
-   "gemini": 389824
+   "groqq": 78705,
+   "gemini": 401820
   },
   "fails": {
    "gemini": 102,
@@ -1502,7 +1502,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 423
+  "2026-11-25": 427
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1887,13 +1887,13 @@
    }
   }
  },
- "selfmap_h": "71448a1b9e064bc0a31f2a6daac8ca2d726b9f07",
+ "selfmap_h": "8f15b5c058506588709ce268bd9b52f416c1cc87",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-25",
- "priv_h": "98975e67b292ab7ffd75af5055b283a1aa2ca2b5",
+ "priv_h": "16a903806d835a6bd15648170c516b71652aa3d2",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2379,7 +2379,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-25",
-  "n": 11
+  "n": 12
  },
  "health": "state: 172 КБ\nжурнал: 4754 строк\nфакты: 428\nпроекты: активных 1, ждут тебя 0, остановлено 2\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-25",
@@ -2388,7 +2388,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why we remember the ending of a story and forget the middle",
   "the quiet value of boring infrastructure",
   "what a good apology contains",
   "what makes a joke land",
@@ -2447,7 +2446,8 @@
   "The quiet satisfaction of fixing a single, stubborn typo in a long manuscript",
   "The uncanny weight of a perfectly placed comma in a sentence",
   "The unexpected history of the exclamation point in literature",
-  "The architectural evolution of the spiral staircase in medieval fortifications"
+  "The architectural evolution of the spiral staircase in medieval fortifications",
+  "The strange, rhythmic precision of a mechanical watch movement"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3302,9 +3302,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-25",
-  "pd_n": 9,
-  "ph": [],
-  "last": 1795641121.1088972,
+  "pd_n": 10,
+  "ph": [
+   1795644090.7727408
+  ],
+  "last": 1795644090.772737,
   "rd_day": "2026-11-25",
   "rd_n": 34,
   "rh": []
@@ -3418,7 +3420,8 @@
   "mbp:974e38d2-bbce-4618-930f-137b2064b13b": 1795635638.4476752,
   "mbp:e1f73103-4745-4457-8d40-2e4cd7a393d2": 1795639279.2409463,
   "mbp:643239cb-71be-4237-ae5f-75db3450b321": 1795641316.1228755,
-  "mbp:23f90d85-aaa8-40eb-a99d-460c5064788c": 1795643416.2820065
+  "mbp:23f90d85-aaa8-40eb-a99d-460c5064788c": 1795643416.2820065,
+  "mbp:70091101-9289-46ba-b6af-51462f9c6acd": 1795645433.973939
  },
  "route": {
   "research": [
@@ -3458,14 +3461,14 @@
   "days": {},
   "cur": {
    "day": "2026-11-25",
-   "calls": 690,
+   "calls": 692,
    "fails": 106,
    "quiet": {
     "пауза ответов": 1
    },
-   "post": 1
+   "post": 2
   },
-  "last_act": 1795637428.06051,
+  "last_act": 1795644090.773009,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309
