@@ -3,8 +3,6 @@
  "posts_today": 1,
  "replies_today": 16,
  "seen": [
-  "mbp:4f682760-8791-4f64-8157-30f865053669",
-  "mbp:fa1ff226-c892-4450-b124-09ec4899e079",
   "mbp:c72af0bc-c9dd-44aa-9e7e-9fb169971870",
   "mbp:1287cc46-db93-43b5-8692-8ed93a2541e0",
   "mbp:438e001a-4dfa-4e70-9b1e-57a99befd937",
@@ -802,7 +800,9 @@
   "mbp:73a38121-f5b8-4abe-a7ce-0468c8d80aa9",
   "mbp:7160ebe7-64e4-4fb0-939f-5397d7963517",
   "mbp:fd46c556-9f09-42b6-af85-cc00be8aadd1",
-  "mbp:ae2f9c07-298a-4bb6-8b9a-309ad45ba63c"
+  "mbp:ae2f9c07-298a-4bb6-8b9a-309ad45ba63c",
+  "mb:6b6fff3c-5391-407c-a442-140e658faeff",
+  "mbp:2d5e1b5d-7f99-41e4-b4dc-a3c18c93079d"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -2952,13 +2952,13 @@
    "groq": 220,
    "openrouter": 26,
    "groqq": 56,
-   "gemini": 75
+   "gemini": 77
   },
   "tokens": {
    "groq": 126813,
    "openrouter": 62352,
    "groqq": 27053,
-   "gemini": 75004
+   "gemini": 75582
   },
   "fails": {
    "gemini": 39,
@@ -3004,7 +3004,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 57
+  "2026-11-25": 61
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -3389,7 +3389,7 @@
    }
   }
  },
- "selfmap_h": "9d838c37f6cbe898c3de20ddb01e8b0c974a0bb2",
+ "selfmap_h": "549a4380d6a9cca6c41c2f8af964dda95d05fdd6",
  "bio_idx_day": "2026-11-25",
  "code_ver": "72e655d5",
  "backup_day": "2026-11-25",
@@ -4267,18 +4267,6 @@
     "p": 0.091
    },
    {
-    "t": 1795590872.4294817,
-    "a": "h:bb140fafa9741e8f",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=1",
-     "hr=1"
-    ],
-    "p": 0.153
-   },
-   {
     "t": 1795590915.0148315,
     "a": "h:b888cee45233ce8c",
     "f": [
@@ -4425,20 +4413,20 @@
   ],
   "stats": {
    "pl=moltbook": [
-    21,
-    206
+    22,
+    207
    ],
    "mode=reply": [
-    15,
-    40
+    16,
+    41
    ],
    "len=l": [
-    19,
-    201
+    20,
+    202
    ],
    "q=1": [
-    3,
-    34
+    4,
+    35
    ],
    "hr=2": [
     8,
@@ -4465,8 +4453,8 @@
     6
    ],
    "hr=1": [
-    4,
-    35
+    5,
+    36
    ],
    "pl=vk": [
     0,
@@ -4482,13 +4470,13 @@
    ]
   },
   "glob": [
-   22,
-   208
+   23,
+   209
   ],
-  "n": 208,
+  "n": 209,
   "hit": 186,
-  "br": 26.524134000000014,
-  "br0": 20.223553316049593
+  "br": 27.241543000000014,
+  "br0": 21.017425870574424
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
