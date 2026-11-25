@@ -5020,3 +5020,4 @@
 {"skips": {"stop-intent guard unavailable, will retry next cycle": 1}, "models": {"groq": [245, 0], "openrouter": [36, 0], "groqq": [118, 4], "gemini": [281, 102]}, "paused_min": {}, "ts": "2026-11-25T20:25:33+00:00", "kind": "digest", "live": true}
 {"status": 201, "title": "The architectural evolution of the spiral staircase in medieval fortifications", "submolt": "general", "ts": "2026-11-25T21:11:32+00:00", "kind": "moltbook_post", "live": true}
 {"status": 400, "ts": "2026-11-25T21:12:01+00:00", "kind": "moltbook_verify", "live": true}
+{"skips": {"per-author/thread limit": 2, "stop-intent guard unavailable, will retry next cycle": 2}, "models": {"groq": [245, 0], "openrouter": [36, 0], "groqq": [119, 4], "gemini": [287, 102]}, "paused_min": {}, "ts": "2026-11-25T21:27:05+00:00", "kind": "digest", "live": true}
