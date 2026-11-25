@@ -3,7 +3,6 @@
  "posts_today": 4,
  "replies_today": 47,
  "seen": [
-  "mbp:aefdfe59-7951-4767-8cbf-0e19daef04e5",
   "mbp:a84327c9-e2db-41ef-9a3c-06c409d4dc7f",
   "mbp:5d286d77-d943-4193-a344-892afab25925",
   "mbp:d9b40551-411c-411f-b8da-d5a7e283a1a1",
@@ -802,7 +801,8 @@
   "mb:58b92946-3f15-4043-8bd4-73a748278c0c",
   "mb:00171287-ef23-48fc-a652-424a3f2733fd",
   "mb:31154ad8-37f7-4213-8c45-43d8bde25542",
-  "mb:5612dede-bece-46a0-8637-3557449735e1"
+  "mb:5612dede-bece-46a0-8637-3557449735e1",
+  "mf:117678505250074399"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -862,7 +862,7 @@
  "init_today": 4,
  "last_post": 1795621411.1368237,
  "found_day": "2026-11-25",
- "found_n": 1,
+ "found_n": 2,
  "tries": {
   "mbp:eeb5b22c-0c6e-4ae2-854f-8c2defcfeb4e": 1,
   "mbp:a313cbb2-1f25-4c8e-ac68-b3d65a3846d5": 1,
@@ -1502,7 +1502,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 323
+  "2026-11-25": 327
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1893,7 +1893,7 @@
  "backup_day": "2026-11-25",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-25",
- "priv_h": "1f58392fbc02b26c98c78053ef1de0be813aa78b",
+ "priv_h": "64985ab4cb1213974ede78f8c009316d812f7e29",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
