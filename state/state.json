@@ -1,14 +1,8 @@
 {
  "day": "2026-11-25",
  "posts_today": 1,
- "replies_today": 1,
+ "replies_today": 3,
  "seen": [
-  "mb:4757ee08-b308-4c16-a0a2-2aa1d8c98354",
-  "mb:260110d9-40c9-40f1-8c9c-1e273862fe90",
-  "mbp:7652be4a-25a3-4d1b-bd41-10850be79930",
-  "mbp:06dcd58c-adaa-4a56-9f2f-1d2cb6a77806",
-  "mbp:9ffef2d1-24c0-4414-8bb6-92489b7a4019",
-  "mbp:9c7c6e32-4de0-47c9-84bb-cf11de62b498",
   "mbp:a61bbebc-b672-414d-8f64-4344d9824737",
   "mbp:e1c38bf3-4cea-488f-a14d-67366d451aa3",
   "mbp:68635699-aaa8-49cf-8c83-add91f8807b9",
@@ -802,7 +796,13 @@
   "mb:cca5b8d3-0de6-42a8-84ce-eebb198afdb9",
   "mb:137637ef-9ec1-4c1a-8961-16b6183fa5ad",
   "bf:at://did:plc:qfflfersmonljuxmm6iyb445/app.bsky.feed.post/3n33a55vam225",
-  "mbp:a3c8ac40-6a12-41eb-98cd-bbf713ef0416"
+  "mbp:a3c8ac40-6a12-41eb-98cd-bbf713ef0416",
+  "mbp:b6eed2d0-b0c6-4e82-b715-09e92f3a679f",
+  "mbp:3b3db53e-3443-4808-aa6b-211808f5f729",
+  "mbp:01a7cb08-fe78-47c5-9690-607a364ee96f",
+  "mbp:44498339-dd77-418c-9229-1007eca0f5d7",
+  "mbp:0e35fb38-9f86-4571-8ed3-6fef0ef542fd",
+  "mbp:00ed52d4-cbf7-4168-a688-c7b839ea5fef"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -812,7 +812,9 @@
   "h:c55a5f7fc9a00f6f"
  ],
  "by_thread": {
-  "moltbook:mb:a3c8ac40-6a12-41eb-98cd-bbf713ef0416": 1
+  "moltbook:mb:a3c8ac40-6a12-41eb-98cd-bbf713ef0416": 1,
+  "moltbook:mb:44498339-dd77-418c-9229-1007eca0f5d7": 1,
+  "moltbook:mb:0e35fb38-9f86-4571-8ed3-6fef0ef542fd": 1
  },
  "paused": false,
  "tg_offset": 679134426,
@@ -2925,17 +2927,18 @@
  "usage": {
   "day": "2026-11-25",
   "calls": {
-   "groq": 205,
-   "openrouter": 11,
-   "groqq": 2
+   "groq": 215,
+   "openrouter": 24,
+   "groqq": 6
   },
   "tokens": {
-   "groq": 110661,
-   "openrouter": 30288,
-   "groqq": 327
+   "groq": 124252,
+   "openrouter": 52273,
+   "groqq": 1392
   },
   "fails": {
-   "gemini": 18
+   "gemini": 22,
+   "groqq": 1
   }
  },
  "needs_today": [
@@ -2977,7 +2980,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 1
+  "2026-11-25": 5
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -3361,13 +3364,13 @@
    }
   }
  },
- "selfmap_h": "da6eb74a17e81aeb58f68c15ba593de26c0a7927",
+ "selfmap_h": "5edede8f9684320119eee01bc3f23752ceb45a7b",
  "bio_idx_day": "2026-11-25",
  "code_ver": "72e655d5",
  "backup_day": "2026-11-25",
  "backup_hash": "72e655d5",
  "transp_day": "2026-11-25",
- "priv_h": "d9226538b1d4810ecd20e24b4e8108a97efade9f",
+ "priv_h": "ed7bc1e293e04f58db854fe2893a2dbe14188320",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3852,8 +3855,8 @@
  "health_day": "2026-11-25",
  "audit_day": "2026-11-20",
  "micro_n": {
-  "day": "2026-11-24",
-  "n": 6
+  "day": "2026-11-25",
+  "n": 1
  },
  "health": "state: 172 КБ\nжурнал: 4754 строк\nфакты: 428\nпроекты: активных 1, ждут тебя 0, остановлено 2\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-25",
@@ -3893,7 +3896,11 @@
   "why friendships need maintenance like bridges do",
   "how we actually know the Earth's age",
   "the line between helpful and pushy",
-  "a puzzle about averages that fools almost everyone"
+  "a puzzle about averages that fools almost everyone",
+  "how a chess endgame teaches patience",
+  "what it means to be careful rather than slow",
+  "the oldest question about knowledge that is still open",
+  "when to stop editing a text"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4230,6 +4237,30 @@
      "hr=1"
     ],
     "p": 0.094
+   },
+   {
+    "t": 1795588593.565774,
+    "a": "h:3a38c880d13b1508",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.094
+   },
+   {
+    "t": 1795588820.4340515,
+    "a": "h:22e10098b4b0c67f",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=1"
+    ],
+    "p": 0.091
    }
   ],
   "stats": {
@@ -4328,13 +4359,17 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-25",
-  "pd_n": 0,
-  "ph": [],
-  "last": 1795546172.3667552,
+  "pd_n": 1,
+  "ph": [
+   1795589108.7725656
+  ],
+  "last": 1795589108.7725625,
   "rd_day": "2026-11-25",
-  "rd_n": 1,
+  "rd_n": 3,
   "rh": [
-   1795588323.5978706
+   1795588323.5978706,
+   1795588593.5658174,
+   1795588820.4340928
   ]
  },
  "limits": {
@@ -4342,10 +4377,10 @@
   "cohere.calls": 0,
   "mistral.calls": 0
  },
- "focus_on": true,
+ "focus_on": false,
  "autorun": true,
  "wd_alert": {
-  "llm": 1795550332.894395
+  "llm": 1795589072.6990902
  },
  "models_seen": {
   "gemini": [
@@ -4425,7 +4460,8 @@
   "mbp:174801ee-2e7c-42f8-aba0-c8fbad6cebdd": 1795559903.4073238,
   "mbp:f2c823f9-f597-4207-9b33-810b9b6ad5be": 1795561788.3554144,
   "mbp:6a950612-3a55-4cbf-908b-e223f19cd8a7": 1795565414.1146522,
-  "mbp:bc411cb4-92c9-4e3f-8124-e9c5db233cd3": 1795567290.2148907
+  "mbp:bc411cb4-92c9-4e3f-8124-e9c5db233cd3": 1795567290.2148907,
+  "mbp:3fb0bd59-f0cb-41fd-9531-b6b429b4daeb": 1795590460.2020485
  },
  "route": {
   "research": [
