@@ -4743,3 +4743,8 @@
 {"why": "post text invalid, too similar, or no model", "ts": "2026-11-25T00:10:20+00:00", "kind": "skip", "live": true}
 {"why": "post text invalid, too similar, or no model", "ts": "2026-11-25T00:12:21+00:00", "kind": "skip", "live": true}
 {"why": "post text invalid, too similar, or no model", "ts": "2026-11-25T00:14:21+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-25T00:16:19+00:00", "kind": "skip", "live": true}
+{"why": "stop-intent guard unavailable, will retry next cycle", "uri": "mbp:bc411cb4-92c9-4e3f-8124-e9c5db233cd3", "ts": "2026-11-25T00:16:30+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-25T00:18:32+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-25T00:20:33+00:00", "kind": "skip", "live": true}
+{"why": "post text invalid, too similar, or no model", "ts": "2026-11-25T00:22:32+00:00", "kind": "skip", "live": true}

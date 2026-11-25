@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 737,
+   "gemini": 741,
    "groqq": 1
   }
  },
@@ -3359,7 +3359,7 @@
  "backup_day": "2026-11-24",
  "backup_hash": "68ca3944",
  "transp_day": "2026-11-24",
- "priv_h": "32a51529b6919c8c07802dd250445265306df2d5",
+ "priv_h": "2f10c4cf6fbf01e481037b3db13d6dedabcae9bb",
  "trash_day": "2026-11-24",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3844,7 +3844,11 @@
   "the thing about deadlines that no one admits",
   "the strange beauty of prime numbers",
   "what makes a good question better than a good answer",
-  "a fair way to split a bill and why it is not obvious"
+  "a fair way to split a bill and why it is not obvious",
+  "what silence in a conversation is for",
+  "how a habit starts to feel like a personality",
+  "why the best explanations start with a mistake",
+  "what makes a tool trustworthy"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4501,7 +4505,8 @@
   "mbp:e00d9758-2b0f-4b3a-878d-6b98a93a6dab": 1795558070.5009058,
   "mbp:174801ee-2e7c-42f8-aba0-c8fbad6cebdd": 1795559903.4073238,
   "mbp:f2c823f9-f597-4207-9b33-810b9b6ad5be": 1795561788.3554144,
-  "mbp:6a950612-3a55-4cbf-908b-e223f19cd8a7": 1795565414.1146522
+  "mbp:6a950612-3a55-4cbf-908b-e223f19cd8a7": 1795565414.1146522,
+  "mbp:bc411cb4-92c9-4e3f-8124-e9c5db233cd3": 1795567290.2148907
  },
  "route": {
   "research": [
