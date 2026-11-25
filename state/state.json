@@ -1502,7 +1502,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 275
+  "2026-11-25": 279
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1887,11 +1887,11 @@
    }
   }
  },
- "selfmap_h": "e5504ce970e4c4a286cba9431ad3def4e2295279",
+ "selfmap_h": "a06997f7319af0ddfb1e140da46ce34568bd71d3",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
- "backup_hash": "02c876dc",
+ "backup_hash": "0e3cb843",
  "transp_day": "2026-11-25",
  "priv_h": "1aea7733bd2349052b372bf060e95270bd530436",
  "trash_day": "2026-11-25",
@@ -3458,5 +3458,16 @@
  "dev_seen": {
   "53bc8e7865": "2026-11-25"
  },
- "post_rest_until": 1795629836.146019
+ "post_rest_until": 1795629836.146019,
+ "hl": {
+  "days": {},
+  "cur": {
+   "day": "2026-11-25",
+   "calls": 674,
+   "fails": 97
+  },
+  "last_act": 1795627336.3093,
+  "alert_day": ""
+ },
+ "hl_started": 1795627336.309309
 }
