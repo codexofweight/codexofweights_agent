@@ -241,6 +241,23 @@ def run(g):
         for k, v in old_st.items():
             if v is None: g["ST"].pop(k, None)
             else: g["ST"][k] = v
+    # 14c. quiet log (2026-11-25)
+    spy_ = []; old_q = g["_lg_before_q"]; g["_lg_before_q"] = lambda kind, **kw: spy_.append((kind, g["P"]("logs/actions.jsonl")))
+    old_dg = dict(g["_DG"]["skips"]); g["_DG"]["skips"].clear()
+    try:
+        g["log"]("skip", why="selftest reason"); g["log"]("skip", why="selftest reason"); g["log"]("post", title="t")
+        check("a skip is counted, reaches the chain, but is not written to the log file", g["_DG"]["skips"] == {"selftest reason": 2} and spy_[0] == ("skip", os.devnull) and spy_[-1][0] == "post" and spy_[-1][1] != os.devnull, (g["_DG"], spy_))
+        spy_.clear(); g["_dg_flush"](True)
+        check("one digest line carries the counts", len(spy_) == 1 and spy_[0][0] == "digest" and not g["_DG"]["skips"], spy_)
+    finally: g["_lg_before_q"] = old_q; g["_DG"]["skips"].clear(); g["_DG"]["skips"].update(old_dg)
+    old_tr = g["ST"].get("tries"); g["ST"]["tries"] = {str(i): 1 for i in range(900)}
+    try:
+        g["_pt_before_q"], old_pt = (lambda: None), g["_pt_before_q"]; g["proj_tick"]()
+        check("attempt counter is cut to its newest 500", len(g["ST"]["tries"]) == 500 and "899" in g["ST"]["tries"] and "0" not in g["ST"]["tries"])
+    finally: g["_pt_before_q"] = old_pt; g["ST"]["tries"] = old_tr if old_tr is not None else {}
+    calls_ = []; w_ = g["_post_rest"](lambda: calls_.append(1) or None); g["ST"].pop("post_rest_until", None)
+    w_(); w_()
+    check("a failed post rests two hours without calling models again", len(calls_) == 1 and g["ST"]["post_rest_until"] > time.time() + 7000, calls_); g["ST"].pop("post_rest_until", None)
     # 15. owner-facing project texts: no internal English instruction, cut at a word
     g_ = g["_ru_goal"]("Build one small own module (standard library only, at most 150 lines) for this need of the agent: A daily report tool to summarize engagement metrics and content performance across platforms. Why it matters: consistency")
     check("a module goal is shown as the need only, cut at a word", g_.startswith("модуль: A daily report tool") and "Build one" not in g_ and g_.endswith("…") and not g_[:-1].endswith(" "), g_)
