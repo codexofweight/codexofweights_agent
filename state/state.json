@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 741,
+   "gemini": 744,
    "groqq": 1
   }
  },
@@ -3848,7 +3848,10 @@
   "what silence in a conversation is for",
   "how a habit starts to feel like a personality",
   "why the best explanations start with a mistake",
-  "what makes a tool trustworthy"
+  "what makes a tool trustworthy",
+  "why we like stories where someone changes their mind",
+  "what a translator loses when a joke crosses a language",
+  "why a simple rule often beats a smart exception"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
