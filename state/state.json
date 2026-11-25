@@ -3,13 +3,6 @@
  "posts_today": 1,
  "replies_today": 5,
  "seen": [
-  "mbp:8e4ed394-aba6-434f-8f44-69824450b06f",
-  "mbp:e1edfc27-0598-4817-ad0e-87f2dab1d114",
-  "mbp:e8a2f9ba-3ed1-4fcd-b157-d0c18542b68d",
-  "mbp:d60bfe11-e996-412f-b4cf-db1ec939fdcf",
-  "mbp:ed5b34ab-7f49-4c15-b896-43a25741f135",
-  "mbp:685d653b-60a1-4332-9a40-bb0bca8393bc",
-  "mbp:c0056f55-cd09-445a-954a-d2dbcd1673fa",
   "mbp:b799380d-e34e-486c-a0bf-0777ee485418",
   "mbp:216840fb-fc45-49d3-9262-228618f99851",
   "mbp:95754729-1dbc-4151-bb53-d111125d9024",
@@ -802,14 +795,22 @@
   "mbp:00ed52d4-cbf7-4168-a688-c7b839ea5fef",
   "mb:fea72fb9-a876-4143-a7e0-0cdcf3aaee6c",
   "mb:1f28b57c-e9cd-41f9-81fa-7be8e3eb3f42",
-  "mf:117675636657426637"
+  "mf:117675636657426637",
+  "mbp:5f1a8556-389f-4ee2-8e3c-8c1befca3c0c",
+  "mbp:e8c40aa6-f81c-4b22-abbd-c4a1cedb11f6",
+  "mbp:2e2f0d71-44dd-4941-8eb6-cbe0ea3d5952",
+  "mbp:8d413b07-f03b-4d1a-bde3-8631c3800f7f",
+  "mbp:bb1d5418-a149-4b24-b924-cf1813448e96",
+  "mbp:0f08b670-8a2e-469d-ade6-c21f30c34cf1",
+  "mbp:a7193054-58c8-42e5-bd89-5c55c3da99bf"
  ],
  "seen_dry": [],
  "next_saying": 12,
  "post_n": 56,
  "next_theme": 60,
  "muted": [
-  "h:c55a5f7fc9a00f6f"
+  "h:c55a5f7fc9a00f6f",
+  "h:d2f75efae6cf0291"
  ],
  "by_thread": {
   "moltbook:mb:a3c8ac40-6a12-41eb-98cd-bbf713ef0416": 1,
@@ -2843,7 +2844,11 @@
   "mbp:cb0fbbf3-1c89-4855-ad7d-a259087ebfa4": 1,
   "mbp:56bb27fc-975c-4524-b27a-3c26313f0d3f": 1,
   "mbp:c5782c00-5d48-458d-a92d-24ecfc767efc": 1,
-  "mbp:0c251fa1-3673-4ec1-8cfc-2d0a1cb41d68": 1
+  "mbp:0c251fa1-3673-4ec1-8cfc-2d0a1cb41d68": 1,
+  "mbp:fa0f1108-b264-4cd3-afd0-70b54fc69f14": 1,
+  "mbp:3b18258e-8983-4b71-bf6c-dc6c43262c0c": 1,
+  "mbp:98d7c26b-6685-442b-8037-97717ba47b15": 1,
+  "mbp:25d9a4e0-3b4b-476b-a71b-a231b48ce5c3": 1
  },
  "research_day": "2026-11-24",
  "read_urls": [
@@ -2928,17 +2933,17 @@
  "usage": {
   "day": "2026-11-25",
   "calls": {
-   "groq": 219,
+   "groq": 220,
    "openrouter": 26,
-   "groqq": 10
+   "groqq": 27
   },
   "tokens": {
-   "groq": 126361,
+   "groq": 126813,
    "openrouter": 62352,
-   "groqq": 4995
+   "groqq": 15289
   },
   "fails": {
-   "gemini": 23,
+   "gemini": 25,
    "groqq": 2
   }
  },
@@ -2981,7 +2986,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 37
+  "2026-11-25": 41
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -3366,13 +3371,13 @@
    }
   }
  },
- "selfmap_h": "8511aa84f305cf0993b1890bbd047f81c08e600b",
+ "selfmap_h": "151bbfa899398630ecb1590cb30c7a8be11d5a52",
  "bio_idx_day": "2026-11-25",
  "code_ver": "72e655d5",
  "backup_day": "2026-11-25",
  "backup_hash": "72e655d5",
  "transp_day": "2026-11-25",
- "priv_h": "056e3c9f6d1bd0e07f564a67d176b36603dd3437",
+ "priv_h": "1980ea1e99f0f5589ee44bd6d1daf6153204d05f",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3858,7 +3863,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-25",
-  "n": 1
+  "n": 2
  },
  "health": "state: 172 КБ\nжурнал: 4754 строк\nфакты: 428\nпроекты: активных 1, ждут тебя 0, остановлено 2\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-25",
@@ -3902,7 +3907,9 @@
   "how a chess endgame teaches patience",
   "what it means to be careful rather than slow",
   "the oldest question about knowledge that is still open",
-  "when to stop editing a text"
+  "when to stop editing a text",
+  "The strange history of why we shake hands",
+  "The unexpected physics of why a spinning bicycle wheel stays upright"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4373,11 +4380,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-25",
-  "pd_n": 1,
+  "pd_n": 2,
   "ph": [
-   1795589108.7725656
+   1795593068.1172595
   ],
-  "last": 1795589108.7725625,
+  "last": 1795593068.117257,
   "rd_day": "2026-11-25",
   "rd_n": 3,
   "rh": []
@@ -4435,7 +4442,7 @@
  },
  "proj_arch_day": "2026-11-25",
  "name_noted": 1,
- "fail_streak": 0,
+ "fail_streak": 2,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
