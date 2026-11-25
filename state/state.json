@@ -1502,7 +1502,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 256
+  "2026-11-25": 260
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1887,7 +1887,7 @@
    }
   }
  },
- "selfmap_h": "a081a92e38a0b61a00d77112df0aae78ca9cae2a",
+ "selfmap_h": "e5504ce970e4c4a286cba9431ad3def4e2295279",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
