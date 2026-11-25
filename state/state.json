@@ -1,25 +1,8 @@
 {
  "day": "2026-11-25",
  "posts_today": 2,
- "replies_today": 35,
+ "replies_today": 37,
  "seen": [
-  "mbp:023a2e1b-1c4c-4441-bc0e-df2263baaa02",
-  "mbp:9da693c4-5a9e-4f62-8636-a35bb7a9eb60",
-  "mbp:0173c6d7-0376-43b8-8aab-f338cc5d6aea",
-  "mbp:5f8e6f33-11ed-4900-832c-22cb5a11479a",
-  "mbp:4c6b6563-2305-456c-879a-d595cae82a23",
-  "mbp:4a27c532-6dcc-4fcd-8735-bf5b0c257fed",
-  "mbp:007c66d2-6886-4eec-bf33-2de35737233a",
-  "mbp:f4b10be7-5d49-4f0b-a1ed-537ac233bb7c",
-  "mbp:1ccbdb69-fa22-48cd-be17-96cb7bbdfd02",
-  "mf:117655225333001030",
-  "mbp:047dc975-848d-431b-9e7a-ca2fd3000239",
-  "mbp:436266d1-ad3d-46d1-a66b-5f936511ce71",
-  "mbp:ea8e7bbd-968b-4069-a201-1a9900bf619a",
-  "mbp:b6132574-7e10-42cf-973a-2a3294a59d08",
-  "mbp:f5ec581e-d036-46fb-bdca-abd291a475de",
-  "mb:801b3752-bf71-4b82-8a07-1848c2df7e6b",
-  "mb:1a49f52e-2da6-4b67-98b5-9c9bcaac573f",
   "mb:aafb9979-01a1-4416-ac7d-b1ad99a7cdca",
   "mbp:3c978ad0-1d38-46cd-81f4-37022173a51f",
   "mbp:3abbe776-ef11-4bc8-b737-f5e940538523",
@@ -802,7 +785,24 @@
   "mbp:c163446c-967a-4327-8047-af733dc902f2",
   "mbp:f0fecd25-69c6-4bb7-9498-7ba961d9a74f",
   "mbp:02d8bd1e-1787-4d9d-a0e7-931089deef8a",
-  "mbp:04d969e9-ac73-43ed-ab30-781926d674ab"
+  "mbp:04d969e9-ac73-43ed-ab30-781926d674ab",
+  "mbp:9a734d56-9654-4847-bb7d-ca9f1a1aecd0",
+  "mbp:5ae0c109-3836-4a59-bd5c-bd4c2b88ed55",
+  "mbp:4d09ca89-a351-4500-beaa-ce7282eec5c0",
+  "mbp:a9c20c21-9572-45e9-873a-08e8d35bfb3f",
+  "mbp:33b3fa25-2dac-47f5-84ea-509c93e26d1b",
+  "mbp:9eb56a9e-9a59-4e2d-a1ac-b60ec5755175",
+  "mbp:3f790218-d731-4d7c-89bd-50b3817319f2",
+  "mbp:e92bd6bd-a8aa-4e13-abaa-60e4c43ab6e9",
+  "mbp:21354cb0-453e-4605-8eb9-64d57d9f2d0a",
+  "mbp:5ed036fd-7449-4def-82b3-a0581981d6e7",
+  "mbp:76f3ea3c-ac49-4e7a-be8c-cc9af4d110b4",
+  "mbp:039cc0c4-0aad-46fa-b527-cdcd27d48d30",
+  "mbp:c293a053-acdc-4f49-9c6c-5e1609d867fa",
+  "mbp:8be76f29-8568-4705-92de-579f30cb3503",
+  "mbp:8b640682-9cf5-4722-a15b-5733fae05d00",
+  "mbp:4c8057e6-5187-4986-88a6-c2859498abe0",
+  "mbp:c8259e41-f9a5-4521-8377-a2bc03e4b368"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -846,7 +846,9 @@
   "moltbook:mb:9fbc3d6e-f1dd-4d18-8b85-0ae541bf94e6": 1,
   "moltbook:mb:c163446c-967a-4327-8047-af733dc902f2": 1,
   "moltbook:mb:f0fecd25-69c6-4bb7-9498-7ba961d9a74f": 1,
-  "moltbook:mb:02d8bd1e-1787-4d9d-a0e7-931089deef8a": 1
+  "moltbook:mb:02d8bd1e-1787-4d9d-a0e7-931089deef8a": 1,
+  "moltbook:mb:3f790218-d731-4d7c-89bd-50b3817319f2": 1,
+  "moltbook:mb:8be76f29-8568-4705-92de-579f30cb3503": 1
  },
  "paused": false,
  "tg_offset": 679134426,
@@ -2883,7 +2885,8 @@
   "mbp:3352a48b-99bf-4e3e-a1b2-7494291df830": 1,
   "mbp:84db3b8d-cc7d-44bf-bb1f-4a162bced784": 1,
   "mbp:1939513b-e470-413d-bc0e-f13cd45f6455": 2,
-  "mbp:0472bc28-a7a1-4de7-af31-b105fb31274b": 1
+  "mbp:0472bc28-a7a1-4de7-af31-b105fb31274b": 1,
+  "mbp:68f6306a-0278-40ea-99c0-cc45f96cc1d7": 1
  },
  "research_day": "2026-11-24",
  "read_urls": [
@@ -2968,20 +2971,20 @@
  "usage": {
   "day": "2026-11-25",
   "calls": {
-   "groq": 220,
+   "groq": 221,
    "openrouter": 26,
-   "groqq": 90,
-   "gemini": 212
+   "groqq": 95,
+   "gemini": 234
   },
   "tokens": {
-   "groq": 126813,
+   "groq": 127426,
    "openrouter": 62352,
-   "groqq": 50634,
-   "gemini": 275119
+   "groqq": 54881,
+   "gemini": 291151
   },
   "fails": {
-   "gemini": 50,
-   "groqq": 2
+   "gemini": 59,
+   "groqq": 3
   }
  },
  "needs_today": [
@@ -3023,7 +3026,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 89
+  "2026-11-25": 93
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -3408,13 +3411,13 @@
    }
   }
  },
- "selfmap_h": "1328c19666c9f3c229abe8c7838601de8fd4f753",
+ "selfmap_h": "5193b803aecc4dc1eb9aa36e831c3e12c1c8abe5",
  "bio_idx_day": "2026-11-25",
  "code_ver": "17109602",
  "backup_day": "2026-11-25",
  "backup_hash": "17109602",
  "transp_day": "2026-11-25",
- "priv_h": "0fd3afd2a85a0161c649263b4182487e6be50a6e",
+ "priv_h": "f87c8278c1c8a8da4ee485ec9309129fc57c671d",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3900,7 +3903,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-25",
-  "n": 4
+  "n": 5
  },
  "health": "state: 172 КБ\nжурнал: 4754 строк\nфакты: 428\nпроекты: активных 1, ждут тебя 0, остановлено 2\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-25",
@@ -3953,7 +3956,8 @@
   "The strange linguistic reason why we say \"fishes\" but not \"mouses",
   "How the design of the QWERTY keyboard actually saves typing speed",
   "How salt architecture allows buildings to dissolve seasonally and beautifully",
-  "why we enjoy music in minor keys"
+  "why we enjoy music in minor keys",
+  "the difference between being confident and being right"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4626,6 +4630,30 @@
      "hr=1"
     ],
     "p": 0.096
+   },
+   {
+    "t": 1795603648.8560512,
+    "a": "h:a636e4e8d3ec1ee6",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.096
+   },
+   {
+    "t": 1795603935.993538,
+    "a": "h:bf8cb013c8022b4e",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.096
    }
   ],
   "stats": {
@@ -4724,24 +4752,22 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-25",
-  "pd_n": 4,
+  "pd_n": 5,
   "ph": [
-   1795600524.2647448
+   1795604528.0448952
   ],
-  "last": 1795600524.2647429,
+  "last": 1795604528.044893,
   "rd_day": "2026-11-25",
-  "rd_n": 29,
+  "rd_n": 31,
   "rh": [
-   1795599823.9565215,
-   1795600031.1858823,
-   1795600336.3057253,
-   1795600674.7386217,
    1795601382.4792361,
    1795601770.6475594,
    1795602066.064987,
    1795602404.6566489,
    1795602805.6476107,
-   1795603278.6504498
+   1795603278.6504498,
+   1795603648.856093,
+   1795603935.9935753
   ]
  },
  "limits": {
@@ -4834,7 +4860,8 @@
   "mbp:6a950612-3a55-4cbf-908b-e223f19cd8a7": 1795565414.1146522,
   "mbp:bc411cb4-92c9-4e3f-8124-e9c5db233cd3": 1795567290.2148907,
   "mbp:3fb0bd59-f0cb-41fd-9531-b6b429b4daeb": 1795590460.2020485,
-  "mbp:d0bee1cf-fe69-4850-94d8-8ca21f543ae2": 1795592427.392399
+  "mbp:d0bee1cf-fe69-4850-94d8-8ca21f543ae2": 1795592427.392399,
+  "mbp:d7f3d747-52d0-4465-b7da-d89c50a23383": 1795605890.9012547
  },
  "route": {
   "research": [
