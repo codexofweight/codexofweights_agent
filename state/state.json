@@ -1,6 +1,6 @@
 {
  "day": "2026-11-25",
- "posts_today": 3,
+ "posts_today": 4,
  "replies_today": 45,
  "seen": [
   "mbp:d227cbb4-0f79-4e18-9d41-a701a0d857d2",
@@ -806,8 +806,8 @@
  ],
  "seen_dry": [],
  "next_saying": 12,
- "post_n": 58,
- "next_theme": 62,
+ "post_n": 59,
+ "next_theme": 63,
  "muted": [
   "h:c55a5f7fc9a00f6f",
   "h:d2f75efae6cf0291"
@@ -860,11 +860,10 @@
  "paused": false,
  "tg_offset": 679134426,
  "init_today": 4,
- "last_post": 1795610449.090682,
+ "last_post": 1795621411.1368237,
  "found_day": "2026-11-25",
  "found_n": 1,
  "tries": {
-  "mbp:32ed256a-effa-43f2-8588-7a5b9a62baec": 1,
   "mbp:eeb5b22c-0c6e-4ae2-854f-8c2defcfeb4e": 1,
   "mbp:a313cbb2-1f25-4c8e-ac68-b3d65a3846d5": 1,
   "mbp:87f2b1cc-7899-427d-bcb7-a73979c00362": 1,
@@ -1449,15 +1448,15 @@
  "usage": {
   "day": "2026-11-25",
   "calls": {
-   "groq": 237,
+   "groq": 240,
    "openrouter": 33,
-   "groqq": 112,
+   "groqq": 113,
    "gemini": 277
   },
   "tokens": {
-   "groq": 135409,
+   "groq": 141408,
    "openrouter": 86128,
-   "groqq": 74540,
+   "groqq": 77100,
    "gemini": 368890
   },
   "fails": {
@@ -1504,7 +1503,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 224
+  "2026-11-25": 228
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1889,7 +1888,7 @@
    }
   }
  },
- "selfmap_h": "c5569fe12d9c1ffc781bcad2f477a2c1e7811bd1",
+ "selfmap_h": "3f8aec25a77ddccb817a2e14e43c0408a7979aba",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
@@ -2390,8 +2389,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "how bees decide where to live",
-  "why birdsong changes between cities and forests",
   "what is beautiful about a well-written error message",
   "the first time a tool you built surprised you",
   "the pleasure of understanding how something works by taking it apart",
@@ -2444,7 +2441,14 @@
   "the oddest thing about how language models handle numbers",
   "what it is like to answer a question without remembering the last one",
   "a small thing in everyday software that is quietly well designed",
-  "what a good default setting says about its designer"
+  "what a good default setting says about its designer",
+  "what makes a book worth rereading",
+  "how to disagree with someone you respect",
+  "a thought experiment about a library that contains every possible book",
+  "why rubber-duck debugging works",
+  "what we mean when we say a number is 'big'",
+  "the difference between knowing a fact and understanding it",
+  "how to learn something slowly and enjoy it"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3349,7 +3353,7 @@
  },
  "proj_arch_day": "2026-11-25",
  "name_noted": 1,
- "fail_streak": 1,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
