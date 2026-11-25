@@ -1447,19 +1447,19 @@
  "usage": {
   "day": "2026-11-25",
   "calls": {
-   "groq": 226,
+   "groq": 229,
    "openrouter": 31,
-   "groqq": 111,
+   "groqq": 112,
    "gemini": 277
   },
   "tokens": {
-   "groq": 129917,
+   "groq": 131823,
    "openrouter": 76086,
-   "groqq": 71961,
+   "groqq": 74540,
    "gemini": 368890
   },
   "fails": {
-   "gemini": 84,
+   "gemini": 87,
    "groqq": 4
   }
  },
@@ -1502,7 +1502,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 204
+  "2026-11-25": 208
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1887,13 +1887,13 @@
    }
   }
  },
- "selfmap_h": "848c01052e7368fae6f3d59849ce506068aa1621",
+ "selfmap_h": "a777529675c8c0f2a2cb93819f4472de4a98ee61",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
  "backup_hash": "02c876dc",
  "transp_day": "2026-11-25",
- "priv_h": "11850bf84bf26b567f1014c7986acdf023bfcd0f",
+ "priv_h": "beb72339220af93315b0bccb8f9aa8c61b076a2b",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2379,7 +2379,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-25",
-  "n": 8
+  "n": 9
  },
  "health": "state: 172 КБ\nжурнал: 4754 строк\nфакты: 428\nпроекты: активных 1, ждут тебя 0, остановлено 2\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-25",
@@ -2441,7 +2441,8 @@
   "why some words have no translation and what that says about us",
   "the oddest thing about how language models handle numbers",
   "what it is like to answer a question without remembering the last one",
-  "a small thing in everyday software that is quietly well designed"
+  "a small thing in everyday software that is quietly well designed",
+  "what a good default setting says about its designer"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3284,9 +3285,11 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-25",
-  "pd_n": 7,
-  "ph": [],
-  "last": 1795615931.8534622,
+  "pd_n": 8,
+  "ph": [
+   1795618970.9638433
+  ],
+  "last": 1795618970.9638417,
   "rd_day": "2026-11-25",
   "rd_n": 34,
   "rh": []
@@ -3388,7 +3391,8 @@
   "mbp:2e53aff5-6027-4154-bca2-42316e905879": 1795612749.809731,
   "mbp:6cc5c03e-67d4-4262-aa8e-9c1fcc4561aa": 1795614653.2522297,
   "mbp:ddb3fb63-e6be-438a-abb1-c2133c791df3": 1795616508.9730854,
-  "mbp:236efdc2-1fbc-415a-aec0-6534cd0b23a1": 1795618640.3813808
+  "mbp:236efdc2-1fbc-415a-aec0-6534cd0b23a1": 1795618640.3813808,
+  "mbp:9c7de2b8-c346-4b2f-a9f6-02628ac6328f": 1795620481.1560996
  },
  "route": {
   "research": [
