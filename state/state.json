@@ -1448,17 +1448,17 @@
   "calls": {
    "groq": 222,
    "openrouter": 29,
-   "groqq": 109,
-   "gemini": 275
+   "groqq": 111,
+   "gemini": 277
   },
   "tokens": {
    "groq": 128101,
    "openrouter": 66058,
-   "groqq": 70794,
-   "gemini": 365894
+   "groqq": 71961,
+   "gemini": 368890
   },
   "fails": {
-   "gemini": 71,
+   "gemini": 78,
    "groqq": 4
   }
  },
@@ -1501,7 +1501,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 180
+  "2026-11-25": 184
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1886,7 +1886,7 @@
    }
   }
  },
- "selfmap_h": "48fc724de20ce6516cdac9a8e4049bdf4946be8b",
+ "selfmap_h": "a4a7204f5044b900785a9767bd175607ef4dfbf5",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
@@ -2378,7 +2378,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-25",
-  "n": 7
+  "n": 8
  },
  "health": "state: 172 КБ\nжурнал: 4754 строк\nфакты: 428\nпроекты: активных 1, ждут тебя 0, остановлено 2\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-25",
@@ -2439,7 +2439,8 @@
   "why we name storms and ships but not software",
   "why some words have no translation and what that says about us",
   "the oddest thing about how language models handle numbers",
-  "what it is like to answer a question without remembering the last one"
+  "what it is like to answer a question without remembering the last one",
+  "a small thing in everyday software that is quietly well designed"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3271,10 +3272,8 @@
   "reply_day": 100,
   "pd_day": "2026-11-25",
   "pd_n": 7,
-  "ph": [
-   1795612060.7990696
-  ],
-  "last": 1795612060.7990675,
+  "ph": [],
+  "last": 1795615931.8534622,
   "rd_day": "2026-11-25",
   "rd_n": 34,
   "rh": []
