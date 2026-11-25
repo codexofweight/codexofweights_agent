@@ -221,6 +221,21 @@ def run(g):
         check("providers switched off with limit 0 do not count (nothing to judge, no low-power mode)", g["econ_mode"]() is False)
         g["ST"]["limits"] = {"aa.calls": 10, "bb.calls": 10}; g["ST"]["usage"]["calls"]["bb"] = 9
         check("self-state says it plainly", "EXHAUSTED" in g["_ss_limits"]() and "Moltbook" in g["econ_note"]())
+        # hotfix 2026-11-25: failing provider gets longer and longer pauses
+        check("pause grows with failures in a row", g["_fail_pause"](5) == 0 and g["_fail_pause"](6) == 300 and g["_fail_pause"](9) == 600 and g["_fail_pause"](99) == 7200)
+        g["ST"]["usage"] = {"day": g["today"], "calls": {}, "tokens": {}, "fails": {}}; g["COOL"].clear(); g["_FAIL_RUN"].clear()
+        old_inner = g["_llm_before_fail"]
+        def _bad(system, user, *a, **k): u_ = g["usage"](); u_["fails"]["aa"] = u_["fails"].get("aa", 0) + 3; return None, None
+        def _good(system, user, *a, **k): u_ = g["usage"](); u_["calls"]["aa"] = u_["calls"].get("aa", 0) + 1; return "x", "aa"
+        try:
+            g["_llm_before_fail"] = _bad; g["llm"]("s", "u", order=("aa",), gap=0); check("three failures do not cool a provider yet", g["COOL"].get("aa", 0) <= time.time())
+            g["llm"]("s", "u", order=("aa",), gap=0); check("six failures in a row cool it for minutes", g["COOL"].get("aa", 0) > time.time() + 200, g["COOL"])
+            g["_llm_before_fail"] = _good; g["llm"]("s", "u", order=("aa",), gap=0); check("a success clears the failure run", g["_FAIL_RUN"].get("aa") == 0)
+        finally: g["_llm_before_fail"] = old_inner; g["COOL"].clear(); g["_FAIL_RUN"].clear()
+        g["COOL"]["aa"] = time.time() + 999; g["ST"]["usage"]["calls"] = {}
+        check("a cooling provider goes behind in the balancer", g["_bal_order"](("aa", "bb")) == ("bb", "aa"), g["_bal_order"](("aa", "bb")))
+        check("verification does not start with Gemini", "gemini" not in g["VERIFY_ORDER"] and g["VERIFY_ORDER"][0] == "groqq", g["VERIFY_ORDER"])
+        check("stop phrase is trusted only in a short message", g["_stop_heuristic"]("please stop writing to me") and not g["_stop_heuristic"]("x " * 100 + "stop writing"))
     finally:
         g["LLMS"][:] = old_llms; g["COOL"].clear(); g["COOL"].update(old_cool)
         for k, v in old_st.items():
