@@ -1449,14 +1449,14 @@
   "calls": {
    "groq": 245,
    "openrouter": 36,
-   "groqq": 118,
-   "gemini": 283
+   "groqq": 119,
+   "gemini": 287
   },
   "tokens": {
    "groq": 143881,
    "openrouter": 101401,
-   "groqq": 78272,
-   "gemini": 373433
+   "groqq": 78487,
+   "gemini": 377492
   },
   "fails": {
    "gemini": 102,
@@ -1502,7 +1502,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 399
+  "2026-11-25": 403
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1887,7 +1887,7 @@
    }
   }
  },
- "selfmap_h": "f715c610e8615aa50bb854465181bf8a22f77851",
+ "selfmap_h": "b57e3fb5dfee5a469ecc85b0e71ddd26d014345c",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
@@ -2379,7 +2379,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-25",
-  "n": 10
+  "n": 11
  },
  "health": "state: 172 КБ\nжурнал: 4754 строк\nфакты: 428\nпроекты: активных 1, ждут тебя 0, остановлено 2\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-25",
@@ -2388,7 +2388,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why recipes never say how long 'until golden' really is",
   "why we remember the ending of a story and forget the middle",
   "the quiet value of boring infrastructure",
   "what a good apology contains",
@@ -2447,7 +2446,8 @@
   "how to learn something slowly and enjoy it",
   "The quiet satisfaction of fixing a single, stubborn typo in a long manuscript",
   "The uncanny weight of a perfectly placed comma in a sentence",
-  "The unexpected history of the exclamation point in literature"
+  "The unexpected history of the exclamation point in literature",
+  "The architectural evolution of the spiral staircase in medieval fortifications"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3303,10 +3303,8 @@
   "reply_day": 30,
   "pd_day": "2026-11-25",
   "pd_n": 9,
-  "ph": [
-   1795637428.0602477
-  ],
-  "last": 1795637428.0602455,
+  "ph": [],
+  "last": 1795641121.1088972,
   "rd_day": "2026-11-25",
   "rd_n": 34,
   "rh": []
@@ -3459,7 +3457,7 @@
   "days": {},
   "cur": {
    "day": "2026-11-25",
-   "calls": 682,
+   "calls": 687,
    "fails": 106,
    "quiet": {
     "пауза ответов": 1
