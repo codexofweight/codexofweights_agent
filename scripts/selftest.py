@@ -258,6 +258,28 @@ def run(g):
     calls_ = []; w_ = g["_post_rest"](lambda: calls_.append(1) or None); g["ST"].pop("post_rest_until", None)
     w_(); w_()
     check("a failed post rests two hours without calling models again", len(calls_) == 1 and g["ST"]["post_rest_until"] > time.time() + 7000, calls_); g["ST"].pop("post_rest_until", None)
+    # 14d. health pulse and quiet telegram (2026-11-25)
+    old_hl = g["ST"].get("hl"); sent_h = []; old_tgb = g["_tg_before_hl"]; g["_tg_before_hl"] = lambda t_, *a_, **k_: sent_h.append(t_)
+    try:
+        g["ST"]["hl"] = {"days": {}, "cur": {"day": g["today"]}, "last_act": time.time(), "alert_day": ""}
+        g["tg"]("Пауза ответов и комментариев на час: 6 подряд сбоев"); g["tg"]("Режим экономии: лимиты"); g["tg"]("Важное: ждёт решения")
+        check("informing notices are counted, not sent", sent_h == ["Важное: ждёт решения"] and g["ST"]["hl"]["cur"]["quiet"] == {"пауза ответов": 1, "режим экономии лимитов": 1}, (sent_h, g["ST"]["hl"]["cur"]))
+        base = {"post": 4, "reply": 20, "blocked": 1, "calls": 300, "fails": 10}
+        g["ST"]["hl"]["days"] = {"2026-11-%02d" % d: dict(base) for d in range(10, 17)}
+        g["ST"]["hl"]["days"]["2026-11-17"] = dict(base)
+        check("a normal day is green", g["hl_judge"]("2026-11-17")[0] == "green", g["hl_judge"]("2026-11-17"))
+        g["ST"]["hl"]["days"]["2026-11-17"] = {"post": 0, "reply": 0, "blocked": 0, "calls": 300, "fails": 10}
+        check("a day without actions after active days is red", g["hl_judge"]("2026-11-17")[0] == "red")
+        g["ST"]["hl"]["days"]["2026-11-17"] = {"post": 4, "reply": 20, "blocked": 1, "calls": 100, "fails": 200}
+        check("more than half failed model calls is red", g["hl_judge"]("2026-11-17")[0] == "red")
+        g["ST"]["hl"]["days"]["2026-11-17"] = {"post": 4, "reply": 20, "blocked": 1, "calls": 200, "fails": 60}
+        check("failures above double the usual are yellow", g["hl_judge"]("2026-11-17")[0] == "yellow", g["hl_judge"]("2026-11-17"))
+        sent_h.clear(); g["ST"]["digest_day"] = ""; old_now = g["now"]
+        class _N:  # morning hour
+            hour = 9
+        g["now"] = lambda: _N(); g["daily_digest"](); g["now"] = old_now
+        check("one morning message with the state", len(sent_h) == 1 and sent_h[0].startswith("Состояние:"), sent_h)
+    finally: g["_tg_before_hl"] = old_tgb; g["now"] = old_now if "old_now" in dir() else g["now"]; g["ST"]["hl"] = old_hl if old_hl is not None else {"days": {}, "cur": {"day": g["today"]}}
     # 15. owner-facing project texts: no internal English instruction, cut at a word
     g_ = g["_ru_goal"]("Build one small own module (standard library only, at most 150 lines) for this need of the agent: A daily report tool to summarize engagement metrics and content performance across platforms. Why it matters: consistency")
     check("a module goal is shown as the need only, cut at a word", g_.startswith("модуль: A daily report tool") and "Build one" not in g_ and g_.endswith("…") and not g_[:-1].endswith(" "), g_)
