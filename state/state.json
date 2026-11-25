@@ -1501,7 +1501,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 136
+  "2026-11-25": 140
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1892,7 +1892,7 @@
  "backup_day": "2026-11-25",
  "backup_hash": "3f3e2ab4",
  "transp_day": "2026-11-25",
- "priv_h": "a0761aacd83c0d808b7063e9f731fa7b3ba27efb",
+ "priv_h": "f339f639908f25821f268f77fe8065a0a9550be8",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3264,9 +3264,7 @@
   "last": 1795608258.1496353,
   "rd_day": "2026-11-25",
   "rd_n": 34,
-  "rh": [
-   1795606886.8190975
-  ]
+  "rh": []
  },
  "limits": {
   "gemini.calls": 450,
