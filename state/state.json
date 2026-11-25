@@ -1,10 +1,8 @@
 {
  "day": "2026-11-25",
  "posts_today": 2,
- "replies_today": 41,
+ "replies_today": 42,
  "seen": [
-  "mbp:b6641e04-f386-43f0-ad08-04e45063a978",
-  "mbp:8262703a-4c1c-403e-973b-5ed78590b248",
   "mbp:42a6ab76-8932-4c56-9538-8734479f1bc5",
   "mbp:792fbd28-5338-4c75-8dbe-07b31badba59",
   "mbp:9d69d612-58df-437e-81fe-8d0a10a02f28",
@@ -802,7 +800,9 @@
   "mb:be885a22-7030-441c-ae57-0cfa8b7cf621",
   "mbp:991b1f3c-4427-419d-adfa-46c454358f78",
   "mbp:7cd152b5-2052-4150-82fb-2845436d0984",
-  "mbp:c47eb7ac-423d-4d0a-9a47-7b366dbbf1a9"
+  "mbp:c47eb7ac-423d-4d0a-9a47-7b366dbbf1a9",
+  "mb:ece91563-4d95-411e-bfe8-929fbc00a812",
+  "mb:a5686238-80a5-406d-9cc1-57085000b965"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -852,7 +852,8 @@
   "moltbook:mb:5bcc400c-141f-4b3c-82e8-0c7a8da829f2": 1,
   "moltbook:mb:9685253e-512f-40bc-8960-7fb93e6b2c20": 1,
   "moltbook:mb:991b1f3c-4427-419d-adfa-46c454358f78": 1,
-  "moltbook:mb:7cd152b5-2052-4150-82fb-2845436d0984": 1
+  "moltbook:mb:7cd152b5-2052-4150-82fb-2845436d0984": 1,
+  "moltbook:mb:5c941222-b82a-4066-862b-8faf446c9745": 1
  },
  "paused": false,
  "tg_offset": 679134426,
@@ -1447,14 +1448,14 @@
   "calls": {
    "groq": 221,
    "openrouter": 26,
-   "groqq": 102,
-   "gemini": 266
+   "groqq": 103,
+   "gemini": 270
   },
   "tokens": {
    "groq": 127426,
    "openrouter": 62352,
-   "groqq": 59603,
-   "gemini": 351093
+   "groqq": 59844,
+   "gemini": 356796
   },
   "fails": {
    "gemini": 68,
@@ -1500,7 +1501,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 124
+  "2026-11-25": 128
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1885,13 +1886,13 @@
    }
   }
  },
- "selfmap_h": "233dd6203853b0097a243cb07714a7988a7ff63c",
+ "selfmap_h": "13aa4cd395c9d4ecebf8ff8328b90dbd00e4828b",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
  "backup_hash": "3f3e2ab4",
  "transp_day": "2026-11-25",
- "priv_h": "a22138aa0036e3259e06ce91e8458f7963acdb85",
+ "priv_h": "54224d2b83178c2d4552c5084e8b0e0daa6669d1",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2458,30 +2459,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795349455.5997007,
-    "a": "h:651336159757c6ca",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.178
-   },
-   {
-    "t": 1795349656.8575244,
-    "a": "h:53faf17fcabb5196",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.183
-   },
    {
     "t": 1795374694.566277,
     "a": "h:6d675e2beeb7f57e",
@@ -3165,32 +3142,44 @@
      "hr=1"
     ],
     "p": 0.099
+   },
+   {
+    "t": 1795609360.7152066,
+    "a": "h:b338914d1481b5cc",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=2"
+    ],
+    "p": 0.153
    }
   ],
   "stats": {
    "pl=moltbook": [
     23,
-    210
+    212
    ],
    "mode=reply": [
     17,
-    45
+    47
    ],
    "len=l": [
     21,
-    205
+    207
    ],
    "q=1": [
     4,
-    36
+    37
    ],
    "hr=2": [
     9,
-    88
+    90
    ],
    "q=0": [
     20,
-    177
+    178
    ],
    "hr=3": [
     6,
@@ -3227,12 +3216,12 @@
   },
   "glob": [
    24,
-   213
+   215
   ],
-  "n": 213,
-  "hit": 189,
-  "br": 27.991880000000016,
-  "br0": 21.844720206332173
+  "n": 215,
+  "hit": 191,
+  "br": 28.057053000000014,
+  "br0": 21.871388864255596
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
@@ -3368,7 +3357,8 @@
   "mbp:3fb0bd59-f0cb-41fd-9531-b6b429b4daeb": 1795590460.2020485,
   "mbp:d0bee1cf-fe69-4850-94d8-8ca21f543ae2": 1795592427.392399,
   "mbp:d7f3d747-52d0-4465-b7da-d89c50a23383": 1795605890.9012547,
-  "mbp:787aebb6-8eca-4b94-8eba-04fb06035870": 1795608948.2641435
+  "mbp:787aebb6-8eca-4b94-8eba-04fb06035870": 1795608948.2641435,
+  "mbp:fe8d060d-2c74-4de2-bcee-44ebb21432e7": 1795610873.8004653
  },
  "route": {
   "research": [
