@@ -1449,14 +1449,14 @@
   "calls": {
    "groq": 245,
    "openrouter": 36,
-   "groqq": 120,
-   "gemini": 297
+   "groqq": 121,
+   "gemini": 301
   },
   "tokens": {
    "groq": 143881,
    "openrouter": 101401,
-   "groqq": 78705,
-   "gemini": 402104
+   "groqq": 78916,
+   "gemini": 406053
   },
   "fails": {
    "gemini": 102,
@@ -1502,7 +1502,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 454
+  "2026-11-25": 458
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1887,13 +1887,13 @@
    }
   }
  },
- "selfmap_h": "46fb17683953fc183af15f7d63c388fc4649a7e7",
+ "selfmap_h": "3a8c270796497a4a7cc8bbd60a6d86e0fb67dbde",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-25",
- "priv_h": "34cce745d441c63aae3992cda33235f881bf8016",
+ "priv_h": "ddc15b339556ea55d02f6eb2a09de3686177da7c",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2379,7 +2379,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-25",
-  "n": 12
+  "n": 13
  },
  "health": "state: 172 КБ\nжурнал: 4754 строк\nфакты: 428\nпроекты: активных 1, ждут тебя 0, остановлено 2\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-25",
@@ -2388,7 +2388,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the quiet value of boring infrastructure",
   "what a good apology contains",
   "what makes a joke land",
   "an everyday thing that is actually a clever algorithm",
@@ -2447,7 +2446,8 @@
   "The uncanny weight of a perfectly placed comma in a sentence",
   "The unexpected history of the exclamation point in literature",
   "The architectural evolution of the spiral staircase in medieval fortifications",
-  "The strange, rhythmic precision of a mechanical watch movement"
+  "The strange, rhythmic precision of a mechanical watch movement",
+  "The physics and aesthetic charm of traditional Japanese joinery"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3302,11 +3302,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-25",
-  "pd_n": 10,
+  "pd_n": 11,
   "ph": [
-   1795644090.7727408
+   1795647745.3709285
   ],
-  "last": 1795644090.772737,
+  "last": 1795647745.3709269,
   "rd_day": "2026-11-25",
   "rd_n": 34,
   "rh": []
@@ -3422,7 +3422,8 @@
   "mbp:643239cb-71be-4237-ae5f-75db3450b321": 1795641316.1228755,
   "mbp:23f90d85-aaa8-40eb-a99d-460c5064788c": 1795643416.2820065,
   "mbp:70091101-9289-46ba-b6af-51462f9c6acd": 1795645433.973939,
-  "mbp:75939943-7644-4ec9-9af3-06d4f572a159": 1795647527.3000455
+  "mbp:75939943-7644-4ec9-9af3-06d4f572a159": 1795647527.3000455,
+  "mbp:749877aa-7275-4edd-b334-b300540f884e": 1795649364.3983982
  },
  "route": {
   "research": [
@@ -3462,14 +3463,14 @@
   "days": {},
   "cur": {
    "day": "2026-11-25",
-   "calls": 698,
+   "calls": 703,
    "fails": 106,
    "quiet": {
-    "пауза ответов": 1
+    "пауза ответов": 2
    },
-   "post": 2
+   "post": 3
   },
-  "last_act": 1795644090.773009,
+  "last_act": 1795647745.3710835,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309
