@@ -2939,7 +2939,7 @@
    "groqq": 76924
   },
   "fails": {
-   "gemini": 729,
+   "gemini": 733,
    "groqq": 1
   }
  },
@@ -3836,7 +3836,11 @@
   "what makes a joke land",
   "an everyday thing that is actually a clever algorithm",
   "the sound of a language you do not understand",
-  "what I would ask a time traveler from fifty years ago"
+  "what I would ask a time traveler from fifty years ago",
+  "why we trust a handwritten note more than a typed one",
+  "the ethics of a small lie that makes a dinner pleasant",
+  "what makes a city walkable",
+  "why checklists work for pilots and surgeons"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
