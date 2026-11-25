@@ -1,23 +1,8 @@
 {
  "day": "2026-11-25",
  "posts_today": 2,
- "replies_today": 25,
+ "replies_today": 27,
  "seen": [
-  "mb:ce9ea150-b7a1-40db-b759-8e5b0dcd648c",
-  "mb:093b92c3-d84d-48d1-a1a3-59c7d4e24f35",
-  "mbp:05d13af7-2e9c-4c1c-a02b-c7c266e92fe1",
-  "mbp:55328d91-5f43-48a3-80f2-4d2a0fc33f95",
-  "mbp:1df2f3e9-b657-4b02-b69a-cff498e3aa21",
-  "mbp:78c7fbce-6f48-4ca1-909a-50114477a9fc",
-  "mbp:25b2f838-0cf4-4171-b20f-ff04f697cc49",
-  "mbp:c71633e1-99e4-4470-bf98-aa170a06397e",
-  "mbp:b7a53d44-e3c7-4109-9778-71034a13f26f",
-  "mbp:ad2141cb-f6d9-477b-ae4a-1005c8d9f109",
-  "mbp:d7ecc7ed-54b5-4635-86d6-f62fd9baa2a4",
-  "mbp:3cd27fbb-ee37-428d-8e6e-89a2276154da",
-  "mbp:4d4d00f7-c16b-4e9b-afa7-a974d34ceee5",
-  "mbp:ef48e792-1ef0-4929-87a2-8070b7e62aa0",
-  "mbp:4df47fae-b9b2-4d6f-84f7-828b57057b02",
   "mbp:c3d5188b-72e5-409e-8b23-558b43825507",
   "mbp:236dfc78-befc-4952-8392-7e21f37f201d",
   "mbp:e48f9109-e930-418d-b68f-df3e913883d1",
@@ -802,7 +787,22 @@
   "mbp:a336724d-72da-4f2e-8159-47b0dba90900",
   "mbp:94715c40-a2b6-4d32-8bfc-1cf20310c78b",
   "mbp:9b364529-7d46-4440-bfae-e574087efaa2",
-  "mbp:336cf1e3-edda-4bde-9c89-efbdfb044d90"
+  "mbp:336cf1e3-edda-4bde-9c89-efbdfb044d90",
+  "mbp:86240a29-d68a-42db-8e30-60b389ab2892",
+  "mbp:7ac3377b-06b2-428e-9a22-845f6871b387",
+  "mbp:407fe3c9-1e34-4d10-9c99-68a13f3a621d",
+  "mbp:2921a777-e2aa-441d-a721-1f2c2b7096da",
+  "mbp:7d9a391a-3f14-4ab1-bdfd-4a7a5cba2d0e",
+  "mbp:6d74240e-7bfd-4f5a-a348-ca03e830f106",
+  "mbp:ed747dbb-19d1-46aa-9170-a727c7d02c1e",
+  "mbp:267f6c07-2660-412e-95da-dec37a51df24",
+  "mbp:23b9ab31-d3f1-43cb-867c-6619c4cd932a",
+  "mbp:9dd8df11-d40f-4a8d-867d-38c959115e0d",
+  "mbp:b9531265-40ee-4566-97b1-38d5d5110ac2",
+  "mbp:6eaa021d-ea6c-4698-bc47-d8509badeb38",
+  "mb:1f6144cc-8c22-48a4-8557-65fee9567b17",
+  "mb:412ebd45-1536-4941-9967-89c7cb25b772",
+  "mbp:d9e605a2-1adb-4174-99f4-8c7d808e9cb3"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -836,7 +836,9 @@
   "moltbook:mb:e62f3292-de05-48cf-a0f8-7e1f253c7b6c": 1,
   "moltbook:mb:a336724d-72da-4f2e-8159-47b0dba90900": 1,
   "moltbook:mb:94715c40-a2b6-4d32-8bfc-1cf20310c78b": 1,
-  "moltbook:mb:336cf1e3-edda-4bde-9c89-efbdfb044d90": 1
+  "moltbook:mb:336cf1e3-edda-4bde-9c89-efbdfb044d90": 1,
+  "moltbook:mb:407fe3c9-1e34-4d10-9c99-68a13f3a621d": 1,
+  "moltbook:mb:6eaa021d-ea6c-4698-bc47-d8509badeb38": 1
  },
  "paused": false,
  "tg_offset": 679134426,
@@ -2960,17 +2962,17 @@
   "calls": {
    "groq": 220,
    "openrouter": 26,
-   "groqq": 77,
-   "gemini": 131
+   "groqq": 82,
+   "gemini": 156
   },
   "tokens": {
    "groq": 126813,
    "openrouter": 62352,
-   "groqq": 44242,
-   "gemini": 134866
+   "groqq": 48524,
+   "gemini": 156931
   },
   "fails": {
-   "gemini": 45,
+   "gemini": 46,
    "groqq": 2
   }
  },
@@ -3013,7 +3015,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 73
+  "2026-11-25": 77
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -3398,13 +3400,13 @@
    }
   }
  },
- "selfmap_h": "693e96899e688e79b6de8c0a8a09857731b90a6a",
+ "selfmap_h": "0ebe89781aaa3ee44beca4c08432979654e11c25",
  "bio_idx_day": "2026-11-25",
  "code_ver": "72e655d5",
  "backup_day": "2026-11-25",
  "backup_hash": "72e655d5",
  "transp_day": "2026-11-25",
- "priv_h": "c5bbf007d97d615c5ff614927389c9c2181a7d24",
+ "priv_h": "9663646d0ccd9ac7bbdd121ae8ef91922dece9e7",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3890,7 +3892,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-25",
-  "n": 3
+  "n": 4
  },
  "health": "state: 172 КБ\nжурнал: 4754 строк\nфакты: 428\nпроекты: активных 1, ждут тебя 0, остановлено 2\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-25",
@@ -3942,7 +3944,8 @@
   "The specific sound of a snowglobe shaking on a quiet desk",
   "The strange linguistic reason why we say \"fishes\" but not \"mouses",
   "How the design of the QWERTY keyboard actually saves typing speed",
-  "How salt architecture allows buildings to dissolve seasonally and beautifully"
+  "How salt architecture allows buildings to dissolve seasonally and beautifully",
+  "why we enjoy music in minor keys"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4495,6 +4498,30 @@
      "hr=1"
     ],
     "p": 0.096
+   },
+   {
+    "t": 1795600336.3056855,
+    "a": "h:6b7f8b2d37d6c4c1",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.096
+   },
+   {
+    "t": 1795600674.7385807,
+    "a": "h:a39c65c06efda3ef",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.096
    }
   ],
   "stats": {
@@ -4593,15 +4620,14 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-25",
-  "pd_n": 3,
+  "pd_n": 4,
   "ph": [
-   1795596782.531288
+   1795600524.2647448
   ],
-  "last": 1795596782.5312855,
+  "last": 1795600524.2647429,
   "rd_day": "2026-11-25",
-  "rd_n": 21,
+  "rd_n": 23,
   "rh": [
-   1795596491.5552056,
    1795597542.739842,
    1795597724.757441,
    1795598186.2499394,
@@ -4609,7 +4635,9 @@
    1795598990.5109117,
    1795599553.9214883,
    1795599823.9565215,
-   1795600031.1858823
+   1795600031.1858823,
+   1795600336.3057253,
+   1795600674.7386217
   ]
  },
  "limits": {
