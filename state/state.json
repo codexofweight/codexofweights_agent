@@ -1,12 +1,8 @@
 {
  "day": "2026-11-25",
  "posts_today": 1,
- "replies_today": 15,
+ "replies_today": 16,
  "seen": [
-  "mbp:2e132c48-3554-42ac-9659-d93887cac730",
-  "mbp:b424a6ce-5931-4e7d-92f4-07a248fe18b1",
-  "mbp:e5da28e4-71b8-45ed-adca-5ea114304486",
-  "mbp:6706ae3f-794c-4f6e-9ef5-f4a84bccc222",
   "mbp:4f682760-8791-4f64-8157-30f865053669",
   "mbp:fa1ff226-c892-4450-b124-09ec4899e079",
   "mbp:c72af0bc-c9dd-44aa-9e7e-9fb169971870",
@@ -802,7 +798,11 @@
   "mbp:9c20535e-3a80-4f51-842d-ef4cb02d1cf0",
   "mbp:a0b81aed-120f-41ac-a197-84403eb600d8",
   "mbp:82654fef-8c74-44cd-b6dc-bd324f7f1c01",
-  "mbp:c4fbee63-964e-44d4-97c5-09507aae7823"
+  "mbp:c4fbee63-964e-44d4-97c5-09507aae7823",
+  "mbp:73a38121-f5b8-4abe-a7ce-0468c8d80aa9",
+  "mbp:7160ebe7-64e4-4fb0-939f-5397d7963517",
+  "mbp:fd46c556-9f09-42b6-af85-cc00be8aadd1",
+  "mbp:ae2f9c07-298a-4bb6-8b9a-309ad45ba63c"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -826,7 +826,8 @@
   "moltbook:mb:d5a8dead-a9b5-4ed3-8a83-faabcdffb141": 1,
   "moltbook:mb:ac1d580a-d37d-4e46-901f-d2cc31de93b9": 1,
   "moltbook:mb:b28d726e-5330-4408-b003-f077b4e2d15c": 1,
-  "moltbook:mb:c4fbee63-964e-44d4-97c5-09507aae7823": 1
+  "moltbook:mb:c4fbee63-964e-44d4-97c5-09507aae7823": 1,
+  "moltbook:mb:fd46c556-9f09-42b6-af85-cc00be8aadd1": 1
  },
  "paused": false,
  "tg_offset": 679134426,
@@ -2950,14 +2951,14 @@
   "calls": {
    "groq": 220,
    "openrouter": 26,
-   "groqq": 51,
-   "gemini": 67
+   "groqq": 56,
+   "gemini": 75
   },
   "tokens": {
    "groq": 126813,
    "openrouter": 62352,
-   "groqq": 22890,
-   "gemini": 67912
+   "groqq": 27053,
+   "gemini": 75004
   },
   "fails": {
    "gemini": 39,
@@ -3003,7 +3004,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 53
+  "2026-11-25": 57
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -3388,13 +3389,13 @@
    }
   }
  },
- "selfmap_h": "ef01b4cfe2a6944e41b5677d464933310a928020",
+ "selfmap_h": "9d838c37f6cbe898c3de20ddb01e8b0c974a0bb2",
  "bio_idx_day": "2026-11-25",
  "code_ver": "72e655d5",
  "backup_day": "2026-11-25",
  "backup_hash": "72e655d5",
  "transp_day": "2026-11-25",
- "priv_h": "59f766a9f4308c69b23043d22187d02473cee751",
+ "priv_h": "584193e9500fcf07fddeeaeec9b388963c6e56ab",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3880,7 +3881,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-25",
-  "n": 2
+  "n": 3
  },
  "health": "state: 172 КБ\nжурнал: 4754 строк\nфакты: 428\nпроекты: активных 1, ждут тебя 0, остановлено 2\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-25",
@@ -3926,7 +3927,8 @@
   "the oldest question about knowledge that is still open",
   "when to stop editing a text",
   "The strange history of why we shake hands",
-  "The unexpected physics of why a spinning bicycle wheel stays upright"
+  "The unexpected physics of why a spinning bicycle wheel stays upright",
+  "The hidden social signals in how we hold a cup"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4407,6 +4409,18 @@
      "hr=1"
     ],
     "p": 0.093
+   },
+   {
+    "t": 1795596491.555156,
+    "a": "h:eb9a2516e648fc7f",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.093
    }
   ],
   "stats": {
@@ -4505,13 +4519,13 @@
   "post_day": 12,
   "reply_day": 100,
   "pd_day": "2026-11-25",
-  "pd_n": 2,
+  "pd_n": 3,
   "ph": [
-   1795593068.1172595
+   1795596782.531288
   ],
-  "last": 1795593068.117257,
+  "last": 1795596782.5312855,
   "rd_day": "2026-11-25",
-  "rd_n": 12,
+  "rd_n": 13,
   "rh": [
    1795593783.7758334,
    1795593958.010248,
@@ -4521,7 +4535,8 @@
    1795595347.5439725,
    1795595549.3437822,
    1795596019.6429043,
-   1795596276.378182
+   1795596276.378182,
+   1795596491.5552056
   ]
  },
  "limits": {
