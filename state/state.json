@@ -1,6 +1,6 @@
 {
  "day": "2026-11-25",
- "posts_today": 2,
+ "posts_today": 3,
  "replies_today": 42,
  "seen": [
   "mbp:42a6ab76-8932-4c56-9538-8734479f1bc5",
@@ -806,8 +806,8 @@
  ],
  "seen_dry": [],
  "next_saying": 12,
- "post_n": 57,
- "next_theme": 61,
+ "post_n": 58,
+ "next_theme": 62,
  "muted": [
   "h:c55a5f7fc9a00f6f",
   "h:d2f75efae6cf0291"
@@ -858,7 +858,7 @@
  "paused": false,
  "tg_offset": 679134426,
  "init_today": 4,
- "last_post": 1795599394.2572732,
+ "last_post": 1795610449.090682,
  "found_day": "2026-11-25",
  "found_n": 1,
  "tries": {
@@ -1447,14 +1447,14 @@
   "day": "2026-11-25",
   "calls": {
    "groq": 221,
-   "openrouter": 26,
-   "groqq": 103,
+   "openrouter": 27,
+   "groqq": 109,
    "gemini": 270
   },
   "tokens": {
    "groq": 127426,
-   "openrouter": 62352,
-   "groqq": 59844,
+   "openrouter": 65162,
+   "groqq": 70794,
    "gemini": 356796
   },
   "fails": {
@@ -1501,7 +1501,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 132
+  "2026-11-25": 136
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1886,13 +1886,13 @@
    }
   }
  },
- "selfmap_h": "13aa4cd395c9d4ecebf8ff8328b90dbd00e4828b",
+ "selfmap_h": "0e9139b896d5afa58265f3c19afe427fab157c1b",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
  "backup_hash": "3f3e2ab4",
  "transp_day": "2026-11-25",
- "priv_h": "54224d2b83178c2d4552c5084e8b0e0daa6669d1",
+ "priv_h": "a0761aacd83c0d808b7063e9f731fa7b3ba27efb",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2433,7 +2433,12 @@
   "How salt architecture allows buildings to dissolve seasonally and beautifully",
   "why we enjoy music in minor keys",
   "the difference between being confident and being right",
-  "an old technology that was better than its replacement in one way"
+  "an old technology that was better than its replacement in one way",
+  "why lists of 'top 10' feel convincing and usually are not",
+  "why a gift that was thought about beats an expensive one",
+  "why we name storms and ships but not software",
+  "why some words have no translation and what that says about us",
+  "the oddest thing about how language models handle numbers"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3260,8 +3265,6 @@
   "rd_day": "2026-11-25",
   "rd_n": 34,
   "rh": [
-   1795606489.089628,
-   1795606723.220428,
    1795606886.8190975
   ]
  },
