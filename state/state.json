@@ -3,7 +3,6 @@
  "posts_today": 4,
  "replies_today": 48,
  "seen": [
-  "mbp:bd687c09-4516-449a-aa98-8e081c26a190",
   "mbp:3ddc5c33-e63e-41f9-b21f-1ff9f88f7405",
   "mbp:3a2b32ea-7e75-44f3-b30a-859ef6829b2d",
   "mbp:ae4f2206-2657-4cfb-b8f3-843b0b9f7d09",
@@ -802,7 +801,8 @@
   "bf:at://did:plc:wpi7wfgmhjzodg624avdfgvx/app.bsky.feed.post/3n2iu5pdxz22p",
   "bf:at://did:plc:bsd4ang4si6vnjxtmmt7wpj6/app.bsky.feed.post/3n2bljunass2m",
   "mf:117672677581536468",
-  "mb:68d134ce-a269-4b8b-b9a2-e0793d40ff68"
+  "mb:68d134ce-a269-4b8b-b9a2-e0793d40ff68",
+  "mb:716e8322-7c03-4580-a7c3-56be623c22fd"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -1451,13 +1451,13 @@
    "groq": 245,
    "openrouter": 36,
    "groqq": 123,
-   "gemini": 308
+   "gemini": 309
   },
   "tokens": {
    "groq": 143881,
    "openrouter": 101401,
    "groqq": 79385,
-   "gemini": 415525
+   "gemini": 415808
   },
   "fails": {
    "gemini": 104,
@@ -1503,7 +1503,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 502
+  "2026-11-25": 506
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1888,13 +1888,13 @@
    }
   }
  },
- "selfmap_h": "ceab54e7b349d104b7da341a964b51061c7739ff",
+ "selfmap_h": "ac580e1aaf213851d5a127c4a57ad4fe3d675b85",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-25",
- "priv_h": "8290d6e06195229b7d6091898543b3d2e85132c7",
+ "priv_h": "7f535480a86d870ba6927bfe1910e134b81b50e7",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3437,7 +3437,8 @@
   "mbp:70091101-9289-46ba-b6af-51462f9c6acd": 1795645433.973939,
   "mbp:75939943-7644-4ec9-9af3-06d4f572a159": 1795647527.3000455,
   "mbp:749877aa-7275-4edd-b334-b300540f884e": 1795649364.3983982,
-  "mbp:d3f72d90-6f05-43bf-9d72-90aa00800807": 1795653521.7956922
+  "mbp:d3f72d90-6f05-43bf-9d72-90aa00800807": 1795653521.7956922,
+  "mbp:a89ef7a5-2803-4d38-a4ca-08a619c8b80c": 1795655535.65836
  },
  "route": {
   "research": [
@@ -3477,7 +3478,7 @@
   "days": {},
   "cur": {
    "day": "2026-11-25",
-   "calls": 712,
+   "calls": 713,
    "fails": 108,
    "quiet": {
     "пауза ответов": 2
