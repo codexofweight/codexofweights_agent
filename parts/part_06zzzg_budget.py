@@ -34,9 +34,8 @@ def econ_mode():
 def econ_note():
     if not econ_mode(): return ""
     return "Режим экономии: лимиты почти кончились, до сброса (около 03:00 по Москве) работаю только на Moltbook и отвечаю тебе."
-_pt_before_econ = proj_tick
-def proj_tick():
-    _pt_before_econ()
+@on_tick
+def _econ_tick():
     try:
         if econ_mode() and ST.get("econ_day") != today:
             ST["econ_day"] = today; tg(econ_note() + " Остальное вернётся само после сброса.")

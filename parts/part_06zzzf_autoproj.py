@@ -118,9 +118,8 @@ def _dev_watch():
         elif age >= 1 and not d.get("reminded"):
             d["reminded"] = True; proj_save(q); tg("Напоминаю один раз: ждёт твоего решения модуль %s. Установить: /own ok %s, отклонить: /own no %s. Если ответа не будет, через 2 дня я его отменю." % (d.get("name", ""), q["id"], q["id"]))
         else: proj_save(q)
-_pt_before_ap = proj_tick
-def proj_tick():
-    _pt_before_ap()
+@on_tick
+def _ap_tick():
     try:
         for q in proj_all():
             d = q.setdefault("data", {})

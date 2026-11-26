@@ -24,9 +24,8 @@ def log(kind, **kw):
     finally: g["P"] = p0
 atexit.register(lambda: _dg_flush(True))
 # state never grows without bound: the attempt counter keeps its newest 500 keys
-_pt_before_q = proj_tick
-def proj_tick():
-    _pt_before_q()
+@on_tick
+def _quiet_tick():
     try:
         tr = ST.get("tries")
         if isinstance(tr, dict) and len(tr) > 500: ST["tries"] = dict(list(tr.items())[-500:])

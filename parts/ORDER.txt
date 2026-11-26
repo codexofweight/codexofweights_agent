@@ -1,0 +1,68 @@
+# Load order of the agent parts. One file name per line; '#' starts a comment.
+# A part that is not listed here fails scripts/preflight.py; a listed part that does not exist fails it too.
+# The main loop (part_07) must stay last: it runs forever once loaded.
+
+
+# core: base parts (part_01, part_05 and part_06_owner_chat are pinned by hash in agent.py)
+part_01_core.py
+part_02_memory.py
+part_03_adapters.py
+part_03a_bluesky.py
+part_03b_moltbook.py
+part_03c_mastodon.py
+part_03h_vk.py
+part_03z_registry.py
+part_04_research.py
+part_05_tools_sandbox.py
+part_06_owner_chat.py
+
+# extensions, in the order they were added; new parts go at the end of this block
+part_06a_private_lab.py
+part_06b_selfmap.py
+part_06c_bio.py
+part_06d_backup_identity.py
+part_06e_transparency.py
+part_06f_housekeeping.py
+part_06g_search.py
+part_06h_config.py
+part_06i_projects.py
+part_06j_health.py
+part_06k_content.py
+part_06l_voice.py
+part_06m_resilience.py
+part_06n_platform_cmds.py
+part_06p_vk_page.py
+part_06q_tune.py
+part_06r_intuition.py
+part_06s_grounding.py
+part_06t_lookup.py
+part_06u_search.py
+part_06v_privacy.py
+part_06w_tips.py
+part_06x_models.py
+part_06z_own_loader.py
+part_06zq_perplat.py
+part_06zr_focus.py
+part_06zs_safefetch.py
+part_06zv_clean.py
+part_06zw_modelscout.py
+part_06zx_scout.py
+part_06zy_notes.py
+part_06zz_make.py
+part_06zzx_autorun.py
+part_06zzy_watchdog.py
+part_06zzz_hints.py
+part_06zzza_selfstate.py
+part_06zzzb_menu.py
+part_06zzzc_weights.py
+part_06zzzd_selfmap.py
+part_06zzze_interface.py
+part_06zzzf0_hooks.py
+part_06zzzf_autoproj.py
+part_06zzzg_budget.py
+part_06zzzh_quietlog.py
+part_06zzzi_health.py
+part_06zzzj_janitor.py
+
+# main loop (must be last)
+part_07_main_loop.py
