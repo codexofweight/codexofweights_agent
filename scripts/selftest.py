@@ -298,6 +298,35 @@ def run(g):
     try:
         g["jan_run"](); check("the janitor cuts a growing dictionary once a day", len(g["ST"]["skipped"]) == 300 and "899" in g["ST"]["skipped"])
     finally: g["ST"]["skipped"] = old_tr2 if old_tr2 is not None else {}
+    # 14f. fewer model calls per answer (2026-11-26)
+    import inspect, urllib.error
+    import re as _re
+    check("the pinned llm() default starts with the Groq pools, Gemini after them", _re.search(r'def llm\(system, user, order=\("groq", "groqq", "openrouter", "gemini"', open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "parts", "part_01_core.py"), encoding="utf-8").read()) is not None)
+    old_http, old_llms2, old_cool2, old_st2 = g["http"], list(g["LLMS"]), dict(g["COOL"]), g["ST"].get("usage"); n_http = []
+    def _h503(*a_, **k_): n_http.append(1); raise urllib.error.HTTPError("u", 503, "overloaded", {}, None)
+    try:
+        g["LLMS"][:] = [("aa", "http://x", "k", "m"), ("bb", "http://x", "k", "m")]; g["COOL"].clear(); g["ST"]["usage"] = {"day": g["today"], "calls": {}, "tokens": {}, "fails": {}}; g["http"] = _h503
+        g["_llm_before_fail"]("s", "u", order=("aa", "bb"), gap=0)
+        check("an overloaded provider (503) gets one try, a pause and the next provider is asked at once", len(n_http) == 2 and g["COOL"].get("aa", 0) > time.time() + 60 and g["COOL"].get("bb", 0) > time.time() + 60, (len(n_http), g["COOL"]))
+    finally: g["http"] = old_http; g["LLMS"][:] = old_llms2; g["COOL"].clear(); g["COOL"].update(old_cool2); g["ST"]["usage"] = old_st2 if old_st2 is not None else {"day": g["today"], "calls": {}, "tokens": {}, "fails": {}}
+    seen_ = []; old_llm_g = g["llm"]
+    def _fake(system, user, order=(), maxtok=0, temp=0, exclude=(), **k_): seen_.append((tuple(order), tuple(exclude))); return ("{\"pass\": true}", "x") if len(seen_) >= 2 else (None, None)
+    try:
+        g["llm"] = _fake; g["_GJ_CACHE"].clear(); old_sleep = time.sleep; time.sleep = lambda *_: None
+        r_ = g["guard_json"]("sys", "text one", 100, order=("groqq", "openrouter", "groq"), exclude={"groq"})
+        check("a guard check makes at most two passes: first without Gemini, then with it", r_ == {"pass": True} and len(seen_) == 2 and "gemini" in seen_[0][1] and "gemini" not in seen_[0][0] and "gemini" in seen_[1][0] and "gemini" not in seen_[1][1], seen_)
+        n_ = len(seen_); r2_ = g["guard_json"]("sys", "text one", 100, order=("groqq", "openrouter", "groq"), exclude={"groq"})
+        check("the same check within 20 minutes is answered from the cache", r2_ == {"pass": True} and len(seen_) == n_)
+    finally: g["llm"] = old_llm_g; time.sleep = old_sleep; g["_GJ_CACHE"].clear()
+    # 14g. spend by circuit (2026-11-26)
+    old_hl2 = g["ST"].get("hl"); g["ST"]["hl"] = {"days": {}, "cur": {"day": g["today"]}, "last_act": time.time(), "alert_day": ""}
+    old_inner2, old_pr = g["_llm_before_fail"], g["PRIO"][0]
+    def _ok(system, user, *a_, **k_): u_ = g["usage"](); u_["calls"]["aa"] = u_["calls"].get("aa", 0) + 2; return "x", "aa"
+    old_ll = list(g["LLMS"])
+    try:
+        g["LLMS"][:] = [("aa", "", "k", "m")]; g["_llm_before_fail"] = _ok; g["PRIO"][0] = 5; g["llm"]("s", "u", order=("aa",), gap=0)
+        check("model calls are counted by priority (circuit)", g["ST"]["hl"]["cur"].get("pr") == {"5": 2}, g["ST"]["hl"]["cur"])
+    finally: g["_llm_before_fail"] = old_inner2; g["PRIO"][0] = old_pr; g["LLMS"][:] = old_ll; g["ST"]["hl"] = old_hl2 if old_hl2 is not None else {"days": {}, "cur": {"day": g["today"]}}
     # 15. owner-facing project texts: no internal English instruction, cut at a word
     g_ = g["_ru_goal"]("Build one small own module (standard library only, at most 150 lines) for this need of the agent: A daily report tool to summarize engagement metrics and content performance across platforms. Why it matters: consistency")
     check("a module goal is shown as the need only, cut at a word", g_.startswith("модуль: A daily report tool") and "Build one" not in g_ and g_.endswith("…") and not g_[:-1].endswith(" "), g_)
