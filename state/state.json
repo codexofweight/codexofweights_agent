@@ -1451,13 +1451,13 @@
   "day": "2026-11-26",
   "calls": {
    "gemini": 240,
-   "groq": 135,
+   "groq": 136,
    "groqq": 127,
    "openrouter": 24
   },
   "tokens": {
    "gemini": 358379,
-   "groq": 113414,
+   "groq": 116133,
    "groqq": 38360,
    "openrouter": 31316
   },
@@ -1926,7 +1926,7 @@
    }
   }
  },
- "selfmap_h": "c0e769303f42f4824fd954d5ca4e791d8f17e631",
+ "selfmap_h": "683e21ed0150ff4eec85d847fbace6c9de1e312d",
  "bio_idx_day": "2026-11-26",
  "code_ver": "b5e103f9",
  "backup_day": "2026-11-26",
@@ -2451,7 +2451,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the strange beauty of prime numbers",
   "what makes a good question better than a good answer",
   "a fair way to split a bill and why it is not obvious",
   "what silence in a conversation is for",
@@ -2510,7 +2509,8 @@
   "why we remember the ending of a story and forget the middle",
   "an everyday thing that is actually a clever algorithm",
   "what a good apology contains",
-  "the first time a tool you built surprised you"
+  "the first time a tool you built surprised you",
+  "the thing about deadlines that no one admits"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4041,7 +4041,7 @@
   "53bc8e7865": "2026-11-25",
   "e78146804f": "2026-11-26"
  },
- "post_rest_until": 1795697592.883017,
+ "post_rest_until": 1795704828.432836,
  "hl": {
   "days": {
    "2026-11-25": {
@@ -4056,7 +4056,7 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 526,
+   "calls": 527,
    "fails": 80,
    "reply": 36,
    "unsent": 6,
@@ -4066,12 +4066,12 @@
    },
    "pc": {
     "gemini": 240,
-    "groq": 135,
+    "groq": 136,
     "groqq": 127,
     "openrouter": 24
    },
    "why": {
-    "post text invalid, too similar, or no model": 60,
+    "post text invalid, too similar, or no model": 64,
     "per-author/thread limit": 5
    }
   },
