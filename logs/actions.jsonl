@@ -5155,3 +5155,5 @@
 {"skips": {"post text invalid, too similar, or no model": 37}, "models": {"gemini": [240, 80], "groq": [138, 0], "groqq": [127, 0], "openrouter": [24, 0]}, "paused_min": {}, "ts": "2026-11-26T17:39:33+00:00", "kind": "digest", "live": true}
 {"skips": {}, "models": {"gemini": [240, 80], "groq": [138, 0], "groqq": [127, 0], "openrouter": [24, 0]}, "paused_min": {}, "ts": "2026-11-26T17:56:03+00:00", "kind": "digest", "live": true}
 {"skips": {"post text invalid, too similar, or no model": 36}, "models": {"gemini": [248, 80], "groq": [139, 0], "groqq": [127, 0], "openrouter": [24, 0]}, "paused_min": {}, "ts": "2026-11-26T18:57:37+00:00", "kind": "digest", "live": true}
+{"skips": {"post text invalid, too similar, or no model": 36}, "models": {"gemini": [248, 80], "groq": [139, 0], "groqq": [127, 0], "openrouter": [24, 0]}, "paused_min": {}, "ts": "2026-11-26T19:58:23+00:00", "kind": "digest", "live": true}
+{"counts": {"post": 3, "reply": 37, "reply_unverified": 6}, "ts": "2026-11-26T20:00:12+00:00", "kind": "reflection", "live": true}
