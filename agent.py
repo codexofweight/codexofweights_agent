@@ -13,7 +13,7 @@ here, and a change to them cannot bypass these three gates - so they stay log-on
 run log so a silent change is still visible after the fact, same as before."""
 import os, sys, glob, hashlib
 PINNED_SHA256 = {
-    "part_01_core.py": "8a22d5d97427185118d5682132a37f9e3aff0794e148093f1d770da3457708d6",
+    "part_01_core.py": "f5d8934cb8b31643f6a1b5df79af04e6ec7c472e18ff0e4194e394d0a43b26dc",
     "part_05_tools_sandbox.py": "0a3d3de9f02b4c26cdb213b6b3ed64bdd21bf50571161fdb37ceaf9315b2773c",
     "part_06_owner_chat.py": "5fab7aed548643cb44afa21cb4a87c5acfc4e25098a47dfdeeca4919438648e8",
 }   # update the matching entry here together with a deliberate change of that file
