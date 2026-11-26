@@ -857,7 +857,7 @@
   "moltbook:mb:978aeba7-3afa-4fbb-a6c9-e3f03a9ed540": 1
  },
  "paused": false,
- "tg_offset": 679134447,
+ "tg_offset": 679134449,
  "init_today": 12,
  "last_post": 1795677505.750706,
  "found_day": "2026-11-25",
@@ -1450,19 +1450,19 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 248,
-   "groq": 141,
+   "gemini": 249,
+   "groq": 142,
    "groqq": 128,
    "openrouter": 24
   },
   "tokens": {
-   "gemini": 392460,
-   "groq": 132440,
+   "gemini": 396386,
+   "groq": 136288,
    "groqq": 38742,
    "openrouter": 31316
   },
   "fails": {
-   "gemini": 81
+   "gemini": 83
   }
  },
  "needs_today": [
@@ -1926,13 +1926,13 @@
    }
   }
  },
- "selfmap_h": "2392186a86ea4724e3e7d3b2a214cad17294ff90",
+ "selfmap_h": "08722890346b8610a0b49167e8ba5257c8485f9d",
  "bio_idx_day": "2026-11-26",
  "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
  "backup_hash": "f4a8e770",
  "transp_day": "2026-11-26",
- "priv_h": "b5c8f731690c6870bb56e9456a24502184851d83",
+ "priv_h": "08374aec5700201080fbba89bc028624f7e927db",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4056,28 +4056,28 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 541,
-   "fails": 81,
+   "calls": 543,
+   "fails": 83,
    "reply": 36,
    "unsent": 6,
    "post": 2,
    "pf": {
-    "gemini": 81
+    "gemini": 83
    },
    "pc": {
-    "gemini": 248,
-    "groq": 141,
+    "gemini": 249,
+    "groq": 142,
     "groqq": 128,
     "openrouter": 24
    },
    "why": {
-    "post text invalid, too similar, or no model": 333,
+    "post text invalid, too similar, or no model": 337,
     "per-author/thread limit": 5
    },
    "pr": {
     "4": 9,
     "3": 1,
-    "1": 2
+    "1": 4
    }
   },
   "last_act": 1795692469.104684,
