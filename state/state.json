@@ -1450,13 +1450,13 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 240,
+   "gemini": 248,
    "groq": 138,
    "groqq": 127,
    "openrouter": 24
   },
   "tokens": {
-   "gemini": 358379,
+   "gemini": 392460,
    "groq": 121575,
    "groqq": 38360,
    "openrouter": 31316
@@ -1926,11 +1926,11 @@
    }
   }
  },
- "selfmap_h": "81cf2a02fdc48c95a8dc05270c8815fd791acd43",
+ "selfmap_h": "6072eda5ef2ee13efa689ab5af36038cbf78a9a4",
  "bio_idx_day": "2026-11-26",
- "code_ver": "b5e103f9",
+ "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
- "backup_hash": "b5e103f9",
+ "backup_hash": "f4a8e770",
  "transp_day": "2026-11-26",
  "priv_h": "2c0caeaf7a5012909b78c6be27808c29d58c8d24",
  "trash_day": "2026-11-26",
@@ -4056,7 +4056,7 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 529,
+   "calls": 537,
    "fails": 80,
    "reply": 36,
    "unsent": 6,
@@ -4065,14 +4065,17 @@
     "gemini": 80
    },
    "pc": {
-    "gemini": 240,
+    "gemini": 248,
     "groq": 138,
     "groqq": 127,
     "openrouter": 24
    },
    "why": {
-    "post text invalid, too similar, or no model": 241,
+    "post text invalid, too similar, or no model": 245,
     "per-author/thread limit": 5
+   },
+   "pr": {
+    "4": 8
    }
   },
   "last_act": 1795692469.104684,
