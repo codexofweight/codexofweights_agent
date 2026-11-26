@@ -4056,7 +4056,7 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 537,
+   "calls": 538,
    "fails": 80,
    "reply": 36,
    "unsent": 6,
@@ -4066,12 +4066,12 @@
    },
    "pc": {
     "gemini": 248,
-    "groq": 138,
+    "groq": 139,
     "groqq": 127,
     "openrouter": 24
    },
    "why": {
-    "post text invalid, too similar, or no model": 277,
+    "post text invalid, too similar, or no model": 281,
     "per-author/thread limit": 5
    },
    "pr": {
