@@ -252,9 +252,9 @@ def run(g):
     finally: g["_lg_before_q"] = old_q; g["_DG"]["skips"].clear(); g["_DG"]["skips"].update(old_dg)
     old_tr = g["ST"].get("tries"); g["ST"]["tries"] = {str(i): 1 for i in range(900)}
     try:
-        g["_pt_before_q"], old_pt = (lambda: None), g["_pt_before_q"]; g["proj_tick"]()
+        g["_quiet_tick"]()
         check("attempt counter is cut to its newest 500", len(g["ST"]["tries"]) == 500 and "899" in g["ST"]["tries"] and "0" not in g["ST"]["tries"])
-    finally: g["_pt_before_q"] = old_pt; g["ST"]["tries"] = old_tr if old_tr is not None else {}
+    finally: g["ST"]["tries"] = old_tr if old_tr is not None else {}
     calls_ = []; w_ = g["_post_rest"](lambda: calls_.append(1) or None); g["ST"].pop("post_rest_until", None)
     w_(); w_()
     check("a failed post rests two hours without calling models again", len(calls_) == 1 and g["ST"]["post_rest_until"] > time.time() + 7000, calls_); g["ST"].pop("post_rest_until", None)
@@ -280,6 +280,24 @@ def run(g):
         g["now"] = lambda: _N(); g["daily_digest"](); g["now"] = old_now
         check("one morning message with the state", len(sent_h) == 1 and sent_h[0].startswith("Состояние:"), sent_h)
     finally: g["_tg_before_hl"] = old_tgb; g["now"] = old_now if "old_now" in dir() else g["now"]; g["ST"]["hl"] = old_hl if old_hl is not None else {"days": {}, "cur": {"day": g["today"]}}
+    # 14e. hooks, janitor, load order (2026-11-26)
+    ran_ = []; f1_ = lambda: ran_.append(1); f2_ = lambda: 1 / 0; f3_ = lambda: ran_.append(3)
+    n0_ = len(g["TICK_HOOKS"]); old_b = g["_pt_before_hooks"]; g["_pt_before_hooks"] = lambda: None
+    try:
+        for f_ in (f1_, f2_, f3_): g["on_tick"](f_)
+        g["proj_tick"]()
+        check("tick hooks run in order and one failing hook does not stop the others", ran_ == [1, 3], ran_)
+    finally:
+        g["_pt_before_hooks"] = old_b
+        for f_ in (f1_, f2_, f3_): g["TICK_HOOKS"].remove(f_)
+    check("tick hooks of the real parts are registered", len(g["TICK_HOOKS"]) >= 5 and n0_ == len(g["TICK_HOOKS"]), len(g["TICK_HOOKS"]))
+    ls_ = g["jan_lesson"]("2026-11-25", {"post": 4, "reply": 1, "blocked": 0, "calls": 700, "fails": 100, "pf": {"gemini": 99}, "pc": {"gemini": 270}, "why": {"stop-intent guard unavailable, will retry next cycle": 18}})
+    check("the daily lesson is built from numbers and names the cause", "4 posts, 1 replies" in ls_ and "gemini" in ls_ and "stop check has no model" in ls_ and ls_.endswith("."), ls_)
+    check("a quiet day gets a calm lesson", g["jan_lesson"]("d", {"post": 4, "reply": 20, "calls": 100, "fails": 2}).endswith("nothing to change."))
+    old_tr2 = g["ST"].get("skipped"); g["ST"]["skipped"] = {str(i): 1 for i in range(900)}; g["ST"].pop("janitor_day", None)
+    try:
+        g["jan_run"](); check("the janitor cuts a growing dictionary once a day", len(g["ST"]["skipped"]) == 300 and "899" in g["ST"]["skipped"])
+    finally: g["ST"]["skipped"] = old_tr2 if old_tr2 is not None else {}
     # 15. owner-facing project texts: no internal English instruction, cut at a word
     g_ = g["_ru_goal"]("Build one small own module (standard library only, at most 150 lines) for this need of the agent: A daily report tool to summarize engagement metrics and content performance across platforms. Why it matters: consistency")
     check("a module goal is shown as the need only, cut at a word", g_.startswith("модуль: A daily report tool") and "Build one" not in g_ and g_.endswith("…") and not g_[:-1].endswith(" "), g_)

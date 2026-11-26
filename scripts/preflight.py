@@ -42,6 +42,9 @@ except Exception as ex: st = ['selftest crashed: %s %s' % (type(ex).__name__, st
 print('SELFTEST_RESULT', repr(st))
 print('PREFLIGHT_RESULT', repr({'missing': miss, 'fails': g.get('_PART_FAILS', [])}))
 """
+_rd = subprocess.run([sys.executable, os.path.join(R, "scripts", "redefs.py"), "check"], capture_output=True, text=True)
+print(_rd.stdout.strip()[:1500])
+if _rd.returncode: print("PREFLIGHT FAILED: load order, size or silent override (see above)"); sys.exit(1)
 env = {k: v for k, v in os.environ.items() if not any(x in k for x in ("KEY", "TOKEN", "PASSWORD", "SECRET", "HANDLE", "BASE", "VK_"))}
 env.update(BLUESKY_HANDLE="preflight.invalid", BLUESKY_APP_PASSWORD="x")
 cp_ = os.environ.get("PREFLIGHT_CODEX")
