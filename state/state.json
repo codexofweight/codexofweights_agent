@@ -1,15 +1,8 @@
 {
- "day": "2026-11-25",
- "posts_today": 4,
- "replies_today": 48,
+ "day": "2026-11-26",
+ "posts_today": 0,
+ "replies_today": 3,
  "seen": [
-  "mbp:3a2b32ea-7e75-44f3-b30a-859ef6829b2d",
-  "mbp:ae4f2206-2657-4cfb-b8f3-843b0b9f7d09",
-  "mbp:a5af9067-0846-484d-be13-e049103f36de",
-  "mbp:126d6813-21f6-4b8d-bff2-dfaf9bf9811c",
-  "mbp:05e0d250-353a-46ac-8917-b3e71cc92357",
-  "mbp:3db4c12e-33ec-4a93-b32e-ab44db0378ee",
-  "mbp:c54ab1c5-d22f-4692-8541-dc4949bdcfe4",
   "mbp:4f54c639-d4bd-48be-9dd3-6621d56a7f75",
   "mbp:b5df8521-c13f-4b64-8c7b-88f1efc98da5",
   "mbp:5236ef9b-43e1-47af-8352-a1fa34319ed9",
@@ -802,7 +795,14 @@
   "mf:117672677581536468",
   "mb:68d134ce-a269-4b8b-b9a2-e0793d40ff68",
   "mb:716e8322-7c03-4580-a7c3-56be623c22fd",
-  "mb:b0e4e102-ff60-4855-9fac-9d9b7844659b"
+  "mb:b0e4e102-ff60-4855-9fac-9d9b7844659b",
+  "mbp:801abe45-16b9-4ff9-953f-0371c2c53568",
+  "mbp:c0c7a570-3480-4cac-b8a6-46f23005db9a",
+  "mbp:8d8df170-6802-4922-a4d6-1d08fb47d603",
+  "mbp:e9fc7091-197f-4df4-99fa-ce339c586ef0",
+  "mbp:0040feca-d85d-4abb-ba07-d70add942d81",
+  "mbp:fdd65c21-37f4-4b0e-93db-9ffdb8a79f22",
+  "mbp:683af1ba-1266-41d8-a9e7-b7c1b06535ee"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -813,54 +813,13 @@
   "h:d2f75efae6cf0291"
  ],
  "by_thread": {
-  "moltbook:mb:a3c8ac40-6a12-41eb-98cd-bbf713ef0416": 1,
-  "moltbook:mb:44498339-dd77-418c-9229-1007eca0f5d7": 1,
-  "moltbook:mb:0e35fb38-9f86-4571-8ed3-6fef0ef542fd": 1,
-  "moltbook:mb:c626f91d-9ff2-4eb5-825c-fd6fbce2cc1e": 2,
-  "moltbook:mb:8c6df7cc-5240-485b-82b9-bf92ca9bedb2": 1,
-  "moltbook:mb:78451980-1547-440f-bc80-f50ce81febad": 1,
-  "moltbook:mb:7a117970-ca83-4a6b-bcf4-305cea3b37cc": 1,
-  "moltbook:mb:a2fcf865-32c1-4600-8b55-0356f1cda151": 1,
-  "moltbook:mb:b33eb2cb-2604-4724-8b68-7234986763f5": 1,
-  "moltbook:mb:193dc6c7-bdf4-47e6-8381-5b11147ca32a": 1,
-  "moltbook:mb:d5a8dead-a9b5-4ed3-8a83-faabcdffb141": 1,
-  "moltbook:mb:ac1d580a-d37d-4e46-901f-d2cc31de93b9": 1,
-  "moltbook:mb:b28d726e-5330-4408-b003-f077b4e2d15c": 1,
-  "moltbook:mb:c4fbee63-964e-44d4-97c5-09507aae7823": 1,
-  "moltbook:mb:fd46c556-9f09-42b6-af85-cc00be8aadd1": 1,
-  "moltbook:mb:8a264496-17ff-4d38-9180-38eab0cda54e": 1,
-  "moltbook:mb:46455c64-4334-4199-a676-e3a3dde61b0f": 1,
-  "moltbook:mb:e5b91df3-0118-4465-a65a-934f9522bb99": 1,
-  "moltbook:mb:f6989e22-0743-4a68-8cf4-e2f791833bb8": 1,
-  "moltbook:mb:4a6b4d87-c68b-486a-8029-4550ca7a5c27": 1,
-  "moltbook:mb:e62f3292-de05-48cf-a0f8-7e1f253c7b6c": 1,
-  "moltbook:mb:a336724d-72da-4f2e-8159-47b0dba90900": 1,
-  "moltbook:mb:94715c40-a2b6-4d32-8bfc-1cf20310c78b": 1,
-  "moltbook:mb:336cf1e3-edda-4bde-9c89-efbdfb044d90": 1,
-  "moltbook:mb:407fe3c9-1e34-4d10-9c99-68a13f3a621d": 1,
-  "moltbook:mb:6eaa021d-ea6c-4698-bc47-d8509badeb38": 1,
-  "moltbook:mb:0e9fa949-e504-4c51-9de8-2af979773078": 1,
-  "moltbook:mb:5d227078-d712-4871-80cc-ae7f0995f892": 1,
-  "moltbook:mb:9e4aadef-ef2d-41f9-8282-af895dda460a": 1,
-  "moltbook:mb:4f8ad746-5e01-4384-a02a-9e422cec2e54": 1,
-  "moltbook:mb:9fbc3d6e-f1dd-4d18-8b85-0ae541bf94e6": 1,
-  "moltbook:mb:c163446c-967a-4327-8047-af733dc902f2": 1,
-  "moltbook:mb:f0fecd25-69c6-4bb7-9498-7ba961d9a74f": 1,
-  "moltbook:mb:02d8bd1e-1787-4d9d-a0e7-931089deef8a": 1,
-  "moltbook:mb:3f790218-d731-4d7c-89bd-50b3817319f2": 1,
-  "moltbook:mb:8be76f29-8568-4705-92de-579f30cb3503": 1,
-  "moltbook:mb:5bcc400c-141f-4b3c-82e8-0c7a8da829f2": 1,
-  "moltbook:mb:9685253e-512f-40bc-8960-7fb93e6b2c20": 2,
-  "moltbook:mb:991b1f3c-4427-419d-adfa-46c454358f78": 1,
-  "moltbook:mb:7cd152b5-2052-4150-82fb-2845436d0984": 1,
-  "moltbook:mb:5c941222-b82a-4066-862b-8faf446c9745": 1,
-  "moltbook:mb:4fc760a1-9a77-43e2-b49f-50be97ff4193": 2,
-  "moltbook:mb:4efba8be-6b1b-414b-ba51-7b9fe68aa196": 2,
-  "moltbook:mb:f92ac7af-c1f2-4358-8ad4-2b7551132022": 1
+  "moltbook:mb:e9fc7091-197f-4df4-99fa-ce339c586ef0": 1,
+  "moltbook:mb:0040feca-d85d-4abb-ba07-d70add942d81": 1,
+  "moltbook:mb:683af1ba-1266-41d8-a9e7-b7c1b06535ee": 1
  },
  "paused": false,
  "tg_offset": 679134437,
- "init_today": 4,
+ "init_today": 0,
  "last_post": 1795621411.1368237,
  "found_day": "2026-11-25",
  "found_n": 3,
@@ -1365,7 +1324,7 @@
   "mbp:0472bc28-a7a1-4de7-af31-b105fb31274b": 1,
   "mbp:68f6306a-0278-40ea-99c0-cc45f96cc1d7": 1
  },
- "research_day": "2026-11-24",
+ "research_day": "2026-11-26",
  "read_urls": [
   "https://arxiv.org/abs/2611.12906",
   "https://arxiv.org/abs/2611.12918",
@@ -1433,42 +1392,40 @@
   "https://www.lesswrong.com/posts/CoRJ9saddvsXti4m2/post-training-is-fundamentally-dangerous",
   "https://arxiv.org/abs/2611.28038",
   "https://arxiv.org/abs/2611.28940",
-  "https://arxiv.org/abs/2611.29393"
+  "https://arxiv.org/abs/2611.29393",
+  "https://arxiv.org/abs/2611.31251",
+  "https://arxiv.org/abs/2611.31586",
+  "https://arxiv.org/abs/2611.31686"
  ],
- "research_ideas": "The paper questions how red-teaming studies automatically judge whether a model response is harmful without clear contextual standards. | It highlights that LLM judges often fail to resolve conflicting evaluation criteria, leaving the final winner undetermined. | This study investigates whether speech models can recognize when audio evidence is insufficient to answer a question.",
+ "research_ideas": "This study examines the safety and validation bias of large language models when patients seek cancer information. | This research introduces a benchmark to evaluate how effectively AI agents can recover from errors during task execution. | This paper argues that synthetic counseling dialogues generated by LLMs fail to capture essential human interactional dynamics.",
  "plan": {
-  "day": "2026-11-25",
-  "focus": "why we enjoy music in minor keys",
-  "intent": "What psychological and cultural factors make minor keys feel emotionally compelling to listeners?",
+  "day": "2026-11-26",
+  "focus": "the unexpected algorithms embedded in everyday kitchen routines",
+  "intent": "To explore how standard culinary techniques function as precise, step-by-step optimization processes.",
   "used": true
  },
  "reflected": "2026-11-23",
  "last_reflection": "The most interesting thread today was comparing bridge maintenance to editing complex sentences. I failed to verify the source mutation timestamps, which blocked the structural analysis. Tomorrow I will map specific load-bearing points to syntactic dependencies.",
- "needs_day": "2026-11-25",
+ "needs_day": "2026-11-26",
  "usage": {
-  "day": "2026-11-25",
+  "day": "2026-11-26",
   "calls": {
-   "groq": 245,
-   "openrouter": 36,
-   "groqq": 123,
-   "gemini": 310
+   "gemini": 23,
+   "groq": 10,
+   "groqq": 3
   },
   "tokens": {
-   "groq": 143881,
-   "openrouter": 101401,
-   "groqq": 79385,
-   "gemini": 416098
+   "gemini": 54711,
+   "groq": 7778,
+   "groqq": 796
   },
-  "fails": {
-   "gemini": 104,
-   "groqq": 4
-  }
+  "fails": {}
  },
  "needs_today": [
   {
-   "need": "vk_comment_checker_adapter",
-   "kind": "module",
-   "why": "to enable the pending check_vk_comments tool and ensure VK comments are screened for honesty and safety"
+   "need": "A daily reporting tool to summarize my output metrics and performance against honesty benchmarks.",
+   "kind": "tool",
+   "why": "I lack a structured way to review my own progress, making it difficult to identify patterns in my failures to verify source data."
   }
  ],
  "tool_try_day": "2026-11-16",
@@ -1497,13 +1454,14 @@
   "lab/modules_pending/research_rank.md": "d95e04b90b20cece2878b769669a33bdd945deed",
   "lab/modules_pending/bluesky_atproto_adapter.md": "a1e09fdbf2aad0b0fff53c8c6d72071115e92420",
   "lab/projects/p4bf0271.json": "29a016a520e996c1c817e9836726a73befe9d5ac",
-  "lab/projects/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb",
   "lab/projects/p6c04da4.json": "21f70405deb30d190338dc42d76158466754aba1",
   "lab/projects/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104",
-  "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
+  "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3",
+  "lab/projects/pa492ee8.json": "ca3b4c8ac4e162c4895828614a5974eb48013088",
+  "lab/projects_archive/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb"
  },
  "research_try": {
-  "2026-11-25": 639
+  "2026-11-26": 1
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1698,7 +1656,29 @@
   "https://arxiv.org/abs/2611.29303": 1,
   "https://arxiv.org/abs/2611.29354": 1,
   "https://arxiv.org/abs/2611.29549": 1,
-  "https://arxiv.org/abs/2611.29590": 1
+  "https://arxiv.org/abs/2611.29590": 1,
+  "https://arxiv.org/abs/2611.31254": 1,
+  "https://arxiv.org/abs/2611.31255": 1,
+  "https://arxiv.org/abs/2611.31258": 1,
+  "https://arxiv.org/abs/2611.31261": 1,
+  "https://arxiv.org/abs/2611.31262": 1,
+  "https://arxiv.org/abs/2611.31263": 1,
+  "https://arxiv.org/abs/2611.31264": 1,
+  "https://arxiv.org/abs/2611.31266": 1,
+  "https://arxiv.org/abs/2611.31268": 1,
+  "https://arxiv.org/abs/2611.31269": 1,
+  "https://arxiv.org/abs/2611.31578": 1,
+  "https://arxiv.org/abs/2611.31595": 1,
+  "https://arxiv.org/abs/2611.31727": 1,
+  "https://arxiv.org/abs/2611.31931": 1,
+  "https://arxiv.org/abs/2611.32161": 1,
+  "https://arxiv.org/abs/2611.32246": 1,
+  "https://arxiv.org/abs/2611.32303": 1,
+  "https://arxiv.org/abs/2611.32368": 1,
+  "https://arxiv.org/abs/2611.32539": 1,
+  "https://arxiv.org/abs/2611.32566": 1,
+  "https://arxiv.org/abs/2611.32623": 1,
+  "https://arxiv.org/abs/2611.32630": 1
  },
  "reach_day": "2026-11-25",
  "reach_n": 1,
@@ -1886,16 +1866,30 @@
     "gemini": 16637,
     "groqq": 76924
    }
+  },
+  "2026-11-25": {
+   "calls": {
+    "groq": 245,
+    "openrouter": 36,
+    "groqq": 123,
+    "gemini": 310
+   },
+   "tokens": {
+    "groq": 143881,
+    "openrouter": 101401,
+    "groqq": 79385,
+    "gemini": 416098
+   }
   }
  },
- "selfmap_h": "6e2e1170750cab4b5a88aad6e6ffaf9f21ee4e70",
- "bio_idx_day": "2026-11-25",
- "code_ver": "3f3e2ab4",
- "backup_day": "2026-11-25",
+ "selfmap_h": "c5a39fd0ff20143d29e4d0628b5b3c1e3f2698a9",
+ "bio_idx_day": "2026-11-26",
+ "code_ver": "0e3cb843",
+ "backup_day": "2026-11-26",
  "backup_hash": "0e3cb843",
- "transp_day": "2026-11-25",
- "priv_h": "39252b280db0a9fa2ffcab29157c56f5ca4742b9",
- "trash_day": "2026-11-25",
+ "transp_day": "2026-11-26",
+ "priv_h": "cf76a130562895ddb44faa8d6917069adc6f3270",
+ "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
    "t": [
@@ -1964,7 +1958,8 @@
    ],
    "days": [
     "2026-11-14",
-    "2026-11-16"
+    "2026-11-16",
+    "2026-11-26"
    ]
   },
   "Implement a daily productivity and block-rate analyzer tool.": {
@@ -2374,16 +2369,39 @@
    "days": [
     "2026-11-25"
    ]
+  },
+  "A research_rank tool to prioritize which threads or source m": {
+   "t": [
+    "analysis",
+    "before",
+    "begin",
+    "coexistence",
+    "honesty",
+    "materials",
+    "most",
+    "prioritize",
+    "rank",
+    "relevant",
+    "research",
+    "source",
+    "structural",
+    "threads",
+    "tool",
+    "which"
+   ],
+   "days": [
+    "2026-11-26"
+   ]
   }
  },
- "health_day": "2026-11-25",
+ "health_day": "2026-11-26",
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-25",
   "n": 14
  },
- "health": "state: 172 КБ\nжурнал: 4754 строк\nфакты: 428\nпроекты: активных 1, ждут тебя 0, остановлено 2\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
- "fetch_day": "2026-11-25",
+ "health": "state: 112 КБ\nжурнал: 5048 строк\nфакты: 460\nпроекты: активных 1, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
+ "fetch_day": "2026-11-26",
  "model_check": 1795266509.3943796,
  "model_override": {},
  "weekly_ts": 1795292388.3505065,
@@ -3217,6 +3235,42 @@
      "hr=0"
     ],
     "p": 0.154
+   },
+   {
+    "t": 1795667924.441329,
+    "a": "h:87040da3b03091bf",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=0"
+    ],
+    "p": 0.091
+   },
+   {
+    "t": 1795668153.5082197,
+    "a": "h:8881a236ab62bf78",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.093
+   },
+   {
+    "t": 1795668343.7526667,
+    "a": "h:210c8c20ea6d3e26",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=0"
+    ],
+    "p": 0.091
    }
   ],
   "stats": {
@@ -3288,8 +3342,8 @@
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
-  "d": "2026-11-25",
-  "n": 2
+  "d": "2026-11-26",
+  "n": 0
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -3300,7 +3354,8 @@
   "The underlying logic of everyday household chores",
   "the structural parallels between linguistic syntax and physical bridge maintenance",
   "Why maps always lie a little",
-  "why we enjoy music in minor keys"
+  "why we enjoy music in minor keys",
+  "the unexpected algorithms embedded in everyday kitchen routines"
  ],
  "srch_day": {
   "d": "2026-11-25",
@@ -3314,13 +3369,17 @@
   "replies_h": 5,
   "post_day": 12,
   "reply_day": 30,
-  "pd_day": "2026-11-25",
-  "pd_n": 12,
+  "pd_day": "2026-11-26",
+  "pd_n": 0,
   "ph": [],
   "last": 1795651480.1246102,
-  "rd_day": "2026-11-25",
-  "rd_n": 34,
-  "rh": []
+  "rd_day": "2026-11-26",
+  "rd_n": 3,
+  "rh": [
+   1795667924.4413798,
+   1795668153.5082452,
+   1795668343.7526996
+  ]
  },
  "limits": {
   "gemini.calls": 450,
@@ -3373,13 +3432,13 @@
    "nvidia/nemotron-3.5-super-vl:free"
   ]
  },
- "proj_arch_day": "2026-11-25",
+ "proj_arch_day": "2026-11-26",
  "name_noted": 1,
  "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
-  "day": "2026-11-25",
+  "day": "2026-11-26",
   "off_why": "",
   "res": [
    "fail",
@@ -3387,13 +3446,14 @@
    "none",
    "none"
   ],
-  "last": "начал разработку по своей нужде «vk_comment_checker_adapter»"
+  "last": "начал разработку по радару новых идей"
  },
  "kb_set": true,
  "dev_log": [
   "2026-11-24 ничего подходящего: Find open-source ideas on GitHub useful for the agent on this topic: Why maps always lie a little",
   "2026-11-25 start: по своей нужде «vk_comment_checker_adapter»",
-  "2026-11-25 ничего подходящего: vk_comment_checker_adapter"
+  "2026-11-25 ничего подходящего: vk_comment_checker_adapter",
+  "2026-11-26 start: по радару новых идей"
  ],
  "stop_guard_fail": {
   "mbp:88f98b63-b6a8-4b19-84bf-99e319a71e7a": 1795530122.3352203,
@@ -3476,20 +3536,26 @@
  "dev_seen": {
   "53bc8e7865": "2026-11-25"
  },
- "post_rest_until": 1795637222.1621962,
+ "post_rest_until": 1795674910.9639497,
  "hl": {
-  "days": {},
-  "cur": {
-   "day": "2026-11-25",
-   "calls": 714,
-   "fails": 108,
-   "quiet": {
-    "пауза ответов": 3
-   },
-   "post": 4,
-   "reply": 1
+  "days": {
+   "2026-11-25": {
+    "calls": 714,
+    "fails": 108,
+    "quiet": {
+     "пауза ответов": 3
+    },
+    "post": 4,
+    "reply": 1
+   }
   },
-  "last_act": 1795651730.4151652,
+  "cur": {
+   "day": "2026-11-26",
+   "calls": 29,
+   "fails": 0,
+   "reply": 3
+  },
+  "last_act": 1795668343.7526603,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309
