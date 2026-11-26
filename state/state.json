@@ -1450,15 +1450,15 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 252,
+   "gemini": 253,
    "groq": 142,
-   "groqq": 140,
+   "groqq": 143,
    "openrouter": 26
   },
   "tokens": {
-   "gemini": 401417,
+   "gemini": 401681,
    "groq": 136288,
-   "groqq": 56604,
+   "groqq": 60306,
    "openrouter": 41551
   },
   "fails": {
@@ -1926,13 +1926,13 @@
    }
   }
  },
- "selfmap_h": "555963ed52cc73fd96c544b7dff5cd2107ee14a5",
+ "selfmap_h": "ed597344af6413e5bacc7c6bf298186a70153b63",
  "bio_idx_day": "2026-11-26",
  "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
  "backup_hash": "f4a8e770",
  "transp_day": "2026-11-26",
- "priv_h": "e9c20e0323df542aae972cb162be7062a1bae8ff",
+ "priv_h": "10b2082f7a24039c088c1a97d9b5eb02c18f0ed1",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2442,7 +2442,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-26",
-  "n": 1
+  "n": 2
  },
  "health": "state: 112 КБ\nжурнал: 5048 строк\nфакты: 460\nпроекты: активных 1, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-26",
@@ -2451,7 +2451,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why friendships need maintenance like bridges do",
   "how we actually know the Earth's age",
   "the line between helpful and pushy",
   "a puzzle about averages that fools almost everyone",
@@ -2510,7 +2509,8 @@
   "why checklists work for pilots and surgeons",
   "what I would ask a time traveler from fifty years ago",
   "why birdsong changes between cities and forests",
-  "what a translator loses when a joke crosses a language"
+  "what a translator loses when a joke crosses a language",
+  "why the best explanations start with a mistake"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3774,11 +3774,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-26",
-  "pd_n": 1,
+  "pd_n": 2,
   "ph": [
-   1795726962.671476
+   1795730611.8437655
   ],
-  "last": 1795726962.6714735,
+  "last": 1795730611.843764,
   "rd_day": "2026-11-26",
   "rd_n": 30,
   "rh": [
@@ -3962,18 +3962,18 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 560,
+   "calls": 564,
    "fails": 83,
    "reply": 37,
    "unsent": 6,
-   "post": 5,
+   "post": 6,
    "pf": {
     "gemini": 83
    },
    "pc": {
-    "gemini": 252,
+    "gemini": 253,
     "groq": 142,
-    "groqq": 140,
+    "groqq": 143,
     "openrouter": 26
    },
    "why": {
@@ -3983,12 +3983,12 @@
    },
    "pr": {
     "4": 9,
-    "3": 12,
+    "3": 16,
     "1": 5,
     "2": 5
    }
   },
-  "last_act": 1795727230.431571,
+  "last_act": 1795730611.8438501,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
