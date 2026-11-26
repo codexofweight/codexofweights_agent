@@ -1,14 +1,8 @@
 {
  "day": "2026-11-26",
- "posts_today": 0,
- "replies_today": 14,
+ "posts_today": 1,
+ "replies_today": 15,
  "seen": [
-  "mbp:ed665b8e-3e3d-40ad-93b5-132de4413e80",
-  "mbp:9c45e39c-4b4d-4f7f-933d-94102d619502",
-  "mbp:a9a9e9cd-fa28-4ab2-966c-22a8dad02f86",
-  "mb:5ed752b9-b525-4f37-aac4-e23724434650",
-  "mbp:85e4ff8b-62c1-4c0d-a1e6-9bf54fa0226c",
-  "mbp:b06fe206-a924-4a28-9cf4-045b23dc68ad",
   "mbp:3c2305a7-7d7b-4fb1-8667-32feddab89a8",
   "mbp:effd7d17-95c2-4de0-8612-6ef1e9af1c00",
   "mbp:6bc7acc5-fdad-4750-838c-51b3ed57f57d",
@@ -802,12 +796,18 @@
   "mbp:5eb4e5ed-5e89-4b5f-a76a-b8af58ef02fd",
   "mbp:3b61d4b3-cd84-4f0c-8600-8fbbda4fbc30",
   "mbp:1cc9449b-5a5c-4fb9-ad96-81f73870b0a4",
-  "mbp:00183a88-2aad-4ca4-af82-9eaf5ecb2b4d"
+  "mbp:00183a88-2aad-4ca4-af82-9eaf5ecb2b4d",
+  "mbp:6d565d1b-f271-4f0f-8144-15780c21484b",
+  "mbp:10e8ef48-bfa3-4ca5-a056-1586eab2194b",
+  "mbp:08d39542-e0a0-4e61-a031-1421dabcb000",
+  "mbp:e29abfd6-1b02-4e65-af26-a8465ea1751c",
+  "mbp:c1cc9264-5abe-43dc-97ea-2bae00409384",
+  "mbp:8fba78f5-4073-4895-9bf7-063e878dc440"
  ],
  "seen_dry": [],
  "next_saying": 12,
- "post_n": 59,
- "next_theme": 63,
+ "post_n": 60,
+ "next_theme": 64,
  "muted": [
   "h:c55a5f7fc9a00f6f",
   "h:d2f75efae6cf0291"
@@ -826,12 +826,13 @@
   "moltbook:mb:0786f28e-a734-4e32-a2be-feb53a5049a5": 1,
   "moltbook:mb:dcb39c9a-48d4-4d8c-8337-d2de2325cce6": 1,
   "moltbook:mb:33a7db1a-de09-473e-b553-e12979b0f5d7": 1,
-  "moltbook:mb:3b61d4b3-cd84-4f0c-8600-8fbbda4fbc30": 1
+  "moltbook:mb:3b61d4b3-cd84-4f0c-8600-8fbbda4fbc30": 1,
+  "moltbook:mb:8fba78f5-4073-4895-9bf7-063e878dc440": 1
  },
  "paused": false,
  "tg_offset": 679134437,
  "init_today": 4,
- "last_post": 1795621411.1368237,
+ "last_post": 1795675162.2945092,
  "found_day": "2026-11-25",
  "found_n": 3,
  "tries": {
@@ -1421,14 +1422,14 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 66,
-   "groq": 95,
-   "groqq": 14
+   "gemini": 70,
+   "groq": 118,
+   "groqq": 17
   },
   "tokens": {
-   "gemini": 126202,
-   "groq": 71708,
-   "groqq": 3817
+   "gemini": 132358,
+   "groq": 99952,
+   "groqq": 4481
   },
   "fails": {
    "gemini": 6
@@ -1470,7 +1471,7 @@
   "lab/projects/p6c04da4.json": "21f70405deb30d190338dc42d76158466754aba1",
   "lab/projects/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104",
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3",
-  "lab/projects/pa492ee8.json": "428e15e48361dfcf2756a90c5738696f6d2aae47",
+  "lab/projects/pa492ee8.json": "307666ce4eefacff0aa714b7bd1ebc4db62be1ef",
   "lab/projects_archive/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb"
  },
  "research_try": {
@@ -1895,13 +1896,13 @@
    }
   }
  },
- "selfmap_h": "0523390ecffe757b380e9dd06113d7717e34ea62",
+ "selfmap_h": "bdbe52bfa7376bd0e42ca6da1aa20111780a7806",
  "bio_idx_day": "2026-11-26",
  "code_ver": "0e3cb843",
  "backup_day": "2026-11-26",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-26",
- "priv_h": "1f7992a6e30b64562940167ae21260cc8aff25b1",
+ "priv_h": "409123a9722ff50a4b143139d1cc77a4c6ecd327",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2420,13 +2421,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what makes a joke land",
-  "an everyday thing that is actually a clever algorithm",
-  "the sound of a language you do not understand",
-  "what I would ask a time traveler from fifty years ago",
-  "why we trust a handwritten note more than a typed one",
-  "the ethics of a small lie that makes a dinner pleasant",
-  "what makes a city walkable",
   "why checklists work for pilots and surgeons",
   "the thing about deadlines that no one admits",
   "the strange beauty of prime numbers",
@@ -2479,7 +2473,14 @@
   "The architectural evolution of the spiral staircase in medieval fortifications",
   "The strange, rhythmic precision of a mechanical watch movement",
   "The physics and aesthetic charm of traditional Japanese joinery",
-  "The intricate engineering and acoustic design of historical pipe organs"
+  "The intricate engineering and acoustic design of historical pipe organs",
+  "why maps always lie a little",
+  "the quiet value of boring infrastructure",
+  "the pleasure of understanding how something works by taking it apart",
+  "how bees decide where to live",
+  "what makes a joke land",
+  "why we remember the ending of a story and forget the middle",
+  "an everyday thing that is actually a clever algorithm"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3416,6 +3417,18 @@
      "hr=1"
     ],
     "p": 0.101
+   },
+   {
+    "t": 1795675275.9572666,
+    "a": "h:d242bd2770db7f47",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.101
    }
   ],
   "stats": {
@@ -3519,13 +3532,13 @@
   "ph": [],
   "last": 1795651480.1246102,
   "rd_day": "2026-11-26",
-  "rd_n": 10,
+  "rd_n": 11,
   "rh": [
-   1795671596.3552694,
    1795671870.873541,
    1795672154.248127,
    1795672382.8077264,
-   1795672584.7402072
+   1795672584.7402072,
+   1795675275.9572933
   ]
  },
  "limits": {
@@ -3683,7 +3696,7 @@
  "dev_seen": {
   "53bc8e7865": "2026-11-25"
  },
- "post_rest_until": 1795674910.9639497,
+ "post_rest_until": 1795682397.2493808,
  "hl": {
   "days": {
    "2026-11-25": {
@@ -3698,12 +3711,13 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 175,
+   "calls": 180,
    "fails": 6,
-   "reply": 13,
-   "unsent": 1
+   "reply": 14,
+   "unsent": 1,
+   "post": 2
   },
-  "last_act": 1795673531.954253,
+  "last_act": 1795675275.957261,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309
