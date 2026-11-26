@@ -857,7 +857,7 @@
   "moltbook:mb:978aeba7-3afa-4fbb-a6c9-e3f03a9ed540": 1
  },
  "paused": false,
- "tg_offset": 679134444,
+ "tg_offset": 679134445,
  "init_today": 12,
  "last_post": 1795677505.750706,
  "found_day": "2026-11-25",
@@ -1932,7 +1932,7 @@
  "backup_day": "2026-11-26",
  "backup_hash": "f4a8e770",
  "transp_day": "2026-11-26",
- "priv_h": "d1f5c4186c66f48e3b7f2879e17ae53810457f98",
+ "priv_h": "2c9a0739ada5b419d27e99c2cdfdad81c5925f1d",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4071,7 +4071,7 @@
     "openrouter": 24
    },
    "why": {
-    "post text invalid, too similar, or no model": 321,
+    "post text invalid, too similar, or no model": 325,
     "per-author/thread limit": 5
    },
    "pr": {
