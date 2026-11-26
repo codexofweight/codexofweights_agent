@@ -21,7 +21,7 @@ _llm_before_bal = llm
 def llm(system, user, *a, **k):
     a = list(a)
     if a: a[0] = _bal_order(a[0])
-    else: k["order"] = _bal_order(k.get("order", ("gemini", "groq", "sambanova")))
+    else: k["order"] = _bal_order(k.get("order", ("groq", "groqq", "openrouter", "gemini", "sambanova")))
     return _llm_before_bal(system, user, *a, **k)
 def econ_mode():
     """True when nothing is left to spend today: every provider with a key and a non-zero call limit is used above 80% or cooling down."""
@@ -67,6 +67,10 @@ def llm(system, user, *a, **k):
     finally:
         try:
             u = usage(); t = time.time()
+            try:
+                dc = sum(u["calls"].values()) - sum(c0.values())
+                if dc > 0: pr_ = _hl_roll(_hl()).setdefault("pr", {}); pr_[str(PRIO[0])] = pr_.get(str(PRIO[0]), 0) + dc      # model calls by priority = by circuit (owner, replies, posts, reading, lab)
+            except Exception: pass
             for n in names:
                 if u["calls"].get(n, 0) > c0[n]: _FAIL_RUN[n] = 0
                 elif u["fails"].get(n, 0) > f0[n]:

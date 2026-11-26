@@ -102,7 +102,7 @@ def limits_report():
         tk = lim(name, "tokens_day"); cd = max(0, int(COOL.get(name, 0) - time.time()) // 60)
         L.append("%s: вызовов %d/%s, токенов %d/%s, в минуту до %s%s" % (name, u["calls"].get(name, 0), lim(name, "calls"), u["tokens"].get(name, 0), tk or "без лимита", lim(name, "tokens_min") or "-", ", пауза %d мин" % cd if cd else ""))
     return "\n".join(L)
-def llm(system, user, order=("gemini", "groq", "sambanova"), maxtok=600, temp=0.7, gap=8, exclude=()):
+def llm(system, user, order=("groq", "groqq", "openrouter", "gemini", "sambanova"), maxtok=600, temp=0.7, gap=8, exclude=()):
     u = usage(); share = PRIO_SHARE.get(PRIO[0], 0.8); est = (len(system) + len(user)) // 3 + maxtok      # rough token estimate for the whole call
     time.sleep(gap)   # stay under free-tier per-minute limits
     for name, base, key, model in sorted(LLMS, key=lambda x: order.index(x[0]) if x[0] in order else 9):
@@ -138,6 +138,7 @@ def llm(system, user, order=("gemini", "groq", "sambanova"), maxtok=600, temp=0.
                     m_ = re.search(r"retry in ([0-9.]+)s", body); wait = ra or (float(m_.group(1)) if m_ else 60)
                     COOL[name] = time.time() + min(max(wait + 2, 30), 1800)
                 break
+            if code in (500, 502, 503, 504, 529): COOL[name] = max(COOL.get(name, 0), time.time() + 120); break      # overloaded: no 3 tries and no 20 s sleeps on the same provider, the next one answers
             if code in (401, 402, 403): COOL[name] = time.time() + (21600 if code == 402 else 3600); break     # 402 = no credit on this provider: leave it alone for 6 h
             if attempt < 2: time.sleep(20)
     return None, None
@@ -177,17 +178,16 @@ def _stop_heuristic(text):
     t = (text or "").strip()
     if len(t) < 3: return False
     return bool(_STOP_RE.search(t))
+_GJ_CACHE = {}
 def guard_json(system, user, mt=1200, order=None, exclude=()):
-    """Strict JSON verdict. Tries the preferred pool first, then the classic pools: one unreadable answer from one provider must never block the whole check (that happened on 2026-11-14 with a single attempt). The drafter stays excluded in every attempt."""
-    # Prefer living free providers first; keep gemini/groq as strong fallbacks.
-    orders = ([order] if order else []) + [("groq", "gemini", "openrouter"), ("gemini", "groq"), ("openrouter", "groq"), ("groq", "gemini")]
-    seen = set()
-    for o in orders:
-        o = tuple(x for x in o if x not in seen and x not in (exclude or ()))
-        if not o: continue
-        seen.update(o)
-        out, who = llm(system, user, order=o, maxtok=mt, temp=0, exclude=exclude)
-        try: return json.loads(re.search(r"\{.*\}", out or "", re.S).group(0))
+    """Strict JSON verdict in at most two passes: first the non-Gemini providers (Qwen on the Groq key, OpenRouter, Groq), then everything including Gemini. A good verdict is remembered for 20 minutes (same text, same check). The drafter stays excluded in every pass."""
+    ck = hashlib.sha1((system[:200] + "\x00" + user + "\x00" + ",".join(sorted(exclude))).encode("utf-8", "ignore")).hexdigest(); hit = _GJ_CACHE.get(ck)
+    if hit and time.time() - hit[0] < 1200: return hit[1]
+    for k_ in [k for k, v in _GJ_CACHE.items() if time.time() - v[0] > 1200]: _GJ_CACHE.pop(k_, None)
+    base = tuple(order or ()) + ("groqq", "openrouter", "groq")
+    for o, ex in ((tuple(dict.fromkeys(x for x in base if x != "gemini")), tuple(exclude) + ("gemini",)), (("groqq", "openrouter", "groq", "gemini"), tuple(exclude))):
+        out, who = llm(system, user, order=o, maxtok=mt, temp=0, exclude=ex)
+        try: r = json.loads(re.search(r"\{.*\}", out or "", re.S).group(0)); _GJ_CACHE[ck] = (time.time(), r); return r
         except Exception: time.sleep(2)
     return None
 def verify(kind, text, other, drafted_by=None):
@@ -258,7 +258,7 @@ def respond(au, handle, their, thread, uid, send, mode="reply"):
     try: d = json.loads(re.search(r"\{.*\}", out or "", re.S).group(0))
     except Exception: log("skip", why="no valid model output, will retry", uri=uid); return "retry"
     txt = clean(d.get("text", "")) if d.get("action") == "reply" else None
-    if not txt: log("skip", why="model chose skip or text invalid", uri=uid); return
+    if not txt or len(txt.split()) < 3: log("skip", why="model chose skip or text invalid", uri=uid); return
     vok, vwhy = verify("reply", txt, their, drafted_by=(who.split(":")[0] if who else None))
     if not vok: log("blocked_by_verifier", to=handle, their=their[:200], text=txt, reason=vwhy, uri=uid); return
     if not LIVE: log("reply_dry", to=handle, their=their[:200], text=txt, model=who); return

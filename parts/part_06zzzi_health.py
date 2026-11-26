@@ -68,6 +68,8 @@ def pulse_command(c, raw=None):
     w = _hl(); c0 = _hl_roll(w); ds = sorted(w["days"])
     t = ["Сегодня (пока): постов %d, ответов %d, заблокировано %d, сбоев моделей %d%%." % (c0.get("post", 0), c0.get("reply", 0), c0.get("blocked", 0), round(_hl_rate(c0) * 100))]
     if ds: t.insert(0, _hl_line(ds[-1])[0])
+    pr = c0.get("pr") or {}; nm = {"1": "чат с тобой", "2": "ответы и проверки", "3": "посты", "4": "чтение и планы", "5": "лаборатория и память"}
+    if pr: t.append("Вызовы моделей сегодня по контурам: " + ", ".join("%s %d" % (nm.get(k, k), v) for k, v in sorted(pr.items())))
     t.append("Последние дни (посты+ответы / сбои моделей): " + (", ".join("%s %d/%d%%" % (k[5:], w["days"][k].get("post", 0) + w["days"][k].get("reply", 0), round(_hl_rate(w["days"][k]) * 100)) for k in ds[-7:]) or "пока нет данных"))
     try: t.append("\nПамять и состояние:\n" + health_report())
     except Exception: pass
