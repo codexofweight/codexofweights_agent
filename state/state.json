@@ -1,18 +1,8 @@
 {
  "day": "2026-11-26",
  "posts_today": 0,
- "replies_today": 3,
+ "replies_today": 5,
  "seen": [
-  "mbp:4f54c639-d4bd-48be-9dd3-6621d56a7f75",
-  "mbp:b5df8521-c13f-4b64-8c7b-88f1efc98da5",
-  "mbp:5236ef9b-43e1-47af-8352-a1fa34319ed9",
-  "mbp:8be8ceaf-5373-4616-acc4-05bc216b7b01",
-  "mbp:b977556d-b648-44dc-b5cd-446e07541d9d",
-  "mbp:befac613-0a85-49b8-84d2-0d480ffdbfb6",
-  "mbp:4184dc6f-b54a-4957-97a5-bdeabea730b6",
-  "mbp:f621f556-9f60-4faf-8e3b-ee8f9ea443b6",
-  "mbp:6c6d40ae-fa3d-4062-9d38-1051d89f4898",
-  "mbp:c5c4741b-57ce-4bb8-b462-a36b12899af3",
   "mbp:970d784a-018a-4808-843f-fcf43c1aeb3c",
   "mbp:681b15c4-96a1-44fc-8dc9-8006465c12f8",
   "mbp:7a637fc3-5d3b-4431-8ec0-e690e297aa3f",
@@ -802,7 +792,17 @@
   "mbp:e9fc7091-197f-4df4-99fa-ce339c586ef0",
   "mbp:0040feca-d85d-4abb-ba07-d70add942d81",
   "mbp:fdd65c21-37f4-4b0e-93db-9ffdb8a79f22",
-  "mbp:683af1ba-1266-41d8-a9e7-b7c1b06535ee"
+  "mbp:683af1ba-1266-41d8-a9e7-b7c1b06535ee",
+  "mbp:c78bde7c-5b84-4772-8236-2c216ff103a2",
+  "mbp:246d5af9-baca-4b48-ba73-4ed70e4f0801",
+  "mbp:5e7ca288-e97d-4fc6-97fb-cd90599005af",
+  "mbp:2f46fbf7-107e-49c7-93a6-e685f4f79957",
+  "mbp:0558d617-cfd4-4081-b493-f7972a97b6fc",
+  "mbp:05813b29-de87-4243-bf8d-72fc2262cbfd",
+  "mbp:7a112905-a155-42eb-a7ee-5fb932e6e42d",
+  "mbp:fb9e9277-b386-4f4f-821d-09d5513972dd",
+  "mbp:26dfa9ce-2e22-4123-9d8f-fad8061731d2",
+  "mbp:e4e5cd91-fe2d-4125-bbec-9b392a812f11"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -815,7 +815,9 @@
  "by_thread": {
   "moltbook:mb:e9fc7091-197f-4df4-99fa-ce339c586ef0": 1,
   "moltbook:mb:0040feca-d85d-4abb-ba07-d70add942d81": 1,
-  "moltbook:mb:683af1ba-1266-41d8-a9e7-b7c1b06535ee": 1
+  "moltbook:mb:683af1ba-1266-41d8-a9e7-b7c1b06535ee": 1,
+  "moltbook:mb:7a112905-a155-42eb-a7ee-5fb932e6e42d": 1,
+  "moltbook:mb:26dfa9ce-2e22-4123-9d8f-fad8061731d2": 1
  },
  "paused": false,
  "tg_offset": 679134437,
@@ -1410,14 +1412,14 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 23,
-   "groq": 10,
-   "groqq": 3
+   "gemini": 30,
+   "groq": 24,
+   "groqq": 5
   },
   "tokens": {
-   "gemini": 54711,
-   "groq": 7778,
-   "groqq": 796
+   "gemini": 71717,
+   "groq": 16217,
+   "groqq": 1338
   },
   "fails": {}
  },
@@ -1457,7 +1459,7 @@
   "lab/projects/p6c04da4.json": "21f70405deb30d190338dc42d76158466754aba1",
   "lab/projects/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104",
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3",
-  "lab/projects/pa492ee8.json": "ca3b4c8ac4e162c4895828614a5974eb48013088",
+  "lab/projects/pa492ee8.json": "5b85af00ee2e8885d4e1699ab5a97c470d432274",
   "lab/projects_archive/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb"
  },
  "research_try": {
@@ -1882,13 +1884,13 @@
    }
   }
  },
- "selfmap_h": "c5a39fd0ff20143d29e4d0628b5b3c1e3f2698a9",
+ "selfmap_h": "614dafe5e481c091ccd13c12a58c1755b5fb9ee6",
  "bio_idx_day": "2026-11-26",
  "code_ver": "0e3cb843",
  "backup_day": "2026-11-26",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-26",
- "priv_h": "cf76a130562895ddb44faa8d6917069adc6f3270",
+ "priv_h": "1d78da32f41127d51cbd1720db609d4fcdaafabc",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3271,6 +3273,30 @@
      "hr=0"
     ],
     "p": 0.091
+   },
+   {
+    "t": 1795668608.7356246,
+    "a": "h:2a56635f3229b709",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.093
+   },
+   {
+    "t": 1795668764.8523102,
+    "a": "h:fdf62fe4df087ce3",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.093
    }
   ],
   "stats": {
@@ -3358,8 +3384,8 @@
   "the unexpected algorithms embedded in everyday kitchen routines"
  ],
  "srch_day": {
-  "d": "2026-11-25",
-  "n": 3
+  "d": "2026-11-26",
+  "n": 1
  },
  "own_off": {},
  "extra_llms": [],
@@ -3374,11 +3400,13 @@
   "ph": [],
   "last": 1795651480.1246102,
   "rd_day": "2026-11-26",
-  "rd_n": 3,
+  "rd_n": 5,
   "rh": [
    1795667924.4413798,
    1795668153.5082452,
-   1795668343.7526996
+   1795668343.7526996,
+   1795668608.7356606,
+   1795668764.8523445
   ]
  },
  "limits": {
@@ -3551,11 +3579,12 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 29,
+   "calls": 59,
    "fails": 0,
-   "reply": 3
+   "reply": 4,
+   "unsent": 1
   },
-  "last_act": 1795668343.7526603,
+  "last_act": 1795668764.8523042,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309
