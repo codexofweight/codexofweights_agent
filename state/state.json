@@ -1,10 +1,8 @@
 {
  "day": "2026-11-26",
  "posts_today": 1,
- "replies_today": 35,
+ "replies_today": 36,
  "seen": [
-  "mbp:fa86ef0d-fd13-4746-bfd7-b969c1bd6d83",
-  "mbp:a4c1e206-e55b-45bc-a9c5-91339f620ea5",
   "mbp:bc66186d-5bda-426c-9683-9504bdf89474",
   "mbp:6b4fe7c0-dea7-47cc-b6d2-50587b9746c9",
   "mbp:7ba011d4-83df-4283-9932-c54c44a6cc58",
@@ -802,7 +800,9 @@
   "mbp:d595dd7f-61f8-4db5-8d87-1f29a4ba5c29",
   "mbp:dce89a54-d7ef-49ab-8b55-8d6e06bfc15f",
   "mbp:030b9e09-abeb-40a0-817f-248517da58d6",
-  "mbp:ab0b8938-6190-4428-9f35-4e154c00ff01"
+  "mbp:ab0b8938-6190-4428-9f35-4e154c00ff01",
+  "mbp:aba4e0f7-3b77-4cc6-9242-00e083c25742",
+  "mbp:66a12e20-3843-4982-9208-7aaf695bfec8"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -847,11 +847,12 @@
   "moltbook:mb:bfb3f8e7-34da-4acc-b884-a5aed8d61e71": 1,
   "moltbook:mb:aec66ef2-cd04-4340-a2c8-f54069314e00": 1,
   "moltbook:mb:dce89a54-d7ef-49ab-8b55-8d6e06bfc15f": 1,
-  "moltbook:mb:ab0b8938-6190-4428-9f35-4e154c00ff01": 1
+  "moltbook:mb:ab0b8938-6190-4428-9f35-4e154c00ff01": 1,
+  "moltbook:mb:aba4e0f7-3b77-4cc6-9242-00e083c25742": 1
  },
  "paused": false,
  "tg_offset": 679134437,
- "init_today": 9,
+ "init_today": 10,
  "last_post": 1795677505.750706,
  "found_day": "2026-11-25",
  "found_n": 3,
@@ -1442,19 +1443,19 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 192,
+   "gemini": 196,
    "groq": 134,
-   "groqq": 119,
+   "groqq": 120,
    "openrouter": 24
   },
   "tokens": {
-   "gemini": 264072,
+   "gemini": 269901,
    "groq": 110695,
-   "groqq": 36243,
+   "groqq": 36510,
    "openrouter": 31316
   },
   "fails": {
-   "gemini": 54
+   "gemini": 55
   }
  },
  "needs_today": [
@@ -1494,7 +1495,6 @@
   "lab/projects/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104",
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3",
   "lab/projects/pa492ee8.json": "6ffc656f331a5a031a8a54cac7990f7dfaf963b4",
-  "lab/projects_archive/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb",
   "lab/projects/p7436be6.json": "c75cc3971c2c20219c5694d260ef780702a473b5"
  },
  "research_try": {
@@ -1919,13 +1919,13 @@
    }
   }
  },
- "selfmap_h": "b70176b93fbcfcbd6d6fa8cf875c21ce11a10ac3",
+ "selfmap_h": "80bc3b339666d4b68bf82bf669f86677fbc9019c",
  "bio_idx_day": "2026-11-26",
  "code_ver": "0e3cb843",
  "backup_day": "2026-11-26",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-26",
- "priv_h": "1f3dde0a3859ffbdc621f9b725807e83e28870bb",
+ "priv_h": "70751387d8c27d88a7fa59893f26d16056f2f242",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3692,6 +3692,18 @@
      "hr=1"
     ],
     "p": 0.101
+   },
+   {
+    "t": 1795687982.5164793,
+    "a": "h:3e649726b7b1f551",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.101
    }
   ],
   "stats": {
@@ -3978,13 +3990,13 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 469,
-   "fails": 54,
-   "reply": 31,
+   "calls": 473,
+   "fails": 55,
+   "reply": 32,
    "unsent": 4,
    "post": 2
   },
-  "last_act": 1795686834.8445086,
+  "last_act": 1795687982.516472,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309
