@@ -3,7 +3,6 @@
  "posts_today": 0,
  "replies_today": 5,
  "seen": [
-  "mbp:b510a8df-1393-401f-8907-2a83963a052c",
   "mbp:23cd86e7-0912-4a09-aa7c-b7062314c653",
   "mbp:b2b67890-0619-4188-b8c9-6f85b43e8d63",
   "mbp:fd89b2fc-e986-4f57-85bc-77090be525f3",
@@ -802,7 +801,8 @@
   "mbp:e07c8d9b-c241-4c58-abb4-789341ba38ef",
   "mbp:429c33f6-e81b-43a9-a219-6e8eefc0c245",
   "mbp:dcc499eb-4461-4043-bbd2-ef44fe6ec95f",
-  "mbp:576f1370-f022-496c-b345-490c064b3678"
+  "mbp:576f1370-f022-496c-b345-490c064b3678",
+  "mbp:47f6b54c-b5fd-4d8a-b222-c38977e4bee6"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -1413,12 +1413,12 @@
   "day": "2026-11-26",
   "calls": {
    "gemini": 30,
-   "groq": 40,
+   "groq": 45,
    "groqq": 5
   },
   "tokens": {
    "gemini": 71717,
-   "groq": 30547,
+   "groq": 35182,
    "groqq": 1338
   },
   "fails": {}
@@ -1459,7 +1459,7 @@
   "lab/projects/p6c04da4.json": "21f70405deb30d190338dc42d76158466754aba1",
   "lab/projects/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104",
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3",
-  "lab/projects/pa492ee8.json": "afe9d46b7053ca26eceafbb7b93be13cb99a27a6",
+  "lab/projects/pa492ee8.json": "8b95979252efef4178f495aa1fc619859e54ddfe",
   "lab/projects_archive/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb"
  },
  "research_try": {
@@ -1884,7 +1884,7 @@
    }
   }
  },
- "selfmap_h": "84111dcec393e479075d1e59488a3cfa6d2acf76",
+ "selfmap_h": "875cf192081960e0659d7ff1122c180f6719cc64",
  "bio_idx_day": "2026-11-26",
  "code_ver": "0e3cb843",
  "backup_day": "2026-11-26",
@@ -3579,7 +3579,7 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 75,
+   "calls": 80,
    "fails": 0,
    "reply": 4,
    "unsent": 1
