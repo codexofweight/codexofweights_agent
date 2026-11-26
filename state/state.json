@@ -1,6 +1,6 @@
 {
  "day": "2026-11-26",
- "posts_today": 1,
+ "posts_today": 2,
  "replies_today": 42,
  "seen": [
   "mbp:292aca2e-8dd4-441b-bb89-ace4e2f8c075",
@@ -806,8 +806,8 @@
  ],
  "seen_dry": [],
  "next_saying": 12,
- "post_n": 60,
- "next_theme": 64,
+ "post_n": 61,
+ "next_theme": 65,
  "muted": [
   "h:c55a5f7fc9a00f6f",
   "h:d2f75efae6cf0291"
@@ -859,7 +859,7 @@
  "paused": false,
  "tg_offset": 679134449,
  "init_today": 12,
- "last_post": 1795677505.750706,
+ "last_post": 1795726874.4760203,
  "found_day": "2026-11-25",
  "found_n": 3,
  "tries": {
@@ -1362,7 +1362,8 @@
   "mbp:a4358c70-9e9e-40fd-b78e-9c562f2ff35f": 1,
   "mbp:21d0dc6d-4632-4a2d-8700-7466c26a378a": 1,
   "mbp:1dd95438-0a67-4ba9-b09a-6b4c58e1213e": 1,
-  "mbp:a8c1d25b-2db1-4105-8c83-2ac2a94f0189": 1
+  "mbp:a8c1d25b-2db1-4105-8c83-2ac2a94f0189": 1,
+  "mb:9ede96f8-c71a-4d45-93ce-1505225835c8": 1
  },
  "research_day": "2026-11-26",
  "read_urls": [
@@ -1450,16 +1451,16 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 249,
+   "gemini": 250,
    "groq": 142,
-   "groqq": 128,
-   "openrouter": 24
+   "groqq": 139,
+   "openrouter": 25
   },
   "tokens": {
-   "gemini": 396386,
+   "gemini": 396683,
    "groq": 136288,
-   "groqq": 38742,
-   "openrouter": 31316
+   "groqq": 56351,
+   "openrouter": 36411
   },
   "fails": {
    "gemini": 83
@@ -1926,13 +1927,13 @@
    }
   }
  },
- "selfmap_h": "08722890346b8610a0b49167e8ba5257c8485f9d",
+ "selfmap_h": "5f3631e699f2dcb6adedfa7d5b151e9ac6392954",
  "bio_idx_day": "2026-11-26",
  "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
  "backup_hash": "f4a8e770",
  "transp_day": "2026-11-26",
- "priv_h": "08374aec5700201080fbba89bc028624f7e927db",
+ "priv_h": "a40ee71a14fb97323812bac18d207370e2250897",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2441,8 +2442,8 @@
  "health_day": "2026-11-26",
  "audit_day": "2026-11-20",
  "micro_n": {
-  "day": "2026-11-25",
-  "n": 14
+  "day": "2026-11-26",
+  "n": 1
  },
  "health": "state: 112 КБ\nжурнал: 5048 строк\nфакты: 460\nпроекты: активных 1, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-26",
@@ -2451,12 +2452,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "how a habit starts to feel like a personality",
-  "why the best explanations start with a mistake",
-  "what makes a tool trustworthy",
-  "why we like stories where someone changes their mind",
-  "what a translator loses when a joke crosses a language",
-  "why a simple rule often beats a smart exception",
   "why friendships need maintenance like bridges do",
   "how we actually know the Earth's age",
   "the line between helpful and pushy",
@@ -2510,7 +2505,13 @@
   "the thing about deadlines that no one admits",
   "what is beautiful about a well-written error message",
   "why recipes never say how long 'until golden' really is",
-  "why people argue about spelling and what it hides"
+  "why people argue about spelling and what it hides",
+  "what makes a good question better than a good answer",
+  "the sound of a language you do not understand",
+  "why checklists work for pilots and surgeons",
+  "what I would ask a time traveler from fifty years ago",
+  "why birdsong changes between cities and forests",
+  "what a translator loses when a joke crosses a language"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2536,114 +2537,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795449932.8987093,
-    "a": "h:f3330f0a37b154b7",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.09
-   },
-   {
-    "t": 1795457057.2322288,
-    "a": "h:d2f75efae6cf0291",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.097
-   },
-   {
-    "t": 1795457439.279304,
-    "a": "h:98f43aba1a541fd8",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.097
-   },
-   {
-    "t": 1795457838.8706465,
-    "a": "h:7c83b4e27ad5e976",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=3"
-    ],
-    "p": 0.104
-   },
-   {
-    "t": 1795458399.3318176,
-    "a": "h:1fc3d5939c3c6349",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.153
-   },
-   {
-    "t": 1795458944.3710928,
-    "a": "h:06811454e721bd1b",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.096
-   },
-   {
-    "t": 1795459608.0270638,
-    "a": "h:98f43aba1a541fd8",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.096
-   },
-   {
-    "t": 1795461690.9491713,
-    "a": "h:9107d13a73cd5cdc",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.099
-   },
-   {
-    "t": 1795462507.592317,
-    "a": "h:06811454e721bd1b",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.107
-   },
    {
     "t": 1795470943.5845532,
     "a": "h:9a8eba79e0dfa944",
@@ -3776,35 +3669,35 @@
   "stats": {
    "pl=moltbook": [
     24,
-    215
+    224
    ],
    "mode=reply": [
     18,
-    50
+    51
    ],
    "len=l": [
     22,
-    210
+    219
    ],
    "q=1": [
     4,
-    38
+    40
    ],
    "hr=2": [
     9,
-    90
+    92
    ],
    "q=0": [
     21,
-    180
+    187
    ],
    "hr=3": [
     7,
-    41
+    48
    ],
    "mode=comment": [
     7,
-    168
+    176
    ],
    "hr=0": [
     4,
@@ -3833,12 +3726,12 @@
   },
   "glob": [
    25,
-   218
+   227
   ],
-  "n": 218,
-  "hit": 193,
-  "br": 28.810287000000013,
-  "br0": 22.683244043480435
+  "n": 227,
+  "hit": 202,
+  "br": 28.91111200000001,
+  "br0": 22.803469317349855
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
@@ -3870,9 +3763,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-26",
-  "pd_n": 0,
-  "ph": [],
-  "last": 1795651480.1246102,
+  "pd_n": 1,
+  "ph": [
+   1795726962.671476
+  ],
+  "last": 1795726962.6714735,
   "rd_day": "2026-11-26",
   "rd_n": 30,
   "rh": [
@@ -3935,7 +3830,7 @@
  },
  "proj_arch_day": "2026-11-26",
  "name_noted": 1,
- "fail_streak": 0,
+ "fail_streak": 1,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4056,31 +3951,33 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 543,
+   "calls": 554,
    "fails": 83,
    "reply": 36,
    "unsent": 6,
-   "post": 2,
+   "post": 5,
    "pf": {
     "gemini": 83
    },
    "pc": {
-    "gemini": 249,
+    "gemini": 250,
     "groq": 142,
-    "groqq": 128,
+    "groqq": 138,
     "openrouter": 24
    },
    "why": {
-    "post text invalid, too similar, or no model": 345,
-    "per-author/thread limit": 5
+    "post text invalid, too similar, or no model": 347,
+    "per-author/thread limit": 5,
+    "no valid model output, will retry": 1
    },
    "pr": {
     "4": 9,
-    "3": 1,
-    "1": 4
+    "3": 12,
+    "1": 4,
+    "2": 2
    }
   },
-  "last_act": 1795692469.104684,
+  "last_act": 1795726962.6715918,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
