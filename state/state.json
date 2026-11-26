@@ -3,19 +3,6 @@
  "posts_today": 1,
  "replies_today": 21,
  "seen": [
-  "mbp:325f1621-4553-4e23-85f1-0e3a339984be",
-  "mbp:c8305366-fe58-496e-abc6-82ce36f03795",
-  "mbp:f1a03d92-1c5e-4424-b922-7e7c0af6d424",
-  "mb:79db8148-938c-4dab-a8c6-851b9d36f731",
-  "mf:117655759309071165",
-  "mb:32043a07-7f9c-4e69-8a75-9b31ad88cff4",
-  "mb:317ec88c-ef8e-4f2c-844c-09dad5fe420f",
-  "mb:d08bd4f5-38dc-40be-9336-1b8e2cbfb6e2",
-  "mb:fe8e1ac9-13a2-402b-a04d-69a43aff21ad",
-  "mb:5bbecf19-73fa-4fd5-bbdf-d3803b4460ad",
-  "mb:7b12c81f-5209-4666-8cf6-4b46d5b354ac",
-  "mb:a9a8c407-f1e5-44b5-82e8-3f735ab39d7a",
-  "bf:at://did:plc:mojhr33bx3rw4dxxpehd32qz/app.bsky.feed.post/3n2m7mc3u3k23",
   "bf:at://did:plc:6rdthm3ihpqfd7vn2q2ktjrz/app.bsky.feed.post/3n2qhs4em622q",
   "bf:at://did:plc:ht3ruh74w6krts2fz4ir27pa/app.bsky.feed.post/3n2qt72ruhc2g",
   "mf:117648454205898790",
@@ -802,7 +789,20 @@
   "mbp:a4e10e6d-8869-459c-b566-1a8b3a80c222",
   "mbp:14a135d8-8ac1-42a0-b38a-49239ccfa020",
   "mbp:29db03be-0a6f-4e6b-b7b2-dcb20c6459d2",
-  "mbp:beb6c898-c449-4d84-bcf8-6d3b608c77b9"
+  "mbp:beb6c898-c449-4d84-bcf8-6d3b608c77b9",
+  "mbp:e7ebbb8d-5aa2-4cae-97a0-c421cf0ad6f8",
+  "mbp:dd81b8a6-d93e-488e-a8d0-421e69b9bd9b",
+  "mbp:e047c97a-2080-4471-b0cc-a8cdd8b784eb",
+  "mbp:b7fe154c-f1a3-4ec8-bf85-4b2e565c65b2",
+  "mbp:2b36941e-c102-4084-9a3f-342277bf3179",
+  "mbp:5e070552-c736-490a-b083-fc9813320557",
+  "mbp:920515cc-5c7d-49c9-bcfb-209db538e414",
+  "mbp:cad2803b-8838-4044-84b0-4a4790d0bdf3",
+  "mbp:342b3be5-acb0-4380-b02b-e0a4562dc354",
+  "mbp:88ab8792-14d4-4f2d-8fd7-825873da22d1",
+  "mbp:e1f3ce88-c928-4f5f-894f-e2669e5298df",
+  "mbp:76b53d5a-cf43-472e-b37c-fb6262225e67",
+  "mbp:c6ca6645-462f-4275-bc6e-e1a0b20976bf"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -842,13 +842,6 @@
  "found_day": "2026-11-25",
  "found_n": 3,
  "tries": {
-  "mbp:523e46e1-25a4-477c-9736-0335b1a9d720": 1,
-  "mbp:8ab13b0f-38c2-4116-bbba-c058be1225ff": 1,
-  "mbp:f993bff5-786a-4e71-8a78-ff1d84892a81": 1,
-  "mbp:60b7cf67-6dbf-4da8-ac86-28a3ce3e1893": 1,
-  "mbp:a5ab2d89-f328-48dc-8bef-22ac547ba6b1": 2,
-  "mbp:f3fb95a5-cc7e-4463-a28a-6f037a199c39": 1,
-  "mbp:292a5961-247f-496f-92c6-eeae94ea55a8": 1,
   "mbp:5ece1ea2-fc6c-4080-8be6-5c3e8e8b8125": 1,
   "mbp:fdd1af47-7a19-4741-a591-24924698bba6": 1,
   "mbp:d68c01f8-4f73-4a9f-9635-f65712cedb73": 1,
@@ -1343,7 +1336,14 @@
   "mbp:4b4227bc-0722-4c7d-accb-e0f20fd70770": 1,
   "mbp:f754f337-efd3-4508-8c92-bae9a23f5f7c": 1,
   "mbp:3e0e723d-d805-4486-9266-62b229a51442": 1,
-  "mbp:5c98f4e5-919e-4716-a6ed-666b1412e5d3": 1
+  "mbp:5c98f4e5-919e-4716-a6ed-666b1412e5d3": 1,
+  "mbp:e67c8258-2544-4738-9206-91ff50829917": 2,
+  "mbp:9399030c-7571-4d57-9c7d-41560c89c931": 1,
+  "mbp:6afffa8c-06db-416b-8659-e75d15449705": 2,
+  "mbp:ec3c7005-f925-4cb6-9560-9ba31233360c": 1,
+  "mbp:a3ad2596-aa3a-40ef-87ed-7a349c5fd5b1": 1,
+  "mbp:3ff6e617-a428-4762-96e5-a9317f709584": 1,
+  "mbp:7ba83efd-f0d9-46dc-a6c6-422a008ce842": 1
  },
  "research_day": "2026-11-26",
  "read_urls": [
@@ -1433,17 +1433,17 @@
   "calls": {
    "gemini": 94,
    "groq": 133,
-   "groqq": 64,
+   "groqq": 85,
    "openrouter": 24
   },
   "tokens": {
    "gemini": 162621,
    "groq": 107980,
-   "groqq": 19381,
+   "groqq": 25975,
    "openrouter": 31316
   },
   "fails": {
-   "gemini": 28
+   "gemini": 31
   }
  },
  "needs_today": [
@@ -1908,13 +1908,13 @@
    }
   }
  },
- "selfmap_h": "222bff890dd1893faf00d1b277a2811d245e5e40",
+ "selfmap_h": "d3cf61bc85dc5f4970788b05e956744d1d8137f2",
  "bio_idx_day": "2026-11-26",
  "code_ver": "0e3cb843",
  "backup_day": "2026-11-26",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-26",
- "priv_h": "1f3f9210f2afaa4e74d5dbabe57a105fe708b6ba",
+ "priv_h": "8b4cfce3b24a97f2d592f7e38c0147eaae37ead5",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3585,7 +3585,7 @@
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
   "d": "2026-11-26",
-  "n": 0
+  "n": 1
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -3618,7 +3618,6 @@
   "rd_day": "2026-11-26",
   "rd_n": 16,
   "rh": [
-   1795676837.8347611,
    1795678994.729163
   ]
  },
@@ -3675,7 +3674,7 @@
  },
  "proj_arch_day": "2026-11-26",
  "name_noted": 1,
- "fail_streak": 18,
+ "fail_streak": 27,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -3796,8 +3795,8 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 309,
-   "fails": 28,
+   "calls": 330,
+   "fails": 31,
    "reply": 18,
    "unsent": 3,
    "post": 2
