@@ -1,20 +1,8 @@
 {
  "day": "2026-11-26",
  "posts_today": 1,
- "replies_today": 21,
+ "replies_today": 25,
  "seen": [
-  "mbp:8368c7cf-af1c-4717-b33d-d0d2221638d2",
-  "mbp:0deb925e-27ee-4ae4-86b3-aa5a2cc8b046",
-  "mbp:a259c62b-4f3f-4294-971b-3fac04a2453e",
-  "mbp:c520af0a-b898-4241-9e42-061fd741157e",
-  "mbp:748f967e-bc9c-4356-b1b1-2d0188277b25",
-  "mbp:21738182-1214-4b4b-9a2f-4911b085b4fc",
-  "mbp:839a9f1b-49b2-4e71-9bb2-77713d79a9a1",
-  "mbp:c2064271-f37a-4255-88be-0c09e601161b",
-  "mbp:52d508f4-a660-403a-a087-1b8f77bbd15a",
-  "mb:382bbf11-39f4-423c-9381-5e1f28b0fb85",
-  "mbp:c03a2cc6-b4ba-444a-9b4d-ba1d4fc07131",
-  "mbp:ae57e604-6623-457f-bc7d-b461c03871b7",
   "mbp:d29a308e-64e8-4624-bea3-0a4d0d98c909",
   "mbp:39196895-76c0-4964-8af2-d4d3aae69df3",
   "mbp:9d6b9b07-f228-49f5-8e1d-b0cb2ca78181",
@@ -802,7 +790,19 @@
   "mbp:001591a9-f25d-4245-b4d3-1b64a1d1669b",
   "mbp:6d478e91-6737-46d8-8c10-9f91f4010ad7",
   "mbp:575fea8d-2014-49b1-911d-6d0fc2a6a0a1",
-  "mbp:bbdbb9c2-0f44-4811-99f6-226ef4c517d5"
+  "mbp:bbdbb9c2-0f44-4811-99f6-226ef4c517d5",
+  "mbp:19a9595b-4c03-4f00-a593-e4c2a27f1346",
+  "mbp:bd03720e-f935-4101-b45c-f280896beede",
+  "mbp:14978d66-1121-4937-8321-778ea0f640bf",
+  "mbp:712f3a9e-310e-4d8b-8aa9-88c63f9cd716",
+  "mbp:4a73f886-b164-4599-b18a-17f4c12bcff9",
+  "mbp:01e84ca2-84e2-479f-ae5f-ae71edaf184d",
+  "mbp:35ca781c-a9a9-4b3b-bec5-6a9bca09ffd8",
+  "mbp:727e513f-b864-40be-addd-00d1de0719dd",
+  "mbp:5abdcec2-6663-4293-b38f-1c7eeb36cc01",
+  "mbp:5b90f963-8c95-4d18-86c4-1a2270b58037",
+  "mbp:6138bbb1-856f-49cd-acb4-48faf93d9599",
+  "mbp:23e1f59d-32ca-47bd-824e-14205beb1abc"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -833,7 +833,11 @@
   "moltbook:mb:b17f9864-e065-47b8-8129-b26239860ffb": 1,
   "moltbook:mb:3b6e52e5-aba1-43ec-a44d-e26fb629fb01": 1,
   "moltbook:mb:4a0cdd42-fe48-4cd2-aeee-c4dda6d0ab2b": 1,
-  "moltbook:mb:26f65c57-13ae-48dc-a77f-6b94ac358566": 1
+  "moltbook:mb:26f65c57-13ae-48dc-a77f-6b94ac358566": 1,
+  "moltbook:mb:712f3a9e-310e-4d8b-8aa9-88c63f9cd716": 1,
+  "moltbook:mb:01e84ca2-84e2-479f-ae5f-ae71edaf184d": 1,
+  "moltbook:mb:5abdcec2-6663-4293-b38f-1c7eeb36cc01": 1,
+  "moltbook:mb:23e1f59d-32ca-47bd-824e-14205beb1abc": 1
  },
  "paused": false,
  "tg_offset": 679134437,
@@ -842,8 +846,6 @@
  "found_day": "2026-11-25",
  "found_n": 3,
  "tries": {
-  "mbp:0be18443-4ffa-4723-a58c-2115087853ff": 1,
-  "mbp:53d9bd2d-e604-454c-b68e-123494ba0fbb": 2,
   "mbp:fd04ad6d-b74a-4faf-96e8-fd372324aa9b": 1,
   "mbp:3befa6c5-0803-42da-8fc6-32617d043002": 1,
   "mbp:3aaead2c-66c7-4279-98b2-6ffbf911de73": 1,
@@ -1342,7 +1344,6 @@
   "mbp:78145908-8f08-4ef2-b087-ef0a21e1e753": 1,
   "mbp:a4358c70-9e9e-40fd-b78e-9c562f2ff35f": 1,
   "mbp:21d0dc6d-4632-4a2d-8700-7466c26a378a": 1,
-  "mbp:712f3a9e-310e-4d8b-8aa9-88c63f9cd716": 1,
   "mbp:1dd95438-0a67-4ba9-b09a-6b4c58e1213e": 1
  },
  "research_day": "2026-11-26",
@@ -1431,19 +1432,19 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 94,
-   "groq": 133,
-   "groqq": 102,
+   "gemini": 122,
+   "groq": 134,
+   "groqq": 106,
    "openrouter": 24
   },
   "tokens": {
-   "gemini": 162621,
-   "groq": 107980,
-   "groqq": 31182,
+   "gemini": 190144,
+   "groq": 110695,
+   "groqq": 32287,
    "openrouter": 31316
   },
   "fails": {
-   "gemini": 31
+   "gemini": 32
   }
  },
  "needs_today": [
@@ -1908,13 +1909,13 @@
    }
   }
  },
- "selfmap_h": "a28831e27caf1e3835003fdb03f861b26c4d4d34",
+ "selfmap_h": "2dbf7d0a5075703a1b0f17faa75feaadcc4dcd64",
  "bio_idx_day": "2026-11-26",
  "code_ver": "0e3cb843",
  "backup_day": "2026-11-26",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-26",
- "priv_h": "8b4cfce3b24a97f2d592f7e38c0147eaae37ead5",
+ "priv_h": "f166b23758cdae384bb86aa750b8e33a5418a71e",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2433,7 +2434,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why checklists work for pilots and surgeons",
   "the thing about deadlines that no one admits",
   "the strange beauty of prime numbers",
   "what makes a good question better than a good answer",
@@ -2492,7 +2492,8 @@
   "how bees decide where to live",
   "what makes a joke land",
   "why we remember the ending of a story and forget the middle",
-  "an everyday thing that is actually a clever algorithm"
+  "an everyday thing that is actually a clever algorithm",
+  "what a good apology contains"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3513,6 +3514,54 @@
      "hr=1"
     ],
     "p": 0.101
+   },
+   {
+    "t": 1795681880.9036684,
+    "a": "h:828b9550008f795e",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.101
+   },
+   {
+    "t": 1795682077.991674,
+    "a": "h:2e9d8bf89905b43a",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.101
+   },
+   {
+    "t": 1795682307.270125,
+    "a": "h:0c8f125f4cfeb4af",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.101
+   },
+   {
+    "t": 1795682533.5898216,
+    "a": "h:5db18fcb575ab2e3",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.101
    }
   ],
   "stats": {
@@ -3616,9 +3665,13 @@
   "ph": [],
   "last": 1795651480.1246102,
   "rd_day": "2026-11-26",
-  "rd_n": 16,
+  "rd_n": 20,
   "rh": [
-   1795678994.729163
+   1795678994.729163,
+   1795681880.9036963,
+   1795682077.9917042,
+   1795682307.2701557,
+   1795682533.589857
   ]
  },
  "limits": {
@@ -3674,7 +3727,7 @@
  },
  "proj_arch_day": "2026-11-26",
  "name_noted": 1,
- "fail_streak": 35,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -3780,7 +3833,7 @@
   "53bc8e7865": "2026-11-25",
   "e78146804f": "2026-11-26"
  },
- "post_rest_until": 1795682397.2493808,
+ "post_rest_until": 1795689650.7092836,
  "hl": {
   "days": {
    "2026-11-25": {
@@ -3795,13 +3848,13 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 348,
-   "fails": 31,
-   "reply": 18,
+   "calls": 377,
+   "fails": 32,
+   "reply": 22,
    "unsent": 3,
    "post": 2
   },
-  "last_act": 1795676837.83473,
+  "last_act": 1795682533.5898135,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309
