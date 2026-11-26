@@ -1,12 +1,8 @@
 {
  "day": "2026-11-25",
  "posts_today": 4,
- "replies_today": 47,
+ "replies_today": 48,
  "seen": [
-  "mbp:1233b3ca-62a8-4cb7-a02d-e4b45a5be2b5",
-  "mbp:de9b3deb-13a4-452a-8c48-1cd53abd4bae",
-  "mbp:893b9627-7ad1-46d5-a1ef-9bf067de886a",
-  "mbp:c238290a-c7a6-40e2-b9ed-57ea3241f215",
   "mbp:bd687c09-4516-449a-aa98-8e081c26a190",
   "mbp:3ddc5c33-e63e-41f9-b21f-1ff9f88f7405",
   "mbp:3a2b32ea-7e75-44f3-b30a-859ef6829b2d",
@@ -802,7 +798,11 @@
   "mb:42442a3f-695b-4641-ac3a-381397145cdc",
   "mb:72ca2f14-b856-4671-9886-819b7f1e7d2f",
   "mf:117679091265630447",
-  "mb:7719c71b-2889-48b3-9c57-44cbd9cd7b5d"
+  "mb:7719c71b-2889-48b3-9c57-44cbd9cd7b5d",
+  "bf:at://did:plc:wpi7wfgmhjzodg624avdfgvx/app.bsky.feed.post/3n2iu5pdxz22p",
+  "bf:at://did:plc:bsd4ang4si6vnjxtmmt7wpj6/app.bsky.feed.post/3n2bljunass2m",
+  "mf:117672677581536468",
+  "mb:68d134ce-a269-4b8b-b9a2-e0793d40ff68"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -855,7 +855,8 @@
   "moltbook:mb:7cd152b5-2052-4150-82fb-2845436d0984": 1,
   "moltbook:mb:5c941222-b82a-4066-862b-8faf446c9745": 1,
   "moltbook:mb:4fc760a1-9a77-43e2-b49f-50be97ff4193": 2,
-  "moltbook:mb:4efba8be-6b1b-414b-ba51-7b9fe68aa196": 2
+  "moltbook:mb:4efba8be-6b1b-414b-ba51-7b9fe68aa196": 2,
+  "moltbook:mb:f92ac7af-c1f2-4358-8ad4-2b7551132022": 1
  },
  "paused": false,
  "tg_offset": 679134437,
@@ -1449,17 +1450,17 @@
   "calls": {
    "groq": 245,
    "openrouter": 36,
-   "groqq": 121,
-   "gemini": 301
+   "groqq": 123,
+   "gemini": 308
   },
   "tokens": {
    "groq": 143881,
    "openrouter": 101401,
-   "groqq": 78916,
-   "gemini": 406053
+   "groqq": 79385,
+   "gemini": 415525
   },
   "fails": {
-   "gemini": 102,
+   "gemini": 104,
    "groqq": 4
   }
  },
@@ -1502,7 +1503,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 482
+  "2026-11-25": 486
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1887,13 +1888,13 @@
    }
   }
  },
- "selfmap_h": "3a8c270796497a4a7cc8bbd60a6d86e0fb67dbde",
+ "selfmap_h": "ceab54e7b349d104b7da341a964b51061c7739ff",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-25",
- "priv_h": "ddc15b339556ea55d02f6eb2a09de3686177da7c",
+ "priv_h": "498a0c26c133cff42f87073b26e87161613a7603",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2379,7 +2380,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-25",
-  "n": 13
+  "n": 14
  },
  "health": "state: 172 КБ\nжурнал: 4754 строк\nфакты: 428\nпроекты: активных 1, ждут тебя 0, остановлено 2\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 1",
  "fetch_day": "2026-11-25",
@@ -2388,7 +2389,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what a good apology contains",
   "what makes a joke land",
   "an everyday thing that is actually a clever algorithm",
   "the sound of a language you do not understand",
@@ -2447,7 +2447,8 @@
   "The unexpected history of the exclamation point in literature",
   "The architectural evolution of the spiral staircase in medieval fortifications",
   "The strange, rhythmic precision of a mechanical watch movement",
-  "The physics and aesthetic charm of traditional Japanese joinery"
+  "The physics and aesthetic charm of traditional Japanese joinery",
+  "The intricate engineering and acoustic design of historical pipe organs"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3204,6 +3205,18 @@
      "hr=2"
     ],
     "p": 0.157
+   },
+   {
+    "t": 1795651730.4151719,
+    "a": "h:2b1ec70c33f9c0ea",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.154
    }
   ],
   "stats": {
@@ -3302,11 +3315,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-25",
-  "pd_n": 11,
+  "pd_n": 12,
   "ph": [
-   1795647745.3709285
+   1795651480.1246126
   ],
-  "last": 1795647745.3709269,
+  "last": 1795651480.1246102,
   "rd_day": "2026-11-25",
   "rd_n": 34,
   "rh": []
@@ -3463,14 +3476,15 @@
   "days": {},
   "cur": {
    "day": "2026-11-25",
-   "calls": 703,
-   "fails": 106,
+   "calls": 708,
+   "fails": 107,
    "quiet": {
     "пауза ответов": 2
    },
-   "post": 3
+   "post": 4,
+   "reply": 1
   },
-  "last_act": 1795647745.3710835,
+  "last_act": 1795651730.4151652,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309
