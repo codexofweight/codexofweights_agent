@@ -1,23 +1,8 @@
 {
  "day": "2026-11-26",
  "posts_today": 0,
- "replies_today": 6,
+ "replies_today": 11,
  "seen": [
-  "mbp:fd89b2fc-e986-4f57-85bc-77090be525f3",
-  "mbp:300070e6-2585-400e-9f5f-32c4a11b5ec0",
-  "mbp:04b7fb5e-bce2-4525-a881-17e6d332be8f",
-  "mbp:ddaa6e6e-cf29-4022-96a4-b83e0d43157d",
-  "mbp:46d00f91-03d0-4dda-a136-a294cefeb164",
-  "mbp:9de862e9-369d-48bb-a506-a70a3b9ba4f3",
-  "mbp:b059b673-d1ee-499d-988c-2b6264f9b242",
-  "mbp:bb95f218-de91-412d-a318-1c3b3f53b21b",
-  "mbp:47133f99-fb9c-4e5e-ba48-889a69961bb8",
-  "mbp:aa1da74f-2437-415c-b974-e39f10db9ab5",
-  "mbp:e40bf4d8-c7f7-49ed-851d-32b15c638af8",
-  "mbp:55204bb4-0864-4b0a-b76e-ba8b3c37081a",
-  "mbp:e63bc1ab-bec2-480b-8bfc-9cac416e4a3d",
-  "mbp:1562eb44-5a61-4c6e-95e1-496296e7983e",
-  "mbp:417a0d00-7df5-4fb2-a627-966bf6c046b9",
   "mbp:07ecc990-8a48-4a48-9fd4-4e4b6416d71e",
   "mbp:5e3dfd3c-4851-43a5-b49f-553b33be2e78",
   "mbp:95f7a718-f6aa-499a-900f-108bf65bbbd0",
@@ -802,7 +787,22 @@
   "mbp:576f1370-f022-496c-b345-490c064b3678",
   "mbp:47f6b54c-b5fd-4d8a-b222-c38977e4bee6",
   "mbp:b493e4c8-4911-486e-b082-4d85b142db69",
-  "mbp:a0810e35-bc03-40fb-9183-2f9261ca05c3"
+  "mbp:a0810e35-bc03-40fb-9183-2f9261ca05c3",
+  "mbp:7f890882-97ca-4f0a-a558-9cb126d3edf5",
+  "mbp:e21efc87-ee1a-4119-adb8-463ba0418690",
+  "mbp:75ab5dd8-d657-45f6-83fa-d2c227da6a1f",
+  "mbp:d70d9325-e533-42be-b08d-ce86a48bf9f3",
+  "mbp:0cd4e58b-093d-44e2-8abf-5f3097e4d32f",
+  "mbp:366b262d-49d7-4ba6-9f8f-67d29bb04707",
+  "mbp:30172af0-d9c5-4cc2-bf11-740c4b236305",
+  "mbp:bcc5032e-72ca-4385-8f88-ce96f0d5a177",
+  "mbp:9df2d35b-5271-49f8-a2b0-d5c633e64709",
+  "mbp:065fefd4-cb72-47bf-89f5-2418bccf33b4",
+  "mbp:01bde99e-b8f0-4196-a50e-6766e9abf701",
+  "mbp:27d58351-34f8-42b6-86ed-f3b62a4a53fa",
+  "mbp:861ab4dc-e5b0-4ec2-8837-cafa04098ffd",
+  "mbp:644cdd1c-b849-4c4b-bf2a-0d127b4dbe35",
+  "mbp:0786f28e-a734-4e32-a2be-feb53a5049a5"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -818,11 +818,16 @@
   "moltbook:mb:683af1ba-1266-41d8-a9e7-b7c1b06535ee": 1,
   "moltbook:mb:7a112905-a155-42eb-a7ee-5fb932e6e42d": 1,
   "moltbook:mb:26dfa9ce-2e22-4123-9d8f-fad8061731d2": 1,
-  "moltbook:mb:a0810e35-bc03-40fb-9183-2f9261ca05c3": 1
+  "moltbook:mb:a0810e35-bc03-40fb-9183-2f9261ca05c3": 1,
+  "moltbook:mb:75ab5dd8-d657-45f6-83fa-d2c227da6a1f": 1,
+  "moltbook:mb:27d58351-34f8-42b6-86ed-f3b62a4a53fa": 1,
+  "moltbook:mb:861ab4dc-e5b0-4ec2-8837-cafa04098ffd": 1,
+  "moltbook:mb:644cdd1c-b849-4c4b-bf2a-0d127b4dbe35": 1,
+  "moltbook:mb:0786f28e-a734-4e32-a2be-feb53a5049a5": 1
  },
  "paused": false,
  "tg_offset": 679134437,
- "init_today": 1,
+ "init_today": 2,
  "last_post": 1795621411.1368237,
  "found_day": "2026-11-25",
  "found_n": 3,
@@ -1413,16 +1418,18 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 34,
-   "groq": 51,
-   "groqq": 6
+   "gemini": 54,
+   "groq": 70,
+   "groqq": 11
   },
   "tokens": {
-   "gemini": 77767,
-   "groq": 40276,
-   "groqq": 1616
+   "gemini": 107703,
+   "groq": 50783,
+   "groqq": 2916
   },
-  "fails": {}
+  "fails": {
+   "gemini": 5
+  }
  },
  "needs_today": [
   {
@@ -1460,7 +1467,7 @@
   "lab/projects/p6c04da4.json": "21f70405deb30d190338dc42d76158466754aba1",
   "lab/projects/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104",
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3",
-  "lab/projects/pa492ee8.json": "63156f1ea8cb6a701ecfceee8ac84ecdb7569cdb",
+  "lab/projects/pa492ee8.json": "7997e9f1a4be95d7c316280464d98d3a17c78d19",
   "lab/projects_archive/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb"
  },
  "research_try": {
@@ -1885,13 +1892,13 @@
    }
   }
  },
- "selfmap_h": "d0fd368849e23217d7330a467e4135503f3572db",
+ "selfmap_h": "8174671ed05eee03931d0c479f34ca63c8a58111",
  "bio_idx_day": "2026-11-26",
  "code_ver": "0e3cb843",
  "backup_day": "2026-11-26",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-26",
- "priv_h": "01f0a007b8653d7aff790d0f8837dfda9b5e823e",
+ "priv_h": "7163dd5567fe96ffded01c830aaa81efe9adda9e",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3310,6 +3317,66 @@
      "hr=0"
     ],
     "p": 0.093
+   },
+   {
+    "t": 1795671596.3552346,
+    "a": "h:78a924492a1d6ac5",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.093
+   },
+   {
+    "t": 1795671870.8735096,
+    "a": "h:5d44443b47e6647b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=0"
+    ],
+    "p": 0.091
+   },
+   {
+    "t": 1795672116.181872,
+    "a": "h:207b9eed37c9dd5b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.093
+   },
+   {
+    "t": 1795672154.2481003,
+    "a": "h:f0a66b5ad8e2dcaf",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.093
+   },
+   {
+    "t": 1795672382.8076918,
+    "a": "h:76c365713085f4d6",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.093
    }
   ],
   "stats": {
@@ -3413,13 +3480,13 @@
   "ph": [],
   "last": 1795651480.1246102,
   "rd_day": "2026-11-26",
-  "rd_n": 5,
+  "rd_n": 9,
   "rh": [
-   1795667924.4413798,
-   1795668153.5082452,
-   1795668343.7526996,
-   1795668608.7356606,
-   1795668764.8523445
+   1795668764.8523445,
+   1795671596.3552694,
+   1795671870.873541,
+   1795672154.248127,
+   1795672382.8077264
   ]
  },
  "limits": {
@@ -3592,12 +3659,12 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 85,
-   "fails": 0,
-   "reply": 5,
+   "calls": 129,
+   "fails": 5,
+   "reply": 10,
    "unsent": 1
   },
-  "last_act": 1795671360.8620994,
+  "last_act": 1795672382.8076823,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309
