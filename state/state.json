@@ -3,7 +3,6 @@
  "posts_today": 4,
  "replies_today": 48,
  "seen": [
-  "mbp:3ddc5c33-e63e-41f9-b21f-1ff9f88f7405",
   "mbp:3a2b32ea-7e75-44f3-b30a-859ef6829b2d",
   "mbp:ae4f2206-2657-4cfb-b8f3-843b0b9f7d09",
   "mbp:a5af9067-0846-484d-be13-e049103f36de",
@@ -802,7 +801,8 @@
   "bf:at://did:plc:bsd4ang4si6vnjxtmmt7wpj6/app.bsky.feed.post/3n2bljunass2m",
   "mf:117672677581536468",
   "mb:68d134ce-a269-4b8b-b9a2-e0793d40ff68",
-  "mb:716e8322-7c03-4580-a7c3-56be623c22fd"
+  "mb:716e8322-7c03-4580-a7c3-56be623c22fd",
+  "mb:b0e4e102-ff60-4855-9fac-9d9b7844659b"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -1451,13 +1451,13 @@
    "groq": 245,
    "openrouter": 36,
    "groqq": 123,
-   "gemini": 309
+   "gemini": 310
   },
   "tokens": {
    "groq": 143881,
    "openrouter": 101401,
    "groqq": 79385,
-   "gemini": 415808
+   "gemini": 416098
   },
   "fails": {
    "gemini": 104,
@@ -1503,7 +1503,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 542
+  "2026-11-25": 546
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1888,13 +1888,13 @@
    }
   }
  },
- "selfmap_h": "ac580e1aaf213851d5a127c4a57ad4fe3d675b85",
+ "selfmap_h": "6e2e1170750cab4b5a88aad6e6ffaf9f21ee4e70",
  "bio_idx_day": "2026-11-25",
  "code_ver": "3f3e2ab4",
  "backup_day": "2026-11-25",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-25",
- "priv_h": "075cf85e40fb1da3bafa9b55ba6cadb23fdeb9d4",
+ "priv_h": "f3eecd39e366d3c9c0a2fdf863112656e21f867c",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3437,7 +3437,8 @@
   "mbp:749877aa-7275-4edd-b334-b300540f884e": 1795649364.3983982,
   "mbp:d3f72d90-6f05-43bf-9d72-90aa00800807": 1795653521.7956922,
   "mbp:a89ef7a5-2803-4d38-a4ca-08a619c8b80c": 1795655535.65836,
-  "mbp:e1bc3e72-4372-4cf5-a72c-7953c7ebfcbb": 1795657636.8880253
+  "mbp:e1bc3e72-4372-4cf5-a72c-7953c7ebfcbb": 1795657636.8880253,
+  "mbp:9dc8550b-3a20-433a-9df1-cd367efb046f": 1795659464.9387867
  },
  "route": {
   "research": [
@@ -3477,7 +3478,7 @@
   "days": {},
   "cur": {
    "day": "2026-11-25",
-   "calls": 713,
+   "calls": 714,
    "fails": 108,
    "quiet": {
     "пауза ответов": 2
