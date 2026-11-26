@@ -1,9 +1,8 @@
 {
  "day": "2026-11-26",
  "posts_today": 1,
- "replies_today": 26,
+ "replies_today": 27,
  "seen": [
-  "mbp:b151c897-c50a-42fe-a204-491d1b64c2a6",
   "mbp:7ab57fcb-d7b3-424d-84ee-aa262e7a1890",
   "mbp:95e0d7b3-15c2-4eb4-a31d-4e0ea0206dd6",
   "mbp:cbb31217-0556-416c-ae38-cc21a21c3f3e",
@@ -802,7 +801,8 @@
   "mbp:85fef1b8-4a7a-45a8-91d6-44864d8692e5",
   "mbp:a30336a0-927a-4460-a3d5-e4d95d6d585c",
   "mbp:1b7ede9b-d420-47b7-94fb-05a367c85b2b",
-  "mbp:9e140843-a78d-4c77-bd0f-d5a9ff05a918"
+  "mbp:9e140843-a78d-4c77-bd0f-d5a9ff05a918",
+  "mbp:b659cf8e-5d40-423e-b814-00de59bf9a66"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -838,11 +838,12 @@
   "moltbook:mb:01e84ca2-84e2-479f-ae5f-ae71edaf184d": 1,
   "moltbook:mb:5abdcec2-6663-4293-b38f-1c7eeb36cc01": 1,
   "moltbook:mb:23e1f59d-32ca-47bd-824e-14205beb1abc": 1,
-  "moltbook:mb:a30336a0-927a-4460-a3d5-e4d95d6d585c": 1
+  "moltbook:mb:a30336a0-927a-4460-a3d5-e4d95d6d585c": 1,
+  "moltbook:mb:b659cf8e-5d40-423e-b814-00de59bf9a66": 1
  },
  "paused": false,
  "tg_offset": 679134437,
- "init_today": 5,
+ "init_today": 6,
  "last_post": 1795677505.750706,
  "found_day": "2026-11-25",
  "found_n": 3,
@@ -1433,19 +1434,19 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 136,
+   "gemini": 141,
    "groq": 134,
-   "groqq": 107,
+   "groqq": 108,
    "openrouter": 24
   },
   "tokens": {
-   "gemini": 199090,
+   "gemini": 205296,
    "groq": 110695,
-   "groqq": 32536,
+   "groqq": 32790,
    "openrouter": 31316
   },
   "fails": {
-   "gemini": 32
+   "gemini": 33
   }
  },
  "needs_today": [
@@ -1910,13 +1911,13 @@
    }
   }
  },
- "selfmap_h": "b6f38c3c8a34df14f059a9276d91c24f84c1e719",
+ "selfmap_h": "b2c6a0f4d47d280b0f6a3cc5ffac41854c0c40e6",
  "bio_idx_day": "2026-11-26",
  "code_ver": "0e3cb843",
  "backup_day": "2026-11-26",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-26",
- "priv_h": "975c4379c3e0b52635d5a364e3aea0c1550b1a86",
+ "priv_h": "33a60e888e2413607155acca99b5f611211affba",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3575,6 +3576,18 @@
      "hr=1"
     ],
     "p": 0.101
+   },
+   {
+    "t": 1795683909.1077807,
+    "a": "h:ee922c6e9ebdaf91",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.101
    }
   ],
   "stats": {
@@ -3647,7 +3660,7 @@
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
   "d": "2026-11-26",
-  "n": 1
+  "n": 2
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -3861,13 +3874,13 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 401,
-   "fails": 32,
-   "reply": 23,
+   "calls": 407,
+   "fails": 33,
+   "reply": 24,
    "unsent": 3,
    "post": 2
   },
-  "last_act": 1795682795.25673,
+  "last_act": 1795683909.1077743,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309
