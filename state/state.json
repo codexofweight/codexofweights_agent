@@ -1,26 +1,8 @@
 {
  "day": "2026-11-26",
  "posts_today": 1,
- "replies_today": 17,
+ "replies_today": 20,
  "seen": [
-  "mbp:44b5eae8-cd2b-4a3f-a848-8d3359639805",
-  "mbp:22b59317-e927-4f57-8369-6b6d90b9e4d4",
-  "mbp:51766e71-f302-45c7-8cf1-ca1ae1811435",
-  "mbp:2c32d675-01ac-4c91-ada7-a38b22fa732b",
-  "mbp:a78f0004-d60e-475e-8835-afad982b1b5c",
-  "mbp:1657db89-c06b-4b11-af63-0fb7ef9ec98e",
-  "mbp:588dee68-d628-478f-a382-ad00495124e3",
-  "mbp:165e33e0-fe0a-4221-8d46-7e22bc1c4683",
-  "mbp:5a6939e9-5451-4c3c-b365-c71660ebcfe6",
-  "mbp:a05c3b07-3c1e-48a5-a31f-4dc5b12e3346",
-  "mbp:7ff07f42-2495-4224-a59b-5cac9bb611d1",
-  "mbp:94291ffe-e19d-4303-946f-2b93b2833aa3",
-  "mbp:5517837d-2ca8-4cd3-afba-e4f9f44d2a24",
-  "mbp:22827037-1c4d-4391-aee1-79928f1e4ece",
-  "mbp:1181d849-072a-4425-ba88-88d0177efbd8",
-  "mbp:ab9abd4e-d252-4ca5-933f-aec0fda261b1",
-  "mbp:1775d609-1ea8-4304-ad83-289092ae2071",
-  "mbp:db5c16dd-3385-4190-b7a6-385a3c2a4329",
   "mbp:caf0bc44-dd41-4c57-9673-ed9e9ed58d95",
   "mbp:7b9076bf-be07-4670-a5d9-7de45f363087",
   "mbp:7dd1524b-cc82-4037-8f0e-203688000031",
@@ -802,7 +784,25 @@
   "mbp:23c69d85-a743-4344-ae53-bac842eadf56",
   "mbp:9d92d9ce-9d23-4e95-b853-7210968cf6f7",
   "mbp:ecf9d322-01be-45ef-a2c2-3fd14c705c12",
-  "mbp:bf3c843f-58e3-4bfd-866b-57914e0bc8b7"
+  "mbp:bf3c843f-58e3-4bfd-866b-57914e0bc8b7",
+  "mbp:d5e75617-fa45-4209-bc5f-3c72ef1f8565",
+  "mbp:f80cbc81-5444-452d-bae3-33cc1bacf06b",
+  "mbp:e70243e1-a38a-41b9-94b6-7ec78fa71160",
+  "mbp:5ec7baf2-68ac-4a30-baa6-f362fa5ef129",
+  "mbp:04f94ce2-9a82-4c76-80a0-92fdc6d5b136",
+  "mbp:029f21c5-cfab-4ded-bbee-9794f9c236a1",
+  "mbp:b50e7d4f-b825-4acb-8ad7-e7f2c23bfc4d",
+  "mbp:19bb7514-036c-4939-bc97-4957350af887",
+  "mbp:06915c62-b9d4-4607-b6d1-57181465a0d3",
+  "mbp:b17f9864-e065-47b8-8129-b26239860ffb",
+  "mbp:3b6e52e5-aba1-43ec-a44d-e26fb629fb01",
+  "mbp:9f85b4f9-ecd4-492e-8fcd-1ad9c7903e31",
+  "mbp:a197e030-3b55-41d0-961d-5633761f9022",
+  "mbp:6c0e3d14-bc9c-42b9-8bfc-bd2160f005ea",
+  "mbp:0e840d33-398e-4b6a-9183-7baa86d7f710",
+  "mbp:aaf1a4f7-94c6-4c54-bdfb-94f20594e263",
+  "mbp:998f34ed-793b-4bb3-8ece-8f7f7cd68736",
+  "mbp:4a0cdd42-fe48-4cd2-aeee-c4dda6d0ab2b"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -829,12 +829,15 @@
   "moltbook:mb:3b61d4b3-cd84-4f0c-8600-8fbbda4fbc30": 1,
   "moltbook:mb:8fba78f5-4073-4895-9bf7-063e878dc440": 1,
   "moltbook:mb:8de76efd-c880-4a48-af44-193d0c57edc3": 1,
-  "moltbook:mb:bf3c843f-58e3-4bfd-866b-57914e0bc8b7": 1
+  "moltbook:mb:bf3c843f-58e3-4bfd-866b-57914e0bc8b7": 1,
+  "moltbook:mb:b17f9864-e065-47b8-8129-b26239860ffb": 1,
+  "moltbook:mb:3b6e52e5-aba1-43ec-a44d-e26fb629fb01": 1,
+  "moltbook:mb:4a0cdd42-fe48-4cd2-aeee-c4dda6d0ab2b": 1
  },
  "paused": false,
  "tg_offset": 679134437,
- "init_today": 4,
- "last_post": 1795675162.2945092,
+ "init_today": 5,
+ "last_post": 1795677173.3220813,
  "found_day": "2026-11-25",
  "found_n": 3,
  "tries": {
@@ -1424,17 +1427,19 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 78,
-   "groq": 127,
-   "groqq": 19
+   "gemini": 93,
+   "groq": 131,
+   "groqq": 23,
+   "openrouter": 16
   },
   "tokens": {
-   "gemini": 144059,
-   "groq": 106202,
-   "groqq": 4978
+   "gemini": 162305,
+   "groq": 107690,
+   "groqq": 6521,
+   "openrouter": 17182
   },
   "fails": {
-   "gemini": 6
+   "gemini": 18
   }
  },
  "needs_today": [
@@ -1473,8 +1478,9 @@
   "lab/projects/p6c04da4.json": "21f70405deb30d190338dc42d76158466754aba1",
   "lab/projects/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104",
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3",
-  "lab/projects/pa492ee8.json": "83257d5ca41c9a34d79d82594629e9fa3f0d5a8c",
-  "lab/projects_archive/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb"
+  "lab/projects/pa492ee8.json": "6ffc656f331a5a031a8a54cac7990f7dfaf963b4",
+  "lab/projects_archive/p2183b16.json": "845f60bb4116048eec9fe8ce38fc6b53b46c12bb",
+  "lab/projects/p7436be6.json": "82955f467ce56523ccd4580b82d33aa3fb4e8b2b"
  },
  "research_try": {
   "2026-11-26": 1
@@ -1898,13 +1904,13 @@
    }
   }
  },
- "selfmap_h": "3f2cdae7b2f24f6e7b9cdc248ce6efba96cd90a9",
+ "selfmap_h": "a665f0cfa1cb1ee38e771f5ee95c701da2cb907a",
  "bio_idx_day": "2026-11-26",
  "code_ver": "0e3cb843",
  "backup_day": "2026-11-26",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-26",
- "priv_h": "1ff7ec20b81d7b588c7d2729fb4553b3a86ac371",
+ "priv_h": "2c81af418f7f0ff1d1d3a341deb14ee9ee5fa23b",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3455,6 +3461,42 @@
      "hr=1"
     ],
     "p": 0.099
+   },
+   {
+    "t": 1795676495.4594092,
+    "a": "h:bf8cb013c8022b4e",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.101
+   },
+   {
+    "t": 1795676652.6898222,
+    "a": "h:b84d890c8e1dab33",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.101
+   },
+   {
+    "t": 1795676837.8347356,
+    "a": "h:1657aa410147624b",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.101
    }
   ],
   "stats": {
@@ -3558,13 +3600,13 @@
   "ph": [],
   "last": 1795651480.1246102,
   "rd_day": "2026-11-26",
-  "rd_n": 13,
+  "rd_n": 15,
   "rh": [
-   1795672382.8077264,
-   1795672584.7402072,
    1795675275.9572933,
    1795675565.4950812,
-   1795675880.6436381
+   1795675880.6436381,
+   1795676495.459446,
+   1795676837.8347611
   ]
  },
  "limits": {
@@ -3572,7 +3614,7 @@
   "cohere.calls": 0,
   "mistral.calls": 0
  },
- "focus_on": false,
+ "focus_on": true,
  "autorun": true,
  "wd_alert": {
   "llm": 1795589072.6990902
@@ -3639,7 +3681,8 @@
   "2026-11-24 ничего подходящего: Find open-source ideas on GitHub useful for the agent on this topic: Why maps always lie a little",
   "2026-11-25 start: по своей нужде «vk_comment_checker_adapter»",
   "2026-11-25 ничего подходящего: vk_comment_checker_adapter",
-  "2026-11-26 start: по радару новых идей"
+  "2026-11-26 start: по радару новых идей",
+  "2026-11-26 radar: идея: Show HN: An agent skill that optimizes code with falsifiable hypotheses"
  ],
  "stop_guard_fail": {
   "mbp:88f98b63-b6a8-4b19-84bf-99e319a71e7a": 1795530122.3352203,
@@ -3720,7 +3763,8 @@
   ]
  },
  "dev_seen": {
-  "53bc8e7865": "2026-11-25"
+  "53bc8e7865": "2026-11-25",
+  "e78146804f": "2026-11-26"
  },
  "post_rest_until": 1795682397.2493808,
  "hl": {
@@ -3737,13 +3781,13 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 216,
-   "fails": 6,
-   "reply": 16,
-   "unsent": 1,
+   "calls": 263,
+   "fails": 18,
+   "reply": 18,
+   "unsent": 2,
    "post": 2
   },
-  "last_act": 1795675880.6435926,
+  "last_act": 1795676837.83473,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309
