@@ -1932,7 +1932,7 @@
  "backup_day": "2026-11-26",
  "backup_hash": "b5e103f9",
  "transp_day": "2026-11-26",
- "priv_h": "4789d56e1bc06cae7e6a0b7fa5d2a3263d45c238",
+ "priv_h": "20032d1ebfc764e63ed6a9d2414e08f0ebc74054",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4071,7 +4071,7 @@
     "openrouter": 24
    },
    "why": {
-    "post text invalid, too similar, or no model": 184,
+    "post text invalid, too similar, or no model": 188,
     "per-author/thread limit": 5
    }
   },
