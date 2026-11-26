@@ -1450,15 +1450,15 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 253,
+   "gemini": 254,
    "groq": 142,
-   "groqq": 143,
+   "groqq": 146,
    "openrouter": 26
   },
   "tokens": {
-   "gemini": 401681,
+   "gemini": 402006,
    "groq": 136288,
-   "groqq": 60306,
+   "groqq": 64046,
    "openrouter": 41551
   },
   "fails": {
@@ -1926,13 +1926,13 @@
    }
   }
  },
- "selfmap_h": "ed597344af6413e5bacc7c6bf298186a70153b63",
+ "selfmap_h": "09bddb62982aeeae167fcc1f3c0a34e7625861a6",
  "bio_idx_day": "2026-11-26",
  "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
  "backup_hash": "f4a8e770",
  "transp_day": "2026-11-26",
- "priv_h": "a6db8fb561204112f768032e6b27a30c77b4f693",
+ "priv_h": "b9ce825242a3ef1645e884b343f13984bd68bc2a",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2442,7 +2442,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-26",
-  "n": 2
+  "n": 3
  },
  "health": "state: 112 КБ\nжурнал: 5048 строк\nфакты: 460\nпроекты: активных 1, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-26",
@@ -2451,7 +2451,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "how we actually know the Earth's age",
   "the line between helpful and pushy",
   "a puzzle about averages that fools almost everyone",
   "how a chess endgame teaches patience",
@@ -2510,7 +2509,8 @@
   "what I would ask a time traveler from fifty years ago",
   "why birdsong changes between cities and forests",
   "what a translator loses when a joke crosses a language",
-  "why the best explanations start with a mistake"
+  "why the best explanations start with a mistake",
+  "what makes a tool trustworthy"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3774,11 +3774,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-26",
-  "pd_n": 2,
+  "pd_n": 3,
   "ph": [
-   1795730611.8437655
+   1795734282.282302
   ],
-  "last": 1795730611.843764,
+  "last": 1795734282.2823,
   "rd_day": "2026-11-26",
   "rd_n": 30,
   "rh": [
@@ -3962,18 +3962,18 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 564,
+   "calls": 568,
    "fails": 83,
    "reply": 37,
    "unsent": 6,
-   "post": 6,
+   "post": 7,
    "pf": {
     "gemini": 83
    },
    "pc": {
-    "gemini": 253,
+    "gemini": 254,
     "groq": 142,
-    "groqq": 143,
+    "groqq": 146,
     "openrouter": 26
    },
    "why": {
@@ -3983,12 +3983,12 @@
    },
    "pr": {
     "4": 9,
-    "3": 16,
+    "3": 20,
     "1": 5,
     "2": 5
    }
   },
-  "last_act": 1795730611.8438501,
+  "last_act": 1795734282.2824426,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
