@@ -1503,7 +1503,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3"
  },
  "research_try": {
-  "2026-11-25": 622
+  "2026-11-25": 626
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1894,7 +1894,7 @@
  "backup_day": "2026-11-25",
  "backup_hash": "0e3cb843",
  "transp_day": "2026-11-25",
- "priv_h": "e861e14daf7db8108e646a80e872be54790f3413",
+ "priv_h": "39252b280db0a9fa2ffcab29157c56f5ca4742b9",
  "trash_day": "2026-11-25",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3440,7 +3440,8 @@
   "mbp:e1bc3e72-4372-4cf5-a72c-7953c7ebfcbb": 1795657636.8880253,
   "mbp:9dc8550b-3a20-433a-9df1-cd367efb046f": 1795659464.9387867,
   "mbp:ae447ad4-3f3d-4a95-8689-22a499a63029": 1795661557.759022,
-  "mbp:5b479cf8-5b73-4d5b-a069-57cd098731d0": 1795663650.6555061
+  "mbp:5b479cf8-5b73-4d5b-a069-57cd098731d0": 1795663650.6555061,
+  "mbp:bdb08035-8b5f-4b72-aec2-9c5e942c0cd7": 1795667528.594956
  },
  "route": {
   "research": [
