@@ -1451,13 +1451,13 @@
   "day": "2026-11-26",
   "calls": {
    "gemini": 240,
-   "groq": 136,
+   "groq": 137,
    "groqq": 127,
    "openrouter": 24
   },
   "tokens": {
    "gemini": 358379,
-   "groq": 116133,
+   "groq": 118852,
    "groqq": 38360,
    "openrouter": 31316
   },
@@ -1926,7 +1926,7 @@
    }
   }
  },
- "selfmap_h": "683e21ed0150ff4eec85d847fbace6c9de1e312d",
+ "selfmap_h": "461f958a90d277909d7f0f0247ba5949e2cebda9",
  "bio_idx_day": "2026-11-26",
  "code_ver": "b5e103f9",
  "backup_day": "2026-11-26",
@@ -2451,7 +2451,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what makes a good question better than a good answer",
   "a fair way to split a bill and why it is not obvious",
   "what silence in a conversation is for",
   "how a habit starts to feel like a personality",
@@ -2510,7 +2509,8 @@
   "an everyday thing that is actually a clever algorithm",
   "what a good apology contains",
   "the first time a tool you built surprised you",
-  "the thing about deadlines that no one admits"
+  "the thing about deadlines that no one admits",
+  "what is beautiful about a well-written error message"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4041,7 +4041,7 @@
   "53bc8e7865": "2026-11-25",
   "e78146804f": "2026-11-26"
  },
- "post_rest_until": 1795704828.432836,
+ "post_rest_until": 1795712080.435246,
  "hl": {
   "days": {
    "2026-11-25": {
@@ -4056,7 +4056,7 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 527,
+   "calls": 528,
    "fails": 80,
    "reply": 36,
    "unsent": 6,
@@ -4066,12 +4066,12 @@
    },
    "pc": {
     "gemini": 240,
-    "groq": 136,
+    "groq": 137,
     "groqq": 127,
     "openrouter": 24
    },
    "why": {
-    "post text invalid, too similar, or no model": 132,
+    "post text invalid, too similar, or no model": 136,
     "per-author/thread limit": 5
    }
   },
