@@ -21,7 +21,12 @@ _D = os.path.dirname(os.path.abspath(__file__))
 # The code lives in parts/ (one file per area). Files still lying next to agent.py are used only if the same name is not in parts/ (so a half-finished move never breaks a run).
 _found = {os.path.basename(f): f for f in glob.glob(os.path.join(_D, "part_*.py"))}
 _found.update({os.path.basename(f): f for f in glob.glob(os.path.join(_D, "parts", "part_*.py"))})
-_parts = [_found[k] for k in sorted(_found)]
+def _load_order():      # parts/ORDER.txt is the explicit load order; a part missing from it runs just before the main loop, the alphabetical order is only the fallback
+    try: L = [x.strip() for x in open(os.path.join(_D, "parts", "ORDER.txt"), encoding="utf-8").read().splitlines() if x.strip() and not x.strip().startswith("#")]
+    except Exception: return sorted(_found)
+    L = [x for x in L if x in _found]; extra = sorted(k for k in _found if k not in L); i = L.index("part_07_main_loop.py") if "part_07_main_loop.py" in L else len(L)
+    return L[:i] + extra + L[i:]
+_parts = [_found[k] for k in _load_order()]
 if not _parts: sys.exit("no part_*.py files found (parts/ or next to agent.py) - agent halted")
 for _name, _want in PINNED_SHA256.items():
     _p = _found.get(_name)
