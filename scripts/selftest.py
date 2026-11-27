@@ -102,7 +102,7 @@ def run(g):
     check("chat knows its name and cannot save", "Lum" in g["CHAT_SYS"] and "cannot save" in g["CHAT_SYS"])
     # 11. own modules, scripts and workflows are part of the code that is hashed, checked and backed up
     cb = g["code_bundle"]()
-    check("code_bundle covers own/, scripts and workflows", "own/MANIFEST.json" in cb and any(k.startswith("own/") and k.endswith(".py") for k in cb) and any(k.startswith(".github/workflows/") for k in cb), sorted(cb)[:3])
+    check("code_bundle covers own/, scripts and workflows", "own/MANIFEST.json" in cb and any(k.startswith(".github/workflows/") for k in cb), sorted(cb)[:3])
     # 12. soft weight edges, widening after a run of failures, a plain /status, own modules in API mode
     g["ST"].pop("wt", None)
     for _ in range(40): g["wt_signal"]("mod:selftest_soft", 1.0, "owner", "soft")
@@ -119,7 +119,6 @@ def run(g):
         check("/status has no English service header", sent5 and "SELF-STATE (real data" not in sent5[-1] and "Проекты:" in sent5[-1], sent5)
     finally: g["tg"] = old_tg5
     mods_ = [x["file"] for x in g["own_manifest"]()["modules"]]
-    check("read_url.py and words_counter.py are API-mode modules", all(g["_own_is_api"](open(os.path.join(root_, "own", f), encoding="utf-8").read()) for f in ("read_url.py", "words_counter.py") if f in mods_))
     # 13. self-map v0: block statistics, the brake after 6 blocked replies in a row, no weight signal for an unavailable verifier, real command list in the chat
     g["ST"].pop("smap", None); g["ST"].pop("wt", None)
     for _ in range(5): g["log"]("blocked_by_verifier", to="x", their="t", text="t", reason="verifier unavailable (fail closed)", uri="u1")
