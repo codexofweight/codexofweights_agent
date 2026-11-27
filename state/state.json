@@ -4439,7 +4439,7 @@
     "gemini": 162
    },
    "why": {
-    "post text invalid, too similar, or no model": 110,
+    "post text invalid, too similar, or no model": 114,
     "per-author/thread limit": 100,
     "model chose skip or text invalid": 6,
     "author muted": 3,
