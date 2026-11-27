@@ -376,9 +376,20 @@ def run(g):
         g["_mn_rewrite"](r2)
         check("a command or a button from another person in the right chat is dropped", "message" not in r2["result"][0] and "message" not in r2["result"][1] and r2["result"][2]["message"]["text"] == "/status", r2)
     finally: g["TG_CHAT"] = old_chat2; g["_mn_api"] = old_api2
-    cap_ = []; old_dm = g["_lg_before_dm"]; g["_lg_before_dm"] = lambda kind, **kw: cap_.append((kind, kw))
+    cap_ = []; old_dm = g["_lg_before_hooks"]; g["_lg_before_hooks"] = lambda kind, **kw: cap_.append((kind, kw))
     try:
         g["log"]("reach", to="someone.bsky.social", channel="dm", text="a private words", uri="u")
         check("a direct message is not written to the public log", cap_ and "private words" not in str(cap_) and "someone" not in str(cap_), cap_)
-    finally: g["_lg_before_dm"] = old_dm
+    finally: g["_lg_before_hooks"] = old_dm
+    # 14i: log hooks - a failing hook does not break log(); pre-hooks run before the line, post-hooks after it, in order
+    seq_ = []; old_l = g["_lg_before_hooks"]; g["_lg_before_hooks"] = lambda kind, **kw: seq_.append(("core", kw.get("x")))
+    def _h_pre(kind, kw): seq_.append("pre"); kw["x"] = "scrubbed"
+    def _h_bad(kind, kw): raise RuntimeError("boom")
+    def _h_post(kind, kw): seq_.append("post")
+    g["LOG_PRE"].append(_h_pre); g["LOG_POST"].extend([_h_bad, _h_post])
+    try:
+        g["log"]("zz_test", x="raw")
+        check("log hooks: pre scrubs, core writes, failing hook is skipped, post runs", seq_ == ["pre", ("core", "scrubbed"), "post"], seq_)
+    finally:
+        g["_lg_before_hooks"] = old_l; g["LOG_PRE"].remove(_h_pre); g["LOG_POST"].remove(_h_bad); g["LOG_POST"].remove(_h_post)
     return bad
