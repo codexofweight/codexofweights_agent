@@ -1349,7 +1349,8 @@
   "mbp:a4358c70-9e9e-40fd-b78e-9c562f2ff35f": 1,
   "mbp:21d0dc6d-4632-4a2d-8700-7466c26a378a": 1,
   "mbp:1dd95438-0a67-4ba9-b09a-6b4c58e1213e": 1,
-  "mbp:a8c1d25b-2db1-4105-8c83-2ac2a94f0189": 1
+  "mbp:a8c1d25b-2db1-4105-8c83-2ac2a94f0189": 1,
+  "mbp:21f7700a-0142-45b4-8b81-7ec9bfc331fb": 1
  },
  "research_day": "2026-11-27",
  "read_urls": [
@@ -1443,16 +1444,16 @@
    "groq": 143,
    "groqq": 165,
    "openrouter": 24,
-   "gemini": 120
+   "gemini": 121
   },
   "tokens": {
    "groq": 116760,
    "groqq": 59396,
    "openrouter": 115010,
-   "gemini": 249289
+   "gemini": 249650
   },
   "fails": {
-   "gemini": 6,
+   "gemini": 7,
    "groqq": 1
   }
  },
@@ -1944,7 +1945,7 @@
    }
   }
  },
- "selfmap_h": "3dc31ee60e436e2a1f5130390bce6cdfca44422a",
+ "selfmap_h": "9552d02c6399050d407fbd18da8b13b2ac4252a7",
  "bio_idx_day": "2026-11-27",
  "code_ver": "db026e32",
  "backup_day": "2026-11-27",
@@ -4282,7 +4283,7 @@
  },
  "proj_arch_day": "2026-11-27",
  "name_noted": 1,
- "fail_streak": 1,
+ "fail_streak": 2,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4435,28 +4436,29 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 387,
+    "4": 388,
     "5": 54,
     "3": 7,
     "2": 4
    },
-   "calls": 451,
-   "fails": 7,
+   "calls": 453,
+   "fails": 8,
    "pf": {
-    "gemini": 6,
+    "gemini": 7,
     "groqq": 1
    },
    "pc": {
     "groq": 143,
     "groqq": 165,
     "openrouter": 24,
-    "gemini": 119
+    "gemini": 121
    },
    "why": {
-    "post text invalid, too similar, or no model": 30,
+    "post text invalid, too similar, or no model": 34,
     "per-author/thread limit": 82,
     "model chose skip or text invalid": 5,
-    "author muted": 2
+    "author muted": 2,
+    "no valid model output, will retry": 1
    },
    "reply": 28,
    "unsent": 2,
