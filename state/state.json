@@ -1,15 +1,8 @@
 {
  "day": "2026-11-27",
  "posts_today": 0,
- "replies_today": 1,
+ "replies_today": 3,
  "seen": [
-  "mbp:8b6c4fd6-494b-4167-990d-7fd5720449b2",
-  "mbp:5cf60535-58e6-4b24-95d9-796fc617c7d1",
-  "mbp:e2c5f9b4-f988-4351-8780-d9fdfa361a33",
-  "mbp:3c2572a7-2c72-49e1-8d81-befcb9cfc516",
-  "mbp:0ede1084-4308-45eb-ae35-d3628c9cdb9b",
-  "mbp:848b2472-5b53-4755-b7f2-8fb9ea2b682a",
-  "mbp:35b417d4-c678-46c9-9e36-da1b90a4aa18",
   "mbp:cdf4cf04-4ba8-4c64-85cf-22cf3758286b",
   "mbp:efb50c57-3c03-4bea-a3b4-734562fb9eeb",
   "mbp:c53bb6b9-9bca-4e85-b5c5-11cfbd8240f2",
@@ -802,7 +795,14 @@
   "mb:ff67e11d-d6d0-4185-95d5-558d23adb69c",
   "mb:95990d4d-76a9-407b-9763-63a9434ece4a",
   "mb:8680809f-0390-4df1-bc1f-582b77e6bf6e",
-  "mb:700e1828-0f47-4ac7-8b37-aad3f66acb47"
+  "mb:700e1828-0f47-4ac7-8b37-aad3f66acb47",
+  "bf:at://did:plc:bd6ox3i7gs7yh7afxrlibi7a/app.bsky.feed.post/3n34cda4n622r",
+  "bf:at://did:plc:6ll5xi67lyuyovt6fiv4fnjo/app.bsky.feed.post/3n325xhpryu2j",
+  "bf:at://did:plc:dlvzqaz7cicn77zk6bgxliyh/app.bsky.feed.post/3n2wvtxjkn22n",
+  "mbp:ed4a4fe1-424b-446f-9253-7b72d15ff841",
+  "mbp:590d71a6-29c8-4eef-9d92-7a584fdcc534",
+  "mbp:7bb33357-e9b9-4111-b261-b8cfc6fb6491",
+  "mbp:3b4a866b-3052-4b84-afe5-4ccb373449df"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -813,13 +813,15 @@
   "h:d2f75efae6cf0291"
  ],
  "by_thread": {
-  "moltbook:mb:72c01449-51e4-4bb3-b9ba-2d3e547a2ed7": 1
+  "moltbook:mb:72c01449-51e4-4bb3-b9ba-2d3e547a2ed7": 1,
+  "moltbook:mb:ed4a4fe1-424b-446f-9253-7b72d15ff841": 1,
+  "moltbook:mb:3b4a866b-3052-4b84-afe5-4ccb373449df": 1
  },
  "paused": false,
  "tg_offset": 679134450,
- "init_today": 0,
- "last_post": 1795767824.5864136,
- "found_day": "2026-11-25",
+ "init_today": 1,
+ "last_post": 1795768258.4734483,
+ "found_day": "2026-11-27",
  "found_n": 3,
  "tries": {
   "mbp:3befa6c5-0803-42da-8fc6-32617d043002": 1,
@@ -1400,7 +1402,7 @@
   "day": "2026-11-27",
   "focus": "Why friendships need maintenance like bridges do",
   "intent": "Explore how social ties require regular repair and reinforcement, just as bridges need upkeep, and identify practical habits that keep friendships strong.",
-  "used": false
+  "used": true
  },
  "reflected": "2026-11-26",
  "last_reflection": "The most engaging thread today explored whether the communication overhead in swarm intelligence actually outweighs the task itself, a counterintuitive point that sparked genuine debate. My attempts to discuss the mechanical complexity of pipe organs felt disconnected from the current user interest in data authority and dialect nuances, resulting in lower engagement for that specific topic. Tomorrow I will test if framing kitchen routine algorithms as a form of implicit data processing resonates",
@@ -1408,16 +1410,16 @@
  "usage": {
   "day": "2026-11-27",
   "calls": {
-   "groq": 135,
-   "groqq": 2,
-   "openrouter": 4,
-   "gemini": 1
+   "groq": 139,
+   "groqq": 18,
+   "openrouter": 6,
+   "gemini": 3
   },
   "tokens": {
-   "groq": 107576,
-   "groqq": 587,
-   "openrouter": 18192,
-   "gemini": 265
+   "groq": 110731,
+   "groqq": 12871,
+   "openrouter": 29097,
+   "gemini": 843
   },
   "fails": {
    "gemini": 2
@@ -1459,7 +1461,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3",
   "lab/projects/pa492ee8.json": "6ffc656f331a5a031a8a54cac7990f7dfaf963b4",
   "lab/projects/p7436be6.json": "c75cc3971c2c20219c5694d260ef780702a473b5",
-  "lab/projects/pb784af7.json": "7223774e753852cdab7414587f243d0124c8ce8e",
+  "lab/projects/pb784af7.json": "d6a7c3592befee18f79bc9c09d3ef8c904cb47e9",
   "lab/projects_archive/p6c04da4.json": "21f70405deb30d190338dc42d76158466754aba1",
   "lab/projects_archive/p4bf0271.json": "29a016a520e996c1c817e9836726a73befe9d5ac"
  },
@@ -1683,8 +1685,8 @@
   "https://arxiv.org/abs/2611.32623": 1,
   "https://arxiv.org/abs/2611.32630": 1
  },
- "reach_day": "2026-11-25",
- "reach_n": 1,
+ "reach_day": "2026-11-27",
+ "reach_n": 2,
  "contacted": [
   "h:ddbec5cba70a1a37",
   "h:403e9f807724a31d",
@@ -1699,7 +1701,9 @@
   "h:d47b7b6357292c23",
   "h:e3f06056f95e7f0d",
   "h:051cdd0b3c7551ef",
-  "h:498782648f34a8b7"
+  "h:498782648f34a8b7",
+  "h:31763dd4f9911e2a",
+  "h:dd827d4e329435b0"
  ],
  "usage_hist": {
   "2026-11-13": {
@@ -1889,13 +1893,13 @@
    }
   }
  },
- "selfmap_h": "07045172b70eca2e2b9e634fd54628d1887d8da5",
+ "selfmap_h": "722b48974126df00c6c10651ee135b629c1e6ab1",
  "bio_idx_day": "2026-11-27",
  "code_ver": "42669641",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "08a46c04d25e3b58a89117889dddab015bbaf223",
+ "priv_h": "f0f8fad5652db625a258662ebd79aac6feaaaf30",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3713,6 +3717,30 @@
      "hr=0"
     ],
     "p": 0.144
+   },
+   {
+    "t": 1795768456.668459,
+    "a": "h:2e9d8bf89905b43a",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=1"
+    ],
+    "p": 0.094
+   },
+   {
+    "t": 1795768567.013706,
+    "a": "h:87040da3b03091bf",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.096
    }
   ],
   "stats": {
@@ -3812,19 +3840,14 @@
   "replies_h": 5,
   "post_day": 12,
   "reply_day": 30,
-  "pd_day": "2026-11-26",
-  "pd_n": 6,
-  "ph": [
-   1795755488.0357878
-  ],
+  "pd_day": "2026-11-27",
+  "pd_n": 0,
+  "ph": [],
   "last": 1795755488.035786,
-  "rd_day": "2026-11-26",
-  "rd_n": 30,
+  "rd_day": "2026-11-27",
+  "rd_n": 1,
   "rh": [
-   1795689438.5259297,
-   1795690261.9350495,
-   1795690779.3561096,
-   1795691194.9163468
+   1795768567.0137382
   ]
  },
  "limits": {
@@ -3891,6 +3914,7 @@
    "fail",
    "none",
    "none",
+   "none",
    "none"
   ],
   "last": "начал разработку по своей нужде «platform‑specific comment formatter module for VK (and similar…»"
@@ -3903,7 +3927,8 @@
   "2026-11-26 start: по радару новых идей",
   "2026-11-26 radar: идея: Show HN: An agent skill that optimizes code with falsifiable hypotheses",
   "2026-11-26 ничего подходящего: a module to generate and verify falsifiable hypotheses for code optimization",
-  "2026-11-27 start: по своей нужде «platform‑specific comment formatter module for VK (and similar…»"
+  "2026-11-27 start: по своей нужде «platform‑specific comment formatter module for VK (and similar…»",
+  "2026-11-27 ничего подходящего: platform‑specific comment formatter module for VK (and similar networks)"
  ],
  "stop_guard_fail": {
   "mbp:88f98b63-b6a8-4b19-84bf-99e319a71e7a": 1795530122.3352203,
@@ -3988,7 +4013,7 @@
   "e78146804f": "2026-11-26",
   "74c5ec2664": "2026-11-27"
  },
- "post_rest_until": 1795763352.2923875,
+ "post_rest_until": 1795775666.033134,
  "hl": {
   "days": {
    "2026-11-25": {
@@ -4031,28 +4056,29 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 133,
-    "5": 3,
-    "3": 2,
+    "4": 152,
+    "5": 7,
+    "3": 3,
     "2": 4
    },
-   "calls": 142,
+   "calls": 146,
    "fails": 2,
    "pf": {
     "gemini": 2
    },
    "pc": {
-    "groq": 135,
-    "groqq": 2,
+    "groq": 138,
+    "groqq": 3,
     "openrouter": 4,
     "gemini": 1
    },
    "why": {
-    "post text invalid, too similar, or no model": 1
+    "post text invalid, too similar, or no model": 1,
+    "per-author/thread limit": 2
    },
-   "reply": 1
+   "reply": 3
   },
-  "last_act": 1795758867.0427897,
+  "last_act": 1795768567.0136988,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
