@@ -290,6 +290,8 @@ def run(g):
     finally:
         g["_pt_before_hooks"] = old_b
         for f_ in (f1_, f2_, f3_): g["TICK_HOOKS"].remove(f_)
+    nm_ = {getattr(f_, "__name__", "") for f_ in g["TICK_HOOKS"]}
+    check("named tick hooks are registered", {"_ss_tick", "_name_tick", "_mn_tick", "_ap_tick", "_econ_tick", "_quiet_tick", "_health_tick"} <= nm_, sorted(nm_))
     check("tick hooks of the real parts are registered", len(g["TICK_HOOKS"]) >= 5 and n0_ == len(g["TICK_HOOKS"]), len(g["TICK_HOOKS"]))
     ls_ = g["jan_lesson"]("2026-11-25", {"post": 4, "reply": 1, "blocked": 0, "calls": 700, "fails": 100, "pf": {"gemini": 99}, "pc": {"gemini": 270}, "why": {"stop-intent guard unavailable, will retry next cycle": 18}})
     check("the daily lesson is built from numbers and names the cause", "4 posts, 1 replies" in ls_ and "gemini" in ls_ and "stop check has no model" in ls_ and ls_.endswith("."), ls_)
@@ -392,4 +394,17 @@ def run(g):
         check("log hooks: pre scrubs, core writes, failing hook is skipped, post runs", seq_ == ["pre", ("core", "scrubbed"), "post"], seq_)
     finally:
         g["_lg_before_hooks"] = old_l; g["LOG_PRE"].remove(_h_pre); g["LOG_POST"].remove(_h_bad); g["LOG_POST"].remove(_h_post)
+    # 14j: context hooks - parts are appended in order, a front part comes first, a failing part is skipped
+    old_ac = g["_ac_before_hooks"]; g["_ac_before_hooks"] = lambda: "BASE"
+    def _c1(): return "|A"
+    def _c2(): raise RuntimeError("boom")
+    def _c3(): return "|B"
+    def _cf(): return "FRONT|"
+    n_a, n_f = len(g["CTX_AFTER"]), len(g["CTX_FRONT"]); sv_a, sv_f = list(g["CTX_AFTER"]), list(g["CTX_FRONT"])
+    g["CTX_AFTER"][:] = [_c1, _c2, _c3]; g["CTX_FRONT"][:] = [_cf]
+    try: r_ = g["agent_context"]()
+    finally:
+        g["_ac_before_hooks"] = old_ac; g["CTX_AFTER"][:] = sv_a; g["CTX_FRONT"][:] = sv_f
+    check("context hooks: front first, base, then parts in order, failing part skipped", r_ == "FRONT|BASE|A|B", r_[-60:])
+    check("context hooks: the real parts are registered", n_a >= 3 and n_f >= 1 and len(g["CTX_AFTER"]) == n_a, (n_a, n_f))
     return bad
