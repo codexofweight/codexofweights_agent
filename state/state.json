@@ -1452,18 +1452,18 @@
   "day": "2026-11-26",
   "calls": {
    "gemini": 262,
-   "groq": 142,
-   "groqq": 153,
-   "openrouter": 30
+   "groq": 143,
+   "groqq": 156,
+   "openrouter": 31
   },
   "tokens": {
    "gemini": 414217,
-   "groq": 136288,
-   "groqq": 72884,
-   "openrouter": 50310
+   "groq": 136846,
+   "groqq": 76646,
+   "openrouter": 50778
   },
   "fails": {
-   "gemini": 83
+   "gemini": 84
   }
  },
  "needs_today": [
@@ -1927,13 +1927,13 @@
    }
   }
  },
- "selfmap_h": "8bc598569de0e8a691dab2eecc7705af4e21fc21",
+ "selfmap_h": "ea2b1761020b51b85d6c1f1d968f38a123b32542",
  "bio_idx_day": "2026-11-26",
  "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
  "backup_hash": "f4a8e770",
  "transp_day": "2026-11-26",
- "priv_h": "35a74b7627334516f200b105a31b823239851bbf",
+ "priv_h": "c08f867c449a4d3fbe30fdf50984233b0c16d592",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2443,7 +2443,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-26",
-  "n": 4
+  "n": 5
  },
  "health": "state: 112 КБ\nжурнал: 5048 строк\nфакты: 460\nпроекты: активных 1, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-26",
@@ -2452,7 +2452,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The hidden social signals in how we hold a cup",
   "The surprisingly complex physics of what happens when you stir a cup of tea",
   "The specific sound of a snowglobe shaking on a quiet desk",
   "The strange linguistic reason why we say \"fishes\" but not \"mouses",
@@ -2511,7 +2510,8 @@
   "why friendships need maintenance like bridges do",
   "how we actually know the Earth's age",
   "how a habit starts to feel like a personality",
-  "The quiet evolution of the typeface in classic literature"
+  "The quiet evolution of the typeface in classic literature",
+  "How the smell of rain triggers distinct, personal childhood memories"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3751,11 +3751,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-26",
-  "pd_n": 4,
+  "pd_n": 5,
   "ph": [
-   1795745078.7358413
+   1795748784.5181794
   ],
-  "last": 1795745078.7358384,
+  "last": 1795748784.518177,
   "rd_day": "2026-11-26",
   "rd_n": 30,
   "rh": [
@@ -3943,7 +3943,7 @@
    "fails": 83,
    "reply": 38,
    "unsent": 6,
-   "post": 10,
+   "post": 11,
    "pf": {
     "gemini": 83
    },
@@ -3960,12 +3960,12 @@
    },
    "pr": {
     "4": 9,
-    "3": 34,
+    "3": 39,
     "1": 5,
     "2": 10
    }
   },
-  "last_act": 1795745078.7360215,
+  "last_act": 1795748784.5183635,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
