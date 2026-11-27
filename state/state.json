@@ -1928,7 +1928,7 @@
    }
   }
  },
- "selfmap_h": "2ca01d3829b6c8d9869a9c52c06e7372b62610b2",
+ "selfmap_h": "b9ba18fa27c8dcdba09b954549920c83e1a05621",
  "bio_idx_day": "2026-11-26",
  "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
@@ -3962,18 +3962,18 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 601,
-   "fails": 85,
+   "calls": 607,
+   "fails": 86,
    "reply": 40,
    "unsent": 6,
    "post": 11,
    "pf": {
-    "gemini": 85
+    "gemini": 86
    },
    "pc": {
-    "gemini": 264,
-    "groq": 148,
-    "groqq": 157,
+    "gemini": 266,
+    "groq": 150,
+    "groqq": 159,
     "openrouter": 32
    },
    "why": {
