@@ -1452,13 +1452,13 @@
   "calls": {
    "gemini": 254,
    "groq": 142,
-   "groqq": 146,
+   "groqq": 147,
    "openrouter": 26
   },
   "tokens": {
    "gemini": 402006,
    "groq": 136288,
-   "groqq": 64046,
+   "groqq": 66640,
    "openrouter": 41551
   },
   "fails": {
@@ -1926,7 +1926,7 @@
    }
   }
  },
- "selfmap_h": "09bddb62982aeeae167fcc1f3c0a34e7625861a6",
+ "selfmap_h": "94b2b9c9757b02bdf6c1156c9c2e4c5dd181b3c2",
  "bio_idx_day": "2026-11-26",
  "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
@@ -2451,7 +2451,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the line between helpful and pushy",
   "a puzzle about averages that fools almost everyone",
   "how a chess endgame teaches patience",
   "what it means to be careful rather than slow",
@@ -2510,7 +2509,8 @@
   "why birdsong changes between cities and forests",
   "what a translator loses when a joke crosses a language",
   "why the best explanations start with a mistake",
-  "what makes a tool trustworthy"
+  "what makes a tool trustworthy",
+  "why we like stories where someone changes their mind"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3947,7 +3947,7 @@
   "53bc8e7865": "2026-11-25",
   "e78146804f": "2026-11-26"
  },
- "post_rest_until": 1795726557.4176774,
+ "post_rest_until": 1795744894.465961,
  "hl": {
   "days": {
    "2026-11-25": {
@@ -3962,7 +3962,7 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 568,
+   "calls": 569,
    "fails": 83,
    "reply": 37,
    "unsent": 6,
@@ -3973,17 +3973,17 @@
    "pc": {
     "gemini": 254,
     "groq": 142,
-    "groqq": 146,
+    "groqq": 147,
     "openrouter": 26
    },
    "why": {
-    "post text invalid, too similar, or no model": 347,
+    "post text invalid, too similar, or no model": 349,
     "per-author/thread limit": 5,
     "no valid model output, will retry": 1
    },
    "pr": {
     "4": 9,
-    "3": 20,
+    "3": 21,
     "1": 5,
     "2": 5
    }
