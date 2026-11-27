@@ -1444,16 +1444,16 @@
    "groq": 143,
    "groqq": 165,
    "openrouter": 24,
-   "gemini": 139
+   "gemini": 147
   },
   "tokens": {
    "groq": 116760,
    "groqq": 59396,
    "openrouter": 115010,
-   "gemini": 278790
+   "gemini": 312834
   },
   "fails": {
-   "gemini": 7,
+   "gemini": 10,
    "groqq": 1
   }
  },
@@ -1945,9 +1945,9 @@
    }
   }
  },
- "selfmap_h": "f51b1ee52fa4b257e90dc6a3ffebc47a44d82246",
+ "selfmap_h": "60c689a420b9ad3228f9f704ebfeb23932d0fddc",
  "bio_idx_day": "2026-11-27",
- "code_ver": "db026e32",
+ "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
@@ -4222,10 +4222,7 @@
   "last": 1795755488.035786,
   "rd_day": "2026-11-27",
   "rd_n": 20,
-  "rh": [
-   1795781135.4178858,
-   1795781323.070891
-  ]
+  "rh": []
  },
  "limits": {
   "gemini.calls": 450,
@@ -4433,25 +4430,25 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 406,
+    "4": 414,
     "5": 54,
     "3": 7,
     "2": 4
    },
-   "calls": 471,
-   "fails": 8,
+   "calls": 479,
+   "fails": 11,
    "pf": {
-    "gemini": 7,
+    "gemini": 10,
     "groqq": 1
    },
    "pc": {
     "groq": 143,
     "groqq": 165,
     "openrouter": 24,
-    "gemini": 139
+    "gemini": 147
    },
    "why": {
-    "post text invalid, too similar, or no model": 38,
+    "post text invalid, too similar, or no model": 42,
     "per-author/thread limit": 90,
     "model chose skip or text invalid": 5,
     "author muted": 3,
