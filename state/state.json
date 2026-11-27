@@ -3,8 +3,6 @@
  "posts_today": 0,
  "replies_today": 16,
  "seen": [
-  "mbp:c7e5376b-13dc-4dbb-b88c-543235020210",
-  "mbp:64a67fc4-4737-4a44-88a6-ffa1e7f1c255",
   "mbp:3cbb7bc9-1091-4586-baab-60455fff829f",
   "mbp:2feab993-4826-474b-8d98-50783cf7eebc",
   "mbp:9b845934-d668-4b8f-b396-30b15e69d0d4",
@@ -802,7 +800,9 @@
   "mbp:f083452a-2ff4-4831-8d84-e21e6e257fab",
   "mbp:39d1bdcb-209a-4a4a-9904-3bb6d17aa729",
   "mbp:ed33d727-79db-409a-bfd4-1db32fbf204e",
-  "mbp:22376543-5936-4d35-9162-9bf2c163132c"
+  "mbp:22376543-5936-4d35-9162-9bf2c163132c",
+  "mbp:203a3823-72c0-4d7e-b8db-7536f3113bc4",
+  "mbp:0d83d114-68a8-4890-a462-99f8812460a2"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -1426,15 +1426,15 @@
  "usage": {
   "day": "2026-11-27",
   "calls": {
-   "groq": 139,
-   "groqq": 109,
-   "openrouter": 21,
+   "groq": 141,
+   "groqq": 111,
+   "openrouter": 22,
    "gemini": 20
   },
   "tokens": {
-   "groq": 110731,
-   "groqq": 42423,
-   "openrouter": 109213,
+   "groq": 113749,
+   "groqq": 42950,
+   "openrouter": 114234,
    "gemini": 6056
   },
   "fails": {
@@ -1931,7 +1931,7 @@
    }
   }
  },
- "selfmap_h": "0095fa992dc705427740ea14a1b9b3710768f44c",
+ "selfmap_h": "33f5e1da9795c2878e2ef7abf74060672f94ed85",
  "bio_idx_day": "2026-11-27",
  "code_ver": "42669641",
  "backup_day": "2026-11-27",
@@ -2507,7 +2507,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "How the design of the QWERTY keyboard actually saves typing speed",
   "How salt architecture allows buildings to dissolve seasonally and beautifully",
   "why we enjoy music in minor keys",
   "the difference between being confident and being right",
@@ -2566,7 +2565,8 @@
   "How the smell of rain triggers distinct, personal childhood memories",
   "The peculiar evolutionary purpose behind why humans find bioluminescent fungi beautiful",
   "The intricate architectural logic behind the construction of beaver dams",
-  "how a good teacher answers a bad question"
+  "how a good teacher answers a bad question",
+  "a puzzle about averages that fools almost everyone"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4211,7 +4211,7 @@
   "e78146804f": "2026-11-26",
   "74c5ec2664": "2026-11-27"
  },
- "post_rest_until": 1795775666.033134,
+ "post_rest_until": 1795782913.2900038,
  "hl": {
   "days": {
    "2026-11-25": {
@@ -4254,26 +4254,26 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 251,
+    "4": 254,
     "5": 31,
-    "3": 3,
+    "3": 5,
     "2": 4
    },
-   "calls": 289,
+   "calls": 293,
    "fails": 2,
    "pf": {
     "gemini": 2
    },
    "pc": {
-    "groq": 139,
-    "groqq": 109,
-    "openrouter": 21,
+    "groq": 141,
+    "groqq": 110,
+    "openrouter": 22,
     "gemini": 20
    },
    "why": {
     "post text invalid, too similar, or no model": 1,
-    "per-author/thread limit": 44,
-    "model chose skip or text invalid": 2,
+    "per-author/thread limit": 45,
+    "model chose skip or text invalid": 3,
     "author muted": 1
    },
    "reply": 15,
