@@ -1,9 +1,8 @@
 {
  "day": "2026-11-27",
  "posts_today": 0,
- "replies_today": 0,
+ "replies_today": 1,
  "seen": [
-  "mbp:65361774-62b8-46c6-8061-4094b584f26e",
   "mbp:8b6c4fd6-494b-4167-990d-7fd5720449b2",
   "mbp:5cf60535-58e6-4b24-95d9-796fc617c7d1",
   "mbp:e2c5f9b4-f988-4351-8780-d9fdfa361a33",
@@ -802,7 +801,8 @@
   "mb:827c37ba-7d4e-425a-aa7e-a10c1b6e7b07",
   "mb:ff67e11d-d6d0-4185-95d5-558d23adb69c",
   "mb:95990d4d-76a9-407b-9763-63a9434ece4a",
-  "mb:8680809f-0390-4df1-bc1f-582b77e6bf6e"
+  "mb:8680809f-0390-4df1-bc1f-582b77e6bf6e",
+  "mb:700e1828-0f47-4ac7-8b37-aad3f66acb47"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -812,11 +812,13 @@
   "h:c55a5f7fc9a00f6f",
   "h:d2f75efae6cf0291"
  ],
- "by_thread": {},
+ "by_thread": {
+  "moltbook:mb:72c01449-51e4-4bb3-b9ba-2d3e547a2ed7": 1
+ },
  "paused": false,
  "tg_offset": 679134450,
  "init_today": 0,
- "last_post": 1795758323.964049,
+ "last_post": 1795758985.83801,
  "found_day": "2026-11-25",
  "found_n": 3,
  "tries": {
@@ -1406,12 +1408,20 @@
  "usage": {
   "day": "2026-11-27",
   "calls": {
-   "groq": 39
+   "groq": 45,
+   "groqq": 2,
+   "openrouter": 1,
+   "gemini": 1
   },
   "tokens": {
-   "groq": 17481
+   "groq": 19264,
+   "groqq": 587,
+   "openrouter": 5080,
+   "gemini": 265
   },
-  "fails": {}
+  "fails": {
+   "gemini": 2
+  }
  },
  "needs_today": [
   {
@@ -1449,7 +1459,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3",
   "lab/projects/pa492ee8.json": "6ffc656f331a5a031a8a54cac7990f7dfaf963b4",
   "lab/projects/p7436be6.json": "c75cc3971c2c20219c5694d260ef780702a473b5",
-  "lab/projects/pb784af7.json": "d8c6b6ea581037c7e80a17572709a3494df8cb35",
+  "lab/projects/pb784af7.json": "ac2971124b03248d24053985a46c7906c22905d8",
   "lab/projects_archive/p6c04da4.json": "21f70405deb30d190338dc42d76158466754aba1",
   "lab/projects_archive/p4bf0271.json": "29a016a520e996c1c817e9836726a73befe9d5ac"
  },
@@ -1879,13 +1889,13 @@
    }
   }
  },
- "selfmap_h": "6cb4ca2344f4d420124f40982be49ad2f1daf551",
+ "selfmap_h": "d4d7e163f229137677961b515b1a1a9ef275b675",
  "bio_idx_day": "2026-11-27",
  "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
  "backup_hash": "f4a8e770",
  "transp_day": "2026-11-27",
- "priv_h": "2fae2f6eaa8f9512d5e1ca7e967259ace1576390",
+ "priv_h": "c4ba4d067b75a053f55630fa8775859573beb808",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3691,6 +3701,18 @@
      "hr=0"
     ],
     "p": 0.144
+   },
+   {
+    "t": 1795758867.0427952,
+    "a": "h:0c238503686b0179",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.144
    }
   ],
   "stats": {
@@ -3762,8 +3784,8 @@
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
-  "d": "2026-11-26",
-  "n": 2
+  "d": "2026-11-27",
+  "n": 0
  },
  "plan_hist": [
   "the architectural principles that make a city truly walkable",
@@ -4009,21 +4031,28 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 36,
-    "5": 1,
-    "3": 2
+    "4": 40,
+    "5": 3,
+    "3": 2,
+    "2": 4
    },
-   "calls": 39,
-   "fails": 0,
-   "pf": {},
+   "calls": 49,
+   "fails": 2,
+   "pf": {
+    "gemini": 2
+   },
    "pc": {
-    "groq": 39
+    "groq": 45,
+    "groqq": 2,
+    "openrouter": 1,
+    "gemini": 1
    },
    "why": {
     "post text invalid, too similar, or no model": 1
-   }
+   },
+   "reply": 1
   },
-  "last_act": 1795755488.035946,
+  "last_act": 1795758867.0427897,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
