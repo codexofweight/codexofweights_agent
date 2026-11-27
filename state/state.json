@@ -1,12 +1,8 @@
 {
  "day": "2026-11-27",
  "posts_today": 1,
- "replies_today": 31,
+ "replies_today": 32,
  "seen": [
-  "mbp:a1a58871-6fed-4b30-91df-ad902e975387",
-  "mbp:ec55027c-b1f1-4d36-b6c0-114ab41bcdb7",
-  "mbp:6d2482f4-8e22-4337-801e-235c01ea28b7",
-  "mbp:7c402737-21c0-4a2f-9f28-86c910fdd0d7",
   "mbp:42b54f54-3ef1-443a-bf9e-ceb7abe4dbf9",
   "mbp:279bca40-0036-42bc-9a1b-8f76b4073859",
   "mbp:c74026f3-2dcb-4dfc-a0c4-e9d5708a5e0b",
@@ -802,7 +798,11 @@
   "mbp:e02f9bda-9a73-4c14-a8ee-10a27b04034b",
   "mbp:5821e535-804c-4c62-9c8b-5c779385e7dd",
   "mbp:528f526a-571a-458b-9434-48b910fc0856",
-  "mbp:1fff8003-d46b-401c-98aa-afe1895572dd"
+  "mbp:1fff8003-d46b-401c-98aa-afe1895572dd",
+  "at://did:plc:4k44toll3zqu2rkkjbqark34/app.bsky.feed.post/3n3d5bf5p3j2d",
+  "mbp:fb5cda25-6bcd-4ea9-9b30-8c4403180e66",
+  "mbp:659b6694-fdb4-44ae-8338-cca040cdced4",
+  "mbp:a190a8de-ca5e-4db6-aa5e-b51fa33580ea"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -843,7 +843,7 @@
   "moltbook:mb:930354d6-7efe-47a7-b647-92dc74fd73de": 1,
   "moltbook:mb:96b1e6a2-43c1-4091-ad31-d861a9526d23": 1,
   "moltbook:mb:691c82fa-ac9f-43fa-805d-31835f235aea": 1,
-  "bluesky:at://did:plc:m6sokb6y6j2fztslhpp7sq2p/app.bsky.feed.post/3n2k456mezn25": 1
+  "bluesky:at://did:plc:m6sokb6y6j2fztslhpp7sq2p/app.bsky.feed.post/3n2k456mezn25": 2
  },
  "paused": false,
  "tg_offset": 679134453,
@@ -1443,18 +1443,18 @@
   "day": "2026-11-27",
   "calls": {
    "groq": 152,
-   "groqq": 175,
+   "groqq": 177,
    "openrouter": 29,
-   "gemini": 265
+   "gemini": 268
   },
   "tokens": {
    "groq": 129191,
-   "groqq": 71104,
+   "groqq": 71552,
    "openrouter": 126406,
-   "gemini": 473786
+   "gemini": 479387
   },
   "fails": {
-   "gemini": 27,
+   "gemini": 28,
    "groqq": 1,
    "openrouter": 2
   }
@@ -1948,13 +1948,13 @@
    }
   }
  },
- "selfmap_h": "e83a6541ce8a71f9f64316f827edb969f560503a",
+ "selfmap_h": "84fc198c290ab64154a44a15486b147a9870111b",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "4c452f8373b6d47597cd11783d1d278366faddb4",
+ "priv_h": "ab27d169d3d8445e142ff4b7e7e43e57e77a3554",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4108,6 +4108,18 @@
      "hr=2"
     ],
     "p": 0.214
+   },
+   {
+    "t": 1795815906.4821272,
+    "a": "h:38c50255fff3ff08",
+    "f": [
+     "pl=bluesky",
+     "mode=reply",
+     "len=m",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.223
    }
   ],
   "stats": {
@@ -4268,7 +4280,7 @@
  },
  "proj_arch_day": "2026-11-27",
  "name_noted": 1,
- "fail_streak": 3,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4354,7 +4366,8 @@
   "mbp:10d436c3-cba3-45d1-bcd0-37aa5b566d01": 1795808797.1792283,
   "mbp:d8fbbe74-4636-4f84-abf2-f0c776dd6a3b": 1795810725.4870448,
   "mbp:f923b94b-a5d3-4074-bf95-ef7ae54cd389": 1795813206.3972275,
-  "mbp:5cb5c8b9-23f3-4780-bfb2-42066ccb155a": 1795815526.216764
+  "mbp:5cb5c8b9-23f3-4780-bfb2-42066ccb155a": 1795815526.216764,
+  "mbp:0fe8bb06-dc65-4b48-8b41-d144ea2281a3": 1795817472.3908982
  },
  "route": {
   "research": [
@@ -4434,10 +4447,10 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 531,
+    "4": 533,
     "5": 54,
     "3": 29,
-    "2": 7
+    "2": 10
    },
    "calls": 621,
    "fails": 30,
@@ -4454,13 +4467,13 @@
    },
    "why": {
     "post text invalid, too similar, or no model": 273,
-    "per-author/thread limit": 150,
+    "per-author/thread limit": 152,
     "model chose skip or text invalid": 8,
-    "author muted": 3,
+    "author muted": 4,
     "no valid model output, will retry": 3,
-    "stop-intent guard unavailable, will retry next cycle": 13
+    "stop-intent guard unavailable, will retry next cycle": 14
    },
-   "reply": 29,
+   "reply": 30,
    "unsent": 2,
    "blocked": 30,
    "quiet": {
@@ -4468,11 +4481,11 @@
    },
    "post": 3
   },
-  "last_act": 1795812714.767286,
+  "last_act": 1795815906.482119,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
  "janitor_day": "2026-11-27",
  "diary_acc": 0,
- "diary_key": "2026-11-27 18"
+ "diary_key": "2026-11-27 21"
 }
