@@ -1951,7 +1951,7 @@
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "5850dd860b3aaf7a38af367559c3bf598d2676f5",
+ "priv_h": "0efa225cee45fc6e0eb18ef22863a06ae414dd3d",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4450,7 +4450,7 @@
     "gemini": 161
    },
    "why": {
-    "post text invalid, too similar, or no model": 90,
+    "post text invalid, too similar, or no model": 94,
     "per-author/thread limit": 99,
     "model chose skip or text invalid": 6,
     "author muted": 3,
