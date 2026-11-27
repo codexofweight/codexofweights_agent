@@ -3,11 +3,6 @@
  "posts_today": 1,
  "replies_today": 32,
  "seen": [
-  "mbp:c74026f3-2dcb-4dfc-a0c4-e9d5708a5e0b",
-  "mbp:acc7b96d-7432-4787-966b-f577c3316c25",
-  "mbp:81339fea-cd4d-426a-92c8-6bab969d7d53",
-  "mbp:b081874b-872d-4fe3-97b4-e7aeeb3dd5b7",
-  "mbp:fb76064c-584b-4aac-8752-c1e50220f381",
   "mbp:0d45f7e7-a7ac-4b1a-b308-059b4e5689dd",
   "mbp:f6322e47-2711-4798-93ed-108464d75c9c",
   "mbp:90ec1589-3002-4fc2-8284-b3644e36a281",
@@ -802,7 +797,12 @@
   "mbp:659b6694-fdb4-44ae-8338-cca040cdced4",
   "mbp:a190a8de-ca5e-4db6-aa5e-b51fa33580ea",
   "mbp:3935e07a-45e9-4bb6-a4d4-20b8fab272c4",
-  "mbp:4e553b74-8f6b-4625-93ed-24209592d027"
+  "mbp:4e553b74-8f6b-4625-93ed-24209592d027",
+  "mb:d4e0427a-1320-498e-ada5-2db113ea48a5",
+  "mb:270aaa55-3291-49a2-888b-56c5cab3cd50",
+  "mb:b999fd02-6062-4442-b030-257dd9b50e41",
+  "mb:d2b52695-8531-44d5-9b5e-caa8caac69c7",
+  "mb:1a08739a-7bea-44ad-ab62-ef1d07f17ffa"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -1442,14 +1442,14 @@
  "usage": {
   "day": "2026-11-27",
   "calls": {
-   "groq": 152,
-   "groqq": 178,
+   "groq": 153,
+   "groqq": 179,
    "openrouter": 29,
    "gemini": 273
   },
   "tokens": {
-   "groq": 129191,
-   "groqq": 71761,
+   "groq": 129645,
+   "groqq": 72087,
    "openrouter": 126406,
    "gemini": 483817
   },
@@ -1948,13 +1948,13 @@
    }
   }
  },
- "selfmap_h": "cc8a090d432821149af71815ac7877ce59ce9368",
+ "selfmap_h": "b501b5c3654ed2536d9090184b26d49fac4f3764",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "2f3e131a3b184f09d8f300e9df56ddb0e3b7d212",
+ "priv_h": "b75862193c44b0659bf32ec1d9fd27723e334f7e",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3726,18 +3726,6 @@
     "p": 0.144
    },
    {
-    "t": 1795755724.6167455,
-    "a": "h:9a8eba79e0dfa944",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.144
-   },
-   {
     "t": 1795758867.0427952,
     "a": "h:0c238503686b0179",
     "f": [
@@ -4124,16 +4112,16 @@
   ],
   "stats": {
    "pl=moltbook": [
-    24,
-    229
+    25,
+    230
    ],
    "mode=reply": [
-    18,
-    54
+    19,
+    55
    ],
    "len=l": [
-    22,
-    224
+    23,
+    225
    ],
    "q=1": [
     4,
@@ -4144,8 +4132,8 @@
     94
    ],
    "q=0": [
-    21,
-    192
+    22,
+    193
    ],
    "hr=3": [
     7,
@@ -4156,8 +4144,8 @@
     178
    ],
    "hr=0": [
-    4,
-    47
+    5,
+    48
    ],
    "len=m": [
     3,
@@ -4181,13 +4169,13 @@
    ]
   },
   "glob": [
-   25,
-   232
+   26,
+   233
   ],
-  "n": 232,
+  "n": 233,
   "hit": 207,
-  "br": 29.03037700000001,
-  "br0": 22.866273583537115
+  "br": 29.763113000000008,
+  "br0": 23.657237820748524
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
@@ -4371,7 +4359,8 @@
   "mbp:5cb5c8b9-23f3-4780-bfb2-42066ccb155a": 1795815526.216764,
   "mbp:0fe8bb06-dc65-4b48-8b41-d144ea2281a3": 1795817472.3908982,
   "mbp:f75306a9-de79-4c1f-b7bb-4443a75e0098": 1795819427.7480736,
-  "mbp:b1040c36-c761-47d7-b756-264d465824d7": 1795821300.6055293
+  "mbp:b1040c36-c761-47d7-b756-264d465824d7": 1795821300.6055293,
+  "mbp:4f387e66-8535-42d8-929e-b088a3142d6c": 1795823149.7881255
  },
  "route": {
   "research": [
@@ -4454,9 +4443,9 @@
     "4": 535,
     "5": 54,
     "3": 33,
-    "2": 10
+    "2": 12
    },
-   "calls": 632,
+   "calls": 634,
    "fails": 31,
    "pf": {
     "gemini": 28,
@@ -4464,18 +4453,18 @@
     "openrouter": 2
    },
    "pc": {
-    "groq": 152,
-    "groqq": 178,
+    "groq": 153,
+    "groqq": 179,
     "openrouter": 29,
     "gemini": 273
    },
    "why": {
     "post text invalid, too similar, or no model": 273,
-    "per-author/thread limit": 154,
+    "per-author/thread limit": 156,
     "model chose skip or text invalid": 8,
     "author muted": 4,
     "no valid model output, will retry": 3,
-    "stop-intent guard unavailable, will retry next cycle": 16
+    "stop-intent guard unavailable, will retry next cycle": 17
    },
    "reply": 30,
    "unsent": 2,
