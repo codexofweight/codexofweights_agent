@@ -259,7 +259,7 @@ def run(g):
     w_(); w_()
     check("a failed post rests two hours without calling models again", len(calls_) == 1 and g["ST"]["post_rest_until"] > time.time() + 7000, calls_); g["ST"].pop("post_rest_until", None)
     # 14d. health pulse and quiet telegram (2026-11-25)
-    old_hl = g["ST"].get("hl"); sent_h = []; old_tgb = g["_tg_before_hl"]; g["_tg_before_hl"] = lambda t_, *a_, **k_: sent_h.append(t_)
+    old_foc = g["ST"].pop("focus_on", None); old_hl = g["ST"].get("hl"); sent_h = []; old_tgb = g["_tg_before_hl"]; g["_tg_before_hl"] = lambda t_, *a_, **k_: sent_h.append(t_)
     try:
         g["ST"]["hl"] = {"days": {}, "cur": {"day": g["today"]}, "last_act": time.time(), "alert_day": ""}
         g["tg"]("Пауза ответов и комментариев на час: 6 подряд сбоев"); g["tg"]("Режим экономии: лимиты"); g["tg"]("Важное: ждёт решения")
@@ -279,7 +279,7 @@ def run(g):
             hour = 9
         g["now"] = lambda: _N(); g["daily_digest"](); g["now"] = old_now
         check("one morning message with the state", len(sent_h) == 1 and sent_h[0].startswith("Состояние:"), sent_h)
-    finally: g["_tg_before_hl"] = old_tgb; g["now"] = old_now if "old_now" in dir() else g["now"]; g["ST"]["hl"] = old_hl if old_hl is not None else {"days": {}, "cur": {"day": g["today"]}}
+    finally: g["ST"]["focus_on"] = old_foc; g["_tg_before_hl"] = old_tgb; g["now"] = old_now if "old_now" in dir() else g["now"]; g["ST"]["hl"] = old_hl if old_hl is not None else {"days": {}, "cur": {"day": g["today"]}}
     # 14e. hooks, janitor, load order (2026-11-26)
     ran_ = []; f1_ = lambda: ran_.append(1); f2_ = lambda: 1 / 0; f3_ = lambda: ran_.append(3)
     n0_ = len(g["TICK_HOOKS"]); old_b = g["_pt_before_hooks"]; g["_pt_before_hooks"] = lambda: None
