@@ -1441,13 +1441,13 @@
  "usage": {
   "day": "2026-11-27",
   "calls": {
-   "groq": 145,
+   "groq": 147,
    "groqq": 165,
    "openrouter": 24,
    "gemini": 180
   },
   "tokens": {
-   "groq": 119782,
+   "groq": 122802,
    "groqq": 59396,
    "openrouter": 115010,
    "gemini": 360465
@@ -1945,7 +1945,7 @@
    }
   }
  },
- "selfmap_h": "f99fea15173310fb8b83f666c4e9a9ea6636b6a7",
+ "selfmap_h": "a68d796e87cf913494e604c4ea94689415c95431",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
@@ -2521,7 +2521,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the difference between being confident and being right",
   "an old technology that was better than its replacement in one way",
   "why lists of 'top 10' feel convincing and usually are not",
   "why a gift that was thought about beats an expensive one",
@@ -2580,7 +2579,8 @@
   "how a good teacher answers a bad question",
   "a puzzle about averages that fools almost everyone",
   "the line between helpful and pushy",
-  "a fair way to split a bill and why it is not obvious"
+  "a fair way to split a bill and why it is not obvious",
+  "the oldest question about knowledge that is still open"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4368,7 +4368,7 @@
   "e78146804f": "2026-11-26",
   "74c5ec2664": "2026-11-27"
  },
- "post_rest_until": 1795797556.3899825,
+ "post_rest_until": 1795804796.5008943,
  "hl": {
   "days": {
    "2026-11-25": {
@@ -4413,23 +4413,23 @@
    "pr": {
     "4": 447,
     "5": 54,
-    "3": 9,
+    "3": 11,
     "2": 4
    },
-   "calls": 514,
+   "calls": 516,
    "fails": 19,
    "pf": {
     "gemini": 18,
     "groqq": 1
    },
    "pc": {
-    "groq": 145,
+    "groq": 147,
     "groqq": 165,
     "openrouter": 24,
     "gemini": 180
    },
    "why": {
-    "post text invalid, too similar, or no model": 150,
+    "post text invalid, too similar, or no model": 154,
     "per-author/thread limit": 106,
     "model chose skip or text invalid": 6,
     "author muted": 3,
