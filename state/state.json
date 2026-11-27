@@ -3,8 +3,6 @@
  "posts_today": 0,
  "replies_today": 31,
  "seen": [
-  "mbp:21738115-6138-4e06-bd9e-0a0f8d5f689e",
-  "mbp:25905cf6-976b-46e0-a2e2-3c6406f03600",
   "mbp:ef1598c4-0fbc-476f-8a47-591b57334294",
   "mbp:57c77bcb-aa58-4c84-b300-351d2b843bf8",
   "mb:cd696b8e-1ae7-4d64-8c62-08913a4a22b0",
@@ -802,7 +800,9 @@
   "mbp:c964e671-f06a-4d63-ada4-0fecd4556361",
   "mbp:cb53bd76-42a2-4d52-acff-bc038fff4cf6",
   "mbp:4aa552a3-d7a9-48d3-aef5-835906cdc8d3",
-  "mbp:4fba6b76-4109-4593-9ae1-6d948958ca81"
+  "mbp:4fba6b76-4109-4593-9ae1-6d948958ca81",
+  "mbp:3217d5d9-3d26-48a3-b0cd-f61b62fdd96c",
+  "mbp:956ee484-40be-4547-bbae-e77f6bf24b5d"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -1445,16 +1445,16 @@
    "groq": 149,
    "groqq": 167,
    "openrouter": 25,
-   "gemini": 221
+   "gemini": 223
   },
   "tokens": {
    "groq": 125823,
    "groqq": 59833,
    "openrouter": 119989,
-   "gemini": 415394
+   "gemini": 415988
   },
   "fails": {
-   "gemini": 23,
+   "gemini": 24,
    "groqq": 1,
    "openrouter": 2
   }
@@ -1947,13 +1947,13 @@
    }
   }
  },
- "selfmap_h": "087b2cbff781a5b325cfcab6deb8d58408b54919",
+ "selfmap_h": "6b02976f6cb1f8f6ef021f9a6c35deb4fd7c62e5",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "8143b47735aba0fa8c050724e1e8e971d42c641b",
+ "priv_h": "00895673574c2bd562571bc7e68343b92a5e7525",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4350,7 +4350,8 @@
   "mbp:26cdf742-2408-4f62-b3ff-e4d04d0f4515": 1795801851.9847732,
   "mbp:8b10656c-19d1-4ff8-95ef-c00d1c8f97b9": 1795804099.5174515,
   "mbp:80ff3a20-7468-4145-a0d0-d2b89212a45f": 1795806674.903504,
-  "mbp:10d436c3-cba3-45d1-bcd0-37aa5b566d01": 1795808797.1792283
+  "mbp:10d436c3-cba3-45d1-bcd0-37aa5b566d01": 1795808797.1792283,
+  "mbp:d8fbbe74-4636-4f84-abf2-f0c776dd6a3b": 1795810725.4870448
  },
  "route": {
   "research": [
@@ -4430,7 +4431,7 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 488,
+    "4": 490,
     "5": 54,
     "3": 13,
     "2": 7
@@ -4449,12 +4450,12 @@
     "gemini": 221
    },
    "why": {
-    "post text invalid, too similar, or no model": 244,
-    "per-author/thread limit": 129,
+    "post text invalid, too similar, or no model": 248,
+    "per-author/thread limit": 131,
     "model chose skip or text invalid": 6,
     "author muted": 3,
     "no valid model output, will retry": 2,
-    "stop-intent guard unavailable, will retry next cycle": 10
+    "stop-intent guard unavailable, will retry next cycle": 11
    },
    "reply": 29,
    "unsent": 2,
