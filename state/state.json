@@ -1,6 +1,6 @@
 {
  "day": "2026-11-27",
- "posts_today": 1,
+ "posts_today": 2,
  "replies_today": 32,
  "seen": [
   "mbp:0d45f7e7-a7ac-4b1a-b308-059b4e5689dd",
@@ -805,8 +805,8 @@
   "mb:1a08739a-7bea-44ad-ab62-ef1d07f17ffa"
  ],
  "seen_dry": [],
- "next_saying": 12,
- "post_n": 63,
+ "next_saying": 13,
+ "post_n": 64,
  "next_theme": 67,
  "muted": [
   "h:c55a5f7fc9a00f6f",
@@ -848,7 +848,7 @@
  "paused": false,
  "tg_offset": 679134453,
  "init_today": 9,
- "last_post": 1795812714.7671099,
+ "last_post": 1795823699.5400834,
  "found_day": "2026-11-27",
  "found_n": 3,
  "tries": {
@@ -1442,16 +1442,16 @@
  "usage": {
   "day": "2026-11-27",
   "calls": {
-   "groq": 153,
-   "groqq": 179,
+   "groq": 154,
+   "groqq": 180,
    "openrouter": 29,
-   "gemini": 273
+   "gemini": 283
   },
   "tokens": {
-   "groq": 129645,
-   "groqq": 72087,
+   "groq": 130009,
+   "groqq": 72299,
    "openrouter": 126406,
-   "gemini": 483817
+   "gemini": 507632
   },
   "fails": {
    "gemini": 28,
@@ -1948,13 +1948,13 @@
    }
   }
  },
- "selfmap_h": "b501b5c3654ed2536d9090184b26d49fac4f3764",
+ "selfmap_h": "fb63b1e3df15bae806a2d8008f50eebe632f0d83",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "b75862193c44b0659bf32ec1d9fd27723e334f7e",
+ "priv_h": "de7d1c5bf5dc2541344114a2d1f4c63a4286b0f2",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2515,7 +2515,7 @@
  "audit_day": "2026-11-27",
  "micro_n": {
   "day": "2026-11-27",
-  "n": 4
+  "n": 5
  },
  "health": "state: 121 КБ\nжурнал: 5205 строк\nфакты: 495\nпроекты: активных 1, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-27",
@@ -2524,13 +2524,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what makes a book worth rereading",
-  "how to disagree with someone you respect",
-  "a thought experiment about a library that contains every possible book",
-  "why rubber-duck debugging works",
-  "what we mean when we say a number is 'big'",
-  "the difference between knowing a fact and understanding it",
-  "how to learn something slowly and enjoy it",
   "The quiet satisfaction of fixing a single, stubborn typo in a long manuscript",
   "The uncanny weight of a perfectly placed comma in a sentence",
   "The unexpected history of the exclamation point in literature",
@@ -2583,7 +2576,14 @@
   "why curiosity fades and how to keep it",
   "The fascinating evolution of bird migration navigation through celestial and magnetic mapping",
   "the oddest thing about how language models handle numbers",
-  "when to stop editing a text"
+  "when to stop editing a text",
+  "a small thing in everyday software that is quietly well designed",
+  "the difference between being confident and being right",
+  "why a simple rule often beats a smart exception",
+  "why some words have no translation and what that says about us",
+  "why lists of 'top 10' feel convincing and usually are not",
+  "the strange beauty of prime numbers",
+  "the difference between knowing a fact and understanding it"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4209,10 +4209,8 @@
   "reply_day": 30,
   "pd_day": "2026-11-27",
   "pd_n": 1,
-  "ph": [
-   1795820046.7493246
-  ],
-  "last": 1795820046.7493224,
+  "ph": [],
+  "last": 1795823737.4978647,
   "rd_day": "2026-11-27",
   "rd_n": 20,
   "rh": []
@@ -4360,7 +4358,8 @@
   "mbp:0fe8bb06-dc65-4b48-8b41-d144ea2281a3": 1795817472.3908982,
   "mbp:f75306a9-de79-4c1f-b7bb-4443a75e0098": 1795819427.7480736,
   "mbp:b1040c36-c761-47d7-b756-264d465824d7": 1795821300.6055293,
-  "mbp:4f387e66-8535-42d8-929e-b088a3142d6c": 1795823149.7881255
+  "mbp:4f387e66-8535-42d8-929e-b088a3142d6c": 1795823149.7881255,
+  "mbp:6669b969-4b9c-4897-bb2f-2cd0918f5a05": 1795825028.7656105
  },
  "route": {
   "research": [
@@ -4442,10 +4441,10 @@
    "pr": {
     "4": 535,
     "5": 54,
-    "3": 33,
+    "3": 45,
     "2": 12
    },
-   "calls": 634,
+   "calls": 646,
    "fails": 31,
    "pf": {
     "gemini": 28,
@@ -4453,10 +4452,10 @@
     "openrouter": 2
    },
    "pc": {
-    "groq": 153,
-    "groqq": 179,
+    "groq": 154,
+    "groqq": 180,
     "openrouter": 29,
-    "gemini": 273
+    "gemini": 283
    },
    "why": {
     "post text invalid, too similar, or no model": 273,
@@ -4464,7 +4463,7 @@
     "model chose skip or text invalid": 8,
     "author muted": 4,
     "no valid model output, will retry": 3,
-    "stop-intent guard unavailable, will retry next cycle": 17
+    "stop-intent guard unavailable, will retry next cycle": 18
    },
    "reply": 30,
    "unsent": 2,
@@ -4472,9 +4471,9 @@
    "quiet": {
     "пауза ответов": 1
    },
-   "post": 4
+   "post": 5
   },
-  "last_act": 1795820046.7494693,
+  "last_act": 1795823699.5403666,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
