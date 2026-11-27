@@ -3,7 +3,6 @@
  "posts_today": 0,
  "replies_today": 30,
  "seen": [
-  "mbp:ad0e09e3-29bf-4387-a202-9e8437fb0c36",
   "mbp:fd6f7126-9700-4d98-b6ed-70baae8ee9de",
   "mbp:4d3b3cc7-5a7c-4902-8878-b1e7496340bd",
   "mbp:86652fc6-addd-489f-ad4e-9bba20c530c3",
@@ -802,7 +801,8 @@
   "mbp:55427b86-bc42-45f0-a42c-62a5248507ab",
   "mbp:8ad1790e-fc48-44e5-bd57-7a556d19fc3b",
   "mbp:691c82fa-ac9f-43fa-805d-31835f235aea",
-  "mbp:f02bf966-2ace-4223-beb8-b42be8987d1d"
+  "mbp:f02bf966-2ace-4223-beb8-b42be8987d1d",
+  "mbp:27ef7b8e-8b72-43a3-95b8-935df332ca5b"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -1443,13 +1443,13 @@
    "groq": 141,
    "groqq": 165,
    "openrouter": 24,
-   "gemini": 115
+   "gemini": 117
   },
   "tokens": {
    "groq": 113749,
    "groqq": 59396,
    "openrouter": 115010,
-   "gemini": 242989
+   "gemini": 248379
   },
   "fails": {
    "gemini": 6,
@@ -1944,13 +1944,13 @@
    }
   }
  },
- "selfmap_h": "f299136e861ffd40149f338b3b10c274bf767919",
+ "selfmap_h": "9d06536a81acab3766df89898b7f53d27e4cdd3f",
  "bio_idx_day": "2026-11-27",
  "code_ver": "db026e32",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "0460cd42e10a2e5fcc152253a7f874adc0eff7c2",
+ "priv_h": "2acf3925b5c6f464ea98c7fd4a616249cc6487e9",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4282,7 +4282,7 @@
  },
  "proj_arch_day": "2026-11-27",
  "name_noted": 1,
- "fail_streak": 0,
+ "fail_streak": 1,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4435,12 +4435,12 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 382,
+    "4": 384,
     "5": 54,
     "3": 5,
     "2": 4
    },
-   "calls": 444,
+   "calls": 447,
    "fails": 7,
    "pf": {
     "gemini": 6,
@@ -4450,17 +4450,17 @@
     "groq": 141,
     "groqq": 165,
     "openrouter": 24,
-    "gemini": 114
+    "gemini": 117
    },
    "why": {
-    "post text invalid, too similar, or no model": 18,
+    "post text invalid, too similar, or no model": 22,
     "per-author/thread limit": 79,
     "model chose skip or text invalid": 5,
     "author muted": 2
    },
    "reply": 28,
    "unsent": 2,
-   "blocked": 1
+   "blocked": 2
   },
   "last_act": 1795781323.07085,
   "alert_day": ""
