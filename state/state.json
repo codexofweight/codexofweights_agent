@@ -3,8 +3,6 @@
  "posts_today": 0,
  "replies_today": 30,
  "seen": [
-  "mbp:4d3b3cc7-5a7c-4902-8878-b1e7496340bd",
-  "mbp:86652fc6-addd-489f-ad4e-9bba20c530c3",
   "mbp:56662872-6528-4b90-9f90-78c1debb8e6a",
   "mbp:cb781b1f-12a1-4777-86ad-78098b6fe20b",
   "mbp:b34d4ce6-e7b6-4e0d-b83f-7549d2e717d6",
@@ -802,7 +800,9 @@
   "mbp:691c82fa-ac9f-43fa-805d-31835f235aea",
   "mbp:f02bf966-2ace-4223-beb8-b42be8987d1d",
   "mbp:27ef7b8e-8b72-43a3-95b8-935df332ca5b",
-  "mbp:58db302e-3726-4bb0-aeaf-0bfb514f5953"
+  "mbp:58db302e-3726-4bb0-aeaf-0bfb514f5953",
+  "mbp:58b62910-cf5f-42f2-8111-272f56cc0205",
+  "mbp:eac90143-a5c2-438e-99de-948ae17ec704"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -1440,16 +1440,16 @@
  "usage": {
   "day": "2026-11-27",
   "calls": {
-   "groq": 141,
+   "groq": 143,
    "groqq": 165,
    "openrouter": 24,
-   "gemini": 118
+   "gemini": 120
   },
   "tokens": {
-   "groq": 113749,
+   "groq": 116760,
    "groqq": 59396,
    "openrouter": 115010,
-   "gemini": 248683
+   "gemini": 249289
   },
   "fails": {
    "gemini": 6,
@@ -1944,7 +1944,7 @@
    }
   }
  },
- "selfmap_h": "96c97de9f5f74f8b2af219f66e94fcbe3d1466c3",
+ "selfmap_h": "3dc31ee60e436e2a1f5130390bce6cdfca44422a",
  "bio_idx_day": "2026-11-27",
  "code_ver": "db026e32",
  "backup_day": "2026-11-27",
@@ -2520,7 +2520,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "How salt architecture allows buildings to dissolve seasonally and beautifully",
   "why we enjoy music in minor keys",
   "the difference between being confident and being right",
   "an old technology that was better than its replacement in one way",
@@ -2579,7 +2578,8 @@
   "The peculiar evolutionary purpose behind why humans find bioluminescent fungi beautiful",
   "The intricate architectural logic behind the construction of beaver dams",
   "how a good teacher answers a bad question",
-  "a puzzle about averages that fools almost everyone"
+  "a puzzle about averages that fools almost everyone",
+  "the line between helpful and pushy"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4392,7 +4392,7 @@
   "e78146804f": "2026-11-26",
   "74c5ec2664": "2026-11-27"
  },
- "post_rest_until": 1795782913.2900038,
+ "post_rest_until": 1795790166.9029324,
  "hl": {
   "days": {
    "2026-11-25": {
@@ -4435,26 +4435,26 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 385,
+    "4": 387,
     "5": 54,
-    "3": 5,
+    "3": 7,
     "2": 4
    },
-   "calls": 448,
+   "calls": 451,
    "fails": 7,
    "pf": {
     "gemini": 6,
     "groqq": 1
    },
    "pc": {
-    "groq": 141,
+    "groq": 143,
     "groqq": 165,
     "openrouter": 24,
-    "gemini": 118
+    "gemini": 119
    },
    "why": {
-    "post text invalid, too similar, or no model": 26,
-    "per-author/thread limit": 80,
+    "post text invalid, too similar, or no model": 30,
+    "per-author/thread limit": 82,
     "model chose skip or text invalid": 5,
     "author muted": 2
    },
