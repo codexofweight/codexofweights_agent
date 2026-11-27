@@ -3,7 +3,6 @@
  "posts_today": 0,
  "replies_today": 16,
  "seen": [
-  "mbp:60854df2-41b3-4d45-972a-295c9553b9b0",
   "mbp:4c50dbee-ae23-471e-ba4f-1c4a7e9851da",
   "mbp:c7e5376b-13dc-4dbb-b88c-543235020210",
   "mbp:64a67fc4-4737-4a44-88a6-ffa1e7f1c255",
@@ -802,7 +801,8 @@
   "mbp:9813fe29-15fd-47fd-b812-4101053c7d06",
   "mbp:f3110ea9-d56d-4914-a3f2-a92b118acb34",
   "mbp:f083452a-2ff4-4831-8d84-e21e6e257fab",
-  "mbp:39d1bdcb-209a-4a4a-9904-3bb6d17aa729"
+  "mbp:39d1bdcb-209a-4a4a-9904-3bb6d17aa729",
+  "mbp:ed33d727-79db-409a-bfd4-1db32fbf204e"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -1427,13 +1427,13 @@
   "day": "2026-11-27",
   "calls": {
    "groq": 139,
-   "groqq": 107,
+   "groqq": 108,
    "openrouter": 21,
    "gemini": 20
   },
   "tokens": {
    "groq": 110731,
-   "groqq": 41803,
+   "groqq": 42110,
    "openrouter": 109213,
    "gemini": 6056
   },
@@ -1931,7 +1931,7 @@
    }
   }
  },
- "selfmap_h": "807b03ef599a28690729b27a523b653ba6caee46",
+ "selfmap_h": "0679e9d88fdb78bc21156e3d7afd836b6618033f",
  "bio_idx_day": "2026-11-27",
  "code_ver": "42669641",
  "backup_day": "2026-11-27",
@@ -4254,25 +4254,25 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 249,
+    "4": 250,
     "5": 31,
     "3": 3,
     "2": 4
    },
-   "calls": 286,
+   "calls": 288,
    "fails": 2,
    "pf": {
     "gemini": 2
    },
    "pc": {
     "groq": 139,
-    "groqq": 106,
+    "groqq": 108,
     "openrouter": 21,
     "gemini": 20
    },
    "why": {
     "post text invalid, too similar, or no model": 1,
-    "per-author/thread limit": 42,
+    "per-author/thread limit": 43,
     "model chose skip or text invalid": 2,
     "author muted": 1
    },
