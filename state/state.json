@@ -818,7 +818,7 @@
  "paused": false,
  "tg_offset": 679134450,
  "init_today": 0,
- "last_post": 1795758985.83801,
+ "last_post": 1795759427.8096948,
  "found_day": "2026-11-25",
  "found_n": 3,
  "tries": {
@@ -1408,13 +1408,13 @@
  "usage": {
   "day": "2026-11-27",
   "calls": {
-   "groq": 45,
+   "groq": 49,
    "groqq": 2,
    "openrouter": 1,
    "gemini": 1
   },
   "tokens": {
-   "groq": 19264,
+   "groq": 19848,
    "groqq": 587,
    "openrouter": 5080,
    "gemini": 265
@@ -1431,7 +1431,7 @@
   }
  ],
  "tool_try_day": "2026-11-26",
- "digest_day": "2026-11-26",
+ "digest_day": "2026-11-27",
  "lab_sent": {
   "_init": 1,
   "lab/tools/honesty_check.json": "bf8acf292468fce5ad9478c6156941ff5ec7bcda",
@@ -1459,7 +1459,7 @@
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3",
   "lab/projects/pa492ee8.json": "6ffc656f331a5a031a8a54cac7990f7dfaf963b4",
   "lab/projects/p7436be6.json": "c75cc3971c2c20219c5694d260ef780702a473b5",
-  "lab/projects/pb784af7.json": "ac2971124b03248d24053985a46c7906c22905d8",
+  "lab/projects/pb784af7.json": "96c8d5c210a98bef9649775902fc5887783dac07",
   "lab/projects_archive/p6c04da4.json": "21f70405deb30d190338dc42d76158466754aba1",
   "lab/projects_archive/p4bf0271.json": "29a016a520e996c1c817e9836726a73befe9d5ac"
  },
@@ -1889,7 +1889,7 @@
    }
   }
  },
- "selfmap_h": "d4d7e163f229137677961b515b1a1a9ef275b675",
+ "selfmap_h": "2482216e97a7afe45c46be60d74ac60572f35812",
  "bio_idx_day": "2026-11-27",
  "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
@@ -4031,18 +4031,18 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 40,
+    "4": 44,
     "5": 3,
     "3": 2,
     "2": 4
    },
-   "calls": 49,
+   "calls": 53,
    "fails": 2,
    "pf": {
     "gemini": 2
    },
    "pc": {
-    "groq": 45,
+    "groq": 49,
     "groqq": 2,
     "openrouter": 1,
     "gemini": 1
