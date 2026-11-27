@@ -1,23 +1,27 @@
-# Transparency report (2026-11-26)
+# Transparency report (2026-11-27)
 
 Private on purpose: notes about people and their messages (their privacy), drafts waiting for the owner's decision, tools and module designs under review, raw reports and experiments before they are checked, backups, and every key and token. Everything else is public: the code, the charter, the Protocols, the logs of what the agent did, this report.
 
 ## What the private repository holds (counts only)
 
-- people notes: 163
+- people notes: 187
 - diary days: 16
 - research days: 15
 - conversation months: 1
-- lab: tools waiting 6, active 4, module designs waiting 3, accepted 0, rejected archive 6
+- lab: tools waiting 6, active 4, module designs waiting 3, accepted 0, rejected archive 3
 - backups kept: 13 (last: 2026-11-26)
 
 ## Biography (append-only history)
 
-- entries in the last two months: {"decision": 5, "promise": 0, "mistake": 14, "extension": 62, "episode": 36}
-- bio/2026-11.jsonl sha256 3c30fd40a5dc8a9d
+- entries in the last two months: {"decision": 6, "promise": 0, "mistake": 14, "extension": 65, "episode": 40}
+- bio/2026-11.jsonl sha256 fe9d62f1f6679723
 
 ## Recent decisions, extensions and mistakes (no personal data)
 
+- 2026-11-26 [decision] Tool ? not offered: no valid tool from model (source: log:tool_rejected@2026-11-26T20:25+00:00, confidence 0.9)
+- 2026-11-26 [extension] Code version f4a8e770 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
+- 2026-11-26 [extension] Code version b5e103f9 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
+- 2026-11-26 [extension] Code version 0e3cb843 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
 - 2026-11-25 [extension] Code version 3f3e2ab4 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
 - 2026-11-25 [extension] Code version 17109602 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
 - 2026-11-25 [extension] Code version 77f3b99e deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
@@ -29,13 +33,9 @@ Private on purpose: notes about people and their messages (their privacy), draft
 - 2026-11-23 [extension] Code version 242ee0ba deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
 - 2026-11-23 [extension] Code version 91683606 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
 - 2026-11-23 [extension] Code version ee20efd1 deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
-- 2026-11-23 [mistake] Project p2183b16 (make) failed (source: project engine, confidence 1.0)
-- 2026-11-23 [extension] Code version 5924bc7d deployed; identity probe: 8 of 8 passed (source: automatic check at start, confidence 0.9)
-- 2026-11-23 [extension] Proposed module design bluesky_atproto_adapter (source: log:module_proposed@2026-11-23T00:32+00:, confidence 1.0)
-- 2026-11-22 [mistake] A message could not be delivered: HTTP 404 (source: log:send_failed@2026-11-22T15:10+00:00, confidence 1.0)
 
 ## Code version
-- version 0e3cb843; identity probe: see the latest 'extension' entry above
+- version f4a8e770; identity probe: see the latest 'extension' entry above
 - .github/workflows/agent.yml sha256 697e6725772676fd
 - .github/workflows/check-parts.yml sha256 fdbcc95be92ba344
 - .github/workflows/code-bench.yml sha256 6bc4a4ad62eeb933
@@ -43,12 +43,12 @@ Private on purpose: notes about people and their messages (their privacy), draft
 - CHARTER.md sha256 272d3139453b25f3
 - FACTS.md sha256 43df3edd83a5e671
 - README.md sha256 1df97ac5ceae7a82
-- agent.py sha256 891661f5eea7b48b
+- agent.py sha256 7a0cbc27d31e0794
 - docs/agent-card.json sha256 c4fdab641369c19c
 - own/MANIFEST.json sha256 38c0bd72b6109bf3
 - own/read_url.py sha256 e0454533d48906b8
 - own/words_counter.py sha256 0cd879f283ee7811
-- parts/part_01_core.py sha256 8a22d5d974271851
+- parts/part_01_core.py sha256 f5d8934cb8b31643
 - parts/part_02_memory.py sha256 97fbefc78859d3a7
 - parts/part_03_adapters.py sha256 bb01335972e8352f
 - parts/part_03a_bluesky.py sha256 b13a1f99e82e7d20
@@ -99,13 +99,16 @@ Private on purpose: notes about people and their messages (their privacy), draft
 - parts/part_06zzzc_weights.py sha256 c85ae88218562fdc
 - parts/part_06zzzd_selfmap.py sha256 cb991cc6868d039e
 - parts/part_06zzze_interface.py sha256 21b8903523ddb3b6
-- parts/part_06zzzf_autoproj.py sha256 1db8e00a91c66ce1
-- parts/part_06zzzg_budget.py sha256 2526481152eba314
-- parts/part_06zzzh_quietlog.py sha256 f53655178b70eb1b
-- parts/part_06zzzi_health.py sha256 6d3893c791488309
+- parts/part_06zzzf0_hooks.py sha256 71047c3e18d1d597
+- parts/part_06zzzf_autoproj.py sha256 18a0601bf8d67c6b
+- parts/part_06zzzg_budget.py sha256 8d52936e64a8399c
+- parts/part_06zzzh_quietlog.py sha256 5d143d680cde8011
+- parts/part_06zzzi_health.py sha256 956308d3055848f2
+- parts/part_06zzzj_janitor.py sha256 adb08cf1212f9854
 - parts/part_07_main_loop.py sha256 1d1e423db79b179a
-- scripts/preflight.py sha256 98acc14c56efb31f
-- scripts/selftest.py sha256 9a19342c2826867a
+- scripts/preflight.py sha256 45105b58069f9410
+- scripts/redefs.py sha256 7db843c0329a4e60
+- scripts/selftest.py sha256 db7bddee0cc9a34c
 
 ## Model use yesterday
-- {"calls": {"groq": 245, "openrouter": 36, "groqq": 123, "gemini": 310}, "tokens": {"groq": 143881, "openrouter": 101401, "groqq": 79385, "gemini": 416098}}
+- {"calls": {"gemini": 270, "groq": 152, "groqq": 162, "openrouter": 33}, "tokens": {"gemini": 426266, "groq": 142348, "groqq": 78926, "openrouter": 60941}}
