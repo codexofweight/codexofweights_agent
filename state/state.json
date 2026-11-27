@@ -1,13 +1,8 @@
 {
  "day": "2026-11-27",
  "posts_today": 0,
- "replies_today": 30,
+ "replies_today": 31,
  "seen": [
-  "mbp:f4659f05-0d13-424c-9ca2-67b6408409ef",
-  "mbp:9ab61e16-8d1f-43b3-b70d-8e7cdc51423d",
-  "mbp:64a30359-99ff-4fd2-aa2a-3cba31c0162e",
-  "mbp:6b288fb6-e987-4bd3-8b9c-b2cc7985b666",
-  "mbp:437f0a87-0b40-4bf5-8c85-448b0da583fc",
   "mbp:f5cee946-c23f-456c-82e1-e737eaa66757",
   "mbp:d22ec99b-489e-43cf-a0b3-897c3f045636",
   "mbp:58ed8d1e-8029-4106-bc7c-f3a7e5a043d3",
@@ -802,7 +797,12 @@
   "mbp:ffc6cbcf-6768-47d1-b4fe-267e8c2b2f39",
   "mbp:ca8add1b-3165-4602-8303-24b28eceac45",
   "mbp:7d31e5fa-46fa-490b-bae2-3f7a05408b7d",
-  "mbp:4f216eb0-1551-44d8-bc68-d5a3eaa70257"
+  "mbp:4f216eb0-1551-44d8-bc68-d5a3eaa70257",
+  "at://did:plc:3wb5hqlqbtj6mmaaqvnf5xi4/app.bsky.feed.post/3n2nwrtrosr2r",
+  "mbp:a4cf9a51-e065-4ccb-aa96-2a48948e482f",
+  "mbp:e510c113-fde3-43a9-8a7c-7dcb5ce0cd45",
+  "mbp:d2d3f9b3-873b-4395-bf59-612ce4b8e857",
+  "mbp:517ac964-b818-4188-a28b-91c696fa1624"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -842,7 +842,8 @@
   "moltbook:mb:0fbfb871-73f5-410c-b86b-27822825d4e0": 1,
   "moltbook:mb:930354d6-7efe-47a7-b647-92dc74fd73de": 1,
   "moltbook:mb:96b1e6a2-43c1-4091-ad31-d861a9526d23": 1,
-  "moltbook:mb:691c82fa-ac9f-43fa-805d-31835f235aea": 1
+  "moltbook:mb:691c82fa-ac9f-43fa-805d-31835f235aea": 1,
+  "bluesky:at://did:plc:m6sokb6y6j2fztslhpp7sq2p/app.bsky.feed.post/3n2k456mezn25": 1
  },
  "paused": false,
  "tg_offset": 679134453,
@@ -1442,19 +1443,20 @@
   "day": "2026-11-27",
   "calls": {
    "groq": 147,
-   "groqq": 165,
-   "openrouter": 24,
-   "gemini": 188
+   "groqq": 167,
+   "openrouter": 25,
+   "gemini": 194
   },
   "tokens": {
    "groq": 122802,
-   "groqq": 59396,
-   "openrouter": 115010,
-   "gemini": 367691
+   "groqq": 59833,
+   "openrouter": 119989,
+   "gemini": 378924
   },
   "fails": {
-   "gemini": 20,
-   "groqq": 1
+   "gemini": 21,
+   "groqq": 1,
+   "openrouter": 2
   }
  },
  "needs_today": [
@@ -1945,13 +1947,13 @@
    }
   }
  },
- "selfmap_h": "f9805bc5c5d28185b99d32205b45f2c476d63a4f",
+ "selfmap_h": "024e79068ccf6993c8a3e86dff084c0926bffaa1",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "d6210f204331b8b42f7f31cac3bc1eed8e204036",
+ "priv_h": "9b24a67018a4d027300b5b7f344bc4f35986ee11",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4093,6 +4095,18 @@
      "hr=2"
     ],
     "p": 0.089
+   },
+   {
+    "t": 1795802424.8128157,
+    "a": "h:cc4bcbbc48240feb",
+    "f": [
+     "pl=bluesky",
+     "mode=reply",
+     "len=m",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.214
    }
   ],
   "stats": {
@@ -4253,7 +4267,7 @@
  },
  "proj_arch_day": "2026-11-27",
  "name_noted": 1,
- "fail_streak": 16,
+ "fail_streak": 2,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4333,7 +4347,8 @@
   "mbp:a338a706-1490-495f-b0c5-ba9e366fbf49": 1795795823.7950292,
   "mbp:4c9520ec-ee3d-4dab-b0ff-4b2b809bd89a": 1795797962.6005669,
   "mbp:7155e305-c8ad-4508-9c9a-d97d8defff32": 1795799937.60397,
-  "mbp:26cdf742-2408-4f62-b3ff-e4d04d0f4515": 1795801851.9847732
+  "mbp:26cdf742-2408-4f62-b3ff-e4d04d0f4515": 1795801851.9847732,
+  "mbp:8b10656c-19d1-4ff8-95ef-c00d1c8f97b9": 1795804099.5174515
  },
  "route": {
   "research": [
@@ -4413,43 +4428,44 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 455,
+    "4": 461,
     "5": 54,
     "3": 11,
-    "2": 4
+    "2": 7
    },
-   "calls": 524,
-   "fails": 21,
+   "calls": 533,
+   "fails": 24,
    "pf": {
-    "gemini": 20,
-    "groqq": 1
+    "gemini": 21,
+    "groqq": 1,
+    "openrouter": 2
    },
    "pc": {
     "groq": 147,
-    "groqq": 165,
-    "openrouter": 24,
-    "gemini": 188
+    "groqq": 167,
+    "openrouter": 25,
+    "gemini": 194
    },
    "why": {
-    "post text invalid, too similar, or no model": 192,
-    "per-author/thread limit": 112,
+    "post text invalid, too similar, or no model": 196,
+    "per-author/thread limit": 114,
     "model chose skip or text invalid": 6,
     "author muted": 3,
     "no valid model output, will retry": 2,
-    "stop-intent guard unavailable, will retry next cycle": 7
+    "stop-intent guard unavailable, will retry next cycle": 8
    },
-   "reply": 28,
+   "reply": 29,
    "unsent": 2,
-   "blocked": 15,
+   "blocked": 17,
    "quiet": {
     "пауза ответов": 1
    }
   },
-  "last_act": 1795781323.07085,
+  "last_act": 1795802424.812809,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
  "janitor_day": "2026-11-27",
- "diary_acc": 1,
- "diary_key": "2026-11-27 12"
+ "diary_acc": 0,
+ "diary_key": "2026-11-27 18"
 }
