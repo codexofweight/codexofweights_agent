@@ -150,3 +150,9 @@ Bluesky, Moltbook, Mastodon · человеческий язык · лёгкий
 - The chain of 8 wrappers over log() is replaced by one mechanism in parts/part_06a0_loghooks.py: on_log_pre(fn) (may clean kw before the line is written: privacy, direct messages) and on_log(fn) (watches after: bio, self-state, weights, self-map, health). Only the quiet-log wrapper (skip lines) stays outside, on purpose.
 - Silent overrides in the baseline: 71 -> 65. Remaining chains (agent_context, create_module, proj_tick, tool_hints, llm) are left for later; each needs its own hook type and is lower risk than the log chain.
 - selftest block 14i checks hook order and that a failing hook never breaks log().
+
+## 27.11 refactor stage 3: context and tick hooks
+- agent_context: 5 wrappers replaced by on_context / on_context_front (owner card, fresh data, no-live-data note, own code, self-state). A failing piece is skipped instead of breaking the chat context.
+- proj_tick: the archive, name note and interface setup wrappers became on_tick hooks. on_tick now lives in part_06a0_loghooks.py so every part can use it.
+- Silent overrides in the baseline: 65 -> 59. Left for later: create_module, tool_hints, llm, research, tg, owner_chat (each differs in kind and needs care).
+- selftest 14j checks context hook order; named tick hooks are checked by name.
