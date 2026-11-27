@@ -15,6 +15,7 @@ part_03z_registry.py
 part_04_research.py
 part_05_tools_sandbox.py
 part_06_owner_chat.py
+part_06a0_loghooks.py
 
 # extensions, in the order they were added; new parts go at the end of this block
 part_06a_private_lab.py

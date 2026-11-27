@@ -15,9 +15,8 @@ def _hl_roll(w):
     return w["cur"]
 def _hl_add(key, n=1):
     c = _hl_roll(_hl()); c[key] = c.get(key, 0) + n
-_lg_before_hl = log
-def log(kind, **kw):
-    r = _lg_before_hl(kind, **kw)
+@on_log
+def _hl_log(kind, kw):
     try:
         if kind in ("post", "reply"): _hl_add(kind); _hl()["last_act"] = time.time()
         elif kind in ("blocked_by_verifier", "send_failed", "reply_unverified"): _hl_add("blocked" if kind == "blocked_by_verifier" else "unsent")
@@ -25,7 +24,6 @@ def log(kind, **kw):
             wy = _hl_roll(_hl()).setdefault("why", {}); k_ = str(kw.get("why", "?"))[:60]
             if k_ in wy or len(wy) < 12: wy[k_] = wy.get(k_, 0) + 1
     except Exception: pass
-    return r
 _tg_before_hl = tg
 def tg(text, *a, **k):
     try:

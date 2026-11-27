@@ -27,9 +27,8 @@ def _sm_trip_brake(why):
     if sm_braking(): return
     w["brake_until"] = time.time() + _SM_BRAKE_S; w["recent"] = []
     tg("Пауза ответов и комментариев на час: %d подряд сбоев (%s). Посты и чат с тобой работают, сообщения не потеряются." % (_SM_BRAKE_N, why))
-_lg_before_sm = log
-def log(kind, **kw):
-    r = _lg_before_sm(kind, **kw)
+@on_log
+def _sm_log(kind, kw):
     try:
         w = _smr()
         if kind == "reply":
@@ -49,7 +48,6 @@ def log(kind, **kw):
             if len(w["recent"]) >= _SM_BRAKE_N and all(x == "g" for x in w["recent"]):
                 _sm_trip_brake("stop-intent guard unavailable")
     except Exception: pass
-    return r
 _rs_before_sm = respond
 def respond(au, handle, their, thread, uid, send, mode="reply"):
     # No model calls while the long brake is on, or while stop-intent guard is known to be down.

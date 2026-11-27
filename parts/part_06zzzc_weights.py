@@ -60,12 +60,10 @@ def wt_weekly():
     return s[:600]
 try: WEEKLY_EXTRA.append(wt_weekly)
 except Exception: pass
-_log_before_wt = log
-def log(kind, **kw):
-    r = _log_before_wt(kind, **kw)
+@on_log
+def _wt_log(kind, kw):
     try:
         if kind == "blocked_by_verifier" and "unavailable" not in str(kw.get("reason", "")): wt_signal("style:reply", -0.3, "internal", "verifier blocked a reply")
         elif kind == "reply": wt_signal("style:reply", 0.05, "internal", "reply passed the verifier")
         elif kind == "post": wt_signal("style:post", 0.05, "internal", "post passed the verifier")
     except Exception: pass
-    return r

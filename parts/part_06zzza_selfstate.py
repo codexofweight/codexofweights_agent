@@ -57,14 +57,12 @@ def _ss_limits():
 def _ss_chain():
     wd = ST.get("wd_alert") or {}; last = max(wd.values()) if wd else 0
     return "cycle chain: autorun %s, agent %s, quiet mode %s; last watchdog alert: %s." % ("ON" if ST.get("autorun", True) else "OFF", "PAUSED" if ST.get("paused") else "running", "on" if (ST.get("quiet_until") or 0) > time.time() else "off", ("%d min ago" % ((time.time() - last) / 60)) if last else "none")
-_lg_before_ss = log
-def log(kind, **kw):
-    r = _lg_before_ss(kind, **kw)
+@on_log
+def _ss_log(kind, kw):
     try:      # a run of failures is a narrowed view, not a broken self: count it so the next attempt can widen instead of repeating
         if kind in ("send_failed", "blocked_by_verifier") or (kind == "skip" and "no valid model output" in str(kw.get("why", ""))): ST["fail_streak"] = int(ST.get("fail_streak", 0)) + 1
         elif kind in ("reply", "post"): ST["fail_streak"] = 0
     except Exception: pass
-    return r
 def _ss_widen():
     n = int(ST.get("fail_streak", 0) or 0)
     return ("WIDEN: the last %d attempts failed in a row. Do not repeat the same approach: re-read the Charter and this block, answer shorter and simpler, or say you do not know." % n) if n >= 2 else ""

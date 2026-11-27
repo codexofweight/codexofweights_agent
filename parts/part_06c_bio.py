@@ -18,14 +18,12 @@ BIO_MAP = {"send_failed": ("mistake", lambda k: "A message could not be delivere
            "module_rejected": ("decision", lambda k: "Module idea dropped: %s" % str(k.get("why") or "")[:120], "log", 0.9),
            "reach": ("episode", lambda k: "First contact (%s) with %s, approved by %s" % (k.get("channel"), k.get("to"), (k.get("trace") or {}).get("approved_by", "?")), "log", 1.0),
            "mute": ("episode", lambda k: "Stopped contact with %s: asked to stop" % k.get("author"), "log", 1.0)}
-_log_plain = log
-def log(kind, **kw):
-    r = _log_plain(kind, **kw)
+@on_log
+def _bio_log(kind, kw):
     try:
         if kind in BIO_MAP:
             bk, fn, src, cf = BIO_MAP[kind]; bio_add(bk, fn(kw), "%s:%s@%s" % (src, kind, now().isoformat(timespec="minutes")), cf)
     except Exception: pass
-    return r
 def _bio_month(ym):
     t, sha = mem_get("bio/%s.jsonl" % ym); return t, sha
 def bio_flush():

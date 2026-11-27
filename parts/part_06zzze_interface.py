@@ -132,8 +132,8 @@ def status_command(c, raw=None):
 MORE_TEXT = MORE_TEXT.replace("/more: этот список", "/menu: кнопки\n/autoproj: ежедневная работа (on|off|now)\n/more: этот список")
 CHAT_SYS += " Also real: /menu (buttons) and /autoproj (daily own work: on, off, now)."
 EXT_CMDS.update({"/menu": menu_command, "/status": status_command})
-_lg_before_dm = log
-def log(kind, **kw):
+@on_log_pre
+def _dm_log(kind, kw):
     """Direct messages on Bluesky and Mastodon are private: the public log keeps no text and only a hash of the person."""
     try:
         if kw.get("channel") == "dm":
@@ -142,4 +142,3 @@ def log(kind, **kw):
             for k in ("text", "their", "dm_text", "question"):
                 if k in kw: kw[k] = "[private message, not logged]"
     except Exception: pass
-    return _lg_before_dm(kind, **kw)
