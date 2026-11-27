@@ -845,7 +845,7 @@
   "moltbook:mb:691c82fa-ac9f-43fa-805d-31835f235aea": 1
  },
  "paused": false,
- "tg_offset": 679134452,
+ "tg_offset": 679134453,
  "init_today": 9,
  "last_post": 1795768258.4734483,
  "found_day": "2026-11-27",
@@ -1951,7 +1951,7 @@
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "39a72d39171f67ba0115d4729796b655cdc09cb3",
+ "priv_h": "bf05a34f3a73ad0a4e2c02a50ebd1e6f8f00a332",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4431,7 +4431,7 @@
     "gemini": 188
    },
    "why": {
-    "post text invalid, too similar, or no model": 184,
+    "post text invalid, too similar, or no model": 188,
     "per-author/thread limit": 112,
     "model chose skip or text invalid": 6,
     "author muted": 3,
