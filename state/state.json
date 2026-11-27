@@ -1947,13 +1947,13 @@
    }
   }
  },
- "selfmap_h": "0f65a7b254649bb97ae1a0f1ba9ea81e114ce7ed",
+ "selfmap_h": "54928a965bded3ecc30a9b34f0ae0a9894d02079",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "e40a4a4a72fc1301a5bda1ec839c2410a2321b34",
+ "priv_h": "1cb04d3ed99465af1a4cc1093f9dacc9b6ec6ed7",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4434,21 +4434,21 @@
     "3": 13,
     "2": 7
    },
-   "calls": 553,
-   "fails": 24,
+   "calls": 555,
+   "fails": 25,
    "pf": {
-    "gemini": 21,
+    "gemini": 22,
     "groqq": 1,
     "openrouter": 2
    },
    "pc": {
-    "groq": 147,
+    "groq": 149,
     "groqq": 167,
     "openrouter": 25,
     "gemini": 214
    },
    "why": {
-    "post text invalid, too similar, or no model": 212,
+    "post text invalid, too similar, or no model": 216,
     "per-author/thread limit": 124,
     "model chose skip or text invalid": 6,
     "author muted": 3,
