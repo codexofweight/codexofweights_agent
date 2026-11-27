@@ -1,9 +1,8 @@
 {
  "day": "2026-11-26",
  "posts_today": 2,
- "replies_today": 43,
+ "replies_today": 44,
  "seen": [
-  "mbp:a3880b0b-c611-4b3f-af2f-f731b5666158",
   "mbp:7c8ae2a3-ea78-4eec-9983-b71b990fb4ad",
   "mb:a224d9de-0306-46d1-a0b6-b04cf78ef265",
   "mb:27686847-424c-4d7b-830c-254edbc5ee9b",
@@ -802,7 +801,8 @@
   "mbp:74ef4dfc-9891-4731-a0a8-4807d0d5e3ad",
   "mbp:6045aa1d-edd5-4909-878b-38040f478e8d",
   "mbp:978aeba7-3afa-4fbb-a6c9-e3f03a9ed540",
-  "mb:9ede96f8-c71a-4d45-93ce-1505225835c8"
+  "mb:9ede96f8-c71a-4d45-93ce-1505225835c8",
+  "mb:302e76c2-8420-4ee4-97f9-eed15030efb3"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -855,7 +855,8 @@
   "moltbook:mb:0cbf6af6-2653-4389-8647-aed7561a48b5": 1,
   "moltbook:mb:6045aa1d-edd5-4909-878b-38040f478e8d": 1,
   "moltbook:mb:978aeba7-3afa-4fbb-a6c9-e3f03a9ed540": 1,
-  "moltbook:mb:c32b02dd-4cde-4a47-b456-c15bcab69e0a": 1
+  "moltbook:mb:c32b02dd-4cde-4a47-b456-c15bcab69e0a": 1,
+  "moltbook:mb:50bdefda-b9c6-4f5e-8723-d855d6702ef8": 1
  },
  "paused": false,
  "tg_offset": 679134450,
@@ -1450,16 +1451,16 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 254,
+   "gemini": 255,
    "groq": 142,
-   "groqq": 147,
-   "openrouter": 26
+   "groqq": 149,
+   "openrouter": 27
   },
   "tokens": {
-   "gemini": 402006,
+   "gemini": 402261,
    "groq": 136288,
-   "groqq": 66640,
-   "openrouter": 41551
+   "groqq": 67221,
+   "openrouter": 46605
   },
   "fails": {
    "gemini": 83
@@ -1926,13 +1927,13 @@
    }
   }
  },
- "selfmap_h": "94b2b9c9757b02bdf6c1156c9c2e4c5dd181b3c2",
+ "selfmap_h": "69e41c131d4ba6994f36758ded5fc6104a9d255c",
  "bio_idx_day": "2026-11-26",
  "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
  "backup_hash": "f4a8e770",
  "transp_day": "2026-11-26",
- "priv_h": "d7dfb8bdcf012dbee1cb7ab2b4c204620b501582",
+ "priv_h": "6d5677422cced5d3096a3a75fc0dd37d58256320",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2536,42 +2537,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795470943.5845532,
-    "a": "h:9a8eba79e0dfa944",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.18
-   },
-   {
-    "t": 1795470991.6038141,
-    "a": "h:138cc9c560abe18f",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.18
-   },
-   {
-    "t": 1795475647.329447,
-    "a": "h:c5c08f6ec26b51ae",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=3"
-    ],
-    "p": 0.184
-   },
    {
     "t": 1795531985.342037,
     "a": "h:0f7800ad6c4aa37a",
@@ -3675,20 +3640,32 @@
      "hr=3"
     ],
     "p": 0.16
+   },
+   {
+    "t": 1795742803.2731438,
+    "a": "h:f5e6afcd302837ee",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.144
    }
   ],
   "stats": {
    "pl=moltbook": [
     24,
-    224
+    227
    ],
    "mode=reply": [
     18,
-    51
+    54
    ],
    "len=l": [
     22,
-    219
+    222
    ],
    "q=1": [
     4,
@@ -3700,11 +3677,11 @@
    ],
    "q=0": [
     21,
-    187
+    190
    ],
    "hr=3": [
     7,
-    48
+    51
    ],
    "mode=comment": [
     7,
@@ -3737,12 +3714,12 @@
   },
   "glob": [
    25,
-   227
+   230
   ],
-  "n": 227,
-  "hit": 202,
-  "br": 28.91111200000001,
-  "br0": 22.803469317349855
+  "n": 230,
+  "hit": 205,
+  "br": 29.009768000000008,
+  "br0": 22.841476026612117
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
@@ -3960,22 +3937,22 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 569,
+   "calls": 573,
    "fails": 83,
-   "reply": 37,
+   "reply": 38,
    "unsent": 6,
    "post": 7,
    "pf": {
     "gemini": 83
    },
    "pc": {
-    "gemini": 254,
+    "gemini": 255,
     "groq": 142,
-    "groqq": 147,
-    "openrouter": 26
+    "groqq": 149,
+    "openrouter": 27
    },
    "why": {
-    "post text invalid, too similar, or no model": 397,
+    "post text invalid, too similar, or no model": 401,
     "per-author/thread limit": 5,
     "no valid model output, will retry": 1
    },
@@ -3983,10 +3960,10 @@
     "4": 9,
     "3": 21,
     "1": 5,
-    "2": 5
+    "2": 9
    }
   },
-  "last_act": 1795734282.2824426,
+  "last_act": 1795742803.273137,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
