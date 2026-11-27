@@ -64,7 +64,6 @@ def owner_chat(text):
     _CUR_Q[0] = text or ""
     try: return _owner_chat_before_nodata(text)
     finally: _CUR_Q[0] = ""
-_agent_context_before_nodata = agent_context
-def agent_context():
-    c = _agent_context_before_nodata()
-    return c if LK[0] or not _NEEDS_LIVE.search(_CUR_Q[0]) else c + "\n\nNO LIVE DATA was found for the owner's question. Say plainly that you could not check it right now. Never state a price, rate, temperature or score from memory."
+@on_context
+def _ctx_nodata():
+    return "" if LK[0] or not _NEEDS_LIVE.search(_CUR_Q[0]) else "\n\nNO LIVE DATA was found for the owner's question. Say plainly that you could not check it right now. Never state a price, rate, temperature or score from memory."

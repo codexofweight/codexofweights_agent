@@ -231,7 +231,7 @@ def own_command(c, raw=None):
         tg("Готово: %s %s." % (a[0], a[1])); return
     tg("Не понял. /own — список; /own off|on|del имя.py; /own ok|no ID — решение по модулю, который я сделал сам (/make)")
 EXT_CMDS["/own"] = own_command
-_agent_context_before_own = agent_context
-def agent_context():
-    c = _agent_context_before_own(); m = own_manifest()["modules"]
-    return c + "\n\nYOUR CODE has two parts: parts/ (made with your owner) and own/ (modules you built yourself and the owner approved): " + ("; ".join("%s - %s" % (x["file"], x.get("title", "")) for x in m) if m else "none yet") + "."
+@on_context
+def _ctx_own():
+    m = own_manifest()["modules"]
+    return "\n\nYOUR CODE has two parts: parts/ (made with your owner) and own/ (modules you built yourself and the owner approved): " + ("; ".join("%s - %s" % (x["file"], x.get("title", "")) for x in m) if m else "none yet") + "."

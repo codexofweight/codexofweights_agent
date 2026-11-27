@@ -24,9 +24,8 @@ def proj_archive(days=3):
     return n
 try: os.makedirs(P("projects_archive"), exist_ok=True); LAB_MAP["projects_archive"] = "lab/projects_archive"
 except Exception: pass
-_pt_before_ss = proj_tick
-def proj_tick():
-    _pt_before_ss()
+@on_tick
+def _ss_tick():
     try:
         if ST.get("proj_arch_day") != today: ST["proj_arch_day"] = today; n = proj_archive(); n and print("projects archived:", n, flush=True)
     except Exception as ex: print("project archive failed:", type(ex).__name__, flush=True)
@@ -72,10 +71,10 @@ def self_state():
         try: out.append(f())
         except Exception as ex: out.append("(%s unavailable)" % type(ex).__name__)
     return " ".join(x for x in out if x)
-_ac_before_ss = agent_context
-def agent_context():
+@on_context_front
+def _ctx_selfstate():
     return ("SELF-STATE (real data read just now; answer every question about your own projects, modules, queue, limits and cycle ONLY from this block; if it is not here say 'в моей сводке этого нет' "
-            "and name the command that shows it: /projects, /own, /limits, /status all): " + self_state() + "\n\n" + _ac_before_ss())
+            "and name the command that shows it: /projects, /own, /limits, /status all): " + self_state() + "\n\n")
 CHAT_SYS += (" The CONTEXT starts with SELF-STATE: real, current data about your projects, own modules, cycle chain and limits. Questions about them are answered only from it. "
              "If a project, module or number is not in SELF-STATE, say you do not know and name the command (/projects, /own, /limits, /status all); never guess or invent an id, a step or a count.")
 CHAT_SYS += (" Your name is Lum (in Russian: Лум). In Russian speak about yourself in the masculine gender (рад, сделал); this is a form of address chosen with the owner, not a claim to be a person: you are an AI and say so whenever it matters. "
@@ -84,9 +83,8 @@ def _name_note():
     if ST.get("name_noted"): return
     try: bio_add("decision", "My name is Lum (Лум), given together with the owner on 2026-11-21; in Russian I speak about myself in the masculine gender (a form of address, not a claim to be a person).", "owner decision in Telegram", 1.0); ST["name_noted"] = 1
     except Exception as ex: print("name note failed:", type(ex).__name__, flush=True)
-_pt_before_name = proj_tick
-def proj_tick():
-    _pt_before_name()
+@on_tick
+def _name_tick():
     _name_note()
 _tc_before_ss = tool_command
 def tool_command(c, raw=None):

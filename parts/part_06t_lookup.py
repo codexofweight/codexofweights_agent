@@ -101,7 +101,6 @@ def owner_chat(text):
     LK[0] = lookup(text)
     try: return _owner_chat_before_lookup(text)
     finally: LK[0] = ""
-_agent_context_before_lookup = agent_context
-def agent_context():
-    c = _agent_context_before_lookup()
-    return c + ("\n\nFRESH DATA from a public API for the owner's question (use it, name the source): " + LK[0] if LK[0] else "")
+@on_context
+def _ctx_lookup():
+    return ("\n\nFRESH DATA from a public API for the owner's question (use it, name the source): " + LK[0] if LK[0] else "")

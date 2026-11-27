@@ -62,9 +62,8 @@ def mn_setup():
     if ST.get("cmds_hash") == h or not (TG_TOKEN and TG_CHAT): return
     try: _mn_api("setMyCommands", {"commands": [{"command": a, "description": b} for a, b in _MN_CMDS]}); ST["cmds_hash"] = h
     except Exception as ex: print("setMyCommands failed:", type(ex).__name__, flush=True)
-_pt_before_mn = proj_tick
-def proj_tick():
-    _pt_before_mn()
+@on_tick
+def _mn_tick():
     mn_setup()
 def _ru_cut(s, n=70):
     s = " ".join(str(s).split())
