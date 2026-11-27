@@ -3,7 +3,6 @@
  "posts_today": 1,
  "replies_today": 31,
  "seen": [
-  "mbp:a2b64699-6f92-4769-a1d4-e7016b956fa1",
   "mbp:f5272b87-0771-464f-88b5-4c3790cd2da0",
   "mbp:96bebb7f-6b12-4264-83c4-6e377f6dabfa",
   "mbp:0da2946f-8cdc-4e86-9342-cef663e33e35",
@@ -802,7 +801,8 @@
   "mbp:1b9e622f-f4e7-4e20-bb7e-7fc76d1b31dd",
   "mbp:24ab5344-0cdd-4e00-b958-8f7e0c99b451",
   "mbp:5e2ddfb6-8927-4c40-a133-6b1a792ff934",
-  "mbp:e1dc801b-4644-4cc2-aa6a-3b8d6db62381"
+  "mbp:e1dc801b-4644-4cc2-aa6a-3b8d6db62381",
+  "bf:at://did:plc:nqpuowjcwt2a3drfnemrtlho/app.bsky.feed.post/3n367d6h22s2t"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -1445,13 +1445,13 @@
    "groq": 152,
    "groqq": 175,
    "openrouter": 29,
-   "gemini": 246
+   "gemini": 248
   },
   "tokens": {
    "groq": 129191,
    "groqq": 71104,
    "openrouter": 126406,
-   "gemini": 446525
+   "gemini": 449535
   },
   "fails": {
    "gemini": 26,
@@ -1740,7 +1740,7 @@
   "https://arxiv.org/abs/2611.34756": 1
  },
  "reach_day": "2026-11-27",
- "reach_n": 2,
+ "reach_n": 3,
  "contacted": [
   "h:ddbec5cba70a1a37",
   "h:403e9f807724a31d",
@@ -1757,7 +1757,8 @@
   "h:051cdd0b3c7551ef",
   "h:498782648f34a8b7",
   "h:31763dd4f9911e2a",
-  "h:dd827d4e329435b0"
+  "h:dd827d4e329435b0",
+  "h:42ea129fb0b0e10a"
  ],
  "usage_hist": {
   "2026-11-13": {
@@ -1947,7 +1948,7 @@
    }
   }
  },
- "selfmap_h": "648095f319800c7776588190a356201e191f9b27",
+ "selfmap_h": "fd94b2cd85a32292f9ba3fedff44868513b718b4",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
@@ -4432,12 +4433,12 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 512,
+    "4": 514,
     "5": 54,
     "3": 29,
     "2": 7
    },
-   "calls": 602,
+   "calls": 604,
    "fails": 29,
    "pf": {
     "gemini": 26,
@@ -4448,7 +4449,7 @@
     "groq": 152,
     "groqq": 175,
     "openrouter": 29,
-    "gemini": 246
+    "gemini": 248
    },
    "why": {
     "post text invalid, too similar, or no model": 273,
