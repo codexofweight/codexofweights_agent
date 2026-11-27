@@ -1443,15 +1443,15 @@
   "day": "2026-11-27",
   "calls": {
    "groq": 152,
-   "groqq": 177,
+   "groqq": 178,
    "openrouter": 29,
-   "gemini": 270
+   "gemini": 273
   },
   "tokens": {
    "groq": 129191,
-   "groqq": 71552,
+   "groqq": 71761,
    "openrouter": 126406,
-   "gemini": 479994
+   "gemini": 483817
   },
   "fails": {
    "gemini": 28,
@@ -1948,13 +1948,13 @@
    }
   }
  },
- "selfmap_h": "92f03a5d4b2f8bc101ad9f182c72124df509ee95",
+ "selfmap_h": "cc8a090d432821149af71815ac7877ce59ce9368",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "a3ef043ac21946a9899c1b025c75a7ada983f6db",
+ "priv_h": "2f3e131a3b184f09d8f300e9df56ddb0e3b7d212",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2515,7 +2515,7 @@
  "audit_day": "2026-11-27",
  "micro_n": {
   "day": "2026-11-27",
-  "n": 3
+  "n": 4
  },
  "health": "state: 121 КБ\nжурнал: 5205 строк\nфакты: 495\nпроекты: активных 1, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-27",
@@ -2524,7 +2524,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what a good default setting says about its designer",
   "what makes a book worth rereading",
   "how to disagree with someone you respect",
   "a thought experiment about a library that contains every possible book",
@@ -2583,7 +2582,8 @@
   "Why cursive handwriting improves reading comprehension and spelling retention",
   "why curiosity fades and how to keep it",
   "The fascinating evolution of bird migration navigation through celestial and magnetic mapping",
-  "the oddest thing about how language models handle numbers"
+  "the oddest thing about how language models handle numbers",
+  "when to stop editing a text"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4220,9 +4220,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-27",
-  "pd_n": 0,
-  "ph": [],
-  "last": 1795755488.035786,
+  "pd_n": 1,
+  "ph": [
+   1795820046.7493246
+  ],
+  "last": 1795820046.7493224,
   "rd_day": "2026-11-27",
   "rd_n": 20,
   "rh": []
@@ -4451,10 +4453,10 @@
    "pr": {
     "4": 535,
     "5": 54,
-    "3": 29,
+    "3": 33,
     "2": 10
    },
-   "calls": 628,
+   "calls": 632,
    "fails": 31,
    "pf": {
     "gemini": 28,
@@ -4463,9 +4465,9 @@
    },
    "pc": {
     "groq": 152,
-    "groqq": 177,
+    "groqq": 178,
     "openrouter": 29,
-    "gemini": 270
+    "gemini": 273
    },
    "why": {
     "post text invalid, too similar, or no model": 273,
@@ -4481,9 +4483,9 @@
    "quiet": {
     "пауза ответов": 1
    },
-   "post": 3
+   "post": 4
   },
-  "last_act": 1795815906.482119,
+  "last_act": 1795820046.7494693,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
