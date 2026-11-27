@@ -1,9 +1,8 @@
 {
  "day": "2026-11-27",
  "posts_today": 0,
- "replies_today": 8,
+ "replies_today": 9,
  "seen": [
-  "mbp:f982737d-c494-4c62-a42f-f3c231c78165",
   "mbp:45563cfd-ab99-4eb1-9463-2350d6d64d54",
   "mbp:58d3f592-55d3-41ca-a66c-0d2a95e946f2",
   "mbp:d3563630-3127-4295-a92f-528e02bb247f",
@@ -802,7 +801,8 @@
   "mbp:3e21ca96-ea10-44cc-a2d8-933b10fd2ce2",
   "mbp:54b4080e-ab80-4e57-972c-7eefc48b90fe",
   "mbp:876f7b13-bc23-473d-95b0-5dd1baaa68f5",
-  "mbp:4213a597-0754-48ca-9f63-0c14b5bef1fb"
+  "mbp:4213a597-0754-48ca-9f63-0c14b5bef1fb",
+  "mbp:84bf1255-5e5e-4e4e-a51c-a6ea4b21fbae"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -820,11 +820,12 @@
   "moltbook:mb:198f6148-22bb-40f8-9a47-8a5034271c56": 1,
   "moltbook:mb:2b46f321-6947-4842-8049-c0f4ed3335bf": 1,
   "moltbook:mb:52fe90d6-c0ff-46bf-b30b-b799736cd30b": 1,
-  "moltbook:mb:54b4080e-ab80-4e57-972c-7eefc48b90fe": 1
+  "moltbook:mb:54b4080e-ab80-4e57-972c-7eefc48b90fe": 1,
+  "moltbook:mb:84bf1255-5e5e-4e4e-a51c-a6ea4b21fbae": 1
  },
  "paused": false,
  "tg_offset": 679134450,
- "init_today": 2,
+ "init_today": 3,
  "last_post": 1795768258.4734483,
  "found_day": "2026-11-27",
  "found_n": 3,
@@ -1419,15 +1420,15 @@
   "day": "2026-11-27",
   "calls": {
    "groq": 139,
-   "groqq": 46,
-   "openrouter": 13,
-   "gemini": 8
+   "groqq": 50,
+   "openrouter": 14,
+   "gemini": 9
   },
   "tokens": {
    "groq": 110731,
-   "groqq": 22972,
-   "openrouter": 66814,
-   "gemini": 2551
+   "groqq": 24029,
+   "openrouter": 72112,
+   "gemini": 2814
   },
   "fails": {
    "gemini": 2
@@ -1923,13 +1924,13 @@
    }
   }
  },
- "selfmap_h": "44805fff4d2819fb4133738838ba7d058b70623e",
+ "selfmap_h": "dcbb82cf0147ff9331a46b709fa3de7e8bfbc045",
  "bio_idx_day": "2026-11-27",
  "code_ver": "42669641",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "f1f0c84d9cb75a926301706cdbc186ee847ba565",
+ "priv_h": "8c79bb9e99b1e205b4e46c32850c13d9fb7c5cbb",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3831,6 +3832,18 @@
      "hr=1"
     ],
     "p": 0.096
+   },
+   {
+    "t": 1795770951.9833443,
+    "a": "h:3e649726b7b1f551",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.096
    }
   ],
   "stats": {
@@ -4150,30 +4163,30 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 182,
-    "5": 17,
+    "4": 186,
+    "5": 19,
     "3": 3,
     "2": 4
    },
-   "calls": 206,
+   "calls": 212,
    "fails": 2,
    "pf": {
     "gemini": 2
    },
    "pc": {
     "groq": 139,
-    "groqq": 46,
-    "openrouter": 13,
-    "gemini": 8
+    "groqq": 50,
+    "openrouter": 14,
+    "gemini": 9
    },
    "why": {
     "post text invalid, too similar, or no model": 1,
     "per-author/thread limit": 7,
     "model chose skip or text invalid": 2
    },
-   "reply": 8
+   "reply": 9
   },
-  "last_act": 1795769957.3416803,
+  "last_act": 1795770951.9833398,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
