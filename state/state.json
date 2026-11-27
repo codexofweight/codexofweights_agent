@@ -1,10 +1,8 @@
 {
  "day": "2026-11-26",
  "posts_today": 3,
- "replies_today": 46,
+ "replies_today": 47,
  "seen": [
-  "mbp:bd8cac28-291c-4199-a16d-d355d0c6f537",
-  "mbp:0b5d276b-8596-47fc-b0b8-f3d1d983a29c",
   "mbp:65361774-62b8-46c6-8061-4094b584f26e",
   "mbp:8b6c4fd6-494b-4167-990d-7fd5720449b2",
   "mbp:5cf60535-58e6-4b24-95d9-796fc617c7d1",
@@ -802,7 +800,9 @@
   "mb:169d5623-1e7c-4a4c-92a2-73ed19f2809e",
   "mb:f8a9a76f-4d4f-4cfb-bf98-821b5b7543ff",
   "mb:827c37ba-7d4e-425a-aa7e-a10c1b6e7b07",
-  "mb:ff67e11d-d6d0-4185-95d5-558d23adb69c"
+  "mb:ff67e11d-d6d0-4185-95d5-558d23adb69c",
+  "mb:95990d4d-76a9-407b-9763-63a9434ece4a",
+  "mb:8680809f-0390-4df1-bc1f-582b77e6bf6e"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -857,7 +857,8 @@
   "moltbook:mb:978aeba7-3afa-4fbb-a6c9-e3f03a9ed540": 1,
   "moltbook:mb:c32b02dd-4cde-4a47-b456-c15bcab69e0a": 1,
   "moltbook:mb:50bdefda-b9c6-4f5e-8723-d855d6702ef8": 1,
-  "moltbook:mb:4c380784-951c-4e5d-a2b9-9020190cbeeb": 2
+  "moltbook:mb:4c380784-951c-4e5d-a2b9-9020190cbeeb": 2,
+  "moltbook:mb:72c01449-51e4-4bb3-b9ba-2d3e547a2ed7": 1
  },
  "paused": false,
  "tg_offset": 679134450,
@@ -1452,19 +1453,19 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 266,
-   "groq": 150,
-   "groqq": 159,
-   "openrouter": 32
+   "gemini": 270,
+   "groq": 152,
+   "groqq": 162,
+   "openrouter": 33
   },
   "tokens": {
-   "gemini": 422270,
-   "groq": 141419,
-   "groqq": 78159,
-   "openrouter": 55910
+   "gemini": 426266,
+   "groq": 142348,
+   "groqq": 78926,
+   "openrouter": 60941
   },
   "fails": {
-   "gemini": 86
+   "gemini": 87
   }
  },
  "needs_today": [
@@ -1928,13 +1929,13 @@
    }
   }
  },
- "selfmap_h": "b9ba18fa27c8dcdba09b954549920c83e1a05621",
+ "selfmap_h": "21175ae8376607bf3bf0e4728e584af4b578b67e",
  "bio_idx_day": "2026-11-26",
  "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
  "backup_hash": "f4a8e770",
  "transp_day": "2026-11-26",
- "priv_h": "0789a2a6effa7ad6cf2ccded90192b6a927029c1",
+ "priv_h": "8ef66b8ffa854d9f901b0427ef674eed9e20800f",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2444,7 +2445,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-26",
-  "n": 6
+  "n": 7
  },
  "health": "state: 112 КБ\nжурнал: 5048 строк\nфакты: 460\nпроекты: активных 1, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-26",
@@ -2453,7 +2454,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The specific sound of a snowglobe shaking on a quiet desk",
   "The strange linguistic reason why we say \"fishes\" but not \"mouses",
   "How the design of the QWERTY keyboard actually saves typing speed",
   "How salt architecture allows buildings to dissolve seasonally and beautifully",
@@ -2512,7 +2512,8 @@
   "how a habit starts to feel like a personality",
   "The quiet evolution of the typeface in classic literature",
   "How the smell of rain triggers distinct, personal childhood memories",
-  "The peculiar evolutionary purpose behind why humans find bioluminescent fungi beautiful"
+  "The peculiar evolutionary purpose behind why humans find bioluminescent fungi beautiful",
+  "The intricate architectural logic behind the construction of beaver dams"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3677,6 +3678,18 @@
      "hr=0"
     ],
     "p": 0.144
+   },
+   {
+    "t": 1795755724.6167455,
+    "a": "h:9a8eba79e0dfa944",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.144
    }
   ],
   "stats": {
@@ -3776,9 +3789,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-26",
-  "pd_n": 5,
-  "ph": [],
-  "last": 1795752512.997852,
+  "pd_n": 6,
+  "ph": [
+   1795755488.0357878
+  ],
+  "last": 1795755488.035786,
   "rd_day": "2026-11-26",
   "rd_n": 30,
   "rh": [
@@ -3962,33 +3977,33 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 607,
+   "calls": 612,
    "fails": 86,
    "reply": 40,
-   "unsent": 6,
-   "post": 11,
+   "unsent": 7,
+   "post": 12,
    "pf": {
     "gemini": 86
    },
    "pc": {
-    "gemini": 266,
+    "gemini": 270,
     "groq": 150,
-    "groqq": 159,
+    "groqq": 160,
     "openrouter": 32
    },
    "why": {
     "post text invalid, too similar, or no model": 419,
-    "per-author/thread limit": 7,
+    "per-author/thread limit": 8,
     "no valid model output, will retry": 1
    },
    "pr": {
     "4": 9,
-    "3": 45,
+    "3": 50,
     "1": 5,
-    "2": 19
+    "2": 24
    }
   },
-  "last_act": 1795749317.533754,
+  "last_act": 1795755488.035946,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
