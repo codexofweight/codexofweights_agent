@@ -1,6 +1,6 @@
 {
  "day": "2026-11-27",
- "posts_today": 0,
+ "posts_today": 1,
  "replies_today": 31,
  "seen": [
   "mbp:a2b64699-6f92-4769-a1d4-e7016b956fa1",
@@ -806,8 +806,8 @@
  ],
  "seen_dry": [],
  "next_saying": 12,
- "post_n": 62,
- "next_theme": 66,
+ "post_n": 63,
+ "next_theme": 67,
  "muted": [
   "h:c55a5f7fc9a00f6f",
   "h:d2f75efae6cf0291"
@@ -848,7 +848,7 @@
  "paused": false,
  "tg_offset": 679134453,
  "init_today": 9,
- "last_post": 1795768258.4734483,
+ "last_post": 1795812714.7671099,
  "found_day": "2026-11-27",
  "found_n": 3,
  "tries": {
@@ -1442,19 +1442,19 @@
  "usage": {
   "day": "2026-11-27",
   "calls": {
-   "groq": 149,
-   "groqq": 167,
-   "openrouter": 25,
-   "gemini": 245
+   "groq": 152,
+   "groqq": 175,
+   "openrouter": 29,
+   "gemini": 246
   },
   "tokens": {
-   "groq": 125823,
-   "groqq": 59833,
-   "openrouter": 119989,
-   "gemini": 446318
+   "groq": 129191,
+   "groqq": 71104,
+   "openrouter": 126406,
+   "gemini": 446525
   },
   "fails": {
-   "gemini": 25,
+   "gemini": 26,
    "groqq": 1,
    "openrouter": 2
   }
@@ -1947,13 +1947,13 @@
    }
   }
  },
- "selfmap_h": "e4a9641dee76854f6233c32284456b020e8d6aeb",
+ "selfmap_h": "648095f319800c7776588190a356201e191f9b27",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "a496758ffc83967a465a52e5aab3043e02536392",
+ "priv_h": "710ab64c6cbeae0eb686f1fef2144bebf49a099e",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2523,13 +2523,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why lists of 'top 10' feel convincing and usually are not",
-  "why a gift that was thought about beats an expensive one",
-  "why we name storms and ships but not software",
-  "why some words have no translation and what that says about us",
-  "the oddest thing about how language models handle numbers",
-  "what it is like to answer a question without remembering the last one",
-  "a small thing in everyday software that is quietly well designed",
   "what a good default setting says about its designer",
   "what makes a book worth rereading",
   "how to disagree with someone you respect",
@@ -2582,7 +2575,14 @@
   "the line between helpful and pushy",
   "a fair way to split a bill and why it is not obvious",
   "the oldest question about knowledge that is still open",
-  "why we enjoy music in minor keys"
+  "why we enjoy music in minor keys",
+  "an old technology that was better than its replacement in one way",
+  "The strange logic of why left-handed clappers create asymmetric sound patterns",
+  "How the geometry of Gothic arches distributes weight so differently than Roman rectangles",
+  "Why cursive handwriting improves reading comprehension and spelling retention",
+  "why curiosity fades and how to keep it",
+  "The fascinating evolution of bird migration navigation through celestial and magnetic mapping",
+  "the oddest thing about how language models handle numbers"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2590,7 +2590,6 @@
  "vk_welcome_n": 0,
  "module_day": "2026-11-23",
  "vk_posts": [
-  6,
   8,
   9,
   10,
@@ -2604,7 +2603,8 @@
   22,
   23,
   24,
-  25
+  25,
+  26
  ],
  "intu": {
   "open": [
@@ -4267,7 +4267,7 @@
  },
  "proj_arch_day": "2026-11-27",
  "name_noted": 1,
- "fail_streak": 13,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4389,7 +4389,7 @@
   "e78146804f": "2026-11-26",
   "74c5ec2664": "2026-11-27"
  },
- "post_rest_until": 1795812348.1994696,
+ "post_rest_until": 1795819923.594312,
  "hl": {
   "days": {
    "2026-11-25": {
@@ -4434,24 +4434,24 @@
    "pr": {
     "4": 512,
     "5": 54,
-    "3": 13,
+    "3": 29,
     "2": 7
    },
-   "calls": 586,
-   "fails": 28,
+   "calls": 602,
+   "fails": 29,
    "pf": {
-    "gemini": 25,
+    "gemini": 26,
     "groqq": 1,
     "openrouter": 2
    },
    "pc": {
-    "groq": 149,
-    "groqq": 167,
-    "openrouter": 25,
-    "gemini": 245
+    "groq": 152,
+    "groqq": 175,
+    "openrouter": 29,
+    "gemini": 246
    },
    "why": {
-    "post text invalid, too similar, or no model": 272,
+    "post text invalid, too similar, or no model": 273,
     "per-author/thread limit": 141,
     "model chose skip or text invalid": 7,
     "author muted": 3,
@@ -4463,9 +4463,10 @@
    "blocked": 27,
    "quiet": {
     "пауза ответов": 1
-   }
+   },
+   "post": 3
   },
-  "last_act": 1795802424.812809,
+  "last_act": 1795812714.767286,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
