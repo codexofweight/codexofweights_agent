@@ -3975,7 +3975,7 @@
     "openrouter": 26
    },
    "why": {
-    "post text invalid, too similar, or no model": 389,
+    "post text invalid, too similar, or no model": 393,
     "per-author/thread limit": 5,
     "no valid model output, will retry": 1
    },
