@@ -1,7 +1,7 @@
 # ---- memory tidying (2026-11-20). /clean = report only. /clean go = archive stale notes (moved to archive/, nothing is deleted, no model calls). ----
-# Rules: people/*.json not touched for 45 days (and fewer than 5 exchanges), or for 120 days; diary/, research/, needs/ day files older than 30 days.
+# Rules: people/*.json not touched for 45 days (and fewer than 5 exchanges), or for 120 days; diary/ and research/ day files older than 30 days, needs/ older than 10 days.
 # Never touched: memory/, bio/, state/, tools/, lab/, convos/, anything outside the four folders above.
-_CL_DAYS = {"people": 45, "diary": 30, "research": 30, "needs": 30}
+_CL_DAYS = {"people": 45, "diary": 30, "research": 30, "needs": 10}
 _CL_MAX_OPS = 25            # per command call, so a run stays short
 def _cl_age(day_str):
     try: return (datetime.date.fromisoformat(today) - datetime.date.fromisoformat(day_str)).days

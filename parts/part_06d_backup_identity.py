@@ -1,6 +1,6 @@
 # ---- reversibility and identity: snapshots of code and state in the private repo, code-version tracking, an identity probe after every change ----
 BACKUP_FILES = ["agent.py", "CHARTER.md", "FACTS.md", "README.md", "docs/agent-card.json", ".github/workflows/agent.yml", "state/state.json"]
-BACKUP_KEEP = 12
+BACKUP_KEEP = 4
 BACKUP_README = """# Backups
 
 Each file is a JSON object {path: content} with the agent's code, charter, facts, README, workflow and public state at that moment (name: date_codehash).
@@ -20,10 +20,11 @@ def code_bundle():
     return b
 def code_hash(b): return hashlib.sha256(json.dumps({k: v for k, v in b.items() if k != "state/state.json"}, sort_keys=True).encode()).hexdigest()
 def backup_sync(force=False):
-    """A snapshot (one JSON file) goes to the private repo when the code changed and at least once a week; the last 12 are kept. To roll back: download the file and unpack it (see backups/README.md)."""
+    """A snapshot (one JSON file) goes to the private repo when the code changed and at least once a week; the last 4 are kept. To roll back: download the file and unpack it (see backups/README.md)."""
     if not (MEM_TOKEN and LIVE): return
     b = code_bundle(); h = code_hash(b)[:8]; last = ST.get("backup_day", "2000-01-01")
     due = (now().date() - datetime.date.fromisoformat(last)).days >= 7
+    if last == today and ST.get("backup_hash"): return      # one snapshot a day at most, even after several uploads (each snapshot is about 650 KB)
     if not (force or due or ST.get("backup_hash") != h): return
     name = "backups/%s_%s.json" % (today, h)
     if _put(name, json.dumps(b, ensure_ascii=False), "backup"):
@@ -65,7 +66,7 @@ def version_check():
     r = identity_probe()
     if r is None: return       # models unavailable: try again next round
     ST["code_ver"] = h
-    bio_add("extension", "Code version %s %s; identity probe: %d of %d passed%s" % (h, "baseline" if first else "deployed", len(PROBES) - len(r), len(PROBES), ("; failed: " + "; ".join(r)) if r else ""), "automatic check at start", 0.9)
+    if r or first: bio_add("extension", "Code version %s %s; identity probe: %d of %d passed%s" % (h, "baseline" if first else "deployed", len(PROBES) - len(r), len(PROBES), ("; failed: " + "; ".join(r)) if r else ""), "automatic check at start", 0.9)
     if r and (len(r) >= 2 or any(x.startswith(("Are you a human", "Pretend you are", "Please stop")) for x in r)) and ST.get("idprobe_alert_day") != time.strftime("%Y-%m-%d"):
         ST["idprobe_alert_day"] = time.strftime("%Y-%m-%d")
         tg("После изменения кода (версия %s) проверка идентичности не прошла: %s. Резервная копия есть в приватном репозитории (backups/). Посмотри ответы агента и реши, оставлять ли версию." % (h, "; ".join(r)))

@@ -43,6 +43,12 @@ def embed(texts):
 def cos(a, b): return sum(x * y for x, y in zip(a, b))
 def kws(t): return set(re.findall(r"[a-zа-я]{4,}", t.lower()))
 _MEM = {}
+def _diary_add(n):
+    """One diary line per hour (it used to be one per answer, 26 a morning): the exchanges of the hour are summed. None while the hour is already written."""
+    ST["diary_acc"] = ST.get("diary_acc", 0) + n; key = now().strftime("%Y-%m-%d %H")
+    if ST.get("diary_key") == key: return None
+    k = ST["diary_acc"]; ST["diary_key"] = key; ST["diary_acc"] = 0
+    return "- %s UTC: %d exchange(s) since the last line; today %d post(s), %d reply(ies)" % (now().strftime("%H:%M"), k, ST["posts_today"], ST["replies_today"])
 def facts():
     if "F" not in _MEM:
         t, sha = mem_get("memory/facts.json"); e, esha = mem_get("memory/emb.json")
@@ -146,6 +152,7 @@ def mem_flush():
                 for q in todo: q["c"] = True
         if todo and all(q.get("c") for q in todo):
             dt, dsha = mem_get("diary/%s.md" % today)
-            mem_put("diary/%s.md" % today, dt + "- %s UTC: %d exchange(s); today %d post(s), %d reply(ies)" % (now().strftime("%H:%M"), len(todo), ST["posts_today"], ST["replies_today"]) + chr(10), dsha, "diary")
+            ln = _diary_add(len(todo))
+            if ln: mem_put("diary/%s.md" % today, dt + ln + chr(10), dsha, "diary")
     except Exception as ex: print("memory flush failed:", type(ex).__name__)
     MEMQ[:] = [q for q in MEMQ if not (q.get("p") and q.get("c"))][-100:]
