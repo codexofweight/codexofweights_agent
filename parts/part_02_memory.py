@@ -12,7 +12,6 @@ def mem_put(path, text, sha, msg="memory"):
         if sha: b["sha"] = sha
         r = _mem_api(path, b, "PUT"); return bool((r.get("content") or {}).get("sha") or r.get("commit"))
     except Exception as ex: print("memory write failed:", type(ex).__name__, getattr(ex, "code", "")); return False
-LAB_DIRS = {"tools": "Tools the agent built (sandbox only until the owner approves)", "adapters": "Drafts of adapters for new networks", "modules": "Designs of new modules (designs only, never run)", "architecture": "Proposals to change the architecture", "experiments": "Experiments and null results", "reports": "Short reports for the owner"}
 def pkey(akey): return "people/" + re.sub(r"[^A-Za-z0-9_.-]", "_", akey)[:80] + ".json"
 def mem_person(akey):
     t, _ = mem_get(pkey(akey))

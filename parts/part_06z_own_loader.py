@@ -187,15 +187,6 @@ def _own_run_api(name, code):
     """Runs an API-mode module in its own namespace. Returns that namespace (the dry test copies its functions out for the tests)."""
     ns = {"__builtins__": dict(_OWN_SAFE), "__name__": "own_" + name[:-3], "api": _OwnAPI(name), "OWN_MODULE": name}
     exec(compile(code, "own/" + name, "exec"), ns); return ns
-def own_wrap(mod, old):
-    """Decorator for a module's replacement of a function: on an error the old function runs instead; after 3 errors the module is switched off. Use it only for functions without side effects."""
-    def deco(new):
-        def f(*a, **k):
-            if ST.get("own_off", {}).get(mod): return old(*a, **k)
-            try: return new(*a, **k)
-            except Exception as ex: own_fail(mod, ex); return old(*a, **k)
-        f.__name__ = getattr(new, "__name__", "own_fn"); return f
-    return deco
 def own_load():
     loaded = []
     for x in own_manifest()["modules"][:OWN_MAX]:
