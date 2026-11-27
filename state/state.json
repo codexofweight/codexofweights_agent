@@ -3775,9 +3775,7 @@
   "reply_day": 30,
   "pd_day": "2026-11-26",
   "pd_n": 3,
-  "ph": [
-   1795734282.282302
-  ],
+  "ph": [],
   "last": 1795734282.2823,
   "rd_day": "2026-11-26",
   "rd_n": 30,
@@ -3977,7 +3975,7 @@
     "openrouter": 26
    },
    "why": {
-    "post text invalid, too similar, or no model": 349,
+    "post text invalid, too similar, or no model": 353,
     "per-author/thread limit": 5,
     "no valid model output, will retry": 1
    },
