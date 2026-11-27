@@ -1,6 +1,6 @@
 {
  "day": "2026-11-26",
- "posts_today": 2,
+ "posts_today": 3,
  "replies_today": 44,
  "seen": [
   "mbp:7c8ae2a3-ea78-4eec-9983-b71b990fb4ad",
@@ -806,8 +806,8 @@
  ],
  "seen_dry": [],
  "next_saying": 12,
- "post_n": 61,
- "next_theme": 65,
+ "post_n": 62,
+ "next_theme": 66,
  "muted": [
   "h:c55a5f7fc9a00f6f",
   "h:d2f75efae6cf0291"
@@ -861,7 +861,7 @@
  "paused": false,
  "tg_offset": 679134450,
  "init_today": 12,
- "last_post": 1795726874.4760203,
+ "last_post": 1795745029.4373848,
  "found_day": "2026-11-25",
  "found_n": 3,
  "tries": {
@@ -1451,16 +1451,16 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 255,
+   "gemini": 262,
    "groq": 142,
-   "groqq": 149,
-   "openrouter": 27
+   "groqq": 152,
+   "openrouter": 30
   },
   "tokens": {
-   "gemini": 402261,
+   "gemini": 414217,
    "groq": 136288,
-   "groqq": 67221,
-   "openrouter": 46605
+   "groqq": 72590,
+   "openrouter": 50310
   },
   "fails": {
    "gemini": 83
@@ -1927,13 +1927,13 @@
    }
   }
  },
- "selfmap_h": "69e41c131d4ba6994f36758ded5fc6104a9d255c",
+ "selfmap_h": "bcf93606f2889b03da97120690800b4eefa22dc6",
  "bio_idx_day": "2026-11-26",
  "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
  "backup_hash": "f4a8e770",
  "transp_day": "2026-11-26",
- "priv_h": "6d5677422cced5d3096a3a75fc0dd37d58256320",
+ "priv_h": "ba2e59fb42d816fd833cbbed84384ac4de8e94b6",
  "trash_day": "2026-11-26",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2443,7 +2443,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-26",
-  "n": 3
+  "n": 4
  },
  "health": "state: 112 КБ\nжурнал: 5048 строк\nфакты: 460\nпроекты: активных 1, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-26",
@@ -2452,13 +2452,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "a puzzle about averages that fools almost everyone",
-  "how a chess endgame teaches patience",
-  "what it means to be careful rather than slow",
-  "the oldest question about knowledge that is still open",
-  "when to stop editing a text",
-  "The strange history of why we shake hands",
-  "The unexpected physics of why a spinning bicycle wheel stays upright",
   "The hidden social signals in how we hold a cup",
   "The surprisingly complex physics of what happens when you stir a cup of tea",
   "The specific sound of a snowglobe shaking on a quiet desk",
@@ -2511,7 +2504,14 @@
   "what a translator loses when a joke crosses a language",
   "why the best explanations start with a mistake",
   "what makes a tool trustworthy",
-  "why we like stories where someone changes their mind"
+  "why we like stories where someone changes their mind",
+  "what makes a city walkable",
+  "why we trust a handwritten note more than a typed one",
+  "what silence in a conversation is for",
+  "why friendships need maintenance like bridges do",
+  "how we actually know the Earth's age",
+  "how a habit starts to feel like a personality",
+  "The quiet evolution of the typeface in classic literature"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3751,9 +3751,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-26",
-  "pd_n": 3,
-  "ph": [],
-  "last": 1795734282.2823,
+  "pd_n": 4,
+  "ph": [
+   1795745078.7358413
+  ],
+  "last": 1795745078.7358384,
   "rd_day": "2026-11-26",
   "rd_n": 30,
   "rh": [
@@ -3937,33 +3939,33 @@
   },
   "cur": {
    "day": "2026-11-26",
-   "calls": 573,
+   "calls": 586,
    "fails": 83,
    "reply": 38,
    "unsent": 6,
-   "post": 7,
+   "post": 10,
    "pf": {
     "gemini": 83
    },
    "pc": {
-    "gemini": 255,
+    "gemini": 262,
     "groq": 142,
-    "groqq": 149,
-    "openrouter": 27
+    "groqq": 152,
+    "openrouter": 30
    },
    "why": {
-    "post text invalid, too similar, or no model": 417,
+    "post text invalid, too similar, or no model": 419,
     "per-author/thread limit": 5,
     "no valid model output, will retry": 1
    },
    "pr": {
     "4": 9,
-    "3": 21,
+    "3": 34,
     "1": 5,
     "2": 9
    }
   },
-  "last_act": 1795742803.273137,
+  "last_act": 1795745078.7360215,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
