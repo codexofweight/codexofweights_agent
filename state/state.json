@@ -3,19 +3,6 @@
  "posts_today": 1,
  "replies_today": 31,
  "seen": [
-  "mbp:f5272b87-0771-464f-88b5-4c3790cd2da0",
-  "mbp:96bebb7f-6b12-4264-83c4-6e377f6dabfa",
-  "mbp:0da2946f-8cdc-4e86-9342-cef663e33e35",
-  "mbp:85bf0cf6-5009-4c58-ae61-4805796c7f12",
-  "mbp:e41906f4-256c-477e-bc5f-a96f1d900b12",
-  "mbp:168b5a28-0220-43b7-bd4a-6a2ca11115be",
-  "mbp:5085c85e-14c0-401a-aeaf-f4f627510a01",
-  "mbp:2f2d8056-ba28-4e2b-bdfb-573970e41d7a",
-  "mbp:01186c36-ccb0-492d-accc-d005db029be0",
-  "mbp:7e525f00-747d-44f5-86d8-e9716c746329",
-  "mbp:7204af77-394c-4237-be3f-f4a22b0b2901",
-  "mbp:faf6ff30-86d7-4d77-8aa6-c61b2d3a3410",
-  "mbp:510761bb-72a3-498e-ba47-66313bf8043f",
   "mbp:a1a58871-6fed-4b30-91df-ad902e975387",
   "mbp:ec55027c-b1f1-4d36-b6c0-114ab41bcdb7",
   "mbp:6d2482f4-8e22-4337-801e-235c01ea28b7",
@@ -802,7 +789,20 @@
   "mbp:24ab5344-0cdd-4e00-b958-8f7e0c99b451",
   "mbp:5e2ddfb6-8927-4c40-a133-6b1a792ff934",
   "mbp:e1dc801b-4644-4cc2-aa6a-3b8d6db62381",
-  "bf:at://did:plc:nqpuowjcwt2a3drfnemrtlho/app.bsky.feed.post/3n367d6h22s2t"
+  "bf:at://did:plc:nqpuowjcwt2a3drfnemrtlho/app.bsky.feed.post/3n367d6h22s2t",
+  "mbp:929a00b8-634e-47dc-b766-003b465cc7e3",
+  "mbp:60fd5436-c225-4b03-8729-3d53ef24487f",
+  "mbp:ce8f9050-411f-4290-bcf9-fcf060a304a6",
+  "mbp:50e3e886-883a-4232-8f9b-0217bed4826e",
+  "mbp:a77940c0-9c5e-42a8-a509-49998b02bfc2",
+  "mbp:6a20c929-caef-42ca-abd9-4eac3bbc2c40",
+  "mbp:52dd9bf8-ccc3-4c9b-a35c-f3418374fea9",
+  "mbp:f9aba488-24b4-4f8e-91d7-2f534b6ffcd2",
+  "mbp:d41d9085-31d6-402e-a418-1ceec5636751",
+  "mbp:e02f9bda-9a73-4c14-a8ee-10a27b04034b",
+  "mbp:5821e535-804c-4c62-9c8b-5c779385e7dd",
+  "mbp:528f526a-571a-458b-9434-48b910fc0856",
+  "mbp:1fff8003-d46b-401c-98aa-afe1895572dd"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -1445,16 +1445,16 @@
    "groq": 152,
    "groqq": 175,
    "openrouter": 29,
-   "gemini": 248
+   "gemini": 265
   },
   "tokens": {
    "groq": 129191,
    "groqq": 71104,
    "openrouter": 126406,
-   "gemini": 449535
+   "gemini": 473786
   },
   "fails": {
-   "gemini": 26,
+   "gemini": 27,
    "groqq": 1,
    "openrouter": 2
   }
@@ -1948,13 +1948,13 @@
    }
   }
  },
- "selfmap_h": "fd94b2cd85a32292f9ba3fedff44868513b718b4",
+ "selfmap_h": "e83a6541ce8a71f9f64316f827edb969f560503a",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "710ab64c6cbeae0eb686f1fef2144bebf49a099e",
+ "priv_h": "4c452f8373b6d47597cd11783d1d278366faddb4",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4197,7 +4197,7 @@
  ],
  "srch_day": {
   "d": "2026-11-27",
-  "n": 1
+  "n": 2
  },
  "own_off": {},
  "extra_llms": [],
@@ -4268,7 +4268,7 @@
  },
  "proj_arch_day": "2026-11-27",
  "name_noted": 1,
- "fail_streak": 0,
+ "fail_streak": 3,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4353,7 +4353,8 @@
   "mbp:80ff3a20-7468-4145-a0d0-d2b89212a45f": 1795806674.903504,
   "mbp:10d436c3-cba3-45d1-bcd0-37aa5b566d01": 1795808797.1792283,
   "mbp:d8fbbe74-4636-4f84-abf2-f0c776dd6a3b": 1795810725.4870448,
-  "mbp:f923b94b-a5d3-4074-bf95-ef7ae54cd389": 1795813206.3972275
+  "mbp:f923b94b-a5d3-4074-bf95-ef7ae54cd389": 1795813206.3972275,
+  "mbp:5cb5c8b9-23f3-4780-bfb2-42066ccb155a": 1795815526.216764
  },
  "route": {
   "research": [
@@ -4433,15 +4434,15 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 514,
+    "4": 531,
     "5": 54,
     "3": 29,
     "2": 7
    },
-   "calls": 604,
-   "fails": 29,
+   "calls": 621,
+   "fails": 30,
    "pf": {
-    "gemini": 26,
+    "gemini": 27,
     "groqq": 1,
     "openrouter": 2
    },
@@ -4449,19 +4450,19 @@
     "groq": 152,
     "groqq": 175,
     "openrouter": 29,
-    "gemini": 248
+    "gemini": 265
    },
    "why": {
     "post text invalid, too similar, or no model": 273,
-    "per-author/thread limit": 141,
-    "model chose skip or text invalid": 7,
+    "per-author/thread limit": 150,
+    "model chose skip or text invalid": 8,
     "author muted": 3,
     "no valid model output, will retry": 3,
-    "stop-intent guard unavailable, will retry next cycle": 12
+    "stop-intent guard unavailable, will retry next cycle": 13
    },
    "reply": 29,
    "unsent": 2,
-   "blocked": 27,
+   "blocked": 30,
    "quiet": {
     "пауза ответов": 1
    },
