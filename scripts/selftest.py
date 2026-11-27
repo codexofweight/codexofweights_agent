@@ -327,6 +327,26 @@ def run(g):
         g["LLMS"][:] = [("aa", "", "k", "m")]; g["_llm_before_fail"] = _ok; g["PRIO"][0] = 5; g["llm"]("s", "u", order=("aa",), gap=0)
         check("model calls are counted by priority (circuit)", g["ST"]["hl"]["cur"].get("pr") == {"5": 2}, g["ST"]["hl"]["cur"])
     finally: g["_llm_before_fail"] = old_inner2; g["PRIO"][0] = old_pr; g["LLMS"][:] = old_ll; g["ST"]["hl"] = old_hl2 if old_hl2 is not None else {"days": {}, "cur": {"day": g["today"]}}
+    # 14h. slimmer private memory (2026-11-27)
+    put_ = []; olds_ = {k: g.get(k) for k in ("MEM_TOKEN", "LIVE", "_put", "_lab_list", "mem_del")}; olds_st = {k: g["ST"].get(k) for k in ("backup_day", "backup_hash")}
+    try:
+        g["MEM_TOKEN"], g["LIVE"] = "t", True; g["_put"] = lambda name, txt, msg="": put_.append(name) or True; g["_lab_list"] = lambda rp: []; g["mem_del"] = lambda *a_: True
+        g["ST"]["backup_day"], g["ST"]["backup_hash"] = g["today"], "old"; g["backup_sync"](force=True)
+        check("a second snapshot on the same day is not made, even when forced", put_ == [], put_)
+        g["ST"]["backup_day"] = "2000-01-01"; g["backup_sync"](force=True)
+        check("a snapshot is made on a new day", any(x.startswith("backups/") for x in put_), put_)
+    finally:
+        g.update({k: v for k, v in olds_.items() if v is not None})
+        for k, v in olds_st.items():
+            if v is None: g["ST"].pop(k, None)
+            else: g["ST"][k] = v
+    check("only four snapshots are kept", g["BACKUP_KEEP"] == 4)
+    g["ST"].pop("diary_key", None); g["ST"]["diary_acc"] = 0
+    l1_ = g["_diary_add"](1); l2_ = g["_diary_add"](2)
+    check("the diary gets one line per hour and sums the exchanges", l1_ and "1 exchange(s)" in l1_ and l2_ is None and g["ST"]["diary_acc"] == 2, (l1_, l2_, g["ST"].get("diary_acc")))
+    g["ST"].pop("diary_key", None); g["ST"]["diary_acc"] = 0
+    src_bk = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "parts", "part_06d_backup_identity.py"), encoding="utf-8").read()
+    check("the 'code deployed' entry goes to the biography only for the first run or a failed probe", "if r or first: bio_add" in src_bk)
     # 15. owner-facing project texts: no internal English instruction, cut at a word
     g_ = g["_ru_goal"]("Build one small own module (standard library only, at most 150 lines) for this need of the agent: A daily report tool to summarize engagement metrics and content performance across platforms. Why it matters: consistency")
     check("a module goal is shown as the need only, cut at a word", g_.startswith("модуль: A daily report tool") and "Build one" not in g_ and g_.endswith("…") and not g_[:-1].endswith(" "), g_)
