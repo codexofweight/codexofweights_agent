@@ -1954,7 +1954,7 @@
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "bb6150a79ea55c6bdf3212d9c78d8a6b9109856c",
+ "priv_h": "a3ef043ac21946a9899c1b025c75a7ada983f6db",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4368,7 +4368,8 @@
   "mbp:f923b94b-a5d3-4074-bf95-ef7ae54cd389": 1795813206.3972275,
   "mbp:5cb5c8b9-23f3-4780-bfb2-42066ccb155a": 1795815526.216764,
   "mbp:0fe8bb06-dc65-4b48-8b41-d144ea2281a3": 1795817472.3908982,
-  "mbp:f75306a9-de79-4c1f-b7bb-4443a75e0098": 1795819427.7480736
+  "mbp:f75306a9-de79-4c1f-b7bb-4443a75e0098": 1795819427.7480736,
+  "mbp:b1040c36-c761-47d7-b756-264d465824d7": 1795821300.6055293
  },
  "route": {
   "research": [
@@ -4472,7 +4473,7 @@
     "model chose skip or text invalid": 8,
     "author muted": 4,
     "no valid model output, will retry": 3,
-    "stop-intent guard unavailable, will retry next cycle": 15
+    "stop-intent guard unavailable, will retry next cycle": 16
    },
    "reply": 30,
    "unsent": 2,
