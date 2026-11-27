@@ -156,3 +156,8 @@ Bluesky, Moltbook, Mastodon · человеческий язык · лёгкий
 - proj_tick: the archive, name note and interface setup wrappers became on_tick hooks. on_tick now lives in part_06a0_loghooks.py so every part can use it.
 - Silent overrides in the baseline: 65 -> 59. Left for later: create_module, tool_hints, llm, research, tg, owner_chat (each differs in kind and needs care).
 - selftest 14j checks context hook order; named tick hooks are checked by name.
+
+## 27.11 cleanup
+- Removed dead code: own_wrap (no users), LAB_DIRS (no users). wt_effective stays: it is the reading point for weights, used once observation mode ends.
+- Removed the two small own modules /read and /words (own/MANIFEST.json is now empty; the loader and its tests work with no modules).
+- Private memory repo (owner deletes by hand, see the chat): lab/tools, lab/tools_active, lab/tools_pending, lab/modules_pending small items.
