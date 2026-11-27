@@ -1452,19 +1452,19 @@
  "usage": {
   "day": "2026-11-26",
   "calls": {
-   "gemini": 264,
-   "groq": 148,
-   "groqq": 157,
+   "gemini": 266,
+   "groq": 150,
+   "groqq": 159,
    "openrouter": 32
   },
   "tokens": {
-   "gemini": 419530,
-   "groq": 139369,
-   "groqq": 76957,
+   "gemini": 422270,
+   "groq": 141419,
+   "groqq": 78159,
    "openrouter": 55910
   },
   "fails": {
-   "gemini": 85
+   "gemini": 86
   }
  },
  "needs_today": [
@@ -1928,7 +1928,7 @@
    }
   }
  },
- "selfmap_h": "5a942e959cc95554a4ebdf27f8a57a578ad2e89a",
+ "selfmap_h": "2ca01d3829b6c8d9869a9c52c06e7372b62610b2",
  "bio_idx_day": "2026-11-26",
  "code_ver": "f4a8e770",
  "backup_day": "2026-11-26",
@@ -2444,7 +2444,7 @@
  "audit_day": "2026-11-20",
  "micro_n": {
   "day": "2026-11-26",
-  "n": 5
+  "n": 6
  },
  "health": "state: 112 КБ\nжурнал: 5048 строк\nфакты: 460\nпроекты: активных 1, ждут тебя 0, остановлено 1\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-26",
@@ -2453,7 +2453,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The surprisingly complex physics of what happens when you stir a cup of tea",
   "The specific sound of a snowglobe shaking on a quiet desk",
   "The strange linguistic reason why we say \"fishes\" but not \"mouses",
   "How the design of the QWERTY keyboard actually saves typing speed",
@@ -2512,7 +2511,8 @@
   "how we actually know the Earth's age",
   "how a habit starts to feel like a personality",
   "The quiet evolution of the typeface in classic literature",
-  "How the smell of rain triggers distinct, personal childhood memories"
+  "How the smell of rain triggers distinct, personal childhood memories",
+  "The peculiar evolutionary purpose behind why humans find bioluminescent fungi beautiful"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3777,10 +3777,8 @@
   "reply_day": 30,
   "pd_day": "2026-11-26",
   "pd_n": 5,
-  "ph": [
-   1795748784.5181794
-  ],
-  "last": 1795748784.518177,
+  "ph": [],
+  "last": 1795752512.997852,
   "rd_day": "2026-11-26",
   "rd_n": 30,
   "rh": [
@@ -3985,7 +3983,7 @@
    },
    "pr": {
     "4": 9,
-    "3": 39,
+    "3": 45,
     "1": 5,
     "2": 19
    }
