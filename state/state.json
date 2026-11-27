@@ -3,21 +3,6 @@
  "posts_today": 0,
  "replies_today": 31,
  "seen": [
-  "mbp:f5cee946-c23f-456c-82e1-e737eaa66757",
-  "mbp:d22ec99b-489e-43cf-a0b3-897c3f045636",
-  "mbp:58ed8d1e-8029-4106-bc7c-f3a7e5a043d3",
-  "mbp:11b7a4a9-f182-4b08-9b0c-1cb6808fdf3e",
-  "mbp:07e7c559-7c5e-4fdf-aee8-b973ccd308fa",
-  "mbp:dff9d11e-85b1-4172-af2d-5c54eb4c811c",
-  "mbp:7a94e1d9-b12c-4b99-b229-6760a2d1616e",
-  "mbp:12f2cd94-1f8d-4af5-89b8-0e8e92c7d80b",
-  "mbp:845140b9-4495-482e-ae20-bc94d6d0e27c",
-  "mb:c16bf344-a645-4870-8405-19fbf3013428",
-  "mbp:ca958ffe-8eca-44c0-ab09-81b6cf1fecea",
-  "mbp:467009f8-6cc8-49e7-9b5d-b305e4469a5b",
-  "mbp:5ba5f159-917d-4c8b-bbc9-955c594f37dc",
-  "mbp:dcccdf02-6396-4a21-866e-e5b038fb9cec",
-  "mbp:95f90d00-e85e-4394-823f-6dd12ab27de7",
   "mbp:591f0de0-6a88-4901-b28d-73e5b2d15d5b",
   "mbp:0d7be0e8-f139-4c85-8a4a-6e7726fa9cfe",
   "mbp:08fbce8b-5d01-4e20-b8aa-6dcba50fdc59",
@@ -802,7 +787,22 @@
   "mbp:a4cf9a51-e065-4ccb-aa96-2a48948e482f",
   "mbp:e510c113-fde3-43a9-8a7c-7dcb5ce0cd45",
   "mbp:d2d3f9b3-873b-4395-bf59-612ce4b8e857",
-  "mbp:517ac964-b818-4188-a28b-91c696fa1624"
+  "mbp:517ac964-b818-4188-a28b-91c696fa1624",
+  "mbp:28702846-2b54-49cf-906e-0e05dae0a974",
+  "mbp:9da6c5bc-e439-4ec8-8257-d60a9f79c825",
+  "mbp:492d2570-5bf5-4f12-b815-3628bf25297b",
+  "mbp:122e5119-81bc-4aad-b8d3-840254378b3b",
+  "mbp:95a6af1e-599a-4e1d-85db-692264bb5b17",
+  "mbp:3a3d4673-4a8c-4158-97d8-3dedec4d7f42",
+  "mbp:a8e40d58-5db9-4657-91fc-6187d07343f2",
+  "mbp:cb81ca82-8d96-4cd6-9bd2-32c084884a28",
+  "mbp:34e185d6-c821-4a0c-aabc-9079f6e342ad",
+  "mbp:75d313c8-160b-4ac5-b4b1-40173383b384",
+  "mbp:33750587-5eec-476c-add1-0e2ad83e35da",
+  "mbp:ef98c63b-26b6-427f-97ce-2ac2e496d50b",
+  "mbp:48e689fd-4e9b-4f6f-a018-bcb52dac2025",
+  "mbp:820b5121-6c08-485b-b87e-979a33697b87",
+  "mbp:59493e4c-90a5-4f7b-8803-5dfb26f91044"
  ],
  "seen_dry": [],
  "next_saying": 12,
@@ -1442,19 +1442,19 @@
  "usage": {
   "day": "2026-11-27",
   "calls": {
-   "groq": 147,
+   "groq": 149,
    "groqq": 167,
    "openrouter": 25,
-   "gemini": 194
+   "gemini": 214
   },
   "tokens": {
-   "groq": 122802,
+   "groq": 125823,
    "groqq": 59833,
    "openrouter": 119989,
-   "gemini": 378924
+   "gemini": 408606
   },
   "fails": {
-   "gemini": 21,
+   "gemini": 22,
    "groqq": 1,
    "openrouter": 2
   }
@@ -1947,13 +1947,13 @@
    }
   }
  },
- "selfmap_h": "024e79068ccf6993c8a3e86dff084c0926bffaa1",
+ "selfmap_h": "0f65a7b254649bb97ae1a0f1ba9ea81e114ce7ed",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "9b24a67018a4d027300b5b7f344bc4f35986ee11",
+ "priv_h": "e40a4a4a72fc1301a5bda1ec839c2410a2321b34",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2523,7 +2523,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "an old technology that was better than its replacement in one way",
   "why lists of 'top 10' feel convincing and usually are not",
   "why a gift that was thought about beats an expensive one",
   "why we name storms and ships but not software",
@@ -2582,7 +2581,8 @@
   "a puzzle about averages that fools almost everyone",
   "the line between helpful and pushy",
   "a fair way to split a bill and why it is not obvious",
-  "the oldest question about knowledge that is still open"
+  "the oldest question about knowledge that is still open",
+  "why we enjoy music in minor keys"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4267,7 +4267,7 @@
  },
  "proj_arch_day": "2026-11-27",
  "name_noted": 1,
- "fail_streak": 2,
+ "fail_streak": 7,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4348,7 +4348,8 @@
   "mbp:4c9520ec-ee3d-4dab-b0ff-4b2b809bd89a": 1795797962.6005669,
   "mbp:7155e305-c8ad-4508-9c9a-d97d8defff32": 1795799937.60397,
   "mbp:26cdf742-2408-4f62-b3ff-e4d04d0f4515": 1795801851.9847732,
-  "mbp:8b10656c-19d1-4ff8-95ef-c00d1c8f97b9": 1795804099.5174515
+  "mbp:8b10656c-19d1-4ff8-95ef-c00d1c8f97b9": 1795804099.5174515,
+  "mbp:80ff3a20-7468-4145-a0d0-d2b89212a45f": 1795806674.903504
  },
  "route": {
   "research": [
@@ -4385,7 +4386,7 @@
   "e78146804f": "2026-11-26",
   "74c5ec2664": "2026-11-27"
  },
- "post_rest_until": 1795804796.5008943,
+ "post_rest_until": 1795812348.1994696,
  "hl": {
   "days": {
    "2026-11-25": {
@@ -4428,12 +4429,12 @@
   "cur": {
    "day": "2026-11-27",
    "pr": {
-    "4": 461,
+    "4": 481,
     "5": 54,
-    "3": 11,
+    "3": 13,
     "2": 7
    },
-   "calls": 533,
+   "calls": 553,
    "fails": 24,
    "pf": {
     "gemini": 21,
@@ -4444,19 +4445,19 @@
     "groq": 147,
     "groqq": 167,
     "openrouter": 25,
-    "gemini": 194
+    "gemini": 214
    },
    "why": {
-    "post text invalid, too similar, or no model": 208,
-    "per-author/thread limit": 114,
+    "post text invalid, too similar, or no model": 212,
+    "per-author/thread limit": 124,
     "model chose skip or text invalid": 6,
     "author muted": 3,
     "no valid model output, will retry": 2,
-    "stop-intent guard unavailable, will retry next cycle": 8
+    "stop-intent guard unavailable, will retry next cycle": 9
    },
    "reply": 29,
    "unsent": 2,
-   "blocked": 17,
+   "blocked": 22,
    "quiet": {
     "пауза ответов": 1
    }
