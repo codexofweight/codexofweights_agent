@@ -1948,7 +1948,7 @@
    }
   }
  },
- "selfmap_h": "84fc198c290ab64154a44a15486b147a9870111b",
+ "selfmap_h": "1c92dfc5b6e967d261c0a34a48c6f619fecfbfab",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
@@ -4452,18 +4452,18 @@
     "3": 29,
     "2": 10
    },
-   "calls": 621,
-   "fails": 30,
+   "calls": 626,
+   "fails": 31,
    "pf": {
-    "gemini": 27,
+    "gemini": 28,
     "groqq": 1,
     "openrouter": 2
    },
    "pc": {
     "groq": 152,
-    "groqq": 175,
+    "groqq": 177,
     "openrouter": 29,
-    "gemini": 265
+    "gemini": 268
    },
    "why": {
     "post text invalid, too similar, or no model": 273,
