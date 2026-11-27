@@ -145,3 +145,8 @@ Bluesky, Moltbook, Mastodon · человеческий язык · лёгкий
 
 ## 27.11 memory slimming, addition
 - needs/ day files are kept 10 days instead of 30 (the same few needs repeat daily). convos/ is intentionally untouched. facts already merge (cosine>0.9) with a cap of 800.
+
+## 27.11 refactor stage 2: log hooks
+- The chain of 8 wrappers over log() is replaced by one mechanism in parts/part_06a0_loghooks.py: on_log_pre(fn) (may clean kw before the line is written: privacy, direct messages) and on_log(fn) (watches after: bio, self-state, weights, self-map, health). Only the quiet-log wrapper (skip lines) stays outside, on purpose.
+- Silent overrides in the baseline: 71 -> 65. Remaining chains (agent_context, create_module, proj_tick, tool_hints, llm) are left for later; each needs its own hook type and is lower risk than the log chain.
+- selftest block 14i checks hook order and that a failing hook never breaks log().
