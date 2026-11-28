@@ -3,9 +3,6 @@
  "posts_today": 2,
  "replies_today": 32,
  "seen": [
-  "mbp:0d45f7e7-a7ac-4b1a-b308-059b4e5689dd",
-  "mbp:f6322e47-2711-4798-93ed-108464d75c9c",
-  "mbp:90ec1589-3002-4fc2-8284-b3644e36a281",
   "mb:79458eeb-1234-4e49-b399-8f48c039f7e4",
   "mb:a24f0013-c160-4101-ac07-3be439598e01",
   "mb:38590bcf-cb72-466f-b458-95d148fe0de1",
@@ -802,7 +799,10 @@
   "mb:270aaa55-3291-49a2-888b-56c5cab3cd50",
   "mb:b999fd02-6062-4442-b030-257dd9b50e41",
   "mb:d2b52695-8531-44d5-9b5e-caa8caac69c7",
-  "mb:1a08739a-7bea-44ad-ab62-ef1d07f17ffa"
+  "mb:1a08739a-7bea-44ad-ab62-ef1d07f17ffa",
+  "bf:at://did:plc:z47enkw4ua4fsyq62vlhcqxw/app.bsky.feed.post/3n33qzbhhm22t",
+  "bf:at://did:plc:222rnvnta2lbl364bog2plxw/app.bsky.feed.post/3n3cyz32xik2s",
+  "bf:at://did:plc:57vlzz2egy6eqr4nksacmbht/app.bsky.feed.post/3n37jk3kij22i"
  ],
  "seen_dry": [],
  "next_saying": 13,
