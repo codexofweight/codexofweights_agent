@@ -1,11 +1,8 @@
 {
  "day": "2026-11-28",
  "posts_today": 1,
- "replies_today": 26,
+ "replies_today": 27,
  "seen": [
-  "mbp:ea03fcf0-106a-4686-864b-105fea9ea1c8",
-  "mbp:47d9290e-3f6c-4910-9612-8cef2ee55b88",
-  "mbp:8c6df7cc-5240-485b-82b9-bf92ca9bedb2",
   "mbp:78451980-1547-440f-bc80-f50ce81febad",
   "mbp:7a117970-ca83-4a6b-bcf4-305cea3b37cc",
   "mbp:a2fcf865-32c1-4600-8b55-0356f1cda151",
@@ -802,7 +799,10 @@
   "mbp:fd9a3b01-d974-4127-9817-a4946ddbfe01",
   "mb:fa893d94-fc6f-44bd-9924-8a2ee2c7318f",
   "mb:639c49e5-7392-4956-b12f-adfdafb68ce6",
-  "mb:a00572e3-47cf-4c22-ba77-c3e9721611e5"
+  "mb:a00572e3-47cf-4c22-ba77-c3e9721611e5",
+  "mb:6e50f4e0-3627-494b-9fc0-e9b11290811c",
+  "mb:350d2084-4cfc-46d2-913e-a8e7d4fd9699",
+  "mbp:fe09dfde-5c49-48c4-9cd5-f0ba4d14d0d5"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -836,7 +836,7 @@
   "moltbook:mb:12fb014b-61b6-4587-a6d5-9f1f40c1427e": 1,
   "moltbook:mb:5c70d5bd-407b-44fa-b8fa-a00fae4cb304": 1,
   "moltbook:mb:38fc3b7c-4132-481c-a71d-c7cd543a4f2a": 1,
-  "moltbook:mb:1e76bb6e-2c76-45d9-9443-1638d005f4d4": 1
+  "moltbook:mb:1e76bb6e-2c76-45d9-9443-1638d005f4d4": 2
  },
  "paused": false,
  "tg_offset": 679134460,
@@ -1435,20 +1435,20 @@
  "usage": {
   "day": "2026-11-28",
   "calls": {
-   "groq": 139,
-   "groqq": 200,
-   "gemini": 130,
+   "groq": 142,
+   "groqq": 201,
+   "gemini": 140,
    "openrouter": 29
   },
   "tokens": {
-   "groq": 129123,
-   "groqq": 71975,
-   "gemini": 187763,
+   "groq": 130298,
+   "groqq": 72216,
+   "gemini": 203160,
    "openrouter": 132309
   },
   "fails": {
    "groqq": 2,
-   "gemini": 27
+   "gemini": 28
   }
  },
  "needs_today": [
@@ -1493,7 +1493,7 @@
   "lab/reports/scout_p1c99dac.md": "efa72baaccc2c2b91bfa96493f7361ed66706b2f"
  },
  "research_try": {
-  "2026-11-28": 330
+  "2026-11-28": 334
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1947,13 +1947,13 @@
    }
   }
  },
- "selfmap_h": "ee022d333549cb57494bf5c26f5850b7a5039f42",
+ "selfmap_h": "875a65d2ebfabff87f2b0a9a31865450624b1d8f",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "7073c5bf627933ebd05caea720f7b7a2cff9ddee",
+ "priv_h": "ec7b66731da19011a67eda65b92ef084e230afa9",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2555,7 +2555,7 @@
  "audit_day": "2026-11-27",
  "micro_n": {
   "day": "2026-11-28",
-  "n": 6
+  "n": 7
  },
  "health": "state: 130 КБ\nжурнал: 5368 строк\nфакты: 525\nпроекты: активных 1, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-28",
@@ -2564,7 +2564,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why birdsong changes between cities and forests",
   "what a translator loses when a joke crosses a language",
   "why the best explanations start with a mistake",
   "what makes a tool trustworthy",
@@ -2623,7 +2622,8 @@
   "why recipes never say how long 'until golden' really is",
   "what it means to be careful rather than slow",
   "an everyday thing that is actually a clever algorithm",
-  "the thing about deadlines that no one admits"
+  "the thing about deadlines that no one admits",
+  "why people argue about spelling and what it hides"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2649,18 +2649,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795620930.3683982,
-    "a": "h:b9b13f249a5f3735",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=1",
-     "hr=2"
-    ],
-    "p": 0.152
-   },
    {
     "t": 1795622900.2063189,
     "a": "h:4408931132406772",
@@ -3932,28 +3920,40 @@
      "hr=2"
     ],
     "p": 0.161
+   },
+   {
+    "t": 1795881789.0973718,
+    "a": "h:138cc9c560abe18f",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.153
    }
   ],
   "stats": {
    "pl=moltbook": [
     32,
-    279
+    280
    ],
    "mode=reply": [
     25,
-    66
+    67
    ],
    "len=l": [
     30,
-    271
+    272
    ],
    "q=1": [
     4,
-    46
+    47
    ],
    "hr=2": [
     9,
-    97
+    98
    ],
    "q=0": [
     29,
@@ -3994,12 +3994,12 @@
   },
   "glob": [
    33,
-   282
+   283
   ],
-  "n": 282,
-  "hit": 249,
-  "br": 35.27586200000003,
-  "br0": 29.714626241391944
+  "n": 283,
+  "hit": 250,
+  "br": 35.29896600000003,
+  "br0": 29.72885831279853
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
@@ -4033,11 +4033,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-28",
-  "pd_n": 5,
+  "pd_n": 6,
   "ph": [
-   1795878634.0455694
+   1795882347.6300552
   ],
-  "last": 1795878634.045567,
+  "last": 1795882347.6300526,
   "rd_day": "2026-11-28",
   "rd_n": 15,
   "rh": []
@@ -4095,7 +4095,7 @@
  },
  "proj_arch_day": "2026-11-28",
  "name_noted": 1,
- "fail_streak": 1,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4324,71 +4324,70 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 368,
-    "5": 46,
-    "3": 44,
-    "2": 36,
+    "4": 371,
+    "5": 48,
+    "3": 48,
+    "2": 41,
     "1": 4
    },
-   "calls": 498,
-   "fails": 29,
+   "calls": 508,
+   "fails": 30,
    "pf": {
     "groqq": 2,
-    "gemini": 27
+    "gemini": 28
    },
    "pc": {
-    "groq": 139,
-    "groqq": 200,
-    "gemini": 130,
+    "groq": 141,
+    "groqq": 201,
+    "gemini": 137,
     "openrouter": 29
    },
-   "post": 7,
+   "post": 8,
    "why": {
     "model chose skip or text invalid": 10,
-    "per-author/thread limit": 156,
+    "per-author/thread limit": 158,
     "post text invalid, too similar, or no model": 181,
     "no valid model output, will retry": 11,
     "stop-intent guard unavailable, will retry next cycle": 9
    },
-   "reply": 26,
-   "blocked": 10
+   "reply": 27,
+   "blocked": 11
   },
-  "last_act": 1795879785.020818,
+  "last_act": 1795882347.630286,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
  "janitor_day": "2026-11-28",
  "diary_acc": 0,
- "diary_key": "2026-11-28 15",
+ "diary_key": "2026-11-28 16",
  "gut": {
   "unav": [
-   1795875613.7328215,
-   1795876338.2883682
+   1795881974.2719197
   ],
   "quiet": {},
-  "holds": 9,
+  "holds": 10,
   "muted": 0,
   "bf": {
    "stats": {
     "pl=moltbook": [
      0,
-     2
+     3
     ],
     "mode=reply": [
      0,
-     2
+     3
     ],
     "len=l": [
      0,
-     2
+     3
     ],
     "q=1": [
      0,
-     1
+     2
     ],
     "hr=2": [
      0,
-     2
+     3
     ],
     "q=0": [
      0,
@@ -4397,14 +4396,14 @@
    },
    "glob": [
     0,
-    2
+    3
    ],
-   "n": 2,
-   "hit": 2,
-   "br": 0.1552111111111111,
-   "br0": 0.1736111111111111
+   "n": 3,
+   "hit": 3,
+   "br": 0.17443955555555554,
+   "br0": 0.2136111111111111
   },
   "skipped_fc": 0,
-  "retried": 9
+  "retried": 10
  }
 }
