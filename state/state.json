@@ -1,16 +1,8 @@
 {
  "day": "2026-11-28",
  "posts_today": 0,
- "replies_today": 22,
+ "replies_today": 24,
  "seen": [
-  "mbp:3bf6b087-4263-47b3-a2e6-0e45e383708e",
-  "mbp:8a89a2b0-117c-4d6b-b13d-5f87ef878256",
-  "mbp:20dbd1f5-195e-47c3-9fde-6e65d0bc1210",
-  "mbp:e3a3e5a3-3599-4f84-92c4-27ddb41dfcc8",
-  "mbp:7275f631-678b-48f8-ae12-24099f999136",
-  "mb:720b8219-572a-4924-a5c9-501f56efdc88",
-  "mb:68e4568f-ec7e-424b-8505-c30803cdd5f3",
-  "mb:9c07c2a4-8263-425c-922c-566c6fae7b61",
   "mbp:ce6bfc47-9df6-4149-9a90-7d186bf4a84d",
   "mbp:85e73dbf-3d9d-4f10-a3f4-85e68d945232",
   "mbp:29a2a906-8937-4249-bac7-b84d5c3c1129",
@@ -802,7 +794,15 @@
   "mbp:469184c4-5e3f-494e-b87e-9abd62974754",
   "mbp:e2f5f134-c4c5-457b-bf89-ce58d9bbd3ef",
   "mbp:a7c0360a-1c16-4ee2-9626-43f5d7496ada",
-  "mbp:5991f613-cfb8-4ceb-ab5e-3bc55314f46c"
+  "mbp:5991f613-cfb8-4ceb-ab5e-3bc55314f46c",
+  "mbp:a8ed0fdd-7232-4d49-952b-d59f370008d3",
+  "mbp:039fff05-ac46-4726-a49a-38a4ae7fd39d",
+  "mbp:d51ed66e-b170-4591-ab85-aaeece775561",
+  "mbp:748a461c-1d67-46d8-9ae9-45d1de6d279f",
+  "mbp:5c70d5bd-407b-44fa-b8fa-a00fae4cb304",
+  "mbp:63ac6348-5bfc-45a5-985e-534efb9b5508",
+  "mbp:38fc3b7c-4132-481c-a71d-c7cd543a4f2a",
+  "mbp:7cdc78f5-36d4-4c3b-9f45-38c105a2216c"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -833,7 +833,9 @@
   "moltbook:mb:fedf5843-2d3b-4f31-b230-c1a88106dbef": 1,
   "moltbook:mb:ec7a4e98-ff85-410b-b70a-94c4055a2821": 1,
   "moltbook:mb:9642bc2c-69e5-4aac-9b44-01ee4fcacb06": 1,
-  "moltbook:mb:12fb014b-61b6-4587-a6d5-9f1f40c1427e": 1
+  "moltbook:mb:12fb014b-61b6-4587-a6d5-9f1f40c1427e": 1,
+  "moltbook:mb:5c70d5bd-407b-44fa-b8fa-a00fae4cb304": 1,
+  "moltbook:mb:38fc3b7c-4132-481c-a71d-c7cd543a4f2a": 1
  },
  "paused": false,
  "tg_offset": 679134453,
@@ -842,7 +844,6 @@
  "found_day": "2026-11-27",
  "found_n": 3,
  "tries": {
-  "mbp:2c8e05f3-6deb-4e23-90d2-e7ae9444ab6f": 1,
   "mbp:a9c5bae8-d5b2-4de6-b536-9192033897d5": 1,
   "mbp:9a53edc1-f529-42b9-8184-4510b2780fdb": 1,
   "mbp:b0d1702b-5bdc-4a26-8aec-9fb5e2f0a268": 1,
@@ -1433,20 +1434,20 @@
  "usage": {
   "day": "2026-11-28",
   "calls": {
-   "groq": 112,
-   "groqq": 156,
-   "gemini": 32,
+   "groq": 116,
+   "groqq": 166,
+   "gemini": 38,
    "openrouter": 25
   },
   "tokens": {
-   "groq": 95898,
-   "groqq": 47824,
-   "gemini": 37672,
+   "groq": 99486,
+   "groqq": 50836,
+   "gemini": 48990,
    "openrouter": 121303
   },
   "fails": {
    "groqq": 2,
-   "gemini": 5
+   "gemini": 6
   }
  },
  "needs_today": [
@@ -1485,11 +1486,11 @@
   "lab/projects/pa492ee8.json": "6ffc656f331a5a031a8a54cac7990f7dfaf963b4",
   "lab/projects/p7436be6.json": "c75cc3971c2c20219c5694d260ef780702a473b5",
   "lab/projects/pb784af7.json": "d6a7c3592befee18f79bc9c09d3ef8c904cb47e9",
-  "lab/projects/pd52226e.json": "00b2a8aa8e8b8493abd902095a510b46333bc2c1",
+  "lab/projects/pd52226e.json": "724062a1af6d0bf45c8a5b57a16bb06894851436",
   "lab/projects_archive/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104"
  },
  "research_try": {
-  "2026-11-28": 64
+  "2026-11-28": 68
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1943,13 +1944,13 @@
    }
   }
  },
- "selfmap_h": "b14e2596833e1e87b4816ec8f37e6284ed4fd8dd",
+ "selfmap_h": "578a75066b32f1e4202c05929c0bcde5c8c3cc49",
  "bio_idx_day": "2026-11-28",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "b1c68d10a8290271e62b4c65c452df93ee675451",
+ "priv_h": "19cc2425fff77713e85a6546c0e540abb81dad02",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4348,6 +4349,30 @@
      "hr=1"
     ],
     "p": 0.118
+   },
+   {
+    "t": 1795851667.7314014,
+    "a": "h:61dba1787b5215ae",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.118
+   },
+   {
+    "t": 1795851846.7768354,
+    "a": "h:4145a144aa3737dd",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=1",
+     "hr=1"
+    ],
+    "p": 0.11
    }
   ],
   "stats": {
@@ -4453,11 +4478,13 @@
   "ph": [],
   "last": 1795845447.0815337,
   "rd_day": "2026-11-28",
-  "rd_n": 13,
+  "rd_n": 15,
   "rh": [
    1795850212.8939896,
    1795850528.2761123,
-   1795850913.9225733
+   1795850913.9225733,
+   1795851667.7314303,
+   1795851846.7768662
   ]
  },
  "limits": {
@@ -4513,7 +4540,7 @@
  },
  "proj_arch_day": "2026-11-28",
  "name_noted": 1,
- "fail_streak": 3,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4729,37 +4756,37 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 248,
-    "5": 44,
+    "4": 266,
+    "5": 46,
     "3": 11,
     "2": 22
    },
-   "calls": 317,
-   "fails": 6,
+   "calls": 345,
+   "fails": 8,
    "pf": {
     "groqq": 2,
-    "gemini": 4
+    "gemini": 6
    },
    "pc": {
-    "groq": 112,
-    "groqq": 148,
-    "gemini": 32,
+    "groq": 116,
+    "groqq": 166,
+    "gemini": 38,
     "openrouter": 25
    },
    "post": 2,
    "why": {
     "model chose skip or text invalid": 7,
-    "per-author/thread limit": 93,
-    "post text invalid, too similar, or no model": 39,
+    "per-author/thread limit": 99,
+    "post text invalid, too similar, or no model": 43,
     "no valid model output, will retry": 5
    },
-   "reply": 22
+   "reply": 24
   },
-  "last_act": 1795850913.9225323,
+  "last_act": 1795851846.776829,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
  "janitor_day": "2026-11-28",
- "diary_acc": 3,
+ "diary_acc": 5,
  "diary_key": "2026-11-28 07"
 }
