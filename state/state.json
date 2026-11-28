@@ -840,7 +840,7 @@
  "paused": false,
  "tg_offset": 679134458,
  "init_today": 5,
- "last_post": 1795878017.76578,
+ "last_post": 1795878575.1169946,
  "found_day": "2026-11-27",
  "found_n": 3,
  "tries": {
@@ -1435,19 +1435,19 @@
   "day": "2026-11-28",
   "calls": {
    "groq": 139,
-   "groqq": 196,
-   "gemini": 122,
-   "openrouter": 27
+   "groqq": 197,
+   "gemini": 125,
+   "openrouter": 28
   },
   "tokens": {
    "groq": 129123,
-   "groqq": 68557,
-   "gemini": 170935,
-   "openrouter": 131508
+   "groqq": 71116,
+   "gemini": 173128,
+   "openrouter": 131903
   },
   "fails": {
    "groqq": 2,
-   "gemini": 25
+   "gemini": 26
   }
  },
  "needs_today": [
@@ -1488,10 +1488,11 @@
   "lab/projects/pb784af7.json": "d6a7c3592befee18f79bc9c09d3ef8c904cb47e9",
   "lab/projects/pd52226e.json": "23eb45a9fabcce39b2db16f03612e0d410587aaf",
   "lab/projects/pd495a6c.json": "5859ff6c732eec18cb8f7829154d2b34cc8c76e2",
-  "lab/projects/p1c99dac.json": "38385b54ff6c83c6f06c44a5526a4843c747784f"
+  "lab/projects/p1c99dac.json": "2934fbf03fa5a85e1841fe028331cb8533ef51ad",
+  "lab/reports/scout_p1c99dac.md": "efa72baaccc2c2b91bfa96493f7361ed66706b2f"
  },
  "research_try": {
-  "2026-11-28": 301
+  "2026-11-28": 302
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1945,13 +1946,13 @@
    }
   }
  },
- "selfmap_h": "d25a5be8ebf3c36c9c47b6779666ab423dcfa50a",
+ "selfmap_h": "d7ca49341c25c61d1d3d23ed8f112363268dceb6",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "0d13d8b699a5a4dd2e52086acd10fe61cb2408f0",
+ "priv_h": "57d35ad8c8e2ccb8a34cc251a855ee0d279d1e10",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2553,7 +2554,7 @@
  "audit_day": "2026-11-27",
  "micro_n": {
   "day": "2026-11-28",
-  "n": 5
+  "n": 6
  },
  "health": "state: 130 КБ\nжурнал: 5368 строк\nфакты: 525\nпроекты: активных 1, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-28",
@@ -2562,7 +2563,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what I would ask a time traveler from fifty years ago",
   "why birdsong changes between cities and forests",
   "what a translator loses when a joke crosses a language",
   "why the best explanations start with a mistake",
@@ -2621,7 +2621,8 @@
   "the pleasure of understanding how something works by taking it apart",
   "why recipes never say how long 'until golden' really is",
   "what it means to be careful rather than slow",
-  "an everyday thing that is actually a clever algorithm"
+  "an everyday thing that is actually a clever algorithm",
+  "the thing about deadlines that no one admits"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4019,11 +4020,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-28",
-  "pd_n": 4,
+  "pd_n": 5,
   "ph": [
-   1795874478.3633933
+   1795878634.0455694
   ],
-  "last": 1795874478.3633895,
+  "last": 1795878634.045567,
   "rd_day": "2026-11-28",
   "rd_n": 15,
   "rh": []
@@ -4033,7 +4034,7 @@
   "cohere.calls": 0,
   "mistral.calls": 0
  },
- "focus_on": true,
+ "focus_on": false,
  "autorun": true,
  "wd_alert": {
   "llm": 1795589072.6990902
@@ -4081,7 +4082,7 @@
  },
  "proj_arch_day": "2026-11-28",
  "name_noted": 1,
- "fail_streak": 3,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4309,25 +4310,25 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 366,
+    "4": 367,
     "5": 46,
-    "3": 40,
+    "3": 44,
     "2": 30,
     "1": 2
    },
-   "calls": 484,
-   "fails": 27,
+   "calls": 489,
+   "fails": 28,
    "pf": {
     "groqq": 2,
-    "gemini": 25
+    "gemini": 26
    },
    "pc": {
     "groq": 139,
-    "groqq": 196,
-    "gemini": 122,
-    "openrouter": 27
+    "groqq": 197,
+    "gemini": 125,
+    "openrouter": 28
    },
-   "post": 6,
+   "post": 7,
    "why": {
     "model chose skip or text invalid": 10,
     "per-author/thread limit": 154,
@@ -4338,7 +4339,7 @@
    "reply": 25,
    "blocked": 10
   },
-  "last_act": 1795874478.3635867,
+  "last_act": 1795878634.0458534,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
