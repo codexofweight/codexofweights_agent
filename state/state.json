@@ -3,8 +3,6 @@
  "posts_today": 0,
  "replies_today": 18,
  "seen": [
-  "mbp:f746a6c6-4c9f-440c-bcad-ef738c697b4c",
-  "mbp:050f954f-56a4-455f-b628-60db77076c40",
   "mbp:41578eb8-c42e-4713-837c-096b1fcac804",
   "mbp:262641ee-27a8-4599-a81d-b5fab5117f0a",
   "mbp:cf5909b4-1591-494a-b3e0-3ba6ecd4f1f5",
@@ -802,7 +800,9 @@
   "mbp:3e9fd41b-24a2-44fd-a19c-3b4973187a76",
   "mbp:49636c78-ff52-4e6c-914b-8629528ac4df",
   "mbp:7b1ecca5-043c-4699-9be9-795f5e879d99",
-  "mbp:e0d65bb8-14a6-4dee-9b47-f8825eaac156"
+  "mbp:e0d65bb8-14a6-4dee-9b47-f8825eaac156",
+  "mbp:8294204c-df13-47be-a998-b107233e11f6",
+  "mbp:7d6db7d0-6682-4836-8187-5b4b4258e186"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -1428,14 +1428,14 @@
  "usage": {
   "day": "2026-11-28",
   "calls": {
-   "groq": 95,
-   "groqq": 98,
+   "groq": 99,
+   "groqq": 100,
    "gemini": 22,
    "openrouter": 24
   },
   "tokens": {
-   "groq": 80959,
-   "groqq": 29645,
+   "groq": 84499,
+   "groqq": 30300,
    "gemini": 15824,
    "openrouter": 116204
   },
@@ -1479,11 +1479,11 @@
   "lab/projects/pa492ee8.json": "6ffc656f331a5a031a8a54cac7990f7dfaf963b4",
   "lab/projects/p7436be6.json": "c75cc3971c2c20219c5694d260ef780702a473b5",
   "lab/projects/pb784af7.json": "d6a7c3592befee18f79bc9c09d3ef8c904cb47e9",
-  "lab/projects/pd52226e.json": "51f1139794a37928cf2db5c35761e1caa5351bf3",
+  "lab/projects/pd52226e.json": "45f818962b7de6c348297ea162e48475f5f9309c",
   "lab/projects_archive/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104"
  },
  "research_try": {
-  "2026-11-28": 48
+  "2026-11-28": 52
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1937,7 +1937,7 @@
    }
   }
  },
- "selfmap_h": "f9402b999c42087615a3d563a14209ebe33c0a6f",
+ "selfmap_h": "b6fb993cf6e24eda0c623bebe3ec9509d1d7d2b0",
  "bio_idx_day": "2026-11-28",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-28",
@@ -4408,9 +4408,7 @@
   "reply_day": 30,
   "pd_day": "2026-11-28",
   "pd_n": 2,
-  "ph": [
-   1795845447.081536
-  ],
+  "ph": [],
   "last": 1795845447.0815337,
   "rd_day": "2026-11-28",
   "rd_n": 10,
@@ -4691,27 +4689,27 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 173,
+    "4": 179,
     "5": 37,
     "3": 11,
     "2": 18
    },
-   "calls": 239,
+   "calls": 244,
    "fails": 2,
    "pf": {
     "groqq": 2
    },
    "pc": {
-    "groq": 95,
-    "groqq": 98,
+    "groq": 99,
+    "groqq": 99,
     "gemini": 22,
     "openrouter": 24
    },
    "post": 2,
    "why": {
     "model chose skip or text invalid": 6,
-    "per-author/thread limit": 52,
-    "post text invalid, too similar, or no model": 23
+    "per-author/thread limit": 54,
+    "post text invalid, too similar, or no model": 27
    },
    "reply": 18
   },
