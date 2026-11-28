@@ -1490,7 +1490,7 @@
   "lab/projects/pd495a6c.json": "5859ff6c732eec18cb8f7829154d2b34cc8c76e2"
  },
  "research_try": {
-  "2026-11-28": 210
+  "2026-11-28": 214
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1950,7 +1950,7 @@
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "ccd5346e13bf46797ec64e6444573dcf6b777dcb",
+ "priv_h": "8330c480f042ef19114b4625b4fce050cb10b081",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
