@@ -1494,7 +1494,7 @@
   "lab/reports/scout_p1c99dac.md": "efa72baaccc2c2b91bfa96493f7361ed66706b2f"
  },
  "research_try": {
-  "2026-11-28": 402
+  "2026-11-28": 406
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -4332,7 +4332,7 @@
     "2": 53,
     "1": 4
    },
-   "calls": 562,
+   "calls": 564,
    "fails": 34,
    "pf": {
     "groqq": 2,
@@ -4341,7 +4341,7 @@
    "pc": {
     "groq": 149,
     "groqq": 208,
-    "gemini": 174,
+    "gemini": 176,
     "openrouter": 31
    },
    "post": 12,
