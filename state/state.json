@@ -1491,7 +1491,7 @@
   "lab/projects/pd495a6c.json": "5859ff6c732eec18cb8f7829154d2b34cc8c76e2"
  },
  "research_try": {
-  "2026-11-28": 96
+  "2026-11-28": 100
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -4432,10 +4432,7 @@
   "last": 1795845447.0815337,
   "rd_day": "2026-11-28",
   "rd_n": 15,
-  "rh": [
-   1795851667.7314303,
-   1795851846.7768662
-  ]
+  "rh": []
  },
  "limits": {
   "gemini.calls": 450,
@@ -4732,7 +4729,7 @@
    "why": {
     "model chose skip or text invalid": 8,
     "per-author/thread limit": 108,
-    "post text invalid, too similar, or no model": 71,
+    "post text invalid, too similar, or no model": 75,
     "no valid model output, will retry": 8,
     "stop-intent guard unavailable, will retry next cycle": 1
    },
