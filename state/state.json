@@ -1490,7 +1490,7 @@
   "lab/projects/pd495a6c.json": "5859ff6c732eec18cb8f7829154d2b34cc8c76e2"
  },
  "research_try": {
-  "2026-11-28": 166
+  "2026-11-28": 170
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -4415,7 +4415,7 @@
     "3": 15,
     "2": 22
    },
-   "calls": 402,
+   "calls": 407,
    "fails": 15,
    "pf": {
     "groqq": 2,
@@ -4424,14 +4424,14 @@
    "pc": {
     "groq": 127,
     "groqq": 180,
-    "gemini": 70,
+    "gemini": 75,
     "openrouter": 25
    },
    "post": 2,
    "why": {
     "model chose skip or text invalid": 9,
     "per-author/thread limit": 127,
-    "post text invalid, too similar, or no model": 141,
+    "post text invalid, too similar, or no model": 145,
     "no valid model output, will retry": 8,
     "stop-intent guard unavailable, will retry next cycle": 4
    },
