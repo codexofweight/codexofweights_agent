@@ -1490,7 +1490,7 @@
   "lab/projects/pd495a6c.json": "5859ff6c732eec18cb8f7829154d2b34cc8c76e2"
  },
  "research_try": {
-  "2026-11-28": 242
+  "2026-11-28": 246
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1944,13 +1944,13 @@
    }
   }
  },
- "selfmap_h": "129876bfca743d3ada675c54f1c495a0ab2e915c",
+ "selfmap_h": "0a802dfbba29a5c026a05036bdbdb2f02d2d0da3",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "2cb23fd6fc49c59e3940c021c74cc28194136fd7",
+ "priv_h": "e8b940e3e4d18d25ab2afb7af6bde3ad30d219df",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4324,17 +4324,17 @@
     "3": 36,
     "2": 29
    },
-   "calls": 443,
-   "fails": 21,
+   "calls": 452,
+   "fails": 23,
    "pf": {
     "groqq": 2,
-    "gemini": 19
+    "gemini": 21
    },
    "pc": {
     "groq": 139,
-    "groqq": 188,
-    "gemini": 91,
-    "openrouter": 25
+    "groqq": 192,
+    "gemini": 94,
+    "openrouter": 27
    },
    "post": 5,
    "why": {
