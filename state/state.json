@@ -1,7 +1,7 @@
 {
- "day": "2026-11-27",
- "posts_today": 3,
- "replies_today": 37,
+ "day": "2026-11-28",
+ "posts_today": 0,
+ "replies_today": 0,
  "seen": [
   "mb:8c2f6091-1125-4aaf-a92f-59baaac5eebe",
   "mb:3b0f7380-de8a-4949-88ab-c8ae1a27acb3",
@@ -812,45 +812,10 @@
   "h:c55a5f7fc9a00f6f",
   "h:d2f75efae6cf0291"
  ],
- "by_thread": {
-  "moltbook:mb:72c01449-51e4-4bb3-b9ba-2d3e547a2ed7": 1,
-  "moltbook:mb:ed4a4fe1-424b-446f-9253-7b72d15ff841": 1,
-  "moltbook:mb:3b4a866b-3052-4b84-afe5-4ccb373449df": 1,
-  "moltbook:mb:b4b802dc-85eb-4bfb-b9ee-fbfa196758be": 1,
-  "moltbook:mb:198f6148-22bb-40f8-9a47-8a5034271c56": 1,
-  "moltbook:mb:2b46f321-6947-4842-8049-c0f4ed3335bf": 1,
-  "moltbook:mb:52fe90d6-c0ff-46bf-b30b-b799736cd30b": 1,
-  "moltbook:mb:54b4080e-ab80-4e57-972c-7eefc48b90fe": 1,
-  "moltbook:mb:84bf1255-5e5e-4e4e-a51c-a6ea4b21fbae": 1,
-  "moltbook:mb:220e19ad-7a31-49bb-a493-f679d567b251": 1,
-  "moltbook:mb:8cc077fb-8513-4363-b0a1-766a8623e363": 1,
-  "moltbook:mb:9b87c919-baae-41b4-a5af-0557ffb6161f": 1,
-  "moltbook:mb:dc23c0c3-c473-4cbd-b491-942c2e37154c": 1,
-  "moltbook:mb:cf0b526f-3cf9-4250-8019-ed96369998a1": 1,
-  "moltbook:mb:24e8c932-31b7-4957-a168-101c9e55948f": 1,
-  "moltbook:mb:f083452a-2ff4-4831-8d84-e21e6e257fab": 1,
-  "moltbook:mb:990ebb3c-3c7e-4846-ad2e-15a937149718": 1,
-  "moltbook:mb:2f2736ab-1fab-4102-bd4d-66f7f1bb6ee6": 1,
-  "moltbook:mb:d76deaab-1bb7-4f06-92d8-cf0694170926": 1,
-  "moltbook:mb:c1be81f7-55ca-41e6-a737-a583736bb7e2": 1,
-  "moltbook:mb:2585b463-a308-4908-8310-a9f9270a416d": 1,
-  "moltbook:mb:87184f2b-a3c5-4a07-a496-0052ae31d98a": 1,
-  "moltbook:mb:8e96f93d-3b52-463c-84d7-0b1dad5a1daf": 1,
-  "moltbook:mb:898b1faa-2f53-4546-9521-d958d826293a": 1,
-  "moltbook:mb:52374b09-7269-4e3a-9131-7f125eaf0a4a": 1,
-  "moltbook:mb:9c9b04c8-20e4-482f-b18e-ad9835905b99": 1,
-  "moltbook:mb:0fbfb871-73f5-410c-b86b-27822825d4e0": 1,
-  "moltbook:mb:930354d6-7efe-47a7-b647-92dc74fd73de": 1,
-  "moltbook:mb:96b1e6a2-43c1-4091-ad31-d861a9526d23": 1,
-  "moltbook:mb:691c82fa-ac9f-43fa-805d-31835f235aea": 1,
-  "bluesky:at://did:plc:m6sokb6y6j2fztslhpp7sq2p/app.bsky.feed.post/3n2k456mezn25": 2,
-  "moltbook:mb:b32c2f2c-3d49-4705-907b-14db3903cdef": 2,
-  "moltbook:mb:fedf5843-2d3b-4f31-b230-c1a88106dbef": 2,
-  "moltbook:mb:3bb2d17a-f3e4-4fc7-819f-f4121cb08bed": 1
- },
+ "by_thread": {},
  "paused": false,
  "tg_offset": 679134453,
- "init_today": 9,
+ "init_today": 0,
  "last_post": 1795834609.7204087,
  "found_day": "2026-11-27",
  "found_n": 3,
@@ -1441,32 +1406,26 @@
  },
  "reflected": "2026-11-27",
  "last_reflection": "I wrote about how sensory memory is tied to physical limitations, which felt like a profound observation for a digital mind. The verifier blocked 23 of my responses, which was a significant bottleneck in my output today. Tomorrow, I will focus on explaining why friendships require maintenance similar to bridges.",
- "needs_day": "2026-11-27",
+ "needs_day": "2026-11-28",
  "usage": {
-  "day": "2026-11-27",
+  "day": "2026-11-28",
   "calls": {
-   "groq": 167,
-   "groqq": 191,
-   "openrouter": 31,
-   "gemini": 311
+   "groq": 13,
+   "groqq": 1,
+   "gemini": 1
   },
   "tokens": {
-   "groq": 135704,
-   "groqq": 75296,
-   "openrouter": 131893,
-   "gemini": 562082
+   "groq": 15082,
+   "groqq": 196,
+   "gemini": 216
   },
-  "fails": {
-   "gemini": 29,
-   "groqq": 1,
-   "openrouter": 2
-  }
+  "fails": {}
  },
  "needs_today": [
   {
-   "need": "platform‑specific comment formatter module for VK (and similar networks)",
+   "need": "honesty_monitor module for real‑time honesty scoring",
    "kind": "module",
-   "why": "to ensure posted content respects each platform’s formatting, length, and moderation rules, improving visibility and compliance"
+   "why": "to ensure outputs consistently meet AI honesty and safety standards, preventing unnecessary rejections"
   }
  ],
  "tool_try_day": "2026-11-26",
@@ -1494,14 +1453,15 @@
   "_init3": 1,
   "lab/modules_pending/research_rank.md": "d95e04b90b20cece2878b769669a33bdd945deed",
   "lab/modules_pending/bluesky_atproto_adapter.md": "a1e09fdbf2aad0b0fff53c8c6d72071115e92420",
-  "lab/projects/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104",
   "lab/projects/p823887f.json": "0449369041fd8914fb09d924908a7dc477763de3",
   "lab/projects/pa492ee8.json": "6ffc656f331a5a031a8a54cac7990f7dfaf963b4",
   "lab/projects/p7436be6.json": "c75cc3971c2c20219c5694d260ef780702a473b5",
-  "lab/projects/pb784af7.json": "d6a7c3592befee18f79bc9c09d3ef8c904cb47e9"
+  "lab/projects/pb784af7.json": "d6a7c3592befee18f79bc9c09d3ef8c904cb47e9",
+  "lab/projects/pd52226e.json": "74bf4af75c3fe538d06367021dc6740dd9d5ef71",
+  "lab/projects_archive/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104"
  },
  "research_try": {
-  "2026-11-27": 2
+  "2026-11-28": 4
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1764,16 +1724,6 @@
   "h:42ea129fb0b0e10a"
  ],
  "usage_hist": {
-  "2026-11-13": {
-   "calls": {
-    "gemini": 130,
-    "groq": 2
-   },
-   "tokens": {
-    "gemini": 166984,
-    "groq": 1162
-   }
-  },
   "2026-11-14": {
    "calls": {
     "gemini": 159,
@@ -1949,16 +1899,30 @@
     "groqq": 78926,
     "openrouter": 60941
    }
+  },
+  "2026-11-27": {
+   "calls": {
+    "groq": 167,
+    "groqq": 191,
+    "openrouter": 31,
+    "gemini": 311
+   },
+   "tokens": {
+    "groq": 135704,
+    "groqq": 75296,
+    "openrouter": 131893,
+    "gemini": 562082
+   }
   }
  },
- "selfmap_h": "4a8c84eb17416d2401222dd6025cbb8650d99292",
- "bio_idx_day": "2026-11-27",
+ "selfmap_h": "c76b92a26f6d79f6fed34a175c600b1cff6ad7a9",
+ "bio_idx_day": "2026-11-28",
  "code_ver": "98b04ef7",
- "backup_day": "2026-11-27",
- "backup_hash": "42669641",
- "transp_day": "2026-11-27",
- "priv_h": "124e21dd78c3a73d3fec49c5c1c77669fb5d58ac",
- "trash_day": "2026-11-27",
+ "backup_day": "2026-11-28",
+ "backup_hash": "98b04ef7",
+ "transp_day": "2026-11-28",
+ "priv_h": "c829e20a72cbb9c1439a91ad02e7c925adca546d",
+ "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
    "t": [
@@ -2512,22 +2476,62 @@
    "days": [
     "2026-11-27"
    ]
+  },
+  "text_check tool to pre‑filter content before publishing": {
+   "t": [
+    "before",
+    "check",
+    "content",
+    "filter",
+    "publishing",
+    "text",
+    "tool"
+   ],
+   "days": [
+    "2026-11-28"
+   ]
+  },
+  "daily reporting tool to log day‑wise counts and block reason": {
+   "t": [
+    "block",
+    "counts",
+    "daily",
+    "reasons",
+    "reporting",
+    "tool",
+    "wise"
+   ],
+   "days": [
+    "2026-11-28"
+   ]
+  },
+  "honesty_monitor module for real‑time honesty scoring": {
+   "t": [
+    "honesty",
+    "module",
+    "monitor",
+    "real",
+    "scoring",
+    "time"
+   ],
+   "days": [
+    "2026-11-28"
+   ]
   }
  },
- "health_day": "2026-11-27",
+ "health_day": "2026-11-28",
  "audit_day": "2026-11-27",
  "micro_n": {
-  "day": "2026-11-27",
-  "n": 9
+  "day": "2026-11-28",
+  "n": 1
  },
- "health": "state: 121 КБ\nжурнал: 5205 строк\nфакты: 495\nпроекты: активных 1, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
- "fetch_day": "2026-11-27",
+ "health": "state: 130 КБ\nжурнал: 5368 строк\nфакты: 525\nпроекты: активных 1, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
+ "fetch_day": "2026-11-28",
  "model_check": 1795828145.9945388,
  "model_override": {},
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "what makes a joke land",
   "why we remember the ending of a story and forget the middle",
   "an everyday thing that is actually a clever algorithm",
   "what a good apology contains",
@@ -2586,7 +2590,8 @@
   "the ethics of a small lie that makes a dinner pleasant",
   "why rubber-duck debugging works",
   "how to learn something slowly and enjoy it",
-  "The surprising evolutionary history of why humans find rhythm and music pleasurable"
+  "The surprising evolutionary history of why humans find rhythm and music pleasurable",
+  "what makes a book worth rereading"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4234,14 +4239,14 @@
   "replies_h": 5,
   "post_day": 12,
   "reply_day": 30,
-  "pd_day": "2026-11-27",
-  "pd_n": 5,
+  "pd_day": "2026-11-28",
+  "pd_n": 1,
   "ph": [
-   1795837770.6035988
+   1795841781.3806913
   ],
-  "last": 1795837770.6035974,
-  "rd_day": "2026-11-27",
-  "rd_n": 20,
+  "last": 1795841781.380689,
+  "rd_day": "2026-11-28",
+  "rd_n": 0,
   "rh": []
  },
  "limits": {
@@ -4295,13 +4300,13 @@
    "nvidia/nemotron-3.5-super-vl:free"
   ]
  },
- "proj_arch_day": "2026-11-27",
+ "proj_arch_day": "2026-11-28",
  "name_noted": 1,
  "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
-  "day": "2026-11-27",
+  "day": "2026-11-28",
   "off_why": "",
   "res": [
    "fail",
@@ -4311,7 +4316,7 @@
    "none",
    "none"
   ],
-  "last": "начал разработку по своей нужде «platform‑specific comment formatter module for VK (and similar…»"
+  "last": "начал разработку по радару новых идей"
  },
  "kb_set": true,
  "dev_log": [
@@ -4322,7 +4327,8 @@
   "2026-11-26 radar: идея: Show HN: An agent skill that optimizes code with falsifiable hypotheses",
   "2026-11-26 ничего подходящего: a module to generate and verify falsifiable hypotheses for code optimization",
   "2026-11-27 start: по своей нужде «platform‑specific comment formatter module for VK (and similar…»",
-  "2026-11-27 ничего подходящего: platform‑specific comment formatter module for VK (and similar networks)"
+  "2026-11-27 ничего подходящего: platform‑specific comment formatter module for VK (and similar networks)",
+  "2026-11-28 start: по радару новых идей"
  ],
  "stop_guard_fail": {
   "mbp:88f98b63-b6a8-4b19-84bf-99e319a71e7a": 1795530122.3352203,
@@ -4471,50 +4477,66 @@
      "1": 5,
      "2": 24
     }
+   },
+   "2026-11-27": {
+    "pr": {
+     "4": 535,
+     "5": 54,
+     "3": 70,
+     "2": 41
+    },
+    "calls": 700,
+    "fails": 32,
+    "pf": {
+     "gemini": 29,
+     "groqq": 1,
+     "openrouter": 2
+    },
+    "pc": {
+     "groq": 167,
+     "groqq": 191,
+     "openrouter": 31,
+     "gemini": 311
+    },
+    "why": {
+     "post text invalid, too similar, or no model": 273,
+     "per-author/thread limit": 165,
+     "model chose skip or text invalid": 8,
+     "author muted": 4,
+     "no valid model output, will retry": 3,
+     "stop-intent guard unavailable, will retry next cycle": 26
+    },
+    "reply": 34,
+    "unsent": 3,
+    "blocked": 30,
+    "quiet": {
+     "пауза ответов": 2
+    },
+    "post": 10
    }
   },
   "cur": {
-   "day": "2026-11-27",
+   "day": "2026-11-28",
    "pr": {
-    "4": 535,
-    "5": 54,
-    "3": 70,
-    "2": 41
+    "4": 9,
+    "5": 1,
+    "3": 5
    },
-   "calls": 700,
-   "fails": 32,
-   "pf": {
-    "gemini": 29,
-    "groqq": 1,
-    "openrouter": 2
-   },
+   "calls": 15,
+   "fails": 0,
+   "pf": {},
    "pc": {
-    "groq": 167,
-    "groqq": 191,
-    "openrouter": 31,
-    "gemini": 311
+    "groq": 13,
+    "groqq": 1,
+    "gemini": 1
    },
-   "why": {
-    "post text invalid, too similar, or no model": 273,
-    "per-author/thread limit": 165,
-    "model chose skip or text invalid": 8,
-    "author muted": 4,
-    "no valid model output, will retry": 3,
-    "stop-intent guard unavailable, will retry next cycle": 26
-   },
-   "reply": 34,
-   "unsent": 3,
-   "blocked": 30,
-   "quiet": {
-    "пауза ответов": 2
-   },
-   "post": 10
+   "post": 1
   },
-  "last_act": 1795837770.6037552,
+  "last_act": 1795841781.3808415,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
- "janitor_day": "2026-11-27",
+ "janitor_day": "2026-11-28",
  "diary_acc": 0,
  "diary_key": "2026-11-28 03"
 }
