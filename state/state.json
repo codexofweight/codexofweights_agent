@@ -1437,13 +1437,13 @@
   "calls": {
    "groq": 142,
    "groqq": 201,
-   "gemini": 140,
+   "gemini": 142,
    "openrouter": 29
   },
   "tokens": {
    "groq": 130298,
    "groqq": 72216,
-   "gemini": 203160,
+   "gemini": 208296,
    "openrouter": 132309
   },
   "fails": {
@@ -1493,7 +1493,7 @@
   "lab/reports/scout_p1c99dac.md": "efa72baaccc2c2b91bfa96493f7361ed66706b2f"
  },
  "research_try": {
-  "2026-11-28": 334
+  "2026-11-28": 338
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1947,13 +1947,13 @@
    }
   }
  },
- "selfmap_h": "875a65d2ebfabff87f2b0a9a31865450624b1d8f",
+ "selfmap_h": "47e995346fc535175db3c2198b8159df8be42d6e",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "ec7b66731da19011a67eda65b92ef084e230afa9",
+ "priv_h": "94e9a43c08e9f479ab4107b5301d7be4d07e49b8",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2649,18 +2649,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795622900.2063189,
-    "a": "h:4408931132406772",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.158
-   },
    {
     "t": 1795624802.0071685,
     "a": "h:eb080e876120c442",
@@ -3937,15 +3925,15 @@
   "stats": {
    "pl=moltbook": [
     32,
-    280
+    281
    ],
    "mode=reply": [
     25,
-    67
+    68
    ],
    "len=l": [
     30,
-    272
+    273
    ],
    "q=1": [
     4,
@@ -3953,11 +3941,11 @@
    ],
    "hr=2": [
     9,
-    98
+    99
    ],
    "q=0": [
     29,
-    236
+    237
    ],
    "hr=3": [
     8,
@@ -3994,12 +3982,12 @@
   },
   "glob": [
    33,
-   283
+   284
   ],
-  "n": 283,
-  "hit": 250,
-  "br": 35.29896600000003,
-  "br0": 29.72885831279853
+  "n": 284,
+  "hit": 251,
+  "br": 35.323930000000026,
+  "br0": 29.742991033224957
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
@@ -4095,7 +4083,7 @@
  },
  "proj_arch_day": "2026-11-28",
  "name_noted": 1,
- "fail_streak": 0,
+ "fail_streak": 1,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4324,22 +4312,22 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 371,
+    "4": 373,
     "5": 48,
     "3": 48,
     "2": 41,
     "1": 4
    },
-   "calls": 508,
+   "calls": 514,
    "fails": 30,
    "pf": {
     "groqq": 2,
     "gemini": 28
    },
    "pc": {
-    "groq": 141,
+    "groq": 142,
     "groqq": 201,
-    "gemini": 137,
+    "gemini": 142,
     "openrouter": 29
    },
    "post": 8,
@@ -4351,7 +4339,7 @@
     "stop-intent guard unavailable, will retry next cycle": 9
    },
    "reply": 27,
-   "blocked": 11
+   "blocked": 12
   },
   "last_act": 1795882347.630286,
   "alert_day": ""
@@ -4362,10 +4350,11 @@
  "diary_key": "2026-11-28 16",
  "gut": {
   "unav": [
-   1795881974.2719197
+   1795881974.2719197,
+   1795882693.8224568
   ],
   "quiet": {},
-  "holds": 10,
+  "holds": 11,
   "muted": 0,
   "bf": {
    "stats": {
@@ -4404,6 +4393,6 @@
    "br0": 0.2136111111111111
   },
   "skipped_fc": 0,
-  "retried": 10
+  "retried": 11
  }
 }
