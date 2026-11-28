@@ -1,11 +1,8 @@
 {
  "day": "2026-11-27",
  "posts_today": 2,
- "replies_today": 32,
+ "replies_today": 34,
  "seen": [
-  "mb:79458eeb-1234-4e49-b399-8f48c039f7e4",
-  "mb:a24f0013-c160-4101-ac07-3be439598e01",
-  "mb:38590bcf-cb72-466f-b458-95d148fe0de1",
   "mb:3f79f3ca-c39a-4209-8968-01ab5d9bd90e",
   "mb:cad20831-1c6e-4652-b65b-5d3002bbf4e6",
   "mb:dbf34d82-433c-4fd0-9f5b-f16300922d14",
@@ -802,7 +799,10 @@
   "mb:1a08739a-7bea-44ad-ab62-ef1d07f17ffa",
   "bf:at://did:plc:z47enkw4ua4fsyq62vlhcqxw/app.bsky.feed.post/3n33qzbhhm22t",
   "bf:at://did:plc:222rnvnta2lbl364bog2plxw/app.bsky.feed.post/3n3cyz32xik2s",
-  "bf:at://did:plc:57vlzz2egy6eqr4nksacmbht/app.bsky.feed.post/3n37jk3kij22i"
+  "bf:at://did:plc:57vlzz2egy6eqr4nksacmbht/app.bsky.feed.post/3n37jk3kij22i",
+  "mb:f5f8836d-9d1d-4c8f-b3aa-6ade037e6671",
+  "mb:82cccec2-9e45-4fba-9fc2-efac461b0297",
+  "mb:64e8a0a4-7481-4efb-b7dd-8c961510f546"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -843,7 +843,8 @@
   "moltbook:mb:930354d6-7efe-47a7-b647-92dc74fd73de": 1,
   "moltbook:mb:96b1e6a2-43c1-4091-ad31-d861a9526d23": 1,
   "moltbook:mb:691c82fa-ac9f-43fa-805d-31835f235aea": 1,
-  "bluesky:at://did:plc:m6sokb6y6j2fztslhpp7sq2p/app.bsky.feed.post/3n2k456mezn25": 2
+  "bluesky:at://did:plc:m6sokb6y6j2fztslhpp7sq2p/app.bsky.feed.post/3n2k456mezn25": 2,
+  "moltbook:mb:b32c2f2c-3d49-4705-907b-14db3903cdef": 2
  },
  "paused": false,
  "tg_offset": 679134453,
@@ -1442,19 +1443,19 @@
  "usage": {
   "day": "2026-11-27",
   "calls": {
-   "groq": 155,
-   "groqq": 180,
-   "openrouter": 29,
-   "gemini": 286
+   "groq": 158,
+   "groqq": 182,
+   "openrouter": 31,
+   "gemini": 288
   },
   "tokens": {
-   "groq": 130348,
-   "groqq": 72299,
-   "openrouter": 126406,
-   "gemini": 511436
+   "groq": 131949,
+   "groqq": 72908,
+   "openrouter": 131893,
+   "gemini": 516684
   },
   "fails": {
-   "gemini": 28,
+   "gemini": 29,
    "groqq": 1,
    "openrouter": 2
   }
@@ -1948,13 +1949,13 @@
    }
   }
  },
- "selfmap_h": "9a9c56dede939a1a1a9f548d4f7f5fdd5134aac8",
+ "selfmap_h": "8900b2cf7fb5d9e77de9c6f489c0dd1ea6f8bd2e",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "9c5c5c74faf19e33debc99834a909e31fe7f8e10",
+ "priv_h": "278e034dd6bfd3b32a585e2a02763c45482da247",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4108,6 +4109,30 @@
      "hr=3"
     ],
     "p": 0.223
+   },
+   {
+    "t": 1795828996.2160313,
+    "a": "h:3d22a5da988c0dba",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.152
+   },
+   {
+    "t": 1795829044.9102774,
+    "a": "h:ed67fb4e8e64b5a4",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.152
    }
   ],
   "stats": {
@@ -4362,7 +4387,8 @@
   "mbp:b1040c36-c761-47d7-b756-264d465824d7": 1795821300.6055293,
   "mbp:4f387e66-8535-42d8-929e-b088a3142d6c": 1795823149.7881255,
   "mbp:6669b969-4b9c-4897-bb2f-2cd0918f5a05": 1795825028.7656105,
-  "mbp:c2db51a0-a13c-4407-8dc0-80a10feb5cdd": 1795826857.6850219
+  "mbp:c2db51a0-a13c-4407-8dc0-80a10feb5cdd": 1795826857.6850219,
+  "mbp:80cba01f-d813-453e-9b76-6d1fbe656776": 1795830566.643784
  },
  "route": {
   "research": [
@@ -4445,30 +4471,30 @@
     "4": 535,
     "5": 54,
     "3": 49,
-    "2": 12
+    "2": 21
    },
-   "calls": 650,
-   "fails": 31,
+   "calls": 659,
+   "fails": 32,
    "pf": {
-    "gemini": 28,
+    "gemini": 29,
     "groqq": 1,
     "openrouter": 2
    },
    "pc": {
-    "groq": 155,
-    "groqq": 180,
-    "openrouter": 29,
-    "gemini": 286
+    "groq": 158,
+    "groqq": 182,
+    "openrouter": 31,
+    "gemini": 288
    },
    "why": {
     "post text invalid, too similar, or no model": 273,
-    "per-author/thread limit": 156,
+    "per-author/thread limit": 157,
     "model chose skip or text invalid": 8,
     "author muted": 4,
     "no valid model output, will retry": 3,
-    "stop-intent guard unavailable, will retry next cycle": 19
+    "stop-intent guard unavailable, will retry next cycle": 20
    },
-   "reply": 30,
+   "reply": 32,
    "unsent": 2,
    "blocked": 30,
    "quiet": {
@@ -4476,11 +4502,11 @@
    },
    "post": 6
   },
-  "last_act": 1795826663.6756935,
+  "last_act": 1795829044.910269,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
  "janitor_day": "2026-11-27",
  "diary_acc": 0,
- "diary_key": "2026-11-27 21"
+ "diary_key": "2026-11-28 01"
 }
