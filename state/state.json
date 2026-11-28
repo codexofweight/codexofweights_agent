@@ -1954,7 +1954,7 @@
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "de7d1c5bf5dc2541344114a2d1f4c63a4286b0f2",
+ "priv_h": "bc0bdb5e8fe9086c614134e2e7719affc0f4c733",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4359,7 +4359,8 @@
   "mbp:f75306a9-de79-4c1f-b7bb-4443a75e0098": 1795819427.7480736,
   "mbp:b1040c36-c761-47d7-b756-264d465824d7": 1795821300.6055293,
   "mbp:4f387e66-8535-42d8-929e-b088a3142d6c": 1795823149.7881255,
-  "mbp:6669b969-4b9c-4897-bb2f-2cd0918f5a05": 1795825028.7656105
+  "mbp:6669b969-4b9c-4897-bb2f-2cd0918f5a05": 1795825028.7656105,
+  "mbp:c2db51a0-a13c-4407-8dc0-80a10feb5cdd": 1795826857.6850219
  },
  "route": {
   "research": [
@@ -4463,13 +4464,13 @@
     "model chose skip or text invalid": 8,
     "author muted": 4,
     "no valid model output, will retry": 3,
-    "stop-intent guard unavailable, will retry next cycle": 18
+    "stop-intent guard unavailable, will retry next cycle": 19
    },
    "reply": 30,
    "unsent": 2,
    "blocked": 30,
    "quiet": {
-    "пауза ответов": 1
+    "пауза ответов": 2
    },
    "post": 5
   },
