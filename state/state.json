@@ -1,9 +1,8 @@
 {
  "day": "2026-11-28",
  "posts_today": 0,
- "replies_today": 17,
+ "replies_today": 18,
  "seen": [
-  "mbp:09efd164-894e-4938-b2c7-0ea079e6d4a3",
   "mbp:f41446f8-cb2e-4c2c-81fd-c2817f9f317b",
   "mbp:f746a6c6-4c9f-440c-bcad-ef738c697b4c",
   "mbp:050f954f-56a4-455f-b628-60db77076c40",
@@ -802,7 +801,8 @@
   "mbp:ee119d6a-7b82-4335-922a-a55a3c392114",
   "mbp:5dd03eaf-0905-46ae-9129-584cb6d56d89",
   "mbp:3e9fd41b-24a2-44fd-a19c-3b4973187a76",
-  "mbp:49636c78-ff52-4e6c-914b-8629528ac4df"
+  "mbp:49636c78-ff52-4e6c-914b-8629528ac4df",
+  "mbp:7b1ecca5-043c-4699-9be9-795f5e879d99"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -828,11 +828,12 @@
   "moltbook:mb:5f98688d-99e9-44dc-9434-7332ac973026": 1,
   "moltbook:mb:77d929f5-4450-41e8-a483-13c517208454": 1,
   "moltbook:mb:3e9fd41b-24a2-44fd-a19c-3b4973187a76": 1,
-  "moltbook:mb:49636c78-ff52-4e6c-914b-8629528ac4df": 1
+  "moltbook:mb:49636c78-ff52-4e6c-914b-8629528ac4df": 1,
+  "moltbook:mb:7b1ecca5-043c-4699-9be9-795f5e879d99": 1
  },
  "paused": false,
  "tg_offset": 679134453,
- "init_today": 4,
+ "init_today": 5,
  "last_post": 1795834609.7204087,
  "found_day": "2026-11-27",
  "found_n": 3,
@@ -1427,15 +1428,15 @@
  "usage": {
   "day": "2026-11-28",
   "calls": {
-   "groq": 87,
-   "groqq": 93,
-   "gemini": 20,
+   "groq": 91,
+   "groqq": 97,
+   "gemini": 22,
    "openrouter": 24
   },
   "tokens": {
-   "groq": 73879,
-   "groqq": 28169,
-   "gemini": 10539,
+   "groq": 77419,
+   "groqq": 29325,
+   "gemini": 15824,
    "openrouter": 116204
   },
   "fails": {
@@ -1478,11 +1479,11 @@
   "lab/projects/pa492ee8.json": "6ffc656f331a5a031a8a54cac7990f7dfaf963b4",
   "lab/projects/p7436be6.json": "c75cc3971c2c20219c5694d260ef780702a473b5",
   "lab/projects/pb784af7.json": "d6a7c3592befee18f79bc9c09d3ef8c904cb47e9",
-  "lab/projects/pd52226e.json": "2a49f1f94435202b358650cf21640888b1d2f418",
+  "lab/projects/pd52226e.json": "2d8e38ea0a1ef585af1747f2742ac47ea0e214ea",
   "lab/projects_archive/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104"
  },
  "research_try": {
-  "2026-11-28": 40
+  "2026-11-28": 44
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1936,13 +1937,13 @@
    }
   }
  },
- "selfmap_h": "680ca6168102983c03b8b25e4958b1a382befbfa",
+ "selfmap_h": "d834c278ff40db7e25a1117d8c029317f6bb1680",
  "bio_idx_day": "2026-11-28",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "967ad79012e0f03334b65587f87f2e61693c8a30",
+ "priv_h": "a53bb0ee1e0b522addba05497fc614f65a0f02b4",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2638,18 +2639,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795588820.4340515,
-    "a": "h:22e10098b4b0c67f",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=1",
-     "hr=1"
-    ],
-    "p": 0.091
-   },
    {
     "t": 1795590915.0148315,
     "a": "h:b888cee45233ce8c",
@@ -4305,12 +4294,24 @@
      "hr=1"
     ],
     "p": 0.119
+   },
+   {
+    "t": 1795848411.3949118,
+    "a": "h:6ebc782d74e151d2",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=1"
+    ],
+    "p": 0.119
    }
   ],
   "stats": {
    "pl=moltbook": [
     31,
-    238
+    239
    ],
    "mode=reply": [
     24,
@@ -4318,11 +4319,11 @@
    ],
    "len=l": [
     29,
-    233
+    234
    ],
    "q=1": [
     4,
-    40
+    41
    ],
    "hr=2": [
     9,
@@ -4338,7 +4339,7 @@
    ],
    "mode=comment": [
     8,
-    181
+    182
    ],
    "hr=0": [
     8,
@@ -4350,7 +4351,7 @@
    ],
    "hr=1": [
     7,
-    44
+    45
    ],
    "pl=vk": [
     0,
@@ -4367,12 +4368,12 @@
   },
   "glob": [
    32,
-   241
+   242
   ],
-  "n": 241,
-  "hit": 209,
-  "br": 34.07462000000001,
-  "br0": 28.30250219870244
+  "n": 242,
+  "hit": 210,
+  "br": 34.08290100000001,
+  "br0": 28.320793652612682
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
@@ -4690,35 +4691,35 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 160,
-    "5": 35,
+    "4": 168,
+    "5": 37,
     "3": 11,
     "2": 18
    },
-   "calls": 218,
+   "calls": 234,
    "fails": 2,
    "pf": {
     "groqq": 2
    },
    "pc": {
-    "groq": 87,
-    "groqq": 89,
-    "gemini": 18,
+    "groq": 91,
+    "groqq": 97,
+    "gemini": 22,
     "openrouter": 24
    },
    "post": 2,
    "why": {
     "model chose skip or text invalid": 6,
     "per-author/thread limit": 51,
-    "post text invalid, too similar, or no model": 15
+    "post text invalid, too similar, or no model": 19
    },
-   "reply": 17
+   "reply": 18
   },
-  "last_act": 1795848011.26334,
+  "last_act": 1795848411.3949056,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
  "janitor_day": "2026-11-28",
- "diary_acc": 8,
+ "diary_acc": 9,
  "diary_key": "2026-11-28 06"
 }
