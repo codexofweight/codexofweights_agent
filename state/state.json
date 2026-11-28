@@ -1,6 +1,6 @@
 {
  "day": "2026-11-27",
- "posts_today": 2,
+ "posts_today": 3,
  "replies_today": 34,
  "seen": [
   "mb:cad20831-1c6e-4652-b65b-5d3002bbf4e6",
@@ -806,8 +806,8 @@
  ],
  "seen_dry": [],
  "next_saying": 13,
- "post_n": 64,
- "next_theme": 67,
+ "post_n": 65,
+ "next_theme": 68,
  "muted": [
   "h:c55a5f7fc9a00f6f",
   "h:d2f75efae6cf0291"
@@ -849,7 +849,7 @@
  "paused": false,
  "tg_offset": 679134453,
  "init_today": 9,
- "last_post": 1795823699.5400834,
+ "last_post": 1795834609.7204087,
  "found_day": "2026-11-27",
  "found_n": 3,
  "tries": {
@@ -1444,15 +1444,15 @@
   "day": "2026-11-27",
   "calls": {
    "groq": 159,
-   "groqq": 184,
+   "groqq": 185,
    "openrouter": 31,
-   "gemini": 294
+   "gemini": 301
   },
   "tokens": {
    "groq": 132262,
-   "groqq": 73414,
+   "groqq": 73626,
    "openrouter": 131893,
-   "gemini": 524210
+   "gemini": 542454
   },
   "fails": {
    "gemini": 29,
@@ -1949,13 +1949,13 @@
    }
   }
  },
- "selfmap_h": "5aea073bffa6e082def39253d79a0e324f1d481b",
+ "selfmap_h": "1ae78f3f98ac268c1ac3e17ffaf35a87b811d0f9",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "72f01faf1ec101c714697e5aa56aab5c3dc1e8d9",
+ "priv_h": "ddd2cbc70ff0f200075ba1726b554750db01c075",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2525,13 +2525,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "The architectural evolution of the spiral staircase in medieval fortifications",
-  "The strange, rhythmic precision of a mechanical watch movement",
-  "The physics and aesthetic charm of traditional Japanese joinery",
-  "The intricate engineering and acoustic design of historical pipe organs",
-  "why maps always lie a little",
-  "the quiet value of boring infrastructure",
-  "the pleasure of understanding how something works by taking it apart",
   "how bees decide where to live",
   "what makes a joke land",
   "why we remember the ending of a story and forget the middle",
@@ -2584,7 +2577,14 @@
   "the difference between knowing a fact and understanding it",
   "how to disagree with someone you respect",
   "what a good default setting says about its designer",
-  "why we name storms and ships but not software"
+  "why we name storms and ships but not software",
+  "a thought experiment about a library that contains every possible book",
+  "why a gift that was thought about beats an expensive one",
+  "what it is like to answer a question without remembering the last one",
+  "what we mean when we say a number is 'big'",
+  "the ethics of a small lie that makes a dinner pleasant",
+  "why rubber-duck debugging works",
+  "how to learn something slowly and enjoy it"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4472,7 +4472,7 @@
    "pr": {
     "4": 535,
     "5": 54,
-    "3": 57,
+    "3": 65,
     "2": 22
    },
    "calls": 668,
@@ -4502,9 +4502,9 @@
    "quiet": {
     "пауза ответов": 2
    },
-   "post": 8
+   "post": 9
   },
-  "last_act": 1795834043.4990156,
+  "last_act": 1795834609.7207098,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
