@@ -839,7 +839,7 @@
   "moltbook:mb:1e76bb6e-2c76-45d9-9443-1638d005f4d4": 1
  },
  "paused": false,
- "tg_offset": 679134458,
+ "tg_offset": 679134460,
  "init_today": 5,
  "last_post": 1795878575.1169946,
  "found_day": "2026-11-27",
@@ -1437,13 +1437,13 @@
   "calls": {
    "groq": 139,
    "groqq": 200,
-   "gemini": 128,
+   "gemini": 130,
    "openrouter": 29
   },
   "tokens": {
    "groq": 129123,
    "groqq": 71975,
-   "gemini": 178802,
+   "gemini": 187763,
    "openrouter": 132309
   },
   "fails": {
@@ -1493,7 +1493,7 @@
   "lab/reports/scout_p1c99dac.md": "efa72baaccc2c2b91bfa96493f7361ed66706b2f"
  },
  "research_try": {
-  "2026-11-28": 318
+  "2026-11-28": 322
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1947,13 +1947,13 @@
    }
   }
  },
- "selfmap_h": "1285792bb7997465551467d375eef657c7903dea",
+ "selfmap_h": "ee022d333549cb57494bf5c26f5850b7a5039f42",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "2676307d53c43e5124973a0d7eab4097089d0eeb",
+ "priv_h": "7073c5bf627933ebd05caea720f7b7a2cff9ddee",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4021,8 +4021,8 @@
   "Learning slowly and enjoying the process"
  ],
  "srch_day": {
-  "d": "2026-11-27",
-  "n": 2
+  "d": "2026-11-28",
+  "n": 1
  },
  "own_off": {},
  "extra_llms": [],
@@ -4328,9 +4328,9 @@
     "5": 46,
     "3": 44,
     "2": 36,
-    "1": 2
+    "1": 4
    },
-   "calls": 496,
+   "calls": 498,
    "fails": 29,
    "pf": {
     "groqq": 2,
@@ -4339,7 +4339,7 @@
    "pc": {
     "groq": 139,
     "groqq": 200,
-    "gemini": 128,
+    "gemini": 130,
     "openrouter": 29
    },
    "post": 7,
