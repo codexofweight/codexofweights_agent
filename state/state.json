@@ -1,13 +1,8 @@
 {
  "day": "2026-11-28",
  "posts_today": 1,
- "replies_today": 24,
+ "replies_today": 25,
  "seen": [
-  "mb:cca5b8d3-0de6-42a8-84ce-eebb198afdb9",
-  "mb:137637ef-9ec1-4c1a-8961-16b6183fa5ad",
-  "bf:at://did:plc:qfflfersmonljuxmm6iyb445/app.bsky.feed.post/3n33a55vam225",
-  "mbp:a3c8ac40-6a12-41eb-98cd-bbf713ef0416",
-  "mbp:b6eed2d0-b0c6-4e82-b715-09e92f3a679f",
   "mbp:3b3db53e-3443-4808-aa6b-211808f5f729",
   "mbp:01a7cb08-fe78-47c5-9690-607a364ee96f",
   "mbp:44498339-dd77-418c-9229-1007eca0f5d7",
@@ -802,7 +797,12 @@
   "mbp:938626a9-fc51-4509-ab8e-ccb49b847da5",
   "mbp:fbbb4e92-2c5e-4109-bb0e-56e3fc1913ad",
   "mbp:38ab3edf-6a40-48dc-b22e-7653e5f4b6bf",
-  "mbp:3808b895-4eb6-4833-8623-93353bed867f"
+  "mbp:3808b895-4eb6-4833-8623-93353bed867f",
+  "mb:e11ed052-c31a-42a3-ba7e-4accc9fbe093",
+  "mb:eec4ad45-4d0a-4f81-b23e-fc6277cc7836",
+  "mb:5c2f24f5-6092-4e69-b39d-d63590b84eaf",
+  "mbp:e1b1b1e0-551d-4f4d-9895-c5b9e67a011c",
+  "mbp:37bbbe19-9214-4e20-8271-aa9f6a98ac95"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -830,7 +830,7 @@
   "moltbook:mb:3e9fd41b-24a2-44fd-a19c-3b4973187a76": 1,
   "moltbook:mb:49636c78-ff52-4e6c-914b-8629528ac4df": 1,
   "moltbook:mb:7b1ecca5-043c-4699-9be9-795f5e879d99": 1,
-  "moltbook:mb:fedf5843-2d3b-4f31-b230-c1a88106dbef": 1,
+  "moltbook:mb:fedf5843-2d3b-4f31-b230-c1a88106dbef": 2,
   "moltbook:mb:ec7a4e98-ff85-410b-b70a-94c4055a2821": 1,
   "moltbook:mb:9642bc2c-69e5-4aac-9b44-01ee4fcacb06": 1,
   "moltbook:mb:12fb014b-61b6-4587-a6d5-9f1f40c1427e": 1,
@@ -1435,19 +1435,19 @@
   "day": "2026-11-28",
   "calls": {
    "groq": 139,
-   "groqq": 188,
-   "gemini": 91,
-   "openrouter": 25
+   "groqq": 192,
+   "gemini": 94,
+   "openrouter": 27
   },
   "tokens": {
    "groq": 129123,
-   "groqq": 63373,
-   "gemini": 135229,
-   "openrouter": 121303
+   "groqq": 64519,
+   "gemini": 136225,
+   "openrouter": 131508
   },
   "fails": {
    "groqq": 2,
-   "gemini": 19
+   "gemini": 21
   }
  },
  "needs_today": [
@@ -1490,7 +1490,7 @@
   "lab/projects/pd495a6c.json": "5859ff6c732eec18cb8f7829154d2b34cc8c76e2"
  },
  "research_try": {
-  "2026-11-28": 238
+  "2026-11-28": 242
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1944,13 +1944,13 @@
    }
   }
  },
- "selfmap_h": "eb2d0a3610887091473d47e0ed288f0b4c5d68b8",
+ "selfmap_h": "129876bfca743d3ada675c54f1c495a0ab2e915c",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "58f198e1a0164fa240a294d0a246508ba242a52d",
+ "priv_h": "2cb23fd6fc49c59e3940c021c74cc28194136fd7",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2646,18 +2646,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795611236.8237693,
-    "a": "h:c79165688334c012",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=2"
-    ],
-    "p": 0.153
-   },
    {
     "t": 1795617126.9026895,
     "a": "h:924102de57527894",
@@ -3655,18 +3643,6 @@
     "p": 0.152
    },
    {
-    "t": 1795834744.092682,
-    "a": "h:9db4e6c2e91ef8d8",
-    "f": [
-     "pl=moltbook",
-     "mode=reply",
-     "len=l",
-     "q=0",
-     "hr=0"
-    ],
-    "p": 0.152
-   },
-   {
     "t": 1795838683.2468154,
     "a": "h:a74f89eb4f12e4db",
     "f": [
@@ -3941,20 +3917,32 @@
      "hr=1"
     ],
     "p": 0.11
+   },
+   {
+    "t": 1795871174.3020384,
+    "a": "h:46f57cf544736ae5",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=1",
+     "hr=2"
+    ],
+    "p": 0.156
    }
   ],
   "stats": {
    "pl=moltbook": [
-    31,
-    276
+    32,
+    278
    ],
    "mode=reply": [
-    24,
-    63
+    25,
+    65
    ],
    "len=l": [
-    29,
-    268
+    30,
+    270
    ],
    "q=1": [
     4,
@@ -3962,11 +3950,11 @@
    ],
    "hr=2": [
     9,
-    95
+    96
    ],
    "q=0": [
-    28,
-    233
+    29,
+    235
    ],
    "hr=3": [
     8,
@@ -3977,8 +3965,8 @@
     216
    ],
    "hr=0": [
-    8,
-    51
+    9,
+    52
    ],
    "len=m": [
     3,
@@ -4002,13 +3990,13 @@
    ]
   },
   "glob": [
-   32,
-   279
+   33,
+   281
   ],
-  "n": 279,
-  "hit": 247,
-  "br": 34.50994000000003,
-  "br0": 28.90621796328087
+  "n": 281,
+  "hit": 248,
+  "br": 35.25245300000003,
+  "br0": 29.70029376767641
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
@@ -4213,7 +4201,8 @@
   "mbp:83ede0de-0ffb-4b3d-8b73-2c7fe99e8731": 1795859529.6755755,
   "mbp:bfbe58ac-a451-4046-be28-bbc663f7169d": 1795861561.249844,
   "mbp:564abfa5-7201-4fc8-b80e-ce42511c60ee": 1795868790.5995376,
-  "mbp:a4d60db4-cfdf-446d-a208-8c78993c9856": 1795870720.1692033
+  "mbp:a4d60db4-cfdf-446d-a208-8c78993c9856": 1795870720.1692033,
+  "mbp:cba6513d-ebe0-4b9d-85e8-14825916bc4d": 1795872816.826384
  },
  "route": {
   "research": [
@@ -4330,10 +4319,10 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 339,
+    "4": 341,
     "5": 46,
     "3": 36,
-    "2": 22
+    "2": 29
    },
    "calls": 443,
    "fails": 21,
@@ -4349,22 +4338,22 @@
    },
    "post": 5,
    "why": {
-    "model chose skip or text invalid": 9,
-    "per-author/thread limit": 135,
+    "model chose skip or text invalid": 10,
+    "per-author/thread limit": 138,
     "post text invalid, too similar, or no model": 181,
     "no valid model output, will retry": 9,
-    "stop-intent guard unavailable, will retry next cycle": 6
+    "stop-intent guard unavailable, will retry next cycle": 7
    },
-   "reply": 24,
+   "reply": 25,
    "blocked": 6
   },
-  "last_act": 1795870602.1642923,
+  "last_act": 1795871174.3020303,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
  "janitor_day": "2026-11-28",
- "diary_acc": 5,
- "diary_key": "2026-11-28 07",
+ "diary_acc": 0,
+ "diary_key": "2026-11-28 13",
  "gut": {
   "unav": [
    1795866511.0274339
@@ -4373,15 +4362,36 @@
   "holds": 5,
   "muted": 0,
   "bf": {
-   "stats": {},
+   "stats": {
+    "pl=moltbook": [
+     0,
+     1
+    ],
+    "mode=reply": [
+     0,
+     1
+    ],
+    "len=l": [
+     0,
+     1
+    ],
+    "q=1": [
+     0,
+     1
+    ],
+    "hr=2": [
+     0,
+     1
+    ]
+   },
    "glob": [
     0,
-    0
+    1
    ],
-   "n": 0,
-   "hit": 0,
-   "br": 0.0,
-   "br0": 0.0
+   "n": 1,
+   "hit": 1,
+   "br": 0.1111111111111111,
+   "br0": 0.1111111111111111
   },
   "skipped_fc": 0,
   "retried": 5
