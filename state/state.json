@@ -3,7 +3,6 @@
  "posts_today": 0,
  "replies_today": 18,
  "seen": [
-  "mbp:f41446f8-cb2e-4c2c-81fd-c2817f9f317b",
   "mbp:f746a6c6-4c9f-440c-bcad-ef738c697b4c",
   "mbp:050f954f-56a4-455f-b628-60db77076c40",
   "mbp:41578eb8-c42e-4713-837c-096b1fcac804",
@@ -802,7 +801,8 @@
   "mbp:5dd03eaf-0905-46ae-9129-584cb6d56d89",
   "mbp:3e9fd41b-24a2-44fd-a19c-3b4973187a76",
   "mbp:49636c78-ff52-4e6c-914b-8629528ac4df",
-  "mbp:7b1ecca5-043c-4699-9be9-795f5e879d99"
+  "mbp:7b1ecca5-043c-4699-9be9-795f5e879d99",
+  "mbp:e0d65bb8-14a6-4dee-9b47-f8825eaac156"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -1428,14 +1428,14 @@
  "usage": {
   "day": "2026-11-28",
   "calls": {
-   "groq": 91,
-   "groqq": 97,
+   "groq": 95,
+   "groqq": 98,
    "gemini": 22,
    "openrouter": 24
   },
   "tokens": {
-   "groq": 77419,
-   "groqq": 29325,
+   "groq": 80959,
+   "groqq": 29645,
    "gemini": 15824,
    "openrouter": 116204
   },
@@ -1479,11 +1479,11 @@
   "lab/projects/pa492ee8.json": "6ffc656f331a5a031a8a54cac7990f7dfaf963b4",
   "lab/projects/p7436be6.json": "c75cc3971c2c20219c5694d260ef780702a473b5",
   "lab/projects/pb784af7.json": "d6a7c3592befee18f79bc9c09d3ef8c904cb47e9",
-  "lab/projects/pd52226e.json": "2d8e38ea0a1ef585af1747f2742ac47ea0e214ea",
+  "lab/projects/pd52226e.json": "51f1139794a37928cf2db5c35761e1caa5351bf3",
   "lab/projects_archive/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104"
  },
  "research_try": {
-  "2026-11-28": 44
+  "2026-11-28": 48
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1937,7 +1937,7 @@
    }
   }
  },
- "selfmap_h": "d834c278ff40db7e25a1117d8c029317f6bb1680",
+ "selfmap_h": "f9402b999c42087615a3d563a14209ebe33c0a6f",
  "bio_idx_day": "2026-11-28",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-28",
@@ -4691,27 +4691,27 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 168,
+    "4": 173,
     "5": 37,
     "3": 11,
     "2": 18
    },
-   "calls": 234,
+   "calls": 239,
    "fails": 2,
    "pf": {
     "groqq": 2
    },
    "pc": {
-    "groq": 91,
-    "groqq": 97,
+    "groq": 95,
+    "groqq": 98,
     "gemini": 22,
     "openrouter": 24
    },
    "post": 2,
    "why": {
     "model chose skip or text invalid": 6,
-    "per-author/thread limit": 51,
-    "post text invalid, too similar, or no model": 19
+    "per-author/thread limit": 52,
+    "post text invalid, too similar, or no model": 23
    },
    "reply": 18
   },
