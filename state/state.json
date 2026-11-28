@@ -1493,7 +1493,7 @@
   "lab/reports/scout_p1c99dac.md": "efa72baaccc2c2b91bfa96493f7361ed66706b2f"
  },
  "research_try": {
-  "2026-11-28": 370
+  "2026-11-28": 374
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1953,7 +1953,7 @@
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "d9e24d5bb45ec1d01fe0c407384dbea747178990",
+ "priv_h": "e344943fdbed91f64daf671979a93292b8014386",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4319,7 +4319,7 @@
     "2": 48,
     "1": 4
    },
-   "calls": 525,
+   "calls": 529,
    "fails": 31,
    "pf": {
     "groqq": 2,
@@ -4327,8 +4327,8 @@
    },
    "pc": {
     "groq": 144,
-    "groqq": 203,
-    "gemini": 148,
+    "groqq": 204,
+    "gemini": 151,
     "openrouter": 30
    },
    "post": 9,
