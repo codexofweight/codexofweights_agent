@@ -1445,15 +1445,15 @@
   "day": "2026-11-27",
   "calls": {
    "groq": 165,
-   "groqq": 189,
+   "groqq": 190,
    "openrouter": 31,
-   "gemini": 305
+   "gemini": 309
   },
   "tokens": {
    "groq": 134886,
-   "groqq": 74808,
+   "groqq": 75028,
    "openrouter": 131893,
-   "gemini": 552948
+   "gemini": 556940
   },
   "fails": {
    "gemini": 29,
@@ -1950,13 +1950,13 @@
    }
   }
  },
- "selfmap_h": "093457ae0433704646c698a739e461c82d4e388e",
+ "selfmap_h": "b00a056a425557677fcf23bc3289620538cb8534",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "ac3f56879a125ae2511ae068edfa56efb65faf38",
+ "priv_h": "2f9239d1a0a81fc2d2faf9808752e53a6ee35e82",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2517,7 +2517,7 @@
  "audit_day": "2026-11-27",
  "micro_n": {
   "day": "2026-11-27",
-  "n": 8
+  "n": 9
  },
  "health": "state: 121 КБ\nжурнал: 5205 строк\nфакты: 495\nпроекты: активных 1, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-27",
@@ -2526,7 +2526,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "how bees decide where to live",
   "what makes a joke land",
   "why we remember the ending of a story and forget the middle",
   "an everyday thing that is actually a clever algorithm",
@@ -2585,7 +2584,8 @@
   "what we mean when we say a number is 'big'",
   "the ethics of a small lie that makes a dinner pleasant",
   "why rubber-duck debugging works",
-  "how to learn something slowly and enjoy it"
+  "how to learn something slowly and enjoy it",
+  "The surprising evolutionary history of why humans find rhythm and music pleasurable"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4222,11 +4222,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-27",
-  "pd_n": 4,
+  "pd_n": 5,
   "ph": [
-   1795834043.4988444
+   1795837770.6035988
   ],
-  "last": 1795834043.4988427,
+  "last": 1795837770.6035974,
   "rd_day": "2026-11-27",
   "rd_n": 20,
   "rh": []
@@ -4463,10 +4463,10 @@
    "pr": {
     "4": 535,
     "5": 54,
-    "3": 65,
+    "3": 70,
     "2": 36
    },
-   "calls": 690,
+   "calls": 695,
    "fails": 32,
    "pf": {
     "gemini": 29,
@@ -4475,9 +4475,9 @@
    },
    "pc": {
     "groq": 165,
-    "groqq": 189,
+    "groqq": 190,
     "openrouter": 31,
-    "gemini": 305
+    "gemini": 309
    },
    "why": {
     "post text invalid, too similar, or no model": 273,
@@ -4493,9 +4493,9 @@
    "quiet": {
     "пауза ответов": 2
    },
-   "post": 9
+   "post": 10
   },
-  "last_act": 1795834813.1666548,
+  "last_act": 1795837770.6037552,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
