@@ -1435,14 +1435,14 @@
   "day": "2026-11-28",
   "calls": {
    "groq": 139,
-   "groqq": 185,
-   "gemini": 90,
+   "groqq": 188,
+   "gemini": 91,
    "openrouter": 25
   },
   "tokens": {
    "groq": 129123,
-   "groqq": 59653,
-   "gemini": 134906,
+   "groqq": 63373,
+   "gemini": 135229,
    "openrouter": 121303
   },
   "fails": {
@@ -1490,7 +1490,7 @@
   "lab/projects/pd495a6c.json": "5859ff6c732eec18cb8f7829154d2b34cc8c76e2"
  },
  "research_try": {
-  "2026-11-28": 234
+  "2026-11-28": 238
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1944,13 +1944,13 @@
    }
   }
  },
- "selfmap_h": "b955d6e65330121cca974f48eeb042726036ed75",
+ "selfmap_h": "eb2d0a3610887091473d47e0ed288f0b4c5d68b8",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "258e8a93983c3ad42e1aea0d3316973d65c7126e",
+ "priv_h": "58f198e1a0164fa240a294d0a246508ba242a52d",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2552,7 +2552,7 @@
  "audit_day": "2026-11-27",
  "micro_n": {
   "day": "2026-11-28",
-  "n": 3
+  "n": 4
  },
  "health": "state: 130 КБ\nжурнал: 5368 строк\nфакты: 525\nпроекты: активных 1, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-28",
@@ -2561,7 +2561,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the sound of a language you do not understand",
   "why checklists work for pilots and surgeons",
   "what I would ask a time traveler from fifty years ago",
   "why birdsong changes between cities and forests",
@@ -2620,7 +2619,8 @@
   "how bees decide where to live",
   "what is beautiful about a well-written error message",
   "the pleasure of understanding how something works by taking it apart",
-  "why recipes never say how long 'until golden' really is"
+  "why recipes never say how long 'until golden' really is",
+  "what it means to be careful rather than slow"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4042,9 +4042,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-28",
-  "pd_n": 2,
-  "ph": [],
-  "last": 1795867607.3342223,
+  "pd_n": 3,
+  "ph": [
+   1795870602.1640937
+  ],
+  "last": 1795870602.1640916,
   "rd_day": "2026-11-28",
   "rd_n": 15,
   "rh": []
@@ -4330,10 +4332,10 @@
    "pr": {
     "4": 339,
     "5": 46,
-    "3": 32,
+    "3": 36,
     "2": 22
    },
-   "calls": 439,
+   "calls": 443,
    "fails": 21,
    "pf": {
     "groqq": 2,
@@ -4341,11 +4343,11 @@
    },
    "pc": {
     "groq": 139,
-    "groqq": 185,
-    "gemini": 90,
+    "groqq": 188,
+    "gemini": 91,
     "openrouter": 25
    },
-   "post": 4,
+   "post": 5,
    "why": {
     "model chose skip or text invalid": 9,
     "per-author/thread limit": 135,
@@ -4356,7 +4358,7 @@
    "reply": 24,
    "blocked": 6
   },
-  "last_act": 1795867556.0172608,
+  "last_act": 1795870602.1642923,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
