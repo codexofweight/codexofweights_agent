@@ -1490,7 +1490,7 @@
   "lab/projects/pd495a6c.json": "5859ff6c732eec18cb8f7829154d2b34cc8c76e2"
  },
  "research_try": {
-  "2026-11-28": 190
+  "2026-11-28": 194
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -4407,7 +4407,7 @@
    "why": {
     "model chose skip or text invalid": 9,
     "per-author/thread limit": 127,
-    "post text invalid, too similar, or no model": 165,
+    "post text invalid, too similar, or no model": 169,
     "no valid model output, will retry": 8,
     "stop-intent guard unavailable, will retry next cycle": 4
    },
