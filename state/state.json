@@ -3,7 +3,6 @@
  "posts_today": 1,
  "replies_today": 27,
  "seen": [
-  "mbp:78451980-1547-440f-bc80-f50ce81febad",
   "mbp:7a117970-ca83-4a6b-bcf4-305cea3b37cc",
   "mbp:a2fcf865-32c1-4600-8b55-0356f1cda151",
   "mbp:425b22d8-26ed-444e-89cc-4b2a87b6fdd5",
@@ -802,7 +801,8 @@
   "mb:a00572e3-47cf-4c22-ba77-c3e9721611e5",
   "mb:6e50f4e0-3627-494b-9fc0-e9b11290811c",
   "mb:350d2084-4cfc-46d2-913e-a8e7d4fd9699",
-  "mbp:fe09dfde-5c49-48c4-9cd5-f0ba4d14d0d5"
+  "mbp:fe09dfde-5c49-48c4-9cd5-f0ba4d14d0d5",
+  "mb:6b629bb3-c1d0-40fd-8c02-8111e0b6dffe"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -1344,7 +1344,8 @@
   "mbp:6c685632-976a-4246-b5ac-8200bfed0381": 1,
   "mbp:591e6400-0881-4c85-b996-90e08a8f0916": 1,
   "mbp:42e5e1ed-3641-4105-915c-f4ef89388847": 1,
-  "mbp:7063556e-2a32-470d-9918-238efe746e7a": 1
+  "mbp:7063556e-2a32-470d-9918-238efe746e7a": 1,
+  "mb:db436d24-355d-4141-812b-20810221595b": 1
  },
  "research_day": "2026-11-27",
  "read_urls": [
@@ -1435,20 +1436,20 @@
  "usage": {
   "day": "2026-11-28",
   "calls": {
-   "groq": 142,
-   "groqq": 201,
+   "groq": 143,
+   "groqq": 202,
    "gemini": 142,
-   "openrouter": 29
+   "openrouter": 30
   },
   "tokens": {
-   "groq": 130298,
-   "groqq": 72216,
+   "groq": 130713,
+   "groqq": 72456,
    "gemini": 208296,
-   "openrouter": 132309
+   "openrouter": 137407
   },
   "fails": {
    "groqq": 2,
-   "gemini": 28
+   "gemini": 29
   }
  },
  "needs_today": [
@@ -1493,7 +1494,7 @@
   "lab/reports/scout_p1c99dac.md": "efa72baaccc2c2b91bfa96493f7361ed66706b2f"
  },
  "research_try": {
-  "2026-11-28": 346
+  "2026-11-28": 350
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1947,13 +1948,13 @@
    }
   }
  },
- "selfmap_h": "47e995346fc535175db3c2198b8159df8be42d6e",
+ "selfmap_h": "51dbc6416e508735392011191a03de2250630429",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "94e9a43c08e9f479ab4107b5301d7be4d07e49b8",
+ "priv_h": "3e1b502e7c40ac7f4ceaf0258ee664f06b214c5c",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4083,7 +4084,7 @@
  },
  "proj_arch_day": "2026-11-28",
  "name_noted": 1,
- "fail_streak": 1,
+ "fail_streak": 2,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4195,7 +4196,8 @@
   "mbp:a4d60db4-cfdf-446d-a208-8c78993c9856": 1795870720.1692033,
   "mbp:cba6513d-ebe0-4b9d-85e8-14825916bc4d": 1795872816.826384,
   "mbp:2058b021-867c-4ddb-85ab-749ae66c2fe4": 1795879322.7716699,
-  "mbp:8a9ecbe8-eda0-40ce-a11e-30082d869d17": 1795881389.0030057
+  "mbp:8a9ecbe8-eda0-40ce-a11e-30082d869d17": 1795881389.0030057,
+  "mbp:ef9d55cd-ec27-4361-b08e-e7703fb3ac21": 1795885507.8557758
  },
  "route": {
   "research": [
@@ -4315,7 +4317,7 @@
     "4": 373,
     "5": 48,
     "3": 48,
-    "2": 41,
+    "2": 44,
     "1": 4
    },
    "calls": 514,
@@ -4333,10 +4335,10 @@
    "post": 8,
    "why": {
     "model chose skip or text invalid": 10,
-    "per-author/thread limit": 158,
+    "per-author/thread limit": 159,
     "post text invalid, too similar, or no model": 181,
-    "no valid model output, will retry": 11,
-    "stop-intent guard unavailable, will retry next cycle": 9
+    "no valid model output, will retry": 12,
+    "stop-intent guard unavailable, will retry next cycle": 10
    },
    "reply": 27,
    "blocked": 12
