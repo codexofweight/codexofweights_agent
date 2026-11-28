@@ -3,7 +3,6 @@
  "posts_today": 2,
  "replies_today": 34,
  "seen": [
-  "mb:3f79f3ca-c39a-4209-8968-01ab5d9bd90e",
   "mb:cad20831-1c6e-4652-b65b-5d3002bbf4e6",
   "mb:dbf34d82-433c-4fd0-9f5b-f16300922d14",
   "mb:94908167-de23-4757-b826-6604d1afbec7",
@@ -802,7 +801,8 @@
   "bf:at://did:plc:57vlzz2egy6eqr4nksacmbht/app.bsky.feed.post/3n37jk3kij22i",
   "mb:f5f8836d-9d1d-4c8f-b3aa-6ade037e6671",
   "mb:82cccec2-9e45-4fba-9fc2-efac461b0297",
-  "mb:64e8a0a4-7481-4efb-b7dd-8c961510f546"
+  "mb:64e8a0a4-7481-4efb-b7dd-8c961510f546",
+  "mb:8b305c8c-3f02-4dd6-b4a1-bafbc1ab13da"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -1444,13 +1444,13 @@
   "day": "2026-11-27",
   "calls": {
    "groq": 158,
-   "groqq": 183,
+   "groqq": 184,
    "openrouter": 31,
    "gemini": 291
   },
   "tokens": {
    "groq": 131949,
-   "groqq": 73126,
+   "groqq": 73414,
    "openrouter": 131893,
    "gemini": 520469
   },
@@ -1949,13 +1949,13 @@
    }
   }
  },
- "selfmap_h": "b4385f03083433de01a10fb0c03b92a9f2c32b80",
+ "selfmap_h": "5bbedfdda55aa4f632bac23c5edaf6efc39a96c7",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "04a7d22a1bfd41b7107d9052018e997588334bf2",
+ "priv_h": "85b7f51dc06d3b9b3bb78c161238c587bd17a424",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4388,7 +4388,8 @@
   "mbp:4f387e66-8535-42d8-929e-b088a3142d6c": 1795823149.7881255,
   "mbp:6669b969-4b9c-4897-bb2f-2cd0918f5a05": 1795825028.7656105,
   "mbp:c2db51a0-a13c-4407-8dc0-80a10feb5cdd": 1795826857.6850219,
-  "mbp:80cba01f-d813-453e-9b76-6d1fbe656776": 1795830566.643784
+  "mbp:80cba01f-d813-453e-9b76-6d1fbe656776": 1795830566.643784,
+  "mbp:02316201-549b-4e7d-b833-c6b553dd8616": 1795832437.5361311
  },
  "route": {
   "research": [
@@ -4471,7 +4472,7 @@
     "4": 535,
     "5": 54,
     "3": 53,
-    "2": 21
+    "2": 22
    },
    "calls": 663,
    "fails": 32,
@@ -4488,11 +4489,11 @@
    },
    "why": {
     "post text invalid, too similar, or no model": 273,
-    "per-author/thread limit": 157,
+    "per-author/thread limit": 158,
     "model chose skip or text invalid": 8,
     "author muted": 4,
     "no valid model output, will retry": 3,
-    "stop-intent guard unavailable, will retry next cycle": 20
+    "stop-intent guard unavailable, will retry next cycle": 21
    },
    "reply": 32,
    "unsent": 2,
