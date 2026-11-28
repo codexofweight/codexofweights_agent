@@ -845,7 +845,6 @@
  "found_day": "2026-11-27",
  "found_n": 3,
  "tries": {
-  "mbp:f6fe6442-e160-492e-b914-e9a5acc5f365": 1,
   "mbp:fae4fb65-920f-45b6-9eb3-d4a4d7f507b0": 1,
   "mbp:6755d3ef-8aaa-42e9-83cf-9207b7aecfd0": 1,
   "mbp:f51c6259-043c-4f6d-ae98-e47f1c093a57": 1,
@@ -1494,7 +1493,7 @@
   "lab/reports/scout_p1c99dac.md": "efa72baaccc2c2b91bfa96493f7361ed66706b2f"
  },
  "research_try": {
-  "2026-11-28": 350
+  "2026-11-28": 354
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1948,7 +1947,7 @@
    }
   }
  },
- "selfmap_h": "51dbc6416e508735392011191a03de2250630429",
+ "selfmap_h": "3788a6bc06693f2ded6e8033612f95cb46a640ab",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
@@ -4320,17 +4319,17 @@
     "2": 44,
     "1": 4
    },
-   "calls": 514,
-   "fails": 30,
+   "calls": 517,
+   "fails": 31,
    "pf": {
     "groqq": 2,
-    "gemini": 28
+    "gemini": 29
    },
    "pc": {
-    "groq": 142,
-    "groqq": 201,
+    "groq": 143,
+    "groqq": 202,
     "gemini": 142,
-    "openrouter": 29
+    "openrouter": 30
    },
    "post": 8,
    "why": {
