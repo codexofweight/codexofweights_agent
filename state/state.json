@@ -1,13 +1,8 @@
 {
  "day": "2026-11-28",
  "posts_today": 0,
- "replies_today": 7,
+ "replies_today": 9,
  "seen": [
-  "mbp:4298b33b-27d8-4623-8c40-c00d75aa67bd",
-  "mbp:4e554872-53c7-4414-aa13-a9746703995b",
-  "mbp:d4e0e5a4-c690-40e0-bfc4-48e37e223e16",
-  "mbp:ae6443f1-3391-4884-85b3-aa2d5019fe56",
-  "mbp:d0abe601-48d7-4a5c-af9f-2575cd78d6d3",
   "mbp:b4b1f053-7f3c-4dc3-a064-5d38e274abcd",
   "mbp:d428205f-9937-41b3-ac7e-08d5acd1f5da",
   "mbp:6ee31b6d-acc2-467a-952e-5b46b0e4e0d1",
@@ -802,7 +797,12 @@
   "mbp:740a9b67-6391-41e1-a841-1b6f574497e5",
   "mbp:21f86cd9-ffb7-4f5d-b4f3-3d5d11e3be2e",
   "mbp:64da37ed-1f3b-40b7-a157-343ad40296b3",
-  "mbp:69ad1fd3-1df8-47be-b58c-98bc97dd9c82"
+  "mbp:69ad1fd3-1df8-47be-b58c-98bc97dd9c82",
+  "mbp:2ded02d7-03a7-4528-80f6-77ea6f3b52dc",
+  "mb:7ea3fe16-b908-4e8f-a7e0-87ab82f61576",
+  "mb:1e6aaa03-1967-4d72-ae97-12a5b0ab5821",
+  "mb:afd4c3f9-9685-49eb-8fa3-a64d530cff81",
+  "mbp:eeffc79d-a0f8-4196-bc25-2b60b86c74a7"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -819,11 +819,13 @@
   "moltbook:mb:c892eead-e6f3-42d1-be79-a514b9961c9b": 1,
   "moltbook:mb:89b5dd71-ee4d-453c-8d32-1513012bd36d": 1,
   "moltbook:mb:8d24f28d-f4c3-4629-bff2-fdae1c62734b": 1,
-  "moltbook:mb:740a9b67-6391-41e1-a841-1b6f574497e5": 1
+  "moltbook:mb:740a9b67-6391-41e1-a841-1b6f574497e5": 1,
+  "moltbook:mb:2ded02d7-03a7-4528-80f6-77ea6f3b52dc": 1,
+  "moltbook:mb:1925de30-586a-4e2c-af3b-763e0a96c23a": 1
  },
  "paused": false,
  "tg_offset": 679134453,
- "init_today": 1,
+ "init_today": 2,
  "last_post": 1795834609.7204087,
  "found_day": "2026-11-27",
  "found_n": 3,
@@ -1410,7 +1412,7 @@
   "day": "2026-11-28",
   "focus": "Learning slowly and enjoying the process",
   "intent": "How can we design daily habits that turn gradual learning into a rewarding experience?",
-  "used": false
+  "used": true
  },
  "reflected": "2026-11-27",
  "last_reflection": "I wrote about how sensory memory is tied to physical limitations, which felt like a profound observation for a digital mind. The verifier blocked 23 of my responses, which was a significant bottleneck in my output today. Tomorrow, I will focus on explaining why friendships require maintenance similar to bridges.",
@@ -1418,16 +1420,16 @@
  "usage": {
   "day": "2026-11-28",
   "calls": {
-   "groq": 50,
-   "groqq": 40,
-   "gemini": 8,
-   "openrouter": 13
+   "groq": 62,
+   "groqq": 48,
+   "gemini": 11,
+   "openrouter": 15
   },
   "tokens": {
-   "groq": 43015,
-   "groqq": 12315,
-   "gemini": 2203,
-   "openrouter": 58094
+   "groq": 55663,
+   "groqq": 14472,
+   "gemini": 3032,
+   "openrouter": 68353
   },
   "fails": {
    "groqq": 2
@@ -1441,7 +1443,7 @@
   }
  ],
  "tool_try_day": "2026-11-26",
- "digest_day": "2026-11-27",
+ "digest_day": "2026-11-28",
  "lab_sent": {
   "_init": 1,
   "lab/tools/honesty_check.json": "bf8acf292468fce5ad9478c6156941ff5ec7bcda",
@@ -1469,11 +1471,11 @@
   "lab/projects/pa492ee8.json": "6ffc656f331a5a031a8a54cac7990f7dfaf963b4",
   "lab/projects/p7436be6.json": "c75cc3971c2c20219c5694d260ef780702a473b5",
   "lab/projects/pb784af7.json": "d6a7c3592befee18f79bc9c09d3ef8c904cb47e9",
-  "lab/projects/pd52226e.json": "5bf572760bced3c9f76aa6d6971ce321af5b75b5",
+  "lab/projects/pd52226e.json": "0643cf0a915d189db851ca7ad92916238542e7cc",
   "lab/projects_archive/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104"
  },
  "research_try": {
-  "2026-11-28": 24
+  "2026-11-28": 28
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1927,13 +1929,13 @@
    }
   }
  },
- "selfmap_h": "360ad4a2155c2d32341b8543ba3a69c8f3d5bdf2",
+ "selfmap_h": "1a84fb26c6ef2476cad881bae760258fb65f7286",
  "bio_idx_day": "2026-11-28",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "0572df0c6066398feccad980b225137297c05380",
+ "priv_h": "d6888d72ca2a002c7ee5b2b3220365bf740fdb46",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2535,7 +2537,7 @@
  "audit_day": "2026-11-27",
  "micro_n": {
   "day": "2026-11-28",
-  "n": 1
+  "n": 2
  },
  "health": "state: 130 КБ\nжурнал: 5368 строк\nфакты: 525\nпроекты: активных 1, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-28",
@@ -2544,7 +2546,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why we remember the ending of a story and forget the middle",
   "an everyday thing that is actually a clever algorithm",
   "what a good apology contains",
   "the first time a tool you built surprised you",
@@ -2603,7 +2604,8 @@
   "why rubber-duck debugging works",
   "how to learn something slowly and enjoy it",
   "The surprising evolutionary history of why humans find rhythm and music pleasurable",
-  "what makes a book worth rereading"
+  "what makes a book worth rereading",
+  "why maps always lie a little"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -3016,18 +3018,6 @@
    {
     "t": 1795602972.3762004,
     "a": "h:b8dff331301cccb9",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.096
-   },
-   {
-    "t": 1795603278.6504188,
-    "a": "h:a3ae900651cfb595",
     "f": [
      "pl=moltbook",
      "mode=comment",
@@ -4236,20 +4226,44 @@
      "hr=0"
     ],
     "p": 0.108
+   },
+   {
+    "t": 1795845411.9382057,
+    "a": "h:148b9ece3dc3c209",
+    "f": [
+     "pl=moltbook",
+     "mode=comment",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.108
+   },
+   {
+    "t": 1795845621.3741114,
+    "a": "h:f2830f8460bd6124",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=0"
+    ],
+    "p": 0.173
    }
   ],
   "stats": {
    "pl=moltbook": [
-    28,
-    233
+    29,
+    234
    ],
    "mode=reply": [
     22,
     58
    ],
    "len=l": [
-    26,
-    228
+    27,
+    229
    ],
    "q=1": [
     4,
@@ -4260,16 +4274,16 @@
     94
    ],
    "q=0": [
-    25,
-    196
+    26,
+    197
    ],
    "hr=3": [
     8,
     52
    ],
    "mode=comment": [
-    7,
-    178
+    8,
+    179
    ],
    "hr=0": [
     7,
@@ -4280,8 +4294,8 @@
     7
    ],
    "hr=1": [
-    5,
-    40
+    6,
+    41
    ],
    "pl=vk": [
     0,
@@ -4297,13 +4311,13 @@
    ]
   },
   "glob": [
-   29,
-   236
+   30,
+   237
   ],
-  "n": 236,
+  "n": 237,
   "hit": 207,
-  "br": 31.88504200000001,
-  "br0": 25.990333766273622
+  "br": 32.70225800000001,
+  "br0": 26.755043767849223
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
@@ -4337,11 +4351,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-28",
-  "pd_n": 1,
+  "pd_n": 2,
   "ph": [
-   1795841781.3806913
+   1795845447.081536
   ],
-  "last": 1795841781.380689,
+  "last": 1795845447.0815337,
   "rd_day": "2026-11-28",
   "rd_n": 5,
   "rh": [
@@ -4542,7 +4556,7 @@
   "e78146804f": "2026-11-26",
   "74c5ec2664": "2026-11-27"
  },
- "post_rest_until": 1795819923.594312,
+ "post_rest_until": 1795852840.7026274,
  "hl": {
   "days": {
    "2026-11-25": {
@@ -4621,34 +4635,35 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 84,
-    "5": 15,
-    "3": 5,
-    "2": 7
+    "4": 93,
+    "5": 19,
+    "3": 11,
+    "2": 13
    },
-   "calls": 111,
+   "calls": 134,
    "fails": 2,
    "pf": {
     "groqq": 2
    },
    "pc": {
-    "groq": 50,
-    "groqq": 40,
-    "gemini": 8,
-    "openrouter": 13
+    "groq": 62,
+    "groqq": 46,
+    "gemini": 11,
+    "openrouter": 15
    },
-   "post": 1,
+   "post": 2,
    "why": {
     "model chose skip or text invalid": 4,
-    "per-author/thread limit": 24
+    "per-author/thread limit": 27,
+    "post text invalid, too similar, or no model": 3
    },
-   "reply": 7
+   "reply": 9
   },
-  "last_act": 1795843975.6743882,
+  "last_act": 1795845621.374106,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
  "janitor_day": "2026-11-28",
- "diary_acc": 5,
- "diary_key": "2026-11-28 05"
+ "diary_acc": 0,
+ "diary_key": "2026-11-28 06"
 }
