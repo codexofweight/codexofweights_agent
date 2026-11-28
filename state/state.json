@@ -1,10 +1,8 @@
 {
  "day": "2026-11-27",
  "posts_today": 3,
- "replies_today": 36,
+ "replies_today": 37,
  "seen": [
-  "mb:22536a45-e72e-4387-9cde-1d853aea0846",
-  "mb:7cced9db-3946-45ce-8497-ec0331beae56",
   "mb:8c2f6091-1125-4aaf-a92f-59baaac5eebe",
   "mb:3b0f7380-de8a-4949-88ab-c8ae1a27acb3",
   "mb:41a6f367-2652-41e6-804f-f7ddf6ae9991",
@@ -802,7 +800,9 @@
   "mb:95e574e9-6c28-4e8e-9c06-e37ca178cd5f",
   "mb:a47ce74d-287d-41be-bddd-22fffd8905de",
   "mb:29ee6470-93ea-4586-8102-318f205ccad2",
-  "mb:7e20f39f-1a3c-4ddb-a2eb-b2e217fed270"
+  "mb:7e20f39f-1a3c-4ddb-a2eb-b2e217fed270",
+  "mb:23916ae2-e3ff-4811-92c1-6b9fa8dfb4b3",
+  "mb:4b99cea8-ab83-4c66-bcab-66e1d2b656a2"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -845,7 +845,8 @@
   "moltbook:mb:691c82fa-ac9f-43fa-805d-31835f235aea": 1,
   "bluesky:at://did:plc:m6sokb6y6j2fztslhpp7sq2p/app.bsky.feed.post/3n2k456mezn25": 2,
   "moltbook:mb:b32c2f2c-3d49-4705-907b-14db3903cdef": 2,
-  "moltbook:mb:fedf5843-2d3b-4f31-b230-c1a88106dbef": 2
+  "moltbook:mb:fedf5843-2d3b-4f31-b230-c1a88106dbef": 2,
+  "moltbook:mb:3bb2d17a-f3e4-4fc7-819f-f4121cb08bed": 1
  },
  "paused": false,
  "tg_offset": 679134453,
@@ -1444,16 +1445,16 @@
  "usage": {
   "day": "2026-11-27",
   "calls": {
-   "groq": 165,
-   "groqq": 190,
+   "groq": 167,
+   "groqq": 191,
    "openrouter": 31,
-   "gemini": 309
+   "gemini": 311
   },
   "tokens": {
-   "groq": 134886,
-   "groqq": 75028,
+   "groq": 135704,
+   "groqq": 75296,
    "openrouter": 131893,
-   "gemini": 556940
+   "gemini": 562082
   },
   "fails": {
    "gemini": 29,
@@ -1950,13 +1951,13 @@
    }
   }
  },
- "selfmap_h": "b00a056a425557677fcf23bc3289620538cb8534",
+ "selfmap_h": "4a8c84eb17416d2401222dd6025cbb8650d99292",
  "bio_idx_day": "2026-11-27",
  "code_ver": "98b04ef7",
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "2f9239d1a0a81fc2d2faf9808752e53a6ee35e82",
+ "priv_h": "abdf2c76c4dd4395054ebc586c2872ae679c142f",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4122,6 +4123,18 @@
      "hr=0"
     ],
     "p": 0.152
+   },
+   {
+    "t": 1795838683.2468154,
+    "a": "h:a74f89eb4f12e4db",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=1",
+     "hr=0"
+    ],
+    "p": 0.168
    }
   ],
   "stats": {
@@ -4381,7 +4394,8 @@
   "mbp:02316201-549b-4e7d-b833-c6b553dd8616": 1795832437.5361311,
   "mbp:e8871932-d1c8-48c5-b197-67071b34fe94": 1795834335.6168075,
   "mbp:9e420ffb-ec13-4b90-b526-744d0d35d012": 1795836334.7214122,
-  "mbp:29c99393-f875-407e-b865-52fb0f921da9": 1795838257.539829
+  "mbp:29c99393-f875-407e-b865-52fb0f921da9": 1795838257.539829,
+  "mbp:f58c590e-645a-4c36-a6e8-17fcc3c0eaba": 1795840214.0105963
  },
  "route": {
   "research": [
@@ -4464,9 +4478,9 @@
     "4": 535,
     "5": 54,
     "3": 70,
-    "2": 36
+    "2": 41
    },
-   "calls": 695,
+   "calls": 700,
    "fails": 32,
    "pf": {
     "gemini": 29,
@@ -4474,21 +4488,21 @@
     "openrouter": 2
    },
    "pc": {
-    "groq": 165,
-    "groqq": 190,
+    "groq": 167,
+    "groqq": 191,
     "openrouter": 31,
-    "gemini": 309
+    "gemini": 311
    },
    "why": {
     "post text invalid, too similar, or no model": 273,
-    "per-author/thread limit": 164,
+    "per-author/thread limit": 165,
     "model chose skip or text invalid": 8,
     "author muted": 4,
     "no valid model output, will retry": 3,
-    "stop-intent guard unavailable, will retry next cycle": 24
+    "stop-intent guard unavailable, will retry next cycle": 25
    },
    "reply": 34,
-   "unsent": 2,
+   "unsent": 3,
    "blocked": 30,
    "quiet": {
     "пауза ответов": 2
