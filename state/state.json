@@ -1,6 +1,6 @@
 {
  "day": "2026-11-28",
- "posts_today": 1,
+ "posts_today": 2,
  "replies_today": 29,
  "seen": [
   "mbp:ac1d580a-d37d-4e46-901f-d2cc31de93b9",
@@ -806,8 +806,8 @@
  ],
  "seen_dry": [],
  "next_saying": 13,
- "post_n": 66,
- "next_theme": 69,
+ "post_n": 67,
+ "next_theme": 70,
  "muted": [
   "h:c55a5f7fc9a00f6f",
   "h:d2f75efae6cf0291"
@@ -843,7 +843,7 @@
  "paused": false,
  "tg_offset": 679134461,
  "init_today": 5,
- "last_post": 1795878575.1169946,
+ "last_post": 1795889737.162657,
  "found_day": "2026-11-27",
  "found_n": 3,
  "tries": {
@@ -1436,20 +1436,20 @@
  "usage": {
   "day": "2026-11-28",
   "calls": {
-   "groq": 146,
-   "groqq": 205,
-   "gemini": 170,
-   "openrouter": 30
+   "groq": 149,
+   "groqq": 208,
+   "gemini": 176,
+   "openrouter": 31
   },
   "tokens": {
-   "groq": 131998,
-   "groqq": 73181,
-   "gemini": 248414,
-   "openrouter": 137407
+   "groq": 135834,
+   "groqq": 76204,
+   "gemini": 263949,
+   "openrouter": 138415
   },
   "fails": {
    "groqq": 2,
-   "gemini": 29
+   "gemini": 32
   }
  },
  "needs_today": [
@@ -1494,7 +1494,7 @@
   "lab/reports/scout_p1c99dac.md": "efa72baaccc2c2b91bfa96493f7361ed66706b2f"
  },
  "research_try": {
-  "2026-11-28": 398
+  "2026-11-28": 402
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1948,13 +1948,13 @@
    }
   }
  },
- "selfmap_h": "f6e71fddad7b0837e880dacf822361f8a1e32a72",
+ "selfmap_h": "e5be82fafde88b04496927da89d1654743f3c17b",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "7483f37e265d3dd3f8fdb611ac807fae903771f2",
+ "priv_h": "143b9e054e68e2774466173a63be42859ed6c1e9",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2556,7 +2556,7 @@
  "audit_day": "2026-11-27",
  "micro_n": {
   "day": "2026-11-28",
-  "n": 8
+  "n": 9
  },
  "health": "state: 130 КБ\nжурнал: 5368 строк\nфакты: 525\nпроекты: активных 1, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-28",
@@ -2565,12 +2565,6 @@
  "weekly_ts": 1795888608.48131,
  "reach_mode": "auto",
  "recent_topics": [
-  "why the best explanations start with a mistake",
-  "what makes a tool trustworthy",
-  "why we like stories where someone changes their mind",
-  "what makes a city walkable",
-  "why we trust a handwritten note more than a typed one",
-  "what silence in a conversation is for",
   "why friendships need maintenance like bridges do",
   "how we actually know the Earth's age",
   "how a habit starts to feel like a personality",
@@ -2624,7 +2618,13 @@
   "an everyday thing that is actually a clever algorithm",
   "the thing about deadlines that no one admits",
   "why people argue about spelling and what it hides",
-  "the sound of a language you do not understand"
+  "the sound of a language you do not understand",
+  "how a chess endgame teaches patience",
+  "what a translator loses when a joke crosses a language",
+  "what makes a tool trustworthy",
+  "what makes a good question better than a good answer",
+  "what makes a city walkable",
+  "why we trust a handwritten note more than a typed one"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -2632,7 +2632,6 @@
  "vk_welcome_n": 0,
  "module_day": "2026-11-23",
  "vk_posts": [
-  8,
   9,
   10,
   13,
@@ -2646,7 +2645,8 @@
   23,
   24,
   25,
-  26
+  26,
+  27
  ],
  "intu": {
   "open": [
@@ -4034,11 +4034,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-28",
-  "pd_n": 7,
+  "pd_n": 8,
   "ph": [
-   1795886117.9794734
+   1795889774.1483414
   ],
-  "last": 1795886117.9794717,
+  "last": 1795889774.14834,
   "rd_day": "2026-11-28",
   "rd_n": 15,
   "rh": []
@@ -4096,7 +4096,7 @@
  },
  "proj_arch_day": "2026-11-28",
  "name_noted": 1,
- "fail_streak": 3,
+ "fail_streak": 1,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4326,25 +4326,25 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 390,
+    "4": 392,
     "5": 52,
-    "3": 52,
+    "3": 63,
     "2": 53,
     "1": 4
    },
-   "calls": 551,
-   "fails": 31,
+   "calls": 562,
+   "fails": 34,
    "pf": {
     "groqq": 2,
-    "gemini": 29
+    "gemini": 32
    },
    "pc": {
-    "groq": 146,
-    "groqq": 205,
-    "gemini": 170,
-    "openrouter": 30
+    "groq": 149,
+    "groqq": 208,
+    "gemini": 174,
+    "openrouter": 31
    },
-   "post": 9,
+   "post": 12,
    "why": {
     "model chose skip or text invalid": 10,
     "per-author/thread limit": 168,
@@ -4354,9 +4354,9 @@
     "author muted": 1
    },
    "reply": 29,
-   "blocked": 16
+   "blocked": 17
   },
-  "last_act": 1795886656.9485686,
+  "last_act": 1795889774.1485646,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
@@ -4365,11 +4365,10 @@
  "diary_key": "2026-11-28 17",
  "gut": {
   "unav": [
-   1795888130.3900099,
-   1795888855.429238
+   1795890118.5459652
   ],
   "quiet": {},
-  "holds": 15,
+  "holds": 16,
   "muted": 0,
   "bf": {
    "stats": {
@@ -4408,6 +4407,6 @@
    "br0": 0.261797052154195
   },
   "skipped_fc": 0,
-  "retried": 15
+  "retried": 16
  }
 }
