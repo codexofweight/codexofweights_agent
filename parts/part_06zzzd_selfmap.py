@@ -52,7 +52,10 @@ _rs_before_sm = respond
 def respond(au, handle, their, thread, uid, send, mode="reply"):
     # No model calls while the long brake is on, or while stop-intent guard is known to be down.
     if sm_braking() or sm_guard_cooling(): return "retry"
-    return _rs_before_sm(au, handle, their, thread, uid, send, mode)
+    if gut_muted(handle, uid): return None
+    tk = gut_begin(uid, thread, mode, their)
+    if tk == "skip": return None
+    return gut_end(uid, _rs_before_sm(au, handle, their, thread, uid, send, mode), tk)
 _se_before_sm = settle
 def settle(key, failed):
     if failed and (sm_braking() or sm_guard_cooling()): return False

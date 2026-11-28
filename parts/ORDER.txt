@@ -64,6 +64,7 @@ part_06zzzg_budget.py
 part_06zzzh_quietlog.py
 part_06zzzi_health.py
 part_06zzzj_janitor.py
+part_06zzzk_gut.py
 
 # main loop (must be last)
 part_07_main_loop.py

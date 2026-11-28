@@ -43,7 +43,10 @@ def _econ_tick():
 _rs_before_econ = ru_status
 def ru_status(*a, **k):
     t = _rs_before_econ(*a, **k); n = econ_note()
-    return (t + "\n" + n) if n and n not in t else t
+    t = (t + "\n" + n) if n and n not in t else t
+    try: t += "\n" + gut_line()
+    except Exception: pass
+    return t
 _ssl_before_econ = _ss_limits
 def _ss_limits():
     base = _ssl_before_econ()

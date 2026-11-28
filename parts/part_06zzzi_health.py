@@ -69,6 +69,8 @@ def pulse_command(c, raw=None):
     pr = c0.get("pr") or {}; nm = {"1": "чат с тобой", "2": "ответы и проверки", "3": "посты", "4": "чтение и планы", "5": "лаборатория и память"}
     if pr: t.append("Вызовы моделей сегодня по контурам: " + ", ".join("%s %d" % (nm.get(k, k), v) for k, v in sorted(pr.items())))
     t.append("Последние дни (посты+ответы / сбои моделей): " + (", ".join("%s %d/%d%%" % (k[5:], w["days"][k].get("post", 0) + w["days"][k].get("reply", 0), round(_hl_rate(w["days"][k]) * 100)) for k in ds[-7:]) or "пока нет данных"))
+    try: t.append(gut_line())
+    except Exception: pass
     try: t.append("\nПамять и состояние:\n" + health_report())
     except Exception: pass
     tg("\n".join(t))
