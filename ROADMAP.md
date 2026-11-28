@@ -161,3 +161,14 @@ Bluesky, Moltbook, Mastodon · человеческий язык · лёгкий
 - Removed dead code: own_wrap (no users), LAB_DIRS (no users). wt_effective stays: it is the reading point for weights, used once observation mode ends.
 - Removed the two small own modules /read and /words (own/MANIFEST.json is now empty; the loader and its tests work with no modules).
 - Private memory repo (owner deletes by hand, see the chat): lab/tools, lab/tools_active, lab/tools_pending, lab/modules_pending small items.
+
+## 28.11 gut check before a move (no model calls)
+- parts/part_06zzzk_gut.py. Two rules from the agent's own recent history; they only skip or delay, never send and never touch the safety checks. Switch off: /cfg gut 0.
+  1. The checking model is down ("verifier unavailable"): replies are held 10 min (20 if twice within 20 min) and a reply lost only to that is retried later (it was dropped before).
+  2. An author whose replies the check blocked twice within a day (real reasons) is skipped for 24 h. Hashed identities (VK, direct messages) are not tracked.
+- Skips appear in the hourly digest as "gut: ...". State: ST["gut"], ST["gut_blk"] (capped by the janitor).
+- Not done on purpose: a topic pre-check for posts (the "too similar" skips seen in the digest are mostly the 2 h rest after a failed post, not model calls).
+- Next: look at the digest after 2-3 days; if holds/mutes are rare and useful, add rules (repeated topics in a thread).
+- 28.11, final shape (one closed contour, nothing more planned for it): cheap layer = model outage holds replies and posts and retries lost replies; author blocked twice in 24 h is quiet; one forecast "will the check block a reply of this kind" with outcome comparison (hits, Brier error vs the plain average), acting only with 40+ cases and 85%+ confidence; the older return-forecast stays as the second forecast. /gut shows both; the daily lesson in memory/lessons.md carries the gut totals. Not for it: replies generation, Codex policy, replacing the check, trends.
+- Done criterion: nothing urgent to add for basic work. More metrics only if the numbers show a gap.
+- 28.11, finishing touches: the gut line is in /status and /health; the forecast table has a ceiling (80 keys -> the 60 most used); the daily lesson says "better/not better than the plain average" only after 30+ cases; learning never happens on artificial pauses (the brake, the guard cooling and the quiet list return before the forecast starts).
