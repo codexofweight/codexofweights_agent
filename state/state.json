@@ -1955,7 +1955,7 @@
  "backup_day": "2026-11-27",
  "backup_hash": "42669641",
  "transp_day": "2026-11-27",
- "priv_h": "85b7f51dc06d3b9b3bb78c161238c587bd17a424",
+ "priv_h": "9c20e3249fccb0532a6fa04580830deeab080ee7",
  "trash_day": "2026-11-27",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4474,7 +4474,7 @@
     "3": 53,
     "2": 22
    },
-   "calls": 663,
+   "calls": 664,
    "fails": 32,
    "pf": {
     "gemini": 29,
@@ -4483,7 +4483,7 @@
    },
    "pc": {
     "groq": 158,
-    "groqq": 183,
+    "groqq": 184,
     "openrouter": 31,
     "gemini": 291
    },
