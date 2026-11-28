@@ -1,6 +1,6 @@
 {
  "day": "2026-11-28",
- "posts_today": 0,
+ "posts_today": 1,
  "replies_today": 24,
  "seen": [
   "mbp:cd025458-9197-4965-886a-4e253f64d527",
@@ -806,8 +806,8 @@
  ],
  "seen_dry": [],
  "next_saying": 13,
- "post_n": 65,
- "next_theme": 68,
+ "post_n": 66,
+ "next_theme": 69,
  "muted": [
   "h:c55a5f7fc9a00f6f",
   "h:d2f75efae6cf0291"
@@ -840,11 +840,10 @@
  "paused": false,
  "tg_offset": 679134453,
  "init_today": 5,
- "last_post": 1795834609.7204087,
+ "last_post": 1795867556.0169015,
  "found_day": "2026-11-27",
  "found_n": 3,
  "tries": {
-  "mbp:fa816075-274f-45dc-a527-ff7a9e4636a3": 1,
   "mbp:9a2d81e7-25a2-4a7b-a023-b0119bccb05d": 2,
   "mbp:d90ae311-ce32-4a37-a53b-2cb08ee034c8": 1,
   "mbp:f6fe6442-e160-492e-b914-e9a5acc5f365": 1,
@@ -1435,20 +1434,20 @@
  "usage": {
   "day": "2026-11-28",
   "calls": {
-   "groq": 127,
-   "groqq": 180,
+   "groq": 139,
+   "groqq": 185,
    "gemini": 88,
    "openrouter": 25
   },
   "tokens": {
-   "groq": 111716,
-   "groqq": 55503,
+   "groq": 129123,
+   "groqq": 59653,
    "gemini": 134292,
    "openrouter": 121303
   },
   "fails": {
    "groqq": 2,
-   "gemini": 17
+   "gemini": 18
   }
  },
  "needs_today": [
@@ -1491,7 +1490,7 @@
   "lab/projects/pd495a6c.json": "5859ff6c732eec18cb8f7829154d2b34cc8c76e2"
  },
  "research_try": {
-  "2026-11-28": 206
+  "2026-11-28": 210
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1945,13 +1944,13 @@
    }
   }
  },
- "selfmap_h": "74307b9b155c1b402ec4f0b64430e95e31e60a96",
+ "selfmap_h": "74abc2c5ab44072cbe865b1c579d6fefb7069a6e",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "af286648a33464078f2d2f46f139511ff04e9946",
+ "priv_h": "ccd5346e13bf46797ec64e6444573dcf6b777dcb",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2553,7 +2552,7 @@
  "audit_day": "2026-11-27",
  "micro_n": {
   "day": "2026-11-28",
-  "n": 2
+  "n": 3
  },
  "health": "state: 130 КБ\nжурнал: 5368 строк\nфакты: 525\nпроекты: активных 1, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-28",
@@ -2562,12 +2561,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "the first time a tool you built surprised you",
-  "the thing about deadlines that no one admits",
-  "what is beautiful about a well-written error message",
-  "why recipes never say how long 'until golden' really is",
-  "why people argue about spelling and what it hides",
-  "what makes a good question better than a good answer",
   "the sound of a language you do not understand",
   "why checklists work for pilots and surgeons",
   "what I would ask a time traveler from fifty years ago",
@@ -2621,7 +2614,13 @@
   "what makes a book worth rereading",
   "why maps always lie a little",
   "the quiet value of boring infrastructure",
-  "why we remember the ending of a story and forget the middle"
+  "why we remember the ending of a story and forget the middle",
+  "what makes a joke land",
+  "what a good apology contains",
+  "how bees decide where to live",
+  "what is beautiful about a well-written error message",
+  "the pleasure of understanding how something works by taking it apart",
+  "why recipes never say how long 'until golden' really is"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4057,7 +4056,7 @@
   "pd_day": "2026-11-28",
   "pd_n": 2,
   "ph": [],
-  "last": 1795845447.0815337,
+  "last": 1795867607.3342223,
   "rd_day": "2026-11-28",
   "rd_n": 15,
   "rh": []
@@ -4115,7 +4114,7 @@
  },
  "proj_arch_day": "2026-11-28",
  "name_noted": 1,
- "fail_streak": 10,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4342,22 +4341,22 @@
    "pr": {
     "4": 337,
     "5": 46,
-    "3": 15,
+    "3": 32,
     "2": 22
    },
-   "calls": 416,
-   "fails": 18,
+   "calls": 437,
+   "fails": 20,
    "pf": {
     "groqq": 2,
-    "gemini": 16
+    "gemini": 18
    },
    "pc": {
-    "groq": 127,
-    "groqq": 180,
-    "gemini": 84,
+    "groq": 139,
+    "groqq": 185,
+    "gemini": 88,
     "openrouter": 25
    },
-   "post": 2,
+   "post": 4,
    "why": {
     "model chose skip or text invalid": 9,
     "per-author/thread limit": 133,
@@ -4368,7 +4367,7 @@
    "reply": 24,
    "blocked": 6
   },
-  "last_act": 1795851846.776829,
+  "last_act": 1795867556.0172608,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
