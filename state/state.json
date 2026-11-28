@@ -1436,13 +1436,13 @@
   "calls": {
    "groq": 127,
    "groqq": 180,
-   "gemini": 77,
+   "gemini": 79,
    "openrouter": 25
   },
   "tokens": {
    "groq": 111716,
    "groqq": 55503,
-   "gemini": 121475,
+   "gemini": 126852,
    "openrouter": 121303
   },
   "fails": {
@@ -1490,7 +1490,7 @@
   "lab/projects/pd495a6c.json": "5859ff6c732eec18cb8f7829154d2b34cc8c76e2"
  },
  "research_try": {
-  "2026-11-28": 182
+  "2026-11-28": 186
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1944,13 +1944,13 @@
    }
   }
  },
- "selfmap_h": "6173e74dbb52ef0f1fa960f5704cd38cdd1f22e5",
+ "selfmap_h": "f16e01a464bc36d0b6ee6860a8017cee42492337",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "2c5ef9f99ef2d75729cfa3b91445c678ef65f947",
+ "priv_h": "4103be977694312aee4866d169db3ffa3e312bf6",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -4162,7 +4162,7 @@
  },
  "proj_arch_day": "2026-11-28",
  "name_noted": 1,
- "fail_streak": 7,
+ "fail_streak": 8,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4386,7 +4386,7 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 326,
+    "4": 328,
     "5": 46,
     "3": 15,
     "2": 22
@@ -4407,12 +4407,12 @@
    "why": {
     "model chose skip or text invalid": 9,
     "per-author/thread limit": 127,
-    "post text invalid, too similar, or no model": 157,
+    "post text invalid, too similar, or no model": 161,
     "no valid model output, will retry": 8,
     "stop-intent guard unavailable, will retry next cycle": 4
    },
    "reply": 24,
-   "blocked": 4
+   "blocked": 5
   },
   "last_act": 1795851846.776829,
   "alert_day": ""
@@ -4423,10 +4423,11 @@
  "diary_key": "2026-11-28 07",
  "gut": {
   "unav": [
-   1795864119.0317662
+   1795864119.0317662,
+   1795864848.277289
   ],
   "quiet": {},
-  "holds": 3,
+  "holds": 4,
   "muted": 0,
   "bf": {
    "stats": {},
@@ -4440,6 +4441,6 @@
    "br0": 0.0
   },
   "skipped_fc": 0,
-  "retried": 3
+  "retried": 4
  }
 }
