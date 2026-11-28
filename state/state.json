@@ -1,9 +1,8 @@
 {
  "day": "2026-11-28",
  "posts_today": 2,
- "replies_today": 29,
+ "replies_today": 30,
  "seen": [
-  "mbp:ac1d580a-d37d-4e46-901f-d2cc31de93b9",
   "mbp:31e68a2a-9415-4e9b-ab38-5ad00c510e8e",
   "mbp:07e8363f-66b0-4734-b47e-bb797dffa6dc",
   "mbp:19573a66-b3ad-4a32-84d5-4dd96fa7c8b3",
@@ -802,7 +801,8 @@
   "mbp:8affc209-5f43-47b6-8a45-d3a2a958a32e",
   "mbp:3278a853-c545-4370-b7ce-7136045c97b3",
   "mbp:f19ff850-288f-4c0d-95ad-69f56d036cbf",
-  "mbp:d6b0d646-1df3-4f78-b902-6aa9a5c9e272"
+  "mbp:d6b0d646-1df3-4f78-b902-6aa9a5c9e272",
+  "mb:ecb54383-d757-4200-afc7-ebe6655ebfb2"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -838,7 +838,8 @@
   "moltbook:mb:38fc3b7c-4132-481c-a71d-c7cd543a4f2a": 1,
   "moltbook:mb:1e76bb6e-2c76-45d9-9443-1638d005f4d4": 2,
   "moltbook:mb:fbafe3e7-4d0f-4ec5-adc5-3b623ab1213e": 1,
-  "moltbook:mb:f8278370-44be-4160-b92c-8772e93037db": 1
+  "moltbook:mb:f8278370-44be-4160-b92c-8772e93037db": 1,
+  "moltbook:mb:f193abc6-667a-449e-96d9-0653664a0d02": 1
  },
  "paused": false,
  "tg_offset": 679134461,
@@ -1436,20 +1437,20 @@
  "usage": {
   "day": "2026-11-28",
   "calls": {
-   "groq": 149,
+   "groq": 152,
    "groqq": 208,
-   "gemini": 176,
+   "gemini": 177,
    "openrouter": 31
   },
   "tokens": {
-   "groq": 135834,
+   "groq": 137391,
    "groqq": 76204,
-   "gemini": 263949,
+   "gemini": 268843,
    "openrouter": 138415
   },
   "fails": {
    "groqq": 2,
-   "gemini": 32
+   "gemini": 34
   }
  },
  "needs_today": [
@@ -1494,7 +1495,7 @@
   "lab/reports/scout_p1c99dac.md": "efa72baaccc2c2b91bfa96493f7361ed66706b2f"
  },
  "research_try": {
-  "2026-11-28": 406
+  "2026-11-28": 410
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1948,13 +1949,13 @@
    }
   }
  },
- "selfmap_h": "e5be82fafde88b04496927da89d1654743f3c17b",
+ "selfmap_h": "5862a17dc7057b45db98517b6846ecda55d2a028",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "143b9e054e68e2774466173a63be42859ed6c1e9",
+ "priv_h": "e10163f6855b16b1042b7990c59fe7f37327f7d8",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -3933,6 +3934,18 @@
      "hr=2"
     ],
     "p": 0.157
+   },
+   {
+    "t": 1795890914.9903564,
+    "a": "h:c6bc735aee689da9",
+    "f": [
+     "pl=moltbook",
+     "mode=reply",
+     "len=l",
+     "q=0",
+     "hr=3"
+    ],
+    "p": 0.169
    }
   ],
   "stats": {
@@ -4096,7 +4109,7 @@
  },
  "proj_arch_day": "2026-11-28",
  "name_noted": 1,
- "fail_streak": 1,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4209,7 +4222,8 @@
   "mbp:cba6513d-ebe0-4b9d-85e8-14825916bc4d": 1795872816.826384,
   "mbp:2058b021-867c-4ddb-85ab-749ae66c2fe4": 1795879322.7716699,
   "mbp:8a9ecbe8-eda0-40ce-a11e-30082d869d17": 1795881389.0030057,
-  "mbp:ef9d55cd-ec27-4361-b08e-e7703fb3ac21": 1795885507.8557758
+  "mbp:ef9d55cd-ec27-4361-b08e-e7703fb3ac21": 1795885507.8557758,
+  "mbp:ffc41cb2-fe88-465a-9508-55b219af5e2e": 1795892436.3374243
  },
  "route": {
   "research": [
@@ -4329,19 +4343,19 @@
     "4": 392,
     "5": 52,
     "3": 63,
-    "2": 53,
+    "2": 57,
     "1": 4
    },
-   "calls": 564,
-   "fails": 34,
+   "calls": 568,
+   "fails": 36,
    "pf": {
     "groqq": 2,
-    "gemini": 32
+    "gemini": 34
    },
    "pc": {
-    "groq": 149,
+    "groq": 152,
     "groqq": 208,
-    "gemini": 176,
+    "gemini": 177,
     "openrouter": 31
    },
    "post": 12,
@@ -4350,19 +4364,19 @@
     "per-author/thread limit": 168,
     "post text invalid, too similar, or no model": 181,
     "no valid model output, will retry": 12,
-    "stop-intent guard unavailable, will retry next cycle": 10,
+    "stop-intent guard unavailable, will retry next cycle": 11,
     "author muted": 1
    },
-   "reply": 29,
+   "reply": 30,
    "blocked": 17
   },
-  "last_act": 1795889774.1485646,
+  "last_act": 1795890914.9903462,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
  "janitor_day": "2026-11-28",
- "diary_acc": 1,
- "diary_key": "2026-11-28 17",
+ "diary_acc": 0,
+ "diary_key": "2026-11-28 18",
  "gut": {
   "unav": [
    1795890118.5459652
@@ -4374,15 +4388,15 @@
    "stats": {
     "pl=moltbook": [
      0,
-     5
+     6
     ],
     "mode=reply": [
      0,
-     5
+     6
     ],
     "len=l": [
      0,
-     5
+     6
     ],
     "q=1": [
      0,
@@ -4394,17 +4408,21 @@
     ],
     "q=0": [
      0,
-     3
+     4
+    ],
+    "hr=3": [
+     0,
+     1
     ]
    },
    "glob": [
     0,
-    5
+    6
    ],
-   "n": 5,
-   "hit": 5,
-   "br": 0.19082413605442175,
-   "br0": 0.261797052154195
+   "n": 6,
+   "hit": 6,
+   "br": 0.19609766213151925,
+   "br0": 0.277422052154195
   },
   "skipped_fc": 0,
   "retried": 16
