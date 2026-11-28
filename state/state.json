@@ -1436,13 +1436,13 @@
   "calls": {
    "groq": 125,
    "groqq": 180,
-   "gemini": 46,
+   "gemini": 54,
    "openrouter": 25
   },
   "tokens": {
    "groq": 108699,
    "groqq": 55503,
-   "gemini": 61047,
+   "gemini": 95127,
    "openrouter": 121303
   },
   "fails": {
@@ -1487,11 +1487,10 @@
   "lab/projects/p7436be6.json": "c75cc3971c2c20219c5694d260ef780702a473b5",
   "lab/projects/pb784af7.json": "d6a7c3592befee18f79bc9c09d3ef8c904cb47e9",
   "lab/projects/pd52226e.json": "23eb45a9fabcce39b2db16f03612e0d410587aaf",
-  "lab/projects_archive/p2dc1cd0.json": "a12ff57a439c1ef4ed04a0a37bf7d5eaac5c7104",
   "lab/projects/pd495a6c.json": "5859ff6c732eec18cb8f7829154d2b34cc8c76e2"
  },
  "research_try": {
-  "2026-11-28": 122
+  "2026-11-28": 126
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1945,9 +1944,9 @@
    }
   }
  },
- "selfmap_h": "6b6479b73d9ccd4ad1ce7cec8f80429d927ab491",
+ "selfmap_h": "b4bca04cdb5603c497b4e8c4e70b773baadf2d9f",
  "bio_idx_day": "2026-11-28",
- "code_ver": "98b04ef7",
+ "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
@@ -4566,12 +4565,12 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 295,
+    "4": 303,
     "5": 46,
     "3": 13,
     "2": 22
    },
-   "calls": 376,
+   "calls": 384,
    "fails": 14,
    "pf": {
     "groqq": 2,
@@ -4580,14 +4579,14 @@
    "pc": {
     "groq": 125,
     "groqq": 180,
-    "gemini": 46,
+    "gemini": 54,
     "openrouter": 25
    },
    "post": 2,
    "why": {
     "model chose skip or text invalid": 8,
     "per-author/thread limit": 112,
-    "post text invalid, too similar, or no model": 97,
+    "post text invalid, too similar, or no model": 101,
     "no valid model output, will retry": 8,
     "stop-intent guard unavailable, will retry next cycle": 3
    },
