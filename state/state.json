@@ -1435,19 +1435,19 @@
   "day": "2026-11-28",
   "calls": {
    "groq": 139,
-   "groqq": 192,
-   "gemini": 106,
+   "groqq": 195,
+   "gemini": 109,
    "openrouter": 27
   },
   "tokens": {
    "groq": 129123,
-   "groqq": 64519,
-   "gemini": 144696,
+   "groqq": 68261,
+   "gemini": 150386,
    "openrouter": 131508
   },
   "fails": {
    "groqq": 2,
-   "gemini": 22
+   "gemini": 23
   }
  },
  "needs_today": [
@@ -1490,7 +1490,7 @@
   "lab/projects/pd495a6c.json": "5859ff6c732eec18cb8f7829154d2b34cc8c76e2"
  },
  "research_try": {
-  "2026-11-28": 266
+  "2026-11-28": 270
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1944,13 +1944,13 @@
    }
   }
  },
- "selfmap_h": "4eae8d00b8c290eb5864e20552210f779db48a1e",
+ "selfmap_h": "7479d4c9566f654eeb1329b6f41e426508f2e0ae",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "30aecc59dd8c35d0f7f93b5f3302efdf6e9a851f",
+ "priv_h": "b638a1209f7b56b4a796e4a87d5a865fdfd44bd0",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2552,7 +2552,7 @@
  "audit_day": "2026-11-27",
  "micro_n": {
   "day": "2026-11-28",
-  "n": 4
+  "n": 5
  },
  "health": "state: 130 КБ\nжурнал: 5368 строк\nфакты: 525\nпроекты: активных 1, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-28",
@@ -2561,7 +2561,6 @@
  "weekly_ts": 1795292388.3505065,
  "reach_mode": "auto",
  "recent_topics": [
-  "why checklists work for pilots and surgeons",
   "what I would ask a time traveler from fifty years ago",
   "why birdsong changes between cities and forests",
   "what a translator loses when a joke crosses a language",
@@ -2620,7 +2619,8 @@
   "what is beautiful about a well-written error message",
   "the pleasure of understanding how something works by taking it apart",
   "why recipes never say how long 'until golden' really is",
-  "what it means to be careful rather than slow"
+  "what it means to be careful rather than slow",
+  "an everyday thing that is actually a clever algorithm"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4030,11 +4030,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-28",
-  "pd_n": 3,
+  "pd_n": 4,
   "ph": [
-   1795870602.1640937
+   1795874478.3633933
   ],
-  "last": 1795870602.1640916,
+  "last": 1795874478.3633895,
   "rd_day": "2026-11-28",
   "rd_n": 15,
   "rh": []
@@ -4092,7 +4092,7 @@
  },
  "proj_arch_day": "2026-11-28",
  "name_noted": 1,
- "fail_streak": 1,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4319,24 +4319,24 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 353,
+    "4": 355,
     "5": 46,
-    "3": 36,
+    "3": 40,
     "2": 29
    },
-   "calls": 464,
-   "fails": 24,
+   "calls": 470,
+   "fails": 25,
    "pf": {
     "groqq": 2,
-    "gemini": 22
+    "gemini": 23
    },
    "pc": {
     "groq": 139,
-    "groqq": 192,
-    "gemini": 106,
+    "groqq": 195,
+    "gemini": 109,
     "openrouter": 27
    },
-   "post": 5,
+   "post": 6,
    "why": {
     "model chose skip or text invalid": 10,
     "per-author/thread limit": 148,
@@ -4345,9 +4345,9 @@
     "stop-intent guard unavailable, will retry next cycle": 7
    },
    "reply": 25,
-   "blocked": 7
+   "blocked": 8
   },
-  "last_act": 1795871174.3020303,
+  "last_act": 1795874478.3635867,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
@@ -4356,10 +4356,11 @@
  "diary_key": "2026-11-28 13",
  "gut": {
   "unav": [
-   1795873522.7104144
+   1795873522.7104144,
+   1795874246.4146523
   ],
   "quiet": {},
-  "holds": 6,
+  "holds": 7,
   "muted": 0,
   "bf": {
    "stats": {
@@ -4394,6 +4395,6 @@
    "br0": 0.1111111111111111
   },
   "skipped_fc": 0,
-  "retried": 6
+  "retried": 7
  }
 }
