@@ -3,9 +3,6 @@
  "posts_today": 0,
  "replies_today": 24,
  "seen": [
-  "mbp:f42a494a-6ba4-47a6-adf9-84502d115e3c",
-  "bf:at://did:plc:lh52slyfeysqwlq3v6ngoelz/app.bsky.feed.post/3n2wpnjhujt26",
-  "mbp:179930e1-51e2-4a85-b7e6-2af9887f7308",
   "mbp:1b21d2c7-5b61-4995-b226-c4c11dfa8fbb",
   "mbp:8e854255-91f8-40a8-9b35-ab82cc7d42d6",
   "bf:at://did:plc:inz4fkbbp7ms3ixufw6xuvdi/app.bsky.feed.post/3n32zmn6tgd2k",
@@ -802,7 +799,10 @@
   "mbp:1b27ab0e-a58a-4905-9f24-d7c73f7d0b5f",
   "mbp:f4b449e4-4a64-421d-9b44-1308648b3f01",
   "mbp:9b103fbb-cff1-480c-9c89-6a4439db97e7",
-  "mbp:eeef3bb1-02e6-4162-b4b5-0d8f9ab9e4e2"
+  "mbp:eeef3bb1-02e6-4162-b4b5-0d8f9ab9e4e2",
+  "mbp:7a7d5a8f-3bc9-4339-9d9c-42bf81e3c4d5",
+  "mbp:05db9a3e-b402-447d-baf0-72931f024070",
+  "mbp:a8d3f2fc-f59f-4c68-9c58-0bcd4ad8963f"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -1436,13 +1436,13 @@
   "calls": {
    "groq": 127,
    "groqq": 180,
-   "gemini": 70,
+   "gemini": 75,
    "openrouter": 25
   },
   "tokens": {
    "groq": 111716,
    "groqq": 55503,
-   "gemini": 109631,
+   "gemini": 115992,
    "openrouter": 121303
   },
   "fails": {
@@ -1490,7 +1490,7 @@
   "lab/projects/pd495a6c.json": "5859ff6c732eec18cb8f7829154d2b34cc8c76e2"
  },
  "research_try": {
-  "2026-11-28": 162
+  "2026-11-28": 166
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1944,13 +1944,13 @@
    }
   }
  },
- "selfmap_h": "3571bebae3c190868d36c0563c1fa8e1a455a83a",
+ "selfmap_h": "d4f7daf18f83219aaf5c3b7c9bbdab736e3d8b27",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "b085b4335614997dc2593b65b14fad931fa19fc6",
+ "priv_h": "f7b55224a65946bf4ebc970ca00d32127e9f8ad5",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2646,30 +2646,6 @@
  ],
  "intu": {
   "open": [
-   {
-    "t": 1795602805.6475735,
-    "a": "h:627684286600c70b",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.096
-   },
-   {
-    "t": 1795602972.3762004,
-    "a": "h:b8dff331301cccb9",
-    "f": [
-     "pl=moltbook",
-     "mode=comment",
-     "len=l",
-     "q=0",
-     "hr=1"
-    ],
-    "p": 0.096
-   },
    {
     "t": 1795603648.8560512,
     "a": "h:a636e4e8d3ec1ee6",
@@ -4054,7 +4030,7 @@
   "stats": {
    "pl=moltbook": [
     31,
-    267
+    269
    ],
    "mode=reply": [
     24,
@@ -4062,7 +4038,7 @@
    ],
    "len=l": [
     29,
-    260
+    262
    ],
    "q=1": [
     4,
@@ -4074,7 +4050,7 @@
    ],
    "q=0": [
     28,
-    224
+    226
    ],
    "hr=3": [
     8,
@@ -4082,7 +4058,7 @@
    ],
    "mode=comment": [
     8,
-    209
+    211
    ],
    "hr=0": [
     8,
@@ -4094,7 +4070,7 @@
    ],
    "hr=1": [
     7,
-    73
+    75
    ],
    "pl=vk": [
     0,
@@ -4111,12 +4087,12 @@
   },
   "glob": [
    32,
-   270
+   272
   ],
-  "n": 270,
-  "hit": 238,
-  "br": 34.37923300000001,
-  "br0": 28.77844938346761
+  "n": 272,
+  "hit": 240,
+  "br": 34.39766500000002,
+  "br0": 28.807566446626804
  },
  "idprobe_alert_day": "2026-11-25",
  "lk_day": {
@@ -4210,7 +4186,7 @@
  },
  "proj_arch_day": "2026-11-28",
  "name_noted": 1,
- "fail_streak": 5,
+ "fail_streak": 6,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4434,7 +4410,7 @@
   "cur": {
    "day": "2026-11-28",
    "pr": {
-    "4": 319,
+    "4": 324,
     "5": 46,
     "3": 15,
     "2": 22
@@ -4454,13 +4430,13 @@
    "post": 2,
    "why": {
     "model chose skip or text invalid": 9,
-    "per-author/thread limit": 124,
-    "post text invalid, too similar, or no model": 137,
+    "per-author/thread limit": 127,
+    "post text invalid, too similar, or no model": 141,
     "no valid model output, will retry": 8,
     "stop-intent guard unavailable, will retry next cycle": 4
    },
    "reply": 24,
-   "blocked": 2
+   "blocked": 3
   },
   "last_act": 1795851846.776829,
   "alert_day": ""
@@ -4471,10 +4447,11 @@
  "diary_key": "2026-11-28 07",
  "gut": {
   "unav": [
-   1795862039.7988074
+   1795862039.7988074,
+   1795862816.9242587
   ],
   "quiet": {},
-  "holds": 1,
+  "holds": 2,
   "muted": 0,
   "bf": {
    "stats": {},
@@ -4488,6 +4465,6 @@
    "br0": 0.0
   },
   "skipped_fc": 0,
-  "retried": 1
+  "retried": 2
  }
 }
