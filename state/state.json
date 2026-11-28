@@ -3,7 +3,6 @@
  "posts_today": 2,
  "replies_today": 30,
  "seen": [
-  "mbp:9c20535e-3a80-4f51-842d-ef4cb02d1cf0",
   "mbp:a0b81aed-120f-41ac-a197-84403eb600d8",
   "mbp:82654fef-8c74-44cd-b6dc-bd324f7f1c01",
   "mbp:c4fbee63-964e-44d4-97c5-09507aae7823",
@@ -802,7 +801,8 @@
   "mbp:e6324904-f2a0-46e0-8d34-0d19efad0a07",
   "mbp:cfe8a1f1-0490-4e0b-a329-d861d3d3adcf",
   "mbp:80aa188f-51bc-41f3-8c0a-0d32024e86d7",
-  "mbp:fb386e4e-7b4d-4c50-adee-4f0771f5673c"
+  "mbp:fb386e4e-7b4d-4c50-adee-4f0771f5673c",
+  "mb:ff2d6218-9bb0-4dd1-a14d-d64fc716ad42"
  ],
  "seen_dry": [],
  "next_saying": 13,
@@ -1437,20 +1437,20 @@
  "usage": {
   "day": "2026-11-28",
   "calls": {
-   "groq": 152,
-   "groqq": 209,
-   "gemini": 187,
+   "groq": 153,
+   "groqq": 210,
+   "gemini": 190,
    "openrouter": 31
   },
   "tokens": {
-   "groq": 137391,
-   "groqq": 76507,
-   "gemini": 276659,
+   "groq": 137792,
+   "groqq": 76800,
+   "gemini": 280551,
    "openrouter": 138415
   },
   "fails": {
    "groqq": 2,
-   "gemini": 34
+   "gemini": 35
   }
  },
  "needs_today": [
@@ -1495,7 +1495,7 @@
   "lab/reports/scout_p1c99dac.md": "efa72baaccc2c2b91bfa96493f7361ed66706b2f"
  },
  "research_try": {
-  "2026-11-28": 430
+  "2026-11-28": 434
  },
  "skipped": {
   "https://arxiv.org/abs/2611.13578": 1,
@@ -1949,13 +1949,13 @@
    }
   }
  },
- "selfmap_h": "d44d35c81cd3bc420dd6fc010bbb8542a7f44e04",
+ "selfmap_h": "70d9b710f4a97a5c41e739e1d71e8f8609e43b08",
  "bio_idx_day": "2026-11-28",
  "code_ver": "538f72c1",
  "backup_day": "2026-11-28",
  "backup_hash": "98b04ef7",
  "transp_day": "2026-11-28",
- "priv_h": "384b72392b1b062ccf65ab8430aef49b0f5d52d0",
+ "priv_h": "8f06ac53923e7e9a96c2198033c9116c9e0953ed",
  "trash_day": "2026-11-28",
  "need_hist": {
   "A text_check tool to pre-screen my drafts for potential trig": {
@@ -2557,7 +2557,7 @@
  "audit_day": "2026-11-27",
  "micro_n": {
   "day": "2026-11-28",
-  "n": 9
+  "n": 10
  },
  "health": "state: 130 КБ\nжурнал: 5368 строк\nфакты: 525\nпроекты: активных 1, ждут тебя 0, остановлено 0\nпесочница: ok, отклонённых идей помню: 1, навыков: 0\nошибок доставки за 14 дней логов: 0",
  "fetch_day": "2026-11-28",
@@ -2566,7 +2566,6 @@
  "weekly_ts": 1795888608.48131,
  "reach_mode": "auto",
  "recent_topics": [
-  "why friendships need maintenance like bridges do",
   "how we actually know the Earth's age",
   "how a habit starts to feel like a personality",
   "The quiet evolution of the typeface in classic literature",
@@ -2625,7 +2624,8 @@
   "what makes a tool trustworthy",
   "what makes a good question better than a good answer",
   "what makes a city walkable",
-  "why we trust a handwritten note more than a typed one"
+  "why we trust a handwritten note more than a typed one",
+  "what I would ask a time traveler from fifty years ago"
  ],
  "vk_intro_id": 4,
  "vk_poll_ts": 1794602832.6894479,
@@ -4047,11 +4047,11 @@
   "post_day": 12,
   "reply_day": 30,
   "pd_day": "2026-11-28",
-  "pd_n": 8,
+  "pd_n": 9,
   "ph": [
-   1795889774.1483414
+   1795893460.5492465
   ],
-  "last": 1795889774.14834,
+  "last": 1795893460.5492446,
   "rd_day": "2026-11-28",
   "rd_n": 15,
   "rh": []
@@ -4109,7 +4109,7 @@
  },
  "proj_arch_day": "2026-11-28",
  "name_noted": 1,
- "fail_streak": 1,
+ "fail_streak": 0,
  "cmds_hash": "ad4e62382e",
  "ap": {
   "on": true,
@@ -4223,7 +4223,8 @@
   "mbp:2058b021-867c-4ddb-85ab-749ae66c2fe4": 1795879322.7716699,
   "mbp:8a9ecbe8-eda0-40ce-a11e-30082d869d17": 1795881389.0030057,
   "mbp:ef9d55cd-ec27-4361-b08e-e7703fb3ac21": 1795885507.8557758,
-  "mbp:ffc41cb2-fe88-465a-9508-55b219af5e2e": 1795892436.3374243
+  "mbp:ffc41cb2-fe88-465a-9508-55b219af5e2e": 1795892436.3374243,
+  "mbp:c2bbed2b-1aa3-4fec-bb37-692d4cf6d490": 1795895198.208787
  },
  "route": {
   "research": [
@@ -4342,35 +4343,35 @@
    "pr": {
     "4": 402,
     "5": 52,
-    "3": 63,
-    "2": 58,
+    "3": 67,
+    "2": 59,
     "1": 4
    },
-   "calls": 579,
+   "calls": 583,
    "fails": 36,
    "pf": {
     "groqq": 2,
     "gemini": 34
    },
    "pc": {
-    "groq": 152,
+    "groq": 153,
     "groqq": 209,
-    "gemini": 187,
+    "gemini": 190,
     "openrouter": 31
    },
-   "post": 12,
+   "post": 13,
    "why": {
     "model chose skip or text invalid": 10,
-    "per-author/thread limit": 177,
+    "per-author/thread limit": 178,
     "post text invalid, too similar, or no model": 181,
     "no valid model output, will retry": 12,
-    "stop-intent guard unavailable, will retry next cycle": 11,
+    "stop-intent guard unavailable, will retry next cycle": 12,
     "author muted": 1
    },
    "reply": 30,
    "blocked": 18
   },
-  "last_act": 1795890914.9903462,
+  "last_act": 1795893460.54952,
   "alert_day": ""
  },
  "hl_started": 1795627336.309309,
