@@ -406,4 +406,55 @@ def run(g):
         g["_ac_before_hooks"] = old_ac; g["CTX_AFTER"][:] = sv_a; g["CTX_FRONT"][:] = sv_f
     check("context hooks: front first, base, then parts in order, failing part skipped", r_ == "FRONT|BASE|A|B", r_[-60:])
     check("context hooks: the real parts are registered", n_a >= 3 and n_f >= 1 and len(g["CTX_AFTER"]) == n_a, (n_a, n_f))
+    # 14k: gut check - a model outage holds replies and keeps the lost one for a retry; an author blocked twice is skipped for a day
+    old_g = g["ST"].pop("gut", None); old_b = g["ST"].pop("gut_blk", None); old_u = dict(g["_GUT_UNAV"]); old_gu = g["_smr"]().get("guard_until", 0); old_inner = g["_rs_before_sm"]
+    try:
+        g["_smr"]()["guard_until"] = 0; g["_GUT_UNAV"].clear()
+        g["_gut_log"]("blocked_by_verifier", {"reason": "verifier unavailable (fail closed)", "uri": "u1", "to": "x"})
+        check("gut: a model outage holds replies for a while", g["sm_guard_cooling"]() and g["gut_after"]("u1", None) == "retry" and g["gut_after"]("u1", None) is None, g["_smr"]())
+        check("gut: a normal result is left alone", g["gut_after"]("zz", None) is None and g["gut_after"]("zz", "ok") == "ok")
+        g["_smr"]()["guard_until"] = 0
+        g["_gut_log"]("blocked_by_verifier", {"reason": "too long", "uri": "u2", "to": "alice.bsky.social"})
+        check("gut: one block does not mute an author", not g["gut_muted"]("alice.bsky.social", "u3"))
+        g["_gut_log"]("blocked_by_verifier", {"reason": "too long", "uri": "u4", "to": "alice.bsky.social"})
+        check("gut: two blocks mute the author for a day, others are not affected", g["gut_muted"]("alice.bsky.social", "u5") and not g["gut_muted"]("bob.bsky.social", "u6"))
+        g["_gut_log"]("blocked_by_verifier", {"reason": "x", "uri": "u7", "to": "h:abc"}); g["_gut_log"]("blocked_by_verifier", {"reason": "x", "uri": "u8", "to": "h:abc"})
+        check("gut: hashed identities are not tracked", not g["gut_muted"]("h:abc", "u9"))
+        calls_ = []
+        def _inner(au, handle, their, thread, uid, send, mode="reply"): calls_.append(uid); g["_GUT_UNAV"][uid] = time.time(); return None
+        g["_rs_before_sm"] = _inner; g["_smr"]()["guard_until"] = 0
+        r1_ = g["respond"]("a", "carol.bsky.social", "hi", "bluesky:t", "w1", None)
+        g["_gut_log"]("blocked_by_verifier", {"reason": "bad", "uri": "w2", "to": "dave.bsky.social"}); g["_gut_log"]("blocked_by_verifier", {"reason": "bad", "uri": "w3", "to": "dave.bsky.social"})
+        g["_smr"]()["guard_until"] = 0
+        r2_ = g["respond"]("a", "dave.bsky.social", "hi", "bluesky:t", "w4", None)
+        check("gut: respond keeps a reply lost to a model outage and skips a muted author before any model call", r1_ == "retry" and r2_ is None and calls_ == ["w1"], (r1_, r2_, calls_))
+        # forecast: learns from outcomes, acts only with enough cases and high confidence
+        gs_ = g["_gut_state"](); old_bf = json.dumps(gs_["bf"]); old_min = g["GUT_MIN_N"]
+        tk_ = g["gut_begin"]("f1", "moltbook:t", "reply", "a question?")
+        b0_ = g["ST"]["replies_today"]; g["_GUT_BLK_NOW"]["f1"] = time.time(); g["gut_end"]("f1", None, tk_)
+        check("gut: the forecast learns from a block", gs_["bf"]["n"] == 1 and gs_["bf"]["glob"] == [1, 1], gs_["bf"])
+        for i_ in range(60): g["_gut_log"]("blocked_by_verifier", {"reason": "bad", "uri": "f%d" % i_, "to": "q%d.bsky.social" % i_}); t2_ = g["gut_begin"]("f%d" % i_, "moltbook:t", "reply", "a question?"); g["gut_end"]("f%d" % i_, None, t2_)
+        tk3_ = g["gut_begin"]("fz", "moltbook:t", "reply", "a question?")
+        check("gut: sure and experienced enough, the forecast skips before any model call", tk3_ == "skip" and g["_gut_state"]()["skipped_fc"] >= 1, tk3_)
+        g["GUT_MIN_N"] = 10 ** 6
+        check("gut: without enough cases the forecast only learns", isinstance(g["gut_begin"]("fy", "moltbook:t", "reply", "a question?"), dict))
+        g["GUT_MIN_N"] = old_min; gs_["bf"].clear(); gs_["bf"].update(json.loads(old_bf))
+        check("gut: the line and /gut exist", "Чутьё" in g["gut_line"]() and "/gut" in g["EXT_CMDS"] and g["gut_short"]().startswith("Gut totals"))
+        check("gut: /health and /status carry the gut line", "Чутьё" in g["ru_status"]())
+        sv_ = {k_: gs_["bf"].get(k_) for k_ in ("stats", "n", "br", "br0")}; gs_["bf"]["stats"] = {"k%d" % i_: [1, 1 + i_] for i_ in range(100)}; gs_["bf"]["n"] = 5
+        g["_GUT_BLK_NOW"]["cap"] = time.time(); g["gut_end"]("cap", None, {"f": ["k1"], "p": 0.5, "before": g["ST"]["replies_today"]})
+        check("gut: the forecast table has a ceiling", len(gs_["bf"]["stats"]) <= 61, len(gs_["bf"]["stats"]))
+        gs_["bf"].update(sv_); gs_["bf"]["n"] = 5
+        check("gut: the lesson says nothing about the forecast while it has few cases", "forecast" in g["gut_short"]() and "plain average" not in g["gut_short"]())
+        g["ST"]["post_rest_until"] = 0; g["_gut_log"]("blocked_by_verifier", {"reason": "verifier unavailable (fail closed)", "theme": "x", "uri": ""})
+        check("gut: a post blocked by a model outage rests", g["ST"]["post_rest_until"] > time.time() + 1000)
+        g["ST"]["post_rest_until"] = 0
+        g["ST"].setdefault("cfg", {})["gut"] = 0
+        try: check("gut: switch off works", not g["gut_muted"]("alice.bsky.social", "u10"))
+        finally: g["ST"]["cfg"].pop("gut", None)
+    finally:
+        g["_smr"]()["guard_until"] = old_gu; g["_GUT_UNAV"].clear(); g["_GUT_UNAV"].update(old_u)
+        for k_, v_ in (("gut", old_g), ("gut_blk", old_b)):
+            g["ST"].pop(k_, None)
+            if v_ is not None: g["ST"][k_] = v_
     return bad
